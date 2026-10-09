@@ -14,7 +14,7 @@ DISCLOSURE = "En tant que Partenaire Amazon, je réalise un bénéfice sur les a
 data = json.loads((ROOT / "data.json").read_text())
 DEALS, STORES, LUXE = data["deals"], data["stores"], set(data["luxe"])
 STORE_CAT = data.get("store_cat", {})
-HOME_STORES = ["Clarins","Lancôme","Kérastase","Kiehl's","Michael Kors","Coach","UGG","Dyson","Ninja","Nespresso","Shark","Apple","Sony","Bose","LEGO","Yupik","La Roche-Posay","CeraVe"]
+HOME_STORES = ["Clarins","Lancôme","Kérastase","Ninja","Nespresso","Shark","Apple","Sony","Bose","LEGO","Yupik","La Roche-Posay"]
 _today = datetime.date.today()
 def _age(d):
     try: return (_today - datetime.date.fromisoformat(d.get("added", ""))).days
@@ -202,7 +202,7 @@ PAGES = [
   # slug, titre <title>, H1, intro, filtre, recherches de secours
   ("", "Rabais Flash QC · Les meilleurs rabais Amazon au Québec, triés pour toi",
    "Les meilleurs rabais d'Amazon, triés pour toi",
-   "Tout coûte plus cher. Ici, on fait le tri pour toi : cadeaux, beauté, mode, enfants, épicerie. Les meilleurs rabais d'Amazon.ca, classés par thème sur une seule page, mis à jour souvent. Pas besoin de chercher pendant des heures.",
+   "Tout coûte plus cher. Ici, on fait le tri pour toi : les meilleurs rabais d'Amazon.ca, mis à jour chaque jour, sans chercher pendant des heures.",
    lambda d: True, []),
   ("vendredi-fou", "Vendredi fou 2026 sur Amazon.ca · Les meilleurs deals triés | Rabais Flash QC",
    "Vendredi fou 2026 : les meilleurs deals d'Amazon.ca",
@@ -267,7 +267,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .tag small{font-family:inherit;font-size:12px;font-weight:700;margin-top:4px}
 .pic{position:relative;width:84px;height:84px;border-radius:14px;background:#fff;border:1px solid var(--line);overflow:hidden}.pic img{width:100%;height:100%;object-fit:contain}.pic b{position:absolute;left:4px;top:4px;background:var(--yel);color:var(--deep);font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;padding:1px 6px;border-radius:8px}
 .brand{margin:0;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--red)}
-.idg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0}@media (min-width:760px){.idg{grid-template-columns:repeat(4,1fr)}}.idg a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;text-decoration:none;color:var(--ink);background:#FFF8E1;border:2px solid var(--yel);min-height:96px}.idg a:hover{background:#FFEFC2}.idg b{font-size:30px;line-height:1}.idg span{font-weight:700;color:var(--deep)}.idg small{font-size:14px;color:var(--muted)}.bud{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bud button{font:inherit;font-weight:700;padding:8px 14px;border-radius:999px;border:2px solid var(--red);background:#fff;color:var(--red);cursor:pointer}.bud button[aria-pressed=true]{background:var(--red);color:#fff}.msa{display:inline-block;margin:6px 0 14px;padding:10px 16px;border-radius:999px;background:#0084FF;color:#fff;font-weight:700;text-decoration:none}.topbox{background:#FFFDF5;border:2px solid var(--yel);border-radius:18px;padding:16px 16px 4px;margin:18px 0}.topbox h2{margin:0 0 4px;color:var(--deep);font-size:28px}.topsub{margin:0 0 6px;color:var(--muted)}.top5{counter-reset:t;list-style:none;margin:0;padding:0}.top5 .deal{counter-increment:t;position:relative}.top5 .deal::before{content:counter(t);position:absolute;left:-6px;top:8px;z-index:1;background:var(--red);color:#fff;font-weight:800;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:16px}.top5 .deal:last-child{border-bottom:none}.note{font-size:15px;color:var(--muted);background:#F7F3EE;border-radius:10px;padding:10px 12px;margin:10px 0}.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
+.idg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0}@media (min-width:760px){.idg{grid-template-columns:repeat(4,1fr)}}.idg a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;text-decoration:none;color:var(--ink);background:#FFF8E1;border:2px solid var(--yel);min-height:96px}.idg a:hover{background:#FFEFC2}.idg b{font-size:30px;line-height:1}.idg span{font-weight:700;color:var(--deep)}.idg small{font-size:14px;color:var(--muted)}.bud{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bud button{font:inherit;font-weight:700;padding:8px 14px;border-radius:999px;border:2px solid var(--red);background:#fff;color:var(--red);cursor:pointer}.bud button[aria-pressed=true]{background:var(--red);color:#fff}.msa{display:inline-block;margin:6px 0 14px;padding:10px 16px;border-radius:999px;background:#0084FF;color:#fff;font-weight:700;text-decoration:none}@media (max-width:600px){header{padding-top:10px!important;padding-bottom:12px!important}header h1{font-size:30px!important;margin:6px 0 4px!important;line-height:1.05!important}header .intro{font-size:15px!important;margin:0 0 4px!important}header .upd{display:none}.hwcta strong,.seas strong{font-size:19px!important}.hwcta,.seas{padding:10px 14px!important;margin:8px 0!important}.hwcta span,.seas span{font-size:14px!important}.hwcta em,.seas em{font-size:28px!important}nav{padding:8px 0!important}}.clubbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#FFF7DD;border:2px solid var(--yel);border-radius:14px;padding:8px 12px;margin:10px 0;font-weight:700;color:var(--deep);font-size:16px}.clubbar a{text-decoration:none;background:#fff;border:2px solid var(--deep);color:var(--deep);border-radius:999px;padding:5px 12px;font-size:15px}.seas{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0;padding:14px 16px;border-radius:16px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#8E0B16,#C1121F);border:2px solid var(--yel)}.seas strong{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:24px;line-height:1;color:var(--yel);display:block}.seas span{font-weight:600;font-size:16px}.seas em{font-style:normal;font-size:36px}.chiph{margin:14px 0 6px;font-weight:700;color:var(--deep)}.topbox{background:#FFFDF5;border:2px solid var(--yel);border-radius:18px;padding:16px 16px 4px;margin:18px 0}.topbox h2{margin:0 0 4px;color:var(--deep);font-size:28px}.topsub{margin:0 0 6px;color:var(--muted)}.top5{counter-reset:t;list-style:none;margin:0;padding:0}.top5 .deal{counter-increment:t;position:relative}.top5 .deal::before{content:counter(t);position:absolute;left:-6px;top:8px;z-index:1;background:var(--red);color:#fff;font-weight:800;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:16px}.top5 .deal:last-child{border-bottom:none}.note{font-size:15px;color:var(--muted);background:#F7F3EE;border-radius:10px;padding:10px 12px;margin:10px 0}.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
 .badges span{display:inline-block;font-size:13px;font-weight:700;background:#FFF3D1;color:var(--deep);border-radius:6px;padding:2px 8px;margin:0 6px 6px 0}
 .go{display:inline-block;text-decoration:none;font-weight:700;background:var(--red);color:#fff;padding:9px 16px;border-radius:10px}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(--red);margin:28px 0 8px}
@@ -349,6 +349,28 @@ def deal_html(d):
     return (f'<li class="deal"{until}>{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
             f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
 
+def clubbar():
+    return (f'<div class="clubbar"><span>🔔 Alertes gratuites :</span><a href="{FB}" target="_blank" rel="noopener">👍 Aime la page</a>'
+            f'<a href="{MS}" target="_blank" rel="noopener">💬 Messenger</a></div>')
+
+def season_banner(t=None):
+    t = t or datetime.date.today(); m, d = t.month, t.day
+    if m == 10:
+        return ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>')
+    if (m == 11 and d >= 20) or (m == 12 and d <= 2):
+        a = ("/vendredi-fou/", "C'EST LE VENDREDI FOU", "Les meilleurs deals du moment, au même endroit", "🔥")
+    elif m == 11:
+        a = ("/idees-cadeaux/", "NOËL APPROCHE", "Nos guides cadeaux par personne et par budget", "🎁")
+    elif m == 12 and d <= 23:
+        a = ("/idees-cadeaux/", "CADEAUX DE DERNIÈRE MINUTE", "Des idées livrées vite avec Prime", "🎁")
+    else:
+        return ""
+    return f'<a class="seas" href="{a[0]}"><div><strong>{a[1]}</strong><span>{a[2]}</span></div><em aria-hidden="true">{a[3]}</em></a>'
+
+def gift_chips():
+    lab = {"pour-elle": "👩 Elle", "pour-lui": "👨 Lui", "ado": "🎮 Ado", "enfants": "🧸 Enfants", "moins-de-25": "💵 Moins de 25 $", "moins-de-50": "💰 Moins de 50 $"}
+    return '<p class="chiph">🎁 Je cherche un cadeau pour…</p><p class="more">' + "".join(f'<a href="/idees-cadeaux/{k}/">{v}</a>' for k, v in lab.items()) + '</p>'
+
 def top5():
     """Le Top 5 du jour : les coups de coeur choisis à la main, sinon les plus gros rabais vérifiés."""
     picks = sorted([x for x in DEALS if x.get("top")], key=lambda x: x["top"])[:5]
@@ -386,15 +408,14 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <body{" class=\"hw\"" if slug == "halloween" else ""}><header>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
 <h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
-{club()}
-{msbtn(slug)}
+{clubbar()}
+{msbtn(slug) if slug else ""}
 {extra}
 {bud}
 <p class="note">⚡ Y'a une raison si on s'appelle <b>Flash</b> : certains rabais durent très peu de temps. Amazon et les marques peuvent les modifier ou y mettre fin à tout moment, et on ne peut pas le garantir. Si le prix a bougé quand tu arrives, c'est que l'offre a changé. Clique vite quand un deal te tente!</p>
 <ul class="deals">{lst}</ul>
 {after}
-<section class="gang"><h2>Rejoins la gang 🔔</h2><p>Les meilleurs deals du Vendredi fou et du Boxing Day sortent d'abord pour ceux qui nous suivent. C'est gratuit.</p>
-<div class="cta"><a class="btn" href="{FB}" target="_blank" rel="noopener">👍 Suivre sur Facebook</a><a class="btn" href="{MS}" target="_blank" rel="noopener">💬 Alertes Messenger</a></div></section>
+{club()}
 <footer><p>Les rabais sont fixés par Amazon et par les marques, qui peuvent les modifier ou y mettre fin à tout moment, sans préavis. Leur durée n'est jamais garantie. Vérifie toujours le prix actuel sur Amazon.ca avant d'acheter.</p>
 <p>{DISCLOSURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a></p></footer>
 </main><script>document.querySelectorAll('[data-until]').forEach(function(li){{if(Date.now()>Date.parse(li.dataset.until))li.remove();}});</script></body></html>"""
@@ -431,9 +452,12 @@ def main():
             extra = '<h2>🎃 Choisis ton univers</h2><div class="hwgrid">' + "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(sub)}</small></a>' for i,t,sub,u in HWTILES) + '</div><p>⏰ Conseil : commande tôt, les tailles populaires partent vite!</p><h2>👻 Nos trouvailles épeurantes</h2>'
             after = ""
         if slug == "":
-            extra = (topblock + '<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>' + '<h2>🎁 Guides cadeaux de Noël</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES) + '</p>' + '<h2>Les offres de tes marques préférées</h2><p class="more">' +
-                     "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, u in STORES.items() if n in HOME_STORES) + f'</p><p><a href="/beaute/">Toutes les marques beauté</a> · <a href="/mode/">mode</a> · <a href="/maison/">maison</a> · <a href="/tech/">tech</a></p><h2>Les deals du moment</h2>')
-        write(slug, page(slug, title, h1, intro, items, extra, after, HOME_STORES if slug == "" else STORE_CAT.get(slug, []))); urls.append(slug)
+            pills = "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in HOME_STORES if b in STORES)
+            extra = (season_banner() + topblock + gift_chips() + '<h2>Plus de deals</h2>')
+            items = items[:8]
+            after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
+                     '<h2>Voir tous les deals par thème</h2><p class="more">' + "".join(f'<a href="/{sl}/">{e(n)}</a>' for sl, n in NAV if sl and sl not in ("vendredi-fou",)) + '</p>')
+        write(slug, page(slug, title, h1, intro, items, extra, after, [] if slug == "" else STORE_CAT.get(slug, []))); urls.append(slug)
     for g, title, h1, intro, tiles, f, brands in GUIDES:
         slug = f"idees-cadeaux/{g}"
         extra = ('<h2>Nos idées</h2><div class="idg">' + "".join(f'<a href="{e(sp(q, hi))}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(w)}</small></a>' for i,t,w,q,hi in tiles)
