@@ -266,7 +266,9 @@
    "r": 0.6505,
    "amzPct": 33,
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "top": 5,
+   "story": "Les yeux qui brillent le matin de Noël, ça n'a pas de prix. Un Pokémon à construire ensemble, pour les petits et pour les grands."
   },
   {
    "cat": "jouets",
@@ -780,7 +782,9 @@
    "why": "Un four de comptoir qui remplace le four, la friteuse et le grille-pain.",
    "badge": "gift",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "top": 3,
+   "story": "Les soupers de semaine, c'est la course. Un seul appareil qui remplace le four, la friteuse et le grille-pain, pour passer plus de temps avec les tiens."
   },
   {
    "r": 0.68,
@@ -794,7 +798,9 @@
    "why": "Sèche vite et laisse les cheveux brillants. Le cadeau beauté de l'année.",
    "badge": "gift",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "top": 4,
+   "story": "Tu t'occupes de tout le monde toute la semaine. Offre-toi (ou offre à quelqu'un que tu aimes) un séchoir qui sèche vite et laisse les cheveux brillants."
   },
   {
    "r": 0.6801,
@@ -948,7 +954,9 @@
    "badge": "",
    "live": true,
    "vsAvg": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "top": 1,
+   "story": "Fini de traîner l'aspirateur à fil de pièce en pièce. Celui-là se promène sans fil, et son prix est sous la moitié de sa moyenne. Ton dimanche va te dire merci."
   },
   {
    "r": 0.6900999999999999,
@@ -1061,7 +1069,9 @@
    "badge": "gift",
    "live": true,
    "until": "2026-10-10T07:00:00Z",
-   "added": "2026-10-09"
+   "added": "2026-10-09",
+   "top": 2,
+   "story": "Le gobelet que toute la gang veut, à peu près à moitié prix. Un cadeau qui fait toujours sourire, même quand on pensait qu'on avait déjà tout."
   },
   {
    "r": 0.6001,
