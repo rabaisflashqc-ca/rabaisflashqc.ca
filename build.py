@@ -23,8 +23,8 @@ _keep = []
 for _d in DEALS:
     if _d.get("until") and datetime.datetime.fromisoformat(_d["until"].replace("Z", "+00:00")) < datetime.datetime.now(datetime.timezone.utc):
         continue  # offre éclair terminée
-    if _age(_d) > 21:
-        continue  # trop vieux : retiré
+    if _age(_d) > 7:
+        continue  # plus de 7 jours : retiré
     if _age(_d) > 5 and _d.get("live"):
         _d = {k: v for k, v in _d.items() if k not in ("live", "pct", "amzPct", "flag", "vsAvg")}  # rabais non revérifié : coup de cœur
     _keep.append(_d)
