@@ -425,7 +425,7 @@ def main():
         items = order([d for d in DEALS if f(d)])
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
-        "<h2>Qui on est</h2><p>Rabais Flash QC est un projet québécois, né à Saint-Bruno-de-Montarville. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
+        "<h2>Qui on est</h2><p>Rabais Flash QC, c'est un entrepreneur du Québec, pour le Québec. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
         "<h2>Comment on choisit</h2><p>On garde surtout des rabais affichés par Amazon sur des marques connues, avec de bons avis. On classe tout par thème et on retire les offres expirées. Les prix changent souvent : vérifie toujours le prix final sur Amazon.ca.</p>"
         f"<h2>Transparence</h2><p>{DISCLOSURE} Ça ne change rien au prix que tu paies.</p>"
         f'<h2>Nous joindre</h2><p>Écris-nous sur <a href="{MS}">Messenger</a> ou sur notre <a href="{FB}">page Facebook</a>.</p>')); urls.append("a-propos")
