@@ -379,7 +379,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 {msbtn(slug)}
 {extra}
 {bud}
-<p class="note">⏱️ Les rabais peuvent changer ou se terminer à tout moment. Si le prix a bougé quand tu arrives sur Amazon, c'est que l'offre a été modifiée. On met le site à jour plusieurs fois par jour.</p>
+<p class="note">⚡ Y'a une raison si on s'appelle <b>Flash</b> : certains rabais durent très peu de temps. Amazon et les marques peuvent les modifier ou y mettre fin à tout moment, et on ne peut pas le garantir. Si le prix a bougé quand tu arrives, c'est que l'offre a changé. Clique vite quand un deal te tente!</p>
 <ul class="deals">{lst}</ul>
 {after}
 <section class="gang"><h2>Rejoins la gang 🔔</h2><p>Les meilleurs deals du Vendredi fou et du Boxing Day sortent d'abord pour ceux qui nous suivent. C'est gratuit.</p>
@@ -427,6 +427,7 @@ def main():
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC, c'est un entrepreneur du Québec, pour le Québec. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
+        "<h2>Pourquoi « Flash »?</h2><p>Parce que les meilleurs rabais ne durent pas. Certains disparaissent en quelques heures, et Amazon ou la marque peut changer le prix ou arrêter l'offre à tout moment, sans nous prévenir. On ne peut donc pas garantir qu'un rabais sera encore là quand tu cliques. C'est pour ça qu'on met le site à jour plusieurs fois par jour, et qu'on te conseille de ne pas trop attendre.</p>"
         "<h2>Comment on choisit</h2><p>On garde surtout des rabais affichés par Amazon sur des marques connues, avec de bons avis. On classe tout par thème et on retire les offres expirées. Les prix changent souvent : vérifie toujours le prix final sur Amazon.ca.</p>"
         f"<h2>Transparence</h2><p>{DISCLOSURE} Ça ne change rien au prix que tu paies.</p>"
         f'<h2>Nous joindre</h2><p>Écris-nous sur <a href="{MS}">Messenger</a> ou sur notre <a href="{FB}">page Facebook</a>.</p>')); urls.append("a-propos")
