@@ -1,12 +1,28 @@
 name: Mise à jour des deals
+# Heures du Québec (été comme hiver), gérées par horaire.py :
+#   tous les jours 6 h 30, 11 h 30, 19 h 30 · fin de semaine 8 h 30
+#   Vendredi fou (20 nov. au 2 déc.) et Boxing Day (24 au 28 déc.) : aussi 9 h 30, 15 h 30, 21 h 30
 on:
   schedule:
-    - cron: "45 10 * * *"   # 6 h 45 heure d été du Québec (5 h 45 après le 1er novembre)
-    - cron: "0 22 * * *"    # 18 h heure d été (pour un post à 18 h 30)
-    - cron: "30 23 * * *"   # 19 h 30 heure d été (18 h 30 après le 1er novembre)
+    - cron: "30 0 * * *"
+    - cron: "30 1 * * *"
+    - cron: "30 10 * * *"
+    - cron: "30 11 * * *"
+    - cron: "30 12 * * 0,6"
+    - cron: "30 13 * * *"
+    - cron: "30 14 * * *"
+    - cron: "30 15 * * *"
+    - cron: "30 16 * * *"
+    - cron: "30 19 * * *"
+    - cron: "30 2 * * *"
+    - cron: "30 20 * * *"
+    - cron: "30 23 * * *"
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: deals
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -15,13 +31,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Est-ce une heure prévue?
+        id: h
+        run: python3 horaire.py
       - name: Chercher les deals sur Amazon
+        if: steps.h.outputs.go == '1'
         env:
           AMZ_CLIENT_ID: ${{ secrets.AMZ_CLIENT_ID }}
           AMZ_CLIENT_SECRET: ${{ secrets.AMZ_CLIENT_SECRET }}
         run: python3 fetch_deals.py
-      - run: python3 build.py
+      - if: steps.h.outputs.go == '1'
+        run: python3 build.py
       - name: Publier si quelque chose a changé
+        if: steps.h.outputs.go == '1'
         run: |
           git config user.name "Rabais Flash QC"
           git config user.email "rabaisflashqc-ca@users.noreply.github.com"
