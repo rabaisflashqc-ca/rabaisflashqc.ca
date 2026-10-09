@@ -142,7 +142,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .tag small{font-family:inherit;font-size:12px;font-weight:700;margin-top:4px}
 .pic{position:relative;width:84px;height:84px;border-radius:14px;background:#fff;border:1px solid var(--line);overflow:hidden}.pic img{width:100%;height:100%;object-fit:contain}.pic b{position:absolute;left:4px;top:4px;background:var(--yel);color:var(--deep);font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;padding:1px 6px;border-radius:8px}
 .brand{margin:0;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--red)}
-.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
+.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
 .badges span{display:inline-block;font-size:13px;font-weight:700;background:#FFF3D1;color:var(--deep);border-radius:6px;padding:2px 8px;margin:0 6px 6px 0}
 .go{display:inline-block;text-decoration:none;font-weight:700;background:var(--red);color:#fff;padding:9px 16px;border-radius:10px}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(--red);margin:28px 0 8px}
@@ -188,6 +188,21 @@ body.hw .social a{background:#140A1F;color:#FFD9B8;border-color:#FF7518}body.hw 
 
 BOLT = '<svg width="16" height="26" viewBox="0 0 100 160" aria-hidden="true"><path d="M62 0 L8 92 L44 92 L28 160 L94 58 L58 58 L78 0 Z" fill="#FFC72C"/></svg>'
 
+def store_html(b):
+    off = "/deals" in STORES[b]
+    return (f'<li class="deal shop"><div class="tag" aria-hidden="true">🏷️<small>boutique</small></div><div><p class="badges"><span>Boutique officielle</span></p>'
+            f'<p class="brand">{e(b)}</p><h3>{"Tous les rabais " + e(b) + " en ce moment" if off else "Toute la collection " + e(b) + " sur Amazon.ca"}</h3>'
+            f'<a class="go" href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{"Voir les rabais " + e(b) if off else "Voir la boutique " + e(b)}</a></div></li>')
+
+def mix(items, brands, every=3):
+    out, bi = [], 0
+    for i, d in enumerate(items, 1):
+        out.append(deal_html(d))
+        if i % every == 0 and bi < len(brands):
+            out.append(store_html(brands[bi])); bi += 1
+    out += [store_html(b) for b in brands[bi:]]
+    return "".join(out)
+
 def deal_html(d):
     pct = d.get("amzPct") or d.get("pct")
     if d.get("live") and pct:
@@ -211,13 +226,13 @@ def deal_html(d):
 def order(items):
     return sorted(items, key=lambda d: (0 if d.get("live") else 1, -(d.get("amzPct") or d.get("pct") or 0), d["r"]))
 
-def page(slug, title, h1, intro, items, extra="", after=""):
+def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     url = f"{DOMAIN}/{slug + '/' if slug else ''}"
     nav = "".join(f'<a href="/{s + "/" if s else ""}"{" aria-current=\"page\"" if s == slug else ""}>{e(n)}</a>' for s, n in NAV)
     ld = {"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"inLanguage":"fr-CA",
           "isPartOf":{"@type":"WebSite","name":"Rabais Flash QC","url":DOMAIN+"/"},
           "publisher":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/","sameAs":[FB]}}
-    lst = "".join(deal_html(d) for d in items) or '<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>'
+    lst = mix(items, [b for b in brands if b in STORES]) or '<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>'
     return f"""<!doctype html>
 <html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(intro[:155])}">
@@ -267,7 +282,7 @@ def main():
         if slug == "":
             extra = ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>' + '<h2>Les offres de tes marques préférées</h2><p class="more">' +
                      "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, u in STORES.items() if n in HOME_STORES) + f'</p><p><a href="/beaute/">Toutes les marques beauté</a> · <a href="/mode/">mode</a> · <a href="/maison/">maison</a> · <a href="/tech/">tech</a></p><h2>Les deals du moment</h2>')
-        write(slug, page(slug, title, h1, intro, items, extra, after)); urls.append(slug)
+        write(slug, page(slug, title, h1, intro, items, extra, after, HOME_STORES if slug == "" else STORE_CAT.get(slug, []))); urls.append(slug)
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC est un projet québécois, né à Saint-Bruno-de-Montarville. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
         "<h2>Comment on choisit</h2><p>On garde surtout des rabais affichés par Amazon sur des marques connues, avec de bons avis. On classe tout par thème et on retire les offres expirées. Les prix changent souvent : vérifie toujours le prix final sur Amazon.ca.</p>"
