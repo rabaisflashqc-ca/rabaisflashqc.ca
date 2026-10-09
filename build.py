@@ -443,6 +443,9 @@ def main():
         brands = [b for b in STORE_CAT.get(slug, []) if b in STORES]
         if brands:
             extra = '<h2>Les boutiques de tes marques préférées</h2><p class="more">' + "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in brands) + "</p><h2>Les deals du moment</h2>"
+        if slug == "epicerie":
+            _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
+            extra = '<h2>🛒 Les rabais épicerie du moment</h2><p class="more"><a href="' + e(_u) + '" target="_blank" rel="sponsored nofollow noopener">Voir tous les deals épicerie de 20 % à 40 %</a></p>' + extra
         if slug == "idees-cadeaux":
             extra = ('<h2>🎁 Trouve le cadeau parfait</h2><div class="idg">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/"><b>{x[4][0][0]}</b><span>{e(x[2])}</span><small>{len(x[4])} idées + les rabais du moment</small></a>' for x in GUIDES)
                      + '</div><h2>Par budget, directement sur Amazon.ca</h2><div class="idg">'
