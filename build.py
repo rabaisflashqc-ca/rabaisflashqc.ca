@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "docs"
 DOMAIN = "https://rabaisflashqc.ca"
 TAG = "coupdecoeurqc-20"
-FB = "https://www.facebook.com/profile.php?id=61566039092981"
+FB = "https://www.facebook.com/rabaisflashqc"
 MS = "https://m.me/61566039092981"
 NEWSLETTER_ACTION = ""  # URL du formulaire MailerLite, à remplir
 DISCLOSURE = "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
