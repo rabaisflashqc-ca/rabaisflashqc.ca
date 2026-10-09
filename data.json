@@ -414,14 +414,10 @@
    "r": 0.6601,
    "cat": "epicerie",
    "q": "SUBI Superfood Greens",
-   "pct": 28,
-   "amzPct": 28,
-   "flag": "Offre à durée limitée",
    "brand": "SUBI",
    "name": "Mélange de verdures Superfood",
    "why": "Un sachet de légumes en poudre pour les smoothies du matin.",
-   "badge": "",
-   "live": true
+   "badge": ""
   },
   {
    "r": 0.6602,
@@ -569,11 +565,7 @@
    "brand": "Logitech",
    "name": "Casque USB H390 avec micro",
    "why": "Choix d'Amazon, plus de 72 000 avis. Idéal pour le télétravail.",
-   "badge": "",
-   "pct": 38,
-   "flag": "Offre éclair",
-   "amzPct": 38,
-   "live": true
+   "badge": ""
   },
   {
    "r": 0.7504,
