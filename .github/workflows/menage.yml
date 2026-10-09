@@ -1,8 +1,8 @@
 name: Mise à jour des deals
 on:
   schedule:
-    - cron: "15 10 * * *"   # vers 6 h 15 (heure du Québec)
-    - cron: "15 21 * * *"   # vers 17 h 15
+    - cron: "45 10 * * *"   # 6 h 45 heure d été du Québec (5 h 45 après le 1er novembre)
+    - cron: "30 23 * * *"   # 19 h 30 heure d été (18 h 30 après le 1er novembre)
   workflow_dispatch:
 permissions:
   contents: write
