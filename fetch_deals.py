@@ -88,20 +88,28 @@ def main():
         print("Échec de l'authentification Amazon :", e.code, e.read()[:300]); return
     headers = {"Authorization": f"Bearer {bearer}", "x-marketplace": MARKET}
     today = datetime.date.today().isoformat()
-    found, seen = [], set()
+    found, seen, ok = [], set(), 0
     for cat, kw in SEARCHES:
         body = {"partnerTag": TAG, "marketplace": MARKET, "keywords": kw, "itemCount": PER_SEARCH,
                 "minSavingPercent": MIN_SAVING, "resources": RESOURCES}
         try:
             res = post(f"{API}/searchItems", body, headers)
         except urllib.error.HTTPError as e:
-            print(f"[{kw}] erreur {e.code} :", e.read()[:200]); continue
+            msg = e.read()[:300]
+            if b"AssociateNotEligible" in msg:
+                print("Compte pas encore admissible a l'API (10 ventes qualifiees sur 30 jours requises). Deals du site inchanges.")
+                return
+            print(f"[{kw}] erreur {e.code} :", msg); continue
         except Exception as e:
             print(f"[{kw}] erreur :", e); continue
+        ok += 1
         for it in dig(res, "searchResult", "items") or []:
             d = to_deal(it, cat, today)
             if d and d["asin"] not in seen:
                 seen.add(d["asin"]); found.append(d)
+    if ok == 0:
+        print("Aucune recherche n'a fonctionne : deals du site inchanges.")
+        return
     found.sort(key=lambda d: -d["pct"])
     found = found[:MAX_TOTAL]
     data = json.loads((ROOT / "data.json").read_text())
