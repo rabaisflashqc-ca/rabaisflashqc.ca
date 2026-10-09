@@ -32,7 +32,7 @@ def main():
         print("Lancement manuel : on roule."); open(out, "a").write("go=1\n"); return 0
     for hm in prevues(now):
         t = now.replace(hour=int(hm[:2]), minute=int(hm[3:]), second=0, microsecond=0)
-        if 0 <= (now - t).total_seconds() / 60 <= FENETRE:
+        if -10 <= (now - t).total_seconds() / 60 <= FENETRE:  # tolère un démarrage un peu en avance
             print(f"Mise à jour de {hm} (il est {now:%H:%M} au Québec)."); 
             open(os.environ.get("GITHUB_OUTPUT", os.devnull), "a").write("go=1\n"); return 0
     print(f"Il est {now:%H:%M} au Québec : pas une heure prévue, on saute.")
