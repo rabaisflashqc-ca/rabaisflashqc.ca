@@ -8,6 +8,7 @@ DOMAIN = "https://rabaisflashqc.ca"
 TAG = "coupdecoeurqc-20"
 FB = "https://www.facebook.com/profile.php?id=61566039092981"
 MS = "https://m.me/61566039092981"
+NEWSLETTER_ACTION = ""  # URL du formulaire MailerLite, à remplir
 DISCLOSURE = "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
 
 data = json.loads((ROOT / "data.json").read_text())
@@ -29,6 +30,23 @@ HWTILES = [("👻","Déguisements","Enfants et adultes, livrés avec Prime","htt
 ("🐶","Costumes pour chien","Le plus cute du quartier","https://www.amazon.ca/s?k=costume+halloween+chien"+HWT),
 ("🎃","Sculpter sa citrouille","Kits, pochoirs, lumières","https://www.amazon.ca/s?k=kit+sculpture+citrouille"+HWT),
 ("⚜️","Bonbons Yupik","Une entreprise d'ici","https://www.amazon.ca/stores/page/57352AFD-8FA7-4764-9A8F-E1C0C8CC4E3C/deals?linkCode=ll2"+HWT)]
+
+def club():
+    if NEWSLETTER_ACTION:
+        form = (f'<form action="{NEWSLETTER_ACTION}" method="post" target="_blank"><label class="sr" for="em" hidden>Ton courriel</label>'
+                '<input type="email" id="em" name="fields[email]" placeholder="Ton courriel" required autocomplete="email">'
+                '<button type="submit">Je veux les alertes</button>'
+                '<label class="ok"><input type="checkbox" name="consent" required> J\'accepte de recevoir les courriels de Rabais Flash QC. Je peux me désabonner en tout temps.</label></form>')
+    else:
+        form = '<p class="soon">📬 Inscriptions à l\'infolettre très bientôt. En attendant, active les alertes Messenger 👇</p>'
+    return ('<section class="club" aria-label="Rejoins la gang"><h2>🔔 Ne paie plus jamais le gros prix</h2>'
+            '<p>Rejoins la gang et reçois <b>gratuitement</b> les meilleures aubaines avant tout le monde :</p>'
+            '<ul><li>🔥 Les deals du <b>Vendredi fou</b> en primeur</li><li>🎁 Le <b>Guide cadeaux</b> de Noël par budget</li><li>⚡ Les offres éclair avant qu\'elles disparaissent</li></ul>'
+            + form +
+            f'<div class="social"><a href="{FB}" target="_blank" rel="noopener"><b>👍</b>Aime la page</a>'
+            f'<a href="{FB}" target="_blank" rel="noopener"><b>🔔</b>Active les notifs</a>'
+            f'<a class="ms" href="{MS}" target="_blank" rel="noopener"><b>💬</b>Alertes Messenger</a></div>'
+            '<p class="small">Pour les notifications : sur notre page Facebook, touche « Suivre », puis la cloche, et choisis « Toutes les publications ». Zéro pourriel, promis.</p></section>')
 
 def link(d):
     if d.get("url"): return d["url"]
@@ -126,6 +144,20 @@ body.hw .badges span{background:#3B1260;color:#FFD9B8}body.hw .brand{color:#FF9A
 body.hw .gang{background:linear-gradient(135deg,#FF7518,#FF9A3D);color:#1A0A28}body.hw .gang h2{color:#1A0A28}
 body.hw .more a{background:#3B1260;color:#FFD9B8}body.hw footer{color:#CDBBE6}
 .hwcta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 0 6px;padding:16px 18px;border-radius:18px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#2A0F45 0%,#5B1A8C 55%,#FF7518 130%);border:2px solid #FF7518}.hwcta strong{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:26px;color:#FF9A3D;line-height:1}.hwcta span{font-weight:700}.hwcta em{font-style:normal;font-size:40px}
+
+.club{background:#FFF7DD;border:2px solid var(--yel);border-radius:18px;padding:18px;margin:18px 0 6px;color:#3A0A10}
+.club h2{margin:0 0 4px;color:var(--deep);font-size:28px}.club p{margin:0 0 12px}
+.club ul{margin:0 0 12px;padding-left:20px}.club li{margin:2px 0}
+.club form{display:flex;flex-wrap:wrap;gap:8px}.club input[type=email]{flex:1 1 220px;min-width:0;font:inherit;padding:11px 14px;border-radius:12px;border:2px solid var(--deep)}
+.club button{font:inherit;font-weight:700;padding:11px 18px;border-radius:12px;border:none;background:var(--red);color:#fff;cursor:pointer}
+.club .ok{display:flex;gap:8px;align-items:flex-start;font-size:14px;margin-top:8px;width:100%}
+.club .soon{font-weight:700;color:var(--deep)}
+.social{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.social a{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;text-decoration:none;font-weight:700;font-size:15px;line-height:1.15;padding:10px 6px;border-radius:14px;background:#fff;border:2px solid var(--deep);color:var(--deep)}
+.social a b{font-size:24px}.social a.ms{background:var(--deep);color:#fff}
+.small{font-size:13px;color:#6A4A4E;margin-top:8px}
+body.hw .club{background:#24123A;border-color:#FF7518;color:#F4ECFF}body.hw .club h2{color:#FF9A3D}body.hw .club .soon{color:#FF9A3D}
+body.hw .social a{background:#140A1F;color:#FFD9B8;border-color:#FF7518}body.hw .social a.ms{background:#FF7518;color:#1A0A28}body.hw .small{color:#CDBBE6}
 .fl i{position:absolute;font-style:normal;font-size:30px;opacity:.5;animation:fly 9s linear infinite;pointer-events:none}
 @keyframes fly{0%,100%{transform:translate(0,20px) rotate(-10deg)}50%{transform:translate(16px,-12px) rotate(10deg)}}
 .hwcount{display:inline-block;background:#FF7518;color:#1A0A28;border-radius:14px;padding:6px 14px;font-weight:700;margin-top:10px;transform:rotate(-2deg)}
@@ -181,6 +213,7 @@ def page(slug, title, h1, intro, items, extra="", after=""):
 <body{" class=\"hw\"" if slug == "halloween" else ""}><header>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
 <h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
+{club()}
 {extra}
 <ul class="deals">{lst}</ul>
 {after}
