@@ -1302,7 +1302,28 @@
   "Sunday Riley": "https://www.amazon.ca/s?srs=20204495011&rh=p_89%3ASunday%2BRiley&linkCode=ll2&tag=coupdecoeurqc-20&linkId=974417280121ebc8f9264552c7b10609&ref_=as_li_ss_tl",
   "Ring": "https://www.amazon.ca/-/fr/stores/page/0AD500F4-EE61-41B6-9F8B-87588A4076BC?linkCode=ll2&tag=coupdecoeurqc-20&linkId=fcd8993212f04e7a0901f2bec05306c0&ref_=as_li_ss_tl",
   "Kérastase": "https://www.amazon.ca/-/fr/s?k=k%C3%A9rastase&rh=p_n_deal_type%3A23565508011&linkCode=ll2&tag=coupdecoeurqc-20&linkId=cc14a5c4740d3d169200bbd1ec695bcf&ref_=as_li_ss_tl",
-  "Lancôme": "https://www.amazon.ca/-/fr/stores/Lancome/page/C5777090-275F-4D6F-90CD-66D71618A439?linkCode=ll2&tag=coupdecoeurqc-20&linkId=54994e9de5ec72f947bd9294917f8a3f&ref_=as_li_ss_tl"
+  "Lancôme": "https://www.amazon.ca/-/fr/stores/Lancome/page/C5777090-275F-4D6F-90CD-66D71618A439?linkCode=ll2&tag=coupdecoeurqc-20&linkId=54994e9de5ec72f947bd9294917f8a3f&ref_=as_li_ss_tl",
+  "Kiehl's": "https://www.amazon.ca/s?k=Kiehl%27s&tag=coupdecoeurqc-20",
+  "Clinique": "https://www.amazon.ca/s?k=Clinique&tag=coupdecoeurqc-20",
+  "Estée Lauder": "https://www.amazon.ca/s?k=Est%C3%A9e+Lauder&tag=coupdecoeurqc-20",
+  "Laneige": "https://www.amazon.ca/s?k=Laneige&tag=coupdecoeurqc-20",
+  "Shiseido": "https://www.amazon.ca/s?k=Shiseido&tag=coupdecoeurqc-20",
+  "CeraVe": "https://www.amazon.ca/s?k=CeraVe&tag=coupdecoeurqc-20",
+  "L'Oréal Paris": "https://www.amazon.ca/s?k=L%27Or%C3%A9al+Paris&tag=coupdecoeurqc-20",
+  "Maybelline": "https://www.amazon.ca/s?k=Maybelline&tag=coupdecoeurqc-20",
+  "Michael Kors": "https://www.amazon.ca/s?k=Michael+Kors&tag=coupdecoeurqc-20",
+  "Coach": "https://www.amazon.ca/s?k=Coach+sac&tag=coupdecoeurqc-20",
+  "Kate Spade": "https://www.amazon.ca/s?k=Kate+Spade&tag=coupdecoeurqc-20",
+  "UGG": "https://www.amazon.ca/s?k=UGG&tag=coupdecoeurqc-20",
+  "Sorel": "https://www.amazon.ca/s?k=Sorel&tag=coupdecoeurqc-20",
+  "Fossil": "https://www.amazon.ca/s?k=Fossil+montre&tag=coupdecoeurqc-20",
+  "Columbia": "https://www.amazon.ca/s?k=Columbia&tag=coupdecoeurqc-20",
+  "Samsonite": "https://www.amazon.ca/s?k=Samsonite&tag=coupdecoeurqc-20",
+  "Dyson": "https://www.amazon.ca/s?k=Dyson&tag=coupdecoeurqc-20",
+  "Le Creuset": "https://www.amazon.ca/s?k=Le+Creuset&tag=coupdecoeurqc-20",
+  "Stanley": "https://www.amazon.ca/s?k=Stanley+gobelet&tag=coupdecoeurqc-20",
+  "JBL": "https://www.amazon.ca/s?k=JBL&tag=coupdecoeurqc-20",
+  "Squishmallows": "https://www.amazon.ca/s?k=Squishmallows&tag=coupdecoeurqc-20"
  },
  "luxe": [
   "Kérastase",
@@ -1327,5 +1348,95 @@
   "Versace",
   "Ralph Lauren",
   "Redken"
- ]
+ ],
+ "store_cat": {
+  "beaute": [
+   "Clarins",
+   "Lancôme",
+   "Kérastase",
+   "Elemis",
+   "Sunday Riley",
+   "Kiehl's",
+   "Clinique",
+   "Estée Lauder",
+   "Laneige",
+   "Shiseido",
+   "La Roche-Posay",
+   "Vichy",
+   "CeraVe",
+   "Cetaphil",
+   "NIVEA",
+   "The Body Shop",
+   "L'Oréal Paris",
+   "Maybelline",
+   "e.l.f.",
+   "Oral-B"
+  ],
+  "mode": [
+   "Michael Kors",
+   "Coach",
+   "Kate Spade",
+   "UGG",
+   "Sorel",
+   "Fossil",
+   "Columbia",
+   "adidas"
+  ],
+  "maison": [
+   "Dyson",
+   "Le Creuset",
+   "Samsonite",
+   "Ninja",
+   "Nespresso",
+   "Keurig",
+   "Shark",
+   "Stanley",
+   "Ring"
+  ],
+  "tech": [
+   "Apple",
+   "Samsung",
+   "Sony",
+   "Bose",
+   "JBL",
+   "Skullcandy",
+   "Ring"
+  ],
+  "enfants": [
+   "LEGO",
+   "Squishmallows"
+  ],
+  "epicerie": [
+   "Yupik",
+   "Nespresso",
+   "Keurig"
+  ],
+  "idees-cadeaux": [
+   "Clarins",
+   "Lancôme",
+   "Kiehl's",
+   "Michael Kors",
+   "Coach",
+   "UGG",
+   "Dyson",
+   "LEGO",
+   "Ninja",
+   "Apple",
+   "Bose"
+  ],
+  "vendredi-fou": [
+   "Dyson",
+   "Ninja",
+   "Shark",
+   "Apple",
+   "Samsung",
+   "Sony",
+   "Bose",
+   "LEGO",
+   "Clarins",
+   "Lancôme",
+   "Michael Kors",
+   "Coach"
+  ]
+ }
 }

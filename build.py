@@ -13,6 +13,8 @@ DISCLOSURE = "En tant que Partenaire Amazon, je réalise un bénéfice sur les a
 
 data = json.loads((ROOT / "data.json").read_text())
 DEALS, STORES, LUXE = data["deals"], data["stores"], set(data["luxe"])
+STORE_CAT = data.get("store_cat", {})
+HOME_STORES = ["Clarins","Lancôme","Kérastase","Kiehl's","Michael Kors","Coach","UGG","Dyson","Ninja","Nespresso","Shark","Apple","Sony","Bose","LEGO","Yupik","La Roche-Posay","CeraVe"]
 _today = datetime.date.today()
 def _age(d):
     try: return (_today - datetime.date.fromisoformat(d.get("added", ""))).days
@@ -256,12 +258,15 @@ def main():
         extra = after = ""
         if more:
             after = '<h2>Plus de choix sur Amazon.ca</h2><p class="more">' + "".join(f'<a href="{e(search(q))}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, q in more) + "</p>"
+        brands = [b for b in STORE_CAT.get(slug, []) if b in STORES]
+        if brands:
+            extra = '<h2>Les boutiques de tes marques préférées</h2><p class="more">' + "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in brands) + "</p><h2>Les deals du moment</h2>"
         if slug == "halloween":
             extra = '<h2>🎃 Choisis ton univers</h2><div class="hwgrid">' + "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(sub)}</small></a>' for i,t,sub,u in HWTILES) + '</div><p>⏰ Conseil : commande tôt, les tailles populaires partent vite!</p><h2>👻 Nos trouvailles épeurantes</h2>'
             after = ""
         if slug == "":
             extra = ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>' + '<h2>Les offres de tes marques préférées</h2><p class="more">' +
-                     "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, u in STORES.items()) + "</p><h2>Les deals du moment</h2>")
+                     "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, u in STORES.items() if n in HOME_STORES) + f'</p><p><a href="/beaute/">Toutes les marques beauté</a> · <a href="/mode/">mode</a> · <a href="/maison/">maison</a> · <a href="/tech/">tech</a></p><h2>Les deals du moment</h2>')
         write(slug, page(slug, title, h1, intro, items, extra, after)); urls.append(slug)
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC est un projet québécois, né à Saint-Bruno-de-Montarville. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
