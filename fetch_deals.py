@@ -117,10 +117,13 @@ def to_deal(item, cat, today, tier="volume", minpct=MIN_SAVING, badge=""):
         return None
     brand = dig(item, "itemInfo", "byLineInfo", "brand", "displayValue") or ""
     flag = dig(listing, "dealDetails", "badge") or "Rabais affiché sur Amazon"
+    price = dig(listing, "price", "money", "amount") or dig(listing, "price", "amount")
+    try: price = round(float(price), 2)
+    except (TypeError, ValueError): price = None
     return {"r": 0.5, "cat": cat, "asin": item["asin"], "pct": pct, "amzPct": pct, "flag": flag,
             "brand": brand, "name": title[:110], "why": "", "badge": badge, "tier": tier,
             "img": dig(item, "images", "primary", "large", "url") or "",
-            "live": True, "added": today, "source": "api"}
+            "live": True, "added": today, "source": "api", **({"price": price} if price else {})}
 
 
 def main():

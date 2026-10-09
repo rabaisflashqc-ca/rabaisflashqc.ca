@@ -47,6 +47,131 @@ HWTILES = [("👻","Déguisements","Enfants et adultes, livrés avec Prime","htt
 ("🎃","Sculpter sa citrouille","Kits, pochoirs, lumières","https://www.amazon.ca/s?k=kit+sculpture+citrouille"+HWT),
 ("⚜️","Bonbons Yupik","Une entreprise d'ici","https://www.amazon.ca/stores/page/57352AFD-8FA7-4764-9A8F-E1C0C8CC4E3C/deals?linkCode=ll2"+HWT)]
 
+PRIME = "p_85%3A5690392011"
+def sp(q, hi=None, lo=None):
+    """Recherche Amazon.ca avec Prime et, au besoin, une fourchette de prix (en dollars)."""
+    rh = PRIME
+    if hi or lo: rh += f"%2Cp_36%3A{int((lo or 0)*100) if lo else ''}-{int(hi*100) if hi else ''}"
+    return f"https://www.amazon.ca/s?k={urllib.parse.quote_plus(q)}&rh={rh}&tag={TAG}"
+
+# Guides cadeaux : (slug, <title>, H1, intro, tuiles [(emoji, idée, pourquoi, recherche, prix max)], filtre deals, marques)
+GUIDES = [
+ ("pour-elle", "Idées cadeaux pour elle 2026 : femme, maman, amie | Rabais Flash QC",
+  "Idées cadeaux pour elle",
+  "Pour ta blonde, ta mère, ta sœur ou une amie : des idées qui font plaisir à coup sûr, de la petite attention à 25 $ au cadeau qui impressionne. Des marques connues, livrées vite avec Prime.",
+  [("💄","Coffret beauté de luxe","Clarins, Lancôme, Kiehl's : déjà emballé","coffret cadeau beauté luxe",None),
+   ("🌸","Parfum","Le classique qui ne déçoit jamais","parfum femme",None),
+   ("👜","Sac à main","Michael Kors, Coach, Kate Spade","sac à main femme Michael Kors Coach",None),
+   ("🕯️","Bougie parfumée","Yankee Candle et compagnie","bougie parfumée cadeau",40),
+   ("💍","Bijoux","Argent sterling, simples et élégants","bijoux argent sterling femme",80),
+   ("🧣","Pyjama ou robe de chambre","Le confort du dimanche matin","pyjama femme doux",60),
+   ("☕","Pour l'amatrice de café","Nespresso, tasses, mousseur","cadeau amateur café",None),
+   ("🧖‍♀️","Soirée spa à la maison","Masques, sels de bain, peignoir","coffret spa femme",50)],
+  lambda d: d["cat"] in ("beaute","femme") and (d.get("badge") == "gift" or d["brand"] in LUXE),
+  ["Clarins","Lancôme","Kiehl's","Estée Lauder","Michael Kors","Coach","Kate Spade","UGG"]),
+ ("pour-lui", "Idées cadeaux pour lui 2026 : homme, papa, chum | Rabais Flash QC",
+  "Idées cadeaux pour lui",
+  "Pour ton chum, ton père, ton frère ou un collègue : des cadeaux pratiques et des valeurs sûres, du gadget à 30 $ à la montre qui fait de l'effet.",
+  [("⌚","Montre","Fossil, Timex, Casio","montre homme Fossil",None),
+   ("🎧","Écouteurs ou casque","Sony, Bose, JBL","écouteurs sans fil Sony Bose",None),
+   ("🧴","Coffret rasage et soins","Pour la barbe et la peau","coffret rasage homme",60),
+   ("🍖","Pour le roi du BBQ","Thermomètre, outils, sauces","accessoires BBQ cadeau homme",60),
+   ("🔧","Outils et gadgets","Le cadeau qu'il va vraiment utiliser","gadget outil cadeau homme",50),
+   ("🧥","Manteau ou tuque d'hiver","Columbia, The North Face","manteau hiver homme Columbia",None),
+   ("🥃","Ensemble à whisky","Verres et pierres à refroidir","ensemble verres whisky",50),
+   ("🎮","Pour le gamer","Manettes, casques, cartes-cadeaux jeux","accessoires gamer cadeau",None)],
+  lambda d: d["cat"] in ("homme","tech") ,
+  ["Sony","Bose","Apple","Samsung","Columbia","Fossil","adidas"]),
+ ("ado", "Idées cadeaux pour ado 2026 : 12 à 17 ans, gars et filles | Rabais Flash QC",
+  "Idées cadeaux pour ado (12 à 17 ans)",
+  "Trouver un cadeau pour un ado, c'est un sport extrême. Voici les valeurs sûres de cette année : tech, soins de la peau, sport et déco de chambre.",
+  [("🎧","Écouteurs sans fil","Le cadeau qu'ils réclament tous","écouteurs sans fil ado",None),
+   ("💡","Lumières DEL pour la chambre","Bandes DEL et lampes d'ambiance","lumières DEL chambre",40),
+   ("🧴","Soins de la peau","CeraVe, La Roche-Posay : la routine des ados","CeraVe coffret",50),
+   ("🥤","Gourde tendance","Stanley, Owala","gourde Stanley Owala",60),
+   ("📸","Appareil photo instantané","Instax : souvenirs à coller partout","Instax mini",None),
+   ("🎮","Gaming","Manettes, casques, accessoires","accessoires gaming ado",None),
+   ("🔊","Haut-parleur portable","JBL, pour la musique partout","JBL haut-parleur",None),
+   ("🧸","Squishmallows","Même les grands en veulent","Squishmallows",40)],
+  lambda d: d["cat"] == "tech" or d["brand"] in ("CeraVe","Stanley","JBL","Squishmallows"),
+  ["Apple","JBL","Sony","CeraVe","La Roche-Posay","Stanley","Squishmallows","Skullcandy"]),
+ ("enfants", "Idées cadeaux pour enfants 2026 : jouets par âge | Rabais Flash QC",
+  "Idées cadeaux pour enfants",
+  "Des jouets qui vont servir plus que deux jours : LEGO, jeux de société, bricolage et jouets éducatifs, classés pour te simplifier la vie.",
+  [("🧱","LEGO","Le cadeau qui ne se démode pas","LEGO",None),
+   ("🎲","Jeux de société famille","Pour les soirées sans écran","jeu de société famille",50),
+   ("🎨","Bricolage et art","Pâte à modeler, peinture, perles","bricolage enfant",40),
+   ("🔬","Jouets éducatifs","Science, robots, STEM","jouet éducatif STEM",None),
+   ("🚗","Hot Wheels","Pistes et voitures","Hot Wheels piste",None),
+   ("👶","Pour les tout-petits","Melissa & Doug, Fisher-Price","jouet bébé Melissa Doug",50),
+   ("📚","Livres en français","Pour aimer lire","livre enfant français",30),
+   ("🛷","Jouer dehors l'hiver","Traîneaux, jeux de neige","traîneau enfant",None)],
+  lambda d: d["cat"] in ("enfants","jouets"),
+  ["LEGO","Squishmallows"]),
+ ("moins-de-25", "Cadeaux à moins de 25 $ sur Amazon.ca : 2026 | Rabais Flash QC",
+  "Cadeaux à moins de 25 $",
+  "Échange de cadeaux au bureau, voisin, prof, cadeau de dernière minute : de bonnes idées à moins de 25 $, qui ont l'air d'en valoir le double.",
+  [("🕯️","Bougies","Petit prix, gros effet","bougie parfumée",25),
+   ("🧦","Bas drôles","Le classique des échanges","bas drôles cadeau",25),
+   ("☕","Tasse ou café","Pour le collègue accro","tasse cadeau drôle",25),
+   ("🍫","Gourmandises","Chocolats et bonbons","coffret chocolat cadeau",25),
+   ("🧴","Crème mains et baume","Burt's Bees, L'Occitane","coffret crème mains",25),
+   ("🔌","Gadget tech","Chargeurs, supports, câbles","gadget tech cadeau",25),
+   ("🎲","Petit jeu","Cartes, casse-têtes","jeu de cartes party",25),
+   ("🧸","Jouet","Pour les petits","jouet enfant",25)],
+  lambda d: d.get("price") and d["price"] <= 25,
+  ["Yupik","NIVEA","e.l.f.","Maybelline"]),
+ ("moins-de-50", "Cadeaux à moins de 50 $ sur Amazon.ca : 2026 | Rabais Flash QC",
+  "Cadeaux à moins de 50 $",
+  "Le budget parfait pour faire plaisir sans se ruiner : beauté, cuisine, tech et jouets, des marques connues entre 25 $ et 50 $.",
+  [("💄","Coffret beauté","Des marques connues","coffret beauté",50),
+   ("🎧","Écouteurs","Bons et pas chers","écouteurs sans fil",50),
+   ("🥤","Gourde ou thermos","Stanley et compagnie","gourde isotherme",50),
+   ("🧱","LEGO","Petits ensembles","LEGO",50),
+   ("🍳","Cuisine","Gadgets et ustensiles","gadget cuisine cadeau",50),
+   ("🕯️","Déco douillette","Couverture, bougies","couverture douce",50),
+   ("🎲","Jeu de société","Pour toute la famille","jeu de société",50),
+   ("🐾","Pour l'animal","Jouets et gâteries","jouet chien",50)],
+  lambda d: d.get("price") and 25 < d["price"] <= 50,
+  ["La Roche-Posay","CeraVe","Stanley","LEGO","JBL"]),
+ ("bas-de-noel", "Idées pour le bas de Noël 2026 : petits cadeaux | Rabais Flash QC",
+  "Idées pour le bas de Noël",
+  "Les petites surprises qui remplissent le bas de Noël, pour les enfants comme pour les grands, presque toutes à moins de 15 $.",
+  [("🍬","Bonbons et chocolats","L'incontournable","bonbons Noël",15),
+   ("💋","Baume à lèvres et petits soins","Burt's Bees, Nivea","baume à lèvres coffret",15),
+   ("🧦","Bas et mitaines","Doux et pratiques","bas Noël",15),
+   ("🔋","Piles!","Pour que les jouets marchent le matin de Noël","piles AA",20),
+   ("🎨","Petits bricolages","Autocollants, crayons","autocollants enfant",15),
+   ("🧸","Mini peluches","Squishmallows format bas","Squishmallows mini",15),
+   ("🔑","Porte-clés et gadgets","Le petit fun","porte-clés drôle",15),
+   ("🎴","Cartes Pokémon","Les jeunes adorent","cartes Pokémon",20)],
+  lambda d: d.get("price") and d["price"] <= 15,
+  ["Yupik","NIVEA","Squishmallows"]),
+ ("homme-qui-a-tout", "Cadeau pour un homme qui a tout : 2026 | Rabais Flash QC",
+  "Cadeau pour quelqu'un qui a déjà tout",
+  "Ton père, ton beau-frère, ton patron : il a déjà tout et ne veut rien. Voici des idées originales qui vont quand même le surprendre.",
+  [("🧊","Pierres à whisky","Le petit luxe utile","pierres à whisky",50),
+   ("🔥","Foyer de table","Ambiance instantanée","foyer de table",None),
+   ("🌡️","Thermomètre à viande intelligent","Pour le BBQ parfait","thermomètre viande sans fil",None),
+   ("🔦","Lampe frontale rechargeable","Il va s'en servir tout le temps","lampe frontale rechargeable",50),
+   ("🎒","Sac de qualité","Pour le gym ou le voyage","sac de voyage homme",None),
+   ("🧤","Gants chauffants","Le cadeau de l'hiver québécois","gants chauffants",None),
+   ("🧩","Casse-tête 1000 morceaux","Pour décrocher","casse-tête 1000 morceaux",30),
+   ("📷","Cadre photo numérique","Les photos de la famille","cadre photo numérique",None)],
+  lambda d: d["cat"] in ("homme","maison","tech") and d.get("badge") == "gift",
+  ["Dyson","Ninja","Bose","Sony","Samsonite"]),
+]
+
+MSKEY = {"beaute":("BEAUTÉ","beauté"),"mode":("MODE","mode"),"enfants":("ENFANTS","jouets et enfants"),"epicerie":("ÉPICERIE","épicerie"),
+         "maison":("MAISON","maison et cuisine"),"tech":("TECH","tech"),"animaux":("ANIMAUX","animaux"),"halloween":("HALLOWEEN","Halloween"),
+         "idees-cadeaux":("CADEAUX","idées cadeaux"),"vendredi-fou":("VENDREDI FOU","Vendredi fou"),"":("DEALS","meilleurs deals")}
+def msbtn(slug):
+    k = MSKEY.get(slug.split("/")[0], MSKEY[""])
+    return f'<a class="msa" href="{MS}?ref={slug.split('/')[0] or 'deals'}" target="_blank" rel="noopener">💬 Reçois les alertes {e(k[1])} : écris {e(k[0])} sur Messenger</a>'
+
+BUDGET = """<div class="bud" role="group" aria-label="Filtrer par budget"><button aria-pressed="true" data-b="0-1e9">Tous les prix</button><button aria-pressed="false" data-b="0-25">Moins de 25 $</button><button aria-pressed="false" data-b="0-50">Moins de 50 $</button><button aria-pressed="false" data-b="50-100">50 à 100 $</button><button aria-pressed="false" data-b="100-1e9">100 $ et plus</button></div>
+<script>document.addEventListener("click",function(ev){var b=ev.target.closest(".bud button");if(!b)return;var r=b.dataset.b.split("-").map(Number);b.parentNode.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",x===b)});document.querySelectorAll("ul.deals>li").forEach(function(li){var p=parseFloat(li.dataset.price);li.hidden=r[0]===0&&r[1]>1e8?false:!(p>=r[0]&&p<=r[1]);});});</script>"""
+
 def club():
     if NEWSLETTER_ACTION:
         form = (f'<form action="{NEWSLETTER_ACTION}" method="post" target="_blank"><label class="sr" for="em" hidden>Ton courriel</label>'
@@ -142,7 +267,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .tag small{font-family:inherit;font-size:12px;font-weight:700;margin-top:4px}
 .pic{position:relative;width:84px;height:84px;border-radius:14px;background:#fff;border:1px solid var(--line);overflow:hidden}.pic img{width:100%;height:100%;object-fit:contain}.pic b{position:absolute;left:4px;top:4px;background:var(--yel);color:var(--deep);font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;padding:1px 6px;border-radius:8px}
 .brand{margin:0;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--red)}
-.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
+.idg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0}@media (min-width:760px){.idg{grid-template-columns:repeat(4,1fr)}}.idg a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;text-decoration:none;color:var(--ink);background:#FFF8E1;border:2px solid var(--yel);min-height:96px}.idg a:hover{background:#FFEFC2}.idg b{font-size:30px;line-height:1}.idg span{font-weight:700;color:var(--deep)}.idg small{font-size:14px;color:var(--muted)}.bud{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bud button{font:inherit;font-weight:700;padding:8px 14px;border-radius:999px;border:2px solid var(--red);background:#fff;color:var(--red);cursor:pointer}.bud button[aria-pressed=true]{background:var(--red);color:#fff}.msa{display:inline-block;margin:6px 0 14px;padding:10px 16px;border-radius:999px;background:#0084FF;color:#fff;font-weight:700;text-decoration:none}.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
 .badges span{display:inline-block;font-size:13px;font-weight:700;background:#FFF3D1;color:var(--deep);border-radius:6px;padding:2px 8px;margin:0 6px 6px 0}
 .go{display:inline-block;text-decoration:none;font-weight:700;background:var(--red);color:#fff;padding:9px 16px;border-radius:10px}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(--red);margin:28px 0 8px}
@@ -220,6 +345,7 @@ def deal_html(d):
     b = f'<p class="badges">{"".join(f"<span>{e(x)}</span>" for x in badges)}</p>' if badges else ""
     why = f'<p class="why">{e(d["why"])}</p>' if d.get("why") else ""
     until = f' data-until="{d["until"]}"' if d.get("until") else ""
+    if d.get("price"): until += f' data-price="{d["price"]}"'
     return (f'<li class="deal"{until}>{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
             f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
 
@@ -232,6 +358,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     ld = {"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"inLanguage":"fr-CA",
           "isPartOf":{"@type":"WebSite","name":"Rabais Flash QC","url":DOMAIN+"/"},
           "publisher":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/","sameAs":[FB]}}
+    bud = BUDGET if sum(1 for d in items if d.get("price")) >= 4 else ""
     lst = mix(items, [b for b in brands if b in STORES]) or '<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>'
     return f"""<!doctype html>
 <html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -249,7 +376,9 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {club()}
+{msbtn(slug)}
 {extra}
+{bud}
 <ul class="deals">{lst}</ul>
 {after}
 <section class="gang"><h2>Rejoins la gang 🔔</h2><p>Les meilleurs deals du Vendredi fou et du Boxing Day sortent d'abord pour ceux qui nous suivent. C'est gratuit.</p>
@@ -276,13 +405,25 @@ def main():
         brands = [b for b in STORE_CAT.get(slug, []) if b in STORES]
         if brands:
             extra = '<h2>Les boutiques de tes marques préférées</h2><p class="more">' + "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in brands) + "</p><h2>Les deals du moment</h2>"
+        if slug == "idees-cadeaux":
+            extra = ('<h2>🎁 Trouve le cadeau parfait</h2><div class="idg">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/"><b>{x[4][0][0]}</b><span>{e(x[2])}</span><small>{len(x[4])} idées + les rabais du moment</small></a>' for x in GUIDES)
+                     + '</div><h2>Par budget, directement sur Amazon.ca</h2><div class="idg">'
+                     + "".join(f'<a href="{e(sp("cadeau", hi, lo))}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{t}</span><small>Livraison Prime</small></a>' for i,t,lo,hi in [("💵","Moins de 25 $",None,25),("💰","25 $ à 50 $",25,50),("💎","50 $ à 100 $",50,100),("👑","100 $ et plus",100,None)])
+                     + '</div>' + extra)
         if slug == "halloween":
             extra = '<h2>🎃 Choisis ton univers</h2><div class="hwgrid">' + "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(sub)}</small></a>' for i,t,sub,u in HWTILES) + '</div><p>⏰ Conseil : commande tôt, les tailles populaires partent vite!</p><h2>👻 Nos trouvailles épeurantes</h2>'
             after = ""
         if slug == "":
-            extra = ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>' + '<h2>Les offres de tes marques préférées</h2><p class="more">' +
+            extra = ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>' + '<h2>🎁 Guides cadeaux de Noël</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES) + '</p>' + '<h2>Les offres de tes marques préférées</h2><p class="more">' +
                      "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, u in STORES.items() if n in HOME_STORES) + f'</p><p><a href="/beaute/">Toutes les marques beauté</a> · <a href="/mode/">mode</a> · <a href="/maison/">maison</a> · <a href="/tech/">tech</a></p><h2>Les deals du moment</h2>')
         write(slug, page(slug, title, h1, intro, items, extra, after, HOME_STORES if slug == "" else STORE_CAT.get(slug, []))); urls.append(slug)
+    for g, title, h1, intro, tiles, f, brands in GUIDES:
+        slug = f"idees-cadeaux/{g}"
+        extra = ('<h2>Nos idées</h2><div class="idg">' + "".join(f'<a href="{e(sp(q, hi))}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(w)}</small></a>' for i,t,w,q,hi in tiles)
+                 + '</div><p class="small">Les liens ouvrent une recherche Amazon.ca avec livraison Prime' + (", filtrée par prix" if any(t[4] for t in tiles) else "") + '.</p>'
+                 + '<h2>Les autres guides</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES if x[0] != g) + '</p><h2>Les rabais du moment pour ce guide</h2>')
+        items = order([d for d in DEALS if f(d)])
+        write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC est un projet québécois, né à Saint-Bruno-de-Montarville. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
         "<h2>Comment on choisit</h2><p>On garde surtout des rabais affichés par Amazon sur des marques connues, avec de bons avis. On classe tout par thème et on retire les offres expirées. Les prix changent souvent : vérifie toujours le prix final sur Amazon.ca.</p>"
