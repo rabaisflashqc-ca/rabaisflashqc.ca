@@ -64,12 +64,16 @@ PAGES = [
    "Rabais tech et audio",
    "Casques, écouteurs, haut-parleurs, accessoires : les meilleurs rabais tech d'Amazon.ca, de marques connues comme Sony, JBL, Bose et Logitech.",
    lambda d: d["cat"] == "tech", [("Meilleures ventes électronique","électronique")]),
+  ("animaux", "Rabais animaux : chiens et chats sur Amazon.ca | Rabais Flash QC",
+   "Rabais pour chiens et chats",
+   "Jouets, griffoirs, litière, gâteries : les essentiels pour tes animaux, en rabais sur Amazon.ca.",
+   lambda d: d["cat"] == "animaux", [("Meilleures ventes animaux","animaux")]),
   ("halloween", "Halloween 2026 : costumes, déco et bonbons en rabais | Rabais Flash QC",
    "Halloween 2026 : costumes, déco et bonbons",
    "Tout pour être prêt le 31 octobre : costumes pour enfants et adultes, décorations, maquillage et bonbons en vrac, livrés vite avec Prime. Commande tôt, les tailles populaires partent vite!",
    lambda d: d["cat"] == "halloween" or d["brand"] == "Yupik", [("Déguisements","halloween déguisement"),("Déco d'Halloween","halloween decor"),("Bonbons d'Halloween","halloween bonbons"),("Maquillage d'Halloween","halloween maquillage")]),
 ]
-NAV = [("", "Accueil"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("tech","Tech"), ("halloween","Halloween")]
+NAV = [("", "Accueil"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("tech","Tech"), ("animaux","Animaux"), ("halloween","Halloween")]
 
 CSS = """
 :root{--red:#C1121F;--deep:#8E0B16;--yel:#FFC72C;--ink:#1A1A1A;--muted:#5C5C5C;--line:#ECD7D9;--paper:#fff}
@@ -117,7 +121,8 @@ def deal_html(d):
     if d.get("badge") == "canada": badges.append("🍁 Marque canadienne")
     b = f'<p class="badges">{"".join(f"<span>{e(x)}</span>" for x in badges)}</p>' if badges else ""
     why = f'<p class="why">{e(d["why"])}</p>' if d.get("why") else ""
-    return (f'<li class="deal">{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
+    until = f' data-until="{d["until"]}"' if d.get("until") else ""
+    return (f'<li class="deal"{until}>{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
             f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
 
 def order(items):
@@ -152,7 +157,7 @@ def page(slug, title, h1, intro, items, extra="", after=""):
 <div class="cta"><a class="btn" href="{FB}" target="_blank" rel="noopener">👍 Suivre sur Facebook</a><a class="btn" href="{MS}" target="_blank" rel="noopener">💬 Alertes Messenger</a></div></section>
 <footer><p>Les prix sur Amazon changent souvent. Vérifie toujours le prix actuel sur Amazon.ca avant d'acheter.</p>
 <p>{DISCLOSURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a></p></footer>
-</main></body></html>"""
+</main><script>document.querySelectorAll('[data-until]').forEach(function(li){{if(Date.now()>Date.parse(li.dataset.until))li.remove();}});</script></body></html>"""
 
 def simple(slug, title, h1, body):
     return page(slug, title, h1, "", [], extra=body).replace('<ul class="deals"><li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li></ul>', "").replace('<p class="intro"></p>', "")
