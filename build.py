@@ -331,7 +331,7 @@ def mix(items, brands, every=3):
 def deal_html(d):
     pct = d.get("amzPct") or d.get("pct")
     if d.get("live") and pct:
-        tag = f'<div class="tag">-{pct}%<small>{"sous la moy." if d.get("vsAvg") else "sur Amazon"}</small></div>'
+        tag = f'<div class="tag">-{pct}%<small>sur Amazon</small></div>'
     else:
         tag = f'<div class="tag" aria-hidden="true">{ICON.get(d["cat"],"⭐")}</div>'
     if d.get("img"):
