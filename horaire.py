@@ -20,10 +20,16 @@ def prevues(now):
     if any((a <= (now.month, now.day) <= b) for a, b in PERIODES): h += EVENEMENTS
     return h
 
+def tranche(h):
+    """matin avant 11 h, midi avant 17 h, sinon soir."""
+    return "matin" if h < 11 else "midi" if h < 17 else "soir"
+
 def main():
-    if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
-        print("Lancement manuel : on roule."); return 0
     now = datetime.datetime.now(ZoneInfo("America/Toronto"))
+    out = os.environ.get("GITHUB_OUTPUT", os.devnull)
+    open(out, "a").write(f"slot={tranche(now.hour)}\n")
+    if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
+        print("Lancement manuel : on roule."); open(out, "a").write("go=1\n"); return 0
     for hm in prevues(now):
         t = now.replace(hour=int(hm[:2]), minute=int(hm[3:]), second=0, microsecond=0)
         if 0 <= (now - t).total_seconds() / 60 <= FENETRE:

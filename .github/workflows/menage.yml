@@ -42,6 +42,14 @@ jobs:
         run: python3 fetch_deals.py
       - if: steps.h.outputs.go == '1'
         run: python3 build.py
+      - name: Préparer le pack de publication du jour
+        if: steps.h.outputs.go == '1'
+        continue-on-error: true
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          sudo apt-get install -y ffmpeg || true
+          python3 pack.py "${{ steps.h.outputs.slot }}"
       - name: Publier si quelque chose a changé
         if: steps.h.outputs.go == '1'
         run: |
