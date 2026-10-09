@@ -17,6 +17,19 @@ MOIS = ["janvier","février","mars","avril","mai","juin","juillet","août","sept
 TODAY = f"{NOW.day} {MOIS[NOW.month-1]} {NOW.year}"
 e = html.escape
 
+
+HWFLOAT = '<div class="fl" aria-hidden="true">' + "".join(f'<i style="left:{l};top:{t};animation-delay:{d}">{e_}</i>' for e_,l,t,d in [("🦇","6%","12%","0s"),("👻","86%","14%","-2s"),("🕸️","92%","62%","-4s"),("🎃","3%","70%","-6s"),("🦇","60%","6%","-3s"),("🍬","72%","80%","-5s")]) + '</div>'
+HWCOUNT = '<div class="hwcount" id="hwc"></div><script>(function(){var d=Math.ceil((Date.parse("2026-10-31T04:00:00Z")-Date.now())/864e5),el=document.getElementById("hwc");el.innerHTML=d>1?"Plus que <b>"+d+"</b> jours avant l\'Halloween":d===1?"C\'est <b>demain</b>! 👻":d===0?"C\'est <b>aujourd\'hui</b>! 🎃":"À l\'an prochain! 🎃";})();</script>'
+HWT = "&tag=" + TAG
+HWTILES = [("👻","Déguisements","Enfants et adultes, livrés avec Prime","https://www.amazon.ca/s?k=halloween+d%C3%A9guisement&rh=p_85%3A5690392011"+HWT),
+("🦇","Déco d'Halloween","Gonflables, toiles, lumières","https://www.amazon.ca/-/fr/s?k=halloween+decor&rh=p_85%3A5690392011"+HWT),
+("🍬","Bonbons","Pour les petits monstres","https://www.amazon.ca/s?k=halloween+bonbons&rh=p_85%3A5690392011"+HWT),
+("💄","Maquillage","Faux sang, peinture, faux cils","https://www.amazon.ca/-/fr/s?k=halloween+maquillage&rh=p_85%3A5690392011"+HWT),
+("👕","Vêtements d'Halloween","Chandails, pyjamas, bas","https://www.amazon.ca/s?k=halloween+vetement"+HWT),
+("🐶","Costumes pour chien","Le plus cute du quartier","https://www.amazon.ca/s?k=costume+halloween+chien"+HWT),
+("🎃","Sculpter sa citrouille","Kits, pochoirs, lumières","https://www.amazon.ca/s?k=kit+sculpture+citrouille"+HWT),
+("⚜️","Bonbons Yupik","Une entreprise d'ici","https://www.amazon.ca/stores/page/57352AFD-8FA7-4764-9A8F-E1C0C8CC4E3C/deals?linkCode=ll2"+HWT)]
+
 def link(d):
     if d.get("url"): return d["url"]
     if d.get("q"): return f"https://www.amazon.ca/s?k={urllib.parse.quote_plus(d['q'])}&tag={TAG}"
@@ -73,7 +86,7 @@ PAGES = [
    "Tout pour être prêt le 31 octobre : costumes pour enfants et adultes, décorations, maquillage et bonbons en vrac, livrés vite avec Prime. Commande tôt, les tailles populaires partent vite!",
    lambda d: d["cat"] == "halloween" or d["brand"] == "Yupik", [("Déguisements","halloween déguisement"),("Déco d'Halloween","halloween decor"),("Bonbons d'Halloween","halloween bonbons"),("Maquillage d'Halloween","halloween maquillage")]),
 ]
-NAV = [("", "Accueil"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("tech","Tech"), ("animaux","Animaux"), ("halloween","Halloween")]
+NAV = [("", "Accueil"), ("halloween","🎃 Halloween"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("tech","Tech"), ("animaux","Animaux")]
 
 CSS = """
 :root{--red:#C1121F;--deep:#8E0B16;--yel:#FFC72C;--ink:#1A1A1A;--muted:#5C5C5C;--line:#ECD7D9;--paper:#fff}
@@ -103,6 +116,24 @@ h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(
 .gang .cta .btn{background:#fff}
 footer{margin:30px 0 40px;font-size:15px;color:var(--muted)}footer a{margin-right:12px}
 .empty{padding:20px 0;color:var(--muted)}
+
+body.hw{--paper:#140A1F;--ink:#F4ECFF;--muted:#CDBBE6;--line:#3B2356;--red:#FF7518;--deep:#3B1260;--yel:#FF9A3D;background:#140A1F}
+body.hw header{position:relative;overflow:hidden;background:radial-gradient(120% 90% at 50% 0%,#5B1A8C 0%,#2A0F45 55%,#140A1F 100%)}
+body.hw h1{color:#FF9A3D;text-shadow:0 0 18px rgba(255,117,24,.55)}
+body.hw nav a{color:#FFD9B8;border-color:#FF7518}body.hw nav a[aria-current]{background:#FF7518;color:#1A0A28}
+body.hw .tag{background:#FF7518;color:#1A0A28}body.hw .go{background:#FF7518;color:#1A0A28}
+body.hw .badges span{background:#3B1260;color:#FFD9B8}body.hw .brand{color:#FF9A3D}body.hw h2{color:#FF9A3D}
+body.hw .gang{background:linear-gradient(135deg,#FF7518,#FF9A3D);color:#1A0A28}body.hw .gang h2{color:#1A0A28}
+body.hw .more a{background:#3B1260;color:#FFD9B8}body.hw footer{color:#CDBBE6}
+.hwcta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 0 6px;padding:16px 18px;border-radius:18px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#2A0F45 0%,#5B1A8C 55%,#FF7518 130%);border:2px solid #FF7518}.hwcta strong{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:26px;color:#FF9A3D;line-height:1}.hwcta span{font-weight:700}.hwcta em{font-style:normal;font-size:40px}
+.fl i{position:absolute;font-style:normal;font-size:30px;opacity:.5;animation:fly 9s linear infinite;pointer-events:none}
+@keyframes fly{0%,100%{transform:translate(0,20px) rotate(-10deg)}50%{transform:translate(16px,-12px) rotate(10deg)}}
+.hwcount{display:inline-block;background:#FF7518;color:#1A0A28;border-radius:14px;padding:6px 14px;font-weight:700;margin-top:10px;transform:rotate(-2deg)}
+.hwcount b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:30px}
+.hwgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}@media(min-width:600px){.hwgrid{grid-template-columns:repeat(4,1fr)}}
+.hwgrid a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;text-decoration:none;color:#fff;background:rgba(255,255,255,.07);border:2px solid rgba(255,154,61,.55);min-height:96px}
+.hwgrid a:hover{background:rgba(255,117,24,.18)}.hwgrid b{font-size:32px;line-height:1}.hwgrid span{font-weight:700}.hwgrid small{font-size:14px;color:#E6D6FA}
+@media (prefers-reduced-motion:reduce){.fl i{animation:none}}
 @media (max-width:420px){.deal{grid-template-columns:70px 1fr}.tag{width:70px;height:70px;font-size:24px}}
 """
 
@@ -147,8 +178,8 @@ def page(slug, title, h1, intro, items, extra="", after=""):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@500;700&display=swap">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
-<body><header><div class="wrap"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
-<h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p></div></header>
+<body{" class=\"hw\"" if slug == "halloween" else ""}><header>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
+<h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {extra}
 <ul class="deals">{lst}</ul>
@@ -174,8 +205,11 @@ def main():
         extra = after = ""
         if more:
             after = '<h2>Plus de choix sur Amazon.ca</h2><p class="more">' + "".join(f'<a href="{e(search(q))}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, q in more) + "</p>"
+        if slug == "halloween":
+            extra = '<h2>🎃 Choisis ton univers</h2><div class="hwgrid">' + "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(sub)}</small></a>' for i,t,sub,u in HWTILES) + '</div><p>⏰ Conseil : commande tôt, les tailles populaires partent vite!</p><h2>👻 Nos trouvailles épeurantes</h2>'
+            after = ""
         if slug == "":
-            extra = ('<h2>Les offres de tes marques préférées</h2><p class="more">' +
+            extra = ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>' + '<h2>Les offres de tes marques préférées</h2><p class="more">' +
                      "".join(f'<a href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">{e(n)}</a>' for n, u in STORES.items()) + "</p><h2>Les deals du moment</h2>")
         write(slug, page(slug, title, h1, intro, items, extra, after)); urls.append(slug)
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
