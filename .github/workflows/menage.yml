@@ -1,22 +1,28 @@
-name: Ménage quotidien du site
+name: Mise à jour des deals
 on:
   schedule:
-    - cron: "15 8 * * *"   # chaque jour vers 4 h 15 (heure du Québec)
+    - cron: "15 10 * * *"   # vers 6 h 15 (heure du Québec)
+    - cron: "15 21 * * *"   # vers 17 h 15
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  rebuild:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Chercher les deals sur Amazon
+        env:
+          AMZ_CLIENT_ID: ${{ secrets.AMZ_CLIENT_ID }}
+          AMZ_CLIENT_SECRET: ${{ secrets.AMZ_CLIENT_SECRET }}
+        run: python3 fetch_deals.py
       - run: python3 build.py
       - name: Publier si quelque chose a changé
         run: |
           git config user.name "Rabais Flash QC"
           git config user.email "rabaisflashqc-ca@users.noreply.github.com"
-          git add docs
-          git diff --cached --quiet || (git commit -m "Ménage automatique des deals" && git push)
+          git add data.json docs
+          git diff --cached --quiet || (git commit -m "Mise à jour automatique des deals" && git push)
