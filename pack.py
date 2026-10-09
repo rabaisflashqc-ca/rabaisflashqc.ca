@@ -75,7 +75,7 @@ def pick(slot):
         return picks[:3]
     # midi : un deal par catégorie, les plus gros rabais d'abord, en évitant le Top 3
     used = {id(x) for x in picks[:3]}
-    pool = sorted([d for d in build.DEALS if id(d) not in used and d.get("live") and d.get("pct")], key=lambda d: -d["pct"])
+    pool = sorted([d for d in build.DEALS if id(d) not in used and d.get("live") and d.get("pct") and build.rate(d) > 0], key=lambda d: (-d["pct"], -build.gain(d)))
     out, cats = [], set()
     for d in pool:
         if d["cat"] not in cats:

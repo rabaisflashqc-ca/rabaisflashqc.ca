@@ -371,12 +371,29 @@ def gift_chips():
     lab = {"pour-elle": "👩 Elle", "pour-lui": "👨 Lui", "ado": "🎮 Ado", "enfants": "🧸 Enfants", "moins-de-25": "💵 Moins de 25 $", "moins-de-50": "💰 Moins de 50 $"}
     return '<p class="chiph">🎁 Je cherche un cadeau pour…</p><p class="more">' + "".join(f'<a href="/idees-cadeaux/{k}/">{v}</a>' for k, v in lab.items()) + '</p>'
 
+def rate(d):
+    """Taux de commission Amazon.ca estimé (à vérifier sur la page des taux d'Associés)."""
+    if d["cat"] == "epicerie" or d.get("brand") in ("Yupik", "Coach"): return 0.0
+    if d["cat"] == "animaux": return 0.09
+    if d["cat"] == "beaute" and d.get("tier") == "luxe": return 0.10
+    return 0.02
+
+def gain(d):
+    """Commission estimée par vente : prix x taux. Sert à départager, jamais à gonfler un rabais."""
+    return (d.get("price") or 0) * rate(d)
+
 def top5():
     """Le Top 5 du jour : les coups de coeur choisis à la main, sinon les plus gros rabais vérifiés."""
     picks = sorted([x for x in DEALS if x.get("top")], key=lambda x: x["top"])[:5]
     if len(picks) < 5:
-        fill = sorted([x for x in DEALS if not x.get("top") and x.get("live") and x.get("pct") and x.get("why")], key=lambda x: -x["pct"])
+        fill = sorted([x for x in DEALS if not x.get("top") and x.get("live") and x.get("pct") and x.get("why") and rate(x) > 0], key=lambda x: (-x["pct"], -gain(x)))
         picks += fill[:5 - len(picks)]
+    # Au moins une place pour une catégorie à forte commission (animaux, beauté de luxe) si un vrai rabais existe
+    if picks and not any(rate(x) >= 0.09 for x in picks):
+        cand = sorted([x for x in DEALS if x.get("live") and (x.get("pct") or 0) >= 25 and x.get("why") and rate(x) >= 0.09], key=lambda x: (-x["pct"], -gain(x)))
+        if cand:
+            i = min(range(len(picks)), key=lambda k: (gain(picks[k]), picks[k].get("pct") or 0))
+            picks = sorted(picks[:i] + picks[i+1:] + [cand[0]], key=lambda x: -(x.get("pct") or 0))
     cards = "".join(deal_html({**x, "why": x.get("story") or x.get("why", "")}) for x in picks)
     return picks, ('<section class="topbox" aria-label="Le Top 5 du jour"><h2>⭐ Le Top 5 du jour</h2>'
                    '<p class="topsub">Nos coups de cœur du moment, choisis un par un. Les rabais peuvent changer à tout moment : clique vite!</p>'
