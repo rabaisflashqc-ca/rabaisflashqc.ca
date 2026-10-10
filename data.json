@@ -785,7 +785,6 @@
    "badge": "gift",
    "live": true,
    "added": "2026-10-08",
-   "top": 4,
    "story": "Les soupers de semaine, c'est la course. Un seul appareil qui remplace le four, la friteuse et le grille-pain, pour passer plus de temps avec les tiens."
   },
   {
@@ -956,8 +955,8 @@
    "live": true,
    "vsAvg": true,
    "added": "2026-10-08",
-   "top": 1,
-   "story": "Fini de traîner l'aspirateur à fil de pièce en pièce. Celui-là se promène sans fil, avec plus de 50 % de rabais. Ton dimanche va te dire merci."
+   "story": "Fini de traîner l'aspirateur à fil de pièce en pièce. Celui-là se promène sans fil, avec plus de 50 % de rabais. Ton dimanche va te dire merci.",
+   "top": 1
   },
   {
    "r": 0.6900999999999999,
@@ -1071,7 +1070,6 @@
    "live": true,
    "until": "2026-10-10T07:00:00Z",
    "added": "2026-10-09",
-   "top": 2,
    "story": "Le gobelet que toute la gang veut, à peu près à moitié prix. Un cadeau qui fait toujours sourire, même quand on pensait qu'on avait déjà tout."
   },
   {
@@ -1276,7 +1274,9 @@
    "badge": "",
    "live": true,
    "added": "2026-10-09",
-   "price": 45.82
+   "price": 45.82,
+   "top": 3,
+   "story": "Le 31 octobre arrive vite. Sept citrouilles lumineuses pour la façade, à moitié prix, livrées avant l'Halloween. Les enfants du quartier vont s'arrêter devant chez toi."
   },
   {
    "r": 0.5901,
@@ -1317,7 +1317,8 @@
    "live": true,
    "price": 7.97,
    "added": "2026-10-09",
-   "story": "Parce que ton chien mérite mieux que du cuir brut. Du vrai poulet, sans céréales, à un prix qui fait remuer la queue."
+   "story": "Parce que ton chien mérite mieux que du cuir brut. Du vrai poulet, sans céréales, à un prix qui fait remuer la queue.",
+   "top": 5
   },
   {
    "r": 0.5,
@@ -1563,7 +1564,6 @@
    "live": true,
    "price": 529.95,
    "added": "2026-10-09",
-   "top": 5,
    "story": "Le blender dont tout le monde parle, bien sous son prix conseillé. Des smoothies le matin, une soupe chaude en 10 minutes le soir."
   },
   {
@@ -1596,8 +1596,8 @@
    "live": true,
    "price": 699.99,
    "added": "2026-10-09",
-   "top": 3,
-   "story": "Imagine rentrer à la maison et que le plancher soit déjà propre. Il aspire, lave, puis nettoie ses propres vadrouilles, presque à moitié prix."
+   "story": "Imagine rentrer à la maison et que le plancher soit déjà propre. Il aspire, lave, puis nettoie ses propres vadrouilles, presque à moitié prix.",
+   "top": 4
   },
   {
    "r": 0.5,
@@ -1612,7 +1612,9 @@
    "badge": "gift",
    "live": true,
    "price": 23.99,
-   "added": "2026-10-09"
+   "added": "2026-10-09",
+   "top": 2,
+   "story": "Les nuits fraîches arrivent. Un coussin chauffant à moins de la moitié du prix : pour le dos, le cou ou juste les pieds froids devant la télé."
   },
   {
    "r": 0.5,
