@@ -204,7 +204,7 @@ HW_REEL = """body{background:linear-gradient(180deg,#C1121F 0%,#B30F22 45%,#4A11
 
 
 def hw_image(html):
-    deco = '<div class="web">🕸️</div><div class="deco" style="right:70px;top:150px">🦇</div><div class="deco" style="right:200px;top:60px;font-size:60px">🦇</div><div class="deco" style="left:60px;bottom:215px;font-size:64px">👻</div>'
+    deco = '<div class="web">🕸️</div><div class="deco" style="right:70px;top:150px">🦇</div><div class="deco" style="right:200px;top:60px;font-size:60px">🦇</div><div class="deco" style="right:90px;top:262px;font-size:64px">👻</div>'
     return html.replace("</style>", HW_IMG + "</style>", 1).replace("</body>", deco + "</body>")
 
 
