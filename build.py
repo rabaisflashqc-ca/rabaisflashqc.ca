@@ -360,7 +360,7 @@ def clubbar():
 def season_banner(t=None):
     t = t or datetime.date.today(); m, d = t.month, t.day
     if m == 10:
-        return ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage 👻</span></div><em aria-hidden="true">🎃</em></a>')
+        return ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage. Commande tôt, ça part vite! 👻</span></div><em aria-hidden="true">🎃</em></a>')
     if (m == 11 and d >= 20) or (m == 12 and d <= 2):
         a = ("/vendredi-fou/", "C'EST LE VENDREDI FOU", "Les meilleurs deals du moment, au même endroit", "🔥")
     elif m == 11:
@@ -477,7 +477,12 @@ def main():
             after = ""
         if slug == "":
             pills = "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in HOME_STORES if b in STORES)
-            extra = (season_banner() + topblock + gift_chips() + '<h2>Plus de deals</h2>')
+            hw = sorted([x for x in DEALS if x["cat"] == "halloween" and id(x) not in tids and x.get("live") and x.get("pct") and x.get("why")], key=lambda x: -x["pct"])[:4]
+            hwblock = ""
+            if hw and datetime.date.today().month == 10:
+                hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
+                           '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
+            extra = (season_banner() + topblock + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = items[:8]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>Voir tous les deals par thème</h2><p class="more">' + "".join(f'<a href="/{sl}/">{e(n)}</a>' for sl, n in NAV if sl and sl not in ("vendredi-fou",)) + '</p>')
