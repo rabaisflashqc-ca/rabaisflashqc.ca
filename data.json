@@ -2400,6 +2400,36 @@
    "live": true,
    "price": 35.99,
    "added": "2026-10-10"
+  },
+  {
+   "r": 0.5,
+   "cat": "halloween",
+   "asin": "B0C89TD2PM",
+   "pct": 20,
+   "amzPct": 20,
+   "flag": "Prix le plus bas en 30 jours",
+   "brand": "Spooktacular Creations",
+   "name": "Costume de petit chaperon rouge avec accessoires (femme)",
+   "why": "Robe, cape à capuchon et accessoires. 4,3 étoiles. Livré avant l'Halloween.",
+   "badge": "",
+   "live": true,
+   "price": 39.99,
+   "added": "2026-10-10"
+  },
+  {
+   "r": 0.5,
+   "cat": "halloween",
+   "asin": "B0C89T8YKH",
+   "pct": 15,
+   "amzPct": 15,
+   "flag": "Prime Demain",
+   "brand": "Spooktacular Creations",
+   "name": "Robe squelette phosphorescente (femme)",
+   "why": "Les os brillent dans le noir. Un déguisement facile pour la soirée, 4,1 étoiles et 331 avis.",
+   "badge": "",
+   "live": true,
+   "price": 22.99,
+   "added": "2026-10-10"
   }
  ],
  "stores": {
