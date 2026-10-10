@@ -386,19 +386,40 @@ def gain(d):
     """Commission estimée par vente : prix x taux. Sert à départager, jamais à gonfler un rabais."""
     return (d.get("price") or 0) * rate(d)
 
+def _regular(d):
+    return (d.get("price") or 0) / (1 - d["pct"] / 100) if d.get("pct") and d["pct"] < 100 else 0
+
+def savings(d):
+    """Économie en dollars calculée à partir du prix affiché et du rabais affiché."""
+    return round(_regular(d) - (d.get("price") or 0))
+
 def top5():
-    """Le Top 5 du jour : les coups de coeur choisis à la main, sinon les plus gros rabais vérifiés."""
-    picks = sorted([x for x in DEALS if x.get("top")], key=lambda x: x["top"])[:5]
-    if len(picks) < 5:
-        fill = sorted([x for x in DEALS if not x.get("top") and x.get("live") and x.get("pct") and x.get("why") and rate(x) > 0], key=lambda x: (-x["pct"], -gain(x)))
-        picks += fill[:5 - len(picks)]
-    # Au moins une place pour une catégorie à forte commission (animaux, beauté de luxe) si un vrai rabais existe
-    if picks and not any(rate(x) >= 0.09 for x in picks):
-        cand = sorted([x for x in DEALS if x.get("live") and (x.get("pct") or 0) >= 25 and x.get("why") and rate(x) >= 0.09], key=lambda x: (-x["pct"], -gain(x)))
-        if cand:
-            i = min(range(len(picks)), key=lambda k: (gain(picks[k]), picks[k].get("pct") or 0))
-            picks = sorted(picks[:i] + picks[i+1:] + [cand[0]], key=lambda x: -(x.get("pct") or 0))
-    cards = "".join(deal_html({**x, "why": x.get("story") or x.get("why", "")}) for x in picks)
+    """Top 5 du jour : 2 produits d'appel (petit prix ou gros rabais, pour le clic et le cookie de 24 h)
+    + 3 pépites à forte valeur (prix régulier d'environ 100 $ et plus, vraie promo, prix final de 65 à 100 $).
+    Une carte `top` posée à la main dans data.json garde la priorité dans sa famille."""
+    live = [x for x in DEALS if x.get("live") and x.get("pct") and x.get("why") and x.get("price")]
+    def pick(pool, n, key):
+        out, cats = [], set()
+        for x in sorted(pool, key=key):
+            if x["cat"] in cats: continue
+            out.append(x); cats.add(x["cat"])
+            if len(out) == n: break
+        return out
+    appel_pool = [x for x in live if 5 <= x["price"] <= 25 and x["pct"] >= 25 and x["cat"] != "epicerie"]
+    appel = pick(appel_pool, 2, lambda x: (0 if x.get("top") else 1, -(x["pct"] + (15 if rate(x) >= 0.09 else 0))))
+    ids = {id(x) for x in appel}
+    val_pool = [x for x in live if id(x) not in ids and 65 <= x["price"] <= 90 and 20 <= x["pct"] <= 45 and _regular(x) >= 95 and x["cat"] not in ("epicerie", "halloween")]
+    valeur = pick(val_pool, 3, lambda x: (0 if x.get("top") else 1, -(rate(x) >= 0.06), -x["pct"], -x["price"]))
+    picks = appel + valeur
+    if len(picks) < 5:  # secours : les plus gros rabais vérifiés
+        have = {id(x) for x in picks}
+        picks += sorted([x for x in live if id(x) not in have and rate(x) > 0], key=lambda x: (-x["pct"], -gain(x)))[:5 - len(picks)]
+    def card(x, i):
+        why = x.get("story") or x.get("why", "")
+        if i >= 2 and savings(x) >= 5:
+            why = f"{why} Tu économises environ {savings(x)} $."
+        return deal_html({**x, "why": why})
+    cards = "".join(card(x, i) for i, x in enumerate(picks))
     return picks, ('<section class="topbox" aria-label="Le Top 5 du jour"><h2>⭐ Le Top 5 du jour</h2>'
                    '<p class="topsub">Nos coups de cœur du moment, choisis un par un. Les rabais peuvent changer à tout moment : clique vite!</p>'
                    f'<ol class="top5">{cards}</ol></section>')

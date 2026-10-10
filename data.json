@@ -955,8 +955,7 @@
    "live": true,
    "vsAvg": true,
    "added": "2026-10-08",
-   "story": "Fini de traîner l'aspirateur à fil de pièce en pièce. Celui-là se promène sans fil, avec plus de 50 % de rabais. Ton dimanche va te dire merci.",
-   "top": 1
+   "story": "Fini de traîner l'aspirateur à fil de pièce en pièce. Celui-là se promène sans fil, avec plus de 50 % de rabais. Ton dimanche va te dire merci."
   },
   {
    "r": 0.6900999999999999,
@@ -1275,7 +1274,6 @@
    "live": true,
    "added": "2026-10-09",
    "price": 45.82,
-   "top": 3,
    "story": "Le 31 octobre arrive vite. Sept citrouilles lumineuses pour la façade, à moitié prix, livrées avant l'Halloween. Les enfants du quartier vont s'arrêter devant chez toi."
   },
   {
@@ -1317,8 +1315,7 @@
    "live": true,
    "price": 7.97,
    "added": "2026-10-09",
-   "story": "Parce que ton chien mérite mieux que du cuir brut. Du vrai poulet, sans céréales, à un prix qui fait remuer la queue.",
-   "top": 5
+   "story": "Parce que ton chien mérite mieux que du cuir brut. Du vrai poulet, sans céréales, à un prix qui fait remuer la queue."
   },
   {
    "r": 0.5,
@@ -1596,8 +1593,7 @@
    "live": true,
    "price": 699.99,
    "added": "2026-10-09",
-   "story": "Imagine rentrer à la maison et que le plancher soit déjà propre. Il aspire, lave, puis nettoie ses propres vadrouilles, presque à moitié prix.",
-   "top": 4
+   "story": "Imagine rentrer à la maison et que le plancher soit déjà propre. Il aspire, lave, puis nettoie ses propres vadrouilles, presque à moitié prix."
   },
   {
    "r": 0.5,
@@ -1613,7 +1609,6 @@
    "live": true,
    "price": 23.99,
    "added": "2026-10-09",
-   "top": 2,
    "story": "Les nuits fraîches arrivent. Un coussin chauffant à moins de la moitié du prix : pour le dos, le cou ou juste les pieds froids devant la télé."
   },
   {
