@@ -80,7 +80,7 @@ GUIDES = [
    ("🧥","Manteau ou tuque d'hiver","Columbia, The North Face","manteau hiver homme Columbia",None),
    ("🥃","Ensemble à whisky","Verres et pierres à refroidir","ensemble verres whisky",50),
    ("🎮","Pour le gamer","Manettes, casques, cartes-cadeaux jeux","accessoires gamer cadeau",None)],
-  lambda d: d["cat"] in ("homme","tech") ,
+  lambda d: d["cat"] in ("homme","tech","plein-air") or d.get("for") == "lui",
   ["Sony","Bose","Apple","Samsung","Columbia","Fossil","adidas"]),
  ("ado", "Idées cadeaux pour ado 2026 : 12 à 17 ans, gars et filles | Rabais Flash QC",
   "Idées cadeaux pour ado (12 à 17 ans)",
@@ -158,12 +158,12 @@ GUIDES = [
    ("🧤","Gants chauffants","Le cadeau de l'hiver québécois","gants chauffants",None),
    ("🧩","Casse-tête 1000 morceaux","Pour décrocher","casse-tête 1000 morceaux",30),
    ("📷","Cadre photo numérique","Les photos de la famille","cadre photo numérique",None)],
-  lambda d: d["cat"] in ("homme","maison","tech") and d.get("badge") == "gift",
+  lambda d: d["cat"] in ("homme","maison","tech","plein-air") and d.get("badge") == "gift",
   ["Dyson","Ninja","Bose","Sony","Samsonite"]),
 ]
 
 MSKEY = {"beaute":("BEAUTÉ","beauté"),"mode":("MODE","mode"),"enfants":("ENFANTS","jouets et enfants"),"epicerie":("ÉPICERIE","épicerie"),
-         "maison":("MAISON","maison et cuisine"),"tech":("TECH","tech"),"animaux":("ANIMAUX","animaux"),"halloween":("HALLOWEEN","Halloween"),
+         "maison":("MAISON","maison et cuisine"),"tech":("TECH","tech"),"animaux":("ANIMAUX","animaux"),"plein-air":("PLEINAIR","plein air et outils"),"halloween":("HALLOWEEN","Halloween"),
          "idees-cadeaux":("CADEAUX","idées cadeaux"),"vendredi-fou":("VENDREDI FOU","Vendredi fou"),"":("DEALS","meilleurs deals")}
 def msbtn(slug):
     k = MSKEY.get(slug.split("/")[0], MSKEY[""])
@@ -196,7 +196,7 @@ def link(d):
 
 def search(q): return f"https://www.amazon.ca/s?k={urllib.parse.quote_plus(q)}&tag={TAG}"
 
-ICON = {"tech":"🎧","maison":"🏠","beaute":"💄","femme":"👗","homme":"👔","enfants":"🧸","jouets":"🧱","animaux":"🐾","halloween":"🎃","epicerie":"🛒"}
+ICON = {"tech":"🎧","maison":"🏠","beaute":"💄","femme":"👗","homme":"👔","enfants":"🧸","jouets":"🧱","animaux":"🐾","plein-air":"🏕️","halloween":"🎃","epicerie":"🛒"}
 
 PAGES = [
   # slug, titre <title>, H1, intro, filtre, recherches de secours
@@ -232,6 +232,10 @@ PAGES = [
    "Rabais maison et cuisine",
    "Aspirateurs, friteuses à air, machines à café, mélangeurs : les meilleurs rabais maison et cuisine d'Amazon.ca, triés pour toi.",
    lambda d: d["cat"] == "maison", [("Meilleures ventes cuisine","cuisine")]),
+  ("plein-air", "Rabais plein air, outils et jardin sur Amazon.ca | Rabais Flash QC",
+   "Rabais plein air, outils et jardin",
+   "Batteries d'outils, filtres à eau, bouteilles isothermes, souffleurs à feuilles : le matériel qui sert dehors, au chalet et dans le garage, en rabais sur Amazon.ca.",
+   lambda d: d["cat"] == "plein-air", [("Meilleures ventes outils","outils"),("Camping et randonnée","camping randonnée")]),
   ("tech", "Rabais tech et audio sur Amazon.ca | Rabais Flash QC",
    "Rabais tech et audio",
    "Casques, écouteurs, haut-parleurs, accessoires : les meilleurs rabais tech d'Amazon.ca, de marques connues comme Sony, JBL, Bose et Logitech.",
@@ -243,9 +247,9 @@ PAGES = [
   ("halloween", "Halloween 2026 : costumes, déco et bonbons en rabais | Rabais Flash QC",
    "Halloween 2026 : costumes, déco et bonbons",
    "Tout pour être prêt le 31 octobre : costumes pour enfants et adultes, décorations, maquillage et bonbons en vrac, livrés vite avec Prime. Commande tôt, les tailles populaires partent vite!",
-   lambda d: d["cat"] == "halloween" or d["brand"] == "Yupik", [("Déguisements","halloween déguisement"),("Déco d'Halloween","halloween decor"),("Bonbons d'Halloween","halloween bonbons"),("Maquillage d'Halloween","halloween maquillage")]),
+   lambda d: d["cat"] == "halloween" or d.get("hw"), [("Déguisements","halloween déguisement"),("Déco d'Halloween","halloween decor"),("Bonbons d'Halloween","halloween bonbons"),("Maquillage d'Halloween","halloween maquillage")]),
 ]
-NAV = [("", "Accueil"), ("halloween","🎃 Halloween"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("tech","Tech"), ("animaux","Animaux")]
+NAV = [("", "Accueil"), ("halloween","🎃 Halloween"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("plein-air","Plein air"), ("tech","Tech"), ("animaux","Animaux")]
 
 CSS = """
 :root{--red:#C1121F;--deep:#8E0B16;--yel:#FFC72C;--ink:#1A1A1A;--muted:#5C5C5C;--line:#ECD7D9;--paper:#fff}

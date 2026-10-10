@@ -114,7 +114,7 @@
   },
   {
    "r": 0.6408,
-   "cat": "homme",
+   "cat": "beaute",
    "asin": "B00LM94GJO",
    "pct": 12,
    "amzPct": 12,
@@ -124,7 +124,8 @@
    "why": "Choix d'Amazon, plus de 1 000 achetés le mois dernier.",
    "badge": "",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "for": "lui"
   },
   {
    "r": 0.6409,
@@ -522,7 +523,8 @@
    "why": "Plus de 1 000 avis. Une entreprise d'ici.",
    "badge": "local",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "hw": true
   },
   {
    "r": 0.6607000000000001,
@@ -536,7 +538,8 @@
    "why": "Plus de 1 000 achetés le mois dernier. Parfait pour l'Halloween.",
    "badge": "local",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "hw": true
   },
   {
    "r": 0.6608,
@@ -550,7 +553,8 @@
    "why": "Emballés un par un, idéals à distribuer le 31.",
    "badge": "local",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "hw": true
   },
   {
    "r": 0.6609,
@@ -898,7 +902,7 @@
   },
   {
    "r": 0.6808000000000001,
-   "cat": "homme",
+   "cat": "beaute",
    "q": "GilletteLabs rasoir barre exfoliante",
    "pct": 18,
    "amzPct": 18,
@@ -908,7 +912,8 @@
    "why": "Un rasoir haut de gamme, belle idée de cadeau pour lui.",
    "badge": "gift",
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-08",
+   "for": "lui"
   },
   {
    "r": 0.6809000000000001,
@@ -1345,7 +1350,7 @@
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "beaute",
    "asin": "B0CRHVZ7TN",
    "pct": 20,
    "amzPct": 20,
@@ -1356,11 +1361,12 @@
    "badge": "gift",
    "live": true,
    "price": 39.95,
-   "added": "2026-10-09"
+   "added": "2026-10-09",
+   "for": "lui"
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "beaute",
    "asin": "B0G6MFLZD9",
    "pct": 18,
    "amzPct": 18,
@@ -1371,7 +1377,8 @@
    "badge": "",
    "live": true,
    "price": 44.95,
-   "added": "2026-10-09"
+   "added": "2026-10-09",
+   "for": "lui"
   },
   {
    "r": 0.5,
@@ -1774,7 +1781,7 @@
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "plein-air",
    "asin": "B00BYKVMSY",
    "pct": 36,
    "amzPct": 36,
@@ -1819,7 +1826,7 @@
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "plein-air",
    "asin": "B09SBPP9R9",
    "pct": 27,
    "amzPct": 27,
@@ -1834,7 +1841,7 @@
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "plein-air",
    "asin": "B07C56LR6N",
    "pct": 38,
    "amzPct": 38,
@@ -1849,7 +1856,7 @@
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "plein-air",
    "asin": "B0BXB8PLRT",
    "pct": 30,
    "amzPct": 30,
@@ -1879,7 +1886,7 @@
   },
   {
    "r": 0.5,
-   "cat": "maison",
+   "cat": "plein-air",
    "asin": "B0F3NY1PPN",
    "pct": 31,
    "amzPct": 31,
@@ -1924,7 +1931,7 @@
   },
   {
    "r": 0.5,
-   "cat": "femme",
+   "cat": "beaute",
    "asin": "B01MDVO2GE",
    "pct": 16,
    "amzPct": 16,
@@ -1935,11 +1942,12 @@
    "badge": "",
    "live": true,
    "price": 39.12,
-   "added": "2026-10-09"
+   "added": "2026-10-09",
+   "for": "elle"
   },
   {
    "r": 0.5,
-   "cat": "homme",
+   "cat": "plein-air",
    "asin": "B0G96PH3QW",
    "pct": 21,
    "amzPct": 21,
