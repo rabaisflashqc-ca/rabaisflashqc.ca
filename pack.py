@@ -190,6 +190,29 @@ body{{background:#C1121F;color:#fff;position:relative}}
 </body></html>"""
 
 
+HW_IMG = """body{background:linear-gradient(180deg,#C1121F 0%,#B30F22 42%,#5B1A8C 100%)!important}
+h1{color:#FF9A3D!important}.top b{color:#FF9A3D}.row{border:5px solid #2A0F45}.n{background:#5B1A8C!important}.br{color:#5B1A8C!important}
+.bd{background:#FF7518!important;color:#2A0F45!important}
+.foot{background:#2A0F45!important;color:#FF9A3D!important;border-top:6px solid #FF7518}
+.deco{position:absolute;font-size:90px;opacity:.9}.web{position:absolute;top:0;right:0;font-size:150px;line-height:1;opacity:.55}"""
+HW_REEL = """body{background:linear-gradient(180deg,#C1121F 0%,#B30F22 45%,#4A1170 100%)!important}
+.a,.hd{color:#FF9A3D!important}.b i{color:#FF9A3D!important}.logo b{color:#FF9A3D!important}
+.bd{background:#FF7518!important;color:#2A0F45!important}.card{border:4px solid #2A0F45}.br{color:#5B1A8C!important}
+.end .t{color:#FF9A3D!important}.end .u{background:#FF7518!important;color:#2A0F45!important}
+.bat{position:absolute;font-size:64px;animation:fly 9s linear infinite;opacity:.9}
+@keyframes fly{0%{transform:translate(-80px,0) rotate(-10deg)}50%{transform:translate(380px,40px) rotate(10deg)}100%{transform:translate(820px,0) rotate(-10deg)}}"""
+
+
+def hw_image(html):
+    deco = '<div class="web">🕸️</div><div class="deco" style="right:70px;top:150px">🦇</div><div class="deco" style="right:200px;top:60px;font-size:60px">🦇</div><div class="deco" style="left:60px;bottom:215px;font-size:64px">👻</div>'
+    return html.replace("</style>", HW_IMG + "</style>", 1).replace("</body>", deco + "</body>")
+
+
+def hw_reel(html):
+    deco = '<div class="bat" style="top:120px">🦇</div><div class="bat" style="top:1010px;animation-delay:-4s">🦇</div><div class="bat" style="top:1100px;animation-delay:-7s;font-size:48px">🎃</div>'
+    return html.replace("</style>", HW_REEL + "</style>", 1).replace("</body>", deco + "</body>")
+
+
 def render(pw, html_str, size, tmp, name, video=False):
     path = tmp / f"{name}.html"
     path.write_text(html_str)
@@ -207,15 +230,19 @@ def render(pw, html_str, size, tmp, name, video=False):
     return br, ctx, page
 
 
-def make_image(pw, slot, items, tmp):
-    br, ctx, page = render(pw, image_html(slot, items), (1080, 1350), tmp, "img")
+def make_image(pw, slot, items, tmp, theme=None):
+    html = image_html(slot, items)
+    html = hw_image(html) if theme == "hw" else html
+    br, ctx, page = render(pw, html, (1080, 1350), tmp, "img")
     page.wait_for_timeout(700)
     page.screenshot(path=str(OUT / f"{slot}.png"))
     ctx.close(); br.close()
 
 
-def make_reel(pw, items, tmp, out="soir.mp4", **kw):
-    br, ctx, page = render(pw, reel_html(items, **kw), (720, 1280), tmp, "reel", video=True)
+def make_reel(pw, items, tmp, out="soir.mp4", theme=None, **kw):
+    html = reel_html(items, **kw)
+    html = hw_reel(html) if theme == "hw" else html
+    br, ctx, page = render(pw, html, (720, 1280), tmp, "reel", video=True)
     page.wait_for_timeout(16000)
     ctx.close(); br.close()
     webm = sorted(tmp.glob("*.webm"))[-1]
