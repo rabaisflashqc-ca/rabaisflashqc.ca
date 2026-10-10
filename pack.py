@@ -153,7 +153,7 @@ h1{{padding:26px 56px 0;font-size:96px;line-height:.98;color:#FFC72C}}h2{{paddin
 </body></html>"""
 
 
-def reel_html(items):
+def reel_html(items, ha="TOUT COÛTE<br>PLUS CHER 😮‍💨", hb="ON FAIT<br>LE TRI<br><i>POUR TOI ⚡</i>", hd="Nos coups de cœur du moment"):
     cards = "".join(
         f'<div class="card" style="--d:{5.0 + i * 1.9:.1f}s"><div class="ic">{build.ICON.get(d["cat"], "⭐")}</div>'
         f'<div class="tx"><div class="br">{e(d["brand"])}</div><div class="nm">{e(short(d["name"], 34))}</div></div>{badge(d)}</div>'
@@ -181,9 +181,9 @@ body{{background:#C1121F;color:#fff;position:relative}}
 .tiny{{position:absolute;left:30px;right:30px;bottom:34px;text-align:center;font-size:20px;opacity:.9;font-weight:600}}
 </style></head><body>
 <div class="logo">{BOLT.replace('width="38" height="60"', 'width="26" height="42"')}<span>RABAIS <b>FLASH</b> QC</span></div>
-<div class="s a an">TOUT COÛTE<br>PLUS CHER 😮‍💨</div>
-<div class="s b an">ON FAIT<br>LE TRI<br><i>POUR TOI ⚡</i></div>
-<div class="s hd">Nos coups de cœur du moment</div>
+<div class="s a an">{ha}</div>
+<div class="s b an">{hb}</div>
+<div class="s hd">{hd}</div>
 <div class="list">{cards}</div>
 <div class="s end"><div class="t an">TOUS LES DEALS<br>SUR UNE PAGE</div><div class="u an">RABAISFLASHQC.CA</div><div class="l">👍 Aime la page pour ne rien manquer</div></div>
 <div class="tiny">⚡ Rabais Flash : durée non garantie · {e(DISC)}</div>
@@ -214,13 +214,13 @@ def make_image(pw, slot, items, tmp):
     ctx.close(); br.close()
 
 
-def make_reel(pw, items, tmp):
-    br, ctx, page = render(pw, reel_html(items), (720, 1280), tmp, "reel", video=True)
+def make_reel(pw, items, tmp, out="soir.mp4", **kw):
+    br, ctx, page = render(pw, reel_html(items, **kw), (720, 1280), tmp, "reel", video=True)
     page.wait_for_timeout(16000)
     ctx.close(); br.close()
     webm = sorted(tmp.glob("*.webm"))[-1]
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(webm), "-c:v", "libx264", "-pix_fmt", "yuv420p",
-                    "-crf", "28", "-preset", "veryfast", "-an", "-movflags", "+faststart", "-t", "15.5", str(OUT / "soir.mp4")], check=True)
+                    "-crf", "28", "-preset", "veryfast", "-an", "-movflags", "+faststart", "-t", "15.5", str(OUT / out)], check=True)
 
 
 def page_html(meta):
