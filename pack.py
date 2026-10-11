@@ -167,12 +167,12 @@ body{{background:#C1121F;color:#fff;position:relative}}
 .b{{top:330px;font-size:84px;line-height:1;animation:io 2.4s 2.8s ease both}}.b i{{color:#FFC72C;font-style:normal}}
 @keyframes io{{0%{{opacity:0;transform:translateY(40px) scale(.96)}}15%,85%{{opacity:1;transform:none}}100%{{opacity:0;transform:translateY(-30px)}}}}
 .list{{position:absolute;top:300px;left:36px;right:36px;display:flex;flex-direction:column;gap:22px}}
-.card{{background:#fff;color:#1A1A1A;border-radius:28px;padding:26px 24px;display:flex;align-items:center;gap:18px;opacity:0;animation:pop .6s var(--d) ease forwards,out .5s 12.4s ease forwards}}
+.card{{background:#fff;color:#1A1A1A;border-radius:28px;padding:26px 24px;display:flex;align-items:center;gap:18px;opacity:0;animation:pop .6s var(--d) ease forwards,out .5s 11.8s ease forwards}}
 @keyframes pop{{0%{{opacity:0;transform:translateX(120px) rotate(3deg)}}100%{{opacity:1;transform:none}}}}
 @keyframes out{{to{{opacity:0}}}}
 .ic{{font-size:56px}}.tx{{flex:1;min-width:0}}.br{{font-size:24px;font-weight:700;color:#C1121F;text-transform:uppercase}}.nm{{font-size:32px;font-weight:700;line-height:1.1}}
 .bd{{background:#FFC72C;color:#8E0B16;border-radius:16px;padding:8px 14px;font-family:Anton,Impact,sans-serif;font-size:40px}}.bd.cc{{font-size:20px;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700}}
-.hd{{top:190px;font-size:44px;font-weight:700;color:#FFC72C;animation:hd 8s 4.6s ease both}}
+.hd{{top:190px;font-size:44px;font-weight:700;color:#FFC72C;animation:hd 7s 4.6s ease both}}
 @keyframes hd{{0%{{opacity:0}}8%,90%{{opacity:1}}100%{{opacity:0}}}}
 .end{{top:300px;text-align:center;animation:end 3.2s 12.4s ease forwards}}
 @keyframes end{{0%{{opacity:0;transform:scale(.9)}}25%,100%{{opacity:1;transform:none}}}}
