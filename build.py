@@ -440,7 +440,7 @@ def top5():
                    f'<ol class="top5">{cards}</ol></section>')
 
 LEA = ('<aside class="lea"><img src="/lea.jpg" alt="Léa, l\'assistante virtuelle de Rabais Flash QC" width="84" height="84">'
-       '<div><p><b>Salut, moi c\'est Léa!</b> Je suis l\'assistante virtuelle de Rabais Flash QC. Chaque jour, on te montre les rabais Amazon.ca qui valent le coup, triés par thème.</p>'
+       '<div><p><b>Salut, moi c\'est Léa de Rabais Flash QC!</b> Chaque jour, on te montre les rabais Amazon.ca qui valent le coup, triés par thème.</p>'
        '<p><a href="/a-propos/#choix">Comment on choisit nos deals →</a></p><small>Léa est un avatar généré par intelligence artificielle.</small></div></aside>')
 
 def order(items):
