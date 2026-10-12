@@ -439,8 +439,8 @@ def top5():
                    '<p class="topsub">Nos coups de cœur du moment, choisis un par un. Les rabais peuvent changer à tout moment : clique vite!</p>'
                    f'<ol class="top5">{cards}</ol></section>')
 
-LEA = ('<aside class="lea"><div class="ph"><img src="/lea.jpg" alt="Léa, l\'assistante virtuelle de Rabais Flash QC" width="132" height="132"><span class="ia">Avatar IA</span></div>'
-       '<div><p><b>Salut, moi c\'est Léa de Rabais Flash QC!</b>Chaque jour, on te montre les rabais Amazon.ca qui valent le coup, triés par thème.</p>'
+LEA = ('<aside class="lea"><div class="ph"><img src="/lea.jpg" alt="Léa, l\'assistante virtuelle de Rabais Flash QC" width="132" height="132"></div>'
+       '<div><p><b>Salut, moi c\'est Léa de Rabais Flash QC!</b>Je suis l\'assistante virtuelle du site. Chaque jour, on te montre les rabais Amazon.ca qui valent le coup, triés par thème.</p>'
        '<a href="/a-propos/#choix">Comment on choisit nos deals →</a></div></aside>')
 
 def order(items):
