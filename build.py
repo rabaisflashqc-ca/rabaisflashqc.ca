@@ -411,6 +411,14 @@ def top5():
     val_pool = [x for x in live if id(x) not in ids and 65 <= x["price"] <= 90 and 20 <= x["pct"] <= 45 and _regular(x) >= 95 and x["cat"] not in ("epicerie", "halloween")]
     valeur = pick(val_pool, 3, lambda x: (0 if x.get("top") else 1, -(rate(x) >= 0.06), -x["pct"], -x["price"]))
     picks = appel + valeur
+    # sélection à la main : `top` = rang (1 à 5), valable jusqu'à `top_until` (UTC), peu importe le prix
+    _now = datetime.datetime.now(datetime.timezone.utc)
+    manual = sorted([x for x in live if isinstance(x.get("top"), int) and x.get("top_until")
+                     and datetime.datetime.fromisoformat(x["top_until"].replace("Z", "+00:00")) > _now], key=lambda x: x["top"])[:5]
+    if manual:
+        mids = {id(x) for x in manual}
+        picks = manual + [x for x in picks if id(x) not in mids]
+        picks = picks[:5]
     if len(picks) < 5:  # secours : les plus gros rabais vérifiés
         have = {id(x) for x in picks}
         picks += sorted([x for x in live if id(x) not in have and rate(x) > 0], key=lambda x: (-x["pct"], -gain(x)))[:5 - len(picks)]
