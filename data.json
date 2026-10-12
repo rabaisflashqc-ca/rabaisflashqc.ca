@@ -197,7 +197,8 @@
    "r": 0.65,
    "amzPct": 28,
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-11",
+   "price": 18.02
   },
   {
    "cat": "jouets",
@@ -211,7 +212,8 @@
    "r": 0.6501,
    "amzPct": 28,
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-11",
+   "price": 54.13
   },
   {
    "cat": "jouets",
@@ -281,7 +283,8 @@
    "r": 0.6506000000000001,
    "amzPct": 33,
    "live": true,
-   "added": "2026-10-08"
+   "added": "2026-10-11",
+   "price": 40.08
   },
   {
    "cat": "beaute",
@@ -784,8 +787,9 @@
    "why": "Un four de comptoir qui remplace le four, la friteuse et le grille-pain.",
    "badge": "gift",
    "live": true,
-   "added": "2026-10-08",
-   "story": "Les soupers de semaine, c'est la course. Un seul appareil qui remplace le four, la friteuse et le grille-pain, pour passer plus de temps avec les tiens."
+   "added": "2026-10-11",
+   "story": "Les soupers de semaine, c'est la course. Un seul appareil qui remplace le four, la friteuse et le grille-pain, pour passer plus de temps avec les tiens.",
+   "price": 229.98
   },
   {
    "r": 0.68,
@@ -1499,7 +1503,7 @@
    "badge": "",
    "live": true,
    "price": 82.99,
-   "added": "2026-10-09"
+   "added": "2026-10-11"
   },
   {
    "r": 0.5,
@@ -1530,7 +1534,7 @@
    "badge": "gift",
    "live": true,
    "price": 63.88,
-   "added": "2026-10-09"
+   "added": "2026-10-11"
   },
   {
    "r": 0.5,
@@ -1560,7 +1564,7 @@
    "badge": "gift",
    "live": true,
    "price": 529.95,
-   "added": "2026-10-09",
+   "added": "2026-10-11",
    "story": "Le blender dont tout le monde parle, bien sous son prix conseillé. Des smoothies le matin, une soupe chaude en 10 minutes le soir."
   },
   {
@@ -2805,6 +2809,98 @@
    "price": 14.4,
    "flag": "Offre à durée limitée",
    "badge": "gift",
+   "live": true,
+   "added": "2026-10-11"
+  },
+  {
+   "r": 0.5,
+   "cat": "tech",
+   "url": "https://link.amazon/B02QoTX5S",
+   "pct": 48,
+   "amzPct": 48,
+   "brand": "Bose",
+   "name": "Casque sans fil à réduction de bruit, vert",
+   "why": "Presque la moitié du prix habituel. Livraison demain avec Prime.",
+   "price": 249.0,
+   "flag": "Offre éclair",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-11",
+   "until": "2026-10-12T06:55:00Z"
+  },
+  {
+   "r": 0.501,
+   "cat": "maison",
+   "url": "https://link.amazon/B04sGf1rU",
+   "pct": 27,
+   "amzPct": 27,
+   "brand": "",
+   "name": "Vadrouille à vapeur, version Heavy Duty",
+   "why": "Pour nettoyer les planchers à la vapeur, sans produits chimiques. Offre éclair.",
+   "price": 167.99,
+   "flag": "Offre éclair",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-11",
+   "until": "2026-10-12T06:55:00Z"
+  },
+  {
+   "r": 0.502,
+   "cat": "maison",
+   "url": "https://link.amazon/B00LA8mgT",
+   "pct": 38,
+   "amzPct": 38,
+   "brand": "",
+   "name": "Machine à espresso automatique, modèle Touch",
+   "why": "Un gros rabais sur une machine à espresso haut de gamme. Livraison mardi.",
+   "price": 799.99,
+   "flag": "Offre à durée limitée",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-11"
+  },
+  {
+   "r": 0.503,
+   "cat": "maison",
+   "url": "https://link.amazon/B0g2KCD7g",
+   "pct": 23,
+   "amzPct": 23,
+   "brand": "De'Longhi",
+   "name": "Magnifica Evo, machine à espresso avec buse à lait manuelle",
+   "why": "Espresso, cappuccino et café glacé à la maison. Livraison vendredi avec Prime.",
+   "price": 649.98,
+   "flag": "Offre à durée limitée",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-11"
+  },
+  {
+   "r": 0.504,
+   "cat": "tech",
+   "url": "https://link.amazon/B0bSn7jqy",
+   "pct": 32,
+   "amzPct": 32,
+   "brand": "JBL",
+   "name": "Haut-parleur Bluetooth portable Xtreme, bleu",
+   "why": "Un gros haut-parleur portable pour le chalet ou la cour. Livraison demain avec Prime.",
+   "price": 319.98,
+   "flag": "Offre à durée limitée",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-11"
+  },
+  {
+   "r": 0.505,
+   "cat": "beaute",
+   "url": "https://link.amazon/B098tujyg",
+   "pct": 15,
+   "amzPct": 15,
+   "brand": "Maybelline",
+   "name": "Rouge à lèvres liquide SuperStay Matte Ink, teinte Ruler",
+   "why": "Tenue longue durée, fini mat. Plusieurs teintes disponibles.",
+   "price": 10.98,
+   "flag": "Offre à durée limitée",
+   "badge": "",
    "live": true,
    "added": "2026-10-11"
   }
