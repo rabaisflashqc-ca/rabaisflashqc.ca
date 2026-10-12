@@ -1,1 +1,2 @@
 Compte pas encore admissible a l'API (10 ventes qualifiees sur 30 jours requises). Deals du site inchanges.
+Reponse Amazon : {"message":"Your account does not currently meet the eligibility requirements.","reason":"AssociateNotEligible","type":"AccessDeniedException"}
