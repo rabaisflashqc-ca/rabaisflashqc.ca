@@ -146,6 +146,7 @@ def main():
             msg = e.read()[:300]
             if b"AssociateNotEligible" in msg:
                 print("Compte pas encore admissible a l'API (10 ventes qualifiees sur 30 jours requises). Deals du site inchanges.")
+                print("Reponse Amazon :", msg.decode("utf-8", "replace")[:250])
                 return
             print(f"[{kw}] erreur {e.code} :", msg); continue
         except Exception as e:
