@@ -375,12 +375,18 @@ def gift_chips():
     lab = {"pour-elle": "👩 Elle", "pour-lui": "👨 Lui", "ado": "🎮 Ado", "enfants": "🧸 Enfants", "moins-de-25": "💵 Moins de 25 $", "moins-de-50": "💰 Moins de 50 $"}
     return '<p class="chiph">🎁 Je cherche un cadeau pour…</p><p class="more">' + "".join(f'<a href="/idees-cadeaux/{k}/">{v}</a>' for k, v in lab.items()) + '</p>'
 
+# Barème officiel des Associés Amazon.ca (page « Calendrier des commissions standard », vérifié le 2026-10-12) :
+# Luxe 10 %, animaux 9 %, bagages et bijoux 7 %, accueil / beauté / chaussures / vêtements / plein air 6 %,
+# électroménagers / bébé / bureau 5 %, cuisine et articles ménagers / électronique / montres 4 %,
+# jeux et jouets / santé et soins personnels 3 %, ordinateurs et consoles 1 %, autres 2 %.
+RATES = {"animaux": 0.09, "beaute": 0.06, "femme": 0.06, "homme": 0.06, "maison": 0.05, "tech": 0.04,
+         "jouets": 0.03, "enfants": 0.04, "plein-air": 0.06, "halloween": 0.04}
+
 def rate(d):
-    """Taux de commission Amazon.ca estimé (à vérifier sur la page des taux d'Associés)."""
+    """Taux de commission Amazon.ca estimé selon la catégorie du site (maison = moyenne accueil 6 % et cuisine 4 %)."""
     if d["cat"] == "epicerie" or d.get("brand") in ("Yupik", "Coach"): return 0.0
-    if d["cat"] == "animaux": return 0.09
     if d["cat"] == "beaute" and d.get("tier") == "luxe": return 0.10
-    return 0.02
+    return RATES.get(d["cat"], 0.02)
 
 def gain(d):
     """Commission estimée par vente : prix x taux. Sert à départager, jamais à gonfler un rabais."""
