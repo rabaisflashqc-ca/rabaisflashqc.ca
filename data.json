@@ -790,9 +790,7 @@
    "live": true,
    "added": "2026-10-11",
    "story": "Les soupers de semaine, c'est la course. Un seul appareil qui remplace le four, la friteuse et le grille-pain, pour passer plus de temps avec les tiens.",
-   "price": 229.98,
-   "top": 5,
-   "top_until": "2026-10-13T16:00:00Z"
+   "price": 229.98
   },
   {
    "r": 0.68,
@@ -2966,7 +2964,9 @@
    "flag": "Offre à durée limitée",
    "badge": "",
    "live": true,
-   "added": "2026-10-12"
+   "added": "2026-10-12",
+   "top": 3,
+   "top_until": "2026-10-13T16:00:00Z"
   },
   {
    "r": 0.512,
@@ -3011,7 +3011,9 @@
    "flag": "Offre à durée limitée",
    "badge": "",
    "live": true,
-   "added": "2026-10-12"
+   "added": "2026-10-12",
+   "top": 4,
+   "top_until": "2026-10-13T16:00:00Z"
   },
   {
    "r": 0.515,
@@ -3134,9 +3136,7 @@
    "flag": "Offre réservée Prime",
    "badge": "",
    "live": true,
-   "added": "2026-10-12",
-   "top": 2,
-   "top_until": "2026-10-13T16:00:00Z"
+   "added": "2026-10-12"
   },
   {
    "r": 0.601,
@@ -3167,9 +3167,7 @@
    "badge": "",
    "live": true,
    "added": "2026-10-12",
-   "until": "2026-10-13T06:55:00Z",
-   "top": 4,
-   "top_until": "2026-10-13T16:00:00Z"
+   "until": "2026-10-13T06:55:00Z"
   },
   {
    "r": 0.603,
@@ -3308,7 +3306,7 @@
    "badge": "",
    "live": true,
    "added": "2026-10-12",
-   "top": 3,
+   "top": 5,
    "top_until": "2026-10-13T16:00:00Z"
   },
   {
@@ -3355,7 +3353,7 @@
    "badge": "",
    "live": true,
    "added": "2026-10-12",
-   "top": 1,
+   "top": 2,
    "top_until": "2026-10-13T16:00:00Z"
   },
   {
@@ -3416,7 +3414,9 @@
    "flag": "Offre à durée limitée",
    "badge": "",
    "live": true,
-   "added": "2026-10-12"
+   "added": "2026-10-12",
+   "top": 1,
+   "top_until": "2026-10-13T16:00:00Z"
   },
   {
    "r": 0.701,
