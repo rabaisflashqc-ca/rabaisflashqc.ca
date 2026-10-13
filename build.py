@@ -387,6 +387,7 @@ def rate(d):
     """Taux de commission Amazon.ca estimé selon la catégorie du site (maison = moyenne accueil 6 % et cuisine 4 %)."""
     if d["cat"] == "epicerie" or d.get("brand") in ("Yupik", "Coach"): return 0.0
     if d["cat"] == "beaute" and d.get("tier") == "luxe": return 0.10
+    if d.get("rate") is not None: return d["rate"]
     return RATES.get(d["cat"], 0.02)
 
 def gain(d):
