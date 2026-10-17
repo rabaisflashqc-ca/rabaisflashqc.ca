@@ -5450,6 +5450,38 @@
    "live": true,
    "added": "2026-10-17",
    "rate": 0.06
+  },
+  {
+   "r": 0.99,
+   "cat": "beaute",
+   "asin": "B0DZ33WZNF",
+   "pct": 44,
+   "amzPct": 44,
+   "brand": "Delon",
+   "name": "Shampoing à l'aloe vera, 3,78 l, cheveux secs et sensibles",
+   "why": "Format familial, qualité salon. Prix le plus bas en 30 jours. 5 étoiles (seulement 2 avis).",
+   "price": 22.24,
+   "flag": "Prix le plus bas en 30 jours",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-17",
+   "rate": 0.06
+  },
+  {
+   "r": 0.991,
+   "cat": "femme",
+   "asin": "B0CQPNWD41",
+   "pct": 38,
+   "amzPct": 38,
+   "brand": "Samsonite",
+   "name": "Virtuosa, valise de cabine compacte, blanc cassé",
+   "why": "Pochette de toilette amovible, sangle pour valise. Prix bas pendant 365 jours. 4,6 étoiles (79 avis).",
+   "price": 89.99,
+   "flag": "Prix bas pendant 365 jours",
+   "badge": "",
+   "live": true,
+   "added": "2026-10-17",
+   "rate": 0.07
   }
  ],
  "stores": {
