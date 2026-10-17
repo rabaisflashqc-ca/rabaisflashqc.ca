@@ -364,7 +364,7 @@ def clubbar():
             '<p class="fs">Abonne-toi et sois le premier averti. C\'est gratuit, et ça te fait économiser pour vrai.</p><div class="fbtn">'
             f'<a class="stk fb" href="{FB}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="#fff" d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V9c0-.6.4-1 1-1z"/></svg><span><b>J\'aime la page</b><small>sur Facebook</small></span></a>'
             f'<a class="stk ig" href="{IG}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="17.4" cy="6.6" r="1.4" fill="#fff"/></svg><span><b>Suis-nous</b><small>@rabaisflashqc</small></span></a>'
-            f'</div><a class="shopb" href="{SHOP}" target="_blank" rel="sponsored nofollow noopener">🛍️ Ma vitrine officielle sur Amazon.ca</a>'
+            f'</div>'
             f'<a class="fms" href="{MS}" target="_blank" rel="noopener">💬 ou reçois les alertes sur Messenger</a></section>')
 
 def season_banner(t=None):
