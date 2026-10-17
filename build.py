@@ -275,6 +275,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .badges span{display:inline-block;font-size:13px;font-weight:700;background:#FFF3D1;color:var(--deep);border-radius:6px;padding:2px 8px;margin:0 6px 6px 0}
 .lea{display:flex;gap:18px;align-items:center;background:linear-gradient(135deg,#fff8e1,#ffe9a8);border:3px solid #C1121F;border-radius:20px;padding:18px;margin:16px 0;box-shadow:0 6px 18px rgba(193,18,31,.18)}.lea .ph{position:relative;flex:none}.lea img{width:132px;height:132px;border-radius:50%;object-fit:cover;display:block;border:4px solid #C1121F;box-shadow:0 4px 12px rgba(0,0,0,.25)}.lea .ia{position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);background:#C1121F;color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}.lea p{margin:0 0 8px;line-height:1.35;font-size:17px}.lea p b{font-size:20px;display:block;margin-bottom:4px}.lea a{display:inline-block;background:#C1121F;color:#fff;text-decoration:none;font-weight:700;padding:9px 14px;border-radius:10px;font-size:15px}@media (min-width:700px){.lea img{width:160px;height:160px}.lea p{font-size:19px}.lea p b{font-size:24px}}@media (max-width:380px){.lea{flex-direction:column;text-align:center}}
 .cd{display:inline-block;margin:0 0 6px;padding:3px 10px;border-radius:999px;background:#FFE3E6;color:#8E0B16;font-weight:700;font-size:14px}.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 12px;font-weight:700;color:var(--deep)}.share a,.share button{font:inherit;font-size:15px;font-weight:700;text-decoration:none;border-radius:999px;padding:6px 14px;border:2px solid var(--deep);background:#fff;color:var(--deep);cursor:pointer}
+.art{list-style:none;margin:0;padding:0}.art .deal{display:block}
 .go{display:inline-block;text-decoration:none;font-weight:700;background:var(--red);color:#fff;padding:9px 16px;border-radius:10px}@media (max-width:600px){.go{display:block;text-align:center;font-size:18px;padding:14px 16px;margin-top:6px;box-shadow:0 2px 0 rgba(0,0,0,.18)}}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(--red);margin:28px 0 8px}
 .more{display:flex;flex-wrap:wrap;gap:8px}.more a{text-decoration:none;font-weight:700;padding:8px 14px;border-radius:999px;background:#FFF3D1;color:var(--deep)}
@@ -490,6 +491,39 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 def simple(slug, title, h1, body):
     return page(slug, title, h1, "", [], extra=body).replace('<ul class="deals"><li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li></ul>', "").replace('<p class="intro"></p>', "")
 
+from articles import ARTICLES
+_ALL = {x.get("asin"): x for x in data["deals"] if x.get("asin")}
+_LIVE = {x.get("asin"): x for x in DEALS if x.get("asin")}
+
+def article(a):
+    cards, n = "", 0
+    for h2, sub, picks in a["sections"]:
+        cards += f'<h2>{e(h2)}</h2><p class="topsub">Idéal {e(sub)}.</p><ol class="art" start="{n+1}">'
+        for asin, txt in picks:
+            d = _ALL.get(asin)
+            if not d: continue
+            n += 1
+            live = _LIVE.get(asin)
+            pct = f'<span class="cd">-{live["pct"]} % au moment de notre vérification</span>' if live and live.get("live") and live.get("pct") else ""
+            cards += (f'<li class="deal"><div><p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{pct}<p>{e(txt)}</p>'
+                      f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+        cards += '</ol>'
+    intro = "".join(f"<p>{e(x)}</p>" for x in a["intro"])
+    tips = '<h2>Nos conseils avant de commander</h2><ul>' + "".join(f"<li>{e(t)}</li>" for t in a["tips"]) + '</ul>'
+    faq = '<h2>Questions fréquentes</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(r)}</p>" for q, r in a["faq"])
+    links = '<h2>À voir aussi</h2><p class="more">' + "".join(f'<a href="{u}">{e(t)}</a>' for u, t in a["links"]) + '</p>'
+    ld = [{"@context":"https://schema.org","@type":"Article","headline":a["h1"],"description":a["desc"],"datePublished":a["date"],"dateModified":str(NOW.date()),
+           "inLanguage":"fr-CA","mainEntityOfPage":f'{DOMAIN}/{a["slug"]}/',"author":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/"},
+           "publisher":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/"},"image":DOMAIN+"/couverture.jpg"},
+          {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":r}} for q, r in a["faq"]]},
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":DOMAIN+"/"},{"@type":"ListItem","position":2,"name":"Idées cadeaux","item":DOMAIN+"/idees-cadeaux/"},{"@type":"ListItem","position":3,"name":a["h1"],"item":f'{DOMAIN}/{a["slug"]}/'}]}]
+    body = (f'<p class="small"><a href="/">Accueil</a> › <a href="/idees-cadeaux/">Idées cadeaux</a> › Guide</p>'
+            f'<p class="note">{e(DISCLOSURE)} Les rabais changent souvent : vérifie toujours le prix final sur Amazon.ca.</p>{intro}{cards}{tips}{faq}{links}')
+    html = page(a["slug"], a["title"], a["h1"], a["desc"], [], extra=body)
+    html = html.replace('<ul class="deals"><li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li></ul>', "")
+    html = html.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
+    return html.replace('</head>', "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld) + '</head>', 1)
+
 def write(slug, content):
     p = OUT / slug / "index.html" if slug else OUT / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
@@ -515,7 +549,7 @@ def main():
             extra = '<h2>🛒 Les rabais épicerie du moment</h2><p class="more"><a href="' + e(_u) + '" target="_blank" rel="sponsored nofollow noopener">Voir tous les deals épicerie de 20 % à 40 %</a></p>' + extra
         if slug == "idees-cadeaux":
             extra = ('<h2>🎁 Trouve le cadeau parfait</h2><div class="idg">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/"><b>{x[4][0][0]}</b><span>{e(x[2])}</span><small>{len(x[4])} idées + les rabais du moment</small></a>' for x in GUIDES)
-                     + '</div><h2>Par budget, directement sur Amazon.ca</h2><div class="idg">'
+                     + '</div><h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p><h2>Par budget, directement sur Amazon.ca</h2><div class="idg">'
                      + "".join(f'<a href="{e(sp("cadeau", hi, lo))}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{t}</span><small>Livraison Prime</small></a>' for i,t,lo,hi in [("💵","Moins de 25 $",None,25),("💰","25 $ à 50 $",25,50),("💎","50 $ à 100 $",50,100),("👑","100 $ et plus",100,None)])
                      + '</div>' + extra)
         if slug == "halloween":
@@ -531,11 +565,13 @@ def main():
             extra = (LEA + season_banner() + topblock + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = items[:8]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
+                     '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
                      '<h2>Voir tous les deals par thème</h2><p class="more">' + "".join(f'<a href="/{sl}/">{e(n)}</a>' for sl, n in NAV if sl and sl not in ("vendredi-fou",)) + '</p>')
         write(slug, page(slug, title, h1, intro, items, extra, after, [] if slug == "" else STORE_CAT.get(slug, []))); urls.append(slug)
     for g, title, h1, intro, tiles, f, brands in GUIDES:
         slug = f"idees-cadeaux/{g}"
-        extra = ('<h2>Nos idées</h2><div class="idg">' + "".join(f'<a href="{e(sp(q, hi))}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(w)}</small></a>' for i,t,w,q,hi in tiles)
+        _arts = [a for a in ARTICLES if any(u == f"/idees-cadeaux/{g}/" for u, _ in a["links"])]
+        extra = ("".join(f'<p class="seas" style="display:block"><a href="/{a["slug"]}/" style="color:#fff;font-weight:700">📖 Notre guide : {e(a["h1"])} →</a></p>' for a in _arts) + '<h2>Nos idées</h2><div class="idg">' + "".join(f'<a href="{e(sp(q, hi))}" target="_blank" rel="sponsored nofollow noopener"><b>{i}</b><span>{e(t)}</span><small>{e(w)}</small></a>' for i,t,w,q,hi in tiles)
                  + '</div><p class="small">Les liens ouvrent une recherche Amazon.ca avec livraison Prime' + (", filtrée par prix" if any(t[4] for t in tiles) else "") + '.</p>'
                  + '<h2>Les autres guides</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES if x[0] != g) + '</p><h2>Les rabais du moment pour ce guide</h2>')
         items = order([d for d in DEALS if f(d)])
@@ -551,6 +587,8 @@ def main():
         "<p>Quand tu cliques sur un lien vers Amazon.ca, Amazon peut utiliser des témoins pour attribuer l'achat, selon sa propre politique de confidentialité.</p>"
         "<p>Si tu t'inscris à notre infolettre, ton adresse courriel sert seulement à t'envoyer nos aubaines. Tu peux te désabonner en tout temps avec le lien présent dans chaque courriel. Pour toute question sur tes renseignements personnels, écris-nous sur Messenger.</p>"
         f"<p>Dernière mise à jour : {TODAY}.</p>")); urls.append("confidentialite")
+    for a in ARTICLES:
+        write(a["slug"], article(a)); urls.append(a["slug"])
     (OUT / "CNAME").write_text("rabaisflashqc.ca\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
