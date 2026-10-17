@@ -5482,6 +5482,46 @@
    "live": true,
    "added": "2026-10-17",
    "rate": 0.07
+  },
+  {
+   "r": 0.995,
+   "badge": "",
+   "added": "2026-10-17",
+   "cat": "homme",
+   "asin": "B0CBWVDKVW",
+   "brand": "Milwaukee Leather",
+   "name": "Chemise en flanelle de coton à carreaux pour homme",
+   "why": "Amazon l'affiche à son prix le plus bas en 90 jours. Plusieurs couleurs. 4,6 étoiles (650 avis).",
+   "price": 53.26,
+   "rate": 0.06
+  },
+  {
+   "r": 0.996,
+   "badge": "",
+   "added": "2026-10-17",
+   "cat": "homme",
+   "asin": "B08YKDQ91Y",
+   "brand": "Lee",
+   "name": "Pantalon Extreme Comfort coupe droite pour homme",
+   "why": "98 % coton, extensible. Prix bas pendant 90 jours. 4,4 étoiles (23 093 avis).",
+   "price": 37.78,
+   "rate": 0.06,
+   "pct": 37,
+   "amzPct": 37,
+   "flag": "Prix bas pendant 90 jours",
+   "live": true
+  },
+  {
+   "r": 0.997,
+   "badge": "",
+   "added": "2026-10-17",
+   "cat": "femme",
+   "asin": "B0FX3GYJZL",
+   "brand": "The North Face",
+   "name": "Antora, manteau imperméable et respirant pour femme",
+   "why": "Capuchon 3 pièces, poches zippées. Amazon l'affiche à son prix le plus bas en 30 jours. 4,7 étoiles (589 avis).",
+   "price": 111.98,
+   "rate": 0.06
   }
  ],
  "stores": {
