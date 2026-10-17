@@ -466,7 +466,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <link rel="canonical" href="{url}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(intro[:155])}">
 <meta property="og:url" content="{url}"><meta property="og:type" content="website"><meta property="og:locale" content="fr_CA">
-<meta property="og:image" content="{DOMAIN}/couverture.png">
+<meta property="og:image" content="{DOMAIN}/couverture.jpg"><meta property="og:image:width" content="1640"><meta property="og:image:height" content="924"><meta property="og:site_name" content="Rabais Flash QC"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#C1121F">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 160'%3E%3Cpath d='M62 0 L8 92 L44 92 L28 160 L94 58 L58 58 L78 0 Z' fill='%23C1121F'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@500;700&display=swap">
