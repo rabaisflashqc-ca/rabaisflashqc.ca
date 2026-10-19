@@ -5758,6 +5758,58 @@
    "rate": 0.06,
    "badge": "",
    "added": "2026-10-19"
+  },
+  {
+   "r": 0.9992,
+   "cat": "beaute",
+   "asin": "B0CQRT8H61",
+   "brand": "Amala",
+   "name": "Skin Perfecting, sérum de nuit aux AHA pour le visage, 28,3 g",
+   "why": "Exfolie en douceur pendant la nuit. Prix bas pendant 90 jours. 5 étoiles (seulement 2 avis).",
+   "price": 58.93,
+   "rate": 0.06,
+   "badge": "",
+   "added": "2026-10-19",
+   "pct": 23,
+   "amzPct": 23,
+   "flag": "Prix bas pendant 90 jours",
+   "live": true
+  },
+  {
+   "r": 0.9993,
+   "cat": "beaute",
+   "asin": "B00017XYNM",
+   "brand": "Dior",
+   "name": "J'adore, eau de parfum pour femme, 50 ml",
+   "why": "Le grand classique floral de Dior. Prix bas pendant 90 jours. Non retournable, temporairement en rupture (commande possible). 4,5 étoiles (2 408 avis).",
+   "price": 109.5,
+   "rate": 0.06,
+   "badge": "",
+   "added": "2026-10-19"
+  },
+  {
+   "r": 0.9994,
+   "cat": "beaute",
+   "asin": "B07V6HPQMY",
+   "brand": "Londo",
+   "name": "Trousse à cosmétiques ou à crayons en cuir véritable, rouge",
+   "why": "Fermeture éclair, belle idée cadeau. Amazon l'affiche à son prix le plus bas en 90 jours. 4,6 étoiles (966 avis).",
+   "price": 19.31,
+   "rate": 0.05,
+   "badge": "",
+   "added": "2026-10-19"
+  },
+  {
+   "r": 0.9994999999999999,
+   "cat": "beaute",
+   "asin": "B08L4VBH2Z",
+   "brand": "KIKO Milano",
+   "name": "Trousse de beauté transparente avec pochette intérieure, fuchsia",
+   "why": "Pratique en voyage. 4,6 étoiles (291 avis).",
+   "price": 29.24,
+   "rate": 0.07,
+   "badge": "",
+   "added": "2026-10-19"
   }
  ],
  "stores": {
