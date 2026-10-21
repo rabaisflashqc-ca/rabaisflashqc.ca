@@ -4315,7 +4315,9 @@
    "badge": "",
    "live": true,
    "added": "2026-10-21",
-   "rate": 0.04
+   "rate": 0.04,
+   "top": 2,
+   "top_until": "2026-10-23T16:00:00Z"
   },
   {
    "r": 0.852,
@@ -4875,9 +4877,7 @@
    "amzPct": 35,
    "price": 62.0,
    "flag": "Prix le plus bas en 30 jours",
-   "live": true,
-   "top": 5,
-   "top_until": "2026-10-19T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.921,
@@ -4893,9 +4893,7 @@
    "amzPct": 46,
    "price": 77.38,
    "flag": "Prix bas pendant 365 jours",
-   "live": true,
-   "top": 2,
-   "top_until": "2026-10-19T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.922,
@@ -4944,9 +4942,7 @@
    "amzPct": 40,
    "price": 399.99,
    "flag": "Prix le plus bas en 30 jours",
-   "live": true,
-   "top": 4,
-   "top_until": "2026-10-19T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.925,
@@ -4962,9 +4958,7 @@
    "amzPct": 42,
    "price": 229.98,
    "flag": "Offre à durée limitée",
-   "live": true,
-   "top": 3,
-   "top_until": "2026-10-19T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.926,
@@ -5223,9 +5217,7 @@
    "price": 46.4,
    "flag": "Offre éclair",
    "live": true,
-   "until": "2026-10-18T07:15:00Z",
-   "top": 1,
-   "top_until": "2026-10-19T16:00:00Z"
+   "until": "2026-10-18T07:15:00Z"
   },
   {
    "r": 0.946,
@@ -5645,7 +5637,9 @@
    "pct": 40,
    "amzPct": 40,
    "flag": "Prix bas pendant 90 jours",
-   "live": true
+   "live": true,
+   "top": 4,
+   "top_until": "2026-10-23T16:00:00Z"
   },
   {
    "r": 0.9988,
@@ -5873,7 +5867,9 @@
    "flag": "Offre à durée limitée",
    "live": true,
    "rate": 0.06,
-   "added": "2026-10-21"
+   "added": "2026-10-21",
+   "top": 1,
+   "top_until": "2026-10-23T16:00:00Z"
   },
   {
    "r": 0.99958,
@@ -5971,7 +5967,9 @@
    "flag": "Offre à durée limitée",
    "live": true,
    "rate": 0.06,
-   "added": "2026-10-21"
+   "added": "2026-10-21",
+   "top": 3,
+   "top_until": "2026-10-23T16:00:00Z"
   },
   {
    "r": 0.9997,
@@ -6036,7 +6034,9 @@
    "flag": "Offre à durée limitée",
    "live": true,
    "rate": 0.06,
-   "added": "2026-10-21"
+   "added": "2026-10-21",
+   "top": 5,
+   "top_until": "2026-10-23T16:00:00Z"
   },
   {
    "r": 0.99978,
