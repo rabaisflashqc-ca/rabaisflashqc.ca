@@ -4316,8 +4316,8 @@
    "live": true,
    "added": "2026-10-21",
    "rate": 0.04,
-   "top": 2,
-   "top_until": "2026-10-23T16:00:00Z"
+   "top": 3,
+   "top_until": "2026-10-26T16:00:00Z"
   },
   {
    "r": 0.852,
@@ -5637,9 +5637,7 @@
    "pct": 40,
    "amzPct": 40,
    "flag": "Prix bas pendant 90 jours",
-   "live": true,
-   "top": 4,
-   "top_until": "2026-10-23T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.9988,
@@ -5868,8 +5866,8 @@
    "live": true,
    "rate": 0.06,
    "added": "2026-10-21",
-   "top": 1,
-   "top_until": "2026-10-23T16:00:00Z"
+   "top": 5,
+   "top_until": "2026-10-26T16:00:00Z"
   },
   {
    "r": 0.99958,
@@ -5968,8 +5966,8 @@
    "live": true,
    "rate": 0.06,
    "added": "2026-10-21",
-   "top": 3,
-   "top_until": "2026-10-23T16:00:00Z"
+   "top": 4,
+   "top_until": "2026-10-26T16:00:00Z"
   },
   {
    "r": 0.9997,
@@ -6034,9 +6032,7 @@
    "flag": "Offre à durée limitée",
    "live": true,
    "rate": 0.06,
-   "added": "2026-10-21",
-   "top": 5,
-   "top_until": "2026-10-23T16:00:00Z"
+   "added": "2026-10-21"
   },
   {
    "r": 0.99978,
@@ -6070,6 +6066,42 @@
    "rate": 0.06,
    "added": "2026-10-21",
    "until": "2026-10-22T06:30:00Z"
+  },
+  {
+   "r": 0.99995,
+   "cat": "maison",
+   "asin": "B0CPFBBHP4",
+   "pct": 51,
+   "amzPct": 51,
+   "brand": "eufy",
+   "name": "X10 Pro Omni, robot aspirateur et laveur 8 000 Pa, vidage et remplissage automatiques",
+   "why": "Évite les obstacles par IA, relève les vadrouilles sur les tapis. Plus de 200 achetés le mois dernier. Choix d'Amazon, 4,2 étoiles (13 200 avis).",
+   "price": 639.99,
+   "flag": "Offre à durée limitée",
+   "live": true,
+   "badge": "",
+   "added": "2026-10-23",
+   "rate": 0.06,
+   "top": 2,
+   "top_until": "2026-10-26T16:00:00Z"
+  },
+  {
+   "r": 0.999951,
+   "cat": "tech",
+   "asin": "B0FHJ8XWWL",
+   "pct": 43,
+   "amzPct": 43,
+   "brand": "Ring",
+   "name": "Sonnette à batterie Ring 2K (nouveau modèle), gris moucheté",
+   "why": "Vision 2K grand angle, audio bidirectionnel. #1 meilleure vente, plus de 5 000 achetés le mois dernier. 4,0 étoiles (420 avis).",
+   "price": 79.99,
+   "flag": "Offre à durée limitée",
+   "live": true,
+   "badge": "",
+   "added": "2026-10-23",
+   "rate": 0.04,
+   "top": 1,
+   "top_until": "2026-10-26T16:00:00Z"
   }
  ],
  "stores": {
