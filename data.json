@@ -4657,17 +4657,17 @@
    "r": 0.888,
    "cat": "enfants",
    "asin": "B0FLKLJDS8",
-   "pct": 30,
-   "amzPct": 30,
    "brand": "Oral-B",
    "name": "iO Kids, brosse à dents électrique rechargeable, Stitch",
-   "why": "Capteur de pression, minuterie musicale, 28 jours d'autonomie. Choix d'Amazon, 4,5 étoiles (267 avis).",
+   "why": "Capteur de pression, minuterie musicale. Plus de 1 000 achetés le mois dernier. Choix d'Amazon, 4,4 étoiles (278 avis).",
    "price": 62.99,
-   "flag": "Offre Prime",
    "badge": "",
-   "live": true,
-   "added": "2026-10-16",
-   "rate": 0.03
+   "added": "2026-10-26",
+   "rate": 0.06,
+   "pct": 30,
+   "amzPct": 30,
+   "flag": "Offre à durée limitée",
+   "live": true
   },
   {
    "r": 0.889,
@@ -6075,9 +6075,7 @@
    "live": true,
    "badge": "",
    "added": "2026-10-23",
-   "rate": 0.06,
-   "top": 5,
-   "top_until": "2026-10-26T16:00:00Z"
+   "rate": 0.06
   },
   {
    "r": 0.999951,
@@ -6093,9 +6091,7 @@
    "live": true,
    "badge": "",
    "added": "2026-10-23",
-   "rate": 0.04,
-   "top": 3,
-   "top_until": "2026-10-26T16:00:00Z"
+   "rate": 0.04
   },
   {
    "r": 0.999999,
@@ -6111,9 +6107,7 @@
    "flag": "Offre à durée limitée",
    "live": true,
    "rate": 0.04,
-   "added": "2026-10-23",
-   "top": 2,
-   "top_until": "2026-10-26T16:00:00Z"
+   "added": "2026-10-23"
   },
   {
    "r": 0.9999990999999999,
@@ -6226,8 +6220,8 @@
    "live": true,
    "rate": 0.04,
    "added": "2026-10-23",
-   "top": 1,
-   "top_until": "2026-10-26T16:00:00Z"
+   "top": 2,
+   "top_until": "2026-10-29T16:00:00Z"
   },
   {
    "r": 0.9999997999999996,
@@ -6323,9 +6317,7 @@
    "flag": "Offre à durée limitée",
    "live": true,
    "rate": 0.04,
-   "added": "2026-10-23",
-   "top": 4,
-   "top_until": "2026-10-26T16:00:00Z"
+   "added": "2026-10-23"
   },
   {
    "r": 0.9999995,
@@ -6406,6 +6398,138 @@
    "live": true,
    "rate": 0.06,
    "added": "2026-10-23"
+  },
+  {
+   "r": 0.99999999,
+   "asin": "B08QY3N85N",
+   "badge": "",
+   "cat": "enfants",
+   "brand": "Pampers",
+   "name": "Swaddlers, 186 couches taille 2",
+   "why": "#1 meilleure vente en bébé, plus de 1 000 achetés le mois dernier. 4,6 étoiles (68 880 avis).",
+   "price": 32.25,
+   "rate": 0.03,
+   "added": "2026-10-26",
+   "pct": 38,
+   "amzPct": 38,
+   "flag": "Offre à durée limitée",
+   "live": true,
+   "top": 1,
+   "top_until": "2026-10-29T16:00:00Z"
+  },
+  {
+   "r": 0.9999999909999999,
+   "asin": "B0971DMXW7",
+   "badge": "",
+   "cat": "homme",
+   "brand": "The North Face",
+   "name": "Thermoball Traction Mule V, pantoufles d'hiver isolées pour homme, camouflage",
+   "why": "Déperlantes, semelle en caoutchouc. #1 meilleure vente. Prix le plus bas en 30 jours. 4,6 étoiles (4 637 avis).",
+   "price": 71.24,
+   "rate": 0.06,
+   "added": "2026-10-26",
+   "pct": 21,
+   "amzPct": 21,
+   "flag": "Prix le plus bas en 30 jours",
+   "live": true
+  },
+  {
+   "r": 0.9999999919999999,
+   "asin": "B09QMRNL86",
+   "badge": "",
+   "cat": "tech",
+   "brand": "Roku",
+   "name": "Streaming Stick 4K, avec télécommande vocale",
+   "why": "4K, HDR et Dolby Vision, Wi-Fi longue portée. Plus de 1 000 achetés le mois dernier. Choix d'Amazon, 4,6 étoiles (4 239 avis).",
+   "price": 49.98,
+   "rate": 0.05,
+   "added": "2026-10-26",
+   "pct": 29,
+   "amzPct": 29,
+   "flag": "Offre à durée limitée",
+   "live": true,
+   "top": 4,
+   "top_until": "2026-10-29T16:00:00Z"
+  },
+  {
+   "r": 0.9999999929999999,
+   "asin": "B0CCT9WT93",
+   "badge": "",
+   "cat": "femme",
+   "brand": "Skechers",
+   "name": "Go Run Consistent 2.0, espadrilles de course pour femme, blanc et argent",
+   "why": "#1 meilleure vente. Prix bas pendant 365 jours. 4,5 étoiles (2 485 avis).",
+   "price": 49.98,
+   "rate": 0.06,
+   "added": "2026-10-26",
+   "pct": 28,
+   "amzPct": 28,
+   "flag": "Prix bas pendant 365 jours",
+   "live": true,
+   "top": 5,
+   "top_until": "2026-10-29T16:00:00Z"
+  },
+  {
+   "r": 0.9999999939999998,
+   "asin": "B0HJRNB37R",
+   "badge": "",
+   "cat": "beaute",
+   "brand": "Shark",
+   "name": "FlexStyle IonCurl, sèche-cheveux et coiffeur 4 en 1, lilas",
+   "why": "Livraison entre le 6 novembre et le 14 décembre. 4,8 étoiles (seulement 9 avis).",
+   "price": 299.99,
+   "rate": 0.06,
+   "added": "2026-10-26",
+   "pct": 25,
+   "amzPct": 25,
+   "flag": "Offre à durée limitée",
+   "live": true
+  },
+  {
+   "r": 0.9999999949999998,
+   "asin": "B0HHDYNZD5",
+   "badge": "",
+   "cat": "homme",
+   "brand": "FUITFEURY",
+   "name": "Rasoir électrique en aluminium pour homme, étanche IPX7",
+   "why": "Autonomie de 90 minutes, charge USB-C. 5 étoiles (seulement 26 avis).",
+   "price": 49.99,
+   "rate": 0.02,
+   "added": "2026-10-26"
+  },
+  {
+   "r": 0.9999999959999998,
+   "asin": "B003ADVR3S",
+   "badge": "",
+   "cat": "jouets",
+   "brand": "KidKraft",
+   "name": "Maison de poupée Chelsea en bois, 19 meubles inclus",
+   "why": "3 étages, pour 3 ans et plus. Belle idée pour Noël. 4,4 étoiles (11 549 avis).",
+   "price": 112.22,
+   "rate": 0.03,
+   "added": "2026-10-26",
+   "pct": 34,
+   "amzPct": 34,
+   "flag": "Offre à durée limitée",
+   "live": true,
+   "top": 3,
+   "top_until": "2026-10-29T16:00:00Z"
+  },
+  {
+   "r": 0.9999999969999998,
+   "asin": "B0CTKJCN9D",
+   "badge": "",
+   "cat": "jouets",
+   "brand": "Enesco",
+   "name": "Figurine Disney Le Roi Lion, Pride Rock, par Jim Shore",
+   "why": "Résine peinte à la main, 22,9 cm. Prix bas pendant 365 jours. Choix d'Amazon, 4,7 étoiles (60 avis).",
+   "price": 120.0,
+   "rate": 0.03,
+   "added": "2026-10-26",
+   "pct": 21,
+   "amzPct": 21,
+   "flag": "Prix bas pendant 365 jours",
+   "live": true
   }
  ],
  "stores": {
