@@ -277,6 +277,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .cd{display:inline-block;margin:0 0 6px;padding:3px 10px;border-radius:999px;background:#FFE3E6;color:#8E0B16;font-weight:700;font-size:14px}.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 12px;font-weight:700;color:var(--deep)}.share a,.share button{font:inherit;font-size:15px;font-weight:700;text-decoration:none;border-radius:999px;padding:6px 14px;border:2px solid var(--deep);background:#fff;color:var(--deep);cursor:pointer}
 .art{list-style:none;margin:0;padding:0}.art .deal{display:block}
 .follow{position:relative;margin:12px 0 14px;padding:14px 14px 10px;border-radius:20px;background:linear-gradient(135deg,#FFF3C4,#FFE08A);border:3px dashed #C1121F;text-align:center}.follow .fh{margin:0;font-family:Anton,Impact,sans-serif;font-size:24px;line-height:1.05;color:#8E0B16}.follow .fs{margin:4px 0 10px;font-weight:600;font-size:16px;color:#5a2a00}.fbtn{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.stk{display:flex;align-items:center;gap:10px;min-width:150px;flex:1 1 150px;max-width:260px;padding:12px 12px;border-radius:16px;color:#fff;text-decoration:none;text-align:left;box-shadow:0 4px 0 rgba(0,0,0,.25),0 8px 18px rgba(0,0,0,.18);transition:transform .15s}.stk svg{flex:none;width:30px;height:30px}.stk b{display:block;font-size:18px;line-height:1.05;white-space:nowrap}.stk small{display:block;font-size:13px;opacity:.95;font-weight:600}.stk.fb{background:#1877F2;transform:rotate(-2deg)}.stk.ig{background:linear-gradient(45deg,#F58529,#DD2A7B 45%,#8134AF 75%,#515BD4);transform:rotate(2deg)}.stk:hover,.stk:focus{transform:rotate(0) scale(1.05)}@media (prefers-reduced-motion:no-preference){.stk.fb{animation:wob 3.5s ease-in-out infinite}.stk.ig{animation:wob2 3.5s 1.7s ease-in-out infinite}}@keyframes wob{0%,85%,100%{transform:rotate(-2deg)}90%{transform:rotate(-2deg) scale(1.07)}}@keyframes wob2{0%,85%,100%{transform:rotate(2deg)}90%{transform:rotate(2deg) scale(1.07)}}@media (max-width:420px){.stk{padding:11px 10px;gap:8px}.stk b{font-size:15.5px}.stk svg{width:26px;height:26px}}.shopb{display:block;width:fit-content;margin:12px auto 0;padding:8px 16px;border-radius:999px;background:#232F3E;color:#fff;font-weight:700;font-size:15px;text-decoration:none;border-bottom:3px solid #FF9900}.fms{display:block;margin-top:10px;font-weight:700;font-size:14px;color:#0067d6}
+.brands{margin:18px 0;padding:16px;border-radius:20px;background:linear-gradient(135deg,#FFF0F5,#FFF7E0);border:2px solid #F7B6C8}.brands h2{margin:0 0 4px;color:#8E0B16}.btg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}@media (max-width:420px){.bt span{font-size:13px;padding:4px 9px}.bt b{font-size:16px}}@media (min-width:760px){.btg{grid-template-columns:repeat(4,1fr)}}.bt{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:14px 8px;border-radius:16px;background:#fff;text-decoration:none;color:var(--ink);box-shadow:0 3px 0 rgba(193,18,31,.18);border:2px solid #fff;transition:transform .15s,border-color .15s}.bt:hover,.bt:focus{transform:translateY(-3px);border-color:var(--red)}.bt i{font-style:normal;font-size:34px;line-height:1}.bt b{font-size:18px;text-align:center}.bt span{white-space:nowrap;margin-top:6px;font-size:14px;font-weight:700;color:#fff;background:var(--red);border-radius:999px;padding:4px 12px}.bt::after{content:'OFFRES';position:absolute;top:-8px;right:4px;background:#FFC72C;color:#8E0B16;font-size:11px;font-weight:800;padding:2px 7px;border-radius:999px;transform:rotate(8deg)}
 .go{display:inline-block;text-decoration:none;font-weight:700;background:var(--red);color:#fff;padding:9px 16px;border-radius:10px}@media (max-width:600px){.go{display:block;text-align:center;font-size:18px;padding:14px 16px;margin-top:6px;box-shadow:0 2px 0 rgba(0,0,0,.18)}}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(--red);margin:28px 0 8px}
 .more{display:flex;flex-wrap:wrap;gap:8px}.more a{text-decoration:none;font-weight:700;padding:8px 14px;border-radius:999px;background:#FFF3D1;color:var(--deep)}
@@ -531,6 +532,32 @@ def article(a):
     html = html.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
     return html.replace('</head>', "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld) + '</head>', 1)
 
+# Marques chouchous : liens vers « Toutes les remises » d'Amazon.ca (mis à jour par Amazon en continu)
+_T = "&tag=" + TAG
+BRANDS = [
+ ("💄","L'Oréal Paris","beaute","https://www.amazon.ca/-/fr/s?k=l%27or%C3%A9al&rh=p_n_deal_type%3A23565508011%2Cp_85%3A5690392011%2Cp_123%3A665212"+_T),
+ ("💋","Maybelline","beaute","https://www.amazon.ca/s?k=Maybelline&rh=p_n_deal_type%3A23565508011"+_T),
+ ("🌿","Garnier","beaute","https://www.amazon.ca/s?k=Garnier&rh=p_85%3A5690392011%2Cp_n_deal_type%3A23565508011"+_T),
+ ("✨","e.l.f.","beaute",STORES.get("e.l.f.","https://www.amazon.ca/-/fr/s?k=elf&rh=p_85%3A5690392011%2Cp_n_deal_type%3A23565508011"+_T)),
+ ("🌹","Lancôme","beaute",STORES["Lancôme"]),
+ ("🤍","Clarins","beaute",STORES["Clarins"]),
+ ("🧴","La Roche-Posay","beaute",STORES["La Roche-Posay"]),
+ ("💧","Neutrogena","beaute","https://www.amazon.ca/-/fr/s?k=Neutrogena&rh=p_n_deal_type%3A23565508011%2Cp_72%3A11192170011"+_T),
+ ("🌸","Olay","beaute","https://www.amazon.ca/-/fr/s?k=Olay&rh=p_85%3A5690392011%2Cp_72%3A11192170011%2Cp_123%3A195696%2Cp_n_deal_type%3A23565508011"+_T),
+ ("🍳","Ninja","maison","https://www.amazon.ca/-/fr/s?k=ninja&rh=p_n_deal_type%3A23565508011%2Cp_123%3A391646%2Cp_85%3A5690392011"+_T),
+ ("🦈","Shark","maison",STORES.get("Shark","https://www.amazon.ca/-/fr/s?k=shark&rh=p_n_deal_type%3A23565508011%2Cp_85%3A5690392011"+_T)),
+ ("🌀","Dyson","maison","https://www.amazon.ca/-/fr/s?k=Dyson&rh=p_n_deal_type%3A23565508011%2Cp_85%3A5690392011"+_T),
+ ("☕","Nespresso","maison",STORES.get("Nespresso","https://www.amazon.ca/s?k=Nespresso&rh=p_n_deal_type%3A23565508011"+_T)),
+ ("🧥","Columbia","mode","https://www.amazon.ca/s?k=Columbia&rh=p_n_deal_type%3A23565508011%2Cp_85%3A5690392011%2Cp_123%3A232621"+_T),
+ ("🏔️","The North Face","mode","https://www.amazon.ca/s?k=The+North+Face&rh=p_85%3A5690392011%2Cp_n_deal_type%3A23565508011%2Cp_123%3A196635"+_T),
+ ("👟","Skechers","mode","https://www.amazon.ca/-/fr/s?k=Skechers&rh=p_n_deal_type%3A23565508011"+_T),
+]
+def brand_block(only=None, title="💖 Les marques chouchous des Québécoises"):
+    items = [b for b in BRANDS if only is None or b[2] in only]
+    tiles = "".join(f'<a class="bt" href="{e(u)}" target="_blank" rel="sponsored nofollow noopener"><i>{ic}</i><b>{e(n)}</b><span>Voir les rabais →</span></a>' for ic, n, _, u in items)
+    return (f'<section class="brands"><h2>{title}</h2><p class="topsub">Un clic et tu vois <b>toutes leurs offres du moment</b> sur Amazon.ca, mises à jour par Amazon en continu.</p>'
+            f'<div class="btg">{tiles}</div></section>')
+
 def write(slug, content):
     p = OUT / slug / "index.html" if slug else OUT / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
@@ -551,6 +578,8 @@ def main():
         brands = [b for b in STORE_CAT.get(slug, []) if b in STORES]
         if brands:
             extra = '<h2>Les boutiques de tes marques préférées</h2><p class="more">' + "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in brands) + "</p><h2>Les deals du moment</h2>"
+        if slug in ("beaute", "maison", "mode"):
+            extra = brand_block({slug}, "💖 Les rabais de tes marques préférées") + extra
         if slug == "epicerie":
             _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
             extra = '<h2>🛒 Les rabais épicerie du moment</h2><p class="more"><a href="' + e(_u) + '" target="_blank" rel="sponsored nofollow noopener">Voir tous les deals épicerie de 20 % à 40 %</a></p>' + extra
@@ -569,7 +598,7 @@ def main():
             if hw and datetime.date.today().month == 10:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (LEA + season_banner() + topblock + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (LEA + season_banner() + topblock + brand_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = items[:8]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
