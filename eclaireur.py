@@ -2,11 +2,11 @@
 """Éclaireur : lit les Hot Deals Amazon.ca de RedFlagDeals (dealer_id=775) et propose les meilleurs.
 
 Ne touche pas à Amazon. Ne publie rien sur le site : il prépare une liste à valider par Alex
-(docs/pack-du-jour/eclaireur.html et eclaireur.json). Une requête par page, avec une pause polie.
+(suivi/eclaireur.html et eclaireur.json). Une requête par page, avec une pause polie.
 """
 import json, re, time, html, datetime, pathlib, urllib.parse, urllib.request
 ROOT = pathlib.Path(__file__).parent
-OUT = ROOT / "docs" / "pack-du-jour"
+OUT = ROOT / "suivi"; OUT.mkdir(exist_ok=True)
 BASE = "https://forums.redflagdeals.com"
 LIST = BASE + "/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7"  # meilleurs scores, 7 derniers jours
 LIST_NEW = BASE + "/hot-deals-f9/?dealer_id=775"  # plus récents

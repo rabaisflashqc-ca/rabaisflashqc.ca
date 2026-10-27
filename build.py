@@ -681,20 +681,20 @@ def rfd_block(cats=None):
     if not L: return ""
     MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
     def card(x):
-        tag = f'<div class="tag">-{x["pct"]}%<small>signalé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
+        tag = f'<div class="tag">-{x["pct"]}%<small>observé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
         s = datetime.datetime.fromisoformat(x.get("posted") or x["seen"]).astimezone(datetime.timezone(datetime.timedelta(hours=-4)))
         when = f'{s.day} {MO[s.month-1]} à {s.hour} h {s.minute:02d}'
         px = ""
         if x.get("price"):
             px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
-                  f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix signalé le {when} sur RedFlagDeals</small></p>')
-        stats = f'🔥 {x.get("votes") or 0} votes' + (f' · 💬 {x["posts"]} commentaires' if x.get("posts") else "")
+                  f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix observé le {when}</small></p>')
+        stats = '🔥 Deal du moment'
         return (f'<li class="deal" data-until="{x["until"]}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
                 f'<h3>{e(x["title"])}</h3>{px}<p class="why">Les prix bougent vite : vérifie le prix final sur Amazon.ca.</p>'
                 f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
     li = "".join(card(x) for x in L[:10])
-    return ('<section class="topbox" aria-label="Repérés par la communauté"><h2>⚡ Les deals à saisir maintenant</h2>'
-            '<p class="topsub">Les aubaines Amazon.ca les plus votées par les chasseurs de deals canadiens. Elles partent vite!</p>'
+    return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
+            '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
 
 def write(slug, content):
