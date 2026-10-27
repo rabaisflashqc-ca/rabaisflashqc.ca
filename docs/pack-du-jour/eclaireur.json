@@ -1,35 +1,31 @@
 {
- "date": "2026-10-27T08:48-04:00",
+ "date": "2026-10-27T08:50-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    26,
    26
   ],
-  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   1,
-   1
-  ],
-  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   1,
-   1
-  ],
-  "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   1,
-   1
-  ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
-   0,
-   0
+   44,
+   33
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
-   0,
-   0
+   44,
+   44
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44
   ],
-  "avant_filtre_date": 45,
+  "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
+   44,
+   44
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
+   44,
+   44
+  ],
+  "avant_filtre_date": 147,
   "apres_filtre_date": 11
  },
  "items": [
