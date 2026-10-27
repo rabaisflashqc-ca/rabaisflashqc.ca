@@ -76,20 +76,23 @@ def main():
     log, items = [], []
     pages = [LIST] + [LIST.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3, 4)] \
             + [LIST_NEW] + [LIST_NEW.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3)]
-    th, seen = [], set()
+    th, seen, stats = [], set(), {}
     for i, u in enumerate(pages):
         try:
             pg = get(u)
             if i == 0: (ROOT / "rfd_debug.html").write_text(pg[:400000])
-            for t in threads(pg):
+            got = threads(pg); stats[u] = [len(got), sum(1 for t in got if t["url"] not in seen)]
+            for t in got:
                 if t["url"] not in seen and (t["votes"] or 0) >= 0:
                     seen.add(t["url"]); th.append(t)
         except Exception as ex:
-            print("Page RFD inaccessible :", u, ex)
+            stats[u] = str(ex); print("Page RFD inaccessible :", u, ex)
         time.sleep(1.5)
     if not th: print("Aucun fil lu."); return
     cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=7)).isoformat()
+    stats["avant_filtre_date"] = len(th)
     th = [t for t in th if not t["time"] or t["time"] >= cutoff]
+    stats["apres_filtre_date"] = len(th)
     th.sort(key=lambda t: -(t["votes"] or 0))
     print("Fils trouvés :", len(th))
     first = True
@@ -106,7 +109,7 @@ def main():
                       "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known})
     items.sort(key=lambda x: -(x["votes"] if x["votes"] is not None else -999))
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
-    (OUT / "eclaireur.json").write_text(json.dumps({"date": now.isoformat(timespec="minutes"), "items": items}, ensure_ascii=False, indent=1))
+    (OUT / "eclaireur.json").write_text(json.dumps({"date": now.isoformat(timespec="minutes"), "stats": stats, "items": items}, ensure_ascii=False, indent=1))
     rows = "".join(
         f'<li class="{"d" if x["deja"] else ""}"><b class="v">{x["votes"] if x["votes"] is not None else "?"}</b>'
         f'<div><p class="t">{html.escape(x["title"])}</p><p class="m">{(str(x["price"]) + " $ (avant " + str(x["was"]) + " $, -" + str(x["pct"]) + " %) · ") if x.get("pct") else ""}ASIN {x["asin"]}{" · déjà sur le site" if x["deja"] else ""}</p>'
