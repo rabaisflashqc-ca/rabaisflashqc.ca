@@ -1,5 +1,37 @@
 {
- "date": "2026-10-27T08:44-04:00",
+ "date": "2026-10-27T08:48-04:00",
+ "stats": {
+  "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
+   26,
+   26
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
+   1,
+   1
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
+   1,
+   1
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
+   1,
+   1
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
+   0,
+   0
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
+   0,
+   0
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
+   44,
+   44
+  ],
+  "avant_filtre_date": 45,
+  "apres_filtre_date": 11
+ },
  "items": [
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-craftsman-hi-vis-tape-measure-8m-26-ft-pack-2-15-98-48-off-2829902/",
@@ -74,6 +106,21 @@
    "pct": 41,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0H2P3TQGW?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
+   "title": "X-Sense Wi-Fi Water Leak Detector Kit $56.69",
+   "price": 56.69,
+   "was": 62.99,
+   "votes": 2,
+   "posts": 4,
+   "time": "2026-10-26T15:52:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
+   "asin": "B0DFCMJH5L",
+   "pct": 10,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
