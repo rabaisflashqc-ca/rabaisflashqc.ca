@@ -470,8 +470,37 @@ LEA = ('<aside class="lea"><div class="ph"><img src="/lea.jpg" alt="Léa de Raba
        '<div><p><b>Salut, moi c\'est Léa de Rabais Flash QC!</b>Chaque jour, on te montre les rabais Amazon.ca qui valent le coup, triés par thème.</p>'
        '<a href="/a-propos/#choix">Comment on choisit nos deals →</a></div></aside>')
 
+def _attrait(d):
+    """Score pour attirer le clic : gros rabais, offre éclair (urgence), volume d'acheteurs, avis, commission."""
+    pct = d.get("amzPct") or d.get("pct") or 0
+    score = pct if d.get("live") else 0
+    score += 20 if d.get("until") else 0
+    score += min(_bought(d) / 100, 30) + min(_reviews(d) / 2000, 15)
+    score += min((d.get("price") or 0) * rate(d) * 1.5, 30)
+    return score
+
+def _vary(items):
+    """Évite deux fois la même marque de suite (et trois fois la même catégorie) dans une même journée d'ajout."""
+    out, pool = [], list(items)
+    while pool:
+        last = out[-1] if out else None
+        prev2 = out[-2:] if len(out) >= 2 else []
+        for i, d in enumerate(pool):
+            if d.get("added") != pool[0].get("added"): i = 0; break
+            if last and d["brand"] == last["brand"]: continue
+            if len(prev2) == 2 and all(p["cat"] == d["cat"] for p in prev2): continue
+            break
+        else:
+            i = 0
+        out.append(pool.pop(i))
+    return out
+
 def order(items):
-    return sorted(items, key=lambda d: (0 if d.get("live") else 1, -(d.get("amzPct") or d.get("pct") or 0), d["r"]))
+    """Les plus récents d'abord (dernières mises à jour), puis le plus attrayant en premier dans chaque journée.
+    Les coups de cœur sans rabais vérifié passent après les deals avec rabais."""
+    return _vary(sorted(items, key=lambda d: (0 if d.get("live") and (d.get("amzPct") or d.get("pct")) else 1,
+                                        "".join(chr(255 - ord(c)) for c in d.get("added", "0000-00-00")),
+                                        -_attrait(d), d["r"])))
 
 def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     url = f"{DOMAIN}/{slug + '/' if slug else ''}"
@@ -633,7 +662,7 @@ def main():
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
             extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
-            items = [x for x in items if x["cat"] != "halloween"][:8]
+            items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
                      '<h2>Voir tous les deals par thème</h2><p class="more">' + "".join(f'<a href="/{sl}/">{e(n)}</a>' for sl, n in NAV if sl and sl not in ("vendredi-fou",)) + '</p>')
