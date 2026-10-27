@@ -44,6 +44,7 @@ def main():
         lst = get(LIST)
     except Exception as ex:
         print("Liste RFD inaccessible :", ex); return
+    (ROOT / "rfd_debug.html").write_text(lst[:400000])
     th = threads(lst)
     print("Fils trouvés :", len(th))
     for url, title in th[:30]:
