@@ -1,29 +1,77 @@
 {
- "date": "2026-10-27T08:50-04:00",
+ "date": "2026-10-27T08:51-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    26,
-   26
+   26,
+   [
+    "2026-10-20T23:45:11+00:00",
+    "2026-10-21T00:41:23+00:00"
+   ],
+   [
+    "2026-10-27T12:21:33+00:00",
+    "2026-10-27T12:26:05+00:00"
+   ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   33
+   33,
+   [
+    "2026-10-13T15:16:26+00:00",
+    "2026-10-13T21:08:43+00:00"
+   ],
+   [
+    "2026-10-27T12:21:33+00:00",
+    "2026-10-27T12:26:05+00:00"
+   ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   44
+   44,
+   [
+    "2026-10-07T04:58:27+00:00",
+    "2026-10-07T11:54:40+00:00"
+   ],
+   [
+    "2026-10-13T12:55:18+00:00",
+    "2026-10-13T13:39:34+00:00"
+   ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   44
+   44,
+   [
+    "2026-10-06T13:04:45+00:00",
+    "2026-10-06T13:04:53+00:00"
+   ],
+   [
+    "2026-10-07T04:43:18+00:00",
+    "2026-10-07T04:58:17+00:00"
+   ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   44
+   44,
+   [
+    "2026-09-28T15:16:35+00:00",
+    "2026-09-28T15:52:53+00:00"
+   ],
+   [
+    "2026-10-06T12:59:33+00:00",
+    "2026-10-06T13:00:14+00:00"
+   ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   44
+   44,
+   [
+    "2026-09-15T15:19:20+00:00",
+    "2026-09-15T15:23:27+00:00"
+   ],
+   [
+    "2026-09-27T14:50:07+00:00",
+    "2026-09-28T13:05:03+00:00"
+   ]
   ],
   "avant_filtre_date": 147,
   "apres_filtre_date": 11
@@ -132,6 +180,21 @@
    "pct": 19,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0GL6Y54XY?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
+   "title": "Anker Soundcore P20i Wireless Earbuds, Bluetooth 5.3, 10mm Drivers & 30-Hour Battery Life $29.99",
+   "price": 29.99,
+   "was": 39.99,
+   "votes": 1,
+   "posts": 9,
+   "time": "2026-10-26T19:35:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
+   "asin": "B0BTYCJXBK",
+   "pct": 25,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BTYCJXBK?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
