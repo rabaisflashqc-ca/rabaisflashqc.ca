@@ -74,12 +74,14 @@ def votes(page):
 def main():
     known = {d.get("asin") for d in json.loads((ROOT / "data.json").read_text())["deals"]}
     log, items = [], []
-    pages = [LIST] + [LIST.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3, 4)] \
-            + [LIST_NEW] + [LIST_NEW.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3)]
+    pages = [LIST] + [LIST_NEW] + [LIST_NEW.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3, 4, 5)]
     th, seen, stats = [], set(), {}
     for i, u in enumerate(pages):
         try:
             pg = get(u)
+            for essai in range(3):  # RFD renvoie parfois une page vide quand on va trop vite
+                if threads(pg): break
+                time.sleep(8); pg = get(u)
             if i == 0: (ROOT / "rfd_debug.html").write_text(pg[:400000])
             got = threads(pg); stats[u] = [len(got), sum(1 for t in got if t["url"] not in seen)]
             for t in got:
@@ -87,7 +89,7 @@ def main():
                     seen.add(t["url"]); th.append(t)
         except Exception as ex:
             stats[u] = str(ex); print("Page RFD inaccessible :", u, ex)
-        time.sleep(1.5)
+        time.sleep(3)
     if not th: print("Aucun fil lu."); return
     cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=7)).isoformat()
     stats["avant_filtre_date"] = len(th)
