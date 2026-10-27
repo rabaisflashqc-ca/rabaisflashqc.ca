@@ -622,6 +622,29 @@ def brand_block(only=None, title="💖 Les marques chouchous des Québécoises")
     return (f'<section class="brands"><h2>{title}</h2><p class="topsub">Un clic et tu vois <b>toutes leurs offres du moment</b> sur Amazon.ca, mises à jour par Amazon en continu.</p>'
             f'<div class="btg">{tiles}</div></section>')
 
+# Pages « Toutes les remises » d'Amazon.ca par rayon (Amazon les tient à jour, aucun scan)
+_DF = "rh=p_n_deal_type%3A23565508011"
+DEALCATS = [
+ ("💄","Beauté","beaute","https://www.amazon.ca/-/fr/s?i=beauty&"+_DF+_T),
+ ("🏠","Maison et cuisine","maison","https://www.amazon.ca/-/fr/s?i=kitchen&"+_DF+_T),
+ ("🎧","Tech et audio","tech","https://www.amazon.ca/-/fr/s?i=electronics&"+_DF+_T),
+ ("👗","Mode","mode","https://www.amazon.ca/-/fr/s?i=fashion&"+_DF+_T),
+ ("🧸","Jouets","enfants","https://www.amazon.ca/-/fr/s?i=toys&"+_DF+_T),
+ ("👶","Bébé","enfants","https://www.amazon.ca/-/fr/s?i=baby&"+_DF+_T),
+ ("🏕️","Sports et plein air","plein-air","https://www.amazon.ca/-/fr/s?i=sporting&"+_DF+_T),
+ ("🛠️","Outils","plein-air","https://www.amazon.ca/-/fr/s?i=tools&"+_DF+_T),
+ ("🐶","Animaux","animaux","https://www.amazon.ca/-/fr/s?i=pets&"+_DF+_T),
+ ("🛒","Épicerie","epicerie","https://www.amazon.ca/-/fr/s?i=grocery&"+_DF+_T),
+ ("⚡","Offres éclair du jour","","https://www.amazon.ca/-/fr/deals?tag="+TAG),
+]
+def dealcat_block(only=None):
+    items = [x for x in DEALCATS if only is None or x[2] in only]
+    if not items: return ""
+    tiles = "".join(f'<a class="bt" href="{e(u)}" target="_blank" rel="sponsored nofollow noopener"><i>{ic}</i><b>{e(n)}</b><span>Voir les offres →</span></a>' for ic, n, _, u in items)
+    t = "🔥 Toutes les offres Amazon par rayon" if only is None else "🔥 Toutes les offres du rayon sur Amazon.ca"
+    return (f'<section class="brands"><h2>{t}</h2><p class="topsub">Les rabais officiels d\'Amazon.ca, <b>mis à jour en continu</b>. Un clic et tu vois tout ce qui est en solde.</p>'
+            f'<div class="btg">{tiles}</div></section>')
+
 def rfd_block(cats=None):
     try: L = json.loads((ROOT / "rfd.json").read_text())
     except Exception: return ""
@@ -676,7 +699,7 @@ def main():
             extra = brand_block({slug}, "💖 Les rabais de tes marques préférées") + extra
         _rc = {"enfants": {"enfants"}, "plein-air": {"plein-air"}, "tech": {"tech"}, "animaux": {"animaux"}, "epicerie": {"epicerie"},
                "beaute": {"beaute"}, "maison": {"maison"}, "mode": {"mode"}}.get(slug)
-        if _rc: extra = rfd_block(_rc) + extra
+        if _rc: extra = rfd_block(_rc) + dealcat_block(_rc) + extra
         if slug == "epicerie":
             _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
             extra = '<h2>🛒 Les rabais épicerie du moment</h2><p class="more"><a href="' + e(_u) + '" target="_blank" rel="sponsored nofollow noopener">Voir tous les deals épicerie de 20 % à 40 %</a></p>' + extra
@@ -695,7 +718,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
