@@ -103,6 +103,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
 <ul>{rows}</ul><p style="color:#888;font-size:13px">{len(items)} deals avec lien Amazon sur {len(th)} fils lus.</p></body></html>""")
     # Publication autonome : les plus votés, prix et rabais signalés (datés et attribués), valables 24 h
     def clean(t):
+        t = re.sub(r"\[?\(?\bamazon(\.ca)?\b\)?\]?\s*[-:|]?", "", t, flags=re.I)
         t = re.sub(r"\$\s?\d[\d,.]*|\d[\d,.]*\s?\$|\d+\s?%\s*(off|de rabais)?|\(.*?\)|\[.*?\]", "", t, flags=re.I)
         t = re.sub(r"\b(save|saves|lowest ever|historical low|price drop on|price drop|ymmv|deal|just|only|now|min \d+|amazon)\b", "", t, flags=re.I)
         return re.sub(r"\s*[-–:|,…]+\s*$", "", re.sub(r"\s{2,}", " ", t)).strip(" -–:|,")
@@ -110,7 +111,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
             "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
             "seen": now.isoformat(timespec="minutes"),
             "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")}
-           for x in items if not x["deja"] and (x["votes"] or 0) >= 3][:8]
+           for x in items if not x["deja"] and (x["votes"] or 0) >= 3 and not re.search(r"hallowe", x["title"], re.I)][:8]
     old = []
     try: old = json.loads((ROOT / "rfd.json").read_text())
     except Exception: pass
