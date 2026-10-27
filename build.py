@@ -452,17 +452,39 @@ def top5():
             out.append(x); cats.add(x["cat"])
             if len(out) == n: break
         return out
-    cats = set()
-    volume = pick([x for x in live if x["price"] <= 60 and (_bought(x) >= 100 or _reviews(x) >= 1000)], 3,
-                  lambda x: (-_bought(x), -_reviews(x), -x["pct"]), cats)
-    ids = {id(x) for x in volume}
-    comm = pick([x for x in live if id(x) not in ids and x["pct"] >= 20 and (_reviews(x) >= 100 or _bought(x) >= 50)], 2,
-                lambda x: -(x["price"] * rate(x)), cats)
-    picks = [volume[0]] if volume else []
-    rest_v, rest_c = volume[1:], comm[:]
-    while rest_v or rest_c:
-        if rest_c: picks.append(rest_c.pop(0))
-        if rest_v: picks.append(rest_v.pop(0))
+    # Rotation : à chaque mise à jour (matin, après-midi, soir), on change les vedettes pour l'effet de nouveauté.
+    # Dans une même période, la sélection reste stable. Au changement de période, on écarte les vedettes précédentes.
+    try: _tz = datetime.timezone(datetime.timedelta(hours=-(4 if 3 <= datetime.datetime.now(datetime.timezone.utc).month <= 10 else 5)))
+    except Exception: _tz = datetime.timezone.utc
+    _loc = datetime.datetime.now(_tz)
+    slot = f"{_loc:%Y-%m-%d}-" + ("m" if _loc.hour < 11 else "a" if _loc.hour < 17 else "s")
+    sf = ROOT / "top_state.json"
+    try: st = json.loads(sf.read_text())
+    except Exception: st = {}
+    def build_picks(excl):
+        cats = set()
+        volume = pick([x for x in live if x["asin"] not in excl and x["price"] <= 60 and (_bought(x) >= 100 or _reviews(x) >= 1000)], 3,
+                      lambda x: (-_bought(x), -_reviews(x), -x["pct"]), cats)
+        ids = {id(x) for x in volume}
+        comm = pick([x for x in live if x["asin"] not in excl and id(x) not in ids and x["pct"] >= 20 and (_reviews(x) >= 100 or _bought(x) >= 50)], 2,
+                    lambda x: -(x["price"] * rate(x)), cats)
+        out = [volume[0]] if volume else []
+        rv, rc = volume[1:], comm[:]
+        while rv or rc:
+            if rc: out.append(rc.pop(0))
+            if rv: out.append(rv.pop(0))
+        return out
+    by = {x["asin"]: x for x in live}
+    if st.get("slot") == slot and all(a in by for a in st.get("asins", [])) and len(st.get("asins", [])) >= 5:
+        picks = [by[a] for a in st["asins"]]
+    else:
+        prev = set(st.get("asins", [])) if st.get("slot") != slot else set(st.get("prev", []))
+        picks = build_picks(prev)
+        if len(picks) < 5:  # pas assez de nouveautés : on complète avec le classement normal
+            have = {x["asin"] for x in picks}
+            picks += [x for x in build_picks(set()) if x["asin"] not in have][:5 - len(picks)]
+        try: sf.write_text(json.dumps({"slot": slot, "asins": [x["asin"] for x in picks[:5]], "prev": sorted(prev)}, ensure_ascii=False))
+        except Exception: pass
     # sélection à la main : `top` = rang (1 à 5), valable jusqu'à `top_until` (UTC), peu importe le prix
     _now = datetime.datetime.now(datetime.timezone.utc)
     manual = sorted([x for x in live if isinstance(x.get("top"), int) and x.get("top_until")
