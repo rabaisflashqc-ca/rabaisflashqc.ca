@@ -1,0 +1,26 @@
+name: Éclaireur RedFlagDeals
+# Chaque matin vers 6 h (heure du Québec) : liste des deals Amazon.ca les plus votés sur RFD, à valider par Alex.
+on:
+  schedule:
+    - cron: "5 10 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: deals
+  cancel-in-progress: false
+jobs:
+  eclaireur:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 eclaireur.py
+      - name: Publier la liste
+        run: |
+          git config user.name "Rabais Flash QC"
+          git config user.email "rabaisflashqc-ca@users.noreply.github.com"
+          git add docs/pack-du-jour/eclaireur.html docs/pack-du-jour/eclaireur.json
+          git diff --cached --quiet || (git commit -m "Éclaireur du matin" && git pull --rebase && git push)
