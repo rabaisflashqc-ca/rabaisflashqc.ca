@@ -278,6 +278,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .art{list-style:none;margin:0;padding:0}.art .deal{display:block}
 .follow{position:relative;margin:12px 0 14px;padding:14px 14px 10px;border-radius:20px;background:linear-gradient(135deg,#FFF3C4,#FFE08A);border:3px dashed #C1121F;text-align:center}.follow .fh{margin:0;font-family:Anton,Impact,sans-serif;font-size:24px;line-height:1.05;color:#8E0B16}.follow .fs{margin:4px 0 10px;font-weight:600;font-size:16px;color:#5a2a00}.fbtn{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.stk{display:flex;align-items:center;gap:10px;min-width:150px;flex:1 1 150px;max-width:260px;padding:12px 12px;border-radius:16px;color:#fff;text-decoration:none;text-align:left;box-shadow:0 4px 0 rgba(0,0,0,.25),0 8px 18px rgba(0,0,0,.18);transition:transform .15s}.stk svg{flex:none;width:30px;height:30px}.stk b{display:block;font-size:18px;line-height:1.05;white-space:nowrap}.stk small{display:block;font-size:13px;opacity:.95;font-weight:600}.stk.fb{background:#1877F2;transform:rotate(-2deg)}.stk.ig{background:linear-gradient(45deg,#F58529,#DD2A7B 45%,#8134AF 75%,#515BD4);transform:rotate(2deg)}.stk:hover,.stk:focus{transform:rotate(0) scale(1.05)}@media (prefers-reduced-motion:no-preference){.stk.fb{animation:wob 3.5s ease-in-out infinite}.stk.ig{animation:wob2 3.5s 1.7s ease-in-out infinite}}@keyframes wob{0%,85%,100%{transform:rotate(-2deg)}90%{transform:rotate(-2deg) scale(1.07)}}@keyframes wob2{0%,85%,100%{transform:rotate(2deg)}90%{transform:rotate(2deg) scale(1.07)}}@media (max-width:420px){.stk{padding:11px 10px;gap:8px}.stk b{font-size:15.5px}.stk svg{width:26px;height:26px}}.shopb{display:block;width:fit-content;margin:12px auto 0;padding:8px 16px;border-radius:999px;background:#232F3E;color:#fff;font-weight:700;font-size:15px;text-decoration:none;border-bottom:3px solid #FF9900}.fms{display:block;margin-top:10px;font-weight:700;font-size:14px;color:#0067d6}
 .brands{margin:18px 0;padding:16px;border-radius:20px;background:linear-gradient(135deg,#FFF0F5,#FFF7E0);border:2px solid #F7B6C8}.brands h2{margin:0 0 4px;color:#8E0B16}.btg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}@media (max-width:420px){.bt span{font-size:13px;padding:4px 9px}.bt b{font-size:16px}}@media (min-width:760px){.btg{grid-template-columns:repeat(4,1fr)}}.bt{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:14px 8px;border-radius:16px;background:#fff;text-decoration:none;color:var(--ink);box-shadow:0 3px 0 rgba(193,18,31,.18);border:2px solid #fff;transition:transform .15s,border-color .15s}.bt:hover,.bt:focus{transform:translateY(-3px);border-color:var(--red)}.bt i{font-style:normal;font-size:34px;line-height:1}.bt b{font-size:18px;text-align:center}.bt span{white-space:nowrap;margin-top:6px;font-size:14px;font-weight:700;color:#fff;background:var(--red);border-radius:999px;padding:4px 12px}.bt::after{content:'OFFRES';position:absolute;top:-8px;right:4px;background:#FFC72C;color:#8E0B16;font-size:11px;font-weight:800;padding:2px 7px;border-radius:999px;transform:rotate(8deg)}
+.px{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:2px 0 6px}.px s{color:#8a8a8a;font-size:16px}.px b{color:var(--red);font-size:24px;font-weight:800}.px span{background:#FFC72C;color:#8E0B16;font-weight:800;border-radius:8px;padding:1px 8px;font-size:15px}.px small{flex-basis:100%;color:var(--muted);font-size:13px}
 .go{display:inline-block;text-decoration:none;font-weight:700;background:var(--red);color:#fff;padding:9px 16px;border-radius:10px}@media (max-width:600px){.go{display:block;text-align:center;font-size:18px;padding:14px 16px;margin-top:6px;box-shadow:0 2px 0 rgba(0,0,0,.18)}}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:var(--red);margin:28px 0 8px}
 .more{display:flex;flex-wrap:wrap;gap:8px}.more a{text-decoration:none;font-weight:700;padding:8px 14px;border-radius:999px;background:#FFF3D1;color:var(--deep)}
@@ -337,6 +338,20 @@ def mix(items, brands, every=3):
     out += [store_html(b) for b in brands[bi:]]
     return "".join(out)
 
+_MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
+def _jour(iso):
+    try: t = datetime.date.fromisoformat(iso); return f"{t.day} {_MO[t.month-1]}"
+    except Exception: return "récemment"
+def _money(v): return f"{v:,.2f} $".replace(",", " ").replace(".", ",")
+def _old_price(price, pct):
+    """Prix d'avant recalculé depuis le prix et le % affichés par Amazon, arrondi au prix rond le plus proche (x,99 ou x,95)."""
+    raw = price / (1 - pct / 100)
+    for c in (0.99, 0.95, 0.98, 0.00):
+        cand = int(raw) + c if c else round(raw)
+        for k in (cand, cand - 1, cand + 1):
+            if k > price and abs(k - raw) <= max(0.35, raw * 0.006): return round(k, 2)
+    return round(raw, 2)
+
 def deal_html(d):
     pct = d.get("amzPct") or d.get("pct")
     if d.get("live") and pct:
@@ -353,6 +368,12 @@ def deal_html(d):
     if d.get("badge") == "canada": badges.append("🍁 Marque canadienne")
     b = f'<p class="badges">{"".join(f"<span>{e(x)}</span>" for x in badges)}</p>' if badges else ""
     why = f'<p class="why">{e(d["why"])}</p>' if d.get("why") else ""
+    prix = ""
+    if d.get("live") and pct and d.get("price"):
+        avant = _money(d["was"]) if d.get("was") else "env. " + f'{round(d["price"] / (1 - pct / 100)):,} $'.replace(",", " ")
+        prix = (f'<p class="px"><s>{avant}</s> <b>{_money(d["price"])}</b>'
+                f'<span>-{pct} %</span><small>prix observé le {_jour(d.get("added"))}</small></p>')
+    why = prix + why
     until = f' data-until="{d["until"]}"' if d.get("until") else ""
     if d.get("price"): until += f' data-price="{d["price"]}"'
     return (f'<li class="deal"{until}>{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
