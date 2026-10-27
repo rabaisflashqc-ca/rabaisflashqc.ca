@@ -73,13 +73,19 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
 <h1>🔎 Éclaireur du matin</h1><p>Deals Amazon.ca les plus votés sur RedFlagDeals, {now:%d/%m à %H h %M}. Le chiffre rouge = votes de la communauté.<br>
 <b>À faire :</b> ouvre ceux qui t'intéressent, fais une capture et envoie-la pour confirmer le rabais avant qu'il aille sur le site.</p>
 <ul>{rows}</ul><p style="color:#888;font-size:13px">{len(items)} deals avec lien Amazon sur {len(th)} fils lus.</p></body></html>""")
-    # Publication autonome : les plus votés, nettoyés (sans prix ni %), valables 48 h
+    # Publication autonome : les plus votés, prix et rabais signalés (datés et attribués), valables 24 h
     def clean(t):
         t = re.sub(r"\$\s?\d[\d,.]*|\d[\d,.]*\s?\$|\d+\s?%\s*(off|de rabais)?|\(.*?\)|\[.*?\]", "", t, flags=re.I)
         t = re.sub(r"\b(save|saves|lowest ever|historical low|price drop on|price drop|ymmv|deal|just|only|now|min \d+|amazon)\b", "", t, flags=re.I)
         return re.sub(r"\s*[-–:|,…]+\s*$", "", re.sub(r"\s{2,}", " ", t)).strip(" -–:|,")
+    def nums(t):
+        p = re.search(r"\$\s?(\d[\d,]*(?:\.\d{1,2})?)|(\d[\d,]*(?:\.\d{1,2})?)\s?\$", t)
+        q = re.search(r"(\d{1,2})\s?%", t)
+        price = float((p.group(1) or p.group(2)).replace(",", "")) if p else None
+        return price, (int(q.group(1)) if q else None)
     pub = [{"asin": x["asin"], "title": clean(x["title"]), "votes": x["votes"], "rfd": x["rfd"],
-            "until": (now + datetime.timedelta(hours=48)).isoformat(timespec="minutes")}
+            "price": nums(x["title"])[0], "pct": nums(x["title"])[1], "seen": now.isoformat(timespec="minutes"),
+            "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")}
            for x in items if not x["deja"] and (x["votes"] or 0) >= 5][:8]
     old = []
     try: old = json.loads((ROOT / "rfd.json").read_text())

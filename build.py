@@ -565,9 +565,17 @@ def rfd_block():
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if datetime.datetime.fromisoformat(x["until"]) > now and x.get("title")]
     if not L: return ""
-    li = "".join(f'<li class="deal"><div class="tag" aria-hidden="true">🔥</div><div><p class="badges"><span>{x.get("votes") or ""} votes de la communauté</span></p>'
-                 f'<h3>{e(x["title"])}</h3><p class="why">Repéré ce jour par les chasseurs de deals canadiens. Vérifie le prix et le rabais actuels sur Amazon.ca.</p>'
-                 f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>' for x in L[:8])
+    MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
+    def card(x):
+        tag = f'<div class="tag">-{x["pct"]}%<small>signalé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
+        s = datetime.datetime.fromisoformat(x["seen"])
+        when = f'{s.day} {MO[s.month-1]} à {s.hour} h {s.minute:02d}'
+        pr = (f'{x["price"]:,.2f} $'.replace(",", " ").replace(".", ",")) if x.get("price") else ""
+        obs = f'<p class="why"><b>{"Prix signalé : " + pr + " · " if pr else ""}</b>observé sur RedFlagDeals le {when}. Les prix bougent vite : vérifie le prix final sur Amazon.ca.</p>'
+        return (f'<li class="deal" data-until="{x["until"]}">{tag}<div><p class="badges"><span>🔥 {x.get("votes") or ""} votes de la communauté</span></p>'
+                f'<h3>{e(x["title"])}</h3>{obs}'
+                f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+    li = "".join(card(x) for x in L[:8])
     return ('<section class="topbox" aria-label="Repérés par la communauté"><h2>🔥 Les plus votés par les chasseurs de deals</h2>'
             '<p class="topsub">Les aubaines Amazon.ca qui font jaser en ce moment au Canada. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
