@@ -559,6 +559,19 @@ def brand_block(only=None, title="💖 Les marques chouchous des Québécoises")
     return (f'<section class="brands"><h2>{title}</h2><p class="topsub">Un clic et tu vois <b>toutes leurs offres du moment</b> sur Amazon.ca, mises à jour par Amazon en continu.</p>'
             f'<div class="btg">{tiles}</div></section>')
 
+def rfd_block():
+    try: L = json.loads((ROOT / "rfd.json").read_text())
+    except Exception: return ""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    L = [x for x in L if datetime.datetime.fromisoformat(x["until"]) > now and x.get("title")]
+    if not L: return ""
+    li = "".join(f'<li class="deal"><div class="tag" aria-hidden="true">🔥</div><div><p class="badges"><span>{x.get("votes") or ""} votes de la communauté</span></p>'
+                 f'<h3>{e(x["title"])}</h3><p class="why">Repéré ce jour par les chasseurs de deals canadiens. Vérifie le prix et le rabais actuels sur Amazon.ca.</p>'
+                 f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>' for x in L[:8])
+    return ('<section class="topbox" aria-label="Repérés par la communauté"><h2>🔥 Les plus votés par les chasseurs de deals</h2>'
+            '<p class="topsub">Les aubaines Amazon.ca qui font jaser en ce moment au Canada. Elles partent vite!</p>'
+            f'<ul class="deals">{li}</ul></section>')
+
 def write(slug, content):
     p = OUT / slug / "index.html" if slug else OUT / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
@@ -599,7 +612,7 @@ def main():
             if hw and datetime.date.today().month == 10:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (LEA + season_banner() + topblock + brand_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = items[:8]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'

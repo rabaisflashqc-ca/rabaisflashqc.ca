@@ -73,6 +73,21 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
 <h1>🔎 Éclaireur du matin</h1><p>Deals Amazon.ca les plus votés sur RedFlagDeals, {now:%d/%m à %H h %M}. Le chiffre rouge = votes de la communauté.<br>
 <b>À faire :</b> ouvre ceux qui t'intéressent, fais une capture et envoie-la pour confirmer le rabais avant qu'il aille sur le site.</p>
 <ul>{rows}</ul><p style="color:#888;font-size:13px">{len(items)} deals avec lien Amazon sur {len(th)} fils lus.</p></body></html>""")
+    # Publication autonome : les plus votés, nettoyés (sans prix ni %), valables 48 h
+    def clean(t):
+        t = re.sub(r"\$\s?\d[\d,.]*|\d[\d,.]*\s?\$|\d+\s?%\s*(off|de rabais)?|\(.*?\)|\[.*?\]", "", t, flags=re.I)
+        t = re.sub(r"\b(save|saves|lowest ever|historical low|price drop on|price drop|ymmv|deal|just|only|now|min \d+|amazon)\b", "", t, flags=re.I)
+        return re.sub(r"\s*[-–:|,…]+\s*$", "", re.sub(r"\s{2,}", " ", t)).strip(" -–:|,")
+    pub = [{"asin": x["asin"], "title": clean(x["title"]), "votes": x["votes"], "rfd": x["rfd"],
+            "until": (now + datetime.timedelta(hours=48)).isoformat(timespec="minutes")}
+           for x in items if not x["deja"] and (x["votes"] or 0) >= 5][:8]
+    old = []
+    try: old = json.loads((ROOT / "rfd.json").read_text())
+    except Exception: pass
+    keep = {o["asin"]: o for o in old if datetime.datetime.fromisoformat(o["until"]) > now}
+    for p in pub: keep.setdefault(p["asin"], p)
+    (ROOT / "rfd.json").write_text(json.dumps(list(keep.values())[:12], ensure_ascii=False, indent=1))
+    print(f"{len(pub)} publiés automatiquement, {len(keep)} en vitrine.")
     print(f"{len(items)} deals Amazon trouvés, {sum(not x['deja'] for x in items)} nouveaux.")
     for l in log[:5]: print("  ", l)
 
