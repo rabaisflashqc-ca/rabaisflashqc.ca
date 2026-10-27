@@ -4039,9 +4039,7 @@
    "badge": "",
    "live": true,
    "added": "2026-10-27",
-   "rate": 0.06,
-   "top": 1,
-   "top_until": "2026-10-30T16:00:00Z"
+   "rate": 0.06
   },
   {
    "r": 0.832,
@@ -6413,9 +6411,7 @@
    "pct": 38,
    "amzPct": 38,
    "flag": "Offre à durée limitée",
-   "live": true,
-   "top": 5,
-   "top_until": "2026-10-30T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.9999999909999999,
@@ -6684,9 +6680,7 @@
    "pct": 29,
    "amzPct": 29,
    "flag": "Offre à durée limitée",
-   "live": true,
-   "top": 4,
-   "top_until": "2026-10-30T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.99999999951,
@@ -6859,9 +6853,7 @@
    "pct": 34,
    "amzPct": 34,
    "flag": "Prix réduit",
-   "live": true,
-   "top": 3,
-   "top_until": "2026-10-30T16:00:00Z"
+   "live": true
   },
   {
    "r": 0.999999999991,
@@ -6933,9 +6925,7 @@
    "live": true,
    "rate": 0.06,
    "added": "2026-10-27",
-   "badge": "",
-   "top": 2,
-   "top_until": "2026-10-30T16:00:00Z"
+   "badge": ""
   },
   {
    "r": 0.9999999999991,

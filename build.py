@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Génère le site statique rabaisflashqc.ca à partir de data.json."""
-import json, html, os, datetime, pathlib, urllib.parse
+import re, json, html, os, datetime, pathlib, urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "docs"
@@ -249,7 +249,7 @@ PAGES = [
    "Tout pour être prêt le 31 octobre : costumes pour enfants et adultes, décorations, maquillage et bonbons en vrac, livrés vite avec Prime. Commande tôt, les tailles populaires partent vite!",
    lambda d: d["cat"] == "halloween" or d.get("hw"), [("Déguisements","halloween déguisement"),("Déco d'Halloween","halloween decor"),("Bonbons d'Halloween","halloween bonbons"),("Maquillage d'Halloween","halloween maquillage")]),
 ]
-NAV = [("", "Accueil"), ("halloween","🎃 Halloween"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("plein-air","Plein air"), ("tech","Tech"), ("animaux","Animaux")]
+NAV = [("", "Accueil"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("plein-air","Plein air"), ("tech","Tech"), ("animaux","Animaux")]
 
 CSS = """
 :root{--red:#C1121F;--deep:#8E0B16;--yel:#FFC72C;--ink:#1A1A1A;--muted:#5C5C5C;--line:#ECD7D9;--paper:#fff}
@@ -370,11 +370,9 @@ def clubbar():
 
 def season_banner(t=None):
     t = t or datetime.date.today(); m, d = t.month, t.day
-    if m == 10:
-        return ('<a class="hwcta" href="/halloween/"><div><strong>ENTRE DANS LA ZONE HALLOWEEN</strong><span>Costumes, déco, bonbons et maquillage. Commande tôt, ça part vite! 👻</span></div><em aria-hidden="true">🎃</em></a>')
     if (m == 11 and d >= 20) or (m == 12 and d <= 2):
         a = ("/vendredi-fou/", "C'EST LE VENDREDI FOU", "Les meilleurs deals du moment, au même endroit", "🔥")
-    elif m == 11:
+    elif m in (10, 11):
         a = ("/idees-cadeaux/", "NOËL APPROCHE", "Nos guides cadeaux par personne et par budget", "🎁")
     elif m == 12 and d <= 23:
         a = ("/idees-cadeaux/", "CADEAUX DE DERNIÈRE MINUTE", "Des idées livrées vite avec Prime", "🎁")
@@ -411,24 +409,38 @@ def savings(d):
     """Économie en dollars calculée à partir du prix affiché et du rabais affiché."""
     return round(_regular(d) - (d.get("price") or 0))
 
+def _num(pat, t):
+    m = re.search(pat, t or "")
+    return int(re.sub(r"\D", "", m.group(1))) if m else 0
+
+def _bought(x): return _num(r"[Pp]lus de ([\d\s ]+?)\s*achet", x.get("why"))
+def _reviews(x): return _num(r"\(([\d\s ]+) avis\)", x.get("why"))
+
 def top5():
-    """Top 5 du jour : 2 produits d'appel (petit prix ou gros rabais, pour le clic et le cookie de 24 h)
-    + 3 pépites à forte valeur (prix régulier d'environ 100 $ et plus, vraie promo, prix final de 65 à 100 $).
-    Une carte `top` posée à la main dans data.json garde la priorité dans sa famille."""
-    live = [x for x in DEALS if x.get("live") and x.get("pct") and x.get("why") and x.get("price")]
-    def pick(pool, n, key):
-        out, cats = [], set()
+    """Top 5 stratégique, recalculé à chaque mise à jour :
+    3 produits de VOLUME (petit prix, beaucoup d'acheteurs : faciles à vendre, déposent le cookie)
+    + 2 produits à FORTE COMMISSION (commission estimée la plus élevée, rabais réel, bien notés).
+    Une carte `top` posée à la main dans data.json garde la priorité."""
+    live = [x for x in DEALS if x.get("live") and x.get("pct") and x.get("why") and x.get("price")
+            and x["cat"] not in ("halloween", "epicerie") and x["pct"] >= 15]
+    def pick(pool, n, key, cats):
+        out = []
         for x in sorted(pool, key=key):
             if x["cat"] in cats: continue
             out.append(x); cats.add(x["cat"])
             if len(out) == n: break
         return out
-    appel_pool = [x for x in live if 5 <= x["price"] <= 25 and x["pct"] >= 25 and x["cat"] != "epicerie"]
-    appel = pick(appel_pool, 2, lambda x: (0 if x.get("top") else 1, -(x["pct"] + (15 if rate(x) >= 0.09 else 0))))
-    ids = {id(x) for x in appel}
-    val_pool = [x for x in live if id(x) not in ids and 65 <= x["price"] <= 90 and 20 <= x["pct"] <= 45 and _regular(x) >= 95 and x["cat"] not in ("epicerie", "halloween")]
-    valeur = pick(val_pool, 3, lambda x: (0 if x.get("top") else 1, -(rate(x) >= 0.06), -x["pct"], -x["price"]))
-    picks = appel + valeur
+    cats = set()
+    volume = pick([x for x in live if x["price"] <= 60 and (_bought(x) >= 100 or _reviews(x) >= 1000)], 3,
+                  lambda x: (-_bought(x), -_reviews(x), -x["pct"]), cats)
+    ids = {id(x) for x in volume}
+    comm = pick([x for x in live if id(x) not in ids and x["pct"] >= 20 and (_reviews(x) >= 100 or _bought(x) >= 50)], 2,
+                lambda x: -(x["price"] * rate(x)), cats)
+    picks = [volume[0]] if volume else []
+    rest_v, rest_c = volume[1:], comm[:]
+    while rest_v or rest_c:
+        if rest_c: picks.append(rest_c.pop(0))
+        if rest_v: picks.append(rest_v.pop(0))
     # sélection à la main : `top` = rang (1 à 5), valable jusqu'à `top_until` (UTC), peu importe le prix
     _now = datetime.datetime.now(datetime.timezone.utc)
     manual = sorted([x for x in live if isinstance(x.get("top"), int) and x.get("top_until")
@@ -576,8 +588,8 @@ def rfd_block():
                 f'<h3>{e(x["title"])}</h3>{obs}'
                 f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
     li = "".join(card(x) for x in L[:8])
-    return ('<section class="topbox" aria-label="Repérés par la communauté"><h2>🔥 Les plus votés par les chasseurs de deals</h2>'
-            '<p class="topsub">Les aubaines Amazon.ca qui font jaser en ce moment au Canada. Elles partent vite!</p>'
+    return ('<section class="topbox" aria-label="Repérés par la communauté"><h2>⚡ Les deals à saisir maintenant</h2>'
+            '<p class="topsub">Les aubaines Amazon.ca les plus votées par les chasseurs de deals canadiens. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
 
 def write(slug, content):
@@ -617,11 +629,11 @@ def main():
             pills = "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in HOME_STORES if b in STORES)
             hw = sorted([x for x in DEALS if x["cat"] == "halloween" and id(x) not in tids and x.get("live") and x.get("pct") and x.get("why")], key=lambda x: -x["pct"])[:4]
             hwblock = ""
-            if hw and datetime.date.today().month == 10:
+            if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
             extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
-            items = items[:8]
+            items = [x for x in items if x["cat"] != "halloween"][:8]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
                      '<h2>Voir tous les deals par thème</h2><p class="more">' + "".join(f'<a href="/{sl}/">{e(n)}</a>' for sl, n in NAV if sl and sl not in ("vendredi-fou",)) + '</p>')
