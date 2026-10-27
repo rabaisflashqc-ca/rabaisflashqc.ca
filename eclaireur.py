@@ -83,7 +83,7 @@ def main():
                 if threads(pg): break
                 time.sleep(8); pg = get(u)
             if i == 0: (ROOT / "rfd_debug.html").write_text(pg[:400000])
-            got = threads(pg); stats[u] = [len(got), sum(1 for t in got if t["url"] not in seen)]
+            got = threads(pg); stats[u] = [len(got), sum(1 for t in got if t["url"] not in seen), sorted(t["time"] or "" for t in got)[:2], sorted(t["time"] or "" for t in got)[-2:]]
             for t in got:
                 if t["url"] not in seen and (t["votes"] or 0) >= 0:
                     seen.add(t["url"]); th.append(t)
