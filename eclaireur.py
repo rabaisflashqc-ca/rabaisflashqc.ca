@@ -49,6 +49,22 @@ def threads(page):
                     "votes": num(v), "posts": num(p), "time": tm.group(1) if tm else None})
     return out
 
+CATS = [
+ ("animaux", r"\b(dog|cat|pet|chien|chat|litter|kibble|aquarium|leash)\b"),
+ ("beaute", r"\b(beauty|skin|serum|cream|moisturi[sz]er|retinol|makeup|mascara|lipstick|perfume|parfum|cologne|fragrance|shampoo|conditioner|hair|dryer|straightener|curling|razor|shaver|trimmer|toothbrush|sonicare|oral-b|waterpik|nail|cerave|olay|l'or[ée]al|maybelline|neutrogena|vitamin|supplement|protein)\b"),
+ ("enfants", r"\b(lego|toy|toys|kids?|baby|bébé|diaper|pampers|huggies|stroller|puzzle|playmobil|barbie|hot wheels|nerf|nintendo|switch|board game|jeu)\b"),
+ ("tech", r"\b(tv|monitor|laptop|tablet|ipad|iphone|samsung|galaxy|pixel|earbuds|headphones?|speaker|soundbar|charger|cable|usb|power bank|ssd|hdd|nas|router|wi-?fi|mouse|keyboard|camera|drone|gpu|cpu|ram|anker|ugreen|iniu|logitech|echo|kindle|fire tv|roku|smart|bluetooth|gaming|xbox|playstation|ps5)\b"),
+ ("plein-air", r"\b(tool|tools|drill|driver|wrench|socket|saw|dewalt|milwaukee|makita|ryobi|craftsman|klein|tape measure|garden|camping|tent|bike|bicycle|kayak|fishing|outdoor|ladder|car|tire|jump starter)\b"),
+ ("mode", r"\b(shoe|shoes|sneaker|boots?|jacket|coat|parka|hoodie|shirt|t-shirt|jeans|pants|socks|underwear|dress|bag|backpack|wallet|watch|sunglasses|levi'?s|columbia|north face|skechers|adidas|nike|under armour|crocs)\b"),
+ ("epicerie", r"\b(coffee beans|snack|chocolate|chips|bar|bars|cereal|tea|k-cup|kcup|candy|nuts|grocery|drink|water|sauce|food|clif|kirkland)\b"),
+ ("maison", r"\b(vacuum|robot|mop|air fryer|kettle|blender|coffee maker|espresso|nespresso|keurig|ninja|instant pot|pan|pot|knife|cookware|mattress|pillow|blanket|sheets|towel|detergent|laundry|cleaner|paper towel|toilet|fan|heater|humidifier|purifier|lamp|light|bulb|furniture|chair|desk|storage|organizer|kitchen|home)\b"),
+]
+def categorie(title):
+    t = title.lower()
+    for cat, pat in CATS:
+        if re.search(pat, t): return cat
+    return "maison"
+
 def votes(page):
     for pat in (r'class="[^"]*total_count[^"]*"[^>]*>\s*([+-]?\d+)', r'data-votes="([+-]?\d+)"', r'"votes"\s*:\s*([+-]?\d+)'):
         m = re.search(pat, page)
@@ -58,31 +74,35 @@ def votes(page):
 def main():
     known = {d.get("asin") for d in json.loads((ROOT / "data.json").read_text())["deals"]}
     log, items = [], []
-    try:
-        lst = get(LIST)
-    except Exception as ex:
-        print("Liste RFD inaccessible :", ex); return
-    (ROOT / "rfd_debug.html").write_text(lst[:400000])
-    th = threads(lst)
-    try:
-        time.sleep(1.5); seen = {t["url"] for t in th}
-        th += [t for t in threads(get(LIST_NEW)) if t["url"] not in seen and (t["votes"] or 0) >= 3]
-    except Exception as ex:
-        print("Liste récente inaccessible :", ex)
-    th.sort(key=lambda t: (t["time"] or "") >= (datetime.datetime.utcnow() - datetime.timedelta(days=2)).isoformat(), reverse=True)
+    pages = [LIST] + [LIST.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3, 4)] \
+            + [LIST_NEW] + [LIST_NEW.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3)]
+    th, seen = [], set()
+    for i, u in enumerate(pages):
+        try:
+            pg = get(u)
+            if i == 0: (ROOT / "rfd_debug.html").write_text(pg[:400000])
+            for t in threads(pg):
+                if t["url"] not in seen and (t["votes"] or 0) >= 0:
+                    seen.add(t["url"]); th.append(t)
+        except Exception as ex:
+            print("Page RFD inaccessible :", u, ex)
+        time.sleep(1.5)
+    if not th: print("Aucun fil lu."); return
+    cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=7)).isoformat()
+    th = [t for t in th if not t["time"] or t["time"] >= cutoff]
+    th.sort(key=lambda t: -(t["votes"] or 0))
     print("Fils trouvés :", len(th))
     first = True
-    for t in th[:30]:
-        time.sleep(1.5)
+    for t in th[:90]:
+        time.sleep(1.2)
         try: page = get(t["url"])
         except Exception as ex:
             log.append(f'{t["url"]} : {ex}'); continue
-        if first: (ROOT / "rfd_debug_thread.html").write_text(page[:300000]); first = False
         a = ASIN.search(unwrap(page))
         if not a: continue
         asin = a.group(1)
         pct = round((1 - t["price"] / t["was"]) * 100) if t["price"] and t["was"] and t["was"] > t["price"] else None
-        items.append({**t, "rfd": t["url"], "asin": asin, "pct": pct,
+        items.append({**t, "rfd": t["url"], "asin": asin, "pct": pct, "cat": categorie(t["title"]),
                       "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known})
     items.sort(key=lambda x: -(x["votes"] if x["votes"] is not None else -999))
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
@@ -108,17 +128,22 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
         t = re.sub(r"\$\s?\d[\d,.]*|\d[\d,.]*\s?\$|\d+\s?%\s*(off|de rabais)?|\(.*?\)|\[.*?\]", "", t, flags=re.I)
         t = re.sub(r"\b(save|saves|lowest ever|historical low|price drop on|price drop|ymmv|deal|just|only|now|min \d+|amazon)\b", "", t, flags=re.I)
         return re.sub(r"\s*[-–:|,…]+\s*$", "", re.sub(r"\s{2,}", " ", t)).strip(" -–:|,")
-    pub = [{"asin": x["asin"], "title": clean(x["title"]), "votes": x["votes"], "posts": x.get("posts"), "rfd": x["rfd"],
-            "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
-            "seen": now.isoformat(timespec="minutes"),
-            "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")}
-           for x in items if not x["deja"] and (x["votes"] or 0) >= 3 and not re.search(r"hallowe", x["title"], re.I)][:8]
+    PAR_CAT, TOTAL = 5, 40
+    cnt, pub = {}, []
+    for x in sorted(items, key=lambda x: (-(x["votes"] or 0), -(x.get("pct") or 0))):
+        if x["deja"] or re.search(r"hallowe", x["title"], re.I) or not x.get("price"): continue
+        if cnt.get(x["cat"], 0) >= PAR_CAT: continue
+        cnt[x["cat"]] = cnt.get(x["cat"], 0) + 1
+        pub.append({"asin": x["asin"], "title": clean(x["title"]), "cat": x["cat"], "votes": x["votes"], "posts": x.get("posts"),
+                    "rfd": x["rfd"], "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
+                    "seen": now.isoformat(timespec="minutes"), "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")})
+        if len(pub) >= TOTAL: break
+    print("Par catégorie :", cnt)
     old = []
     try: old = json.loads((ROOT / "rfd.json").read_text())
     except Exception: pass
-    keep = {o["asin"]: o for o in old if datetime.datetime.fromisoformat(o["until"]) > now}
-    for p in pub: keep.setdefault(p["asin"], p)
-    (ROOT / "rfd.json").write_text(json.dumps(list(keep.values())[:12], ensure_ascii=False, indent=1))
+    keep = {p["asin"]: p for p in pub}  # chaque passage remplace la vitrine par les données les plus fraîches
+    (ROOT / "rfd.json").write_text(json.dumps(list(keep.values()), ensure_ascii=False, indent=1))
     print(f"{len(pub)} publiés automatiquement, {len(keep)} en vitrine.")
     print(f"{len(items)} deals Amazon trouvés, {sum(not x['deja'] for x in items)} nouveaux.")
     for l in log[:5]: print("  ", l)

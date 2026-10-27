@@ -622,9 +622,15 @@ def brand_block(only=None, title="💖 Les marques chouchous des Québécoises")
     return (f'<section class="brands"><h2>{title}</h2><p class="topsub">Un clic et tu vois <b>toutes leurs offres du moment</b> sur Amazon.ca, mises à jour par Amazon en continu.</p>'
             f'<div class="btg">{tiles}</div></section>')
 
-def rfd_block():
+def rfd_block(cats=None):
     try: L = json.loads((ROOT / "rfd.json").read_text())
     except Exception: return ""
+    if cats: L = [x for x in L if x.get("cat") in cats]
+    else:  # accueil : les plus votés, 2 max par catégorie pour varier
+        n, keep = {}, []
+        for x in sorted(L, key=lambda x: -(x.get("votes") or 0)):
+            if n.get(x.get("cat"), 0) < 2: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
+        L = keep
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if datetime.datetime.fromisoformat(x["until"]) > now and x.get("title")]
     if not L: return ""
@@ -641,7 +647,7 @@ def rfd_block():
         return (f'<li class="deal" data-until="{x["until"]}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
                 f'<h3>{e(x["title"])}</h3>{px}<p class="why">Les prix bougent vite : vérifie le prix final sur Amazon.ca.</p>'
                 f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
-    li = "".join(card(x) for x in L[:8])
+    li = "".join(card(x) for x in L[:10])
     return ('<section class="topbox" aria-label="Repérés par la communauté"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon.ca les plus votées par les chasseurs de deals canadiens. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
@@ -668,6 +674,9 @@ def main():
             extra = '<h2>Les boutiques de tes marques préférées</h2><p class="more">' + "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in brands) + "</p><h2>Les deals du moment</h2>"
         if slug in ("beaute", "maison", "mode"):
             extra = brand_block({slug}, "💖 Les rabais de tes marques préférées") + extra
+        _rc = {"enfants": {"enfants"}, "plein-air": {"plein-air"}, "tech": {"tech"}, "animaux": {"animaux"}, "epicerie": {"epicerie"},
+               "beaute": {"beaute"}, "maison": {"maison"}, "mode": {"mode"}}.get(slug)
+        if _rc: extra = rfd_block(_rc) + extra
         if slug == "epicerie":
             _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
             extra = '<h2>🛒 Les rabais épicerie du moment</h2><p class="more"><a href="' + e(_u) + '" target="_blank" rel="sponsored nofollow noopener">Voir tous les deals épicerie de 20 % à 40 %</a></p>' + extra
