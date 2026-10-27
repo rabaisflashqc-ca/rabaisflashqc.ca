@@ -103,6 +103,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
 <ul>{rows}</ul><p style="color:#888;font-size:13px">{len(items)} deals avec lien Amazon sur {len(th)} fils lus.</p></body></html>""")
     # Publication autonome : les plus votés, prix et rabais signalés (datés et attribués), valables 24 h
     def clean(t):
+        t = re.sub(r"\s+-?\s*\d+\s?[mhdw] ago.*$", "", t)
         t = re.sub(r"\[?\(?\bamazon(\.ca)?\b\)?\]?\s*[-:|]?", "", t, flags=re.I)
         t = re.sub(r"\$\s?\d[\d,.]*|\d[\d,.]*\s?\$|\d+\s?%\s*(off|de rabais)?|\(.*?\)|\[.*?\]", "", t, flags=re.I)
         t = re.sub(r"\b(save|saves|lowest ever|historical low|price drop on|price drop|ymmv|deal|just|only|now|min \d+|amazon)\b", "", t, flags=re.I)
