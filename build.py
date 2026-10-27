@@ -542,6 +542,7 @@ BRANDS = [
  ("🌹","Lancôme","beaute",STORES["Lancôme"]),
  ("🤍","Clarins","beaute",STORES["Clarins"]),
  ("🧴","La Roche-Posay","beaute",STORES["La Roche-Posay"]),
+ ("🌟","Laura Geller","beaute","https://www.amazon.ca/stores/page/027C192F-9D65-42BE-B3DB-16E3EB33EB17?tag="+TAG),
  ("💧","Neutrogena","beaute","https://www.amazon.ca/-/fr/s?k=Neutrogena&rh=p_n_deal_type%3A23565508011%2Cp_72%3A11192170011"+_T),
  ("🌸","Olay","beaute","https://www.amazon.ca/-/fr/s?k=Olay&rh=p_85%3A5690392011%2Cp_72%3A11192170011%2Cp_123%3A195696%2Cp_n_deal_type%3A23565508011"+_T),
  ("🍳","Ninja","maison","https://www.amazon.ca/-/fr/s?k=ninja&rh=p_n_deal_type%3A23565508011%2Cp_123%3A391646%2Cp_85%3A5690392011"+_T),
