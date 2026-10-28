@@ -1,80 +1,80 @@
 {
- "date": "2026-10-28T07:18-04:00",
+ "date": "2026-10-28T12:35-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   27,
-   27,
+   30,
+   30,
    [
     "2026-10-21T21:46:17+00:00",
     "2026-10-22T18:13:08+00:00"
    ],
    [
-    "2026-10-28T07:07:36+00:00",
-    "2026-10-28T10:34:25+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:05:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   33,
+   34,
    [
-    "2026-10-14T03:26:43+00:00",
-    "2026-10-14T05:13:35+00:00"
+    "2026-10-14T06:06:16+00:00",
+    "2026-10-15T12:10:09+00:00"
    ],
    [
-    "2026-10-28T07:07:36+00:00",
-    "2026-10-28T10:34:25+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:05:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T12:42:13+00:00",
-    "2026-10-07T12:49:10+00:00"
+    "2026-10-07T13:29:33+00:00",
+    "2026-10-07T13:52:23+00:00"
    ],
    [
-    "2026-10-13T21:08:43+00:00",
-    "2026-10-14T02:37:51+00:00"
+    "2026-10-14T05:13:35+00:00",
+    "2026-10-14T05:36:38+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T13:19:26+00:00",
-    "2026-10-06T13:24:30+00:00"
+    "2026-10-06T13:41:30+00:00",
+    "2026-10-06T14:10:04+00:00"
    ],
    [
-    "2026-10-07T11:54:40+00:00",
-    "2026-10-07T12:39:39+00:00"
+    "2026-10-07T12:49:10+00:00",
+    "2026-10-07T13:05:41+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T16:03:50+00:00",
-    "2026-09-28T16:29:03+00:00"
+    "2026-09-28T23:26:49+00:00",
+    "2026-09-29T08:18:50+00:00"
    ],
    [
-    "2026-10-06T13:04:53+00:00",
-    "2026-10-06T13:09:04+00:00"
+    "2026-10-06T13:24:30+00:00",
+    "2026-10-06T13:25:11+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-17T01:55:28+00:00",
-    "2026-09-17T19:40:40+00:00"
+    "2026-09-18T18:59:54+00:00",
+    "2026-09-19T10:19:44+00:00"
    ],
    [
-    "2026-09-28T15:52:53+00:00",
-    "2026-09-28T15:56:56+00:00"
+    "2026-09-28T16:29:03+00:00",
+    "2026-09-28T17:30:07+00:00"
    ]
   ],
-  "avant_filtre_date": 146,
-  "apres_filtre_date": 11
+  "avant_filtre_date": 145,
+  "apres_filtre_date": 10
  },
  "items": [
   {
@@ -93,18 +93,18 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
-   "title": "INIU 3 in 1 Qi2 Certified 15W Wireless MagSafe Charging Station $20.39",
-   "price": 20.39,
-   "was": 39.99,
-   "votes": 12,
-   "posts": 9,
-   "time": "2026-10-26T12:14:44+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
-   "asin": "B0D7YR2ZDG",
-   "pct": 49,
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
+   "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
+   "price": 35.99,
+   "was": 59.99,
+   "votes": 15,
+   "posts": 10,
+   "time": "2026-10-26T04:51:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
+   "asin": "B0D31C567W",
+   "pct": 40,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D7YR2ZDG?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0D31C567W?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -135,36 +135,6 @@
    "pct": 10,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
-   "title": "Anker Soundcore P20i Wireless Earbuds, Bluetooth 5.3, 10mm Drivers & 30-Hour Battery Life $29.99",
-   "price": 29.99,
-   "was": 39.99,
-   "votes": 1,
-   "posts": 11,
-   "time": "2026-10-26T19:35:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
-   "asin": "B0BTYCJXBK",
-   "pct": 25,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BTYCJXBK?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-proart-pa401-wood-edition-atx-mid-tower-pc-case-109-88-2830352/",
-   "title": "ASUS ProArt PA401 Wood Edition ATX Mid-Tower PC Case - $109.88",
-   "price": 109.88,
-   "was": 169.99,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-10-28T10:34:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-proart-pa401-wood-edition-atx-mid-tower-pc-case-109-88-2830352/",
-   "asin": "B0DJ1VD4JX",
-   "pct": 35,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DJ1VD4JX?tag=coupdecoeurqc-20",
    "deja": false
   }
  ]
