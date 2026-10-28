@@ -7,7 +7,7 @@ e=H.escape
 CSS=open('soir_flash.py').read().split('CSS = """')[1].split('"""')[0]
 CSS+=".c{background:#fff;color:#1A1A1A;border-radius:40px;margin:30px 56px;padding:50px 44px;text-align:center}.big{font-family:Anton,Impact,sans-serif;font-size:210px;color:#C1121F;line-height:1}.pc{display:inline-block;background:#FFC72C;color:#8E0B16;border-radius:26px;padding:10px 34px;font-family:Anton,Impact,sans-serif;font-size:110px;margin:20px 0}"
 D={d["asin"]:d for d in build.data["deals"] if d.get("asin")}
-pick=[("B0GXF7ZQPY","Qrevo 2 Pro, robot aspirateur et laveur","🤖","env. 1 210 $"),("B08QY3N85N","Swaddlers, 186 couches taille 2","👶","env. 52 $"),("B09TTNWNQL","Crème rétinol et collagène","🧴","29,99 $"),("B09QMRNL86","Streaming Stick 4K","📺","env. 70 $"),("B0CFS94HVR","FXONE GoldFX, rasoir à double grille","💈","274,99 $")]
+pick=[("B0CPFBBHP4","X10 Pro Omni, robot aspirateur et laveur","🤖","env. 1 305 $"),("B0CT9XTKKM","Tune 770NC, casque sans fil","🎧","env. 190 $"),("B085SC16LF","Vertuo Next, machine à café","☕","env. 228 $"),("B0DV4W9ZS3","Outdoor 4 XR, 4 caméras extérieures","📹","env. 417 $"),("B000IEMGGE","Baked Balance-n-Brighten, fond de teint","💄","43,00 $")]
 def money(p): return f"{p:.2f}".replace(".",",")+" $"
 def page(inner,foot="rabaisflashqc.ca · Les prix bougent vite, fonce!"):
     return f'<!doctype html><html><head><meta charset="utf-8">{pack.FONTS}<style>{CSS}</style></head><body style="width:1080px;height:1920px"><div class="top" style="padding-top:90px">{pack.BOLT}<span>RABAIS <b>FLASH</b> QC</span></div>{inner}<div class="foot" style="position:absolute;bottom:0;left:0;right:0"><div class="u an">👉 LIEN DANS LA BIO</div><div class="s">{foot}</div></div></body></html>'

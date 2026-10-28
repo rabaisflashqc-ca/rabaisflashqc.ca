@@ -444,7 +444,7 @@ def top5():
     + 2 produits à FORTE COMMISSION (commission estimée la plus élevée, rabais réel, bien notés).
     Une carte `top` posée à la main dans data.json garde la priorité."""
     live = [x for x in DEALS if x.get("live") and x.get("pct") and x.get("why") and x.get("price")
-            and x["cat"] not in ("halloween", "epicerie") and x["pct"] >= 15]
+            and x["cat"] not in ("halloween", "epicerie") and x["pct"] >= 15 and x["price"] < 1500]
     def pick(pool, n, key, cats):
         out = []
         for x in sorted(pool, key=key):
@@ -479,11 +479,18 @@ def top5():
         picks = [by[a] for a in st["asins"]]
     else:
         prev = set(st.get("asins", [])) if st.get("slot") != slot else set(st.get("prev", []))
-        picks = build_picks(prev)
+        # historique : on écarte aussi les vedettes des 2 à 3 dernières périodes pour varier (pas de ping-pong entre 2 séries)
+        hist = list(st.get("hist", []))
+        if st.get("slot") != slot: hist = [a for a in st.get("asins", []) if a not in hist] + hist
+        hist = hist[:15]
+        picks = build_picks(prev | set(hist))
+        for _n in (10, 5, 0):  # pas assez de nouveautés : on réduit l'historique écarté, les plus anciennes reviennent d'abord
+            if len(picks) >= 5: break
+            picks = build_picks(prev | set(hist[:_n]))
         if len(picks) < 5:  # pas assez de nouveautés : on complète avec le classement normal
             have = {x["asin"] for x in picks}
             picks += [x for x in build_picks(set()) if x["asin"] not in have][:5 - len(picks)]
-        try: sf.write_text(json.dumps({"slot": slot, "asins": [x["asin"] for x in picks[:5]], "prev": sorted(prev)}, ensure_ascii=False))
+        try: sf.write_text(json.dumps({"slot": slot, "asins": [x["asin"] for x in picks[:5]], "prev": sorted(prev), "hist": hist}, ensure_ascii=False))
         except Exception: pass
     # sélection à la main : `top` = rang (1 à 5), valable jusqu'à `top_until` (UTC), peu importe le prix
     _now = datetime.datetime.now(datetime.timezone.utc)
