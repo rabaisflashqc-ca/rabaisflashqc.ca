@@ -1,80 +1,80 @@
 {
- "date": "2026-10-28T12:35-04:00",
+ "date": "2026-10-28T16:58-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   30,
-   30,
+   32,
+   32,
    [
     "2026-10-21T21:46:17+00:00",
     "2026-10-22T18:13:08+00:00"
    ],
    [
-    "2026-10-28T15:50:04+00:00",
-    "2026-10-28T16:05:40+00:00"
+    "2026-10-28T16:57:39+00:00",
+    "2026-10-28T18:59:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   34,
+   12,
    [
-    "2026-10-14T06:06:16+00:00",
-    "2026-10-15T12:10:09+00:00"
+    "2026-10-15T19:23:35+00:00",
+    "2026-10-16T05:07:40+00:00"
    ],
    [
-    "2026-10-28T15:50:04+00:00",
-    "2026-10-28T16:05:40+00:00"
+    "2026-10-28T16:57:39+00:00",
+    "2026-10-28T18:59:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T13:29:33+00:00",
-    "2026-10-07T13:52:23+00:00"
+    "2026-10-07T14:27:35+00:00",
+    "2026-10-07T14:37:15+00:00"
    ],
    [
-    "2026-10-14T05:13:35+00:00",
-    "2026-10-14T05:36:38+00:00"
+    "2026-10-14T06:06:16+00:00",
+    "2026-10-15T12:10:09+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T13:41:30+00:00",
-    "2026-10-06T14:10:04+00:00"
+    "2026-10-06T14:13:44+00:00",
+    "2026-10-06T14:21:45+00:00"
    ],
    [
-    "2026-10-07T12:49:10+00:00",
-    "2026-10-07T13:05:41+00:00"
+    "2026-10-07T13:29:33+00:00",
+    "2026-10-07T13:52:23+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T23:26:49+00:00",
-    "2026-09-29T08:18:50+00:00"
+    "2026-09-29T14:14:05+00:00",
+    "2026-09-29T18:35:52+00:00"
    ],
    [
-    "2026-10-06T13:24:30+00:00",
-    "2026-10-06T13:25:11+00:00"
+    "2026-10-06T13:41:30+00:00",
+    "2026-10-06T14:10:04+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-18T18:59:54+00:00",
-    "2026-09-19T10:19:44+00:00"
+    "2026-09-19T21:55:42+00:00",
+    "2026-09-20T01:38:41+00:00"
    ],
    [
-    "2026-09-28T16:29:03+00:00",
-    "2026-09-28T17:30:07+00:00"
+    "2026-09-28T23:26:49+00:00",
+    "2026-09-29T08:18:50+00:00"
    ]
   ],
-  "avant_filtre_date": 145,
-  "apres_filtre_date": 10
+  "avant_filtre_date": 220,
+  "apres_filtre_date": 32
  },
  "items": [
   {
@@ -82,7 +82,7 @@
    "title": "CRAFTSMAN Hi-Vis Tape Measure 8M/26-Ft (Pack of 2) $15.98 (48% off)",
    "price": 15.98,
    "was": 30.98,
-   "votes": 21,
+   "votes": null,
    "posts": 9,
    "time": "2026-10-23T13:28:56+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-craftsman-hi-vis-tape-measure-8m-26-ft-pack-2-15-98-48-off-2829902/",
@@ -97,7 +97,7 @@
    "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
    "price": 35.99,
    "was": 59.99,
-   "votes": 15,
+   "votes": null,
    "posts": 10,
    "time": "2026-10-26T04:51:15+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
@@ -108,11 +108,26 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-proart-pa401-wood-edition-atx-mid-tower-pc-case-109-88-2830352/",
+   "title": "ASUS ProArt PA401 Wood Edition ATX Mid-Tower PC Case - $109.88",
+   "price": 109.88,
+   "was": 169.99,
+   "votes": null,
+   "posts": 0,
+   "time": "2026-10-28T10:34:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-proart-pa401-wood-edition-atx-mid-tower-pc-case-109-88-2830352/",
+   "asin": "B0DJ1VD4JX",
+   "pct": 35,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DJ1VD4JX?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-halloween-du-cor-fairy-ghost-string-lights-16-4ft-30-led-9-99-2829818/",
    "title": "Halloween Décor Fairy Ghost String Lights 16.4ft 30 LED $9.99",
    "price": 9.99,
    "was": 16.99,
-   "votes": 3,
+   "votes": null,
    "posts": 2,
    "time": "2026-10-22T18:13:08+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-halloween-du-cor-fairy-ghost-string-lights-16-4ft-30-led-9-99-2829818/",
@@ -123,18 +138,228 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
-   "title": "X-Sense Wi-Fi Water Leak Detector Kit $56.69",
-   "price": 56.69,
-   "was": 62.99,
-   "votes": 3,
-   "posts": 4,
-   "time": "2026-10-26T15:52:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
-   "asin": "B0DFCMJH5L",
-   "pct": 10,
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
+   "title": "Anker Soundcore P20i Wireless Earbuds, Bluetooth 5.3, 10mm Drivers & 30-Hour Battery Life $29.99",
+   "price": 29.99,
+   "was": 39.99,
+   "votes": null,
+   "posts": 12,
+   "time": "2026-10-26T19:35:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
+   "asin": "B0BTYCJXBK",
+   "pct": 25,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0BTYCJXBK?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
+   "title": "Black+Decker dustbuster Handheld Vacuum, Cordless On sale $85($119.99)",
+   "price": 85.0,
+   "was": 119.99,
+   "votes": null,
+   "posts": 9,
+   "time": "2026-10-27T03:20:45+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
+   "asin": "B008R3F0J8",
+   "pct": 29,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B008R3F0J8?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
+   "price": 74.99,
+   "was": 119.99,
+   "votes": null,
+   "posts": 2,
+   "time": "2026-10-28T07:07:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "asin": "B01AKGRTUM",
+   "pct": 38,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecoflow-portable-power-station-river-2-pro-refurbished-349-00-2829745/",
+   "title": "ECOFLOW Portable Power Station RIVER 2 Pro (Refurbished). $349.00",
+   "price": 349.0,
+   "was": null,
+   "votes": null,
+   "posts": 30,
+   "time": "2026-10-21T21:46:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-portable-power-station-river-2-pro-refurbished-349-00-2829745/",
+   "asin": "B0H3V6VNR5",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H3V6VNR5?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-cottonelle-toilet-paper-36-mega-rolls-144-21-98-s-s-coupon-2829887/",
+   "title": "Cottonelle Toilet Paper, 36 Mega Rolls = 144 21.98$ with S&S coupon",
+   "price": 21.98,
+   "was": 43.96,
+   "votes": null,
+   "posts": 5,
+   "time": "2026-10-23T09:52:47+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-cottonelle-toilet-paper-36-mega-rolls-144-21-98-s-s-coupon-2829887/",
+   "asin": "B0CNWMZGWM",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0CNWMZGWM?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g2-bluetooth-meat-thermometer-79-99-2829897/",
+   "title": "ThermoMaven G2 Bluetooth Meat Thermometer - $79.99",
+   "price": 79.99,
+   "was": 159.99,
+   "votes": null,
+   "posts": 12,
+   "time": "2026-10-23T12:44:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g2-bluetooth-meat-thermometer-79-99-2829897/",
+   "asin": "B0DFW43B44",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DFW43B44?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tim-hortons-chicken-noodle-soup-2-24-original-3-34-2829852/",
+   "title": "Tim Hortons Chicken Noodle Soup $2.24 (Original $3.34)",
+   "price": 2.24,
+   "was": 3.34,
+   "votes": null,
+   "posts": 7,
+   "time": "2026-10-22T23:29:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tim-hortons-chicken-noodle-soup-2-24-original-3-34-2829852/",
+   "asin": "B08BSM61D9",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08BSM61D9?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-vacuum-storage-bags-15-pack-rechargeable-electric-pump-24-47-2830149/",
+   "title": "Vacuum Storage Bags 15-Pack with Rechargeable Electric Pump for $24.47",
+   "price": 24.47,
+   "was": 35.99,
+   "votes": null,
+   "posts": 3,
+   "time": "2026-10-26T14:16:43+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-vacuum-storage-bags-15-pack-rechargeable-electric-pump-24-47-2830149/",
+   "asin": "B0GCCQFGKQ",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GCCQFGKQ?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-45w-usb-cec-gan-charger-block-smart-real-time-display-2830120/",
+   "title": "UGREEN Nexode Pro 45W USB‑C GaN Charger Block with Smart Real-Time Display",
+   "price": 29.74,
+   "was": 39.99,
+   "votes": null,
+   "posts": 4,
+   "time": "2026-10-26T09:31:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-45w-usb-cec-gan-charger-block-smart-real-time-display-2830120/",
+   "asin": "B0HKG1G7TB",
+   "pct": 26,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HKG1G7TB?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-fire-hd-10-tablet-newest-model-10-1-sale-159-99-229-99-2830106/",
+   "title": "Amazon Fire HD 10 tablet (newest model), 10.1\" on sale for $159.99($229.99)",
+   "price": 159.99,
+   "was": 229.99,
+   "votes": null,
+   "posts": 20,
+   "time": "2026-10-26T04:42:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-fire-hd-10-tablet-newest-model-10-1-sale-159-99-229-99-2830106/",
+   "asin": "B0BT6ZBXDD",
+   "pct": 30,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BT6ZBXDD?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
+   "title": "Face Moisturizer Retinol Cream - Anti-Aging Wrinkle Cream with Collagen on sale $13.99($19.99)",
+   "price": 13.99,
+   "was": 19.99,
+   "votes": null,
+   "posts": 7,
+   "time": "2026-10-27T04:50:38+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
+   "asin": "B0G5QM4H1C",
+   "pct": 30,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0G5QM4H1C?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-north-face-etip-recycled-gloves-31-98-2829872/",
+   "title": "THE NORTH FACE Etip Recycled Gloves $31.98",
+   "price": 31.98,
+   "was": 54.99,
+   "votes": null,
+   "posts": 9,
+   "time": "2026-10-23T04:52:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-north-face-etip-recycled-gloves-31-98-2829872/",
+   "asin": "B09TPTXB5H",
+   "pct": 42,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B09TPTXB5H?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-russell-athletic-mens-pullover-27-88-2829874/",
+   "title": "Russell Athletic Mens Pullover $27.88",
+   "price": 27.88,
+   "was": 63.76,
+   "votes": null,
+   "posts": 2,
+   "time": "2026-10-23T05:10:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-russell-athletic-mens-pullover-27-88-2829874/",
+   "asin": "B072M5YM55",
+   "pct": 56,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B072M5YM55?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-champion-life-mens-reverse-weave-crew-big-block-text-sweatshirt-43-2829875/",
+   "title": "Champion Life Mens Reverse Weave Crew - Big Block Text Sweatshirt $43",
+   "price": 43.02,
+   "was": 49.76,
+   "votes": null,
+   "posts": 2,
+   "time": "2026-10-23T05:23:39+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-champion-life-mens-reverse-weave-crew-big-block-text-sweatshirt-43-2829875/",
+   "asin": "B01HIUT2U8",
+   "pct": 14,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01HIUT2U8?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-corsair-mm700-rgb-extended-3xl-cloth-gaming-mouse-pad-1-220mm-x-610mm-99-95-2830259/",
+   "title": "Corsair MM700 RGB Extended 3XL Cloth Gaming Mouse Pad 1,220mm x 610mm $99.95",
+   "price": 99.99,
+   "was": 154.99,
+   "votes": null,
+   "posts": 17,
+   "time": "2026-10-27T13:00:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-corsair-mm700-rgb-extended-3xl-cloth-gaming-mouse-pad-1-220mm-x-610mm-99-95-2830259/",
+   "asin": "B0BG53VQ4Y",
+   "pct": 35,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BG53VQ4Y?tag=coupdecoeurqc-20",
    "deja": false
   }
  ]
