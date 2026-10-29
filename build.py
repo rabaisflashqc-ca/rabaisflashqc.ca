@@ -463,10 +463,10 @@ def top5():
     except Exception: st = {}
     def build_picks(excl):
         cats = set()
-        volume = pick([x for x in live if x["asin"] not in excl and x["price"] <= 60 and (_bought(x) >= 100 or _reviews(x) >= 1000)], 3,
+        volume = pick([x for x in live if x["asin"] not in excl and x["price"] <= 80 and (_bought(x) >= 50 or _reviews(x) >= 500)], 3,
                       lambda x: (-_bought(x), -_reviews(x), -x["pct"]), cats)
         ids = {id(x) for x in volume}
-        comm = pick([x for x in live if x["asin"] not in excl and id(x) not in ids and x["pct"] >= 20 and (_reviews(x) >= 100 or _bought(x) >= 50)], 2,
+        comm = pick([x for x in live if x["asin"] not in excl and id(x) not in ids and x["pct"] >= 20 and (_reviews(x) >= 50 or _bought(x) >= 25)], 2,
                     lambda x: -(x["price"] * rate(x)), cats)
         out = [volume[0]] if volume else []
         rv, rc = volume[1:], comm[:]
@@ -475,8 +475,17 @@ def top5():
             if rv: out.append(rv.pop(0))
         return out
     by = {x["asin"]: x for x in live}
-    if st.get("slot") == slot and all(a in by for a in st.get("asins", [])) and len(st.get("asins", [])) >= 5:
-        picks = [by[a] for a in st["asins"]]
+    kept = [by[a] for a in st.get("asins", []) if a in by] if st.get("slot") == slot else []
+    if kept and len(kept) < 5:  # verrou de période : un deal disparu ne fait pas tout recalculer, on remplace seulement le manquant
+        have = {x["asin"] for x in kept}
+        excl = set(st.get("prev", [])) | set(st.get("hist", [])[:10]) | have
+        extra = [x for x in build_picks(excl) if x["asin"] not in have]
+        if len(kept) + len(extra) < 5: extra += [x for x in build_picks(set(st.get("prev", [])) | have) if x["asin"] not in have and x not in extra]
+        picks = (kept + extra)[:5]
+        try: sf.write_text(json.dumps({"slot": slot, "asins": [x["asin"] for x in picks], "prev": st.get("prev", []), "hist": st.get("hist", [])}, ensure_ascii=False))
+        except Exception: pass
+    elif len(kept) >= 5:
+        picks = kept[:5]
     else:
         prev = set(st.get("asins", [])) if st.get("slot") != slot else set(st.get("prev", []))
         # historique : on écarte aussi les vedettes des 2 à 3 dernières périodes pour varier (pas de ping-pong entre 2 séries)
