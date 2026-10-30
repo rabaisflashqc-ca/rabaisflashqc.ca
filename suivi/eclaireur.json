@@ -1,97 +1,82 @@
 {
- "date": "2026-10-29T21:55-04:00",
+ "date": "2026-10-30T07:14-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   35,
-   35,
+   32,
+   32,
    [
-    "2026-10-23T04:52:52+00:00",
-    "2026-10-23T05:10:09+00:00"
+    "2026-10-23T12:44:30+00:00",
+    "2026-10-23T13:28:56+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-29T23:25:00+00:00"
+    "2026-10-29T23:25:00+00:00",
+    "2026-10-30T05:35:03+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   9,
+   12,
    [
-    "2026-10-19T18:22:12+00:00",
-    "2026-10-20T01:00:56+00:00"
+    "2026-10-20T01:00:56+00:00",
+    "2026-10-20T10:08:42+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-29T23:25:00+00:00"
+    "2026-10-29T23:25:00+00:00",
+    "2026-10-30T05:35:03+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T17:29:38+00:00",
-    "2026-10-07T17:38:06+00:00"
+    "2026-10-07T18:01:19+00:00",
+    "2026-10-07T18:25:16+00:00"
    ],
    [
-    "2026-10-18T16:38:59+00:00",
-    "2026-10-19T04:17:27+00:00"
+    "2026-10-19T04:17:27+00:00",
+    "2026-10-19T18:22:12+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:30:49+00:00",
-    "2026-10-06T14:48:13+00:00"
+    "2026-10-06T14:52:02+00:00",
+    "2026-10-06T14:57:00+00:00"
    ],
    [
-    "2026-10-07T16:37:45+00:00",
-    "2026-10-07T17:13:10+00:00"
+    "2026-10-07T17:38:06+00:00",
+    "2026-10-07T17:44:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T15:25:57+00:00",
+    "2026-10-02T18:52:18+00:00",
     "2026-10-02T18:54:06+00:00"
    ],
    [
-    "2026-10-06T14:20:09+00:00",
-    "2026-10-06T14:25:34+00:00"
+    "2026-10-06T14:48:13+00:00",
+    "2026-10-06T14:50:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T13:18:27+00:00",
-    "2026-09-22T13:47:19+00:00"
+    "2026-09-21T16:31:46+00:00",
+    "2026-09-21T18:18:21+00:00"
    ],
    [
-    "2026-10-02T14:01:45+00:00",
-    "2026-10-02T14:07:15+00:00"
+    "2026-10-02T06:44:25+00:00",
+    "2026-10-02T11:48:57+00:00"
    ]
   ],
   "avant_filtre_date": 220,
-  "apres_filtre_date": 35
+  "apres_filtre_date": 32
  },
  "items": [
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-craftsman-hi-vis-tape-measure-8m-26-ft-pack-2-15-98-48-off-2829902/",
-   "title": "CRAFTSMAN Hi-Vis Tape Measure 8M/26-Ft (Pack of 2) $15.98 (48% off)",
-   "price": 15.98,
-   "was": 30.98,
-   "votes": null,
-   "posts": 9,
-   "time": "2026-10-23T13:28:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-craftsman-hi-vis-tape-measure-8m-26-ft-pack-2-15-98-48-off-2829902/",
-   "asin": "B0H1PSWPQS",
-   "pct": 48,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0H1PSWPQS?tag=coupdecoeurqc-20",
-   "deja": false
-  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
    "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
@@ -123,6 +108,51 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
+   "title": "SereneLife Inflatable Stand Up Paddle Board $134.97 (55% off)",
+   "price": 134.97,
+   "was": 302.14,
+   "votes": null,
+   "posts": 18,
+   "time": "2026-10-28T18:59:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
+   "asin": "B07RN1ZW16",
+   "pct": 55,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07RN1ZW16?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
+   "title": "Splendor Kids (Board Game) -",
+   "price": 22.42,
+   "was": 34.44,
+   "votes": null,
+   "posts": 1,
+   "time": "2026-10-29T20:51:43+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
+   "asin": "B0FKJT8TFG",
+   "pct": 35,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FKJT8TFG?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
+   "title": "Genuine Winix 115115 Replacement Filter A for C535, 5300-2, P300, 5300, White/Black for $42.73",
+   "price": 42.73,
+   "was": 91.0,
+   "votes": null,
+   "posts": 5,
+   "time": "2026-10-29T23:25:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
+   "asin": "B0GNC8FQS7",
+   "pct": 53,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GNC8FQS7?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
    "title": "X-Sense Wi-Fi Water Leak Detector Kit $56.69",
    "price": 56.69,
@@ -135,21 +165,6 @@
    "pct": 10,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
-   "title": "ORICO 7-Port USB 3.0 Hub with 3.28ft Cable - $13.79 (40% Off)",
-   "price": 13.79,
-   "was": 22.98,
-   "votes": null,
-   "posts": 3,
-   "time": "2026-10-28T15:09:27+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
-   "asin": "B0BXSXF81R",
-   "pct": 40,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -273,21 +288,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-39-99-2830451/",
-   "title": "Mini Electric Bike Pump with Gauge - $39.99",
-   "price": 39.99,
-   "was": 79.99,
-   "votes": null,
-   "posts": 3,
-   "time": "2026-10-29T14:24:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-39-99-2830451/",
-   "asin": "B0GGBH6JHV",
-   "pct": 50,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0GGBH6JHV?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pelonis-pedestal-fan-53-09-2830234/",
    "title": "PELONIS Pedestal Fan - $53.09",
    "price": 53.09,
@@ -315,6 +315,21 @@
    "pct": 43,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0H7HSN5N5?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
+   "title": "GORILLA GRIP Patented Bath Tub Shower Mat on sale $26.99($40.19)",
+   "price": 26.99,
+   "was": 40.19,
+   "votes": null,
+   "posts": 22,
+   "time": "2026-10-29T09:48:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
+   "asin": "B01N7DGNY9",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01N7DGNY9?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -363,18 +378,18 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
-   "title": "Face Moisturizer Retinol Cream - Anti-Aging Wrinkle Cream with Collagen on sale $13.99($19.99)",
-   "price": 13.99,
-   "was": 19.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
+   "title": "UGREEN Magflow Air Qi2 25W 10000mAh Ultra-Slim Magnetic Power Bank",
+   "price": 71.99,
+   "was": 84.99,
    "votes": null,
-   "posts": 7,
-   "time": "2026-10-27T04:50:38+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
-   "asin": "B0G5QM4H1C",
-   "pct": 30,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B0G5QM4H1C?tag=coupdecoeurqc-20",
+   "posts": 5,
+   "time": "2026-10-29T06:10:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
+   "asin": "B0FKN316WP",
+   "pct": 15,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FKN316WP?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
