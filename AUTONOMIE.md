@@ -32,7 +32,7 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 
 - Réel : 15 à 25 s, format 9:16, accroche texte dans les 2 premières secondes (« 5 deals qui partent vite », « Le deal de 14 h », « Sous 25 $ »), un deal par écran, musique. Gabarit : `reel-matin30-musique.py` + `music.py` (musique originale libre de droits). Sur Instagram et TikTok, ajouter un son tendance de la bibliothèque de l'app si possible, volume de notre piste à zéro.
 - Séries fixes : « Le deal de 14 h », « Top 3 sous 25 $ », guides cadeaux par personne, compte à rebours du Black Friday (27 nov. 2026) et du Cyber Monday (30 nov.).
-- Chaque post Facebook invite aussi à suivre Instagram et TikTok (Instagram part de 1 abonné).
+- Chaque post Facebook invite aussi à suivre Instagram @rabaisflashqc et TikTok (Instagram part de 1 abonné). Le site a déjà les boutons « J'aime la page » et « Suis-nous @rabaisflashqc ».
 - Canaux gratuits : groupes Facebook québécois de rabais, seulement là où les règles du groupe permettent de partager, et jamais en rafale.
 
 ## Règles absolues
