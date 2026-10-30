@@ -1,82 +1,97 @@
 {
- "date": "2026-10-30T07:14-04:00",
+ "date": "2026-10-30T16:43-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   32,
-   32,
+   35,
+   35,
    [
-    "2026-10-23T12:44:30+00:00",
-    "2026-10-23T13:28:56+00:00"
+    "2026-10-24T23:36:14+00:00",
+    "2026-10-26T04:42:54+00:00"
    ],
    [
-    "2026-10-29T23:25:00+00:00",
-    "2026-10-30T05:35:03+00:00"
+    "2026-10-30T14:08:31+00:00",
+    "2026-10-30T19:42:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   12,
+   9,
    [
-    "2026-10-20T01:00:56+00:00",
-    "2026-10-20T10:08:42+00:00"
+    "2026-10-21T21:46:17+00:00",
+    "2026-10-22T18:13:08+00:00"
    ],
    [
-    "2026-10-29T23:25:00+00:00",
-    "2026-10-30T05:35:03+00:00"
+    "2026-10-30T14:08:31+00:00",
+    "2026-10-30T19:42:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T18:01:19+00:00",
-    "2026-10-07T18:25:16+00:00"
+    "2026-10-07T20:20:09+00:00",
+    "2026-10-07T22:55:58+00:00"
    ],
    [
-    "2026-10-19T04:17:27+00:00",
-    "2026-10-19T18:22:12+00:00"
+    "2026-10-20T23:45:11+00:00",
+    "2026-10-21T00:41:23+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-06T15:55:41+00:00",
+    "2026-10-06T16:12:37+00:00"
    ],
    [
-    "2026-10-07T17:38:06+00:00",
-    "2026-10-07T17:44:49+00:00"
+    "2026-10-07T19:20:38+00:00",
+    "2026-10-07T19:36:28+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T18:52:18+00:00",
-    "2026-10-02T18:54:06+00:00"
+    "2026-10-03T16:00:20+00:00",
+    "2026-10-03T16:38:01+00:00"
    ],
    [
-    "2026-10-06T14:48:13+00:00",
-    "2026-10-06T14:50:34+00:00"
+    "2026-10-06T15:09:40+00:00",
+    "2026-10-06T15:48:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-21T16:31:46+00:00",
-    "2026-09-21T18:18:21+00:00"
+    "2026-09-22T03:51:55+00:00",
+    "2026-09-22T08:33:24+00:00"
    ],
    [
-    "2026-10-02T06:44:25+00:00",
-    "2026-10-02T11:48:57+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ]
   ],
   "avant_filtre_date": 220,
-  "apres_filtre_date": 32
+  "apres_filtre_date": 35
  },
  "items": [
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
+   "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
+   "price": 25.99,
+   "was": 35.99,
+   "votes": null,
+   "posts": 2,
+   "time": "2026-10-28T16:57:39+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
+   "asin": "B091BGMKYS",
+   "pct": 28,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B091BGMKYS?tag=coupdecoeurqc-20",
+   "deja": false
+  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
    "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
@@ -105,6 +120,21 @@
    "pct": 49,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0D7YR2ZDG?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
+   "title": "Genuine Winix 115115 Replacement Filter A for C535, 5300-2, P300, 5300, White/Black for $42.73",
+   "price": 42.73,
+   "was": 91.0,
+   "votes": null,
+   "posts": 5,
+   "time": "2026-10-29T23:25:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
+   "asin": "B0GNC8FQS7",
+   "pct": 53,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GNC8FQS7?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -138,21 +168,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
-   "title": "Genuine Winix 115115 Replacement Filter A for C535, 5300-2, P300, 5300, White/Black for $42.73",
-   "price": 42.73,
-   "was": 91.0,
-   "votes": null,
-   "posts": 5,
-   "time": "2026-10-29T23:25:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
-   "asin": "B0GNC8FQS7",
-   "pct": 53,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GNC8FQS7?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
    "title": "X-Sense Wi-Fi Water Leak Detector Kit $56.69",
    "price": 56.69,
@@ -165,6 +180,21 @@
    "pct": 10,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
+   "title": "ORICO 7-Port USB 3.0 Hub with 3.28ft Cable - $13.79 (40% Off)",
+   "price": 13.79,
+   "was": 22.98,
+   "votes": null,
+   "posts": 3,
+   "time": "2026-10-28T15:09:27+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
+   "asin": "B0BXSXF81R",
+   "pct": 40,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -213,36 +243,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
-   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
-   "price": 74.99,
-   "was": 119.99,
-   "votes": null,
-   "posts": 4,
-   "time": "2026-10-28T07:07:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
-   "asin": "B01AKGRTUM",
-   "pct": 38,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g2-bluetooth-meat-thermometer-79-99-2829897/",
-   "title": "ThermoMaven G2 Bluetooth Meat Thermometer - $79.99",
-   "price": 79.99,
-   "was": 159.99,
-   "votes": null,
-   "posts": 12,
-   "time": "2026-10-23T12:44:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g2-bluetooth-meat-thermometer-79-99-2829897/",
-   "asin": "B0DFW43B44",
-   "pct": 50,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DFW43B44?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-robot-vaccum-mop-699-99-2830208/",
    "title": "Ecovacs Deebot T90 Pro Omni Robot Vaccum and Mop $699.99",
    "price": 699.99,
@@ -255,6 +255,21 @@
    "pct": 30,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0GFWQ5FRM?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
+   "price": 74.99,
+   "was": 119.99,
+   "votes": null,
+   "posts": 8,
+   "time": "2026-10-28T07:07:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "asin": "B01AKGRTUM",
+   "pct": 38,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -288,6 +303,21 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
+   "title": "[Amazon.ca] Amazon Fire TV Stick 4K Max – $64.99 (50% off)",
+   "price": 64.99,
+   "was": 129.98,
+   "votes": null,
+   "posts": 28,
+   "time": "2026-10-30T13:33:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
+   "asin": "B0BXM37848",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BXM37848?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pelonis-pedestal-fan-53-09-2830234/",
    "title": "PELONIS Pedestal Fan - $53.09",
    "price": 53.09,
@@ -303,12 +333,27 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scrapers-car-windshield-sale-16-99-29-99-2830541/",
+   "title": "AstroAI 27\" 2-in-1 Detachable Snow Brush & Ice Scrapers for Car Windshield on sale $16.99(29.99)",
+   "price": 16.99,
+   "was": 29.99,
+   "votes": null,
+   "posts": 7,
+   "time": "2026-10-30T13:29:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scrapers-car-windshield-sale-16-99-29-99-2830541/",
+   "asin": "B07VCJSQ47",
+   "pct": 43,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B07VCJSQ47?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-propane-torch-weed-burner-1-800-000-btu-39-99-reg-69-99-43-off-2830336/",
    "title": "Propane Torch Weed Burner 1,800,000 BTU - $39.99 (Reg. $69.99, 43% Off)",
    "price": 39.99,
    "was": 69.99,
    "votes": null,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-10-28T05:00:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-propane-torch-weed-burner-1-800-000-btu-39-99-reg-69-99-43-off-2830336/",
    "asin": "B0H7HSN5N5",
@@ -348,6 +393,21 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-imarku-knife-set-14-pcs-99-99-44-off-limited-time-deal-2830489/",
+   "title": "imarku Knife Set, 14 Pcs $99.99 (44% off) - limited time deal",
+   "price": 99.99,
+   "was": 176.99,
+   "votes": null,
+   "posts": 10,
+   "time": "2026-10-29T19:19:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-imarku-knife-set-14-pcs-99-99-44-off-limited-time-deal-2830489/",
+   "asin": "B09B9Q8TMC",
+   "pct": 44,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B09B9Q8TMC?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-fire-hd-10-tablet-newest-model-10-1-sale-159-99-229-99-2830106/",
    "title": "Amazon Fire HD 10 tablet (newest model), 10.1\" on sale for $159.99($229.99)",
    "price": 159.99,
@@ -378,18 +438,18 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
-   "title": "UGREEN Magflow Air Qi2 25W 10000mAh Ultra-Slim Magnetic Power Bank",
-   "price": 71.99,
-   "was": 84.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
+   "title": "Face Moisturizer Retinol Cream - Anti-Aging Wrinkle Cream with Collagen on sale $13.99($19.99)",
+   "price": 13.99,
+   "was": 19.99,
    "votes": null,
-   "posts": 5,
-   "time": "2026-10-29T06:10:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
-   "asin": "B0FKN316WP",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FKN316WP?tag=coupdecoeurqc-20",
+   "posts": 7,
+   "time": "2026-10-27T04:50:38+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
+   "asin": "B0G5QM4H1C",
+   "pct": 30,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0G5QM4H1C?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
