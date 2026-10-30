@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30T16:43-04:00",
+ "date": "2026-10-30T16:46-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    35,
@@ -14,16 +14,10 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
-   44,
-   9,
-   [
-    "2026-10-21T21:46:17+00:00",
-    "2026-10-22T18:13:08+00:00"
-   ],
-   [
-    "2026-10-30T14:08:31+00:00",
-    "2026-10-30T19:42:25+00:00"
-   ]
+   0,
+   0,
+   [],
+   []
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
@@ -73,10 +67,25 @@
     "2026-10-02T23:33:17+00:00"
    ]
   ],
-  "avant_filtre_date": 220,
+  "avant_filtre_date": 211,
   "apres_filtre_date": 35
  },
  "items": [
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
+   "title": "Cat Scratching Post w/ Rat Hole, Sisal Rope & Toy $29.99 (40% off)",
+   "price": 29.99,
+   "was": 49.99,
+   "votes": null,
+   "posts": 13,
+   "time": "2026-10-29T15:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
+   "asin": "B000634MH8",
+   "pct": 40,
+   "cat": "animaux",
+   "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
+   "deja": false
+  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
    "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
@@ -198,6 +207,21 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
+   "title": "ThermoMaven G1 WiFi Meat Thermometer - $39.99",
+   "price": 39.99,
+   "was": 69.99,
+   "votes": null,
+   "posts": 3,
+   "time": "2026-10-30T14:08:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
+   "asin": "B0DG5GKJKB",
+   "pct": 43,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DG5GKJKB?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
    "title": "Downy Fabric Softener 190 loads (4.16L) - $13.53 with S&S",
    "price": 13.53,
@@ -210,6 +234,36 @@
    "pct": 25,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0C8XBKZYG?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
+   "title": "Pilates Essentials Kit (Ring, Ball, Bands, etc.) $16.99 (53% off)",
+   "price": 16.99,
+   "was": 35.99,
+   "votes": null,
+   "posts": 3,
+   "time": "2026-10-30T12:29:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
+   "asin": "B0FD8DFTLK",
+   "pct": 53,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FD8DFTLK?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-viofo-dash-cam-front-a119-mini-2-135-99-20-off-flash-sale-2830574/",
+   "title": "VIOFO Dash Cam Front A119 Mini 2 - $135.99 (20% off) - Flash Sale",
+   "price": 135.99,
+   "was": 169.99,
+   "votes": null,
+   "posts": 3,
+   "time": "2026-10-30T19:42:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-dash-cam-front-a119-mini-2-135-99-20-off-flash-sale-2830574/",
+   "asin": "B0C5MVB7NX",
+   "pct": 20,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0C5MVB7NX?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -453,6 +507,21 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
+   "title": "UGREEN Magflow Air Qi2 25W 10000mAh Ultra-Slim Magnetic Power Bank",
+   "price": 71.99,
+   "was": 84.99,
+   "votes": null,
+   "posts": 5,
+   "time": "2026-10-29T06:10:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
+   "asin": "B0FKN316WP",
+   "pct": 15,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FKN316WP?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-blackcanyon-outfitters-84000-l-glove-grain-cowhide-driver-glove-75-off-17-2830377/",
    "title": "BlackCanyon Outfitters 84000/L Glove, Grain Cowhide Driver Glove (75% off @$17)",
    "price": 17.0,
@@ -480,6 +549,21 @@
    "pct": 35,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0BG53VQ4Y?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ferrero-rocher-fine-hazelnut-milk-chocolates-48-piece-gift-box-600-g-2830497/",
+   "title": "FERRERO ROCHER Fine Hazelnut Milk Chocolates - 48-Piece Gift Box - 600 g",
+   "price": 21.49,
+   "was": 40.0,
+   "votes": null,
+   "posts": 15,
+   "time": "2026-10-29T23:15:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ferrero-rocher-fine-hazelnut-milk-chocolates-48-piece-gift-box-600-g-2830497/",
+   "asin": "B074QVL2MY",
+   "pct": 46,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B074QVL2MY?tag=coupdecoeurqc-20",
    "deja": false
   }
  ]
