@@ -1,6 +1,6 @@
 """Musique originale synthétisée (libre de droits) pour les réels : beat 124 bpm."""
 import numpy as np, wave
-def make(path,dur,bpm=124,sr=44100):
+def make(path,dur,bpm=124,sr=44100,fadein=0.5):
     t=np.arange(int(dur*sr))/sr; y=np.zeros_like(t); beat=60/bpm
     def env(x,d): return np.exp(-x/d)
     for k in range(int(dur/beat)+1):
@@ -16,7 +16,7 @@ def make(path,dur,bpm=124,sr=44100):
             if j<len(y):
                 x=np.arange(min(int(0.3*sr),len(y)-j))/sr
                 y[j:j+len(x)]+=0.22*np.sign(np.sin(2*np.pi*notes*x))*env(x,0.1)*0.6+0.12*np.sin(2*np.pi*notes*2*x)*env(x,0.15)
-    y*=np.minimum(1,np.minimum(t/0.5,(dur-t)/1.0)); y=y/np.abs(y).max()*0.8
+    y*=np.minimum(1,np.minimum(t/fadein if fadein>0 else 1,(dur-t)/1.0)); y=y/np.abs(y).max()*0.8
     with wave.open(str(path),'wb') as w:
         w.setnchannels(1);w.setsampwidth(2);w.setframerate(sr);w.writeframes((y*32767).astype('<i2').tobytes())
     return path
