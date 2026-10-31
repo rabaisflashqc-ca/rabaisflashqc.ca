@@ -1,95 +1,110 @@
 {
- "date": "2026-10-31T11:54-04:00",
+ "date": "2026-10-31T15:58-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   38,
-   38,
+   37,
+   37,
    [
     "2026-10-24T23:36:14+00:00",
     "2026-10-26T04:42:54+00:00"
    ],
    [
     "2026-10-31T06:18:50+00:00",
-    "2026-10-31T14:19:54+00:00"
+    "2026-10-31T18:28:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   6,
+   7,
    [
-    "2026-10-23T04:52:52+00:00",
-    "2026-10-23T05:10:09+00:00"
+    "2026-10-22T23:29:53+00:00",
+    "2026-10-23T04:52:52+00:00"
    ],
    [
     "2026-10-31T06:18:50+00:00",
-    "2026-10-31T14:19:54+00:00"
+    "2026-10-31T18:28:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T19:57:32+00:00",
-    "2026-10-07T20:09:09+00:00"
+    "2026-10-07T19:24:52+00:00",
+    "2026-10-07T19:57:32+00:00"
    ],
    [
-    "2026-10-22T18:13:08+00:00",
-    "2026-10-22T23:29:53+00:00"
+    "2026-10-21T21:46:17+00:00",
+    "2026-10-22T18:13:08+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T15:20:57+00:00",
-    "2026-10-06T15:29:12+00:00"
+    "2026-10-06T15:16:45+00:00",
+    "2026-10-06T15:20:57+00:00"
    ],
    [
-    "2026-10-07T19:11:46+00:00",
-    "2026-10-07T19:24:52+00:00"
+    "2026-10-07T19:08:11+00:00",
+    "2026-10-07T19:11:46+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-03T13:54:36+00:00",
-    "2026-10-03T16:38:01+00:00"
+    "2026-10-03T12:36:51+00:00",
+    "2026-10-03T13:54:36+00:00"
    ],
    [
-    "2026-10-06T15:10:45+00:00",
-    "2026-10-06T15:16:45+00:00"
+    "2026-10-06T14:59:35+00:00",
+    "2026-10-06T15:10:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T23:37:58+00:00",
-    "2026-09-23T01:21:55+00:00"
+    "2026-09-22T18:50:19+00:00",
+    "2026-09-22T23:37:58+00:00"
    ],
    [
-    "2026-10-02T23:33:17+00:00",
-    "2026-10-03T12:36:51+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ]
   ],
   "avant_filtre_date": 220,
-  "apres_filtre_date": 38
+  "apres_filtre_date": 37
  },
  "items": [
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
-   "title": "Cat Scratching Post w/ Rat Hole, Sisal Rope & Toy $29.99 (40% off)",
-   "price": 29.99,
-   "was": 49.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
+   "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
+   "price": 25.99,
+   "was": 35.99,
    "votes": null,
-   "posts": 14,
-   "time": "2026-10-29T15:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
-   "asin": "B000634MH8",
-   "pct": 40,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
+   "posts": 3,
+   "time": "2026-10-28T16:57:39+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
+   "asin": "B091BGMKYS",
+   "pct": 28,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B091BGMKYS?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
+   "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
+   "price": 169.99,
+   "was": 219.99,
+   "votes": null,
+   "posts": 32,
+   "time": "2026-10-31T06:18:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
+   "asin": "B0CW1PK5QT",
+   "pct": 23,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CW1PK5QT?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -180,36 +195,6 @@
    "pct": 55,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B07RN1ZW16?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hyperx-eve-wired-1800-gaming-keyboard-12-00-2830613/",
-   "title": "HyperX Eve Wired 1800 Gaming Keyboard - $12.00",
-   "price": 12.0,
-   "was": 40.0,
-   "votes": null,
-   "posts": 6,
-   "time": "2026-10-31T04:55:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hyperx-eve-wired-1800-gaming-keyboard-12-00-2830613/",
-   "asin": "B0GGR85YTP",
-   "pct": 70,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GGR85YTP?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-viofo-dash-cam-front-a119-mini-2-135-99-20-off-flash-sale-2830574/",
-   "title": "VIOFO Dash Cam Front A119 Mini 2 - $135.99 (20% off) - Flash Sale",
-   "price": 135.99,
-   "was": 169.99,
-   "votes": null,
-   "posts": 15,
-   "time": "2026-10-30T19:42:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-dash-cam-front-a119-mini-2-135-99-20-off-flash-sale-2830574/",
-   "asin": "B0C5MVB7NX",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C5MVB7NX?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -393,6 +378,21 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-39-99-2830451/",
+   "title": "Mini Electric Bike Pump with Gauge - $39.99",
+   "price": 39.99,
+   "was": 79.99,
+   "votes": null,
+   "posts": 11,
+   "time": "2026-10-29T14:24:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-39-99-2830451/",
+   "asin": "B0FL26TWWQ",
+   "pct": 50,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0FL26TWWQ?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-propane-torch-weed-burner-1-800-000-btu-39-99-reg-69-99-43-off-2830336/",
    "title": "Propane Torch Weed Burner 1,800,000 BTU - $39.99 (Reg. $69.99, 43% Off)",
    "price": 39.99,
@@ -405,6 +405,51 @@
    "pct": 43,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0H7HSN5N5?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
+   "title": "GORILLA GRIP Patented Bath Tub Shower Mat on sale $26.99($40.19)",
+   "price": 26.99,
+   "was": 40.19,
+   "votes": null,
+   "posts": 22,
+   "time": "2026-10-29T09:48:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
+   "asin": "B01N7DGNY9",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01N7DGNY9?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scrapers-car-windshield-sale-16-99-29-99-2830541/",
+   "title": "AstroAI 27\" 2-in-1 Detachable Snow Brush & Ice Scrapers for Car Windshield on sale $16.99(29.99)",
+   "price": 16.99,
+   "was": 29.99,
+   "votes": null,
+   "posts": 8,
+   "time": "2026-10-30T13:29:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scrapers-car-windshield-sale-16-99-29-99-2830541/",
+   "asin": "B07VCJSQ47",
+   "pct": 43,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B07VCJSQ47?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
+   "title": "[Amazon.ca] Amazon Fire TV Stick 4K Max – $64.99 (50% off)",
+   "price": 64.99,
+   "was": 129.98,
+   "votes": null,
+   "posts": 36,
+   "time": "2026-10-30T13:33:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
+   "asin": "B0BXM37848",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BXM37848?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -473,7 +518,7 @@
    "price": 71.99,
    "was": 84.99,
    "votes": null,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-10-29T06:10:56+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
    "asin": "B0FKN316WP",
@@ -495,21 +540,6 @@
    "pct": 76,
    "cat": "plein-air",
    "link": "https://www.amazon.ca/dp/B0036710XA?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-corsair-mm700-rgb-extended-3xl-cloth-gaming-mouse-pad-1-220mm-x-610mm-99-95-2830259/",
-   "title": "Corsair MM700 RGB Extended 3XL Cloth Gaming Mouse Pad 1,220mm x 610mm $99.95",
-   "price": 99.99,
-   "was": 154.99,
-   "votes": null,
-   "posts": 17,
-   "time": "2026-10-27T13:00:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-corsair-mm700-rgb-extended-3xl-cloth-gaming-mouse-pad-1-220mm-x-610mm-99-95-2830259/",
-   "asin": "B0BG53VQ4Y",
-   "pct": 35,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BG53VQ4Y?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
