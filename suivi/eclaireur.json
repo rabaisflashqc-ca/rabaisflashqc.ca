@@ -1,110 +1,95 @@
 {
- "date": "2026-10-31T07:09-04:00",
+ "date": "2026-10-31T11:25-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   37,
-   37,
+   38,
+   38,
    [
     "2026-10-24T23:36:14+00:00",
     "2026-10-26T04:42:54+00:00"
    ],
    [
-    "2026-10-31T04:55:59+00:00",
-    "2026-10-31T06:18:50+00:00"
+    "2026-10-31T06:18:50+00:00",
+    "2026-10-31T14:19:54+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   7,
+   6,
    [
-    "2026-10-22T23:29:53+00:00",
-    "2026-10-23T04:52:52+00:00"
+    "2026-10-23T04:52:52+00:00",
+    "2026-10-23T05:10:09+00:00"
    ],
    [
-    "2026-10-31T04:55:59+00:00",
-    "2026-10-31T06:18:50+00:00"
+    "2026-10-31T06:18:50+00:00",
+    "2026-10-31T14:19:54+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T23:13:35+00:00",
-    "2026-10-07T23:26:09+00:00"
+    "2026-10-07T23:26:09+00:00",
+    "2026-10-07T23:57:48+00:00"
    ],
    [
-    "2026-10-21T21:46:17+00:00",
-    "2026-10-22T18:13:08+00:00"
+    "2026-10-22T18:13:08+00:00",
+    "2026-10-22T23:29:53+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T16:24:00+00:00",
-    "2026-10-06T17:17:29+00:00"
+    "2026-10-06T17:17:29+00:00",
+    "2026-10-06T18:02:25+00:00"
    ],
    [
-    "2026-10-07T20:20:09+00:00",
-    "2026-10-07T22:55:58+00:00"
+    "2026-10-07T22:55:58+00:00",
+    "2026-10-07T23:13:35+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-04T03:20:31+00:00",
-    "2026-10-04T13:03:02+00:00"
+    "2026-10-04T13:03:02+00:00",
+    "2026-10-04T14:20:25+00:00"
    ],
    [
-    "2026-10-06T15:55:41+00:00",
-    "2026-10-06T16:12:37+00:00"
+    "2026-10-06T16:12:37+00:00",
+    "2026-10-06T16:24:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T08:56:39+00:00",
-    "2026-09-22T09:09:08+00:00"
+    "2026-09-22T09:09:08+00:00",
+    "2026-09-22T12:24:05+00:00"
    ],
    [
-    "2026-10-03T16:00:20+00:00",
-    "2026-10-03T16:38:01+00:00"
+    "2026-10-03T16:38:01+00:00",
+    "2026-10-04T03:20:31+00:00"
    ]
   ],
   "avant_filtre_date": 220,
-  "apres_filtre_date": 37
+  "apres_filtre_date": 38
  },
  "items": [
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
-   "title": "Splendor Kids (Board Game) -",
-   "price": 22.42,
-   "was": 34.44,
+   "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
+   "title": "Cat Scratching Post w/ Rat Hole, Sisal Rope & Toy $29.99 (40% off)",
+   "price": 29.99,
+   "was": 49.99,
    "votes": null,
-   "posts": 4,
-   "time": "2026-10-29T20:51:43+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
-   "asin": "B0FKJT8TFG",
-   "pct": 35,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FKJT8TFG?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
-   "title": "Expo Dry Erase Markers, Chisel Tip, Assorted Colours, 16 Count @ $9.49 w/ S&S",
-   "price": 9.49,
-   "was": null,
-   "votes": null,
-   "posts": 1,
-   "time": "2026-10-30T13:18:01+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
-   "asin": "B09K3CYNP3",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B09K3CYNP3?tag=coupdecoeurqc-20",
+   "posts": 14,
+   "time": "2026-10-29T15:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
+   "asin": "B000634MH8",
+   "pct": 40,
+   "cat": "animaux",
+   "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -153,18 +138,18 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hyperx-eve-wired-1800-gaming-keyboard-12-00-2830613/",
-   "title": "HyperX Eve Wired 1800 Gaming Keyboard - $12.00",
-   "price": 12.0,
-   "was": 40.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
+   "title": "SereneLife Inflatable Stand Up Paddle Board $134.97 (55% off)",
+   "price": 134.97,
+   "was": 302.14,
    "votes": null,
-   "posts": 5,
-   "time": "2026-10-31T04:55:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hyperx-eve-wired-1800-gaming-keyboard-12-00-2830613/",
-   "asin": "B0GGR85YTP",
-   "pct": 70,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GGR85YTP?tag=coupdecoeurqc-20",
+   "posts": 18,
+   "time": "2026-10-28T18:59:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
+   "asin": "B07RN1ZW16",
+   "pct": 55,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07RN1ZW16?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -183,21 +168,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
-   "title": "ORICO 7-Port USB 3.0 Hub with 3.28ft Cable - $13.79 (40% Off)",
-   "price": 13.79,
-   "was": 22.98,
-   "votes": null,
-   "posts": 3,
-   "time": "2026-10-28T15:09:27+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
-   "asin": "B0BXSXF81R",
-   "pct": 40,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
    "title": "ThermoMaven G1 WiFi Meat Thermometer - $39.99",
    "price": 39.99,
@@ -210,21 +180,6 @@
    "pct": 43,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DG5GKJKB?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
-   "title": "Downy Fabric Softener 190 loads (4.16L) - $13.53 with S&S",
-   "price": 13.53,
-   "was": 17.99,
-   "votes": null,
-   "posts": 8,
-   "time": "2026-10-28T14:09:54+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
-   "asin": "B0C8XBKZYG",
-   "pct": 25,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C8XBKZYG?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -255,21 +210,6 @@
    "pct": 29,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B008R3F0J8?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
-   "title": "Pilates Essentials Kit (Ring, Ball, Bands, etc.) $16.99 (53% off)",
-   "price": 16.99,
-   "was": 35.99,
-   "votes": null,
-   "posts": 3,
-   "time": "2026-10-30T12:29:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
-   "asin": "B0FD8DFTLK",
-   "pct": 53,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FD8DFTLK?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -318,21 +258,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
-   "title": "[Amazon.ca] Amazon Fire TV Stick 4K Max – $64.99 (50% off)",
-   "price": 64.99,
-   "was": 129.98,
-   "votes": null,
-   "posts": 28,
-   "time": "2026-10-30T13:33:33+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
-   "asin": "B0BXM37848",
-   "pct": 50,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BXM37848?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-nortiv-8-mens-tall-waterproof-hiking-winter-snow-boots-sale-69-99-85-99-2830335/",
    "title": "NORTIV 8 Men's Tall Waterproof Hiking Winter Snow Boots on sale $69.99($85.99)",
    "price": 69.99,
@@ -363,48 +288,33 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-39-99-2830451/",
+   "title": "Mini Electric Bike Pump with Gauge - $39.99",
+   "price": 39.99,
+   "was": 79.99,
+   "votes": null,
+   "posts": 11,
+   "time": "2026-10-29T14:24:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-39-99-2830451/",
+   "asin": "B0FL26TWWQ",
+   "pct": 50,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0FL26TWWQ?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scrapers-car-windshield-sale-16-99-29-99-2830541/",
    "title": "AstroAI 27\" 2-in-1 Detachable Snow Brush & Ice Scrapers for Car Windshield on sale $16.99(29.99)",
    "price": 16.99,
    "was": 29.99,
    "votes": null,
-   "posts": 7,
+   "posts": 8,
    "time": "2026-10-30T13:29:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scrapers-car-windshield-sale-16-99-29-99-2830541/",
    "asin": "B07VCJSQ47",
    "pct": 43,
    "cat": "plein-air",
    "link": "https://www.amazon.ca/dp/B07VCJSQ47?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-propane-torch-weed-burner-1-800-000-btu-39-99-reg-69-99-43-off-2830336/",
-   "title": "Propane Torch Weed Burner 1,800,000 BTU - $39.99 (Reg. $69.99, 43% Off)",
-   "price": 39.99,
-   "was": 69.99,
-   "votes": null,
-   "posts": 7,
-   "time": "2026-10-28T05:00:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-propane-torch-weed-burner-1-800-000-btu-39-99-reg-69-99-43-off-2830336/",
-   "asin": "B0H7HSN5N5",
-   "pct": 43,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0H7HSN5N5?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
-   "title": "GORILLA GRIP Patented Bath Tub Shower Mat on sale $26.99($40.19)",
-   "price": 26.99,
-   "was": 40.19,
-   "votes": null,
-   "posts": 22,
-   "time": "2026-10-29T09:48:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
-   "asin": "B01N7DGNY9",
-   "pct": 33,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01N7DGNY9?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -468,21 +378,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
-   "title": "UGREEN Magflow Air Qi2 25W 10000mAh Ultra-Slim Magnetic Power Bank",
-   "price": 71.99,
-   "was": 84.99,
-   "votes": null,
-   "posts": 6,
-   "time": "2026-10-29T06:10:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
-   "asin": "B0FKN316WP",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FKN316WP?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-blackcanyon-outfitters-84000-l-glove-grain-cowhide-driver-glove-75-off-17-2830377/",
    "title": "BlackCanyon Outfitters 84000/L Glove, Grain Cowhide Driver Glove (75% off @$17)",
    "price": 17.0,
@@ -510,21 +405,6 @@
    "pct": 35,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0BG53VQ4Y?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ferrero-rocher-fine-hazelnut-milk-chocolates-48-piece-gift-box-600-g-2830497/",
-   "title": "FERRERO ROCHER Fine Hazelnut Milk Chocolates - 48-Piece Gift Box - 600 g",
-   "price": 21.49,
-   "was": 40.0,
-   "votes": null,
-   "posts": 17,
-   "time": "2026-10-29T23:15:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ferrero-rocher-fine-hazelnut-milk-chocolates-48-piece-gift-box-600-g-2830497/",
-   "asin": "B074QVL2MY",
-   "pct": 46,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B074QVL2MY?tag=coupdecoeurqc-20",
    "deja": false
   }
  ]
