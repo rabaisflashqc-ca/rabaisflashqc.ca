@@ -694,6 +694,9 @@ def rfd_block(cats=None):
         L = keep
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if datetime.datetime.fromisoformat(x["until"]) > now and x.get("title")]
+    # saison passée (automne-hiver au Québec) : pas de planche à pagaie, piscine ou brûleur à mauvaises herbes
+    hors = re.compile(r"paddle ?board|stand up paddle|kayak|pool|piscine|weed burner|weed torch|lawn mower|sunscreen" + (r"|hallowe" if now.month >= 11 else ""), re.I)
+    L = [x for x in L if not hors.search(x["title"])]
     if not L: return ""
     MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
     def card(x):
