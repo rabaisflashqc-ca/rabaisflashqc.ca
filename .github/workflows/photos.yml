@@ -1,0 +1,21 @@
+name: Photos des produits
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python3 photos.py
+      - name: Publier les photos
+        run: |
+          git config user.name "Rabais Flash QC"
+          git config user.email "rabaisflashqc-ca@users.noreply.github.com"
+          git add docs/img
+          git diff --cached --quiet || (git commit -m "Photos des produits" && git pull --rebase && git push)

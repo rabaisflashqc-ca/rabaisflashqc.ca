@@ -367,6 +367,8 @@ def deal_html(d):
         tag = f'<div class="tag">-{pct}%<small>{"le " + _jour(d.get("added")) if d.get("vieux") else "sur Amazon"}</small></div>'
     else:
         tag = f'<div class="tag" aria-hidden="true">{ICON.get(d["cat"],"⭐")}</div>'
+    if not d.get("img") and d.get("asin") in PHOTOS_OK:  # photo vérifiée à l'oeil
+        d = {**d, "img": f'/img/p/{d["asin"]}.jpg'}
     if d.get("img"):
         lbl = f'<b>-{pct}%</b>' if d.get("live") and pct else ""
         tag = f'<div class="pic"><img src="{e(d["img"])}" alt="" loading="lazy" width="84" height="84">{lbl}</div>'

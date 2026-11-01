@@ -1,0 +1,28 @@
+{
+ "_note": "Photos de produits du catalogue trouvées sur les sites des marques ou de détaillants (pas Amazon). Téléchargées par .github/workflows/photos.yml, vérifiées à l'oeil avant d'être ajoutées à photos.json ok.",
+ "sources": {
+  "B09VTFJSCF": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/KT200C_01.jpg",
+  "B09K1QLYKV": "https://cdn.shopify.com/s/files/1/0269/8333/3940/products/ceramix-xtreme-1-14-ceramic-curling-wand-babcw125ccosmetic-world-844574.jpg?v=1707499047",
+  "B09SJ59YBP": "https://eleganza.ca/cdn/shop/files/e75d0117d2445308930514467e1a07f852a01f69_K3200BABYBABC125XLSC_Fer_a___friser_Babyliss_Pro_Ceramix_Xtreme_noir_ce__ramique_extra_long_1.2.jpg?height=1800&v=1734646952",
+  "B000IEMGGE": "https://www.vitacost.com/cdn/shop/files/24_756fe821-05e1-4f90-95e3-9c74dad6c6b6.jpg?v=1781812494",
+  "B08BFMV68M": "https://cosori.com/cdn/shop/products/01.00_OA1_CO117-DK_01.png?v=1762457669&width=900",
+  "B0BBH8FRYL": "https://www.laurageller.com/cdn/shop/files/Laura_Geller_Best_of_the_Best_Baked_Face_Palette_Soldier-Ecomm.jpg?v=1753821154&width=900",
+  "B08JCQGCRN": "https://www.laurageller.com/cdn/shop/files/Laura-Geller_SpacklePrimer_Soldier-Ecomm_ChampagneGlow_UPDATED_2.jpg?v=1784036134&width=900",
+  "B00VVX4JZC": "https://www.laurageller.com/cdn/shop/files/Laura_Geller_Baked_Blush-n-Brighten_Marbleized_Blush_Soldier-Ecomm_Pink_Buttercream.jpg?v=1754945257&width=900",
+  "B0B9BR89TD": "https://kimusecosmetics.com/cdn/shop/files/01_41fb6bc7-3883-444b-a981-4031b98b6f79.jpg?v=1741166076&width=2000",
+  "B07KPNBKBZ": "https://www.babylisspro.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-master-ca/default/dw011c23db/images/Gray_Redesign/images%20for%20ECOM%208_17_22/fxfs2_hero.jpg?sw=1200&sh=1200&sm=fit",
+  "B01JS7MAWG": "https://www.getjackblack.com/cdn/shop/files/clean-break-moisturizer.png?v=1758834729&width=1946",
+  "B0CFS94HVR": "https://www.babylisspro.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-master-us-babylisspro/default/dw40f5e8e9/FX79FSG.jpg?sw=1200&sh=1200&sm=fit",
+  "B0GQWV6PHJ": "https://www.babylisspro.ca/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-master-ca/default/dwce45535e/BNT137_3qtr_s_slf%20copy.jpg?sw=1200&sh=1200&sm=fit",
+  "B0FLKLJDS8": "https://cdn11.bigcommerce.com/s-2idmiil7bp/images/stencil/1280x1280/products/1431/12597/00069055144671_C1N0_COM_118629373__05189.1781792732.jpg?c=1",
+  "B09JPTZQKM": "https://cdn2.parfumdreams.de/image/product/135144-218059-1-1.webp",
+  "B08QY3N85N": "https://i5.walmartimages.com/seo/Pampers-Swaddlers-Diapers-Size-2-180-Count_fb1f12f6-e83c-4035-8eb4-a0f6dac8e701.988dec4f1e3955337b67a750447252ba.jpeg",
+  "B0971DMXW7": "https://cdn.shopify.com/s/files/1/0638/2659/1966/files/ddc623ee0c437b18c594d77a190200f56705f24e.png?v=1772752958",
+  "B09QMRNL86": "https://images.contentstack.io/v3/assets/blt50354f32a8eecd28/bltf330b75f6c434dec/67e443b5ae57b440f03ddf81/RSS4K-PDP-carousel-device_retail_box-780x600.png?branch=production",
+  "B0HJRNB37R": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/HD840PU_01.jpg",
+  "B0CTKJCN9D": "https://www.midtowncomics.com/images/PRODUCT/XL/2371435_xl.jpg",
+  "B00J389NWQ": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/c86427e8-0d9d-4785-86be-b3638e73d620/500x500.jpg",
+  "B0BBP5124V": "https://cdn.shopify.com/s/files/1/1709/1189/products/Progressive_Perfect_Probiotic_Regular_Strength_30_Billion_CFU_VCaps_Image_1.png?v=1663042309",
+  "B0DBN6C686": "https://www.canex.ca/media/catalog/product/n/i/ninja-luxe-cafe-premier-coffee-ea1-622356644518_b-cblj7.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=265&width=265"
+ }
+}
