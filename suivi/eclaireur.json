@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31T21:05-04:00",
+ "date": "2026-11-01T08:10-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    34,
@@ -29,8 +29,8 @@
    44,
    44,
    [
-    "2026-10-07T20:20:09+00:00",
-    "2026-10-07T22:55:58+00:00"
+    "2026-10-07T19:08:11+00:00",
+    "2026-10-07T19:11:46+00:00"
    ],
    [
     "2026-10-20T23:45:11+00:00",
@@ -41,57 +41,42 @@
    44,
    44,
    [
-    "2026-10-06T15:55:41+00:00",
-    "2026-10-06T16:12:37+00:00"
+    "2026-10-06T14:59:35+00:00",
+    "2026-10-06T15:10:45+00:00"
    ],
    [
-    "2026-10-07T19:20:38+00:00",
-    "2026-10-07T19:36:28+00:00"
+    "2026-10-07T18:28:14+00:00",
+    "2026-10-07T18:33:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-03T16:00:20+00:00",
-    "2026-10-03T16:38:01+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ],
    [
-    "2026-10-06T15:09:40+00:00",
-    "2026-10-06T15:48:05+00:00"
+    "2026-10-06T14:52:02+00:00",
+    "2026-10-06T14:57:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T03:51:55+00:00",
-    "2026-09-22T08:33:24+00:00"
+    "2026-09-22T16:11:35+00:00",
+    "2026-09-22T18:48:15+00:00"
    ],
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-02T20:14:17+00:00",
+    "2026-10-02T20:35:27+00:00"
    ]
   ],
   "avant_filtre_date": 220,
   "apres_filtre_date": 34
  },
  "items": [
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
-   "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
-   "price": 169.99,
-   "was": 219.99,
-   "votes": null,
-   "posts": 37,
-   "time": "2026-10-31T06:18:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
-   "asin": "B0CW1PK5QT",
-   "pct": 23,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CW1PK5QT?tag=coupdecoeurqc-20",
-   "deja": false
-  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
    "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
@@ -120,21 +105,6 @@
    "pct": 40,
    "cat": "animaux",
    "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
-   "title": "Splendor Kids (Board Game) -",
-   "price": 22.42,
-   "was": 34.44,
-   "votes": null,
-   "posts": 4,
-   "time": "2026-10-29T20:51:43+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
-   "asin": "B0FKJT8TFG",
-   "pct": 35,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FKJT8TFG?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -210,6 +180,21 @@
    "pct": 40,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
+   "title": "ThermoMaven G1 WiFi Meat Thermometer - $39.99",
+   "price": 39.99,
+   "was": 69.99,
+   "votes": null,
+   "posts": 3,
+   "time": "2026-10-30T14:08:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
+   "asin": "B0DG5GKJKB",
+   "pct": 43,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DG5GKJKB?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -363,6 +348,21 @@
    "deja": false
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
+   "title": "GORILLA GRIP Patented Bath Tub Shower Mat on sale $26.99($40.19)",
+   "price": 26.99,
+   "was": 40.19,
+   "votes": null,
+   "posts": 22,
+   "time": "2026-10-29T09:48:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-gorilla-grip-patented-bath-tub-shower-mat-sale-26-99-40-19-2830442/",
+   "asin": "B01N7DGNY9",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01N7DGNY9?tag=coupdecoeurqc-20",
+   "deja": false
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-45w-usb-cec-gan-charger-block-smart-real-time-display-2830120/",
    "title": "UGREEN Nexode Pro 45W USB‑C GaN Charger Block with Smart Real-Time Display",
    "price": 29.74,
@@ -393,21 +393,6 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
-   "title": "[Amazon.ca] Amazon Fire TV Stick 4K Max – $64.99 (50% off)",
-   "price": 64.99,
-   "was": 129.98,
-   "votes": null,
-   "posts": 40,
-   "time": "2026-10-30T13:33:33+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
-   "asin": "B0BXM37848",
-   "pct": 50,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BXM37848?tag=coupdecoeurqc-20",
-   "deja": false
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-face-moisturizer-retinol-cream-anti-aging-wrinkle-cream-collagen-sale-13-99-19-99-2830238/",
    "title": "Face Moisturizer Retinol Cream - Anti-Aging Wrinkle Cream with Collagen on sale $13.99($19.99)",
    "price": 13.99,
@@ -423,18 +408,18 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
-   "title": "UGREEN Magflow Air Qi2 25W 10000mAh Ultra-Slim Magnetic Power Bank",
-   "price": 71.99,
-   "was": 84.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
+   "title": "[Amazon.ca] Amazon Fire TV Stick 4K Max – $64.99 (50% off)",
+   "price": 64.99,
+   "was": 129.98,
    "votes": null,
-   "posts": 7,
-   "time": "2026-10-29T06:10:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-magflow-air-qi2-25w-10000mah-ultra-slim-magnetic-power-bank-2830436/",
-   "asin": "B0FKN316WP",
-   "pct": 15,
+   "posts": 43,
+   "time": "2026-10-30T13:33:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-amazon-fire-tv-stick-4k-max-ci-64-99-50-off-2830542/",
+   "asin": "B0BXM37848",
+   "pct": 50,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FKN316WP?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0BXM37848?tag=coupdecoeurqc-20",
    "deja": false
   },
   {
@@ -453,18 +438,18 @@
    "deja": false
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-corsair-mm700-rgb-extended-3xl-cloth-gaming-mouse-pad-1-220mm-x-610mm-99-95-2830259/",
-   "title": "Corsair MM700 RGB Extended 3XL Cloth Gaming Mouse Pad 1,220mm x 610mm $99.95",
-   "price": 99.99,
-   "was": 154.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ferrero-rocher-fine-hazelnut-milk-chocolates-48-piece-gift-box-600-g-2830497/",
+   "title": "FERRERO ROCHER Fine Hazelnut Milk Chocolates - 48-Piece Gift Box - 600 g",
+   "price": 21.49,
+   "was": 40.0,
    "votes": null,
-   "posts": 17,
-   "time": "2026-10-27T13:00:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-corsair-mm700-rgb-extended-3xl-cloth-gaming-mouse-pad-1-220mm-x-610mm-99-95-2830259/",
-   "asin": "B0BG53VQ4Y",
-   "pct": 35,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BG53VQ4Y?tag=coupdecoeurqc-20",
+   "posts": 18,
+   "time": "2026-10-29T23:15:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ferrero-rocher-fine-hazelnut-milk-chocolates-48-piece-gift-box-600-g-2830497/",
+   "asin": "B074QVL2MY",
+   "pct": 46,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B074QVL2MY?tag=coupdecoeurqc-20",
    "deja": false
   }
  ]
