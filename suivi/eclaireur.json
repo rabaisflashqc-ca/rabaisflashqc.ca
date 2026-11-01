@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T10:36-04:00",
+ "date": "2026-11-01T10:41-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    33,
@@ -11,6 +11,16 @@
    [
     "2026-10-30T14:08:31+00:00",
     "2026-10-31T06:18:50+00:00"
+   ]
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
+   1,
+   1,
+   [
+    "2026-10-29T23:15:50+00:00"
+   ],
+   [
+    "2026-10-29T23:15:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
@@ -53,27 +63,27 @@
    44,
    44,
    [
-    "2026-10-02T20:35:27+00:00",
-    "2026-10-02T20:46:53+00:00"
+    "2026-10-02T23:33:17+00:00",
+    "2026-10-03T16:00:20+00:00"
    ],
    [
-    "2026-10-06T14:50:34+00:00",
-    "2026-10-06T14:52:02+00:00"
+    "2026-10-06T14:57:00+00:00",
+    "2026-10-06T15:09:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T15:20:42+00:00",
-    "2026-09-22T16:11:35+00:00"
+    "2026-09-22T02:11:29+00:00",
+    "2026-09-22T03:51:55+00:00"
    ],
    [
-    "2026-10-02T20:09:16+00:00",
-    "2026-10-02T20:14:17+00:00"
+    "2026-10-02T18:54:06+00:00",
+    "2026-10-02T20:46:53+00:00"
    ]
   ],
-  "avant_filtre_date": 141,
+  "avant_filtre_date": 142,
   "apres_filtre_date": 16
  },
  "items": [
@@ -92,7 +102,8 @@
    "link": "https://www.amazon.ca/dp/B0CW1PK5QT?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0CW1PK5QT.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
@@ -109,7 +120,8 @@
    "link": "https://www.amazon.ca/dp/B091BGMKYS?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B091BGMKYS.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
@@ -126,7 +138,8 @@
    "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 1,
-   "doute": true
+   "doute": true,
+   "img": "/img/p/B000634MH8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
@@ -143,7 +156,8 @@
    "link": "https://www.amazon.ca/dp/B0FKJT8TFG?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0FKJT8TFG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
@@ -160,7 +174,8 @@
    "link": "https://www.amazon.ca/dp/B09K3CYNP3?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 1,
-   "doute": true
+   "doute": true,
+   "img": "/img/p/B09K3CYNP3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
@@ -177,7 +192,8 @@
    "link": "https://www.amazon.ca/dp/B0D31C567W?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0D31C567W.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
@@ -194,7 +210,8 @@
    "link": "https://www.amazon.ca/dp/B0D7YR2ZDG?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 2,
-   "doute": true
+   "doute": true,
+   "img": "/img/p/B0D7YR2ZDG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
@@ -211,7 +228,8 @@
    "link": "https://www.amazon.ca/dp/B07RN1ZW16?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 2,
-   "doute": true
+   "doute": true,
+   "img": "/img/p/B07RN1ZW16.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
@@ -228,7 +246,8 @@
    "link": "https://www.amazon.ca/dp/B0GNC8FQS7?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0GNC8FQS7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
@@ -245,7 +264,8 @@
    "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0DFCMJH5L.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
@@ -262,7 +282,8 @@
    "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0BXSXF81R.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -279,7 +300,8 @@
    "link": "https://www.amazon.ca/dp/B0DG5GKJKB?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0DG5GKJKB.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
@@ -296,7 +318,8 @@
    "link": "https://www.amazon.ca/dp/B0C8XBKZYG?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0C8XBKZYG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
@@ -313,7 +336,8 @@
    "link": "https://www.amazon.ca/dp/B0BTYCJXBK?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0BTYCJXBK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
@@ -330,7 +354,8 @@
    "link": "https://www.amazon.ca/dp/B008R3F0J8?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B008R3F0J8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
@@ -347,7 +372,8 @@
    "link": "https://www.amazon.ca/dp/B0FD8DFTLK?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
-   "doute": false
+   "doute": false,
+   "img": "/img/p/B0FD8DFTLK.jpg"
   }
  ]
 }
