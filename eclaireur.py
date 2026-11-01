@@ -115,10 +115,13 @@ def main():
         if first: (ROOT / "rfd_thread_debug.html").write_text(page[:600000]); first = False
         a = ASIN.search(unwrap(page))
         if not a: continue
+        # contrôle qualité : les 5 dernières réponses du fil disent-elles que le deal est mort ou que le prix a remonté?
+        derniers = " ".join(_txt(p) for p in re.findall(r'post_content[^>]*>(.*?)</(?:div|section)>', page, re.S)[-5:]).lower()
+        morts = len(re.findall(r"\b(dead|expired|oos|out of stock|sold out|no longer available|unavailable|price (?:went|is|jumped) (?:back )?up|back to \$?\d|back up to|not working|mort|expiré|rupture)\b", derniers))
         asin = a.group(1)
         pct = round((1 - t["price"] / t["was"]) * 100) if t["price"] and t["was"] and t["was"] > t["price"] else None
         items.append({**t, "rfd": t["url"], "asin": asin, "pct": pct, "cat": categorie(t["title"]),
-                      "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known})
+                      "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known, "morts": morts, "doute": morts >= 1})
     items.sort(key=lambda x: -(x["votes"] if x["votes"] is not None else -999))
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
     (OUT / "eclaireur.json").write_text(json.dumps({"date": now.isoformat(timespec="minutes"), "stats": stats, "items": items}, ensure_ascii=False, indent=1))
@@ -150,7 +153,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
         if cnt.get(x["cat"], 0) >= PAR_CAT: continue
         cnt[x["cat"]] = cnt.get(x["cat"], 0) + 1
         pub.append({"asin": x["asin"], "title": clean(x["title"]), "cat": x["cat"], "votes": x["votes"], "posts": x.get("posts"),
-                    "rfd": x["rfd"], "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
+                    "rfd": x["rfd"], "doute": x.get("doute"), "morts": x.get("morts"), "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
                     "seen": now.isoformat(timespec="minutes"), "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")})
         if len(pub) >= TOTAL: break
     print("Par catégorie :", cnt)
