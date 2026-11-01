@@ -1,16 +1,16 @@
 {
- "date": "2026-11-01T16:29-04:00",
+ "date": "2026-11-01T18:19-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   36,
+   36,
    [
     "2026-10-26T04:42:54+00:00",
     "2026-10-26T04:51:15+00:00"
    ],
    [
-    "2026-10-31T06:18:50+00:00",
-    "2026-11-01T15:54:36+00:00"
+    "2026-11-01T21:02:22+00:00",
+    "2026-11-01T21:10:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -27,63 +27,63 @@
    44,
    27,
    [
-    "2026-10-21T21:46:17+00:00",
-    "2026-10-22T18:13:08+00:00"
+    "2026-10-22T23:29:53+00:00",
+    "2026-10-23T04:52:52+00:00"
    ],
    [
-    "2026-10-31T06:18:50+00:00",
-    "2026-11-01T15:54:36+00:00"
+    "2026-11-01T21:02:22+00:00",
+    "2026-11-01T21:10:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T19:08:11+00:00",
-    "2026-10-07T19:11:46+00:00"
+    "2026-10-07T19:24:52+00:00",
+    "2026-10-07T19:57:32+00:00"
    ],
    [
-    "2026-10-20T23:45:11+00:00",
-    "2026-10-21T00:41:23+00:00"
+    "2026-10-21T21:46:17+00:00",
+    "2026-10-22T18:13:08+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:59:35+00:00",
-    "2026-10-06T15:10:45+00:00"
+    "2026-10-06T15:16:45+00:00",
+    "2026-10-06T15:20:57+00:00"
    ],
    [
-    "2026-10-07T18:28:14+00:00",
-    "2026-10-07T18:33:50+00:00"
+    "2026-10-07T19:08:11+00:00",
+    "2026-10-07T19:11:46+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-03T12:36:51+00:00",
+    "2026-10-03T13:54:36+00:00"
    ],
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-06T14:59:35+00:00",
+    "2026-10-06T15:10:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T16:11:35+00:00",
-    "2026-09-22T18:48:15+00:00"
+    "2026-09-22T18:50:19+00:00",
+    "2026-09-22T23:37:58+00:00"
    ],
    [
-    "2026-10-02T20:14:17+00:00",
-    "2026-10-02T20:35:27+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
+  "avant_filtre_date": 128,
   "apres_filtre_date": 17
  },
  "items": [
@@ -104,6 +104,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CW1PK5QT-2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
+   "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
+   "price": 9.99,
+   "was": 39.99,
+   "votes": 27,
+   "posts": 10,
+   "time": "2026-11-01T15:54:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
+   "asin": "B0DCP9RK53",
+   "pct": 75,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DCP9RK53?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
@@ -142,24 +160,6 @@
    "img": "/img/p/B000634MH8.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
-   "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
-   "price": 9.99,
-   "was": 39.99,
-   "votes": 22,
-   "posts": 10,
-   "time": "2026-11-01T15:54:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
-   "asin": "B0DCP9RK53",
-   "pct": 75,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DCP9RK53?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
    "title": "Splendor Kids (Board Game) -",
    "price": 22.42,
@@ -178,6 +178,24 @@
    "img": "/img/p/B0FKJT8TFG-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
+   "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
+   "price": 35.99,
+   "was": 59.99,
+   "votes": 17,
+   "posts": 11,
+   "time": "2026-10-26T04:51:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
+   "asin": "B0D31C567W",
+   "pct": 40,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0D31C567W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D31C567W-2.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
    "title": "Expo Dry Erase Markers, Chisel Tip, Assorted Colours, 16 Count @ $9.49 w/ S&S",
    "price": 9.49,
@@ -194,24 +212,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B09K3CYNP3.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
-   "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
-   "price": 35.99,
-   "was": 59.99,
-   "votes": 15,
-   "posts": 11,
-   "time": "2026-10-26T04:51:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
-   "asin": "B0D31C567W",
-   "pct": 40,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D31C567W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D31C567W-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
