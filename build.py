@@ -30,6 +30,42 @@ for _d in DEALS:
         _d = {k: v for k, v in _d.items() if k not in ("live", "pct", "amzPct", "flag", "vsAvg")}  # rabais non revérifié : coup de cœur
     _keep.append(_d)
 DEALS = _keep
+
+# --- Prix vérifiés dans Chrome (tâche « vérification des prix » sur l'ordi d'Alex) ---
+# suivi/prix_verifies.json : {"ASIN": {"price": 25.99, "was": 35.99, "dispo": true, "seen": "2026-11-02T08:35-05:00"}}
+# Dès qu'une vérification de moins de 36 h existe, le site passe en mode strict : seuls les deals vérifiés restent.
+try: VERIF = json.loads((ROOT / "suivi" / "prix_verifies.json").read_text())
+except Exception: VERIF = {}
+def _vok(v):
+    try: return (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(v["seen"])).total_seconds() < 36 * 3600
+    except Exception: return False
+VERIF = {a: v for a, v in VERIF.items() if isinstance(v, dict) and _vok(v)}
+STRICT = bool(VERIF)
+def _verifie(d):
+    """Applique le prix vérifié à un deal (catalogue ou scan). None = à retirer."""
+    v = VERIF.get(d.get("asin"))
+    if not v: return None if (STRICT and d.get("price")) else d
+    if not v.get("dispo", True) or not v.get("price"): return None
+    p, w = float(v["price"]), (float(v["was"]) if v.get("was") else None)
+    pct = round((1 - p / w) * 100) if w and w > p else 0
+    if pct < 5: return None  # plus de rabais : on retire
+    return {**d, "price": p, "was": w, "pct": pct, "amzPct": pct, "live": True, "verifie": v["seen"], "added": v["seen"][:10]}
+DEALS = [x for x in (_verifie(d) for d in DEALS) if x]
+
+def load_scan():
+    """Deals scannés (éclaireur) + deals du jour trouvés dans Chrome (suivi/deals_chrome.json), avec les prix vérifiés appliqués."""
+    L = []
+    for f in ("rfd.json", "suivi/deals_chrome.json"):
+        try: L += json.loads((ROOT / f).read_text())
+        except Exception: pass
+    vus, out = set(), []
+    for x in L:
+        if not x.get("asin") or x["asin"] in vus: continue
+        vus.add(x["asin"]); y = _verifie(x)
+        if y:
+            if y.get("verifie"): y["seen"] = y["verifie"]
+            out.append(y)
+    return out
 NOW = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
 MOIS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
 TODAY = f"{NOW.day} {MOIS[NOW.month-1]} {NOW.year}"
@@ -723,7 +759,7 @@ def rfd_card(x, stats='🔥 Deal du moment'):
     if ph:
         tag = (f'<div class="pic"><img src="/img/p/{ph}.jpg" alt="{e(x["title"][:80])}" loading="lazy" width="84" height="84">'
                f'{"<b>-" + str(x["pct"]) + "%</b>" if x.get("pct") else ""}</div>')
-    s = datetime.datetime.fromisoformat(x.get("posted") or x["seen"]).astimezone(ZoneInfo("America/Toronto"))  # moment où ce prix a été repéré
+    s = datetime.datetime.fromisoformat(x.get("verifie") or x.get("posted") or x["seen"]).astimezone(ZoneInfo("America/Toronto"))  # prix vérifié, sinon moment où il a été repéré
     when = f'{"1er" if s.day == 1 else s.day} {_MOC[s.month-1]} à {s.hour} h {s.minute:02d}'
     px = ""
     if x.get("price"):
@@ -751,8 +787,7 @@ def fresh_top5():
     """Top 5 bâti à partir des deals scannés il y a moins de 12 h (éclaireur), renouvelé matin et soir.
     Matin = avant midi (heure du Québec), soir = après. On écarte les vedettes de la période précédente
     quand il y a assez de deals frais, un seul deal par catégorie d'abord pour varier."""
-    try: L = json.loads((ROOT / "rfd.json").read_text())
-    except Exception: return []
+    L = load_scan()
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     pool = [x for x in L if rfd_ok(x, now, hors) and 20 <= (x.get("pct") or 0) and (x.get("votes") is None or x["votes"] >= 5)]
@@ -788,8 +823,7 @@ def fresh_top5():
     return picks
 
 def rfd_block(cats=None):
-    try: L = json.loads((ROOT / "rfd.json").read_text())
-    except Exception: return ""
+    L = load_scan()
     if cats: L = [x for x in L if x.get("cat") in cats]
     else:  # accueil : les plus votés, 2 max par catégorie pour varier
         n, keep = {}, []
@@ -814,8 +848,17 @@ def write(slug, content):
     p = OUT / slug / "index.html" if slug else OUT / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
 
+def a_verifier():
+    """suivi/a_verifier.json : tous les produits avec prix présents sur le site, pour la vérification dans Chrome."""
+    L = [{"asin": d["asin"], "titre": f'{d.get("brand", "")} {d.get("name", "")}'.strip(), "prix_affiche": d.get("price")} for d in DEALS if d.get("asin") and d.get("price")]
+    now = datetime.datetime.now(datetime.timezone.utc)
+    L += [{"asin": x["asin"], "titre": x["title"], "prix_affiche": x.get("price")} for x in load_scan() if rfd_ok(x, now, HORS_SAISON(now))]
+    try: (ROOT / "suivi" / "a_verifier.json").write_text(json.dumps({"genere": now.isoformat(timespec="minutes"), "produits": L}, ensure_ascii=False, indent=1))
+    except Exception: pass
+
 def main():
     OUT.mkdir(exist_ok=True)
+    a_verifier()
     urls = []
     for slug, title, h1, intro, f, more in PAGES:
         items = order([d for d in DEALS if f(d)])

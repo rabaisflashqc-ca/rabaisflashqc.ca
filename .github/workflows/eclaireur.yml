@@ -9,6 +9,8 @@ on:
     # Scans juste avant les packs et les publications, pour un Top 5 frais matin et soir :
     - cron: "51 11 * * *"  # 6 h 51 HNE, avant le pack du matin (7 h 07)
     - cron: "3 23 * * *"   # 18 h 03 HNE, avant la publication du soir (18 h 33)
+    - cron: "37 14 * * *"  # 9 h 37 HNE
+    - cron: "37 19 * * *"  # 14 h 37 HNE
   workflow_dispatch:
 permissions:
   contents: write
