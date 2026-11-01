@@ -15,9 +15,18 @@ UA = "RabaisFlashQC-eclaireur/1.0 (+https://rabaisflashqc.ca)"
 ASIN = re.compile(r"amazon\.ca/(?:[^\s\"'<>]*?/)?(?:dp|gp/product|gp/aw/d)/([A-Z0-9]{10})")
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "fr-CA,en;q=0.8"})
+    """Page RFD en texte. RFD renvoie parfois la page compressée même sans qu'on le demande : on décompresse."""
+    import gzip, zlib
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "fr-CA,en;q=0.8", "Accept-Encoding": "gzip"})
     with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read().decode("utf-8", "replace")
+        raw, enc = r.read(), (r.headers.get("Content-Encoding") or "").lower()
+    if enc == "gzip" or raw[:2] == b"\x1f\x8b": raw = gzip.decompress(raw)
+    elif enc == "deflate": raw = zlib.decompress(raw)
+    elif enc == "br":
+        try:
+            import brotli; raw = brotli.decompress(raw)
+        except Exception: pass
+    return raw.decode("utf-8", "replace")
 
 def unwrap(s):
     for _ in range(3): s = urllib.parse.unquote(s)
