@@ -117,6 +117,8 @@ def main():
         if not a: continue
         # contrôle qualité : les 5 dernières réponses du fil disent-elles que le deal est mort ou que le prix a remonté?
         derniers = " ".join(_txt(p) for p in re.findall(r'post_content[^>]*>(.*?)</(?:div|section)>', page, re.S)[-5:]).lower()
+        morts = len(re.findall(r"\b(dead|expired|oos|out of stock|sold out|no longer available|unavailable|price (?:went|is|jumped) (?:back )?up|back to \$?\d|back up to|not working|mort|expiré|rupture)\b", derniers))
+        asin = a.group(1)
         # photo du produit (image principale du fil), copiée sur notre site une seule fois
         img = None
         og = re.search(r'<meta property="?og:image"?\s+content="?([^" >]+)', page)
@@ -130,8 +132,6 @@ def main():
                     if len(data) > 3000: dest.write_bytes(data)
                 if dest.exists(): img = f"/img/p/{asin}.jpg"
             except Exception as ex: log.append(f"photo {asin} : {ex}")
-        morts = len(re.findall(r"\b(dead|expired|oos|out of stock|sold out|no longer available|unavailable|price (?:went|is|jumped) (?:back )?up|back to \$?\d|back up to|not working|mort|expiré|rupture)\b", derniers))
-        asin = a.group(1)
         pct = round((1 - t["price"] / t["was"]) * 100) if t["price"] and t["was"] and t["was"] > t["price"] else None
         items.append({**t, "rfd": t["url"], "asin": asin, "pct": pct, "cat": categorie(t["title"]),
                       "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known, "morts": morts, "doute": morts >= 1, "img": img})
