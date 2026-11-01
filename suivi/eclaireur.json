@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T10:33-04:00",
+ "date": "2026-11-01T10:36-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    33,
@@ -29,8 +29,8 @@
    44,
    44,
    [
-    "2026-10-07T18:33:50+00:00",
-    "2026-10-07T19:08:11+00:00"
+    "2026-10-07T19:36:28+00:00",
+    "2026-10-07T20:20:09+00:00"
    ],
    [
     "2026-10-20T12:14:48+00:00",
@@ -41,12 +41,12 @@
    44,
    44,
    [
-    "2026-10-06T14:57:00+00:00",
-    "2026-10-06T14:59:35+00:00"
+    "2026-10-06T15:48:05+00:00",
+    "2026-10-06T15:55:41+00:00"
    ],
    [
-    "2026-10-07T18:23:05+00:00",
-    "2026-10-07T18:28:14+00:00"
+    "2026-10-07T18:25:16+00:00",
+    "2026-10-07T19:20:38+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
@@ -73,7 +73,7 @@
     "2026-10-02T20:14:17+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
+  "avant_filtre_date": 141,
   "apres_filtre_date": 16
  },
  "items": [
@@ -90,7 +90,9 @@
    "pct": 23,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0CW1PK5QT?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
@@ -105,7 +107,9 @@
    "pct": 28,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B091BGMKYS?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
@@ -120,7 +124,9 @@
    "pct": 40,
    "cat": "animaux",
    "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 1,
+   "doute": true
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
@@ -135,7 +141,9 @@
    "pct": 35,
    "cat": "enfants",
    "link": "https://www.amazon.ca/dp/B0FKJT8TFG?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
@@ -150,7 +158,9 @@
    "pct": null,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B09K3CYNP3?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 1,
+   "doute": true
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
@@ -165,7 +175,9 @@
    "pct": 40,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0D31C567W?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
@@ -180,7 +192,9 @@
    "pct": 49,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0D7YR2ZDG?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 2,
+   "doute": true
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
@@ -195,7 +209,9 @@
    "pct": 55,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B07RN1ZW16?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 2,
+   "doute": true
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
@@ -210,7 +226,9 @@
    "pct": 53,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0GNC8FQS7?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
@@ -225,7 +243,9 @@
    "pct": 10,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DFCMJH5L?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
@@ -240,7 +260,9 @@
    "pct": 40,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -255,7 +277,9 @@
    "pct": 43,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DG5GKJKB?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
@@ -270,7 +294,9 @@
    "pct": 25,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0C8XBKZYG?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
@@ -285,7 +311,9 @@
    "pct": 25,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0BTYCJXBK?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
@@ -300,7 +328,9 @@
    "pct": 29,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B008R3F0J8?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
@@ -315,7 +345,9 @@
    "pct": 53,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0FD8DFTLK?tag=coupdecoeurqc-20",
-   "deja": false
+   "deja": false,
+   "morts": 0,
+   "doute": false
   }
  ]
 }
