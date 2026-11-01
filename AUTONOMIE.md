@@ -43,6 +43,15 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 - Photos : l'éclaireur copie la photo principale de chaque deal dans docs/img/p/, mais elle n'apparaît que si son ASIN est dans suivi/photos.json « ok ». À chaque pack, regarde les nouvelles photos (Read) et classe-les : ok = vraie photo du produit, non = capture d'écran, graphique, mème ou visuel publicitaire (supprime alors le fichier).
 - Les packs pour les réseaux reprennent la même règle : « prix repéré le [date] ».
 
+## Plan pour battre les grosses pages de deals (nov.-déc. 2026)
+
+- Ton : énergique, complice, québécois. Moins d'avertissements, plus d'émotion. Les prix restent datés en petit (« prix du 29 oct. ») : Amazon l'exige pour les prix qui ne sont pas mis à jour en continu, sinon le compte Associés est à risque.
+- Site : boutons « Voir le deal 👉 », Top 5 avec photos en haut, nouveau Top matin et soir pour donner une raison de revenir.
+- Réseaux, chaque jour : 1 réel (accroche choc dans la 1re seconde : le plus gros % ou le plus petit prix), 1 carrousel ou image « Top 5 », 1 story avec sondage (« Tu le prends? Oui / Non »). Séries fixes : « Le deal à moins de 20 $ », « Cadeau pour… (maman, ado, chum) », compte à rebours Vendredi fou (27 nov.).
+- Engagement : toujours une question en fin de post (« Lequel tu prends? 1, 2 ou 3? »), répondre à chaque commentaire, inviter à identifier quelqu'un.
+- Communauté : proposer à Alex un groupe Facebook « Rabais Flash QC : la gang » (c'est le moteur des grosses pages de deals) où chaque deal du site est partagé.
+- Objectif de commissions : 500 $ en décembre demande environ 12 000 $ de ventes (à environ 4 % de commission), soit autour de 4 000 clics vers Amazon dans le mois. 2 000 $ demande environ 4 fois plus. Suivre clics et ventes chaque dimanche dans le bilan.
+
 ## Règles absolues
 
 - Chaque post finit par : « En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. »

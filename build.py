@@ -381,12 +381,12 @@ def deal_html(d):
     if d.get("live") and pct and d.get("price"):
         avant = _money(d["was"]) if d.get("was") else "env. " + f'{round(d["price"] / (1 - pct / 100)):,} $'.replace(",", " ")
         prix = (f'<p class="px"><s>{avant}</s> <b>{_money(d["price"])}</b>'
-                f'<span>-{pct} %</span><small>prix vu le {_jour(d.get("added"))}{" · vérifie le prix actuel" if d.get("vieux") else ""}</small></p>')
+                f'<span>-{pct} %</span><small>prix du {_jour(d.get("added"))}</small></p>')
     why = prix + why
     until = f' data-until="{d["until"]}"' if d.get("until") else ""
     if d.get("price"): until += f' data-price="{d["price"]}"'
     return (f'<li class="deal"{until}>{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
-            f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+            f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
 
 IG = "https://www.instagram.com/rabaisflashqc/"
 SHOP = "https://www.amazon.ca/shop/coupdecoeurqc"
@@ -455,7 +455,7 @@ def top5():
         n = len(fp)
         cards = "".join(rfd_card(x, f"⭐ Top {n} " + lbl) for x in fp)
         return [], (f'<section class="topbox" aria-label="Le Top {n} {lbl}"><h2>⭐ Le Top {n} {lbl}</h2>'
-                    '<p class="topsub">Les 5 meilleurs rabais repérés ces derniers jours, renouvelés matin et soir. Les prix changent vite sur Amazon : vérifie toujours le prix final avant d\'acheter.</p>'
+                    '<p class="topsub">Les 5 meilleurs deals du moment, choisis pour toi. Nouveau Top matin et soir : reviens voir! 🔥</p>'
                     f'<ol class="top5">{cards}</ol>'
                     '<div class="share">📣 Partage le Top 5 : '
                     '<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frabaisflashqc.ca%2F" target="_blank" rel="noopener">Facebook</a>'
@@ -640,7 +640,7 @@ def article(a):
             live = _LIVE.get(asin)
             pct = f'<span class="cd">-{live["pct"]} % au moment de notre vérification</span>' if live and live.get("live") and live.get("pct") else ""
             cards += (f'<li class="deal"><div><p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{pct}<p>{e(txt)}</p>'
-                      f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+                      f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
         cards += '</ol>'
     intro = "".join(f"<p>{e(x)}</p>" for x in a["intro"])
     tips = '<h2>Nos conseils avant de commander</h2><ul>' + "".join(f"<li>{e(t)}</li>" for t in a["tips"]) + '</ul>'
@@ -716,7 +716,7 @@ _MOC = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct
 
 def rfd_card(x, stats='🔥 Deal du moment'):
     """Carte d'un deal scanné : prix, ancien prix, % et heure du dernier scan (heure du Québec)."""
-    tag = f'<div class="tag">-{x["pct"]}%<small>repéré</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
+    tag = f'<div class="tag">-{x["pct"]}%<small>rabais</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
     if x.get("img") and x.get("asin") in PHOTOS_OK:
         tag = (f'<div class="pic"><img src="{e(x["img"])}" alt="{e(x["title"][:80])}" loading="lazy" width="84" height="84">'
                f'{"<b>-" + str(x["pct"]) + "%</b>" if x.get("pct") else ""}</div>')
@@ -725,10 +725,10 @@ def rfd_card(x, stats='🔥 Deal du moment'):
     px = ""
     if x.get("price"):
         px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
-              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix repéré le {when}</small></p>')
+              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix du {when}</small></p>')
     return (f'<li class="deal"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
-            f'<h3>{e(x["title"])}</h3>{px}<p class="why">Les prix bougent vite : vérifie le prix final sur Amazon.ca.</p>'
-            f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+            f'<h3>{e(x["title"])}</h3>{px}'
+            f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
 
 HORS_AUDIENCE = re.compile(r"gaming|gamer|gpu|graphics card|ssd|nvme|motherboard|mouse pad|dry erase|server|nas\b|raspberry|soldering|oscilloscope", re.I)
 
