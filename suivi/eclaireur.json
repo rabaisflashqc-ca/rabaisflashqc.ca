@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T12:55-04:00",
+ "date": "2026-11-01T13:06-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    34,
@@ -103,7 +103,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0CW1PK5QT-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
@@ -157,7 +157,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0FKJT8TFG-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
@@ -193,7 +193,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0D31C567W-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
@@ -229,7 +229,7 @@
    "deja": false,
    "morts": 2,
    "doute": true,
-   "img": null
+   "img": "/img/p/B07RN1ZW16-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
@@ -247,15 +247,15 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0GNC8FQS7-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
    "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
    "price": 9.99,
    "was": 39.99,
-   "votes": 12,
-   "posts": 4,
+   "votes": 14,
+   "posts": 5,
    "time": "2026-11-01T15:54:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
    "asin": "B0DCP9RK53",
@@ -301,7 +301,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0BXSXF81R-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -391,7 +391,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0FD8DFTLK-2.jpg"
   }
  ]
 }
