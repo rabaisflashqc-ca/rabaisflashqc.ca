@@ -41,7 +41,7 @@ def threads(page):
             old = re.search(r'<span>(.*?)</span>', sv.group(1), re.S)
             was = _money(old.group(1)) if old else None
             now_p = _money(re.sub(r'<span>.*?</span>', "", sv.group(1), flags=re.S))
-        v = re.search(r'class="votes thread_stat">(.*?)</span>', c, re.S)
+        v = re.search(r'class="votes thread_stat[^"]*"[^>]*>.*?vote_score_value>\s*([+-]?\d+)', c, re.S)
         p = re.search(r'class="posts thread_stat">(.*?)</span>', c, re.S)
         tm = re.search(r'datetime="([^"]+)"', c)
         num = lambda m: int(re.sub(r"[^\d-]", "", _txt(re.sub(r"<svg.*?</svg>", "", m.group(1), flags=re.S))) or 0) if m else None
@@ -103,6 +103,7 @@ def main():
         try: page = get(t["url"])
         except Exception as ex:
             log.append(f'{t["url"]} : {ex}'); continue
+        if first: (ROOT / "rfd_thread_debug.html").write_text(page[:600000]); first = False
         a = ASIN.search(unwrap(page))
         if not a: continue
         asin = a.group(1)
