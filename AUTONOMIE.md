@@ -41,6 +41,7 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 - L'éclaireur roule aussi juste avant le pack du matin et la publication du soir.
 - Vérité des prix : un deal repéré affiche « prix repéré le [date de publication du deal] », jamais l'heure du scan comme si le prix avait été vérifié. Les fils où une des 5 dernières réponses parle de deal mort ou de prix remonté sont écartés. Les prix du catalogue de plus de 3 jours sont cachés. Aucun compte à rebours inventé.
 - Photos : l'éclaireur copie la photo principale de chaque deal dans docs/img/p/, mais elle n'apparaît que si son ASIN est dans suivi/photos.json « ok ». À chaque pack, regarde les nouvelles photos (Read) et classe-les : ok = vraie photo du produit, non = capture d'écran, graphique, mème ou visuel publicitaire (supprime alors le fichier).
+- Photos du catalogue (produits ajoutés à data.json) : trouve une photo officielle sur le site de la marque ou d'un grand détaillant (jamais Amazon), ajoute l'URL dans suivi/photos_sources.json, lance le workflow photos.yml, vérifie la photo à l'oeil puis ajoute l'ASIN à suivi/photos.json « ok ».
 - Les packs pour les réseaux reprennent la même règle : « prix repéré le [date] ».
 
 ## Plan pour battre les grosses pages de deals (nov.-déc. 2026)
