@@ -55,7 +55,7 @@ DEALS = [x for x in (_verifie(d) for d in DEALS) if x]
 def load_scan():
     """Deals scannés (éclaireur) + deals du jour trouvés dans Chrome (suivi/deals_chrome.json), avec les prix vérifiés appliqués."""
     L = []
-    for f in ("rfd.json", "suivi/deals_chrome.json"):
+    for f in ("suivi/deals_keepa.json", "rfd.json", "suivi/deals_chrome.json"):
         try: L += json.loads((ROOT / f).read_text())
         except Exception: pass
     vus, out = set(), []
@@ -405,6 +405,8 @@ def deal_html(d):
         tag = f'<div class="tag" aria-hidden="true">{ICON.get(d["cat"],"⭐")}</div>'
     if not d.get("img") and d.get("asin") in PHOTOS_OK:  # photo vérifiée à l'oeil
         d = {**d, "img": f'/img/p/{d["asin"]}.jpg'}
+    elif not d.get("img") and (VERIF.get(d.get("asin")) or {}).get("img_url"):  # photo du produit fournie par Keepa
+        d = {**d, "img": VERIF[d["asin"]]["img_url"]}
     if d.get("img"):
         lbl = f'<b>-{pct}%</b>' if d.get("live") and pct else ""
         tag = f'<div class="pic"><img src="{e(d["img"])}" alt="" loading="lazy" width="84" height="84">{lbl}</div>'
@@ -756,8 +758,9 @@ def rfd_card(x, stats='🔥 Deal du moment'):
     """Carte d'un deal scanné : prix, ancien prix, % et heure du dernier scan (heure du Québec)."""
     tag = f'<div class="tag">-{x["pct"]}%<small>rabais</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
     ph = next((st for st in (x.get("asin", ""), f'{x.get("asin")}-2', f'{x.get("asin")}-3') if st in PHOTOS_OK), None)
-    if ph:
-        tag = (f'<div class="pic"><img src="/img/p/{ph}.jpg" alt="{e(x["title"][:80])}" loading="lazy" width="84" height="84">'
+    src = f"/img/p/{ph}.jpg" if ph else (x.get("img_url") or (VERIF.get(x.get("asin")) or {}).get("img_url"))
+    if src:
+        tag = (f'<div class="pic"><img src="{e(src)}" alt="{e(x["title"][:80])}" loading="lazy" width="84" height="84">'
                f'{"<b>-" + str(x["pct"]) + "%</b>" if x.get("pct") else ""}</div>')
     s = datetime.datetime.fromisoformat(x.get("verifie") or x.get("posted") or x["seen"]).astimezone(ZoneInfo("America/Toronto"))  # prix vérifié, sinon moment où il a été repéré
     when = f'{"1er" if s.day == 1 else s.day} {_MOC[s.month-1]} à {s.hour} h {s.minute:02d}'
@@ -791,7 +794,7 @@ def fresh_top5():
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     pool = [x for x in L if rfd_ok(x, now, hors) and 20 <= (x.get("pct") or 0) and (x.get("votes") is None or x["votes"] >= 5)]
-    pool.sort(key=lambda x: (not any(st.startswith(x.get("asin", "?")) for st in PHOTOS_OK), -((x.get("votes") or 0) * 2 + x["pct"])))
+    pool.sort(key=lambda x: (not (x.get("img_url") or any(st.startswith(x.get("asin", "?")) for st in PHOTOS_OK)), -((x.get("votes") or 0) * 2 + x["pct"])))
     if len(pool) < 3: return []
     loc = now.astimezone(ZoneInfo("America/Toronto"))
     slot = f"{loc:%Y-%m-%d}-" + ("m" if loc.hour < 12 else "s")
