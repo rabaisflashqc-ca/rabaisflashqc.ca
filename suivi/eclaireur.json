@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T10:41-04:00",
+ "date": "2026-11-01T10:59-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    33,
@@ -103,7 +103,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CW1PK5QT.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
@@ -157,7 +157,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FKJT8TFG.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
@@ -193,7 +193,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0D31C567W.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
@@ -229,7 +229,7 @@
    "deja": false,
    "morts": 2,
    "doute": true,
-   "img": "/img/p/B07RN1ZW16.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
@@ -247,7 +247,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0GNC8FQS7.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
@@ -283,7 +283,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BXSXF81R.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -373,7 +373,7 @@
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FD8DFTLK.jpg"
+   "img": null
   }
  ]
 }
