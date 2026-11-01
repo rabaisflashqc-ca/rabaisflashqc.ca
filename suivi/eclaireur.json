@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T12:08-04:00",
+ "date": "2026-11-01T12:55-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    34,
@@ -39,8 +39,8 @@
    44,
    44,
    [
-    "2026-10-07T19:08:11+00:00",
-    "2026-10-07T19:11:46+00:00"
+    "2026-10-07T20:20:09+00:00",
+    "2026-10-07T22:55:58+00:00"
    ],
    [
     "2026-10-20T23:45:11+00:00",
@@ -51,39 +51,39 @@
    44,
    44,
    [
-    "2026-10-06T14:59:35+00:00",
-    "2026-10-06T15:10:45+00:00"
+    "2026-10-06T15:55:41+00:00",
+    "2026-10-06T16:12:37+00:00"
    ],
    [
-    "2026-10-07T18:28:14+00:00",
-    "2026-10-07T18:33:50+00:00"
+    "2026-10-07T19:20:38+00:00",
+    "2026-10-07T19:36:28+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-03T16:00:20+00:00",
+    "2026-10-03T16:38:01+00:00"
    ],
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-06T15:09:40+00:00",
+    "2026-10-06T15:48:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T16:11:35+00:00",
-    "2026-09-22T18:48:15+00:00"
+    "2026-09-22T03:51:55+00:00",
+    "2026-09-22T08:33:24+00:00"
    ],
    [
-    "2026-10-02T20:14:17+00:00",
-    "2026-10-02T20:35:27+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
+  "avant_filtre_date": 143,
   "apres_filtre_date": 17
  },
  "items": [
@@ -93,7 +93,7 @@
    "price": 169.99,
    "was": 219.99,
    "votes": 30,
-   "posts": 49,
+   "posts": 51,
    "time": "2026-10-31T06:18:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
    "asin": "B0CW1PK5QT",
@@ -250,6 +250,24 @@
    "img": null
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
+   "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
+   "price": 9.99,
+   "was": 39.99,
+   "votes": 12,
+   "posts": 4,
+   "time": "2026-11-01T15:54:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
+   "asin": "B0DCP9RK53",
+   "pct": 75,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DCP9RK53?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DCP9RK53.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-x-sense-wi-fi-water-leak-detector-kit-56-69-2830160/",
    "title": "X-Sense Wi-Fi Water Leak Detector Kit $56.69",
    "price": 56.69,
@@ -374,24 +392,6 @@
    "morts": 0,
    "doute": false,
    "img": null
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
-   "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
-   "price": 9.99,
-   "was": 39.99,
-   "votes": 1,
-   "posts": 1,
-   "time": "2026-11-01T15:54:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
-   "asin": "B0DCP9RK53",
-   "pct": 75,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DCP9RK53?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DCP9RK53.jpg"
   }
  ]
 }
