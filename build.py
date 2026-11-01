@@ -440,6 +440,22 @@ def _bought(x): return _num(r"[Pp]lus de ([\d\s ]+?)\s*achet", x.get("why"))
 def _reviews(x): return _num(r"\(([\d\s ]+) avis\)", x.get("why"))
 
 def top5():
+    fp = fresh_top5()
+    if fp:
+        TOP_ASINS.clear(); TOP_ASINS.update(x["asin"] for x in fp)
+        loc = datetime.datetime.now(ZoneInfo("America/Toronto"))
+        lbl = "du matin" if loc.hour < 12 else "du soir"
+        cards = "".join(rfd_card(x, "⭐ Top 5 " + lbl) for x in fp)
+        return [], (f'<section class="topbox" aria-label="Le Top 5 {lbl}"><h2>⭐ Le Top 5 {lbl}</h2>'
+                    '<p class="topsub">Les 5 meilleurs rabais du dernier scan, renouvelés matin et soir. Les prix bougent vite : clique vite!</p>'
+                    f'<ol class="top5">{cards}</ol>'
+                    '<div class="share">📣 Partage le Top 5 : '
+                    '<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frabaisflashqc.ca%2F" target="_blank" rel="noopener">Facebook</a>'
+                    '<a href="https://wa.me/?text=Les%20meilleurs%20rabais%20du%20jour%20%F0%9F%91%89%20https%3A%2F%2Frabaisflashqc.ca%2F" target="_blank" rel="noopener">WhatsApp</a>'
+                    '<button type="button" onclick="navigator.clipboard&&navigator.clipboard.writeText(\'https://rabaisflashqc.ca/\');this.textContent=\'Lien copié ✓\'">Copier le lien</button></div></section>')
+    return _top5_catalogue()
+
+def _top5_catalogue():
     """Top 5 stratégique, recalculé à chaque mise à jour :
     3 produits de VOLUME (petit prix, beaucoup d'acheteurs : faciles à vendre, déposent le cookie)
     + 2 produits à FORTE COMMISSION (commission estimée la plus élevée, rabais réel, bien notés).
@@ -684,6 +700,65 @@ def dealcat_block(only=None):
     return (f'<section class="brands"><h2>{t}</h2><p class="topsub">Les rabais officiels d\'Amazon.ca, <b>mis à jour en continu</b>. Un clic et tu vois tout ce qui est en solde.</p>'
             f'<div class="btg">{tiles}</div></section>')
 
+HORS_SAISON = lambda now: re.compile(r"paddle ?board|stand up paddle|kayak|pool|piscine|weed burner|weed torch|lawn mower|sunscreen" + (r"|hallowe" if now.month >= 11 else ""), re.I)
+TOP_ASINS = set()
+_MOC = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
+
+def rfd_card(x, stats='🔥 Deal du moment'):
+    """Carte d'un deal scanné : prix, ancien prix, % et heure du dernier scan (heure du Québec)."""
+    tag = f'<div class="tag">-{x["pct"]}%<small>observé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
+    s = datetime.datetime.fromisoformat(x.get("seen") or x["posted"]).astimezone(ZoneInfo("America/Toronto"))
+    when = f'{"1er" if s.day == 1 else s.day} {_MOC[s.month-1]} à {s.hour} h {s.minute:02d}'
+    px = ""
+    if x.get("price"):
+        px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
+              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix observé le {when}</small></p>')
+    return (f'<li class="deal" data-until="{x["until"]}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
+            f'<h3>{e(x["title"])}</h3>{px}<p class="why">Les prix bougent vite : vérifie le prix final sur Amazon.ca.</p>'
+            f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+
+def fresh_top5():
+    """Top 5 bâti à partir des deals scannés il y a moins de 12 h (éclaireur), renouvelé matin et soir.
+    Matin = avant midi (heure du Québec), soir = après. On écarte les vedettes de la période précédente
+    quand il y a assez de deals frais, un seul deal par catégorie d'abord pour varier."""
+    try: L = json.loads((ROOT / "rfd.json").read_text())
+    except Exception: return []
+    now = datetime.datetime.now(datetime.timezone.utc)
+    hors = HORS_SAISON(now)
+    def fresh(x):
+        try: return (now - datetime.datetime.fromisoformat(x["seen"])).total_seconds() < 12 * 3600 and datetime.datetime.fromisoformat(x["until"]) > now
+        except Exception: return False
+    pool = [x for x in L if x.get("asin") and x.get("title") and x.get("price") and (x.get("pct") or 0) >= 15 and fresh(x) and not hors.search(x["title"])]
+    if len(pool) < 3: return []
+    loc = now.astimezone(ZoneInfo("America/Toronto"))
+    slot = f"{loc:%Y-%m-%d}-" + ("m" if loc.hour < 12 else "s")
+    sf = ROOT / "top_state.json"
+    try: st = json.loads(sf.read_text())
+    except Exception: st = {}
+    by = {x["asin"]: x for x in pool}
+    if st.get("slot") == slot and st.get("src") == "scan":
+        prev = set(st.get("prev", []))
+        picks = [by[a] for a in st.get("asins", []) if a in by]
+    else:
+        prev = set(st.get("asins", []))
+        picks = []
+    def fill(excl):
+        cats = {x["cat"] for x in picks}
+        rank = sorted([x for x in pool if x["asin"] not in excl and x not in picks], key=lambda x: (-x["pct"], x["price"]))
+        for x in rank:  # 1 par catégorie d'abord
+            if len(picks) >= 5: return
+            if x["cat"] not in cats: picks.append(x); cats.add(x["cat"])
+        for x in rank:
+            if len(picks) >= 5: return
+            if x not in picks: picks.append(x)
+    fill(prev)
+    if len(picks) < 5: fill(set())  # pas assez de nouveautés : les vedettes précédentes peuvent revenir
+    picks = picks[:5]
+    try: sf.write_text(json.dumps({"slot": slot, "src": "scan", "asins": [x["asin"] for x in picks], "prev": sorted(prev),
+                                   "hist": ([a for a in st.get("asins", []) if a not in st.get("hist", [])] + st.get("hist", []))[:15]}, ensure_ascii=False))
+    except Exception: pass
+    return picks
+
 def rfd_block(cats=None):
     try: L = json.loads((ROOT / "rfd.json").read_text())
     except Exception: return ""
@@ -696,22 +771,12 @@ def rfd_block(cats=None):
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if datetime.datetime.fromisoformat(x["until"]) > now and x.get("title")]
     # saison passée (automne-hiver au Québec) : pas de planche à pagaie, piscine ou brûleur à mauvaises herbes
-    hors = re.compile(r"paddle ?board|stand up paddle|kayak|pool|piscine|weed burner|weed torch|lawn mower|sunscreen" + (r"|hallowe" if now.month >= 11 else ""), re.I)
+    hors = HORS_SAISON(now)
     L = [x for x in L if not hors.search(x["title"])]
     if not L: return ""
-    MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
-    def card(x):
-        tag = f'<div class="tag">-{x["pct"]}%<small>observé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
-        s = datetime.datetime.fromisoformat(x.get("seen") or x["posted"]).astimezone(ZoneInfo("America/Toronto"))  # heure du dernier scan, heure du Québec
-        when = f'{"1er" if s.day == 1 else s.day} {MO[s.month-1]} à {s.hour} h {s.minute:02d}'
-        px = ""
-        if x.get("price"):
-            px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
-                  f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix observé le {when}</small></p>')
-        stats = '🔥 Deal du moment'
-        return (f'<li class="deal" data-until="{x["until"]}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
-                f'<h3>{e(x["title"])}</h3>{px}<p class="why">Les prix bougent vite : vérifie le prix final sur Amazon.ca.</p>'
-                f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le prix sur Amazon.ca</a></div></li>')
+    if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS]  # accueil : pas de doublon avec le Top 5
+    if not L: return ""
+    card = rfd_card
     li = "".join(card(x) for x in L[:10])
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
@@ -760,7 +825,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (LEA + season_banner() + rfd_block() + topblock + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'

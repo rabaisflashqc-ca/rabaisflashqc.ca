@@ -35,6 +35,11 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 - Chaque post Facebook invite aussi à suivre Instagram @rabaisflashqc et TikTok (Instagram part de 1 abonné). Le site a déjà les boutons « J'aime la page » et « Suis-nous @rabaisflashqc ».
 - Canaux gratuits : groupes Facebook québécois de rabais, seulement là où les règles du groupe permettent de partager, et jamais en rafale.
 
+## Top 5 du site
+
+- Le Top 5 de l'accueil est renouvelé matin (avant midi) et soir (après midi), à partir des deals scannés par l'éclaireur il y a moins de 12 h (`fresh_top5()` dans build.py). Les vedettes de la période précédente sont écartées quand il y a assez de deals frais. S'il y a moins de 3 deals frais, le site revient au Top 5 du catalogue.
+- L'éclaireur roule aussi juste avant le pack du matin et la publication du soir.
+
 ## Règles absolues
 
 - Chaque post finit par : « En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. »

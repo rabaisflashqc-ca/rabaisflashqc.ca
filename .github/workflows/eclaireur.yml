@@ -6,6 +6,9 @@ on:
     - cron: "47 10 * * *"  # secours du matin si GitHub a sauté le premier
     - cron: "17 16 * * *"
     - cron: "13 22 * * *"
+    # Scans juste avant les packs et les publications, pour un Top 5 frais matin et soir :
+    - cron: "51 11 * * *"  # 6 h 51 HNE, avant le pack du matin (7 h 07)
+    - cron: "3 23 * * *"   # 18 h 03 HNE, avant la publication du soir (18 h 33)
   workflow_dispatch:
 permissions:
   contents: write
