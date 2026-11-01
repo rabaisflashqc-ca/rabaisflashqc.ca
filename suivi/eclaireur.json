@@ -1,82 +1,97 @@
 {
- "date": "2026-11-01T10:28-04:00",
+ "date": "2026-11-01T10:33-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   33,
+   33,
    [
     "2026-10-26T04:42:54+00:00",
     "2026-10-26T04:51:15+00:00"
    ],
    [
-    "2026-10-31T06:18:50+00:00",
-    "2026-10-31T18:28:57+00:00"
+    "2026-10-30T14:08:31+00:00",
+    "2026-10-31T06:18:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   27,
+   28,
    [
-    "2026-10-21T21:46:17+00:00",
-    "2026-10-22T18:13:08+00:00"
+    "2026-10-21T00:41:23+00:00",
+    "2026-10-21T21:46:17+00:00"
    ],
    [
-    "2026-10-31T06:18:50+00:00",
-    "2026-10-31T18:28:57+00:00"
+    "2026-10-30T14:08:31+00:00",
+    "2026-10-31T06:18:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T19:08:11+00:00",
-    "2026-10-07T19:11:46+00:00"
+    "2026-10-07T18:33:50+00:00",
+    "2026-10-07T19:08:11+00:00"
    ],
    [
-    "2026-10-20T23:45:11+00:00",
-    "2026-10-21T00:41:23+00:00"
+    "2026-10-20T12:14:48+00:00",
+    "2026-10-20T23:45:11+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:59:35+00:00",
-    "2026-10-06T15:10:45+00:00"
+    "2026-10-06T14:57:00+00:00",
+    "2026-10-06T14:59:35+00:00"
    ],
    [
-    "2026-10-07T18:28:14+00:00",
-    "2026-10-07T18:33:50+00:00"
+    "2026-10-07T18:23:05+00:00",
+    "2026-10-07T18:28:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-02T20:35:27+00:00",
+    "2026-10-02T20:46:53+00:00"
    ],
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-06T14:50:34+00:00",
+    "2026-10-06T14:52:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T16:11:35+00:00",
-    "2026-09-22T18:48:15+00:00"
+    "2026-09-22T15:20:42+00:00",
+    "2026-09-22T16:11:35+00:00"
    ],
    [
-    "2026-10-02T20:14:17+00:00",
-    "2026-10-02T20:35:27+00:00"
+    "2026-10-02T20:09:16+00:00",
+    "2026-10-02T20:14:17+00:00"
    ]
   ],
   "avant_filtre_date": 130,
-  "apres_filtre_date": 17
+  "apres_filtre_date": 16
  },
  "items": [
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
+   "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
+   "price": 169.99,
+   "was": 219.99,
+   "votes": 30,
+   "posts": 44,
+   "time": "2026-10-31T06:18:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
+   "asin": "B0CW1PK5QT",
+   "pct": 23,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CW1PK5QT?tag=coupdecoeurqc-20",
+   "deja": false
+  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
    "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
