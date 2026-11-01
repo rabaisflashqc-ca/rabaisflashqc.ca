@@ -126,7 +126,7 @@ def main():
         except Exception: refus = set()
         urls = []
         og = re.search(r'<meta property="?og:image"?\s+content="?([^" >]+)', page)
-        if og: urls.append(og.group(1))
+        if og and not re.search(r"logo|assets\.rfdcontent", og.group(1)): urls.append(og.group(1))
         i0 = page.find("thread_original_post")
         if i0 > 0:
             op = page[i0:i0 + 60000]
