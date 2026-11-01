@@ -342,7 +342,7 @@ def mix(items, brands, every=3):
 
 _MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
 def _jour(iso):
-    try: t = datetime.date.fromisoformat(iso); return f"{t.day} {_MO[t.month-1]}"
+    try: t = datetime.date.fromisoformat(iso); return f"{'1er' if t.day == 1 else t.day} {_MO[t.month-1]}"
     except Exception: return "récemment"
 def _money(v): return f"{v:,.2f} $".replace(",", " ").replace(".", ",")
 def _old_price(price, pct):
@@ -703,7 +703,7 @@ def rfd_block(cats=None):
     def card(x):
         tag = f'<div class="tag">-{x["pct"]}%<small>observé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
         s = datetime.datetime.fromisoformat(x.get("seen") or x["posted"]).astimezone(ZoneInfo("America/Toronto"))  # heure du dernier scan, heure du Québec
-        when = f'{s.day} {MO[s.month-1]} à {s.hour} h {s.minute:02d}'
+        when = f'{"1er" if s.day == 1 else s.day} {MO[s.month-1]} à {s.hour} h {s.minute:02d}'
         px = ""
         if x.get("price"):
             px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
