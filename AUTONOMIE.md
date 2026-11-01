@@ -39,6 +39,9 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 
 - Le Top 5 de l'accueil est renouvelé matin (avant midi) et soir (après midi), à partir des deals scannés par l'éclaireur il y a moins de 12 h (`fresh_top5()` dans build.py). Les vedettes de la période précédente sont écartées quand il y a assez de deals frais. S'il y a moins de 3 deals frais, le site revient au Top 5 du catalogue.
 - L'éclaireur roule aussi juste avant le pack du matin et la publication du soir.
+- Vérité des prix : un deal repéré affiche « prix repéré le [date de publication du deal] », jamais l'heure du scan comme si le prix avait été vérifié. Les fils où une des 5 dernières réponses parle de deal mort ou de prix remonté sont écartés. Les prix du catalogue de plus de 3 jours sont cachés. Aucun compte à rebours inventé.
+- Photos : l'éclaireur copie la photo principale de chaque deal dans docs/img/p/, mais elle n'apparaît que si son ASIN est dans suivi/photos.json « ok ». À chaque pack, regarde les nouvelles photos (Read) et classe-les : ok = vraie photo du produit, non = capture d'écran, graphique, mème ou visuel publicitaire (supprime alors le fichier).
+- Les packs pour les réseaux reprennent la même règle : « prix repéré le [date] ».
 
 ## Règles absolues
 
