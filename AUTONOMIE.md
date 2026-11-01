@@ -49,7 +49,7 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 - Site : boutons « Voir le deal 👉 », Top 5 avec photos en haut, nouveau Top matin et soir pour donner une raison de revenir.
 - Réseaux, chaque jour : 1 réel (accroche choc dans la 1re seconde : le plus gros % ou le plus petit prix), 1 carrousel ou image « Top 5 », 1 story avec sondage (« Tu le prends? Oui / Non »). Séries fixes : « Le deal à moins de 20 $ », « Cadeau pour… (maman, ado, chum) », compte à rebours Vendredi fou (27 nov.).
 - Engagement : toujours une question en fin de post (« Lequel tu prends? 1, 2 ou 3? »), répondre à chaque commentaire, inviter à identifier quelqu'un.
-- Communauté : proposer à Alex un groupe Facebook « Rabais Flash QC : la gang » (c'est le moteur des grosses pages de deals) où chaque deal du site est partagé.
+- Communauté : pas de groupe Facebook (décision d'Alex, 1er nov.). On mise sur la page, Instagram, TikTok et le site.
 - Objectif de commissions : 500 $ en décembre demande environ 12 000 $ de ventes (à environ 4 % de commission), soit autour de 4 000 clics vers Amazon dans le mois. 2 000 $ demande environ 4 fois plus. Suivre clics et ventes chaque dimanche dans le bilan.
 
 ## Règles absolues
