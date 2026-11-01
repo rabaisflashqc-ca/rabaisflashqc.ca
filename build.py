@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Génère le site statique rabaisflashqc.ca à partir de data.json."""
+from zoneinfo import ZoneInfo
 import re, json, html, os, datetime, pathlib, urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
@@ -701,7 +702,7 @@ def rfd_block(cats=None):
     MO = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
     def card(x):
         tag = f'<div class="tag">-{x["pct"]}%<small>observé</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
-        s = datetime.datetime.fromisoformat(x.get("posted") or x["seen"]).astimezone(datetime.timezone(datetime.timedelta(hours=-4)))
+        s = datetime.datetime.fromisoformat(x.get("seen") or x["posted"]).astimezone(ZoneInfo("America/Toronto"))  # heure du dernier scan, heure du Québec
         when = f'{s.day} {MO[s.month-1]} à {s.hour} h {s.minute:02d}'
         px = ""
         if x.get("price"):
@@ -759,7 +760,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (LEA + season_banner() + rfd_block() + topblock + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
