@@ -122,7 +122,9 @@ def main():
         # photo du produit (image principale du fil), copiée sur notre site une seule fois
         img = None
         og = re.search(r'<meta property="?og:image"?\s+content="?([^" >]+)', page)
-        if og and "rfdcontent.com" in og.group(1):
+        try: refus = set(json.loads((ROOT / "suivi" / "photos.json").read_text()).get("non", []))
+        except Exception: refus = set()
+        if og and "rfdcontent.com" in og.group(1) and asin not in refus:
             dest = ROOT / "docs" / "img" / "p" / f"{asin}.jpg"
             try:
                 if not dest.exists():

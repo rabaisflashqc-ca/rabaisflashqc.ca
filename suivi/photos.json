@@ -1,0 +1,23 @@
+{
+ "_note": "Photos vérifiées à l'oeil : ok = vraie photo du produit, non = capture d'écran, graphique, mème ou visuel publicitaire. Une photo n'apparaît sur le site que si son ASIN est dans ok.",
+ "ok": [
+  "B000634MH8",
+  "B008R3F0J8",
+  "B091BGMKYS",
+  "B09K3CYNP3",
+  "B0BTYCJXBK",
+  "B0C8XBKZYG",
+  "B0D7YR2ZDG",
+  "B0DFCMJH5L",
+  "B0DG5GKJKB"
+ ],
+ "non": [
+  "B07RN1ZW16",
+  "B0BXSXF81R",
+  "B0CW1PK5QT",
+  "B0D31C567W",
+  "B0FD8DFTLK",
+  "B0FKJT8TFG",
+  "B0GNC8FQS7"
+ ]
+}
