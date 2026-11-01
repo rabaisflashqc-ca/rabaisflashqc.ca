@@ -119,21 +119,39 @@ def main():
         derniers = " ".join(_txt(p) for p in re.findall(r'post_content[^>]*>(.*?)</(?:div|section)>', page, re.S)[-5:]).lower()
         morts = len(re.findall(r"\b(dead|expired|oos|out of stock|sold out|no longer available|unavailable|price (?:went|is|jumped) (?:back )?up|back to \$?\d|back up to|not working|mort|expiré|rupture)\b", derniers))
         asin = a.group(1)
-        # photo du produit (image principale du fil), copiée sur notre site une seule fois
+        # photos du produit : image principale du fil + images du premier message (3 candidates max), copiées sur notre site.
+        # Elles ne s'affichent que si Claude les a vérifiées à l'oeil (suivi/photos.json « ok »).
         img = None
-        og = re.search(r'<meta property="?og:image"?\s+content="?([^" >]+)', page)
         try: refus = set(json.loads((ROOT / "suivi" / "photos.json").read_text()).get("non", []))
         except Exception: refus = set()
-        if og and "rfdcontent.com" in og.group(1) and asin not in refus:
-            dest = ROOT / "docs" / "img" / "p" / f"{asin}.jpg"
+        urls = []
+        og = re.search(r'<meta property="?og:image"?\s+content="?([^" >]+)', page)
+        if og: urls.append(og.group(1))
+        i0 = page.find("thread_original_post")
+        if i0 > 0:
+            op = page[i0:i0 + 60000]
+            fin = op.find('class="post\n', 100)
+            op = op[:fin] if fin > 0 else op[:20000]
+            urls += re.findall(r'href="?(https://[^" >]*rfdcontent\.com[^" >]*_original\.(?:jpe?g|png|webp))', op)
+            urls += re.findall(r'<img[^>]+src="?(https://[^" >]*dam-img\.rfdcontent\.com[^" >]+)', op)
+        vus, n = set(), 0
+        for u in urls:
+            cid = re.search(r"/cms/(\d+/\d+/\d+)/", u)
+            cid = cid.group(1) if cid else u
+            if cid in vus or "rfdcontent.com" not in u: continue
+            vus.add(cid); n += 1
+            stem = asin if n == 1 else f"{asin}-{n}"
+            dest = ROOT / "docs" / "img" / "p" / f"{stem}.jpg"
+            if stem in refus: continue
             try:
                 if not dest.exists():
                     dest.parent.mkdir(parents=True, exist_ok=True)
-                    req = urllib.request.Request(og.group(1), headers={"User-Agent": UA})
+                    req = urllib.request.Request(u, headers={"User-Agent": UA})
                     with urllib.request.urlopen(req, timeout=20) as r: data = r.read()
                     if len(data) > 3000: dest.write_bytes(data)
-                if dest.exists(): img = f"/img/p/{asin}.jpg"
-            except Exception as ex: log.append(f"photo {asin} : {ex}")
+                if dest.exists() and not img: img = f"/img/p/{stem}.jpg"
+            except Exception as ex: log.append(f"photo {stem} : {ex}")
+            if n >= 3: break
         pct = round((1 - t["price"] / t["was"]) * 100) if t["price"] and t["was"] and t["was"] > t["price"] else None
         items.append({**t, "rfd": t["url"], "asin": asin, "pct": pct, "cat": categorie(t["title"]),
                       "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known, "morts": morts, "doute": morts >= 1, "img": img})
