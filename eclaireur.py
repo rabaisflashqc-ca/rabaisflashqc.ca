@@ -83,7 +83,7 @@ def votes(page):
 def main():
     known = {d.get("asin") for d in json.loads((ROOT / "data.json").read_text())["deals"]}
     log, items = [], []
-    pages = [LIST] + [LIST_NEW] + [LIST_NEW.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3, 4, 5)]
+    pages = [LIST, LIST.replace("/hot-deals-f9/", "/hot-deals-f9/2/")] + [LIST_NEW] + [LIST_NEW.replace("/hot-deals-f9/", f"/hot-deals-f9/{n}/") for n in (2, 3, 4, 5)]
     th, seen, stats = [], set(), {}
     for i, u in enumerate(pages):
         try:
@@ -117,11 +117,24 @@ def main():
         if not a: continue
         # contrôle qualité : les 5 dernières réponses du fil disent-elles que le deal est mort ou que le prix a remonté?
         derniers = " ".join(_txt(p) for p in re.findall(r'post_content[^>]*>(.*?)</(?:div|section)>', page, re.S)[-5:]).lower()
+        # photo du produit (image principale du fil), copiée sur notre site une seule fois
+        img = None
+        og = re.search(r'<meta property="?og:image"?\s+content="?([^" >]+)', page)
+        if og and "rfdcontent.com" in og.group(1):
+            dest = ROOT / "docs" / "img" / "p" / f"{asin}.jpg"
+            try:
+                if not dest.exists():
+                    dest.parent.mkdir(parents=True, exist_ok=True)
+                    req = urllib.request.Request(og.group(1), headers={"User-Agent": UA})
+                    with urllib.request.urlopen(req, timeout=20) as r: data = r.read()
+                    if len(data) > 3000: dest.write_bytes(data)
+                if dest.exists(): img = f"/img/p/{asin}.jpg"
+            except Exception as ex: log.append(f"photo {asin} : {ex}")
         morts = len(re.findall(r"\b(dead|expired|oos|out of stock|sold out|no longer available|unavailable|price (?:went|is|jumped) (?:back )?up|back to \$?\d|back up to|not working|mort|expiré|rupture)\b", derniers))
         asin = a.group(1)
         pct = round((1 - t["price"] / t["was"]) * 100) if t["price"] and t["was"] and t["was"] > t["price"] else None
         items.append({**t, "rfd": t["url"], "asin": asin, "pct": pct, "cat": categorie(t["title"]),
-                      "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known, "morts": morts, "doute": morts >= 1})
+                      "link": f"https://www.amazon.ca/dp/{asin}?tag={TAG}", "deja": asin in known, "morts": morts, "doute": morts >= 1, "img": img})
     items.sort(key=lambda x: -(x["votes"] if x["votes"] is not None else -999))
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
     (OUT / "eclaireur.json").write_text(json.dumps({"date": now.isoformat(timespec="minutes"), "stats": stats, "items": items}, ensure_ascii=False, indent=1))
@@ -153,7 +166,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
         if cnt.get(x["cat"], 0) >= PAR_CAT: continue
         cnt[x["cat"]] = cnt.get(x["cat"], 0) + 1
         pub.append({"asin": x["asin"], "title": clean(x["title"]), "cat": x["cat"], "votes": x["votes"], "posts": x.get("posts"),
-                    "rfd": x["rfd"], "doute": x.get("doute"), "morts": x.get("morts"), "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
+                    "rfd": x["rfd"], "img": x.get("img"), "doute": x.get("doute"), "morts": x.get("morts"), "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
                     "seen": now.isoformat(timespec="minutes"), "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")})
         if len(pub) >= TOTAL: break
     print("Par catégorie :", cnt)
