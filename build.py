@@ -359,11 +359,12 @@ def _recent(iso, days=3):
     except Exception: return False
 
 def deal_html(d):
-    if d.get("live") and not _recent(d.get("added")):  # prix trop vieux pour être affiché comme vrai : on montre le produit sans prix
-        d = {**d, "live": False}
+    if d.get("live") and not _recent(d.get("added")):
+        # prix vu il y a plus de 3 jours : on l'affiche avec sa date (transparence), sans la mention « plus bas » qui peut ne plus être vraie
+        d = {**d, "flag": "", "vieux": True}
     pct = d.get("amzPct") or d.get("pct")
     if d.get("live") and pct:
-        tag = f'<div class="tag">-{pct}%<small>sur Amazon</small></div>'
+        tag = f'<div class="tag">-{pct}%<small>{"le " + _jour(d.get("added")) if d.get("vieux") else "sur Amazon"}</small></div>'
     else:
         tag = f'<div class="tag" aria-hidden="true">{ICON.get(d["cat"],"⭐")}</div>'
     if d.get("img"):
@@ -380,7 +381,7 @@ def deal_html(d):
     if d.get("live") and pct and d.get("price"):
         avant = _money(d["was"]) if d.get("was") else "env. " + f'{round(d["price"] / (1 - pct / 100)):,} $'.replace(",", " ")
         prix = (f'<p class="px"><s>{avant}</s> <b>{_money(d["price"])}</b>'
-                f'<span>-{pct} %</span><small>prix observé le {_jour(d.get("added"))}</small></p>')
+                f'<span>-{pct} %</span><small>prix vu le {_jour(d.get("added"))}{" · vérifie le prix actuel" if d.get("vieux") else ""}</small></p>')
     why = prix + why
     until = f' data-until="{d["until"]}"' if d.get("until") else ""
     if d.get("price"): until += f' data-price="{d["price"]}"'
