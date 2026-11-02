@@ -1,16 +1,16 @@
 {
- "date": "2026-11-01T22:21-04:00",
+ "date": "2026-11-02T08:21-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   36,
-   36,
+   33,
+   33,
    [
-    "2026-10-26T04:42:54+00:00",
-    "2026-10-26T04:51:15+00:00"
+    "2026-10-26T14:16:43+00:00",
+    "2026-10-26T15:52:14+00:00"
    ],
    [
-    "2026-11-01T21:02:22+00:00",
-    "2026-11-01T21:10:36+00:00"
+    "2026-11-02T06:13:32+00:00",
+    "2026-11-02T11:41:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,66 +25,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   25,
+   27,
    [
-    "2026-10-22T23:29:53+00:00",
-    "2026-10-23T04:52:52+00:00"
+    "2026-10-23T04:52:52+00:00",
+    "2026-10-23T05:10:09+00:00"
    ],
    [
-    "2026-11-01T21:02:22+00:00",
-    "2026-11-01T21:10:36+00:00"
+    "2026-11-02T06:13:32+00:00",
+    "2026-11-02T11:41:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T19:24:52+00:00",
-    "2026-10-07T19:57:32+00:00"
+    "2026-10-07T21:00:02+00:00",
+    "2026-10-07T22:55:58+00:00"
    ],
    [
-    "2026-10-21T21:46:17+00:00",
-    "2026-10-22T18:13:08+00:00"
+    "2026-10-22T18:13:08+00:00",
+    "2026-10-22T23:29:53+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T15:16:45+00:00",
-    "2026-10-06T15:20:57+00:00"
+    "2026-10-06T21:10:59+00:00",
+    "2026-10-06T21:12:52+00:00"
    ],
    [
-    "2026-10-07T19:08:11+00:00",
-    "2026-10-07T19:11:46+00:00"
+    "2026-10-07T20:09:09+00:00",
+    "2026-10-07T20:20:09+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-03T12:36:51+00:00",
-    "2026-10-03T13:54:36+00:00"
+    "2026-10-06T13:04:45+00:00",
+    "2026-10-06T13:11:53+00:00"
    ],
    [
-    "2026-10-06T14:59:35+00:00",
-    "2026-10-06T15:10:45+00:00"
+    "2026-10-06T20:53:55+00:00",
+    "2026-10-06T20:56:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T18:50:19+00:00",
-    "2026-09-22T23:37:58+00:00"
+    "2026-10-02T13:46:03+00:00",
+    "2026-10-02T13:51:28+00:00"
    ],
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-06T12:51:25+00:00",
+    "2026-10-06T13:00:14+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
-  "apres_filtre_date": 19
+  "avant_filtre_date": 134,
+  "apres_filtre_date": 17
  },
  "items": [
   {
@@ -92,8 +92,8 @@
    "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
    "price": 169.99,
    "was": 219.99,
-   "votes": 32,
-   "posts": 54,
+   "votes": 33,
+   "posts": 56,
    "time": "2026-10-31T06:18:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
    "asin": "B0CW1PK5QT",
@@ -111,7 +111,7 @@
    "price": 9.99,
    "was": 39.99,
    "votes": 30,
-   "posts": 10,
+   "posts": 11,
    "time": "2026-11-01T15:54:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
    "asin": "B0DCP9RK53",
@@ -178,24 +178,6 @@
    "img": "/img/p/B0FKJT8TFG-2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
-   "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4 on sale $35.99($59.99)",
-   "price": 35.99,
-   "was": 59.99,
-   "votes": 17,
-   "posts": 11,
-   "time": "2026-10-26T04:51:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-sale-35-99-59-99-2830107/",
-   "asin": "B0D31C567W",
-   "pct": 40,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D31C567W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D31C567W-2.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
    "title": "Expo Dry Erase Markers, Chisel Tip, Assorted Colours, 16 Count @ $9.49 w/ S&S",
    "price": 9.49,
@@ -212,24 +194,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B09K3CYNP3.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
-   "title": "INIU 3 in 1 Qi2 Certified 15W Wireless MagSafe Charging Station $20.39",
-   "price": 20.39,
-   "was": 39.99,
-   "votes": 14,
-   "posts": 9,
-   "time": "2026-10-26T12:14:44+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-3-1-qi2-certified-15w-wireless-magsafe-charging-station-20-39-2830129/",
-   "asin": "B0D7YR2ZDG",
-   "pct": 49,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D7YR2ZDG?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0D7YR2ZDG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-serenelife-inflatable-stand-up-paddle-board-134-97-55-off-2830395/",
@@ -322,6 +286,24 @@
    "img": "/img/p/B0DG5GKJKB.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
+   "title": "Black+Decker dustbuster Handheld Vacuum, Cordless On sale $85($119.99)",
+   "price": 85.0,
+   "was": 119.99,
+   "votes": 2,
+   "posts": 10,
+   "time": "2026-10-27T03:20:45+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
+   "asin": "B008R3F0J8",
+   "pct": 29,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B008R3F0J8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B008R3F0J8-2.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
    "title": "Downy Fabric Softener 190 loads (4.16L) - $13.53 with S&S",
    "price": 13.53,
@@ -340,6 +322,24 @@
    "img": "/img/p/B0C8XBKZYG.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
+   "title": "medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
+   "price": 258.62,
+   "was": 350.0,
+   "votes": 2,
+   "posts": 1,
+   "time": "2026-11-01T21:02:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
+   "asin": "B0GS8BWDZ3",
+   "pct": 26,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0GS8BWDZ3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GS8BWDZ3.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-wireless-earbuds-bluetooth-5-3-10mm-drivers-30-hour-battery-life-29-99-2830184/",
    "title": "Anker Soundcore P20i Wireless Earbuds, Bluetooth 5.3, 10mm Drivers & 30-Hour Battery Life $29.99",
    "price": 29.99,
@@ -356,24 +356,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BTYCJXBK-2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
-   "title": "Black+Decker dustbuster Handheld Vacuum, Cordless On sale $85($119.99)",
-   "price": 85.0,
-   "was": 119.99,
-   "votes": 1,
-   "posts": 10,
-   "time": "2026-10-27T03:20:45+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
-   "asin": "B008R3F0J8",
-   "pct": 29,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B008R3F0J8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B008R3F0J8-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
@@ -410,24 +392,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01AKGRTUM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
-   "title": "medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
-   "price": 258.62,
-   "was": 350.0,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-01T21:02:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
-   "asin": "B0GS8BWDZ3",
-   "pct": 26,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B0GS8BWDZ3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GS8BWDZ3.jpg"
   }
  ]
 }
