@@ -37,7 +37,7 @@ Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme,
 
 ## Top 5 du site
 
-- Le Top 5 de l'accueil est renouvelé matin (avant midi) et soir (après midi), à partir des deals scannés par l'éclaireur il y a moins de 12 h (`fresh_top5()` dans build.py). Les vedettes de la période précédente sont écartées quand il y a assez de deals frais. S'il y a moins de 3 deals frais, le site revient au Top 5 du catalogue.
+- Le Top 5 de l'accueil est recalculé à chaque build, sans verrou (demande d'Alex du 2 nov.) : dès qu'un meilleur deal plus récent arrive, il entre. Source : deals de moins de 12 h (éclaireur et Keepa dans Chrome). Classement `_score()` dans build.py : % de rabais + petit bonus de votes (10 max) − 1 point par heure depuis la lecture du prix, un deal par catégorie d'abord. S'il y a moins de 3 deals frais, le site revient au Top 5 du catalogue.
 - L'éclaireur roule aussi juste avant le pack du matin et la publication du soir.
 - Vérité des prix : un deal repéré affiche « prix repéré le [date de publication du deal] », jamais l'heure du scan comme si le prix avait été vérifié. Les fils où une des 5 dernières réponses parle de deal mort ou de prix remonté sont écartés. Les prix du catalogue de plus de 3 jours sont cachés. Aucun compte à rebours inventé.
 - Prix du jour (demande impérative d'Alex) : source = Keepa (keepa.py, workflow keepa.yml chaque heure, secret KEEPA_KEY). Keepa fournit les deals du jour d'amazon.ca et vérifie tous les prix affichés. Dès qu'une vérification de moins de 36 h existe, le site ne garde que les deals vérifiés; les deals restent au maximum 7 jours. Budget : forfait Starter, environ 10 % des jetons utilisés.

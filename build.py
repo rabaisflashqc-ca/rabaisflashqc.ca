@@ -787,42 +787,30 @@ def rfd_ok(x, now, hors):
     if (x.get("pct") or 0) > 85 or x.get("doute") or (x.get("votes") is not None and x["votes"] < 2): return False
     return not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])
 
+def _score(x, now):
+    """Meilleur deal et plus récent : % de rabais, petit bonus de votes, moins 1 point par heure depuis la lecture du prix."""
+    try: h = (now - datetime.datetime.fromisoformat(x.get("verifie") or x["seen"])).total_seconds() / 3600
+    except Exception: h = 12
+    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h
+
 def fresh_top5():
-    """Top 5 bâti à partir des deals scannés il y a moins de 12 h (éclaireur), renouvelé matin et soir.
-    Matin = avant midi (heure du Québec), soir = après. On écarte les vedettes de la période précédente
-    quand il y a assez de deals frais, un seul deal par catégorie d'abord pour varier."""
+    """Top 5 bâti à partir des deals frais (moins de 12 h : éclaireur et Keepa dans Chrome), recalculé à chaque build.
+    Pas de verrou : dès qu'un meilleur deal plus récent arrive, il entre dans le Top 5.
+    Un seul deal par catégorie d'abord pour varier."""
     L = load_scan()
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     pool = [x for x in L if rfd_ok(x, now, hors) and 20 <= (x.get("pct") or 0) and (x.get("votes") is None or x["votes"] >= 5)]
-    pool.sort(key=lambda x: (not (x.get("img_url") or any(st.startswith(x.get("asin", "?")) for st in PHOTOS_OK)), -((x.get("votes") or 0) * 2 + x["pct"])))
+    pool.sort(key=lambda x: -_score(x, now))
     if len(pool) < 3: return []
-    loc = now.astimezone(ZoneInfo("America/Toronto"))
-    slot = f"{loc:%Y-%m-%d}-" + ("m" if loc.hour < 12 else "s")
-    sf = ROOT / "top_state.json"
-    try: st = json.loads(sf.read_text())
-    except Exception: st = {}
-    by = {x["asin"]: x for x in pool}
-    if st.get("slot") == slot and st.get("src") == "scan":
-        prev = set(st.get("prev", []))
-        picks = [by[a] for a in st.get("asins", []) if a in by]
-    else:
-        prev = set(st.get("asins", []))
-        picks = []
-    def fill(excl):
-        cats = {x["cat"] for x in picks}
-        rank = [x for x in pool if x["asin"] not in excl and x not in picks]
-        for x in rank:  # 1 par catégorie d'abord
-            if len(picks) >= 5: return
-            if x["cat"] not in cats: picks.append(x); cats.add(x["cat"])
-        for x in rank:
-            if len(picks) >= 5: return
-            if x not in picks: picks.append(x)
-    fill(prev)
-    if len(picks) < 5: fill(set())  # pas assez de nouveautés : les vedettes précédentes peuvent revenir
-    picks = picks[:5]
-    try: sf.write_text(json.dumps({"slot": slot, "src": "scan", "asins": [x["asin"] for x in picks], "prev": sorted(prev),
-                                   "hist": ([a for a in st.get("asins", []) if a not in st.get("hist", [])] + st.get("hist", []))[:15]}, ensure_ascii=False))
+    picks, cats = [], set()
+    for x in pool:  # 1 par catégorie d'abord
+        if len(picks) >= 5: break
+        if x["cat"] not in cats: picks.append(x); cats.add(x["cat"])
+    for x in pool:
+        if len(picks) >= 5: break
+        if x not in picks: picks.append(x)
+    try: (ROOT / "top_state.json").write_text(json.dumps({"src": "scan", "asins": [x["asin"] for x in picks], "maj": now.isoformat(timespec="minutes")}, ensure_ascii=False))
     except Exception: pass
     return picks
 
