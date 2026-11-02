@@ -1,0 +1,17 @@
+name: Test Logimu (gratuit, sans clé)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 outils/test_logimu.py
+      - name: Publier le résultat
+        run: |
+          git config user.name "Rabais Flash QC"
+          git config user.email "rabaisflashqc-ca@users.noreply.github.com"
+          git add suivi/test_logimu.json
+          git diff --cached --quiet || (git commit -m "Test Logimu gratuit" && git pull --rebase && git push)
