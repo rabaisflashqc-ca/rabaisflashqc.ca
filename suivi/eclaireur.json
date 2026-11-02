@@ -1,12 +1,12 @@
 {
- "date": "2026-11-02T15:36-04:00",
+ "date": "2026-11-02T16:31-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   33,
-   33,
+   32,
+   32,
    [
-    "2026-10-26T19:35:56+00:00",
-    "2026-10-27T00:50:56+00:00"
+    "2026-10-27T00:50:56+00:00",
+    "2026-10-27T03:20:45+00:00"
    ],
    [
     "2026-11-02T13:59:56+00:00",
@@ -25,7 +25,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   27,
+   28,
    [
     "2026-10-23T05:23:39+00:00",
     "2026-10-23T09:52:47+00:00"
@@ -322,6 +322,24 @@
    "img": "/img/p/B0GS8BWDZ3.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
+   "price": 74.99,
+   "was": 119.99,
+   "votes": 1,
+   "posts": 8,
+   "time": "2026-10-28T07:07:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "asin": "B01AKGRTUM",
+   "pct": 38,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01AKGRTUM.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
    "title": "Pilates Essentials Kit (Ring, Ball, Bands, etc.) $16.99 (53% off)",
    "price": 16.99,
@@ -338,24 +356,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FD8DFTLK-2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
-   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
-   "price": 74.99,
-   "was": 119.99,
-   "votes": 0,
-   "posts": 8,
-   "time": "2026-10-28T07:07:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
-   "asin": "B01AKGRTUM",
-   "pct": 38,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01AKGRTUM.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-200-cocktail-picks-10-99-42-off-2830795/",
