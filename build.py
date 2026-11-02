@@ -816,11 +816,12 @@ def fresh_top5():
 
 def rfd_block(cats=None):
     L = load_scan()
-    if cats: L = [x for x in L if x.get("cat") in cats]
-    else:  # accueil : les plus votés, 2 max par catégorie pour varier
+    if cats: L = sorted([x for x in L if x.get("cat") in cats], key=lambda x: -_score(x, datetime.datetime.now(datetime.timezone.utc)))
+    else:  # accueil : meilleurs deals et plus récents (même classement que le Top 5), 2 max par catégorie pour varier
         n, keep = {}, []
-        for x in sorted(L, key=lambda x: -(x.get("votes") or 0)):
-            if n.get(x.get("cat"), 0) < 2: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
+        _now = datetime.datetime.now(datetime.timezone.utc)
+        for x in sorted(L, key=lambda x: -_score(x, _now)):
+            if n.get(x.get("cat"), 0) < 3: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
         L = keep
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if rfd_ok(x, now, HORS_SAISON(now))]
@@ -831,7 +832,7 @@ def rfd_block(cats=None):
     if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS]  # accueil : pas de doublon avec le Top 5
     if not L: return ""
     card = rfd_card
-    li = "".join(card(x) for x in (L[:20] if cats else L[:10]))  # pages de catégorie : jusqu à 20 deals
+    li = "".join(card(x) for x in (L[:24] if cats else L[:12]))  # pages de catégorie : jusqu à 20 deals
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')

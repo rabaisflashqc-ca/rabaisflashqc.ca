@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-02T13:33+00:00",
+ "genere": "2026-11-02T13:35+00:00",
  "produits": [
   {
    "asin": "B0CTNWBT1Z",
@@ -385,6 +385,121 @@
    "asin": "B08ZXY1B7H",
    "titre": "Eau de parfum Mugler Alien",
    "prix_affiche": 93.75
+  },
+  {
+   "asin": "B0GZW2VK3B",
+   "titre": "Écouteurs Nothing Ear (3a) à réduction de bruit",
+   "prix_affiche": 109.99
+  },
+  {
+   "asin": "B0D6WD2QSQ",
+   "titre": "Haut-parleur Bluetooth Bose SoundLink Flex",
+   "prix_affiche": 149.0
+  },
+  {
+   "asin": "B0BRXJVG1S",
+   "titre": "Haut-parleur Ultimate Ears WONDERBOOM 4",
+   "prix_affiche": 71.24
+  },
+  {
+   "asin": "B0CTNWBT1Z",
+   "titre": "Haut-parleur Bluetooth JBL Go 4",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0CTBCDD6D",
+   "titre": "Casque sans fil JBL Tune 720BT",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B0GHY652MM",
+   "titre": "Casque sans fil JBL Tune 530BT",
+   "prix_affiche": 44.98
+  },
+  {
+   "asin": "B0DZ8DLQGK",
+   "titre": "Écouteurs CMF by Nothing Buds 2 à réduction de bruit",
+   "prix_affiche": 35.99
+  },
+  {
+   "asin": "B00307B4P0",
+   "titre": "Pistolet à air chaud DEWALT D26950",
+   "prix_affiche": 78.0
+  },
+  {
+   "asin": "B0052MILZM",
+   "titre": "Lampe de travail DEL DEWALT 20V MAX (outil seul)",
+   "prix_affiche": 27.98
+  },
+  {
+   "asin": "B0C76CPGC7",
+   "titre": "Télémètre laser Bosch GLM100-23 (100 pi)",
+   "prix_affiche": 46.85
+  },
+  {
+   "asin": "B00EXW6SJS",
+   "titre": "Eau de toilette Versace Eros pour homme",
+   "prix_affiche": 81.56
+  },
+  {
+   "asin": "B001PTFWYE",
+   "titre": "Parfum Coty Vanilla Musk pour femme",
+   "prix_affiche": 19.66
+  },
+  {
+   "asin": "B082XFC6V8",
+   "titre": "Nettoyant corps et visage ATTITUDE",
+   "prix_affiche": 27.05
+  },
+  {
+   "asin": "B0CGY2KWTB",
+   "titre": "LEGO Technic Buggy tout-terrain",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B09MW3Q54W",
+   "titre": "VTech Le grand livre de jeux de Bluey",
+   "prix_affiche": 29.97
+  },
+  {
+   "asin": "B0DLBWLCFH",
+   "titre": "Poupée Ken Barbie Fashionistas",
+   "prix_affiche": 16.84
+  },
+  {
+   "asin": "B0145GMV7Y",
+   "titre": "Jeu Pictionary de Mattel",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B097Z3DKSM",
+   "titre": "Biberons anti-coliques Philips Avent",
+   "prix_affiche": 44.97
+  },
+  {
+   "asin": "B0B94LGR54",
+   "titre": "Ensemble de draps grand lit Eddie Bauer",
+   "prix_affiche": 56.53
+  },
+  {
+   "asin": "B01KG1AAZC",
+   "titre": "Verres à double paroi ZWILLING Sorrento Plus (2)",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0F3DQZ193",
+   "titre": "Grande bougie parfumée Yankee Candle",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0D7YZ5T2V",
+   "titre": "Bas de randonnée Smartwool Hike Classic",
+   "prix_affiche": 24.64
+  },
+  {
+   "asin": "B07FTNQXXN",
+   "titre": "Gâteries pour chat INABA Churu",
+   "prix_affiche": 22.11
   }
  ]
 }
