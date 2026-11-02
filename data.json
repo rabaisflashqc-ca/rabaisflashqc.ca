@@ -7323,7 +7323,8 @@
    "rate": 0.06,
    "live": true,
    "added": "2026-11-02",
-   "r": 0.99
+   "r": 0.99,
+   "img": "/img/p/skechers-summits-key-pace.jpg"
   },
   {
    "cat": "femme",
@@ -7334,7 +7335,8 @@
    "badge": "",
    "rate": 0.06,
    "added": "2026-11-02",
-   "r": 0.99
+   "r": 0.99,
+   "img": "/img/p/hanes-ecosmart-zip-femme.jpg"
   }
  ],
  "stores": {
