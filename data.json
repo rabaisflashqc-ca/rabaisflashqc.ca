@@ -7279,6 +7279,62 @@
    "live": true,
    "added": "2026-11-02",
    "r": 0.99
+  },
+  {
+   "cat": "homme",
+   "q": "DEWALT lampe de travail DEL 20V MAX DCL040",
+   "brand": "DeWalt",
+   "name": "Lampe de travail DEL 20V MAX (110 lumens, tête pivotante)",
+   "why": "Crochet intégré, tête pivotante à 120 degrés, 11 à 25 h d'autonomie selon la batterie (vérifie si la batterie est incluse). Prix le plus bas des 90 derniers jours sur Amazon : 27,98 $ le 2 nov. Choix d'Amazon, 4,7 étoiles (10 874 avis), plus de 200 achetés le mois dernier.",
+   "badge": "gift",
+   "rate": 0.06,
+   "added": "2026-11-02",
+   "r": 0.99
+  },
+  {
+   "cat": "tech",
+   "q": "Corsair K55 RGB PRO clavier gaming",
+   "brand": "Corsair",
+   "name": "K55 RGB PRO, clavier de jeu filaire, noir",
+   "why": "Résistant à la poussière et aux déversements (IP42), 6 touches macro, clavier QWERTY anglais. Livraison prévue du 10 au 27 nov. 4,4 étoiles (957 avis).",
+   "price": 54.99,
+   "was": 84.95,
+   "pct": 35,
+   "amzPct": 35,
+   "flag": "Offre à durée limitée",
+   "badge": "gift",
+   "rate": 0.01,
+   "live": true,
+   "added": "2026-11-02",
+   "r": 0.99
+  },
+  {
+   "cat": "homme",
+   "q": "Skechers Summits Key Pace slip-ins homme",
+   "brand": "Skechers",
+   "name": "Summits Key Pace, chaussures à enfiler mains libres pour homme",
+   "why": "Slip-ins sans lacets, mousse à mémoire de forme, lavables. Prix le plus bas des 365 derniers jours (vu en noir et blanc; le prix peut varier selon la pointure et la couleur). 4,6 étoiles (7 710 avis).",
+   "price": 76.99,
+   "was": 120.0,
+   "pct": 36,
+   "amzPct": 36,
+   "flag": "Prix le plus bas des 365 derniers jours",
+   "badge": "gift",
+   "rate": 0.06,
+   "live": true,
+   "added": "2026-11-02",
+   "r": 0.99
+  },
+  {
+   "cat": "femme",
+   "q": "Hanes EcoSmart veste à capuchon zippée femme",
+   "brand": "Hanes",
+   "name": "Veste à capuchon EcoSmart en molleton, zip complet, pour femme",
+   "why": "Molleton doux pour l'hiver, plein de couleurs. De 26,98 $ à 30,76 $ selon la couleur et la taille sur Amazon le 2 nov. 4,1 étoiles (46 984 avis).",
+   "badge": "",
+   "rate": 0.06,
+   "added": "2026-11-02",
+   "r": 0.99
   }
  ],
  "stores": {
