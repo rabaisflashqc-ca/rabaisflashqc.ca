@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T18:19-04:00",
+ "date": "2026-11-01T21:29-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -25,7 +25,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   27,
+   25,
    [
     "2026-10-22T23:29:53+00:00",
     "2026-10-23T04:52:52+00:00"
@@ -39,8 +39,8 @@
    44,
    44,
    [
-    "2026-10-07T19:24:52+00:00",
-    "2026-10-07T19:57:32+00:00"
+    "2026-10-07T23:13:35+00:00",
+    "2026-10-07T23:26:09+00:00"
    ],
    [
     "2026-10-21T21:46:17+00:00",
@@ -51,40 +51,40 @@
    44,
    44,
    [
-    "2026-10-06T15:16:45+00:00",
-    "2026-10-06T15:20:57+00:00"
+    "2026-10-06T16:24:00+00:00",
+    "2026-10-06T17:17:29+00:00"
    ],
    [
-    "2026-10-07T19:08:11+00:00",
-    "2026-10-07T19:11:46+00:00"
+    "2026-10-07T20:20:09+00:00",
+    "2026-10-07T22:55:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-03T12:36:51+00:00",
-    "2026-10-03T13:54:36+00:00"
+    "2026-10-04T03:20:31+00:00",
+    "2026-10-04T13:03:02+00:00"
    ],
    [
-    "2026-10-06T14:59:35+00:00",
-    "2026-10-06T15:10:45+00:00"
+    "2026-10-06T15:55:41+00:00",
+    "2026-10-06T16:12:37+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T18:50:19+00:00",
-    "2026-09-22T23:37:58+00:00"
+    "2026-09-22T08:56:39+00:00",
+    "2026-09-22T09:09:08+00:00"
    ],
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-03T16:00:20+00:00",
+    "2026-10-03T16:38:01+00:00"
    ]
   ],
-  "avant_filtre_date": 128,
-  "apres_filtre_date": 17
+  "avant_filtre_date": 144,
+  "apres_filtre_date": 19
  },
  "items": [
   {
@@ -92,8 +92,8 @@
    "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
    "price": 169.99,
    "was": 219.99,
-   "votes": 31,
-   "posts": 52,
+   "votes": 32,
+   "posts": 54,
    "time": "2026-10-31T06:18:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
    "asin": "B0CW1PK5QT",
@@ -110,7 +110,7 @@
    "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
    "price": 9.99,
    "was": 39.99,
-   "votes": 27,
+   "votes": 28,
    "posts": 10,
    "time": "2026-11-01T15:54:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
@@ -363,7 +363,7 @@
    "price": 85.0,
    "was": 119.99,
    "votes": 1,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-10-27T03:20:45+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-black-decker-dustbuster-handheld-vacuum-cordless-sale-85-119-99-2830232/",
    "asin": "B008R3F0J8",
@@ -392,6 +392,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FD8DFTLK-2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
+   "price": 74.99,
+   "was": 119.99,
+   "votes": 0,
+   "posts": 8,
+   "time": "2026-10-28T07:07:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
+   "asin": "B01AKGRTUM",
+   "pct": 38,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01AKGRTUM.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
+   "title": "medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
+   "price": 258.62,
+   "was": 350.0,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-01T21:02:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
+   "asin": "B0GS8BWDZ3",
+   "pct": 26,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0GS8BWDZ3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GS8BWDZ3.jpg"
   }
  ]
 }
