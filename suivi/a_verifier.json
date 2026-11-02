@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-02T12:48+00:00",
+ "genere": "2026-11-02T13:29+00:00",
  "produits": [
   {
    "asin": "B0CTNWBT1Z",
@@ -285,6 +285,101 @@
    "asin": "B0C8XBKZYG",
    "titre": "Downy Fabric Softener 190 loads - with S&S",
    "prix_affiche": 13.53
+  },
+  {
+   "asin": "B0CXKV7WMJ",
+   "titre": "Haut-parleur Bluetooth Sony ULT Field 1, étanche",
+   "prix_affiche": 98.0
+  },
+  {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent DREO pour la chambre",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0FMWPR8X3",
+   "titre": "Caméras de sécurité Arlo Essential (paquet de 2)",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B01M1SJNVU",
+   "titre": "Outil rotatif Dremel 4300 avec 40 accessoires",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B07PBXLJP6",
+   "titre": "Jeu d'évasion EXIT : La maison des énigmes",
+   "prix_affiche": 17.95
+  },
+  {
+   "asin": "B0FHWNZLKT",
+   "titre": "Écouteurs sans fil Nothing Ear (3) à réduction de bruit",
+   "prix_affiche": 125.99
+  },
+  {
+   "asin": "B0DR38V7XC",
+   "titre": "Ornement de Noël Hallmark Keepsake",
+   "prix_affiche": 18.69
+  },
+  {
+   "asin": "B0BQPNMXQV",
+   "titre": "Écouteurs sans fil JBL Vibe Beam",
+   "prix_affiche": 44.98
+  },
+  {
+   "asin": "B08WM1DDHN",
+   "titre": "Écouteurs Bluetooth JBL Tune 215",
+   "prix_affiche": 26.97
+  },
+  {
+   "asin": "B0FRNNDC3Y",
+   "titre": "Poêle électrique Starfrit Heritage The Rock",
+   "prix_affiche": 44.97
+  },
+  {
+   "asin": "B004PBNGEM",
+   "titre": "Casse-têtes autocorrecteurs Melissa & Doug",
+   "prix_affiche": 26.09
+  },
+  {
+   "asin": "B0D51WW6GJ",
+   "titre": "Jeu Spot It! Camping (Dobble)",
+   "prix_affiche": 17.99
+  },
+  {
+   "asin": "B0FNXBLVQL",
+   "titre": "LEGO Editions Kylian Mbappé",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B087KDPS2T",
+   "titre": "Ensemble d'art Crayola Imagination",
+   "prix_affiche": 18.99
+  },
+  {
+   "asin": "B0H1SY2199",
+   "titre": "Bouteille isolée Hydro Flask 24 oz",
+   "prix_affiche": 27.18
+  },
+  {
+   "asin": "B0DD4FTRJV",
+   "titre": "Mélangeur portatif Ninja Blast Max",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B07Y92G3NM",
+   "titre": "Grande bougie parfumée Yankee Candle",
+   "prix_affiche": 29.96
+  },
+  {
+   "asin": "B07PK5ZCZ6",
+   "titre": "Brosse FURminator pour sous-poil, chien moyen",
+   "prix_affiche": 38.99
+  },
+  {
+   "asin": "B08ZXY1B7H",
+   "titre": "Eau de parfum Mugler Alien",
+   "prix_affiche": 93.75
   }
  ]
 }

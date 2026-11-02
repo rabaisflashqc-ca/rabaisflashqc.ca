@@ -778,7 +778,8 @@ def rfd_ok(x, now, hors):
     """Deal repéré affichable : repéré il y a 7 jours max (les fils morts sont écartés), scanné il y a 12 h max, prix connu, rabais réaliste (85 % max),
     pas mal voté, pas de signe de deal mort, en saison et pour notre audience (Québécois 25-55 ans, maison, famille, cadeaux)."""
     try:
-        posted = datetime.datetime.fromisoformat(x["posted"]); seen = datetime.datetime.fromisoformat(x["seen"])
+        # deals Chrome (Keepa) : pas de « posted », on prend l'heure de lecture
+        posted = datetime.datetime.fromisoformat(x.get("posted") or x["seen"]); seen = datetime.datetime.fromisoformat(x["seen"])
         if (now - posted).total_seconds() > 7 * 86400 or (now - seen).total_seconds() > 12 * 3600: return False
         if datetime.datetime.fromisoformat(x["until"]) <= now: return False
     except Exception: return False
