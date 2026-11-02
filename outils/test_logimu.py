@@ -20,7 +20,7 @@ try:
     m, _ = post({"jsonrpc": "2.0", "id": 2, "method": "tools/list"}, sid)
     tools = (m[0].get("result") or {}).get("tools", []) if m else []
     out["outils"] = [{"name": t["name"], "schema": t.get("inputSchema")} for t in tools]
-    for i, q in enumerate(["humidificateur", "casque bluetooth sous 60 $"]):
+    for i, q in enumerate(["B0BQPNMXQV", "B0CTNWBT1Z", "B0BS1QCFHX"]):
         args = {"q": q, "country": "ca"}
         m, _ = post({"jsonrpc": "2.0", "id": 10 + i, "method": "tools/call", "params": {"name": "shopping", "arguments": args}}, sid)
         out[f"shopping_{i}"] = m
