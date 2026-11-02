@@ -831,7 +831,7 @@ def rfd_block(cats=None):
     if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS]  # accueil : pas de doublon avec le Top 5
     if not L: return ""
     card = rfd_card
-    li = "".join(card(x) for x in L[:10])
+    li = "".join(card(x) for x in (L[:20] if cats else L[:10]))  # pages de catégorie : jusqu à 20 deals
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
@@ -867,8 +867,8 @@ def main():
             extra = '<h2>Les boutiques de tes marques préférées</h2><p class="more">' + "".join(f'<a href="{e(STORES[b])}" target="_blank" rel="sponsored nofollow noopener">{e(b)}</a>' for b in brands) + "</p><h2>Les deals du moment</h2>"
         if slug in ("beaute", "maison", "mode"):
             extra = brand_block({slug}, "💖 Les rabais de tes marques préférées") + extra
-        _rc = {"enfants": {"enfants"}, "plein-air": {"plein-air"}, "tech": {"tech"}, "animaux": {"animaux"}, "epicerie": {"epicerie"},
-               "beaute": {"beaute"}, "maison": {"maison"}, "mode": {"mode"}}.get(slug)
+        _rc = {"enfants": {"enfants", "jouets"}, "plein-air": {"plein-air"}, "tech": {"tech"}, "animaux": {"animaux"}, "epicerie": {"epicerie"},
+               "beaute": {"beaute"}, "maison": {"maison"}, "mode": {"mode", "homme", "femme"}}.get(slug)
         if _rc: extra = rfd_block(_rc) + dealcat_block(_rc) + extra
         if slug == "epicerie":
             _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
