@@ -1,10 +1,25 @@
 {
- "genere": "2026-11-02T12:22+00:00",
+ "genere": "2026-11-02T12:43+00:00",
  "produits": [
+  {
+   "asin": "B0CTNWBT1Z",
+   "titre": "JBL Go 4, enceinte Bluetooth ultra-portable étanche",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0BS1QCFHX",
+   "titre": "Sony WH-CH720N, casque sans fil à réduction de bruit, bleu",
+   "prix_affiche": 118.0
+  },
   {
    "asin": "B0FF9Y16LK",
    "titre": "Remedial Pax Crème au rétinol et collagène, visage et cou, 55 ml",
    "prix_affiche": 17.29
+  },
+  {
+   "asin": "B0BQPNMXQV",
+   "titre": "JBL Vibe Beam, écouteurs sans fil, noir",
+   "prix_affiche": 44.98
   },
   {
    "asin": "B0FLKLJDS8",
