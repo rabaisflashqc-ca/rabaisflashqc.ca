@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-02T23:29+00:00",
+ "genere": "2026-11-03T00:18+00:00",
  "produits": [
   {
    "asin": "B0CTNWBT1Z",
@@ -22,94 +22,9 @@
    "prix_affiche": 44.98
   },
   {
-   "asin": "B0FLKLJDS8",
-   "titre": "Oral-B iO Kids, brosse à dents électrique rechargeable, Stitch",
-   "prix_affiche": 62.99
-  },
-  {
    "asin": "B09JPTZQKM",
    "titre": "Mercedes-Benz Sign, eau de parfum pour homme, 100 ml",
    "prix_affiche": 61.62
-  },
-  {
-   "asin": "B08QY3N85N",
-   "titre": "Pampers Swaddlers, 186 couches taille 2",
-   "prix_affiche": 32.25
-  },
-  {
-   "asin": "B0971DMXW7",
-   "titre": "The North Face Thermoball Traction Mule V, pantoufles d'hiver isolées pour homme, camouflage",
-   "prix_affiche": 71.24
-  },
-  {
-   "asin": "B09QMRNL86",
-   "titre": "Roku Streaming Stick 4K, avec télécommande vocale",
-   "prix_affiche": 49.98
-  },
-  {
-   "asin": "B0CCT9WT93",
-   "titre": "Skechers Go Run Consistent 2.0, espadrilles de course pour femme, blanc et argent",
-   "prix_affiche": 49.98
-  },
-  {
-   "asin": "B0HJRNB37R",
-   "titre": "Shark FlexStyle IonCurl, sèche-cheveux et coiffeur 4 en 1, lilas",
-   "prix_affiche": 299.99
-  },
-  {
-   "asin": "B0HHDYNZD5",
-   "titre": "FUITFEURY Rasoir électrique en aluminium pour homme, étanche IPX7",
-   "prix_affiche": 49.99
-  },
-  {
-   "asin": "B003ADVR3S",
-   "titre": "KidKraft Maison de poupée Chelsea en bois, 19 meubles inclus",
-   "prix_affiche": 112.22
-  },
-  {
-   "asin": "B0CTKJCN9D",
-   "titre": "Enesco Figurine Disney Le Roi Lion, Pride Rock, par Jim Shore",
-   "prix_affiche": 120.0
-  },
-  {
-   "asin": "B00J389NWQ",
-   "titre": "Organika NAC (N-acétyl-cystéine), 180 gélules",
-   "prix_affiche": 23.98
-  },
-  {
-   "asin": "B0BBP5124V",
-   "titre": "Progressive Perfect Probiotic 30 milliards, 10 souches, 60 capsules végétales",
-   "prix_affiche": 26.98
-  },
-  {
-   "asin": "B0H4Z5RZ9L",
-   "titre": "Latorice Fond de teint qui s'adapte au teint, pour peaux matures, avec pinceau",
-   "prix_affiche": 38.69
-  },
-  {
-   "asin": "B0DBN6C686",
-   "titre": "Ninja Luxe Café Premier ES601C, machine espresso, café filtre et infusion froide",
-   "prix_affiche": 599.99
-  },
-  {
-   "asin": "B0FJSQ3F1V",
-   "titre": "grace & stella Roll-on contour des yeux à la caféine et acide hyaluronique, 15 ml",
-   "prix_affiche": 12.95
-  },
-  {
-   "asin": "B0FPM4YWDM",
-   "titre": "BodyRefresh Panier cadeau spa pour femme, jeté tricoté, tasse, bougie et soins",
-   "prix_affiche": 50.39
-  },
-  {
-   "asin": "B0CYCKZCF7",
-   "titre": "grace & stella Coffret Weekend Reset, masques pour les yeux, sérum et baume à lèvres",
-   "prix_affiche": 29.95
-  },
-  {
-   "asin": "B0CYCJLW42",
-   "titre": "grace & stella Coffret Dream Team, masques, sérum, nettoyant et baume à lèvres",
-   "prix_affiche": 34.95
   },
   {
    "asin": "B0C1YZJJ5L",
@@ -287,119 +202,9 @@
    "prix_affiche": 13.53
   },
   {
-   "asin": "B0CXKV7WMJ",
-   "titre": "Haut-parleur Bluetooth Sony ULT Field 1, étanche",
-   "prix_affiche": 98.0
-  },
-  {
-   "asin": "B0CCVX6FSD",
-   "titre": "Humidificateur intelligent DREO pour la chambre",
-   "prix_affiche": 62.99
-  },
-  {
-   "asin": "B0FMWPR8X3",
-   "titre": "Caméras de sécurité Arlo Essential (paquet de 2)",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B01M1SJNVU",
-   "titre": "Outil rotatif Dremel 4300 avec 40 accessoires",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B07PBXLJP6",
-   "titre": "Jeu d'évasion EXIT : La maison des énigmes",
-   "prix_affiche": 17.95
-  },
-  {
-   "asin": "B0FHWNZLKT",
-   "titre": "Écouteurs sans fil Nothing Ear (3) à réduction de bruit",
-   "prix_affiche": 125.99
-  },
-  {
-   "asin": "B0DR38V7XC",
-   "titre": "Ornement de Noël Hallmark Keepsake",
-   "prix_affiche": 18.69
-  },
-  {
    "asin": "B0BQPNMXQV",
    "titre": "Écouteurs sans fil JBL Vibe Beam",
    "prix_affiche": 44.98
-  },
-  {
-   "asin": "B08WM1DDHN",
-   "titre": "Écouteurs Bluetooth JBL Tune 215",
-   "prix_affiche": 26.97
-  },
-  {
-   "asin": "B0FRNNDC3Y",
-   "titre": "Poêle électrique Starfrit Heritage The Rock",
-   "prix_affiche": 44.97
-  },
-  {
-   "asin": "B004PBNGEM",
-   "titre": "Casse-têtes autocorrecteurs Melissa & Doug",
-   "prix_affiche": 26.09
-  },
-  {
-   "asin": "B0D51WW6GJ",
-   "titre": "Jeu Spot It! Camping (Dobble)",
-   "prix_affiche": 17.99
-  },
-  {
-   "asin": "B0FNXBLVQL",
-   "titre": "LEGO Editions Kylian Mbappé",
-   "prix_affiche": 23.99
-  },
-  {
-   "asin": "B087KDPS2T",
-   "titre": "Ensemble d'art Crayola Imagination",
-   "prix_affiche": 18.99
-  },
-  {
-   "asin": "B0F6T83LDV",
-   "titre": "Crayola Scribble Scrubbie Bluey, animaux à colorier et laver",
-   "prix_affiche": 24.99
-  },
-  {
-   "asin": "B0H1SY2199",
-   "titre": "Tasse isolée Hydro Flask 24 oz avec anse",
-   "prix_affiche": 27.18
-  },
-  {
-   "asin": "B0DD4FTRJV",
-   "titre": "Mélangeur portatif Ninja Blast Max",
-   "prix_affiche": 79.99
-  },
-  {
-   "asin": "B07Y92G3NM",
-   "titre": "Grande bougie parfumée Yankee Candle",
-   "prix_affiche": 29.96
-  },
-  {
-   "asin": "B07PK5ZCZ6",
-   "titre": "Brosse FURminator pour sous-poil, chien moyen",
-   "prix_affiche": 38.99
-  },
-  {
-   "asin": "B08ZXY1B7H",
-   "titre": "Eau de parfum Mugler Alien",
-   "prix_affiche": 93.75
-  },
-  {
-   "asin": "B0GZW2VK3B",
-   "titre": "Écouteurs Nothing Ear (3a) à réduction de bruit",
-   "prix_affiche": 109.99
-  },
-  {
-   "asin": "B0D6WD2QSQ",
-   "titre": "Haut-parleur Bluetooth Bose SoundLink Flex",
-   "prix_affiche": 149.0
-  },
-  {
-   "asin": "B0BRXJVG1S",
-   "titre": "Haut-parleur Ultimate Ears WONDERBOOM 4",
-   "prix_affiche": 71.24
   },
   {
    "asin": "B0CTNWBT1Z",
@@ -407,39 +212,164 @@
    "prix_affiche": 39.98
   },
   {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent DREO pour la chambre",
+   "prix_affiche": 62.99
+  },
+  {
    "asin": "B0CTBCDD6D",
    "titre": "Casque sans fil JBL Tune 720BT",
    "prix_affiche": 59.98
   },
   {
-   "asin": "B0GHY652MM",
+   "asin": "B0FMVSGW6Z",
+   "titre": "Caméra de sécurité sans fil Arlo Essential",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0GV1MBJ4J",
+   "titre": "Casque à réduction de bruit JBL Tune 780NC",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B087KDPS2T",
+   "titre": "Coffret d'art Crayola Imagination",
+   "prix_affiche": 18.99
+  },
+  {
+   "asin": "B0FLF3H518",
+   "titre": "Sac à dos JanSport Big Backpack 34 L",
+   "prix_affiche": 51.99
+  },
+  {
+   "asin": "B0F6T83LDV",
+   "titre": "Crayola Scribble Scrubbie Bluey",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0B94LGR54",
+   "titre": "Ensemble de draps queen Eddie Bauer",
+   "prix_affiche": 56.53
+  },
+  {
+   "asin": "B0FNXBLVQL",
+   "titre": "LEGO Editions Kylian Mbappé",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0D6WB7BV6",
+   "titre": "Haut-parleur Bluetooth Bose SoundLink Flex",
+   "prix_affiche": 149.0
+  },
+  {
+   "asin": "B0D2L6JZWY",
+   "titre": "Aspirateur traîneau sans sac Eureka",
+   "prix_affiche": 122.36
+  },
+  {
+   "asin": "B0FHWNZLKT",
+   "titre": "Écouteurs sans fil Nothing Ear (3)",
+   "prix_affiche": 125.99
+  },
+  {
+   "asin": "B0GHY4PR3N",
    "titre": "Casque sans fil JBL Tune 530BT",
    "prix_affiche": 44.98
   },
   {
-   "asin": "B0DZ8DLQGK",
-   "titre": "Écouteurs CMF by Nothing Buds 2 à réduction de bruit",
-   "prix_affiche": 35.99
+   "asin": "B0BS1PRC4L",
+   "titre": "Casque sans fil Sony WH-CH520",
+   "prix_affiche": 48.0
   },
   {
-   "asin": "B00307B4P0",
-   "titre": "Pistolet à air chaud DEWALT D26950",
-   "prix_affiche": 78.0
+   "asin": "B098Z6HYGV",
+   "titre": "Ensemble de biberons Philips Avent Natural pour nouveau-né",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B07FTNQXXN",
+   "titre": "Gâteries pour chats INABA Churu",
+   "prix_affiche": 22.11
+  },
+  {
+   "asin": "B0D8RF4CWV",
+   "titre": "Tablette Acer Iconia 10,1 po Full HD",
+   "prix_affiche": 149.99
   },
   {
    "asin": "B0052MILZM",
-   "titre": "Lampe de travail DEL DEWALT 20V MAX (outil seul)",
+   "titre": "Lampe de travail DEWALT 20V MAX à DEL",
    "prix_affiche": 27.98
   },
   {
-   "asin": "B0C76CPGC7",
-   "titre": "Télémètre laser Bosch GLM100-23 (100 pi)",
-   "prix_affiche": 46.85
+   "asin": "B0CGY2KWTB",
+   "titre": "LEGO Technic Buggy de course tout-terrain",
+   "prix_affiche": 24.99
   },
   {
-   "asin": "B00EXW6SJS",
-   "titre": "Eau de toilette Versace Eros pour homme",
-   "prix_affiche": 81.56
+   "asin": "B0DZ81TM6Y",
+   "titre": "Écouteurs CMF by Nothing Buds 2",
+   "prix_affiche": 37.99
+  },
+  {
+   "asin": "B0BY1BB9TG",
+   "titre": "Perceuse sans balais DEWALT 20V MAX, ensemble",
+   "prix_affiche": 118.0
+  },
+  {
+   "asin": "B0FRNNDC3Y",
+   "titre": "Poêle électrique Starfrit The Rock",
+   "prix_affiche": 44.97
+  },
+  {
+   "asin": "B0DCV3JL8S",
+   "titre": "Chaufferette tour en céramique Pelonis",
+   "prix_affiche": 65.4
+  },
+  {
+   "asin": "B01M1SJNVU",
+   "titre": "Outil rotatif Dremel 4300 avec 40 accessoires",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B07D37SBHF",
+   "titre": "Revitalisant Olaplex No. 5",
+   "prix_affiche": 36.2
+  },
+  {
+   "asin": "B07Y92G3NM",
+   "titre": "Grande chandelle parfumée Yankee Candle",
+   "prix_affiche": 29.96
+  },
+  {
+   "asin": "B07PBXLJP6",
+   "titre": "Jeu d'évasion EXIT La maison des énigmes",
+   "prix_affiche": 17.95
+  },
+  {
+   "asin": "B0DD4FTRJV",
+   "titre": "Mélangeur portatif Ninja Blast Max",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0FLKC5JN4",
+   "titre": "Casque CMF by Nothing Headphone Pro",
+   "prix_affiche": 80.99
+  },
+  {
+   "asin": "B07PK5ZCZ6",
+   "titre": "Brosse FURminator pour chien moyen",
+   "prix_affiche": 38.99
+  },
+  {
+   "asin": "B0D361R29B",
+   "titre": "Écouteurs JBL Live Beam 3",
+   "prix_affiche": 149.98
+  },
+  {
+   "asin": "B0H1SY2199",
+   "titre": "Tasse isotherme Hydro Flask 24 oz",
+   "prix_affiche": 26.21
   },
   {
    "asin": "B001PTFWYE",
@@ -447,59 +377,54 @@
    "prix_affiche": 19.66
   },
   {
-   "asin": "B082XFC6V8",
-   "titre": "Nettoyant corps et visage ATTITUDE",
-   "prix_affiche": 27.05
+   "asin": "B0CXKSCY1G",
+   "titre": "Haut-parleur Bluetooth Sony ULT Field 1, étanche",
+   "prix_affiche": 98.0
   },
   {
-   "asin": "B0CGY2KWTB",
-   "titre": "LEGO Technic Buggy tout-terrain",
-   "prix_affiche": 24.99
+   "asin": "B00EXW6SJS",
+   "titre": "Parfum Versace Eros pour homme",
+   "prix_affiche": 81.56
   },
   {
-   "asin": "B09MW3Q54W",
-   "titre": "VTech Le grand livre de jeux de Bluey",
+   "asin": "B0006TPCSA",
+   "titre": "Peluche Elmo GUND Sesame Street",
+   "prix_affiche": 24.06
+  },
+  {
+   "asin": "B0D1LBNVQW",
+   "titre": "Trotteur d'activités VTech Trie et découvre",
    "prix_affiche": 29.97
   },
   {
-   "asin": "B0DLBWLCFH",
-   "titre": "Poupée Ken Barbie Fashionistas",
-   "prix_affiche": 16.84
+   "asin": "B0BNNL6GM5",
+   "titre": "Livre de jeux Bluey de VTech",
+   "prix_affiche": 29.97
   },
   {
-   "asin": "B0145GMV7Y",
-   "titre": "Jeu Pictionary de Mattel",
-   "prix_affiche": 19.98
+   "asin": "B08ZXY1B7H",
+   "titre": "Parfum Mugler Alien eau de parfum",
+   "prix_affiche": 93.75
   },
   {
-   "asin": "B097Z3DKSM",
-   "titre": "Biberons anti-coliques Philips Avent",
-   "prix_affiche": 44.97
+   "asin": "B0DGY4JQ7B",
+   "titre": "Mini friteuse à air COMFEE 2,1 pintes",
+   "prix_affiche": 53.94
   },
   {
-   "asin": "B0B94LGR54",
-   "titre": "Ensemble de draps grand lit Eddie Bauer",
-   "prix_affiche": 56.53
+   "asin": "B004PBNGEM",
+   "titre": "Casse-tête autocorrectif Melissa & Doug",
+   "prix_affiche": 26.09
   },
   {
-   "asin": "B01KG1AAZC",
-   "titre": "Verres à double paroi ZWILLING Sorrento Plus (2)",
-   "prix_affiche": 29.99
+   "asin": "B0FXBQ3KX1",
+   "titre": "Thermomètre à viande intelligent CHEF iQ Sense",
+   "prix_affiche": 134.99
   },
   {
-   "asin": "B0F3DQZ193",
-   "titre": "Grande bougie parfumée Yankee Candle",
-   "prix_affiche": 19.97
-  },
-  {
-   "asin": "B0D7YZ5T2V",
-   "titre": "Bas de randonnée Smartwool Hike Classic",
-   "prix_affiche": 24.64
-  },
-  {
-   "asin": "B07FTNQXXN",
-   "titre": "Gâteries pour chat INABA Churu",
-   "prix_affiche": 22.11
+   "asin": "B00KCNUPC8",
+   "titre": "Coussin chauffant K&H Thermo pour chats et chiens",
+   "prix_affiche": 36.61
   }
  ]
 }
