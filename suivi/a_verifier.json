@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-03T11:02+00:00",
+ "genere": "2026-11-03T13:08+00:00",
  "produits": [
   {
    "asin": "B0CTNWBT1Z",
@@ -177,14 +177,14 @@
    "prix_affiche": 42.73
   },
   {
+   "asin": "B0HJC3LFBV",
+   "titre": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale",
+   "prix_affiche": 41.99
+  },
+  {
    "asin": "B0DG5GKJKB",
    "titre": "ThermoMaven G1 WiFi Meat Thermometer",
    "prix_affiche": 39.99
-  },
-  {
-   "asin": "B0BXSXF81R",
-   "titre": "ORICO 7-Port USB 3.0 Hub with 3.28ft Cable",
-   "prix_affiche": 13.79
   },
   {
    "asin": "B0GS8BWDZ3",
@@ -195,231 +195,6 @@
    "asin": "B0C8XBKZYG",
    "titre": "Downy Fabric Softener 190 loads - with S&S",
    "prix_affiche": 13.53
-  },
-  {
-   "asin": "B0BQPNMXQV",
-   "titre": "Écouteurs sans fil JBL Vibe Beam",
-   "prix_affiche": 44.98
-  },
-  {
-   "asin": "B0CTNWBT1Z",
-   "titre": "Haut-parleur Bluetooth JBL Go 4",
-   "prix_affiche": 39.98
-  },
-  {
-   "asin": "B0CCVX6FSD",
-   "titre": "Humidificateur intelligent DREO pour la chambre",
-   "prix_affiche": 62.99
-  },
-  {
-   "asin": "B0CTBCDD6D",
-   "titre": "Casque sans fil JBL Tune 720BT",
-   "prix_affiche": 59.98
-  },
-  {
-   "asin": "B0FMVSGW6Z",
-   "titre": "Caméra de sécurité sans fil Arlo Essential",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0GV1MBJ4J",
-   "titre": "Casque à réduction de bruit JBL Tune 780NC",
-   "prix_affiche": 99.98
-  },
-  {
-   "asin": "B087KDPS2T",
-   "titre": "Coffret d'art Crayola Imagination",
-   "prix_affiche": 18.99
-  },
-  {
-   "asin": "B0FLF3H518",
-   "titre": "Sac à dos JanSport Big Backpack 34 L",
-   "prix_affiche": 51.99
-  },
-  {
-   "asin": "B0F6T83LDV",
-   "titre": "Crayola Scribble Scrubbie Bluey",
-   "prix_affiche": 24.99
-  },
-  {
-   "asin": "B0B94LGR54",
-   "titre": "Ensemble de draps queen Eddie Bauer",
-   "prix_affiche": 56.53
-  },
-  {
-   "asin": "B0FNXBLVQL",
-   "titre": "LEGO Editions Kylian Mbappé",
-   "prix_affiche": 23.99
-  },
-  {
-   "asin": "B0D6WB7BV6",
-   "titre": "Haut-parleur Bluetooth Bose SoundLink Flex",
-   "prix_affiche": 149.0
-  },
-  {
-   "asin": "B0D2L6JZWY",
-   "titre": "Aspirateur traîneau sans sac Eureka",
-   "prix_affiche": 122.36
-  },
-  {
-   "asin": "B0FHWNZLKT",
-   "titre": "Écouteurs sans fil Nothing Ear (3)",
-   "prix_affiche": 125.99
-  },
-  {
-   "asin": "B0GHY4PR3N",
-   "titre": "Casque sans fil JBL Tune 530BT",
-   "prix_affiche": 44.98
-  },
-  {
-   "asin": "B0BS1PRC4L",
-   "titre": "Casque sans fil Sony WH-CH520",
-   "prix_affiche": 48.0
-  },
-  {
-   "asin": "B098Z6HYGV",
-   "titre": "Ensemble de biberons Philips Avent Natural pour nouveau-né",
-   "prix_affiche": 49.97
-  },
-  {
-   "asin": "B07FTNQXXN",
-   "titre": "Gâteries pour chats INABA Churu",
-   "prix_affiche": 22.11
-  },
-  {
-   "asin": "B0D8RF4CWV",
-   "titre": "Tablette Acer Iconia 10,1 po Full HD",
-   "prix_affiche": 149.99
-  },
-  {
-   "asin": "B0052MILZM",
-   "titre": "Lampe de travail DEWALT 20V MAX à DEL",
-   "prix_affiche": 27.98
-  },
-  {
-   "asin": "B0CGY2KWTB",
-   "titre": "LEGO Technic Buggy de course tout-terrain",
-   "prix_affiche": 24.99
-  },
-  {
-   "asin": "B0DZ81TM6Y",
-   "titre": "Écouteurs CMF by Nothing Buds 2",
-   "prix_affiche": 37.99
-  },
-  {
-   "asin": "B0BY1BB9TG",
-   "titre": "Perceuse sans balais DEWALT 20V MAX, ensemble",
-   "prix_affiche": 118.0
-  },
-  {
-   "asin": "B0FRNNDC3Y",
-   "titre": "Poêle électrique Starfrit The Rock",
-   "prix_affiche": 44.97
-  },
-  {
-   "asin": "B0DCV3JL8S",
-   "titre": "Chaufferette tour en céramique Pelonis",
-   "prix_affiche": 65.4
-  },
-  {
-   "asin": "B01M1SJNVU",
-   "titre": "Outil rotatif Dremel 4300 avec 40 accessoires",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B07D37SBHF",
-   "titre": "Revitalisant Olaplex No. 5",
-   "prix_affiche": 36.2
-  },
-  {
-   "asin": "B07Y92G3NM",
-   "titre": "Grande chandelle parfumée Yankee Candle",
-   "prix_affiche": 29.96
-  },
-  {
-   "asin": "B07PBXLJP6",
-   "titre": "Jeu d'évasion EXIT La maison des énigmes",
-   "prix_affiche": 17.95
-  },
-  {
-   "asin": "B0DD4FTRJV",
-   "titre": "Mélangeur portatif Ninja Blast Max",
-   "prix_affiche": 79.99
-  },
-  {
-   "asin": "B0FLKC5JN4",
-   "titre": "Casque CMF by Nothing Headphone Pro",
-   "prix_affiche": 80.99
-  },
-  {
-   "asin": "B07PK5ZCZ6",
-   "titre": "Brosse FURminator pour chien moyen",
-   "prix_affiche": 38.99
-  },
-  {
-   "asin": "B0D361R29B",
-   "titre": "Écouteurs JBL Live Beam 3",
-   "prix_affiche": 149.98
-  },
-  {
-   "asin": "B0H1SY2199",
-   "titre": "Tasse isotherme Hydro Flask 24 oz",
-   "prix_affiche": 26.21
-  },
-  {
-   "asin": "B001PTFWYE",
-   "titre": "Parfum Coty Vanilla Musk pour femme",
-   "prix_affiche": 19.66
-  },
-  {
-   "asin": "B0CXKSCY1G",
-   "titre": "Haut-parleur Bluetooth Sony ULT Field 1, étanche",
-   "prix_affiche": 98.0
-  },
-  {
-   "asin": "B00EXW6SJS",
-   "titre": "Parfum Versace Eros pour homme",
-   "prix_affiche": 81.56
-  },
-  {
-   "asin": "B0006TPCSA",
-   "titre": "Peluche Elmo GUND Sesame Street",
-   "prix_affiche": 24.06
-  },
-  {
-   "asin": "B0D1LBNVQW",
-   "titre": "Trotteur d'activités VTech Trie et découvre",
-   "prix_affiche": 29.97
-  },
-  {
-   "asin": "B0BNNL6GM5",
-   "titre": "Livre de jeux Bluey de VTech",
-   "prix_affiche": 29.97
-  },
-  {
-   "asin": "B08ZXY1B7H",
-   "titre": "Parfum Mugler Alien eau de parfum",
-   "prix_affiche": 93.75
-  },
-  {
-   "asin": "B0DGY4JQ7B",
-   "titre": "Mini friteuse à air COMFEE 2,1 pintes",
-   "prix_affiche": 53.94
-  },
-  {
-   "asin": "B004PBNGEM",
-   "titre": "Casse-tête autocorrectif Melissa & Doug",
-   "prix_affiche": 26.09
-  },
-  {
-   "asin": "B0FXBQ3KX1",
-   "titre": "Thermomètre à viande intelligent CHEF iQ Sense",
-   "prix_affiche": 134.99
-  },
-  {
-   "asin": "B00KCNUPC8",
-   "titre": "Coussin chauffant K&H Thermo pour chats et chiens",
-   "prix_affiche": 36.61
   }
  ]
 }
