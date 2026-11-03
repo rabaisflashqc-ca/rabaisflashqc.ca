@@ -1,16 +1,16 @@
 {
- "date": "2026-11-03T09:08-04:00",
+ "date": "2026-11-03T13:10-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   35,
+   35,
    [
     "2026-10-28T04:31:38+00:00",
     "2026-10-28T07:07:36+00:00"
    ],
    [
-    "2026-11-03T05:27:01+00:00",
-    "2026-11-03T07:41:10+00:00"
+    "2026-11-03T07:41:10+00:00",
+    "2026-11-03T14:59:17+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,66 +25,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   23,
+   24,
    [
-    "2026-10-26T09:31:03+00:00",
-    "2026-10-26T12:14:44+00:00"
+    "2026-10-26T12:14:44+00:00",
+    "2026-10-26T14:16:43+00:00"
    ],
    [
-    "2026-11-03T05:27:01+00:00",
-    "2026-11-03T07:41:10+00:00"
+    "2026-11-03T07:41:10+00:00",
+    "2026-11-03T14:59:17+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-08T14:30:40+00:00",
-    "2026-10-08T15:23:36+00:00"
+    "2026-10-08T15:23:36+00:00",
+    "2026-10-08T16:17:58+00:00"
    ],
    [
-    "2026-10-24T23:36:14+00:00",
-    "2026-10-26T04:42:54+00:00"
+    "2026-10-26T04:42:54+00:00",
+    "2026-10-26T09:31:03+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T13:25:11+00:00",
-    "2026-10-06T13:41:30+00:00"
+    "2026-10-06T13:41:30+00:00",
+    "2026-10-06T14:10:04+00:00"
    ],
    [
-    "2026-10-08T11:01:20+00:00",
-    "2026-10-08T13:24:40+00:00"
+    "2026-10-08T13:24:40+00:00",
+    "2026-10-08T14:30:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-25T20:27:57+00:00",
-    "2026-09-27T01:21:46+00:00"
+    "2026-09-27T01:21:46+00:00",
+    "2026-09-27T14:50:07+00:00"
    ],
    [
-    "2026-10-06T13:09:04+00:00",
-    "2026-10-06T13:24:30+00:00"
+    "2026-10-06T13:24:30+00:00",
+    "2026-10-06T13:25:11+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-15T10:30:11+00:00",
-    "2026-09-15T14:12:42+00:00"
+    "2026-09-15T14:12:42+00:00",
+    "2026-09-15T14:23:06+00:00"
    ],
    [
-    "2026-09-24T19:46:19+00:00",
-    "2026-09-25T19:58:09+00:00"
+    "2026-09-25T19:58:09+00:00",
+    "2026-09-25T20:27:57+00:00"
    ]
   ],
-  "avant_filtre_date": 135,
-  "apres_filtre_date": 21
+  "avant_filtre_date": 134,
+  "apres_filtre_date": 20
  },
  "items": [
   {
@@ -92,8 +92,8 @@
    "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
    "price": 169.99,
    "was": 219.99,
-   "votes": 37,
-   "posts": 63,
+   "votes": 38,
+   "posts": 65,
    "time": "2026-10-31T06:18:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
    "asin": "B0CW1PK5QT",
@@ -232,12 +232,30 @@
    "img": "/img/p/B0GNC8FQS7-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
+   "price": 11.5,
+   "was": 16.99,
+   "votes": 9,
+   "posts": 8,
+   "time": "2026-11-03T14:59:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "asin": "B0FDH29P3P",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FDH29P3P.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
    "was": 129.99,
-   "votes": 7,
-   "posts": 7,
+   "votes": 5,
+   "posts": 13,
    "time": "2026-11-03T05:27:01+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "asin": "B0HJC3LFBV",
@@ -284,6 +302,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DG5GKJKB.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
+   "title": "Ninja Air Fryer Pro, 5 Qt/4.7L, 4-in-1 on sale $99.99(179.99)",
+   "price": 99.99,
+   "was": 179.99,
+   "votes": 3,
+   "posts": 5,
+   "time": "2026-11-03T04:26:20+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
+   "asin": "B0DBN87GQJ",
+   "pct": 44,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DBN87GQJ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 2,
+   "doute": true,
+   "img": "/img/p/B0DBN87GQJ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
@@ -358,66 +394,12 @@
    "img": "/img/p/B0FD8DFTLK-2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
-   "title": "Ninja Air Fryer Pro, 5 Qt/4.7L, 4-in-1 on sale $99.99(179.99)",
-   "price": 99.99,
-   "was": 179.99,
-   "votes": 1,
-   "posts": 2,
-   "time": "2026-11-03T04:26:20+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
-   "asin": "B0DBN87GQJ",
-   "pct": 44,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DBN87GQJ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0DBN87GQJ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
-   "title": "Gain Aroma Boost Liquid Laundry Detergent, Original Scent, HE Compatible, 107 Loads, 4.55L on sale for $15.98(19.99)",
-   "price": 15.98,
-   "was": 19.99,
-   "votes": 1,
-   "posts": 1,
-   "time": "2026-11-03T04:34:26+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
-   "asin": "B0C35Z66QV",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C35Z66QV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C35Z66QV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pipishell-full-motion-tv-wall-mount-26-65-inch-flat-curved-screen-tvs-max-vesa-sale-39-98-49-99-2830916/",
-   "title": "Pipishell Full Motion TV Wall Mount for 26-65 Inch Flat Curved Screen TVs, Max VESA on sale $39.98($49.99)",
-   "price": 39.98,
-   "was": 49.99,
-   "votes": 1,
-   "posts": 0,
-   "time": "2026-11-03T05:10:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pipishell-full-motion-tv-wall-mount-26-65-inch-flat-curved-screen-tvs-max-vesa-sale-39-98-49-99-2830916/",
-   "asin": "B08C8TVWYT",
-   "pct": 20,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08C8TVWYT?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08C8TVWYT.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-gbauto-honda-civic-2012-15-cr-v-2012-14-cabin-engine-filter-kit-25-99-after-35-coupon-reg-39-99-2830921/",
    "title": "[Amazon.ca] GBAuto Honda Civic 2012-15 / CR-V 2012-14 Cabin+Engine Filter Kit - $25.99 after 35% coupon (reg. $39.99)",
    "price": 25.99,
    "was": 39.99,
    "votes": 1,
-   "posts": 0,
+   "posts": 1,
    "time": "2026-11-03T07:41:10+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-gbauto-honda-civic-2012-15-cr-v-2012-14-cabin-engine-filter-kit-25-99-after-35-coupon-reg-39-99-2830921/",
    "asin": "B0HKHS78MR",
@@ -425,8 +407,8 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0HKHS78MR?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B0HKHS78MR.jpg"
   },
   {
@@ -453,7 +435,7 @@
    "price": 99.99,
    "was": 209.99,
    "votes": 0,
-   "posts": 2,
+   "posts": 4,
    "time": "2026-11-03T04:59:26+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hp-office-jet-pro-8125-wirelss-all-one-color-inkjet-printer-sale-99-99-209-99-2830915/",
    "asin": "B0GPFHCYK7",
