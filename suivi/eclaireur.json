@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03T16:37-04:00",
+ "date": "2026-11-03T17:45-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    34,
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-06T13:25:11+00:00",
-    "2026-10-06T13:41:30+00:00"
+    "2026-10-07T00:51:57+00:00",
+    "2026-10-07T00:58:52+00:00"
    ],
    [
     "2026-10-08T11:01:20+00:00",
@@ -63,24 +63,24 @@
    44,
    44,
    [
-    "2026-09-25T20:27:57+00:00",
-    "2026-09-27T01:21:46+00:00"
+    "2026-10-06T14:02:10+00:00",
+    "2026-10-06T14:03:31+00:00"
    ],
    [
-    "2026-10-06T13:09:04+00:00",
-    "2026-10-06T13:24:30+00:00"
+    "2026-10-06T23:59:56+00:00",
+    "2026-10-07T00:05:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-15T10:30:11+00:00",
-    "2026-09-15T14:12:42+00:00"
+    "2026-10-02T20:35:27+00:00",
+    "2026-10-02T20:46:53+00:00"
    ],
    [
-    "2026-09-24T19:46:19+00:00",
-    "2026-09-25T19:58:09+00:00"
+    "2026-10-06T13:41:30+00:00",
+    "2026-10-06T13:54:43+00:00"
    ]
   ],
   "avant_filtre_date": 132,
@@ -142,6 +142,24 @@
    "img": "/img/p/B000634MH8.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
+   "price": 11.5,
+   "was": 16.99,
+   "votes": 21,
+   "posts": 11,
+   "time": "2026-11-03T14:59:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "asin": "B0FDH29P3P",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FDH29P3P.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
    "title": "Splendor Kids (Board Game) -",
    "price": 22.42,
@@ -158,24 +176,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FKJT8TFG-2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
-   "price": 11.5,
-   "was": 16.99,
-   "votes": 18,
-   "posts": 10,
-   "time": "2026-11-03T14:59:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "asin": "B0FDH29P3P",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FDH29P3P.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-expo-dry-erase-markers-chisel-tip-assorted-colours-16-count-9-49-w-s-s-2830539/",
