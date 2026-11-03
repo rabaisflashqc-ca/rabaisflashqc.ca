@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03T13:10-04:00",
+ "date": "2026-11-03T14:05-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    35,
@@ -25,7 +25,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   25,
    [
     "2026-10-26T12:14:44+00:00",
     "2026-10-26T14:16:43+00:00"
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-06T13:41:30+00:00",
-    "2026-10-06T14:10:04+00:00"
+    "2026-10-07T00:58:52+00:00",
+    "2026-10-07T01:06:05+00:00"
    ],
    [
     "2026-10-08T13:24:40+00:00",
@@ -63,28 +63,28 @@
    44,
    44,
    [
-    "2026-09-27T01:21:46+00:00",
-    "2026-09-27T14:50:07+00:00"
+    "2026-10-06T14:03:31+00:00",
+    "2026-10-06T14:10:50+00:00"
    ],
    [
-    "2026-10-06T13:24:30+00:00",
-    "2026-10-06T13:25:11+00:00"
+    "2026-10-07T00:05:30+00:00",
+    "2026-10-07T00:51:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-15T14:12:42+00:00",
-    "2026-09-15T14:23:06+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ],
    [
-    "2026-09-25T19:58:09+00:00",
-    "2026-09-25T20:27:57+00:00"
+    "2026-10-06T13:54:43+00:00",
+    "2026-10-06T14:02:10+00:00"
    ]
   ],
-  "avant_filtre_date": 134,
-  "apres_filtre_date": 20
+  "avant_filtre_date": 132,
+  "apres_filtre_date": 19
  },
  "items": [
   {
@@ -92,7 +92,7 @@
    "title": "TP-Link Archer BE550 Wi-Fi 7 Router Tri-Band 6Ghz, 2.5G ports, EasyMesh $169.99",
    "price": 169.99,
    "was": 219.99,
-   "votes": 38,
+   "votes": 39,
    "posts": 65,
    "time": "2026-10-31T06:18:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tp-link-archer-be550-wi-fi-7-router-tri-band-6ghz-2-5g-ports-easymesh-169-99-2830614/",
@@ -236,7 +236,7 @@
    "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
    "price": 11.5,
    "was": 16.99,
-   "votes": 9,
+   "votes": 10,
    "posts": 8,
    "time": "2026-11-03T14:59:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
@@ -248,24 +248,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FDH29P3P.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
-   "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
-   "price": 41.99,
-   "was": 129.99,
-   "votes": 5,
-   "posts": 13,
-   "time": "2026-11-03T05:27:01+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
-   "asin": "B0HJC3LFBV",
-   "pct": 68,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HJC3LFBV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HJC3LFBV.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
@@ -302,6 +284,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DG5GKJKB.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
+   "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
+   "price": 41.99,
+   "was": 129.99,
+   "votes": 4,
+   "posts": 16,
+   "time": "2026-11-03T05:27:01+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
+   "asin": "B0HJC3LFBV",
+   "pct": 68,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HJC3LFBV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HJC3LFBV.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -428,24 +428,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B09WK6SYHM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hp-office-jet-pro-8125-wirelss-all-one-color-inkjet-printer-sale-99-99-209-99-2830915/",
-   "title": "HP Office Jet Pro 8125 Wirelss All in One Color Inkjet Printer on sale $99.99($209.99)",
-   "price": 99.99,
-   "was": 209.99,
-   "votes": 0,
-   "posts": 4,
-   "time": "2026-11-03T04:59:26+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hp-office-jet-pro-8125-wirelss-all-one-color-inkjet-printer-sale-99-99-209-99-2830915/",
-   "asin": "B0GPFHCYK7",
-   "pct": 52,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GPFHCYK7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GPFHCYK7.jpg"
   }
  ]
 }
