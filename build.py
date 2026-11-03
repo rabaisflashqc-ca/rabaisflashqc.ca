@@ -52,11 +52,35 @@ def _verifie(d):
     return {**d, "price": p, "was": w, "pct": pct, "amzPct": pct, "live": True, "verifie": v["seen"], "added": v["seen"][:10]}
 DEALS = [x for x in (_verifie(d) for d in DEALS) if x]
 
+# --- Règle du 3 nov. : un prix n'est affiché QUE pour un deal Keepa (suivi/deals_chrome.json) lu il y a moins de 24 h ---
+RETIRES = {"B000634MH8", "B0BXSXF81R", "B0CW1PK5QT"}  # ASIN erronés ou prix faux (incident du 2 nov.), à retirer tant qu'ils ne repassent pas par Keepa
+def _keepa_frais():
+    out = {}
+    try:
+        for x in json.loads((ROOT / "suivi" / "deals_chrome.json").read_text()):
+            try:
+                if (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(x["seen"])).total_seconds() < 24 * 3600:
+                    out[x["asin"]] = x
+            except Exception: pass
+    except Exception: pass
+    return out
+KEEPA_FRAIS = _keepa_frais()
+def _sans_prix(d):
+    return {k: v for k, v in d.items() if k not in ("price", "was", "pct", "amzPct", "live", "flag", "vsAvg", "verifie")}
+def _appliquer_keepa(d):
+    k = KEEPA_FRAIS.get(d.get("asin"))
+    if not k: return _sans_prix(d)
+    p, w = float(k["price"]), (float(k["was"]) if k.get("was") else None)
+    pct = round((1 - p / w) * 100) if w and w > p else 0
+    if pct < 5: return _sans_prix(d)
+    return {**d, "price": p, "was": w, "pct": pct, "amzPct": pct, "live": True, "verifie": k["seen"], "added": k["seen"][:10]}
+DEALS = [_appliquer_keepa(d) for d in DEALS if d.get("asin") not in RETIRES]
+
 def load_scan():
     """Deals scannés (éclaireur) + deals du jour trouvés dans Chrome (suivi/deals_chrome.json), avec les prix vérifiés appliqués."""
     L = []
-    for f in ("suivi/deals_keepa.json", "rfd.json", "suivi/deals_chrome.json"):
-        try: L += json.loads((ROOT / f).read_text())
+    for f in ("suivi/deals_chrome.json",):  # seule source de prix affichables : Keepa lu il y a moins de 24 h
+        try: L += [x for x in json.loads((ROOT / f).read_text()) if x.get("asin") in KEEPA_FRAIS and x["asin"] not in RETIRES]
         except Exception: pass
     vus, out = set(), []
     for x in L:
@@ -421,12 +445,12 @@ def deal_html(d):
     if d.get("live") and pct and d.get("price"):
         avant = _money(d["was"]) if d.get("was") else "env. " + f'{round(d["price"] / (1 - pct / 100)):,} $'.replace(",", " ")
         prix = (f'<p class="px"><s>{avant}</s> <b>{_money(d["price"])}</b>'
-                f'<span>-{pct} %</span><small>prix du {_jour(d.get("added"))}</small></p>')
+                f'<span>-{pct} %</span><small>prix vérifié le {_jour(d.get("added"))}{(" à " + (lambda t: f"{t.hour} h {t.minute:02d}")(datetime.datetime.fromisoformat(d["verifie"]).astimezone(ZoneInfo("America/Toronto")))) if d.get("verifie") else ""}</small></p>')
     why = prix + why
     until = f' data-until="{d["until"]}"' if d.get("until") else ""
     if d.get("price"): until += f' data-price="{d["price"]}"'
     return (f'<li class="deal"{until}>{tag}<div>{b}<p class="brand">{e(d["brand"])}</p><h3>{e(d["name"])}</h3>{why}'
-            f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
+            f'<a class="go" href="{e(link(d))}" target="_blank" rel="sponsored nofollow noopener">{"Voir le deal 👉" if prix else "Voir le prix actuel 👉"}</a></div></li>')
 
 IG = "https://www.instagram.com/rabaisflashqc/"
 SHOP = "https://www.amazon.ca/shop/coupdecoeurqc"
@@ -767,7 +791,7 @@ def rfd_card(x, stats='🔥 Deal du moment'):
     px = ""
     if x.get("price"):
         px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
-              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix du {when}</small></p>')
+              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix vérifié le {when}</small></p>')
     return (f'<li class="deal"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
             f'<h3>{e(x["title"])}</h3>{px}'
             f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
@@ -837,6 +861,19 @@ def rfd_block(cats=None):
             '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
 
+def vf_block():
+    """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    hors = HORS_SAISON(now)
+    L = [x for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and (x.get("pct") or 0) >= 15 and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
+    L = [{**x, "verifie": x["seen"]} for x in sorted(L, key=lambda x: -(x.get("pct") or 0))[:12]]
+    cd = ('<div class="seas" style="display:block;text-align:center"><strong id="vfc">Vendredi fou : 27 novembre 2026</strong></div>'
+          '<script>(function(){var el=document.getElementById("vfc"),t=Date.parse("2026-11-27T05:00:00Z");function f(){var ms=t-Date.now();if(ms<=0){el.textContent="C\'est le Vendredi fou! 🔥";return}var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);el.innerHTML="Vendredi fou dans <b>"+d+" j "+h+" h "+m+" min</b>"}f();setInterval(f,60000)})();</script>')
+    if not L: return cd
+    return (cd + '<section class="topbox" aria-label="Meilleurs deals vérifiés"><h2>🔥 Les meilleurs deals vérifiés aujourd\'hui</h2>'
+            '<p class="topsub">Prix lus sur Keepa, avec la date et l\'heure de lecture. Ils bougent vite : vérifie le prix final avant d\'acheter.</p>'
+            f'<ul class="deals">{"".join(rfd_card(x) for x in L)}</ul></section>')
+
 def write(slug, content):
     p = OUT / slug / "index.html" if slug else OUT / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
@@ -871,6 +908,7 @@ def main():
         _rc = {"enfants": {"enfants", "jouets"}, "plein-air": {"plein-air"}, "tech": {"tech"}, "animaux": {"animaux"}, "epicerie": {"epicerie"},
                "beaute": {"beaute"}, "maison": {"maison"}, "mode": {"mode", "homme", "femme"}}.get(slug)
         if _rc: extra = rfd_block(_rc) + dealcat_block(_rc) + extra
+        if slug == "vendredi-fou": extra = vf_block() + extra
         if slug == "epicerie":
             _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
             extra = '<h2>🛒 Les rabais épicerie du moment</h2><p class="more"><a href="' + e(_u) + '" target="_blank" rel="sponsored nofollow noopener">Voir tous les deals épicerie de 20 % à 40 %</a></p>' + extra

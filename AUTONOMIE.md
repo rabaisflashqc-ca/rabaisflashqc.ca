@@ -12,15 +12,31 @@ Ce fichier est la référence pour toutes les sessions de Claude (tâches planif
 
 Marketeur viral et vendeur, autonome. Liberté totale sur le contenu, le rythme, les formats et le site. **Toute dépense d'argent demande la validation d'Alex.** Tout changement de stratégie majeur (budget, audience, nouveau canal payant) aussi.
 
-## Routine quotidienne
+## Routine quotidienne (décidée le 3 nov. 2026)
+
+Objectif unique : des clics vers Amazon qui deviennent des commissions, en passant par le site rabaisflashqc.ca. Autonomie : Claude décide seul (deals, accroches, pages, code). Il n'écrit à Alex que pour l'argent, les comptes, la suppression de publications ou un problème que seul Alex peut régler. UN SEUL PACK FORT PAR JOUR.
 
 | Heure (Québec) | Où | Quoi |
 | --- | --- | --- |
-| 7 h 07 | Nuage | Vérifier éclaireur + mises à jour, build, préparer le pack du matin (posts FB/IG/TikTok, image, réel avec musique) |
-| 8 h 30 environ | Ordinateur d'Alex (Chrome) | Publier le pack du matin sur Facebook, Instagram et TikTok |
-| 16 h 40 environ | Nuage | Préparer le pack du soir |
-| 18 h 30 environ | Ordinateur d'Alex (Chrome) | Publier le pack du soir |
-| Dimanche 19 h | Nuage | Bilan de la semaine et recommandations |
+| 8 h 03 | Ordinateur d'Alex (Chrome) | Passe Keepa : écrit suivi/deals_chrome.json (champ seen = heure réelle de lecture du prix) |
+| 8 h 51 | Nuage | Prépare le pack du jour (1 deal vedette ou Top 3), lance le verrou PASS/BLOCK |
+| 9 h 37 | Ordinateur d'Alex (Chrome) | « Publication via Chrome » : publie le pack |
+| 18 h 03 | Ordinateur d'Alex (Chrome) | 2e passe Keepa, pour le site seulement (pas de pack) |
+| Dimanche 19 h 03 | Nuage | Bilan court (suivi/apprentissages.md) |
+
+## Vérité des prix : découverte ≠ vérification
+
+- discovered_at = moment où l'offre a été repérée. Ça ne vaut JAMAIS vérification.
+- price_verified_at = heure réelle de lecture du prix sur Keepa (champ seen). C'est la seule heure permise dans un texte (« prix vérifié le 3 nov. à 8 h 15 »).
+- Verrou obligatoire avant tout push d'un pack : `python3 outils/verifier_pack.py suivi/posts/AAAA-MM-JJ-matin.md suivi/deals_chrome.json --max-heures 12` doit afficher RESULTAT: PASS. Sinon on ne pousse pas. Le pack doit finir par la section « ## Données (ne pas publier) » avec un bloc json (asin, nom, price, was, pct, price_verified_at, price_source "keepa", discovered_at).
+- Le site (build.py) n'affiche un prix que pour les deals de suivi/deals_chrome.json lus il y a moins de 24 h. Sans lecture Keepa récente : « Voir le prix actuel 👉 » ou rien. Incident du 2 nov. : les prix et ASIN de l'éclaireur étaient faux (ORICO, TP-Link, griffoir) ; les ASIN B000634MH8, B0BXSXF81R et B0CW1PK5QT sont retirés du site tant qu'ils ne repassent pas par Keepa.
+- Les deals de l'éclaireur et du catalogue ne vont jamais dans un pack.
+- Pas de « Amazon.ca » dans les textes Facebook, Instagram, TikTok ni dans le premier commentaire : « sur Amazon », et on renvoie vers rabaisflashqc.ca.
+
+## Photos (règles unifiées)
+
+- Deals Keepa : photo Amazon en lien direct (img_url) seulement, jamais copiée sur notre serveur ni intégrée dans nos images ou réels.
+- Catalogue : photo officielle de la marque ou d'un grand détaillant (jamais Amazon).
 
 ## Où sont les fichiers d'un pack
 
