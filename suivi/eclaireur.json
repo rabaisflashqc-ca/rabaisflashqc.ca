@@ -1,9 +1,9 @@
 {
- "date": "2026-11-03T22:15-04:00",
+ "date": "2026-11-03T22:59-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   40,
-   40,
+   39,
+   39,
    [
     "2026-10-28T04:31:38+00:00",
     "2026-10-28T07:07:36+00:00"
@@ -14,23 +14,23 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   4,
-   4,
+   3,
+   3,
    [
     "2026-10-28T15:50:04+00:00",
     "2026-10-29T06:10:56+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-30T13:33:33+00:00"
+    "2026-10-29T06:10:56+00:00",
+    "2026-10-29T23:15:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   25,
+   27,
    [
-    "2026-10-27T03:20:45+00:00",
-    "2026-10-27T03:30:41+00:00"
+    "2026-10-27T00:50:56+00:00",
+    "2026-10-27T03:20:45+00:00"
    ],
    [
     "2026-11-04T02:10:23+00:00",
@@ -41,52 +41,52 @@
    44,
    44,
    [
-    "2026-10-09T18:32:47+00:00",
-    "2026-10-09T19:37:11+00:00"
+    "2026-10-09T15:28:13+00:00",
+    "2026-10-09T18:32:47+00:00"
    ],
    [
-    "2026-10-26T19:35:56+00:00",
-    "2026-10-27T00:50:56+00:00"
+    "2026-10-26T15:52:14+00:00",
+    "2026-10-26T19:35:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T03:43:53+00:00",
-    "2026-10-07T03:44:53+00:00"
+    "2026-10-06T14:25:34+00:00",
+    "2026-10-06T14:30:49+00:00"
    ],
    [
-    "2026-10-09T02:05:57+00:00",
-    "2026-10-09T15:28:13+00:00"
+    "2026-10-08T19:45:58+00:00",
+    "2026-10-09T02:05:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:48:13+00:00",
-    "2026-10-06T14:50:34+00:00"
+    "2026-09-28T15:52:53+00:00",
+    "2026-09-28T15:56:56+00:00"
    ],
    [
-    "2026-10-07T02:58:29+00:00",
-    "2026-10-07T03:15:38+00:00"
+    "2026-10-06T14:13:44+00:00",
+    "2026-10-06T14:21:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-04T03:20:31+00:00",
-    "2026-10-04T12:00:39+00:00"
+    "2026-09-15T15:19:20+00:00",
+    "2026-09-15T15:23:27+00:00"
    ],
    [
-    "2026-10-06T14:25:34+00:00",
-    "2026-10-06T14:30:49+00:00"
+    "2026-09-28T13:05:03+00:00",
+    "2026-09-28T15:16:35+00:00"
    ]
   ],
   "avant_filtre_date": 129,
-  "apres_filtre_date": 19
+  "apres_filtre_date": 17
  },
  "items": [
   {
@@ -108,6 +108,24 @@
    "img": null
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
+   "price": 11.5,
+   "was": 16.99,
+   "votes": 26,
+   "posts": 15,
+   "time": "2026-11-03T14:59:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "asin": "B0FDH29P3P",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FDH29P3P.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
    "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
    "price": 25.99,
@@ -124,24 +142,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B091BGMKYS-2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
-   "price": 11.5,
-   "was": 16.99,
-   "votes": 23,
-   "posts": 12,
-   "time": "2026-11-03T14:59:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "asin": "B0FDH29P3P",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FDH29P3P.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
@@ -342,24 +342,6 @@
    "img": "/img/p/B0GS8BWDZ3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-greenworks-40v-14-inch-chainsaw-jet-blower-4-0-ah-battery-charger-included-176-24-2831002/",
-   "title": "Greenworks 40V 14-Inch Chainsaw + Jet Blower, 4.0 AH Battery and Charger Included ($176.24)",
-   "price": 176.24,
-   "was": 439.0,
-   "votes": 2,
-   "posts": 1,
-   "time": "2026-11-04T00:42:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenworks-40v-14-inch-chainsaw-jet-blower-4-0-ah-battery-charger-included-176-24-2831002/",
-   "asin": "B0973W6RJK",
-   "pct": 60,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0973W6RJK?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0973W6RJK.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
    "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
    "price": 74.99,
@@ -412,24 +394,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B09WK6SYHM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-gbauto-honda-civic-2012-15-cr-v-2012-14-cabin-engine-filter-kit-25-99-after-35-coupon-reg-39-99-2830921/",
-   "title": "[Amazon.ca] GBAuto Honda Civic 2012-15 / CR-V 2012-14 Cabin+Engine Filter Kit - $25.99 after 35% coupon (reg. $39.99)",
-   "price": 25.99,
-   "was": 39.99,
-   "votes": 0,
-   "posts": 1,
-   "time": "2026-11-03T07:41:10+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-gbauto-honda-civic-2012-15-cr-v-2012-14-cabin-engine-filter-kit-25-99-after-35-coupon-reg-39-99-2830921/",
-   "asin": "B0HKHS78MR",
-   "pct": 35,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0HKHS78MR?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0HKHS78MR.jpg"
   }
  ]
 }
