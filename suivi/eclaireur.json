@@ -1,90 +1,92 @@
 {
- "date": "2026-11-03T20:12-04:00",
+ "date": "2026-11-03T22:15-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   40,
+   40,
    [
     "2026-10-28T04:31:38+00:00",
     "2026-10-28T07:07:36+00:00"
    ],
    [
-    "2026-11-03T07:41:10+00:00",
-    "2026-11-03T14:59:17+00:00"
+    "2026-11-04T02:10:23+00:00",
+    "2026-11-04T02:11:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   1,
-   1,
+   4,
+   4,
    [
-    "2026-10-29T23:15:50+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-29T06:10:56+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00"
+    "2026-10-29T23:15:50+00:00",
+    "2026-10-30T13:33:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   26,
+   25,
    [
-    "2026-10-26T09:31:03+00:00",
-    "2026-10-26T12:14:44+00:00"
+    "2026-10-27T03:20:45+00:00",
+    "2026-10-27T03:30:41+00:00"
    ],
    [
-    "2026-11-03T07:41:10+00:00",
-    "2026-11-03T14:59:17+00:00"
+    "2026-11-04T02:10:23+00:00",
+    "2026-11-04T02:11:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-08T14:30:40+00:00",
-    "2026-10-08T15:23:36+00:00"
+    "2026-10-09T18:32:47+00:00",
+    "2026-10-09T19:37:11+00:00"
    ],
    [
-    "2026-10-24T23:36:14+00:00",
-    "2026-10-26T04:42:54+00:00"
+    "2026-10-26T19:35:56+00:00",
+    "2026-10-27T00:50:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T00:51:57+00:00",
-    "2026-10-07T00:58:52+00:00"
+    "2026-10-07T03:43:53+00:00",
+    "2026-10-07T03:44:53+00:00"
    ],
    [
-    "2026-10-08T11:01:20+00:00",
-    "2026-10-08T13:24:40+00:00"
+    "2026-10-09T02:05:57+00:00",
+    "2026-10-09T15:28:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:02:10+00:00",
-    "2026-10-06T14:03:31+00:00"
+    "2026-10-06T14:48:13+00:00",
+    "2026-10-06T14:50:34+00:00"
    ],
    [
-    "2026-10-06T23:59:56+00:00",
-    "2026-10-07T00:05:30+00:00"
+    "2026-10-07T02:58:29+00:00",
+    "2026-10-07T03:15:38+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T20:35:27+00:00",
-    "2026-10-02T20:46:53+00:00"
+    "2026-10-04T03:20:31+00:00",
+    "2026-10-04T12:00:39+00:00"
    ],
    [
-    "2026-10-06T13:41:30+00:00",
-    "2026-10-06T13:54:43+00:00"
+    "2026-10-06T14:25:34+00:00",
+    "2026-10-06T14:30:49+00:00"
    ]
   ],
-  "avant_filtre_date": 132,
-  "apres_filtre_date": 18
+  "avant_filtre_date": 129,
+  "apres_filtre_date": 19
  },
  "items": [
   {
@@ -124,6 +126,24 @@
    "img": "/img/p/B091BGMKYS-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
+   "price": 11.5,
+   "was": 16.99,
+   "votes": 23,
+   "posts": 12,
+   "time": "2026-11-03T14:59:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "asin": "B0FDH29P3P",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FDH29P3P.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
    "title": "Cat Scratching Post w/ Rat Hole, Sisal Rope & Toy $29.99 (40% off)",
    "price": 29.99,
@@ -140,24 +160,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B000634MH8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
-   "price": 11.5,
-   "was": 16.99,
-   "votes": 22,
-   "posts": 12,
-   "time": "2026-11-03T14:59:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "asin": "B0FDH29P3P",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FDH29P3P.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
@@ -236,8 +238,8 @@
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
    "was": 129.99,
-   "votes": 5,
-   "posts": 15,
+   "votes": 6,
+   "posts": 16,
    "time": "2026-11-03T05:27:01+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "asin": "B0HJC3LFBV",
@@ -338,6 +340,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GS8BWDZ3.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-greenworks-40v-14-inch-chainsaw-jet-blower-4-0-ah-battery-charger-included-176-24-2831002/",
+   "title": "Greenworks 40V 14-Inch Chainsaw + Jet Blower, 4.0 AH Battery and Charger Included ($176.24)",
+   "price": 176.24,
+   "was": 439.0,
+   "votes": 2,
+   "posts": 1,
+   "time": "2026-11-04T00:42:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenworks-40v-14-inch-chainsaw-jet-blower-4-0-ah-battery-charger-included-176-24-2831002/",
+   "asin": "B0973W6RJK",
+   "pct": 60,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0973W6RJK?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0973W6RJK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
