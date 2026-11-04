@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03T17:45-04:00",
+ "date": "2026-11-03T20:12-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    34,
@@ -146,8 +146,8 @@
    "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
    "price": 11.5,
    "was": 16.99,
-   "votes": 21,
-   "posts": 11,
+   "votes": 22,
+   "posts": 12,
    "time": "2026-11-03T14:59:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
    "asin": "B0FDH29P3P",
@@ -291,7 +291,7 @@
    "price": 99.99,
    "was": 179.99,
    "votes": 3,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-03T04:26:20+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
    "asin": "B0DBN87GQJ",
@@ -299,7 +299,7 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0DBN87GQJ?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 2,
+   "morts": 1,
    "doute": true,
    "img": "/img/p/B0DBN87GQJ.jpg"
   },
