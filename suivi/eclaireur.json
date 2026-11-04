@@ -1,12 +1,12 @@
 {
- "date": "2026-11-04T10:21-04:00",
+ "date": "2026-11-04T13:21-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   31,
+   31,
    [
-    "2026-10-28T15:50:04+00:00",
-    "2026-10-28T16:57:39+00:00"
+    "2026-10-28T18:59:02+00:00",
+    "2026-10-29T06:10:56+00:00"
    ],
    [
     "2026-11-04T13:09:09+00:00",
@@ -25,10 +25,10 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   28,
+   29,
    [
-    "2026-10-26T15:52:14+00:00",
-    "2026-10-26T19:35:56+00:00"
+    "2026-10-26T14:16:43+00:00",
+    "2026-10-26T15:52:14+00:00"
    ],
    [
     "2026-11-04T13:09:09+00:00",
@@ -39,52 +39,52 @@
    44,
    44,
    [
-    "2026-10-08T19:45:58+00:00",
-    "2026-10-09T02:05:57+00:00"
+    "2026-10-08T16:17:58+00:00",
+    "2026-10-08T19:45:58+00:00"
    ],
    [
-    "2026-10-26T12:14:44+00:00",
-    "2026-10-26T14:16:43+00:00"
+    "2026-10-26T09:31:03+00:00",
+    "2026-10-26T12:14:44+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T02:07:23+00:00",
-    "2026-10-07T02:58:29+00:00"
+    "2026-10-06T14:10:04+00:00",
+    "2026-10-06T14:13:44+00:00"
    ],
    [
-    "2026-10-08T15:23:36+00:00",
-    "2026-10-08T16:17:58+00:00"
+    "2026-10-08T14:30:40+00:00",
+    "2026-10-08T15:23:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:20:09+00:00",
-    "2026-10-06T14:25:34+00:00"
+    "2026-09-27T14:50:07+00:00",
+    "2026-09-28T13:05:03+00:00"
    ],
    [
-    "2026-10-07T00:58:52+00:00",
-    "2026-10-07T01:06:05+00:00"
+    "2026-10-06T13:25:11+00:00",
+    "2026-10-06T13:41:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-03T12:36:51+00:00",
-    "2026-10-03T13:54:36+00:00"
+    "2026-09-15T14:23:06+00:00",
+    "2026-09-15T14:53:25+00:00"
    ],
    [
-    "2026-10-06T14:03:31+00:00",
-    "2026-10-06T14:10:50+00:00"
+    "2026-09-25T20:27:57+00:00",
+    "2026-09-27T01:21:46+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
-  "apres_filtre_date": 16
+  "avant_filtre_date": 132,
+  "apres_filtre_date": 15
  },
  "items": [
   {
@@ -92,8 +92,8 @@
    "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
    "price": 9.99,
    "was": 39.99,
-   "votes": 35,
-   "posts": 13,
+   "votes": 34,
+   "posts": 14,
    "time": "2026-11-01T15:54:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
    "asin": "B0DCP9RK53",
@@ -101,8 +101,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DCP9RK53?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": null
   },
   {
@@ -124,24 +124,6 @@
    "img": "/img/p/B0FDH29P3P.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
-   "title": "UGREEN Nexode 65W USB C Charger Block, 3 Port GaN Foldable Fast Charging $25.99",
-   "price": 25.99,
-   "was": 35.99,
-   "votes": 25,
-   "posts": 3,
-   "time": "2026-10-28T16:57:39+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-65w-usb-c-charger-block-3-port-gan-foldable-fast-charging-25-99-2830386/",
-   "asin": "B091BGMKYS",
-   "pct": 28,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B091BGMKYS?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B091BGMKYS-2.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
    "title": "Cat Scratching Post w/ Rat Hole, Sisal Rope & Toy $29.99 (40% off)",
    "price": 29.99,
@@ -158,6 +140,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B000634MH8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
+   "title": "MEGAPRO 15-in-1 Screwdriver $22.49 (42% off)",
+   "price": 22.49,
+   "was": 38.99,
+   "votes": 19,
+   "posts": 23,
+   "time": "2026-11-04T13:09:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
+   "asin": "B0GXGGYY34",
+   "pct": 42,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GXGGYY34?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0GXGGYY34.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
@@ -232,22 +232,22 @@
    "img": "/img/p/B0GNC8FQS7-2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
-   "title": "MEGAPRO 15-in-1 Screwdriver $22.49 (42% off)",
-   "price": 22.49,
-   "was": 38.99,
-   "votes": 7,
-   "posts": 5,
-   "time": "2026-11-04T13:09:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
-   "asin": "B0GXGGYY34",
-   "pct": 42,
+   "url": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
+   "title": "NIIMBOT D110 Label Maker Machine with Tap",
+   "price": 11.99,
+   "was": 21.99,
+   "votes": 10,
+   "posts": 9,
+   "time": "2026-11-04T13:43:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
+   "asin": "B0CZ6WCHGF",
+   "pct": 45,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GXGGYY34?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0CZ6WCHGF?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0GXGGYY34.jpg"
+   "img": "/img/p/B0CZ6WCHGF.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
@@ -356,24 +356,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FD8DFTLK-2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
-   "title": "NIIMBOT D110 Label Maker Machine with Tap",
-   "price": 11.99,
-   "was": 21.99,
-   "votes": 0,
-   "posts": 1,
-   "time": "2026-11-04T13:43:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
-   "asin": "B0CZ6WCHGF",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CZ6WCHGF?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CZ6WCHGF.jpg"
   }
  ]
 }
