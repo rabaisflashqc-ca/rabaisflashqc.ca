@@ -1,92 +1,90 @@
 {
- "date": "2026-11-03T22:59-04:00",
+ "date": "2026-11-04T10:21-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   39,
-   39,
+   34,
+   34,
    [
-    "2026-10-28T04:31:38+00:00",
-    "2026-10-28T07:07:36+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:57:39+00:00"
    ],
    [
-    "2026-11-04T02:10:23+00:00",
-    "2026-11-04T02:11:40+00:00"
+    "2026-11-04T13:09:09+00:00",
+    "2026-11-04T13:43:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   3,
-   3,
+   1,
+   1,
    [
-    "2026-10-28T15:50:04+00:00",
-    "2026-10-29T06:10:56+00:00"
+    "2026-10-29T23:15:50+00:00"
    ],
    [
-    "2026-10-29T06:10:56+00:00",
     "2026-10-29T23:15:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   27,
+   28,
    [
-    "2026-10-27T00:50:56+00:00",
-    "2026-10-27T03:20:45+00:00"
+    "2026-10-26T15:52:14+00:00",
+    "2026-10-26T19:35:56+00:00"
    ],
    [
-    "2026-11-04T02:10:23+00:00",
-    "2026-11-04T02:11:40+00:00"
+    "2026-11-04T13:09:09+00:00",
+    "2026-11-04T13:43:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-09T15:28:13+00:00",
-    "2026-10-09T18:32:47+00:00"
+    "2026-10-08T19:45:58+00:00",
+    "2026-10-09T02:05:57+00:00"
    ],
    [
-    "2026-10-26T15:52:14+00:00",
-    "2026-10-26T19:35:56+00:00"
+    "2026-10-26T12:14:44+00:00",
+    "2026-10-26T14:16:43+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:25:34+00:00",
-    "2026-10-06T14:30:49+00:00"
+    "2026-10-07T02:07:23+00:00",
+    "2026-10-07T02:58:29+00:00"
    ],
    [
-    "2026-10-08T19:45:58+00:00",
-    "2026-10-09T02:05:57+00:00"
+    "2026-10-08T15:23:36+00:00",
+    "2026-10-08T16:17:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T15:52:53+00:00",
-    "2026-09-28T15:56:56+00:00"
+    "2026-10-06T14:20:09+00:00",
+    "2026-10-06T14:25:34+00:00"
    ],
    [
-    "2026-10-06T14:13:44+00:00",
-    "2026-10-06T14:21:45+00:00"
+    "2026-10-07T00:58:52+00:00",
+    "2026-10-07T01:06:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-15T15:19:20+00:00",
-    "2026-09-15T15:23:27+00:00"
+    "2026-10-03T12:36:51+00:00",
+    "2026-10-03T13:54:36+00:00"
    ],
    [
-    "2026-09-28T13:05:03+00:00",
-    "2026-09-28T15:16:35+00:00"
+    "2026-10-06T14:03:31+00:00",
+    "2026-10-06T14:10:50+00:00"
    ]
   ],
-  "avant_filtre_date": 129,
-  "apres_filtre_date": 17
+  "avant_filtre_date": 130,
+  "apres_filtre_date": 16
  },
  "items": [
   {
@@ -112,8 +110,8 @@
    "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
    "price": 11.5,
    "was": 16.99,
-   "votes": 26,
-   "posts": 15,
+   "votes": 33,
+   "posts": 21,
    "time": "2026-11-03T14:59:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
    "asin": "B0FDH29P3P",
@@ -234,12 +232,30 @@
    "img": "/img/p/B0GNC8FQS7-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
+   "title": "MEGAPRO 15-in-1 Screwdriver $22.49 (42% off)",
+   "price": 22.49,
+   "was": 38.99,
+   "votes": 7,
+   "posts": 5,
+   "time": "2026-11-04T13:09:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
+   "asin": "B0GXGGYY34",
+   "pct": 42,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GXGGYY34?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GXGGYY34.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
    "was": 129.99,
-   "votes": 6,
-   "posts": 16,
+   "votes": 5,
+   "posts": 17,
    "time": "2026-11-03T05:27:01+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "asin": "B0HJC3LFBV",
@@ -250,24 +266,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HJC3LFBV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
-   "title": "ORICO 7-Port USB 3.0 Hub with 3.28ft Cable - $13.79 (40% Off)",
-   "price": 13.79,
-   "was": 22.98,
-   "votes": 4,
-   "posts": 3,
-   "time": "2026-10-28T15:09:27+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-usb-3-0-hub-3-28ft-cable-13-79-40-off-2830374/",
-   "asin": "B0BXSXF81R",
-   "pct": 40,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BXSXF81R?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BXSXF81R-2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -306,24 +304,6 @@
    "img": "/img/p/B0DBN87GQJ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
-   "title": "Downy Fabric Softener 190 loads (4.16L) - $13.53 with S&S",
-   "price": 13.53,
-   "was": 17.99,
-   "votes": 2,
-   "posts": 8,
-   "time": "2026-10-28T14:09:54+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-downy-fabric-softener-190-loads-4-16l-13-53-s-s-2830369/",
-   "asin": "B0C8XBKZYG",
-   "pct": 25,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C8XBKZYG?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C8XBKZYG.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
    "title": "*DEAL DEAD* medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
    "price": 258.62,
@@ -342,22 +322,22 @@
    "img": "/img/p/B0GS8BWDZ3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
-   "title": "Oral-B Pro Limited Rechargeable Electric Toothbrush on sale $74.99($119.99)",
-   "price": 74.99,
-   "was": 119.99,
-   "votes": 1,
-   "posts": 8,
-   "time": "2026-10-28T07:07:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-limited-rechargeable-electric-toothbrush-sale-74-99-119-99-2830346/",
-   "asin": "B01AKGRTUM",
-   "pct": 38,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B01AKGRTUM?tag=coupdecoeurqc-20",
+   "url": "https://forums.redflagdeals.com/amazon-ca-philips-4pack-led-60w-a19-non-dimmable-2700k-6-38-atl-lower-sub-save-2831025/",
+   "title": "PHILIPS 4Pack Led 60W A19 Non Dimmable (2700K) - $6.38 ATL (lower with sub & save)",
+   "price": 6.38,
+   "was": 7.97,
+   "votes": 2,
+   "posts": 10,
+   "time": "2026-11-04T04:02:11+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-4pack-led-60w-a19-non-dimmable-2700k-6-38-atl-lower-sub-save-2831025/",
+   "asin": "B071JBMY54",
+   "pct": 20,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B071JBMY54?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B01AKGRTUM.jpg"
+   "img": "/img/p/B071JBMY54.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
@@ -378,22 +358,22 @@
    "img": "/img/p/B0FD8DFTLK-2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-200-cocktail-picks-10-99-42-off-2830795/",
-   "title": "200 Cocktail Picks $10.99 (42% off)",
-   "price": 10.99,
-   "was": 18.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
+   "title": "NIIMBOT D110 Label Maker Machine with Tap",
+   "price": 11.99,
+   "was": 21.99,
    "votes": 0,
-   "posts": 0,
-   "time": "2026-11-02T13:59:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-200-cocktail-picks-10-99-42-off-2830795/",
-   "asin": "B09WK6SYHM",
-   "pct": 42,
+   "posts": 1,
+   "time": "2026-11-04T13:43:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
+   "asin": "B0CZ6WCHGF",
+   "pct": 45,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B09WK6SYHM?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0CZ6WCHGF?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B09WK6SYHM.jpg"
+   "img": "/img/p/B0CZ6WCHGF.jpg"
   }
  ]
 }
