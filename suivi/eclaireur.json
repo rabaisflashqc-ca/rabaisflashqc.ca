@@ -1,38 +1,40 @@
 {
- "date": "2026-11-04T16:55-04:00",
+ "date": "2026-11-04T17:52-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   37,
-   37,
+   38,
+   38,
    [
     "2026-10-29T06:10:56+00:00",
     "2026-10-29T09:48:19+00:00"
    ],
    [
-    "2026-11-04T19:51:45+00:00",
-    "2026-11-04T20:25:11+00:00"
+    "2026-11-04T20:25:11+00:00",
+    "2026-11-04T21:50:48+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   1,
-   1,
+   2,
+   2,
    [
+    "2026-10-29T06:10:56+00:00",
     "2026-10-29T23:15:50+00:00"
    ],
    [
+    "2026-10-29T06:10:56+00:00",
     "2026-10-29T23:15:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-10-27T13:00:59+00:00",
-    "2026-10-28T04:31:38+00:00"
+    "2026-10-28T04:31:38+00:00",
+    "2026-10-28T07:07:36+00:00"
    ],
    [
-    "2026-11-04T19:51:45+00:00",
-    "2026-11-04T20:25:11+00:00"
+    "2026-11-04T20:25:11+00:00",
+    "2026-11-04T21:50:48+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
@@ -43,16 +45,16 @@
     "2026-10-12T16:05:51+00:00"
    ],
    [
-    "2026-10-27T03:30:41+00:00",
-    "2026-10-27T04:50:38+00:00"
+    "2026-10-27T04:50:38+00:00",
+    "2026-10-27T13:00:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:50:34+00:00",
-    "2026-10-06T14:52:02+00:00"
+    "2026-10-07T04:58:17+00:00",
+    "2026-10-07T04:58:27+00:00"
    ],
    [
     "2026-10-09T19:37:11+00:00",
@@ -63,28 +65,28 @@
    44,
    44,
    [
-    "2026-09-28T17:30:07+00:00",
-    "2026-09-28T23:26:49+00:00"
+    "2026-10-06T14:57:00+00:00",
+    "2026-10-06T14:59:35+00:00"
    ],
    [
-    "2026-10-06T14:40:19+00:00",
-    "2026-10-06T14:48:13+00:00"
+    "2026-10-07T03:44:53+00:00",
+    "2026-10-07T04:43:18+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-17T19:40:40+00:00",
-    "2026-09-18T02:09:53+00:00"
+    "2026-10-04T17:22:40+00:00",
+    "2026-10-04T21:58:10+00:00"
    ],
    [
-    "2026-09-28T16:03:50+00:00",
-    "2026-09-28T16:29:03+00:00"
+    "2026-10-06T14:50:34+00:00",
+    "2026-10-06T14:52:02+00:00"
    ]
   ],
-  "avant_filtre_date": 134,
-  "apres_filtre_date": 20
+  "avant_filtre_date": 133,
+  "apres_filtre_date": 21
  },
  "items": [
   {
@@ -146,7 +148,7 @@
    "title": "MEGAPRO 15-in-1 Screwdriver $22.49 (42% off)",
    "price": 22.49,
    "was": 38.99,
-   "votes": 21,
+   "votes": 22,
    "posts": 37,
    "time": "2026-11-04T13:09:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
@@ -196,6 +198,24 @@
    "img": "/img/p/B09K3CYNP3.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
+   "title": "NIIMBOT D110 Label Maker Machine with Tap",
+   "price": 11.99,
+   "was": 21.99,
+   "votes": 15,
+   "posts": 14,
+   "time": "2026-11-04T13:43:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
+   "asin": "B0CZ6WCHGF",
+   "pct": 45,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0CZ6WCHGF?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CZ6WCHGF.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
    "title": "Genuine Winix 115115 Replacement Filter A for C535, 5300-2, P300, 5300, White/Black for $42.73",
    "price": 42.73,
@@ -212,24 +232,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GNC8FQS7-2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
-   "title": "NIIMBOT D110 Label Maker Machine with Tap",
-   "price": 11.99,
-   "was": 21.99,
-   "votes": 14,
-   "posts": 14,
-   "time": "2026-11-04T13:43:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
-   "asin": "B0CZ6WCHGF",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CZ6WCHGF?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CZ6WCHGF.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
@@ -250,6 +252,24 @@
    "img": "/img/p/B0HJC3LFBV.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
+   "title": "Moen Brantford Shower Only Trim Kit T2252EP Shower System with Valve-Free Rain Shower Head, Chrome $63.42 (reg. $149.99)",
+   "price": 63.42,
+   "was": 149.99,
+   "votes": 5,
+   "posts": 5,
+   "time": "2026-11-04T19:10:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
+   "asin": "B01KOHJCHA",
+   "pct": 58,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01KOHJCHA?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01KOHJCHA.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
    "title": "ThermoMaven G1 WiFi Meat Thermometer - $39.99",
    "price": 39.99,
@@ -266,24 +286,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DG5GKJKB.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
-   "title": "Moen Brantford Shower Only Trim Kit T2252EP Shower System with Valve-Free Rain Shower Head, Chrome $63.42 (reg. $149.99)",
-   "price": 63.42,
-   "was": 149.99,
-   "votes": 4,
-   "posts": 5,
-   "time": "2026-11-04T19:10:58+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
-   "asin": "B01KOHJCHA",
-   "pct": 58,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01KOHJCHA?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01KOHJCHA.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -417,7 +419,7 @@
    "price": 51.0,
    "was": 135.0,
    "votes": 0,
-   "posts": 2,
+   "posts": 3,
    "time": "2026-11-04T19:21:57+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
    "asin": "B0D464JX3M",
@@ -428,6 +430,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0D464JX3M.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bathroom-tall-storage-cabinet-shutter-doors-drawer-72-99-30-off-2831112/",
+   "title": "Bathroom Tall Storage Cabinet with Shutter Doors and Drawer - $72.99 (30% Off)",
+   "price": 72.99,
+   "was": 104.27,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-04T21:50:48+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bathroom-tall-storage-cabinet-shutter-doors-drawer-72-99-30-off-2831112/",
+   "asin": "B0842MVK7N",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0842MVK7N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0842MVK7N.jpg"
   }
  ]
 }
