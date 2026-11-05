@@ -1,91 +1,91 @@
 {
- "date": "2026-11-05T14:18-04:00",
+ "date": "2026-11-05T15:05-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   39,
-   39,
+   40,
+   40,
    [
     "2026-10-29T20:51:43+00:00",
     "2026-10-29T23:15:50+00:00"
    ],
    [
-    "2026-11-05T14:50:52+00:00",
-    "2026-11-05T17:59:37+00:00"
+    "2026-11-05T17:59:37+00:00",
+    "2026-11-05T18:26:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   3,
-   3,
+   4,
+   4,
    [
     "2026-10-29T23:15:50+00:00",
     "2026-10-30T13:33:33+00:00"
    ],
    [
-    "2026-10-30T13:33:33+00:00",
-    "2026-11-01T21:10:36+00:00"
+    "2026-11-01T21:10:36+00:00",
+    "2026-11-04T03:00:53+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    20,
    [
-    "2026-10-28T16:57:39+00:00",
-    "2026-10-28T18:59:02+00:00"
+    "2026-10-28T18:59:02+00:00",
+    "2026-10-29T06:10:56+00:00"
    ],
    [
-    "2026-11-05T14:50:52+00:00",
-    "2026-11-05T17:59:37+00:00"
+    "2026-11-05T17:59:37+00:00",
+    "2026-11-05T18:26:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-13T13:39:34+00:00",
-    "2026-10-13T15:16:26+00:00"
+    "2026-10-13T15:16:26+00:00",
+    "2026-10-13T21:08:43+00:00"
    ],
    [
-    "2026-10-28T14:09:54+00:00",
-    "2026-10-28T15:50:04+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:57:39+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T13:29:33+00:00",
-    "2026-10-07T13:49:39+00:00"
+    "2026-10-06T15:55:41+00:00",
+    "2026-10-06T16:24:00+00:00"
    ],
    [
-    "2026-10-13T12:43:25+00:00",
-    "2026-10-13T12:55:18+00:00"
+    "2026-10-13T12:55:18+00:00",
+    "2026-10-13T13:39:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T15:20:57+00:00",
-    "2026-10-06T15:29:12+00:00"
+    "2026-09-30T01:09:42+00:00",
+    "2026-09-30T14:25:09+00:00"
    ],
    [
-    "2026-10-07T12:34:40+00:00",
-    "2026-10-07T13:05:41+00:00"
+    "2026-10-06T15:09:40+00:00",
+    "2026-10-06T15:48:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-05T13:37:27+00:00",
-    "2026-10-05T13:42:22+00:00"
+    "2026-09-20T01:38:41+00:00",
+    "2026-09-21T05:23:06+00:00"
    ],
    [
-    "2026-10-06T15:10:45+00:00",
-    "2026-10-06T15:16:45+00:00"
+    "2026-09-29T14:14:05+00:00",
+    "2026-09-29T18:35:52+00:00"
    ]
   ],
-  "avant_filtre_date": 133,
+  "avant_filtre_date": 136,
   "apres_filtre_date": 24
  },
  "items": [
@@ -234,6 +234,24 @@
    "img": "/img/p/B01KOHJCHA.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
+   "title": "PROBAR - The Simply Real Meal Bar, Superfood Slam, 12 Count (85g) $10.78 (reg. $41.88)",
+   "price": 10.78,
+   "was": 41.88,
+   "votes": 8,
+   "posts": 5,
+   "time": "2026-11-05T17:59:37+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
+   "asin": "B016OV1340",
+   "pct": 74,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B016OV1340?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B016OV1340.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
@@ -322,24 +340,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0D464JX3M.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
-   "title": "PROBAR - The Simply Real Meal Bar, Superfood Slam, 12 Count (85g) $10.78 (reg. $41.88)",
-   "price": 10.78,
-   "was": 41.88,
-   "votes": 3,
-   "posts": 1,
-   "time": "2026-11-05T17:59:37+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
-   "asin": "B00DBNURZQ",
-   "pct": 74,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B00DBNURZQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00DBNURZQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
@@ -491,7 +491,7 @@
    "price": 48.59,
    "was": 59.99,
    "votes": 0,
-   "posts": 4,
+   "posts": 11,
    "time": "2026-11-05T12:31:21+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
    "asin": "B0F8B8GSS2",
