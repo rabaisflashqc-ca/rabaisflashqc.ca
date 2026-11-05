@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04T22:21-04:00",
+ "date": "2026-11-04T23:26-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    38,
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-07T04:58:17+00:00",
-    "2026-10-07T04:58:27+00:00"
+    "2026-10-06T14:50:34+00:00",
+    "2026-10-06T14:52:02+00:00"
    ],
    [
     "2026-10-09T19:37:11+00:00",
@@ -63,27 +63,27 @@
    44,
    44,
    [
-    "2026-10-06T14:57:00+00:00",
-    "2026-10-06T14:59:35+00:00"
+    "2026-09-28T17:30:07+00:00",
+    "2026-09-28T23:26:49+00:00"
    ],
    [
-    "2026-10-07T03:44:53+00:00",
-    "2026-10-07T04:43:18+00:00"
+    "2026-10-06T14:40:19+00:00",
+    "2026-10-06T14:48:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-04T17:22:40+00:00",
-    "2026-10-04T21:58:10+00:00"
+    "2026-09-17T19:40:40+00:00",
+    "2026-09-18T02:09:53+00:00"
    ],
    [
-    "2026-10-06T14:50:34+00:00",
-    "2026-10-06T14:52:02+00:00"
+    "2026-09-28T16:03:50+00:00",
+    "2026-09-28T16:29:03+00:00"
    ]
   ],
-  "avant_filtre_date": 132,
+  "avant_filtre_date": 134,
   "apres_filtre_date": 20
  },
  "items": [
@@ -218,7 +218,7 @@
    "title": "Moen Brantford Shower Only Trim Kit T2252EP Shower System with Valve-Free Rain Shower Head, Chrome $63.42 (reg. $149.99)",
    "price": 63.42,
    "was": 149.99,
-   "votes": 7,
+   "votes": 9,
    "posts": 5,
    "time": "2026-11-04T19:10:58+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
@@ -248,6 +248,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HJC3LFBV.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
+   "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
+   "price": 16.62,
+   "was": 34.99,
+   "votes": 5,
+   "posts": 8,
+   "time": "2026-11-04T23:05:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
+   "asin": "B0DHZJBL29",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -286,24 +304,6 @@
    "img": "/img/p/B0DBN87GQJ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
-   "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
-   "price": 16.62,
-   "was": 34.99,
-   "votes": 3,
-   "posts": 8,
-   "time": "2026-11-04T23:05:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
-   "asin": "B0DHZJBL29",
-   "pct": 53,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHZJBL29.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
    "title": "*DEAL DEAD* medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
    "price": 258.62,
@@ -340,24 +340,6 @@
    "img": "/img/p/B071JBMY54.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
-   "price": 51.0,
-   "was": 135.0,
-   "votes": 2,
-   "posts": 6,
-   "time": "2026-11-04T19:21:57+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "asin": "B0D464JX3M",
-   "pct": 62,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D464JX3M.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
    "title": "Pilates Essentials Kit (Ring, Ball, Bands, etc.) $16.99 (53% off)",
    "price": 16.99,
@@ -376,12 +358,30 @@
    "img": "/img/p/B0FD8DFTLK-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
+   "price": 51.0,
+   "was": 135.0,
+   "votes": 1,
+   "posts": 7,
+   "time": "2026-11-04T19:21:57+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "asin": "B0D464JX3M",
+   "pct": 62,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D464JX3M.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
    "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
    "price": 39.98,
    "was": 70.0,
    "votes": 1,
-   "posts": 0,
+   "posts": 2,
    "time": "2026-11-04T19:49:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
    "asin": "B0CTNWBT1Z",
