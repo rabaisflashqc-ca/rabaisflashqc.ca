@@ -1,92 +1,112 @@
 {
- "date": "2026-11-04T23:26-04:00",
+ "date": "2026-11-05T13:29-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    38,
    38,
    [
-    "2026-10-29T06:10:56+00:00",
-    "2026-10-29T09:48:19+00:00"
+    "2026-10-29T20:51:43+00:00",
+    "2026-10-29T23:15:50+00:00"
    ],
    [
-    "2026-11-04T21:50:48+00:00",
-    "2026-11-04T23:05:40+00:00"
+    "2026-11-05T12:31:21+00:00",
+    "2026-11-05T14:50:52+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   1,
-   1,
+   3,
+   3,
    [
-    "2026-10-29T23:15:50+00:00"
+    "2026-10-29T23:15:50+00:00",
+    "2026-10-30T13:33:33+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00"
+    "2026-10-30T13:33:33+00:00",
+    "2026-11-01T21:10:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   22,
    [
-    "2026-10-28T04:31:38+00:00",
-    "2026-10-28T07:07:36+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:57:39+00:00"
    ],
    [
-    "2026-11-04T21:50:48+00:00",
-    "2026-11-04T23:05:40+00:00"
+    "2026-11-05T12:31:21+00:00",
+    "2026-11-05T14:50:52+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-12T15:32:42+00:00",
-    "2026-10-12T16:05:51+00:00"
+    "2026-10-13T12:55:18+00:00",
+    "2026-10-13T13:39:34+00:00"
    ],
    [
-    "2026-10-27T04:50:38+00:00",
-    "2026-10-27T13:00:59+00:00"
+    "2026-10-28T07:07:36+00:00",
+    "2026-10-28T14:09:54+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:50:34+00:00",
-    "2026-10-06T14:52:02+00:00"
+    "2026-10-06T15:09:40+00:00",
+    "2026-10-06T15:48:05+00:00"
    ],
    [
-    "2026-10-09T19:37:11+00:00",
-    "2026-10-11T00:40:31+00:00"
+    "2026-10-12T16:05:51+00:00",
+    "2026-10-13T12:43:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T17:30:07+00:00",
-    "2026-09-28T23:26:49+00:00"
+    "2026-09-29T14:14:05+00:00",
+    "2026-09-29T18:35:52+00:00"
    ],
    [
-    "2026-10-06T14:40:19+00:00",
-    "2026-10-06T14:48:13+00:00"
+    "2026-10-06T14:52:02+00:00",
+    "2026-10-06T14:57:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-17T19:40:40+00:00",
-    "2026-09-18T02:09:53+00:00"
+    "2026-09-19T10:19:44+00:00",
+    "2026-09-19T21:55:42+00:00"
    ],
    [
-    "2026-09-28T16:03:50+00:00",
-    "2026-09-28T16:29:03+00:00"
+    "2026-09-28T23:26:49+00:00",
+    "2026-09-29T08:18:50+00:00"
    ]
   ],
-  "avant_filtre_date": 134,
-  "apres_filtre_date": 20
+  "avant_filtre_date": 136,
+  "apres_filtre_date": 22
  },
  "items": [
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
+   "price": 11.5,
+   "was": 16.99,
+   "votes": 35,
+   "posts": 21,
+   "time": "2026-11-03T14:59:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
+   "asin": "B0FDH29P3P",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FDH29P3P.jpg"
+  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
    "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
@@ -104,42 +124,6 @@
    "morts": 1,
    "doute": true,
    "img": null
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
-   "price": 11.5,
-   "was": 16.99,
-   "votes": 34,
-   "posts": 21,
-   "time": "2026-11-03T14:59:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "asin": "B0FDH29P3P",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FDH29P3P.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
-   "title": "Cat Scratching Post w/ Rat Hole, Sisal Rope & Toy $29.99 (40% off)",
-   "price": 29.99,
-   "was": 49.99,
-   "votes": 22,
-   "posts": 17,
-   "time": "2026-10-29T15:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-scratching-post-w-rat-hole-sisal-rope-toy-29-99-40-off-2830459/",
-   "asin": "B000634MH8",
-   "pct": 40,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B000634MH8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B000634MH8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
@@ -196,29 +180,47 @@
    "img": "/img/p/B0GNC8FQS7-2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
-   "title": "NIIMBOT D110 Label Maker Machine with Tap",
-   "price": 11.99,
-   "was": 21.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
+   "title": "LEGO Technic Porsche GT4",
+   "price": 149.99,
+   "was": 219.99,
    "votes": 15,
-   "posts": 14,
-   "time": "2026-11-04T13:43:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-niimbot-d110-label-maker-machine-tap-2831050/",
-   "asin": "B0CZ6WCHGF",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CZ6WCHGF?tag=coupdecoeurqc-20",
+   "posts": 2,
+   "time": "2026-11-05T05:56:37+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
+   "asin": "B0CV27WQQV",
+   "pct": 32,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0CV27WQQV?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CZ6WCHGF.jpg"
+   "img": null
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
+   "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
+   "price": 16.62,
+   "was": 34.99,
+   "votes": 11,
+   "posts": 15,
+   "time": "2026-11-04T23:05:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
+   "asin": "B0DHZJBL29",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
    "title": "Moen Brantford Shower Only Trim Kit T2252EP Shower System with Valve-Free Rain Shower Head, Chrome $63.42 (reg. $149.99)",
    "price": 63.42,
    "was": 149.99,
-   "votes": 9,
+   "votes": 8,
    "posts": 5,
    "time": "2026-11-04T19:10:58+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
@@ -248,24 +250,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HJC3LFBV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
-   "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
-   "price": 16.62,
-   "was": 34.99,
-   "votes": 5,
-   "posts": 8,
-   "time": "2026-11-04T23:05:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
-   "asin": "B0DHZJBL29",
-   "pct": 53,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -302,6 +286,42 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0DBN87GQJ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
+   "price": 51.0,
+   "was": 135.0,
+   "votes": 4,
+   "posts": 11,
+   "time": "2026-11-04T19:21:57+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "asin": "B0D464JX3M",
+   "pct": 62,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D464JX3M.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
+   "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
+   "price": 39.98,
+   "was": 70.0,
+   "votes": 4,
+   "posts": 5,
+   "time": "2026-11-04T19:49:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
+   "asin": "B0CTNWBT1Z",
+   "pct": 43,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CTNWBT1Z?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CTNWBT1Z.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
@@ -358,47 +378,47 @@
    "img": "/img/p/B0FD8DFTLK-2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
-   "price": 51.0,
-   "was": 135.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-p2-lite-wireless-meat-thermometer-69-99-2831101/",
+   "title": "ThermoMaven P2 Lite Wireless Meat Thermometer - $69.99",
+   "price": 69.99,
+   "was": 129.99,
    "votes": 1,
-   "posts": 7,
-   "time": "2026-11-04T19:21:57+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "asin": "B0D464JX3M",
-   "pct": 62,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
+   "posts": 1,
+   "time": "2026-11-04T20:25:11+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-p2-lite-wireless-meat-thermometer-69-99-2831101/",
+   "asin": "B0HF4MRYHN",
+   "pct": 46,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0HF4MRYHN?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0D464JX3M.jpg"
+   "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
-   "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
-   "price": 39.98,
-   "was": 70.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-vibekio-20v-12-inch-cordless-snow-shovel-brushless-motor-1200w-159-99-2831177/",
+   "title": "Vibekio 20V 12-Inch Cordless Snow Shovel with Brushless Motor, 1200W - $159.99",
+   "price": 159.99,
+   "was": 209.99,
    "votes": 1,
    "posts": 2,
-   "time": "2026-11-04T19:49:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
-   "asin": "B0CTNWBT1Z",
-   "pct": 43,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CTNWBT1Z?tag=coupdecoeurqc-20",
-   "deja": true,
+   "time": "2026-11-05T14:50:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-vibekio-20v-12-inch-cordless-snow-shovel-brushless-motor-1200w-159-99-2831177/",
+   "asin": "B0HKJW2VGL",
+   "pct": 24,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0HKJW2VGL?tag=coupdecoeurqc-20",
+   "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CTNWBT1Z.jpg"
+   "img": "/img/p/B0HKJW2VGL.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-99-99-2831096/",
    "title": "Ninja Air Fryer Pro, 5 Qt - $99.99",
    "price": 99.99,
    "was": 180.0,
-   "votes": 1,
+   "votes": 0,
    "posts": 1,
    "time": "2026-11-04T19:51:45+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-99-99-2831096/",
@@ -412,22 +432,40 @@
    "img": "/img/p/B0DBN87GQJ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-p2-lite-wireless-meat-thermometer-69-99-2831101/",
-   "title": "ThermoMaven P2 Lite Wireless Meat Thermometer - $69.99",
-   "price": 69.99,
-   "was": 129.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
+   "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
+   "price": 11.57,
+   "was": null,
    "votes": 0,
-   "posts": 1,
-   "time": "2026-11-04T20:25:11+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-p2-lite-wireless-meat-thermometer-69-99-2831101/",
-   "asin": "B0HF4MRYHN",
-   "pct": 46,
+   "posts": 4,
+   "time": "2026-11-05T12:22:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
+   "asin": "B07SVP1SD4",
+   "pct": null,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0HF4MRYHN?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B07SVP1SD4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B07SVP1SD4.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
+   "title": "ELEGOO PETG 3D Printer Filament 4KG – $48.59 (was. $59.99)",
+   "price": 48.59,
+   "was": 59.99,
+   "votes": 0,
+   "posts": 3,
+   "time": "2026-11-05T12:31:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
+   "asin": "B0F8B8GSS2",
+   "pct": 19,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0F8B8GSS2?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0HF4MRYHN.jpg"
+   "img": "/img/p/B0F8B8GSS2.jpg"
   }
  ]
 }
