@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04T17:52-04:00",
+ "date": "2026-11-04T20:32-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    38,
@@ -9,32 +9,30 @@
     "2026-10-29T09:48:19+00:00"
    ],
    [
-    "2026-11-04T20:25:11+00:00",
-    "2026-11-04T21:50:48+00:00"
+    "2026-11-04T21:50:48+00:00",
+    "2026-11-04T23:05:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   2,
-   2,
+   1,
+   1,
    [
-    "2026-10-29T06:10:56+00:00",
     "2026-10-29T23:15:50+00:00"
    ],
    [
-    "2026-10-29T06:10:56+00:00",
     "2026-10-29T23:15:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   23,
+   24,
    [
     "2026-10-28T04:31:38+00:00",
     "2026-10-28T07:07:36+00:00"
    ],
    [
-    "2026-11-04T20:25:11+00:00",
-    "2026-11-04T21:50:48+00:00"
+    "2026-11-04T21:50:48+00:00",
+    "2026-11-04T23:05:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
@@ -85,8 +83,8 @@
     "2026-10-06T14:52:02+00:00"
    ]
   ],
-  "avant_filtre_date": 133,
-  "apres_filtre_date": 21
+  "avant_filtre_date": 132,
+  "apres_filtre_date": 20
  },
  "items": [
   {
@@ -142,24 +140,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B000634MH8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
-   "title": "MEGAPRO 15-in-1 Screwdriver $22.49 (42% off)",
-   "price": 22.49,
-   "was": 38.99,
-   "votes": 22,
-   "posts": 37,
-   "time": "2026-11-04T13:09:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-15-1-screwdriver-22-49-42-off-2831044/",
-   "asin": "B0GXGGYY34",
-   "pct": 42,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GXGGYY34?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0GXGGYY34.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-splendor-kids-board-game-2830492/",
@@ -234,6 +214,24 @@
    "img": "/img/p/B0GNC8FQS7-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
+   "title": "Moen Brantford Shower Only Trim Kit T2252EP Shower System with Valve-Free Rain Shower Head, Chrome $63.42 (reg. $149.99)",
+   "price": 63.42,
+   "was": 149.99,
+   "votes": 7,
+   "posts": 5,
+   "time": "2026-11-04T19:10:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
+   "asin": "B01KOHJCHA",
+   "pct": 58,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01KOHJCHA?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01KOHJCHA.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
@@ -250,24 +248,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HJC3LFBV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
-   "title": "Moen Brantford Shower Only Trim Kit T2252EP Shower System with Valve-Free Rain Shower Head, Chrome $63.42 (reg. $149.99)",
-   "price": 63.42,
-   "was": 149.99,
-   "votes": 5,
-   "posts": 5,
-   "time": "2026-11-04T19:10:58+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-moen-brantford-shower-only-trim-kit-t2252ep-shower-system-valve-free-rain-shower-head-chrome-63-42-reg-149-99-2831091/",
-   "asin": "B01KOHJCHA",
-   "pct": 58,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01KOHJCHA?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01KOHJCHA.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g1-wifi-meat-thermometer-39-99-2830545/",
@@ -292,7 +272,7 @@
    "title": "Ninja Air Fryer Pro, 5 Qt/4.7L, 4-in-1 on sale $99.99(179.99)",
    "price": 99.99,
    "was": 179.99,
-   "votes": 3,
+   "votes": 4,
    "posts": 6,
    "time": "2026-11-03T04:26:20+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -304,6 +284,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0DBN87GQJ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
+   "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
+   "price": 16.62,
+   "was": 34.99,
+   "votes": 3,
+   "posts": 6,
+   "time": "2026-11-04T23:05:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
+   "asin": "B0DHZJBL29",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
@@ -360,6 +358,24 @@
    "img": "/img/p/B0FD8DFTLK-2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
+   "price": 51.0,
+   "was": 135.0,
+   "votes": 1,
+   "posts": 5,
+   "time": "2026-11-04T19:21:57+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "asin": "B0D464JX3M",
+   "pct": 62,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D464JX3M.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
    "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
    "price": 39.98,
@@ -400,8 +416,8 @@
    "title": "ThermoMaven P2 Lite Wireless Meat Thermometer - $69.99",
    "price": 69.99,
    "was": 129.99,
-   "votes": 1,
-   "posts": 0,
+   "votes": 0,
+   "posts": 1,
    "time": "2026-11-04T20:25:11+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-p2-lite-wireless-meat-thermometer-69-99-2831101/",
    "asin": "B0HF4MRYHN",
@@ -412,42 +428,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HF4MRYHN.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
-   "price": 51.0,
-   "was": 135.0,
-   "votes": 0,
-   "posts": 3,
-   "time": "2026-11-04T19:21:57+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "asin": "B0D464JX3M",
-   "pct": 62,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0D464JX3M.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bathroom-tall-storage-cabinet-shutter-doors-drawer-72-99-30-off-2831112/",
-   "title": "Bathroom Tall Storage Cabinet with Shutter Doors and Drawer - $72.99 (30% Off)",
-   "price": 72.99,
-   "was": 104.27,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-04T21:50:48+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bathroom-tall-storage-cabinet-shutter-doors-drawer-72-99-30-off-2831112/",
-   "asin": "B0842MVK7N",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0842MVK7N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0842MVK7N.jpg"
   }
  ]
 }
