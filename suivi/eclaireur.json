@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05T17:13-04:00",
+ "date": "2026-11-05T17:59-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    38,
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   22,
+   23,
    [
     "2026-10-28T16:57:39+00:00",
     "2026-10-28T18:59:02+00:00"
@@ -53,8 +53,8 @@
    44,
    44,
    [
-    "2026-10-06T15:48:05+00:00",
-    "2026-10-06T15:55:41+00:00"
+    "2026-10-07T13:29:33+00:00",
+    "2026-10-07T13:49:39+00:00"
    ],
    [
     "2026-10-13T12:43:25+00:00",
@@ -65,28 +65,28 @@
    44,
    44,
    [
-    "2026-09-29T18:35:52+00:00",
-    "2026-09-30T01:09:42+00:00"
+    "2026-10-06T15:20:57+00:00",
+    "2026-10-06T15:29:12+00:00"
    ],
    [
-    "2026-10-06T14:57:00+00:00",
-    "2026-10-06T15:09:40+00:00"
+    "2026-10-07T12:34:40+00:00",
+    "2026-10-07T13:05:41+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-19T21:55:42+00:00",
-    "2026-09-20T01:38:41+00:00"
+    "2026-10-05T13:37:27+00:00",
+    "2026-10-05T13:42:22+00:00"
    ],
    [
-    "2026-09-29T08:18:50+00:00",
-    "2026-09-29T14:14:05+00:00"
+    "2026-10-06T15:10:45+00:00",
+    "2026-10-06T15:16:45+00:00"
    ]
   ],
-  "avant_filtre_date": 136,
-  "apres_filtre_date": 22
+  "avant_filtre_date": 131,
+  "apres_filtre_date": 21
  },
  "items": [
   {
@@ -184,7 +184,7 @@
    "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
    "price": 16.62,
    "was": 34.99,
-   "votes": 11,
+   "votes": 12,
    "posts": 18,
    "time": "2026-11-04T23:05:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
@@ -378,24 +378,6 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-vibekio-20v-12-inch-cordless-snow-shovel-brushless-motor-1200w-159-99-2831177/",
-   "title": "Vibekio 20V 12-Inch Cordless Snow Shovel with Brushless Motor, 1200W - $159.99",
-   "price": 159.99,
-   "was": 209.99,
-   "votes": 1,
-   "posts": 2,
-   "time": "2026-11-05T14:50:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-vibekio-20v-12-inch-cordless-snow-shovel-brushless-motor-1200w-159-99-2831177/",
-   "asin": "B0HKJW2VGL",
-   "pct": 24,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0HKJW2VGL?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HKJW2VGL.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
    "title": "Gain Aroma Boost Liquid Laundry Detergent, Original Scent, HE Compatible, 107 Loads, 4.55L on sale for $15.98(19.99)",
    "price": 15.98,
@@ -455,7 +437,7 @@
    "price": 48.59,
    "was": 59.99,
    "votes": 0,
-   "posts": 13,
+   "posts": 14,
    "time": "2026-11-05T12:31:21+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
    "asin": "B0F8B8GSS2",
