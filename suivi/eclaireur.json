@@ -1,16 +1,16 @@
 {
- "date": "2026-11-06T14:32-04:00",
+ "date": "2026-11-06T16:33-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   36,
+   36,
    [
     "2026-11-01T15:54:36+00:00",
     "2026-11-01T21:02:22+00:00"
    ],
    [
-    "2026-11-06T14:56:50+00:00",
-    "2026-11-06T14:57:49+00:00"
+    "2026-11-06T20:10:22+00:00",
+    "2026-11-06T20:18:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,66 +25,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-10-29T06:10:56+00:00",
-    "2026-10-29T09:48:19+00:00"
+    "2026-10-29T15:06:59+00:00",
+    "2026-10-29T20:51:43+00:00"
    ],
    [
-    "2026-11-06T14:56:50+00:00",
-    "2026-11-06T14:57:49+00:00"
+    "2026-11-06T20:10:22+00:00",
+    "2026-11-06T20:18:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-13T21:08:43+00:00",
-    "2026-10-14T02:37:51+00:00"
+    "2026-10-14T03:26:43+00:00",
+    "2026-10-14T05:13:35+00:00"
    ],
    [
-    "2026-10-28T16:57:39+00:00",
-    "2026-10-28T18:59:02+00:00"
+    "2026-10-29T06:10:56+00:00",
+    "2026-10-29T09:48:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T13:52:23+00:00",
-    "2026-10-07T14:12:23+00:00"
+    "2026-10-07T14:27:35+00:00",
+    "2026-10-07T14:55:34+00:00"
    ],
    [
-    "2026-10-13T13:39:34+00:00",
-    "2026-10-13T15:16:26+00:00"
+    "2026-10-13T21:08:43+00:00",
+    "2026-10-14T02:37:51+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T15:40:58+00:00",
-    "2026-10-06T15:46:15+00:00"
+    "2026-10-06T15:51:19+00:00",
+    "2026-10-06T15:55:41+00:00"
    ],
    [
-    "2026-10-07T13:29:33+00:00",
-    "2026-10-07T13:49:39+00:00"
+    "2026-10-07T13:52:23+00:00",
+    "2026-10-07T14:12:23+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-05T21:19:30+00:00",
-    "2026-10-06T03:02:26+00:00"
+    "2026-10-06T03:50:49+00:00",
+    "2026-10-06T04:13:17+00:00"
    ],
    [
-    "2026-10-06T15:20:57+00:00",
-    "2026-10-06T15:29:12+00:00"
+    "2026-10-06T15:40:58+00:00",
+    "2026-10-06T15:46:15+00:00"
    ]
   ],
-  "avant_filtre_date": 131,
-  "apres_filtre_date": 20
+  "avant_filtre_date": 130,
+  "apres_filtre_date": 21
  },
  "items": [
   {
@@ -106,6 +106,24 @@
    "img": "/img/p/B0FDH29P3P.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
+   "title": "Ecoflow 65W Rapid charger (CSA/UL/ETL) $21",
+   "price": 20.99,
+   "was": 30.99,
+   "votes": 37,
+   "posts": 26,
+   "time": "2026-11-06T06:39:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
+   "asin": "B0FDGTY477",
+   "pct": 32,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FDGTY477?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 2,
+   "doute": true,
+   "img": "/img/p/B0FDGTY477.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
    "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
    "price": 9.99,
@@ -124,30 +142,12 @@
    "img": null
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
-   "title": "Ecoflow 65W Rapid charger (CSA/UL/ETL) $21",
-   "price": 20.99,
-   "was": 30.99,
-   "votes": 30,
-   "posts": 22,
-   "time": "2026-11-06T06:39:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
-   "asin": "B0FDGTY477",
-   "pct": 32,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FDGTY477?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0FDGTY477.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
    "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
    "price": 16.62,
    "was": 34.99,
    "votes": 13,
-   "posts": 18,
+   "posts": 19,
    "time": "2026-11-04T23:05:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
    "asin": "B0DHZJBL29",
@@ -155,8 +155,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
@@ -182,7 +182,7 @@
    "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
    "price": 114.33,
    "was": 138.5,
-   "votes": 7,
+   "votes": 8,
    "posts": 7,
    "time": "2026-11-06T14:20:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
@@ -230,6 +230,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CTNWBT1Z.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
+   "title": "Philips 2200 EP2220/14 Fully Automatic Espresso Machine $349 ATL",
+   "price": 349.0,
+   "was": 793.0,
+   "votes": 5,
+   "posts": 6,
+   "time": "2026-11-06T14:56:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
+   "asin": "B07VBPLPH5",
+   "pct": 56,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07VBPLPH5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -286,24 +304,6 @@
    "img": "/img/p/B07SVP1SD4.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
-   "title": "Philips 2200 EP2220/14 Fully Automatic Espresso Machine $349 ATL",
-   "price": 349.0,
-   "was": 793.0,
-   "votes": 3,
-   "posts": 6,
-   "time": "2026-11-06T14:56:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
-   "asin": "B07VBPLPH5",
-   "pct": 56,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07VBPLPH5.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
    "title": "*DEAL DEAD* medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
    "price": 258.62,
@@ -340,22 +340,22 @@
    "img": "/img/p/B071JBMY54.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
-   "title": "Beswood food slicer",
-   "price": 528.0,
-   "was": 749.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
+   "title": "ELEGOO PETG 3D Printer Filament 4KG – $48.59 (was. $59.99)",
+   "price": 48.59,
+   "was": 59.99,
    "votes": 2,
-   "posts": 6,
-   "time": "2026-11-06T14:57:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
-   "asin": "B01AQH636Q",
-   "pct": 30,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B01AQH636Q?tag=coupdecoeurqc-20",
+   "posts": 19,
+   "time": "2026-11-05T12:31:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
+   "asin": "B0F8B8GSS2",
+   "pct": 19,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0F8B8GSS2?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": null
+   "img": "/img/p/B0F8B8GSS2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-99-99-2831096/",
@@ -394,22 +394,40 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
-   "title": "ELEGOO PETG 3D Printer Filament 4KG – $48.59 (was. $59.99)",
-   "price": 48.59,
-   "was": 59.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
+   "title": "Beswood food slicer",
+   "price": 528.0,
+   "was": 749.0,
    "votes": 1,
-   "posts": 18,
-   "time": "2026-11-05T12:31:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
-   "asin": "B0F8B8GSS2",
-   "pct": 19,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0F8B8GSS2?tag=coupdecoeurqc-20",
+   "posts": 6,
+   "time": "2026-11-06T14:57:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
+   "asin": "B01AQH636Q",
+   "pct": 30,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B01AQH636Q?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0F8B8GSS2.jpg"
+   "img": null
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
+   "title": "Glorious Gaming Switches and Keycaps - from $8.99",
+   "price": 10.99,
+   "was": null,
+   "votes": 1,
+   "posts": 0,
+   "time": "2026-11-06T20:18:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
+   "asin": "B07886PXLH",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B07886PXLH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
