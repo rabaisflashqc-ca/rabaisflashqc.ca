@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Réel du 6 nov., SANS SON (ajouter un son tendance dans chaque app).
+"""Réel du 6 nov., SANS SON, photos officielles des marques (jamais Amazon) (ajouter un son tendance dans chaque app).
 9:16 : 5 deals de la passe Keepa du 5 nov. à 20 h 44, accroche dès la 1re image, compte à rebours Black Friday.
 Coupes franches toutes les ~2,4 s, aucune piste audio."""
 import pathlib, tempfile, subprocess, html as H
@@ -9,13 +9,13 @@ e=H.escape
 CSS=open('soir_flash.py').read().split('CSS = """')[1].split('"""')[0]
 CSS+=".c{background:#fff;color:#1A1A1A;border-radius:40px;margin:30px 56px;padding:50px 44px;text-align:center}.big{font-family:Anton,Impact,sans-serif;font-size:210px;color:#C1121F;line-height:1}.pc{display:inline-block;background:#FFC72C;color:#8E0B16;border-radius:26px;padding:10px 34px;font-family:Anton,Impact,sans-serif;font-size:110px;margin:20px 0}"
 OB="5 nov. à 20 h 44"
-PICK=[("JBL","Écouteurs sport Endurance Race 2","🎧","103,67 $","39,98 $",61,OB),("JBL","Casque à réduction de bruit Tune 770NC","🎧","157,59 $","79,98 $",49,OB),("Nespresso","Machine Vertuo Pop+ Deluxe","☕","182,96 $","94,00 $",49,OB),("Philips","Friteuse à air série 2000","🍟","170,48 $","99,99 $",41,OB),("Braun","Mélangeur à main MQ505","🥣","76,89 $","44,99 $",41,OB)]
+PICK=[("JBL","Écouteurs sport Endurance Race 2","B0DVTGBCBL","103,67 $","39,98 $",61,OB),("JBL","Casque à réduction de bruit Tune 770NC","B0CTB8GKM2","157,59 $","79,98 $",49,OB),("Nespresso","Machine Vertuo Pop+ Deluxe","B0D712DKKD","182,96 $","94,00 $",49,OB),("Philips","Friteuse à air série 2000","B0D8QN4C9X","170,48 $","99,99 $",41,OB),("Braun","Mélangeur à main MQ505","B01EA5ZI2U","76,89 $","44,99 $",41,OB)]
 BPM=124; B=60/BPM
 def page(inner,foot="Vérifie le prix final sur rabaisflashqc.ca"):
     return f'<!doctype html><html><head><meta charset="utf-8">{pack.FONTS}<style>{CSS}</style></head><body style="width:1080px;height:1920px"><div class="top" style="padding-top:90px">{pack.BOLT}<span>RABAIS <b>FLASH</b> QC</span></div>{inner}<div class="foot" style="position:absolute;bottom:0;left:0;right:0"><div class="u an">👉 LIEN DANS LA BIO</div><div class="s">{foot}</div></div></body></html>'
 slides=[(page('<h1 class="an" style="font-size:118px;line-height:1.05;margin-top:230px">CADEAUX DES FÊTES<br>JUSQU’À -61 % 🎁</h1><h2 style="font-size:60px">5 prix vus le 5 nov.<br>à 20 h 44 👀</h2>'),6)]
 for a,t,ic,av,pr,pc,ob in PICK:
-    slides.append((page(f'<div style="font-size:200px;text-align:center;margin-top:120px">{ic}</div><div class="c"><div style="font-size:34px;font-weight:700;color:#C1121F;text-transform:uppercase">{e(a)}</div><div style="font-size:52px;font-weight:700;margin:10px 0 24px">{e(t)}</div><div class="big">{pr}</div><div class="pc">-{pc} %</div><div style="font-size:44px">avant : <s>{av}</s></div><div style="font-size:30px;color:#555;margin-top:18px">prix observé le {ob}</div></div>'),5))
+    slides.append((page(f'<div style="margin:70px auto 0;width:620px;height:520px;background:#fff;border-radius:40px;display:flex;align-items:center;justify-content:center"><img src="{(pathlib.Path('docs/img/p')/('marque-'+ic+'.jpg')).resolve().as_uri()}" style="max-width:560px;max-height:480px;object-fit:contain"></div><div class="c"><div style="font-size:34px;font-weight:700;color:#C1121F;text-transform:uppercase">{e(a)}</div><div style="font-size:52px;font-weight:700;margin:10px 0 24px">{e(t)}</div><div class="big">{pr}</div><div class="pc">-{pc} %</div><div style="font-size:44px">avant : <s>{av}</s></div><div style="font-size:30px;color:#555;margin-top:18px">prix observé le {ob}</div></div>'),5))
 slides.append((page('<h1 class="an" style="font-size:130px;line-height:1.1;margin-top:300px">BLACK FRIDAY<br>DANS 3 SEMAINES ⏳</h1><h2 style="font-size:58px">Enregistre et partage<br>à quelqu’un qui magasine 🎄</h2>'),6))
 slides.append((page('<h1 class="an" style="font-size:120px;line-height:1.1;margin-top:330px">PLUS DE DEALS<br>SUR LE SITE 👇</h1><h2 style="font-size:60px">rabaisflashqc.ca</h2><p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:60px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>'),6))
 tmp=pathlib.Path(tempfile.mkdtemp()); fr=[]

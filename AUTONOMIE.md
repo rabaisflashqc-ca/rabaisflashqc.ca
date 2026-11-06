@@ -37,6 +37,7 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 
 - Deals Keepa : photo Amazon en lien direct (img_url) seulement, jamais copiée sur notre serveur ni intégrée dans nos images ou réels.
 - Catalogue : photo officielle de la marque ou d'un grand détaillant (jamais Amazon).
+- Réels et images (décision d'Alex du 6 nov.) : photos des produits au lieu d'émojis, mais seulement des photos officielles des marques (via suivi/photos_sources.json, clé marque-ASIN, workflow photos.yml, vérifiées à l'oeil). Gabarit : reel-06nov-sans-son.py.
 
 ## Où sont les fichiers d'un pack
 
