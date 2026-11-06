@@ -1,9 +1,9 @@
 {
- "date": "2026-11-06T12:50-04:00",
+ "date": "2026-11-06T13:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   35,
-   35,
+   34,
+   34,
    [
     "2026-11-01T15:54:36+00:00",
     "2026-11-01T21:02:22+00:00"
@@ -14,23 +14,21 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   2,
-   2,
+   1,
+   1,
    [
-    "2026-11-01T21:10:36+00:00",
     "2026-11-05T18:26:25+00:00"
    ],
    [
-    "2026-11-01T21:10:36+00:00",
     "2026-11-05T18:26:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   23,
+   24,
    [
-    "2026-10-29T09:48:19+00:00",
-    "2026-10-29T15:06:59+00:00"
+    "2026-10-29T06:10:56+00:00",
+    "2026-10-29T09:48:19+00:00"
    ],
    [
     "2026-11-06T14:56:50+00:00",
@@ -41,52 +39,52 @@
    44,
    44,
    [
-    "2026-10-14T02:37:51+00:00",
-    "2026-10-14T03:26:43+00:00"
+    "2026-10-13T21:08:43+00:00",
+    "2026-10-14T02:37:51+00:00"
    ],
    [
-    "2026-10-28T18:59:02+00:00",
-    "2026-10-29T06:10:56+00:00"
+    "2026-10-28T16:57:39+00:00",
+    "2026-10-28T18:59:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T17:17:29+00:00",
-    "2026-10-06T18:02:25+00:00"
+    "2026-10-07T13:52:23+00:00",
+    "2026-10-07T14:12:23+00:00"
    ],
    [
-    "2026-10-13T15:16:26+00:00",
-    "2026-10-13T21:08:43+00:00"
+    "2026-10-13T13:39:34+00:00",
+    "2026-10-13T15:16:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-01T23:43:48+00:00",
-    "2026-10-02T06:44:25+00:00"
+    "2026-10-06T15:40:58+00:00",
+    "2026-10-06T15:46:15+00:00"
    ],
    [
-    "2026-10-06T15:55:41+00:00",
-    "2026-10-06T16:24:00+00:00"
+    "2026-10-07T13:29:33+00:00",
+    "2026-10-07T13:49:39+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-21T12:53:01+00:00",
-    "2026-09-21T13:37:03+00:00"
+    "2026-10-05T21:19:30+00:00",
+    "2026-10-06T03:02:26+00:00"
    ],
    [
-    "2026-09-30T01:09:42+00:00",
-    "2026-09-30T14:25:09+00:00"
+    "2026-10-06T15:20:57+00:00",
+    "2026-10-06T15:29:12+00:00"
    ]
   ],
-  "avant_filtre_date": 137,
-  "apres_filtre_date": 21
+  "avant_filtre_date": 131,
+  "apres_filtre_date": 20
  },
  "items": [
   {
@@ -130,8 +128,8 @@
    "title": "Ecoflow 65W Rapid charger (CSA/UL/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 20,
-   "posts": 18,
+   "votes": 23,
+   "posts": 21,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
    "asin": "B0FDGTY477",
@@ -139,27 +137,9 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0FDGTY477?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 3,
-   "doute": true,
-   "img": "/img/p/B0FDGTY477.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
-   "title": "PROBAR - The Simply Real Meal Bar, Superfood Slam, 12 Count (85g) $10.78 (reg. $41.88)",
-   "price": 10.78,
-   "was": 41.88,
-   "votes": 15,
-   "posts": 14,
-   "time": "2026-11-05T17:59:37+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
-   "asin": "B016OV1340",
-   "pct": 74,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B016OV1340?tag=coupdecoeurqc-20",
-   "deja": false,
    "morts": 2,
    "doute": true,
-   "img": "/img/p/B016OV1340.jpg"
+   "img": "/img/p/B0FDGTY477.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
@@ -232,6 +212,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CTNWBT1Z.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
+   "price": 114.33,
+   "was": 138.5,
+   "votes": 5,
+   "posts": 7,
+   "time": "2026-11-06T14:20:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "asin": "B0FN6WGN7L",
+   "pct": 17,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FN6WGN7L.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -329,7 +327,7 @@
    "price": 349.0,
    "was": 793.0,
    "votes": 2,
-   "posts": 1,
+   "posts": 6,
    "time": "2026-11-06T14:56:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
    "asin": "B07VBPLPH5",
@@ -396,24 +394,6 @@
    "img": "/img/p/B0F8B8GSS2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
-   "price": 114.33,
-   "was": 138.5,
-   "votes": 1,
-   "posts": 7,
-   "time": "2026-11-06T14:20:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "asin": "B0FN6WGN7L",
-   "pct": 17,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FN6WGN7L.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
    "title": "Gain Aroma Boost Liquid Laundry Detergent, Original Scent, HE Compatible, 107 Loads, 4.55L on sale for $15.98(19.99)",
    "price": 15.98,
@@ -437,7 +417,7 @@
    "price": 528.0,
    "was": 749.0,
    "votes": 0,
-   "posts": 4,
+   "posts": 6,
    "time": "2026-11-06T14:57:49+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
    "asin": "B01AQH636Q",
