@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05T20:33-04:00",
+ "date": "2026-11-05T22:22-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -146,7 +146,7 @@
    "title": "LEGO Technic Porsche GT4",
    "price": 149.99,
    "was": 219.99,
-   "votes": 15,
+   "votes": 14,
    "posts": 2,
    "time": "2026-11-05T05:56:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -182,8 +182,8 @@
    "title": "PROBAR - The Simply Real Meal Bar, Superfood Slam, 12 Count (85g) $10.78 (reg. $41.88)",
    "price": 10.78,
    "was": 41.88,
-   "votes": 11,
-   "posts": 10,
+   "votes": 12,
+   "posts": 12,
    "time": "2026-11-05T17:59:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
    "asin": "B016OV1340",
@@ -358,6 +358,24 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
+   "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
+   "price": 11.57,
+   "was": null,
+   "votes": 1,
+   "posts": 4,
+   "time": "2026-11-05T12:22:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
+   "asin": "B07SVP1SD4",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07SVP1SD4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B07SVP1SD4.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
    "title": "Gain Aroma Boost Liquid Laundry Detergent, Original Scent, HE Compatible, 107 Loads, 4.55L on sale for $15.98(19.99)",
    "price": 15.98,
@@ -392,24 +410,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DBN87GQJ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
-   "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
-   "price": 11.57,
-   "was": null,
-   "votes": 0,
-   "posts": 4,
-   "time": "2026-11-05T12:22:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
-   "asin": "B07SVP1SD4",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07SVP1SD4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B07SVP1SD4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
