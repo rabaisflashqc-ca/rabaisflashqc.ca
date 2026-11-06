@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05T22:22-04:00",
+ "date": "2026-11-05T23:23-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -9,8 +9,8 @@
     "2026-10-30T13:18:01+00:00"
    ],
    [
-    "2026-11-05T17:59:37+00:00",
-    "2026-11-05T18:26:25+00:00"
+    "2026-11-05T18:26:25+00:00",
+    "2026-11-06T03:19:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,14 +25,14 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
     "2026-10-28T16:57:39+00:00",
     "2026-10-28T18:59:02+00:00"
    ],
    [
-    "2026-11-05T17:59:37+00:00",
-    "2026-11-05T18:26:25+00:00"
+    "2026-11-05T18:26:25+00:00",
+    "2026-11-06T03:19:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-07T13:29:33+00:00",
-    "2026-10-07T13:49:39+00:00"
+    "2026-10-06T15:48:05+00:00",
+    "2026-10-06T15:55:41+00:00"
    ],
    [
     "2026-10-13T12:43:25+00:00",
@@ -63,28 +63,28 @@
    44,
    44,
    [
-    "2026-10-06T15:20:57+00:00",
-    "2026-10-06T15:29:12+00:00"
+    "2026-09-29T18:35:52+00:00",
+    "2026-09-30T01:09:42+00:00"
    ],
    [
-    "2026-10-07T12:34:40+00:00",
-    "2026-10-07T13:05:41+00:00"
+    "2026-10-06T14:57:00+00:00",
+    "2026-10-06T15:09:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-05T13:37:27+00:00",
-    "2026-10-05T13:42:22+00:00"
+    "2026-09-19T21:55:42+00:00",
+    "2026-09-20T01:38:41+00:00"
    ],
    [
-    "2026-10-06T15:10:45+00:00",
-    "2026-10-06T15:16:45+00:00"
+    "2026-09-29T08:18:50+00:00",
+    "2026-09-29T14:14:05+00:00"
    ]
   ],
-  "avant_filtre_date": 131,
-  "apres_filtre_date": 20
+  "avant_filtre_date": 136,
+  "apres_filtre_date": 21
  },
  "items": [
   {
@@ -92,7 +92,7 @@
    "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
    "price": 11.5,
    "was": 16.99,
-   "votes": 36,
+   "votes": 37,
    "posts": 21,
    "time": "2026-11-03T14:59:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
@@ -142,29 +142,11 @@
    "img": "/img/p/B09K3CYNP3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
-   "title": "LEGO Technic Porsche GT4",
-   "price": 149.99,
-   "was": 219.99,
-   "votes": 14,
-   "posts": 2,
-   "time": "2026-11-05T05:56:37+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
-   "asin": "B0CV27WQQV",
-   "pct": 32,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0CV27WQQV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
    "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
    "price": 16.62,
    "was": 34.99,
-   "votes": 12,
+   "votes": 13,
    "posts": 18,
    "time": "2026-11-04T23:05:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
@@ -182,7 +164,7 @@
    "title": "PROBAR - The Simply Real Meal Bar, Superfood Slam, 12 Count (85g) $10.78 (reg. $41.88)",
    "price": 10.78,
    "was": 41.88,
-   "votes": 12,
+   "votes": 13,
    "posts": 12,
    "time": "2026-11-05T17:59:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
@@ -194,6 +176,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B016OV1340.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
+   "title": "LEGO Technic Porsche GT4",
+   "price": 149.99,
+   "was": 219.99,
+   "votes": 12,
+   "posts": 3,
+   "time": "2026-11-05T05:56:37+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
+   "asin": "B0CV27WQQV",
+   "pct": 32,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0CV27WQQV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
@@ -322,6 +322,24 @@
    "img": "/img/p/B071JBMY54.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
+   "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
+   "price": 11.57,
+   "was": null,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-05T12:22:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
+   "asin": "B07SVP1SD4",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07SVP1SD4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B07SVP1SD4.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pilates-essentials-kit-ring-ball-bands-etc-16-99-53-off-2830536/",
    "title": "Pilates Essentials Kit (Ring, Ball, Bands, etc.) $16.99 (53% off)",
    "price": 16.99,
@@ -358,22 +376,22 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
-   "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
-   "price": 11.57,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
+   "title": "ELEGOO PETG 3D Printer Filament 4KG – $48.59 (was. $59.99)",
+   "price": 48.59,
+   "was": 59.99,
    "votes": 1,
-   "posts": 4,
-   "time": "2026-11-05T12:22:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
-   "asin": "B07SVP1SD4",
-   "pct": null,
+   "posts": 15,
+   "time": "2026-11-05T12:31:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
+   "asin": "B0F8B8GSS2",
+   "pct": 19,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07SVP1SD4?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0F8B8GSS2?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B07SVP1SD4.jpg"
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F8B8GSS2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
@@ -412,22 +430,22 @@
    "img": "/img/p/B0DBN87GQJ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
-   "title": "ELEGOO PETG 3D Printer Filament 4KG – $48.59 (was. $59.99)",
-   "price": 48.59,
-   "was": 59.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-etoolab-btu-propane-torch-weed-burner-14ft-hose-39-59-2831242/",
+   "title": "etoolab BTU Propane Torch Weed Burner with 14FT Hose - $39.59",
+   "price": 39.59,
+   "was": null,
    "votes": 0,
-   "posts": 15,
-   "time": "2026-11-05T12:31:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
-   "asin": "B0F8B8GSS2",
-   "pct": 19,
+   "posts": 0,
+   "time": "2026-11-06T03:19:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-etoolab-btu-propane-torch-weed-burner-14ft-hose-39-59-2831242/",
+   "asin": "B0H7HSN5N5",
+   "pct": null,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0F8B8GSS2?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0H7HSN5N5?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0F8B8GSS2.jpg"
+   "img": "/img/p/B0H7HSN5N5.jpg"
   }
  ]
 }
