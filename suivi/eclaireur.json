@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06T13:42-04:00",
+ "date": "2026-11-06T14:32-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    34,
@@ -128,8 +128,8 @@
    "title": "Ecoflow 65W Rapid charger (CSA/UL/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 23,
-   "posts": 21,
+   "votes": 30,
+   "posts": 22,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
    "asin": "B0FDGTY477",
@@ -178,6 +178,24 @@
    "img": null
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
+   "price": 114.33,
+   "was": 138.5,
+   "votes": 7,
+   "posts": 7,
+   "time": "2026-11-06T14:20:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "asin": "B0FN6WGN7L",
+   "pct": 17,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FN6WGN7L.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
@@ -212,24 +230,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CTNWBT1Z.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
-   "price": 114.33,
-   "was": 138.5,
-   "votes": 5,
-   "posts": 7,
-   "time": "2026-11-06T14:20:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "asin": "B0FN6WGN7L",
-   "pct": 17,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FN6WGN7L.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -286,6 +286,24 @@
    "img": "/img/p/B07SVP1SD4.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
+   "title": "Philips 2200 EP2220/14 Fully Automatic Espresso Machine $349 ATL",
+   "price": 349.0,
+   "was": 793.0,
+   "votes": 3,
+   "posts": 6,
+   "time": "2026-11-06T14:56:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
+   "asin": "B07VBPLPH5",
+   "pct": 56,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07VBPLPH5.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
    "title": "*DEAL DEAD* medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
    "price": 258.62,
@@ -322,22 +340,22 @@
    "img": "/img/p/B071JBMY54.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
-   "title": "Philips 2200 EP2220/14 Fully Automatic Espresso Machine $349 ATL",
-   "price": 349.0,
-   "was": 793.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
+   "title": "Beswood food slicer",
+   "price": 528.0,
+   "was": 749.0,
    "votes": 2,
    "posts": 6,
-   "time": "2026-11-06T14:56:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
-   "asin": "B07VBPLPH5",
-   "pct": 56,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
+   "time": "2026-11-06T14:57:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
+   "asin": "B01AQH636Q",
+   "pct": 30,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B01AQH636Q?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B07VBPLPH5.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-99-99-2831096/",
@@ -381,7 +399,7 @@
    "price": 48.59,
    "was": 59.99,
    "votes": 1,
-   "posts": 17,
+   "posts": 18,
    "time": "2026-11-05T12:31:21+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
    "asin": "B0F8B8GSS2",
@@ -410,24 +428,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C35Z66QV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
-   "title": "Beswood food slicer",
-   "price": 528.0,
-   "was": 749.0,
-   "votes": 0,
-   "posts": 6,
-   "time": "2026-11-06T14:57:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-beswood-food-slicer-2831272/",
-   "asin": "B01AQH636Q",
-   "pct": 30,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B01AQH636Q?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   }
  ]
 }
