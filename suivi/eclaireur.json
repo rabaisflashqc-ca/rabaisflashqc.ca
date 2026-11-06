@@ -1,12 +1,12 @@
 {
- "date": "2026-11-05T17:59-04:00",
+ "date": "2026-11-05T20:33-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   38,
-   38,
+   36,
+   36,
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-29T23:25:00+00:00"
+    "2026-10-30T12:29:42+00:00",
+    "2026-10-30T13:18:01+00:00"
    ],
    [
     "2026-11-05T17:59:37+00:00",
@@ -14,20 +14,18 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   3,
-   3,
+   1,
+   1,
    [
-    "2026-10-29T23:15:50+00:00",
     "2026-10-30T13:33:33+00:00"
    ],
    [
-    "2026-10-30T13:33:33+00:00",
-    "2026-11-01T21:10:36+00:00"
+    "2026-10-30T13:33:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   23,
+   24,
    [
     "2026-10-28T16:57:39+00:00",
     "2026-10-28T18:59:02+00:00"
@@ -86,7 +84,7 @@
    ]
   ],
   "avant_filtre_date": 131,
-  "apres_filtre_date": 21
+  "apres_filtre_date": 20
  },
  "items": [
   {
@@ -144,24 +142,6 @@
    "img": "/img/p/B09K3CYNP3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
-   "title": "Genuine Winix 115115 Replacement Filter A for C535, 5300-2, P300, 5300, White/Black for $42.73",
-   "price": 42.73,
-   "was": 91.0,
-   "votes": 15,
-   "posts": 5,
-   "time": "2026-10-29T23:25:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-genuine-winix-115115-replacement-filter-c535-5300-2-p300-5300-white-black-42-73-2830498/",
-   "asin": "B0GNC8FQS7",
-   "pct": 53,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GNC8FQS7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GNC8FQS7-2.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
    "title": "LEGO Technic Porsche GT4",
    "price": 149.99,
@@ -202,7 +182,7 @@
    "title": "PROBAR - The Simply Real Meal Bar, Superfood Slam, 12 Count (85g) $10.78 (reg. $41.88)",
    "price": 10.78,
    "was": 41.88,
-   "votes": 10,
+   "votes": 11,
    "posts": 10,
    "time": "2026-11-05T17:59:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-probar-simply-real-meal-bar-superfood-slam-12-count-85g-10-78-reg-41-88-2831203/",
@@ -437,7 +417,7 @@
    "price": 48.59,
    "was": 59.99,
    "votes": 0,
-   "posts": 14,
+   "posts": 15,
    "time": "2026-11-05T12:31:21+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
    "asin": "B0F8B8GSS2",
