@@ -1,110 +1,80 @@
 {
- "genere": "2026-11-07T00:18+00:00",
+ "genere": "2026-11-07T00:25+00:00",
  "produits": [
-  {
-   "asin": "B0CMGMCWYG",
-   "titre": "Barbie Skipper et sa pouponnière",
-   "prix_affiche": 24.0
-  },
   {
    "asin": "B0DS6P18CJ",
    "titre": "Moniteur Samsung 22 po Full HD",
    "prix_affiche": 88.0
   },
   {
-   "asin": "B0CCY6VG8Z",
-   "titre": "Humidificateur DREO pour la chambre",
-   "prix_affiche": 47.49
-  },
-  {
-   "asin": "B0B4PBGQ8P",
-   "titre": "Chandail Carhartt pour homme",
-   "prix_affiche": 50.97
+   "asin": "B0DVTGBCBL",
+   "titre": "JBL Endurance Race 2, écouteurs sans fil sport",
+   "prix_affiche": 39.98
   },
   {
    "asin": "B0BSGQL41X",
-   "titre": "Casque sans fil Sony WH-CH520",
+   "titre": "Sony WH-CH520, casque sans fil",
    "prix_affiche": 48.0
   },
   {
-   "asin": "B0FMS9FNVR",
-   "titre": "LEGO Botanicals Cactus en fleurs",
-   "prix_affiche": 35.0
-  },
-  {
-   "asin": "B07S49VB3L",
-   "titre": "Nourriture pour chat Blue Buffalo Tastefuls",
-   "prix_affiche": 25.99
-  },
-  {
-   "asin": "B0CCPRDH3T",
-   "titre": "Coffret d'art Crayola Pokémon",
-   "prix_affiche": 19.98
-  },
-  {
-   "asin": "B0C7K1XMSM",
-   "titre": "Crocs Classic pour adulte",
-   "prix_affiche": 44.95
-  },
-  {
-   "asin": "B0DK2MP4TB",
-   "titre": "Bottes d'hiver Columbia Powderbug pour enfant",
-   "prix_affiche": 59.99
-  },
-  {
-   "asin": "B00942VIOM",
-   "titre": "Mijoteuse Crock-Pot 7 pintes",
-   "prix_affiche": 44.97
-  },
-  {
-   "asin": "B0DGJDKHRQ",
-   "titre": "Apple AirPods 4",
-   "prix_affiche": 124.0
-  },
-  {
-   "asin": "B01M1SJNVU",
-   "titre": "Outil rotatif Dremel 4300",
-   "prix_affiche": 99.98
-  },
-  {
-   "asin": "B09DJQ1WDT",
-   "titre": "Duo Marc Anthony Coco et karité",
-   "prix_affiche": 19.62
-  },
-  {
-   "asin": "B0D1J2HMDJ",
-   "titre": "Haut-parleur JBL Clip 5",
-   "prix_affiche": 69.98
-  },
-  {
-   "asin": "B09NMD7899",
-   "titre": "Crocs Classic pour enfant",
-   "prix_affiche": 35.34
-  },
-  {
    "asin": "B0CTB8GKM2",
-   "titre": "Casque antibruit JBL Tune 770NC",
+   "titre": "JBL Tune 770NC, casque à réduction de bruit",
    "prix_affiche": 79.98
   },
   {
-   "asin": "B0F9ZTPVN5",
-   "titre": "Jeans Levi's Cinch Barrel pour femme",
-   "prix_affiche": 69.96
+   "asin": "B0CTNYS376",
+   "titre": "JBL Clip 5, haut-parleur Bluetooth",
+   "prix_affiche": 69.98
   },
   {
-   "asin": "B0CH7CK6DD",
-   "titre": "Ensemble de draps Eddie Bauer très grand lit",
-   "prix_affiche": 90.39
-  },
-  {
-   "asin": "B0CFCQVZS6",
-   "titre": "Écouteurs sans fil Skullcandy Dime 3",
+   "asin": "B0CFCHY7YM",
+   "titre": "Skullcandy Dime 3, écouteurs sans fil",
    "prix_affiche": 23.99
   },
   {
-   "asin": "B0DK5YLTSW",
-   "titre": "Veste polar Columbia Steens Mountain pour homme",
-   "prix_affiche": 42.24
+   "asin": "B079775ZZQ",
+   "titre": "Kasa gradateur intelligent Wi-Fi",
+   "prix_affiche": 18.99
+  },
+  {
+   "asin": "B0D9R45FMH",
+   "titre": "Sony WF-C510, écouteurs sans fil",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B0GFP88FS6",
+   "titre": "Moniteur LG 22 po Full HD",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B0G2ZWTTWL",
+   "titre": "JBL Endurance Peak 4, écouteurs sport",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0DW96RYW7",
+   "titre": "JBL Tune Beam 2 Ghost, écouteurs à réduction de bruit",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B08WM1FXSF",
+   "titre": "JBL Tune 125BT, écouteurs Bluetooth tour de cou",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0GMSKWKGQ",
+   "titre": "JBL Tune 530, casque filaire",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0CMGMCWYG",
+   "titre": "Barbie Skipper et sa pouponnière",
+   "prix_affiche": 24.0
+  },
+  {
+   "asin": "B0CCPRDH3T",
+   "titre": "Crayola coffret créatif Pokémon",
+   "prix_affiche": 19.98
   },
   {
    "asin": "B0CD311Q6J",
@@ -112,54 +82,14 @@
    "prix_affiche": 17.99
   },
   {
-   "asin": "B0DDV8V6FM",
-   "titre": "Écouteurs sans fil Sony WF-C510",
-   "prix_affiche": 58.0
-  },
-  {
-   "asin": "B08XLBHRWQ",
-   "titre": "Souliers Skechers Delson 3.0 pour homme",
-   "prix_affiche": 54.99
-  },
-  {
-   "asin": "B004B9KDOY",
-   "titre": "Pantoufles ballerines Isotoner pour femme",
-   "prix_affiche": 24.73
-  },
-  {
-   "asin": "B0CMRRK5R4",
-   "titre": "Molleton adidas All SZN pour homme",
-   "prix_affiche": 35.0
-  },
-  {
-   "asin": "B0CXL4FQBK",
-   "titre": "Haut-parleur Sony ULT Field 1",
-   "prix_affiche": 98.0
+   "asin": "B0GH2QG69X",
+   "titre": "Monster Jam Megalodon téléguidé",
+   "prix_affiche": 49.96
   },
   {
    "asin": "B07S6CGNCY",
-   "titre": "Jeu Twister de Hasbro",
+   "titre": "Twister, jeu de Hasbro",
    "prix_affiche": 15.98
-  },
-  {
-   "asin": "B0BY1BB9TG",
-   "titre": "Perceuse DEWALT 20V MAX sans balais (trousse)",
-   "prix_affiche": 118.0
-  },
-  {
-   "asin": "B0DVTGBCBL",
-   "titre": "Écouteurs sport JBL Endurance Race 2",
-   "prix_affiche": 39.98
-  },
-  {
-   "asin": "B0BXWLKSS4",
-   "titre": "Souliers Skechers Go Walk Flex pour femme",
-   "prix_affiche": 58.8
-  },
-  {
-   "asin": "B0G2ZWTTWL",
-   "titre": "Écouteurs sport JBL Endurance Peak 4",
-   "prix_affiche": 99.98
   },
   {
    "asin": "B0GGTPZVJX",
@@ -167,74 +97,229 @@
    "prix_affiche": 19.97
   },
   {
-   "asin": "B07JQM7C28",
-   "titre": "Ponceuse orbitale DEWALT 20V MAX",
-   "prix_affiche": 57.56
+   "asin": "B0CB6JWL75",
+   "titre": "Barbie gymnaste avec accessoires",
+   "prix_affiche": 41.22
   },
   {
-   "asin": "B0GH2QG69X",
-   "titre": "Monster Jam Megalodon qui croque",
-   "prix_affiche": 49.96
+   "asin": "B0C5F64456",
+   "titre": "Cosco siège d'appoint pour enfant",
+   "prix_affiche": 22.97
   },
   {
-   "asin": "B0DW96RYW7",
-   "titre": "Écouteurs JBL Tune Beam 2 Ghost",
-   "prix_affiche": 89.98
+   "asin": "B000JPYEJY",
+   "titre": "Jolly Jumper classique, sauteur pour bébé",
+   "prix_affiche": 99.97
   },
   {
-   "asin": "B0F9ZWSXW3",
-   "titre": "Jeans Levi's Superlow pour femme",
-   "prix_affiche": 59.97
+   "asin": "B08WK5JBK1",
+   "titre": "Amazon Essentials coton ouaté zippé pour garçon",
+   "prix_affiche": 18.32
   },
   {
-   "asin": "B0CLSFVMBL",
-   "titre": "Manteau Columbia Heavenly II pour femme",
-   "prix_affiche": 79.97
+   "asin": "B08WK5Q7BQ",
+   "titre": "Amazon Essentials coton ouaté à capuchon pour garçon",
+   "prix_affiche": 18.24
+  },
+  {
+   "asin": "B0CCY6VG8Z",
+   "titre": "DREO humidificateur pour chambre",
+   "prix_affiche": 47.49
+  },
+  {
+   "asin": "B09228LT3G",
+   "titre": "Joydeco rideaux occultants 84 po",
+   "prix_affiche": 35.37
+  },
+  {
+   "asin": "B00942VIOM",
+   "titre": "Crock-Pot mijoteuse 7 pintes",
+   "prix_affiche": 44.97
+  },
+  {
+   "asin": "B07RP7WHHY",
+   "titre": "Amazon Basics sacs de rangement sous vide",
+   "prix_affiche": 29.66
+  },
+  {
+   "asin": "B0B17HHHQD",
+   "titre": "Laura Ashley ensemble de draps très grand lit",
+   "prix_affiche": 73.21
+  },
+  {
+   "asin": "B07635D89H",
+   "titre": "True North by Sleep Philosophy, ensemble de draps",
+   "prix_affiche": 67.99
   },
   {
    "asin": "B0953DJ39N",
-   "titre": "Cafetière Ninja combo une tasse et carafe",
+   "titre": "Ninja cafetière combo une tasse et carafe",
    "prix_affiche": 129.99
   },
   {
-   "asin": "B0G21Q89RN",
-   "titre": "Bottes de randonnée Merrell Moab 3 pour homme",
-   "prix_affiche": 90.0
-  },
-  {
-   "asin": "B0DJWNPJBW",
-   "titre": "Jeans Levi's 318 galbant pour femme",
-   "prix_affiche": 59.98
-  },
-  {
-   "asin": "B08WM1FXSF",
-   "titre": "Écouteurs Bluetooth JBL Tune 125",
-   "prix_affiche": 19.97
-  },
-  {
-   "asin": "B0FWT8MPBJ",
-   "titre": "Jeans Levi's 578 Baggy pour homme",
-   "prix_affiche": 59.97
-  },
-  {
    "asin": "B0F69ZQS82",
-   "titre": "Mélangeur à main Braun MultiQuick 5",
+   "titre": "Braun MultiQuick 5, mélangeur à main",
    "prix_affiche": 44.99
   },
   {
    "asin": "B0GPHPT165",
-   "titre": "Bouteille Hydro Flask 400 ml",
+   "titre": "Hydro Flask bouteille isotherme",
    "prix_affiche": 29.36
   },
   {
-   "asin": "B0FW7L73P2",
-   "titre": "Jeans Levi's 501 Original pour femme",
-   "prix_affiche": 49.97
+   "asin": "B0BY1BB9TG",
+   "titre": "DEWALT perceuse 20V MAX sans balais",
+   "prix_affiche": 118.0
+  },
+  {
+   "asin": "B09BDKWRS3",
+   "titre": "CRAFTSMAN organisateur empilable à tiroirs",
+   "prix_affiche": 24.98
+  },
+  {
+   "asin": "B09BDK7YG6",
+   "titre": "CRAFTSMAN coffre à outils verrouillable",
+   "prix_affiche": 19.98
   },
   {
    "asin": "B01NA7V3X0",
-   "titre": "Coffre à outils DEWALT TSTAK",
+   "titre": "DEWALT fourre-tout à outils TSTAK",
    "prix_affiche": 27.98
+  },
+  {
+   "asin": "B09DJQ1WDT",
+   "titre": "Marc Anthony shampooing et revitalisant coco et karité",
+   "prix_affiche": 19.62
+  },
+  {
+   "asin": "B07S5D9NXD",
+   "titre": "Blue Buffalo Life Protection, nourriture pour chien",
+   "prix_affiche": 56.99
+  },
+  {
+   "asin": "B00A6MKU70",
+   "titre": "Yes4All paire d'haltères en néoprène",
+   "prix_affiche": 29.62
+  },
+  {
+   "asin": "B093LP63RX",
+   "titre": "Under Armour sac de sport Undeniable",
+   "prix_affiche": 50.0
+  },
+  {
+   "asin": "B0D4M9JTGV",
+   "titre": "Gaiam tapis de yoga",
+   "prix_affiche": 37.99
+  },
+  {
+   "asin": "B091MJ24TL",
+   "titre": "Wilson ballon de basket NBA Chicago Bulls",
+   "prix_affiche": 22.99
+  },
+  {
+   "asin": "B004NNUWEO",
+   "titre": "Carhartt t-shirt de travail K87",
+   "prix_affiche": 21.97
+  },
+  {
+   "asin": "B00KBZOR9O",
+   "titre": "Hanes paquet de t-shirts pour homme",
+   "prix_affiche": 26.99
+  },
+  {
+   "asin": "B07BJL5VHY",
+   "titre": "Amazon Essentials pantalon de pyjama en flanelle pour homme",
+   "prix_affiche": 16.08
+  },
+  {
+   "asin": "B08XLBHRWQ",
+   "titre": "Skechers Delson 3.0, souliers pour homme",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0CMRRK5R4",
+   "titre": "Adidas coton ouaté All SZN pour homme",
+   "prix_affiche": 35.0
+  },
+  {
+   "asin": "B0G8JC3LTG",
+   "titre": "Wrangler Authentics jeans pour homme",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B08P55W5DW",
+   "titre": "Levi's 505 jeans coupe régulière pour homme",
+   "prix_affiche": 37.03
+  },
+  {
+   "asin": "B09Z7CT3CQ",
+   "titre": "Haggar pantalon sans repassage pour homme",
+   "prix_affiche": 29.5
+  },
+  {
+   "asin": "B0FWT8MPBJ",
+   "titre": "Levi's 578 jeans baggy pour homme",
+   "prix_affiche": 59.97
+  },
+  {
+   "asin": "B0G223BF15",
+   "titre": "Merrell Moab 3, souliers de randonnée pour homme",
+   "prix_affiche": 90.0
+  },
+  {
+   "asin": "B07NZ373NX",
+   "titre": "Amazon Essentials pantalon chino ajusté pour homme",
+   "prix_affiche": 21.71
+  },
+  {
+   "asin": "B08XQZLFBX",
+   "titre": "Amazon Essentials ensemble détente douillet pour femme",
+   "prix_affiche": 36.88
+  },
+  {
+   "asin": "B0BGH5179T",
+   "titre": "Amazon Essentials chandail col roulé pour femme",
+   "prix_affiche": 18.63
+  },
+  {
+   "asin": "B0F9ZTPVN5",
+   "titre": "Levi's jeans Cinch Barrel pour femme",
+   "prix_affiche": 69.96
+  },
+  {
+   "asin": "B0BXWLKSS4",
+   "titre": "Skechers Go Walk Flex pour femme",
+   "prix_affiche": 58.8
+  },
+  {
+   "asin": "B0CCT8NBSQ",
+   "titre": "Skechers Go Run Consistent pour femme",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0CLSG66KQ",
+   "titre": "Columbia Heavenly II, manteau long pour femme",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B0DJWNPJBW",
+   "titre": "Levi's 318 jeans galbant pour femme",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B07NQ7M41Q",
+   "titre": "Amazon Essentials ballerines léopard pour femme",
+   "prix_affiche": 25.92
+  },
+  {
+   "asin": "B096NKNF69",
+   "titre": "Amazon Essentials ballerines dorées pour femme",
+   "prix_affiche": 25.12
+  },
+  {
+   "asin": "B0869BV7RD",
+   "titre": "Amazon Essentials chandail pour femme",
+   "prix_affiche": 25.12
   }
  ]
 }
