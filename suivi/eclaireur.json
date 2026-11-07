@@ -1,16 +1,16 @@
 {
- "date": "2026-11-06T22:41-04:00",
+ "date": "2026-11-07T11:45-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   36,
-   36,
+   35,
+   35,
    [
     "2026-11-01T15:54:36+00:00",
     "2026-11-01T21:02:22+00:00"
    ],
    [
-    "2026-11-06T20:10:22+00:00",
-    "2026-11-06T20:18:30+00:00"
+    "2026-11-06T20:18:30+00:00",
+    "2026-11-07T15:42:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,66 +25,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   23,
+   24,
    [
-    "2026-10-29T15:06:59+00:00",
-    "2026-10-29T20:51:43+00:00"
+    "2026-10-29T09:48:19+00:00",
+    "2026-10-29T15:06:59+00:00"
    ],
    [
-    "2026-11-06T20:10:22+00:00",
-    "2026-11-06T20:18:30+00:00"
+    "2026-11-06T20:18:30+00:00",
+    "2026-11-07T15:42:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-14T03:26:43+00:00",
-    "2026-10-14T05:13:35+00:00"
+    "2026-10-14T02:37:51+00:00",
+    "2026-10-14T03:26:43+00:00"
    ],
    [
-    "2026-10-29T06:10:56+00:00",
-    "2026-10-29T09:48:19+00:00"
+    "2026-10-28T18:59:02+00:00",
+    "2026-10-29T06:10:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T18:02:25+00:00",
-    "2026-10-06T23:10:13+00:00"
+    "2026-10-07T14:12:23+00:00",
+    "2026-10-07T14:27:35+00:00"
    ],
    [
-    "2026-10-13T21:08:43+00:00",
-    "2026-10-14T02:37:51+00:00"
+    "2026-10-13T15:16:26+00:00",
+    "2026-10-13T21:08:43+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-02T06:44:25+00:00",
-    "2026-10-02T11:48:57+00:00"
+    "2026-10-06T15:46:15+00:00",
+    "2026-10-06T15:51:19+00:00"
    ],
    [
-    "2026-10-06T16:24:00+00:00",
-    "2026-10-06T17:17:29+00:00"
+    "2026-10-07T13:49:39+00:00",
+    "2026-10-07T13:52:23+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-21T13:37:03+00:00",
-    "2026-09-21T15:18:36+00:00"
+    "2026-10-06T03:02:26+00:00",
+    "2026-10-06T03:50:49+00:00"
    ],
    [
-    "2026-09-30T14:25:09+00:00",
-    "2026-10-01T23:43:48+00:00"
+    "2026-10-06T15:29:12+00:00",
+    "2026-10-06T15:40:58+00:00"
    ]
   ],
-  "avant_filtre_date": 136,
-  "apres_filtre_date": 21
+  "avant_filtre_date": 130,
+  "apres_filtre_date": 20
  },
  "items": [
   {
@@ -92,8 +92,8 @@
    "title": "Ecoflow 65W Rapid charger (CSA/UL/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 46,
-   "posts": 32,
+   "votes": 57,
+   "posts": 38,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
    "asin": "B0FDGTY477",
@@ -104,24 +104,6 @@
    "morts": 2,
    "doute": true,
    "img": "/img/p/B0FDGTY477.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "title": "$11.50 Jamieson 100% Pure Magnesium Bisglycinate 130 Caps",
-   "price": 11.5,
-   "was": 16.99,
-   "votes": 40,
-   "posts": 22,
-   "time": "2026-11-03T14:59:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-11-50-jamieson-100-pure-magnesium-bisglycinate-130-caps-2830941/",
-   "asin": "B0FDH29P3P",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FDH29P3P?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FDH29P3P.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-compact-keyboard-wrist-rests-black-padded-smooth-cloth-8-99-white-ash-wood-9-99-2830706/",
@@ -142,11 +124,29 @@
    "img": null
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
+   "title": "Glorious Gaming Switches and Keycaps - from $8.99",
+   "price": 10.99,
+   "was": null,
+   "votes": 17,
+   "posts": 8,
+   "time": "2026-11-06T20:18:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
+   "asin": "B07886PXLH",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B07886PXLH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
    "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
    "price": 16.62,
    "was": 34.99,
-   "votes": 13,
+   "votes": 14,
    "posts": 19,
    "time": "2026-11-04T23:05:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
@@ -160,22 +160,22 @@
    "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
-   "title": "Glorious Gaming Switches and Keycaps - from $8.99",
-   "price": 10.99,
-   "was": null,
-   "votes": 13,
-   "posts": 5,
-   "time": "2026-11-06T20:18:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
-   "asin": "B07886PXLH",
-   "pct": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
+   "price": 114.33,
+   "was": 138.5,
+   "votes": 14,
+   "posts": 19,
+   "time": "2026-11-06T14:20:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "asin": "B0FN6WGN7L",
+   "pct": 17,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B07886PXLH?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": null
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FN6WGN7L.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -196,40 +196,40 @@
    "img": null
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
-   "price": 114.33,
-   "was": 138.5,
-   "votes": 10,
-   "posts": 7,
-   "time": "2026-11-06T14:20:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "asin": "B0FN6WGN7L",
-   "pct": 17,
+   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
+   "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
+   "price": 39.98,
+   "was": 70.0,
+   "votes": 8,
+   "posts": 6,
+   "time": "2026-11-04T19:49:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
+   "asin": "B0CTNWBT1Z",
+   "pct": 43,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
-   "deja": false,
+   "link": "https://www.amazon.ca/dp/B0CTNWBT1Z?tag=coupdecoeurqc-20",
+   "deja": true,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FN6WGN7L.jpg"
+   "img": "/img/p/B0CTNWBT1Z.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
-   "title": "Philips 2200 EP2220/14 Fully Automatic Espresso Machine $349 ATL",
-   "price": 349.0,
-   "was": 793.0,
-   "votes": 7,
-   "posts": 8,
-   "time": "2026-11-06T14:56:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-ep2220-14-fully-automatic-espresso-machine-349-atl-2831271/",
-   "asin": "B07VBPLPH5",
-   "pct": 56,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
+   "url": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
+   "title": "$7.66 (YMMV - location specific) PROBAR Protein Bar, Plant-Based, Coffee Crunch, 12 Count",
+   "price": 7.66,
+   "was": 45.99,
+   "votes": 8,
+   "posts": 23,
+   "time": "2026-11-06T20:10:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
+   "asin": "B016OV1340",
+   "pct": 83,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B016OV1340?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07VBPLPH5.jpg"
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B016OV1340.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
@@ -248,24 +248,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HJC3LFBV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
-   "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
-   "price": 39.98,
-   "was": 70.0,
-   "votes": 6,
-   "posts": 6,
-   "time": "2026-11-04T19:49:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
-   "asin": "B0CTNWBT1Z",
-   "pct": 43,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CTNWBT1Z?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CTNWBT1Z.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
@@ -376,24 +358,6 @@
    "img": "/img/p/B0F8B8GSS2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
-   "title": "$7.66 (YMMV - location specific) PROBAR Protein Bar, Plant-Based, Coffee Crunch, 12 Count",
-   "price": 7.66,
-   "was": 45.99,
-   "votes": 2,
-   "posts": 15,
-   "time": "2026-11-06T20:10:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
-   "asin": "B016OV1340",
-   "pct": 83,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B016OV1340?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B016OV1340.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-99-99-2831096/",
    "title": "Ninja Air Fryer Pro, 5 Qt - $99.99",
    "price": 99.99,
@@ -428,6 +392,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HF4MRYHN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
+   "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
+   "price": 20.57,
+   "was": 41.14,
+   "votes": 1,
+   "posts": 0,
+   "time": "2026-11-07T15:42:26+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
+   "asin": "B0DGMX5845",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DGMX5845?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DGMX5845.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
