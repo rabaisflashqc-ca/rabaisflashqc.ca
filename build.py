@@ -815,7 +815,13 @@ def _score(x, now):
     """Meilleur deal et plus récent : % de rabais, petit bonus de votes, moins 1 point par heure depuis la lecture du prix."""
     try: h = (now - datetime.datetime.fromisoformat(x.get("verifie") or x["seen"])).total_seconds() / 3600
     except Exception: h = 12
-    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h
+    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h + 1.5 * _comm(x)
+
+# Taux de commission Amazon.ca Associés (tableau officiel, vérifié le 6 nov. 2026) : un deal à forte commission monte un peu.
+COMM_CAT = {"animaux": 9, "beaute": 6, "femme": 6, "homme": 6, "maison": 6, "plein-air": 6, "enfants": 5, "tech": 4, "jouets": 3}
+def _comm(x):
+    try: return float(x["comm"]) if x.get("comm") is not None else COMM_CAT.get(x.get("cat"), 2)
+    except Exception: return 2
 
 def fresh_top5():
     """Top 5 bâti à partir des deals frais (moins de 12 h : éclaireur et Keepa dans Chrome), recalculé à chaque build.
@@ -825,7 +831,7 @@ def fresh_top5():
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     pool = [x for x in L if rfd_ok(x, now, hors) and 20 <= (x.get("pct") or 0) and (x.get("votes") is None or x["votes"] >= 5)]
-    pool.sort(key=lambda x: -_score(x, now))
+    pool.sort(key=lambda x: -(_score(x, now) + (8 if (x.get("img_url") or x.get("img")) else 0)))  # Top 5 : photo d'abord (plus vendeur)
     if len(pool) < 3: return []
     picks, cats = [], set()
     for x in pool:  # 1 par catégorie d'abord

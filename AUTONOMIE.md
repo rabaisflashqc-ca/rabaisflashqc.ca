@@ -65,6 +65,14 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Photos du catalogue (produits ajoutés à data.json) : trouve une photo officielle sur le site de la marque ou d'un grand détaillant (jamais Amazon), ajoute l'URL dans suivi/photos_sources.json, lance le workflow photos.yml, vérifie la photo à l'oeil puis ajoute l'ASIN à suivi/photos.json « ok ».
 - Les packs pour les réseaux reprennent la même règle : « prix repéré le [date] ».
 
+## Commissions et audience (demande d'Alex du 6 nov. : fortes commissions + viser l'audience)
+
+- Taux Amazon.ca Associés (tableau officiel, vérifié le 6 nov. 2026) : Beauté de luxe 10 %, Animaux 9 %, Bijoux et Bagages 7 %, Vêtements, Chaussures, Sacs, Beauté, Maison, Meubles, Rénovation, Plein air et Marques privées Amazon Fashion 6 %, Bébé, Cellulaires, Caméras, Cinéma maison 5 %, Cuisine, Outils électriques, Sports, Montres, Echo/Kindle/Ring 4 %, Jouets 3 %, Ordinateurs, moniteurs, tablettes et consoles 1 %, Épicerie et cartes-cadeaux 0 %.
+- Le cookie Amazon dure 24 h et paie sur tout le panier : le but de chaque deal est de faire cliquer. Un jouet à 3 % qui attire le clic reste utile, mais à rabais égal on préfère la mode, la beauté, les animaux, la maison et les bagages.
+- Champ optionnel `comm` (taux en %) dans suivi/deals_chrome.json. `_score()` ajoute 1,5 × comm (taux par défaut selon cat si absent). Le Top 5 de l'accueil met les deals avec photo d'abord.
+- Passe Keepa : cocher aussi Clothing, Shoes & Accessories. Viser environ 40 % mode et chaussures (homme, femme, enfants), 15 % beauté, le reste maison, animaux, plein air, jouets et tech. Au plus 1 ou 2 produits d'ordinateur (1 %). Pas d'épicerie.
+- Audience : familles du Québec, surtout mamans de 25 à 50 ans qui magasinent les Fêtes. Titres en français clairs qui disent pour qui (« pour femme », « pour garçon », « cadeau pour lui »), marques connues (Levi's, Columbia, Skechers, JBL, Barbie, Carhartt), gros % avec photo.
+
 ## Plan pour battre les grosses pages de deals (nov.-déc. 2026)
 
 - Ton : énergique, complice, québécois. Moins d'avertissements, plus d'émotion. Les prix restent datés en petit (« prix du 29 oct. ») : Amazon l'exige pour les prix qui ne sont pas mis à jour en continu, sinon le compte Associés est à risque.
