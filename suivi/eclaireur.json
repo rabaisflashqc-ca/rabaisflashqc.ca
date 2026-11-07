@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06T21:52-04:00",
+ "date": "2026-11-06T22:41-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-07T14:27:35+00:00",
-    "2026-10-07T14:55:34+00:00"
+    "2026-10-06T18:02:25+00:00",
+    "2026-10-06T23:10:13+00:00"
    ],
    [
     "2026-10-13T21:08:43+00:00",
@@ -63,27 +63,27 @@
    44,
    44,
    [
-    "2026-10-06T15:51:19+00:00",
-    "2026-10-06T15:55:41+00:00"
+    "2026-10-02T06:44:25+00:00",
+    "2026-10-02T11:48:57+00:00"
    ],
    [
-    "2026-10-07T13:52:23+00:00",
-    "2026-10-07T14:12:23+00:00"
+    "2026-10-06T16:24:00+00:00",
+    "2026-10-06T17:17:29+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T03:50:49+00:00",
-    "2026-10-06T04:13:17+00:00"
+    "2026-09-21T13:37:03+00:00",
+    "2026-09-21T15:18:36+00:00"
    ],
    [
-    "2026-10-06T15:40:58+00:00",
-    "2026-10-06T15:46:15+00:00"
+    "2026-09-30T14:25:09+00:00",
+    "2026-10-01T23:43:48+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
+  "avant_filtre_date": 136,
   "apres_filtre_date": 21
  },
  "items": [
@@ -92,7 +92,7 @@
    "title": "Ecoflow 65W Rapid charger (CSA/UL/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 47,
+   "votes": 46,
    "posts": 32,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-ul-etl-21-2831253/",
@@ -160,6 +160,24 @@
    "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
+   "title": "Glorious Gaming Switches and Keycaps - from $8.99",
+   "price": 10.99,
+   "was": null,
+   "votes": 13,
+   "posts": 5,
+   "time": "2026-11-06T20:18:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
+   "asin": "B07886PXLH",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B07886PXLH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
    "title": "LEGO Technic Porsche GT4",
    "price": 149.99,
@@ -174,24 +192,6 @@
    "link": "https://www.amazon.ca/dp/B0CV27WQQV?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 2,
-   "doute": true,
-   "img": null
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
-   "title": "Glorious Gaming Switches and Keycaps - from $8.99",
-   "price": 10.99,
-   "was": null,
-   "votes": 11,
-   "posts": 5,
-   "time": "2026-11-06T20:18:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
-   "asin": "B07886PXLH",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B07886PXLH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
    "doute": true,
    "img": null
   },
@@ -381,7 +381,7 @@
    "price": 7.66,
    "was": 45.99,
    "votes": 2,
-   "posts": 13,
+   "posts": 15,
    "time": "2026-11-06T20:10:22+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
    "asin": "B016OV1340",
