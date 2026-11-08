@@ -1,4 +1,420 @@
 {
- "genere": "2026-11-08T16:04+00:00",
- "produits": []
+ "genere": "2026-11-08T16:45+00:00",
+ "produits": [
+  {
+   "asin": "B09W21XFS5",
+   "titre": "Levoit humidificateur pour chambre, avec diffuseur",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B0CMGMCWYG",
+   "titre": "Barbie Skipper coffret pouponnière",
+   "prix_affiche": 24.0
+  },
+  {
+   "asin": "B0DVTGBCBL",
+   "titre": "JBL Endurance Race 2 écouteurs sport sans fil",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B00A6MKU70",
+   "titre": "Yes4All haltères en néoprène (paire)",
+   "prix_affiche": 29.62
+  },
+  {
+   "asin": "B0DS6P18CJ",
+   "titre": "Samsung moniteur 22 po Full HD",
+   "prix_affiche": 88.0
+  },
+  {
+   "asin": "B004NNUWEO",
+   "titre": "Carhartt K87 t-shirt de travail pour homme",
+   "prix_affiche": 21.97
+  },
+  {
+   "asin": "B0CCPRDH3T",
+   "titre": "Crayola Pokémon coffret d'art pour enfant",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B0CCY6VG8Z",
+   "titre": "DREO humidificateur pour chambre",
+   "prix_affiche": 47.49
+  },
+  {
+   "asin": "B0D1J2HMDJ",
+   "titre": "JBL Clip 5 haut-parleur Bluetooth portatif",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B00KBZOR9O",
+   "titre": "Hanes t-shirts pour homme (paquet)",
+   "prix_affiche": 26.99
+  },
+  {
+   "asin": "B0DY8XNFP9",
+   "titre": "Sony WH-CH520 casque d'écoute sans fil",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B09SZ9TDGH",
+   "titre": "Amazon Essentials pantalon pyjama en flanelle pour homme",
+   "prix_affiche": 19.76
+  },
+  {
+   "asin": "B0CTB8GKM2",
+   "titre": "JBL Tune 770NC casque à réduction de bruit",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B00942VIOM",
+   "titre": "Crock-Pot mijoteuse 7 pintes",
+   "prix_affiche": 44.97
+  },
+  {
+   "asin": "B0CFCHY7YM",
+   "titre": "Skullcandy Dime 3 écouteurs sans fil",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B07S6CGNCY",
+   "titre": "Jeu Twister de Hasbro",
+   "prix_affiche": 15.98
+  },
+  {
+   "asin": "B09HCJ26Q9",
+   "titre": "Amazon Essentials t-shirts pour femme (paquet de 2)",
+   "prix_affiche": 25.12
+  },
+  {
+   "asin": "B0D9R45FMH",
+   "titre": "Sony WF-C510 écouteurs sans fil",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B0F69ZQS82",
+   "titre": "Braun MultiQuick 5 mélangeur à main",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B091MJ3TKN",
+   "titre": "Wilson ballon de basketball NBA DRV",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B07ZL9MXKN",
+   "titre": "Conair fer à friser en céramique",
+   "prix_affiche": 17.49
+  },
+  {
+   "asin": "B0D712DKKD",
+   "titre": "Nespresso Vertuo Pop+ machine à café",
+   "prix_affiche": 94.0
+  },
+  {
+   "asin": "B08WM1FXSF",
+   "titre": "JBL Tune 125 écouteurs Bluetooth",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B09DJQ1WDT",
+   "titre": "Marc Anthony shampoing et revitalisant coco et karité",
+   "prix_affiche": 19.31
+  },
+  {
+   "asin": "B0G2ZWTTWL",
+   "titre": "JBL Endurance Peak 4 écouteurs sport sans fil",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0DW9B393N",
+   "titre": "JBL Tune Beam 2 écouteurs à réduction de bruit",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B079775ZZQ",
+   "titre": "Kasa gradateur intelligent Wi-Fi",
+   "prix_affiche": 18.99
+  },
+  {
+   "asin": "B084M89GB1",
+   "titre": "CRAFTSMAN VERSASTACK coffre à outils profond",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0CD311Q6J",
+   "titre": "5 Surprise My Mini Baby jouet surprise",
+   "prix_affiche": 17.99
+  },
+  {
+   "asin": "B07P186Z5H",
+   "titre": "Amazon Essentials chino coupe droite pour homme",
+   "prix_affiche": 20.46
+  },
+  {
+   "asin": "B0H1PZTF2T",
+   "titre": "Glade chandelles parfumées (paquet)",
+   "prix_affiche": 15.88
+  },
+  {
+   "asin": "B07TJGDLFZ",
+   "titre": "Yes4All tapis de mousse emboîtables",
+   "prix_affiche": 16.95
+  },
+  {
+   "asin": "B0BGH4SB7B",
+   "titre": "Amazon Essentials chandail à manches longues pour femme",
+   "prix_affiche": 20.48
+  },
+  {
+   "asin": "B08XQXLGDF",
+   "titre": "Amazon Essentials pantalon pour femme",
+   "prix_affiche": 22.0
+  },
+  {
+   "asin": "B09R16FZXC",
+   "titre": "Philips Avent biberons anti-coliques",
+   "prix_affiche": 19.99
+  },
+  {
+   "asin": "B08JHNWDXB",
+   "titre": "Amazon Essentials pantalon coupe ajustée pour homme",
+   "prix_affiche": 21.52
+  },
+  {
+   "asin": "B09BDKWRS3",
+   "titre": "CRAFTSMAN organisateur à tiroirs empilable",
+   "prix_affiche": 24.98
+  },
+  {
+   "asin": "B07NQ7M41Q",
+   "titre": "Amazon Essentials ballerines dorées pour femme",
+   "prix_affiche": 25.92
+  },
+  {
+   "asin": "B07RP7WHHY",
+   "titre": "Amazon Basics sacs de rangement sous vide",
+   "prix_affiche": 29.66
+  },
+  {
+   "asin": "B0868JM9P6",
+   "titre": "Amazon Essentials chandail en tricot torsadé pour femme",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0948XKWCV",
+   "titre": "Warner's soutien-gorge Easy Does It pour femme",
+   "prix_affiche": 39.96
+  },
+  {
+   "asin": "B09JZHX6LF",
+   "titre": "Diono Solana siège d'appoint pour enfant (paquet de 2)",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B07QTRSP9Z",
+   "titre": "Amazon Basics ensemble de draps en microfibre",
+   "prix_affiche": 33.28
+  },
+  {
+   "asin": "B09G39874V",
+   "titre": "Amazon Essentials Disney jogging pour fille",
+   "prix_affiche": 20.48
+  },
+  {
+   "asin": "B08J94DY6Q",
+   "titre": "Amazon Essentials veste à capuchon légère pour homme",
+   "prix_affiche": 25.84
+  },
+  {
+   "asin": "B0093G30CC",
+   "titre": "Yes4All kettlebells en vinyle (ensemble)",
+   "prix_affiche": 40.95
+  },
+  {
+   "asin": "B07FHBCCB6",
+   "titre": "Amazon Essentials pantalon coupe droite pour homme",
+   "prix_affiche": 25.76
+  },
+  {
+   "asin": "B0FM4BRQ5W",
+   "titre": "Skullcandy casque d'écoute sans fil",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B07NPV8JD9",
+   "titre": "Amazon Essentials ballerines pointues pour femme",
+   "prix_affiche": 25.6
+  },
+  {
+   "asin": "B0CDJQTW4X",
+   "titre": "Conair défroisseur à main pour vêtements",
+   "prix_affiche": 52.22
+  },
+  {
+   "asin": "B0FXW38837",
+   "titre": "The North Face Thermoball pantoufles d'hiver",
+   "prix_affiche": 66.97
+  },
+  {
+   "asin": "B07F27XCP7",
+   "titre": "Amazon Essentials pantalon cargo pour homme",
+   "prix_affiche": 27.68
+  },
+  {
+   "asin": "B08XKDMTT8",
+   "titre": "Skechers Delson 3.0 souliers pour homme",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0CHT8XDQ3",
+   "titre": "Simple Modern gobelet isotherme avec poignée",
+   "prix_affiche": 38.99
+  },
+  {
+   "asin": "B0CBQX6NKX",
+   "titre": "Fisher-Price tapis d'éveil Glow and Grow pour bébé",
+   "prix_affiche": 54.97
+  },
+  {
+   "asin": "B0B17HHHQD",
+   "titre": "Laura Ashley Home ensemble de draps King",
+   "prix_affiche": 69.79
+  },
+  {
+   "asin": "B093LVRM88",
+   "titre": "Amazon Essentials pantalon coupe ajustée pour homme (moutarde)",
+   "prix_affiche": 16.6
+  },
+  {
+   "asin": "B00004YOBR",
+   "titre": "IRWIN QUICK-GRIP serre-joints à une main",
+   "prix_affiche": 22.98
+  },
+  {
+   "asin": "B08P55W5DW",
+   "titre": "Levi's 505 jeans coupe régulière pour homme",
+   "prix_affiche": 37.03
+  },
+  {
+   "asin": "B0GQJLR58S",
+   "titre": "Skullcandy Push 540 écouteurs ouverts sans fil",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0FMS4PC3F",
+   "titre": "Wilson ballon de volleyball souple",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0746RGRL3",
+   "titre": "MYPET barrière pour chien portative",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B0GLSXY2JL",
+   "titre": "Conair Curl Secret fer à boucler automatique",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B07CSL8LR8",
+   "titre": "GUND ourson en peluche Grahm",
+   "prix_affiche": 42.13
+  },
+  {
+   "asin": "B0797MY6JB",
+   "titre": "Sony barre de son S100F",
+   "prix_affiche": 128.0
+  },
+  {
+   "asin": "B0CLSFVMBL",
+   "titre": "Columbia Heavenly II manteau pour femme",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B07CJWLC2F",
+   "titre": "Amazon Essentials pantalon ajusté pour femme",
+   "prix_affiche": 20.57
+  },
+  {
+   "asin": "B01LOM3OP0",
+   "titre": "Buffalo David Bitton jeans pour homme",
+   "prix_affiche": 49.88
+  },
+  {
+   "asin": "B09WYWMG9M",
+   "titre": "Bosch coffret de 15 scies-cloches bimétal",
+   "prix_affiche": 149.22
+  },
+  {
+   "asin": "B07SYD9WY4",
+   "titre": "Conair InfinitiPro sèche-cheveux",
+   "prix_affiche": 34.12
+  },
+  {
+   "asin": "B0GMSKWKGQ",
+   "titre": "JBL Tune 530 casque d'écoute",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B095FSJ7N6",
+   "titre": "Ninja Nutri-Blender Pro mélangeur",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B00PRPAX0A",
+   "titre": "Playtex soutien-gorge 18 Hour pour femme",
+   "prix_affiche": 18.36
+  },
+  {
+   "asin": "B0B7SKRTJB",
+   "titre": "Minecraft planche à roulettes 31 po",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B07GFBH2ZB",
+   "titre": "Wilson ballon de football NFL",
+   "prix_affiche": 20.99
+  },
+  {
+   "asin": "B0D8QN4C9X",
+   "titre": "Philips friteuse à air série 2000",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B08WK5L9G6",
+   "titre": "Amazon Essentials kangourou en molleton pour garçon",
+   "prix_affiche": 18.88
+  },
+  {
+   "asin": "B0CFQ3R4CQ",
+   "titre": "Conair sèche-cheveux Titanium Pro 1875 W",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B08S3BFJ37",
+   "titre": "Little Tikes chien berceur Rockin' Puppy",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B096YQ82W6",
+   "titre": "Amazon Essentials pantalon coupe ajustée pour homme (marine)",
+   "prix_affiche": 31.52
+  },
+  {
+   "asin": "B07ZHZMXMV",
+   "titre": "Conair fer plat double céramique",
+   "prix_affiche": 20.99
+  },
+  {
+   "asin": "B078GR8GZC",
+   "titre": "Chew King balles à lancer pour chien",
+   "prix_affiche": 26.99
+  },
+  {
+   "asin": "B016D5ZXCK",
+   "titre": "Conair défroisseur vertical pour vêtements",
+   "prix_affiche": 69.91
+  }
+ ]
 }
