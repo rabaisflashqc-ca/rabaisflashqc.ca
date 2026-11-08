@@ -933,7 +933,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (LEA + season_banner() + topblock + rfd_block() + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (season_banner() + topblock + rfd_block() + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
