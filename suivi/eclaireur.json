@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07T21:22-04:00",
+ "date": "2026-11-07T22:19-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-06T18:02:25+00:00",
-    "2026-10-06T23:10:13+00:00"
+    "2026-10-07T14:27:35+00:00",
+    "2026-10-07T14:55:34+00:00"
    ],
    [
     "2026-10-13T21:08:43+00:00",
@@ -63,27 +63,27 @@
    44,
    44,
    [
-    "2026-10-02T06:44:25+00:00",
-    "2026-10-02T11:48:57+00:00"
+    "2026-10-06T15:51:19+00:00",
+    "2026-10-06T15:55:41+00:00"
    ],
    [
-    "2026-10-06T16:24:00+00:00",
-    "2026-10-06T17:17:29+00:00"
+    "2026-10-07T13:52:23+00:00",
+    "2026-10-07T14:12:23+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-21T13:37:03+00:00",
-    "2026-09-21T15:18:36+00:00"
+    "2026-10-06T03:50:49+00:00",
+    "2026-10-06T04:13:17+00:00"
    ],
    [
-    "2026-09-30T14:25:09+00:00",
-    "2026-10-01T23:43:48+00:00"
+    "2026-10-06T15:40:58+00:00",
+    "2026-10-06T15:46:15+00:00"
    ]
   ],
-  "avant_filtre_date": 136,
+  "avant_filtre_date": 130,
   "apres_filtre_date": 21
  },
  "items": [
@@ -165,7 +165,7 @@
    "price": 114.33,
    "was": 138.5,
    "votes": 14,
-   "posts": 19,
+   "posts": 20,
    "time": "2026-11-06T14:20:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
    "asin": "B0FN6WGN7L",
@@ -176,6 +176,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FN6WGN7L.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
+   "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
+   "price": 5.98,
+   "was": 10.68,
+   "votes": 11,
+   "posts": 3,
+   "time": "2026-11-07T22:37:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
+   "asin": "B0BVRSMXDQ",
+   "pct": 44,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0BVRSMXDQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BVRSMXDQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -214,6 +232,24 @@
    "img": "/img/p/B0CTNWBT1Z.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
+   "title": "$7.66 (YMMV - location specific) PROBAR Protein Bar, Plant-Based, Coffee Crunch, 12 Count",
+   "price": 7.66,
+   "was": 45.99,
+   "votes": 8,
+   "posts": 29,
+   "time": "2026-11-06T20:10:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
+   "asin": "B016OV1340",
+   "pct": 83,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B016OV1340?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B016OV1340.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
@@ -232,24 +268,6 @@
    "img": "/img/p/B0HJC3LFBV.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
-   "title": "$7.66 (YMMV - location specific) PROBAR Protein Bar, Plant-Based, Coffee Crunch, 12 Count",
-   "price": 7.66,
-   "was": 45.99,
-   "votes": 7,
-   "posts": 29,
-   "time": "2026-11-06T20:10:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-7-66-ymmv-location-specific-probar-protein-bar-plant-based-coffee-crunch-12-count-2831317/",
-   "asin": "B016OV1340",
-   "pct": 83,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B016OV1340?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B016OV1340.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
    "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
    "price": 20.57,
@@ -266,24 +284,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0DGMX5845.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
-   "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
-   "price": 5.98,
-   "was": 10.68,
-   "votes": 6,
-   "posts": 2,
-   "time": "2026-11-07T22:37:16+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
-   "asin": "B0BVRSMXDQ",
-   "pct": 44,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0BVRSMXDQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BVRSMXDQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
