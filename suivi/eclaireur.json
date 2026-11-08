@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08T12:48-04:00",
+ "date": "2026-11-08T13:16-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -110,7 +110,7 @@
    "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
    "price": 5.98,
    "was": 10.68,
-   "votes": 21,
+   "votes": 22,
    "posts": 4,
    "time": "2026-11-07T22:37:16+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
@@ -358,6 +358,24 @@
    "img": "/img/p/B071JBMY54.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
+   "title": "UGREEN Nexode Pro 160W GaN Charger - $84.99",
+   "price": 84.99,
+   "was": 129.99,
+   "votes": 1,
+   "posts": 3,
+   "time": "2026-11-04T19:48:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
+   "asin": "B0GLXGZWMY",
+   "pct": 35,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GLXGZWMY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GLXGZWMY.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-99-99-2831096/",
    "title": "Ninja Air Fryer Pro, 5 Qt - $99.99",
    "price": 99.99,
@@ -428,24 +446,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C35Z66QV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
-   "title": "UGREEN Nexode Pro 160W GaN Charger - $84.99",
-   "price": 84.99,
-   "was": 129.99,
-   "votes": 0,
-   "posts": 3,
-   "time": "2026-11-04T19:48:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
-   "asin": "B0GLXGZWMY",
-   "pct": 35,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GLXGZWMY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GLXGZWMY.jpg"
   }
  ]
 }
