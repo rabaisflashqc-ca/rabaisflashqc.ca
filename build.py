@@ -851,7 +851,7 @@ def rfd_block(cats=None):
         n, keep = {}, []
         _now = datetime.datetime.now(datetime.timezone.utc)
         for x in sorted(L, key=lambda x: -_score(x, _now)):
-            if n.get(x.get("cat"), 0) < 3: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
+            if n.get(x.get("cat"), 0) < 8: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
         L = keep
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if rfd_ok(x, now, HORS_SAISON(now))]
@@ -862,7 +862,7 @@ def rfd_block(cats=None):
     if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS]  # accueil : pas de doublon avec le Top 5
     if not L: return ""
     card = rfd_card
-    li = "".join(card(x) for x in (L[:24] if cats else L[:12]))  # pages de catégorie : jusqu à 20 deals
+    li = "".join(card(x) for x in (L[:60] if cats else L[:40]))  # max de deals (demande d'Alex du 7 nov.) : 60 par catégorie, 40 sur l'accueil
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
@@ -872,7 +872,7 @@ def vf_block():
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     L = [x for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and (x.get("pct") or 0) >= 15 and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
-    L = [{**x, "verifie": x["seen"]} for x in sorted(L, key=lambda x: -(x.get("pct") or 0))[:12]]
+    L = [{**x, "verifie": x["seen"]} for x in sorted(L, key=lambda x: -(x.get("pct") or 0))[:40]]
     cd = ('<div class="seas" style="display:block;text-align:center"><strong id="vfc">Vendredi fou : 27 novembre 2026</strong></div>'
           '<script>(function(){var el=document.getElementById("vfc"),t=Date.parse("2026-11-27T05:00:00Z");function f(){var ms=t-Date.now();if(ms<=0){el.textContent="C\'est le Vendredi fou! 🔥";return}var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);el.innerHTML="Vendredi fou dans <b>"+d+" j "+h+" h "+m+" min</b>"}f();setInterval(f,60000)})();</script>')
     if not L: return cd
