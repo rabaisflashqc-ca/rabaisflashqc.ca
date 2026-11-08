@@ -1,4 +1,260 @@
 {
- "genere": "2026-11-07T22:58+00:00",
- "produits": []
+ "genere": "2026-11-08T00:36+00:00",
+ "produits": [
+  {
+   "asin": "B0CMGMCWYG",
+   "titre": "Barbie Skipper coffret pouponnière",
+   "prix_affiche": 24.0
+  },
+  {
+   "asin": "B0DW9C8RVQ",
+   "titre": "JBL Endurance Race 2 écouteurs sport sans fil",
+   "prix_affiche": 39.9
+  },
+  {
+   "asin": "B0CCPRDH3T",
+   "titre": "Crayola Pokémon coffret d'art pour enfant",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B0CCY6VG8Z",
+   "titre": "DREO humidificateur pour chambre",
+   "prix_affiche": 47.49
+  },
+  {
+   "asin": "B0CTNYS376",
+   "titre": "JBL Clip 5 haut-parleur Bluetooth",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0BSGQL41X",
+   "titre": "Sony WH-CH520 casque sans fil",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B00KBZOTKG",
+   "titre": "Hanes t-shirts pour homme (paquet)",
+   "prix_affiche": 26.99
+  },
+  {
+   "asin": "B09SZ9TDGH",
+   "titre": "Amazon Essentials pantalon pyjama en flanelle pour homme",
+   "prix_affiche": 19.76
+  },
+  {
+   "asin": "B07S49V51Q",
+   "titre": "Blue Buffalo Tastefuls nourriture pour chat",
+   "prix_affiche": 25.99
+  },
+  {
+   "asin": "B0CTB8GKM2",
+   "titre": "JBL Tune 770NC casque à réduction de bruit",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B00942VIOM",
+   "titre": "Crock-Pot mijoteuse 7 pintes",
+   "prix_affiche": 44.97
+  },
+  {
+   "asin": "B0DDV8V6FM",
+   "titre": "Sony WF-C510 écouteurs sans fil",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B07S6CGNCY",
+   "titre": "Jeu Twister de Hasbro",
+   "prix_affiche": 15.98
+  },
+  {
+   "asin": "B01EA5ZI2U",
+   "titre": "Braun MQ505 mélangeur à main",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B091MJ3TKN",
+   "titre": "Wilson ballon de basket NBA DRV",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0DW99YHRR",
+   "titre": "JBL Tune Beam 2 écouteurs sans fil",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B01AFQI3J8",
+   "titre": "Skip Hop baignoire bébé 3 étapes",
+   "prix_affiche": 48.8
+  },
+  {
+   "asin": "B0CFCQVZS6",
+   "titre": "Skullcandy Dime 3 écouteurs sans fil",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0G2ZWTTWL",
+   "titre": "JBL Endurance Peak 4 écouteurs sport",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B08WM1FXSF",
+   "titre": "JBL Tune 125 écouteurs sans fil",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0CD311Q6J",
+   "titre": "5 Surprise My Mini Baby jouet surprise",
+   "prix_affiche": 17.99
+  },
+  {
+   "asin": "B0D712DKKD",
+   "titre": "Nespresso Vertuo Pop+ Deluxe machine à café",
+   "prix_affiche": 94.0
+  },
+  {
+   "asin": "B09R16FZXC",
+   "titre": "Philips Avent biberons anti-coliques",
+   "prix_affiche": 19.99
+  },
+  {
+   "asin": "B09JZHX6LF",
+   "titre": "Diono Solana sièges d'appoint pour enfant (paquet de 2)",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B085FRKBMF",
+   "titre": "Braun MultiQuick 7 mélangeur à main 3 en 1",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0FM4BRQ5W",
+   "titre": "Skullcandy Icon 180 casque sans fil",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B0BXWLKSS4",
+   "titre": "Skechers Go Walk Flex souliers pour femme",
+   "prix_affiche": 58.8
+  },
+  {
+   "asin": "B0GSS5VBD7",
+   "titre": "Hydro Flask bouteille isotherme 32 oz",
+   "prix_affiche": 43.84
+  },
+  {
+   "asin": "B08XKDMTT8",
+   "titre": "Skechers Delson 3.0 souliers pour homme",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0FXW38837",
+   "titre": "The North Face Thermoball pantoufles d'hiver",
+   "prix_affiche": 66.97
+  },
+  {
+   "asin": "B0G8JC3LTG",
+   "titre": "Wrangler Authentics jeans pour homme",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0CHT8XDQ3",
+   "titre": "Simple Modern gobelet isotherme avec poignée",
+   "prix_affiche": 38.99
+  },
+  {
+   "asin": "B0CCT8NBSQ",
+   "titre": "Skechers Go Run Consistent souliers pour femme",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0D997W9MJ",
+   "titre": "Skechers Max Cushioning souliers pour femme",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B07CSL8LR8",
+   "titre": "GUND ourson en peluche Grahm",
+   "prix_affiche": 42.13
+  },
+  {
+   "asin": "B0GQJLR58S",
+   "titre": "Skullcandy Push 540 écouteurs ouverts",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B08P55W5DW",
+   "titre": "Levi's 505 jeans coupe régulière pour homme",
+   "prix_affiche": 37.03
+  },
+  {
+   "asin": "B0DJWPKYYL",
+   "titre": "Levi's 318 jeans galbant pour femme",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B0FS6CF36D",
+   "titre": "The North Face Borealis mini sac à dos",
+   "prix_affiche": 58.99
+  },
+  {
+   "asin": "B0CLSFVMBL",
+   "titre": "Columbia Heavenly II manteau pour femme",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B00PRPABK2",
+   "titre": "Playtex 18 Hour soutien-gorge pour femme",
+   "prix_affiche": 24.63
+  },
+  {
+   "asin": "B0D8QN4C9X",
+   "titre": "Philips friteuse à air série 2000",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0G2257PQM",
+   "titre": "Merrell Moab 3 bottes de randonnée pour homme",
+   "prix_affiche": 90.0
+  },
+  {
+   "asin": "B095FSJ7N6",
+   "titre": "Ninja Nutri-Blender Pro mélangeur",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B078GR8GZC",
+   "titre": "Chew King balles à lancer pour chien",
+   "prix_affiche": 26.99
+  },
+  {
+   "asin": "B091MS7Y3H",
+   "titre": "Wilson ballon de basket NBA Team Tribute",
+   "prix_affiche": 22.99
+  },
+  {
+   "asin": "B01BZ4B8I2",
+   "titre": "Skechers Relment Pelmo souliers pour homme",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0F91YG3DD",
+   "titre": "Carhartt Sawyer kangourou pour femme",
+   "prix_affiche": 47.97
+  },
+  {
+   "asin": "B08WK5MQ2F",
+   "titre": "Amazon Essentials kangourou en molleton pour garçon",
+   "prix_affiche": 18.96
+  },
+  {
+   "asin": "B0FK1PTMTP",
+   "titre": "Barbie Signature poupée Miley",
+   "prix_affiche": 63.99
+  },
+  {
+   "asin": "B07R3P6HZX",
+   "titre": "Skip Hop guitare jouet pour bébé",
+   "prix_affiche": 20.0
+  }
+ ]
 }
