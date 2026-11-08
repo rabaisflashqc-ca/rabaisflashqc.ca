@@ -817,7 +817,7 @@ def _score(x, now):
     """Meilleur deal et plus récent : % de rabais, petit bonus de votes, moins 1 point par heure depuis la lecture du prix."""
     try: h = (now - datetime.datetime.fromisoformat(x.get("verifie") or x["seen"])).total_seconds() / 3600
     except Exception: h = 12
-    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h + 1.5 * _comm(x)
+    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h + 1.5 * _comm(x) + (x.get("aud") or 0)  # aud : affinité avec l'audience (mamans du Québec, cadeaux des Fêtes)
 
 # Taux de commission Amazon.ca Associés (tableau officiel, vérifié le 6 nov. 2026) : un deal à forte commission monte un peu.
 COMM_CAT = {"animaux": 9, "beaute": 6, "femme": 6, "homme": 6, "maison": 6, "plein-air": 6, "enfants": 5, "tech": 4, "jouets": 3}
@@ -835,7 +835,8 @@ def fresh_top5():
     pool = [x for x in L if rfd_ok(x, now, hors) and 20 <= (x.get("pct") or 0) and (x.get("votes") is None or x["votes"] >= 5)]
     pool.sort(key=lambda x: -(_score(x, now) + (8 if (x.get("img_url") or x.get("img")) else 0)))  # Top 5 : photo d'abord (plus vendeur)
     if len(pool) < 3: return []
-    picks, cats = [], set()
+    picks, cats = sorted([x for x in pool if isinstance(x.get("top"), int)], key=lambda x: x["top"])[:5], set()  # choix à la main (champ top = rang)
+    cats = {x["cat"] for x in picks}
     for x in pool:  # 1 par catégorie d'abord
         if len(picks) >= 5: break
         if x["cat"] not in cats: picks.append(x); cats.add(x["cat"])
