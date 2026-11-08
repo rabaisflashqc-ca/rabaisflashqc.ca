@@ -1,16 +1,16 @@
 {
- "date": "2026-11-08T16:27-04:00",
+ "date": "2026-11-08T19:07-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   38,
-   38,
+   37,
+   37,
    [
-    "2026-11-01T21:02:22+00:00",
-    "2026-11-01T21:10:36+00:00"
+    "2026-11-02T11:41:33+00:00",
+    "2026-11-02T13:59:56+00:00"
    ],
    [
-    "2026-11-08T19:17:26+00:00",
-    "2026-11-08T20:14:01+00:00"
+    "2026-11-08T20:14:01+00:00",
+    "2026-11-08T20:51:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,66 +25,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   21,
+   22,
    [
-    "2026-10-29T23:25:00+00:00",
-    "2026-10-30T13:18:01+00:00"
+    "2026-10-30T13:18:01+00:00",
+    "2026-10-30T13:29:53+00:00"
    ],
    [
-    "2026-11-08T19:17:26+00:00",
-    "2026-11-08T20:14:01+00:00"
+    "2026-11-08T20:14:01+00:00",
+    "2026-11-08T20:51:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-14T06:06:16+00:00",
-    "2026-10-15T12:10:09+00:00"
+    "2026-10-15T12:10:09+00:00",
+    "2026-10-15T19:23:35+00:00"
    ],
    [
-    "2026-10-29T20:51:43+00:00",
-    "2026-10-29T23:15:50+00:00"
+    "2026-10-29T23:15:50+00:00",
+    "2026-10-29T23:25:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T16:22:51+00:00",
-    "2026-10-07T16:37:45+00:00"
+    "2026-10-07T02:58:29+00:00",
+    "2026-10-07T02:59:51+00:00"
    ],
    [
-    "2026-10-14T05:13:35+00:00",
-    "2026-10-14T05:36:38+00:00"
+    "2026-10-14T05:36:38+00:00",
+    "2026-10-14T06:06:16+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T16:55:01+00:00",
-    "2026-10-06T17:17:29+00:00"
+    "2026-10-02T20:46:53+00:00",
+    "2026-10-02T23:33:17+00:00"
    ],
    [
-    "2026-10-07T14:55:34+00:00",
-    "2026-10-07T16:18:52+00:00"
+    "2026-10-06T23:57:51+00:00",
+    "2026-10-07T01:06:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T07:58:01+00:00",
-    "2026-10-06T08:11:31+00:00"
+    "2026-09-21T18:27:22+00:00",
+    "2026-09-22T02:11:29+00:00"
    ],
    [
-    "2026-10-06T15:55:41+00:00",
-    "2026-10-06T16:12:37+00:00"
+    "2026-10-02T18:52:18+00:00",
+    "2026-10-02T18:54:06+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
-  "apres_filtre_date": 23
+  "avant_filtre_date": 135,
+  "apres_filtre_date": 22
  },
  "items": [
   {
@@ -92,7 +92,7 @@
    "title": "Ecoflow 65W Rapid charger (CSA/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 61,
+   "votes": 62,
    "posts": 43,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-etl-21-2831253/",
@@ -165,7 +165,7 @@
    "price": 16.62,
    "was": 34.99,
    "votes": 14,
-   "posts": 19,
+   "posts": 20,
    "time": "2026-11-04T23:05:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
    "asin": "B0DHZJBL29",
@@ -176,6 +176,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0DHZJBL29.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
+   "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
+   "price": 11.86,
+   "was": 24.97,
+   "votes": 13,
+   "posts": 6,
+   "time": "2026-11-08T18:39:35+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
+   "asin": "B0GV4XGJBN",
+   "pct": 53,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0GV4XGJBN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GV4XGJBN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -194,6 +212,24 @@
    "morts": 2,
    "doute": true,
    "img": null
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
+   "price": 51.0,
+   "was": 135.0,
+   "votes": 9,
+   "posts": 14,
+   "time": "2026-11-04T19:21:57+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "asin": "B0D464JX3M",
+   "pct": 62,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D464JX3M.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
@@ -250,42 +286,6 @@
    "img": "/img/p/B0HJC3LFBV.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
-   "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
-   "price": 11.86,
-   "was": 24.97,
-   "votes": 7,
-   "posts": 1,
-   "time": "2026-11-08T18:39:35+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
-   "asin": "B0GV4XGJBN",
-   "pct": 53,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B0GV4XGJBN?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GV4XGJBN.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
-   "price": 51.0,
-   "was": 135.0,
-   "votes": 5,
-   "posts": 13,
-   "time": "2026-11-04T19:21:57+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "asin": "B0D464JX3M",
-   "pct": 62,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D464JX3M.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
    "title": "Ninja Air Fryer Pro, 5 Qt/4.7L, 4-in-1 on sale $99.99(179.99)",
    "price": 99.99,
@@ -322,24 +322,6 @@
    "img": "/img/p/B07SVP1SD4.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
-   "title": "*DEAL DEAD* medicube Booster Pro X2™ - 7 IN 1 Glow Beauty Device, 2X Glow Care, White - $258.62",
-   "price": 258.62,
-   "was": 350.0,
-   "votes": 2,
-   "posts": 1,
-   "time": "2026-11-01T21:02:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-deal-dead-medicube-booster-pro-x2-i-7-1-glow-beauty-device-2x-glow-care-white-258-62-2830732/",
-   "asin": "B0GS8BWDZ3",
-   "pct": 26,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B0GS8BWDZ3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GS8BWDZ3.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-philips-4pack-led-60w-a19-non-dimmable-2700k-6-38-atl-lower-sub-save-2831025/",
    "title": "PHILIPS 4Pack Led 60W A19 Non Dimmable (2700K) - $6.38 ATL (lower with sub & save)",
    "price": 6.38,
@@ -356,6 +338,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B071JBMY54.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
+   "title": "JBL Endurance Race 2 True Wireless Sports Earbuds, Black, Waterproof Design $39.90",
+   "price": 39.9,
+   "was": 109.98,
+   "votes": 2,
+   "posts": 2,
+   "time": "2026-11-08T20:14:01+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
+   "asin": "B0DW9BXCYW",
+   "pct": 64,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DW9BXCYW?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DW9BXCYW.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
@@ -446,24 +446,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C35Z66QV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
-   "title": "JBL Endurance Race 2 True Wireless Sports Earbuds, Black, Waterproof Design $39.90",
-   "price": 39.9,
-   "was": 109.98,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-08T20:14:01+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
-   "asin": "B0DW9BXCYW",
-   "pct": 64,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DW9BXCYW?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DW9BXCYW.jpg"
   }
  ]
 }
