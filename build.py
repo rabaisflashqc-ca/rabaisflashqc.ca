@@ -447,7 +447,7 @@ def deal_html(d):
     if d.get("live") and pct and d.get("price"):
         avant = _money(d["was"]) if d.get("was") else "env. " + f'{round(d["price"] / (1 - pct / 100)):,} $'.replace(",", " ")
         prix = (f'<p class="px"><s>{avant}</s> <b>{_money(d["price"])}</b>'
-                f'<span>-{pct} %</span><small>prix vérifié le {_jour(d.get("added"))}{(" à " + (lambda t: f"{t.hour} h {t.minute:02d}")(datetime.datetime.fromisoformat(d["verifie"]).astimezone(ZoneInfo("America/Toronto")))) if d.get("verifie") else ""}</small></p>')
+                f'<span>-{pct} %</span><small>prix vérifié le {_jour(d.get("added"))}</small></p>')
     why = prix + why
     until = f' data-until="{d["until"]}"' if d.get("until") else ""
     if d.get("price"): until += f' data-price="{d["price"]}"'
@@ -517,11 +517,10 @@ def top5():
     if fp:
         TOP_ASINS.clear(); TOP_ASINS.update(x["asin"] for x in fp)
         loc = datetime.datetime.now(ZoneInfo("America/Toronto"))
-        lbl = ("du matin" if loc.hour < 12 else "du soir")
         n = len(fp)
-        cards = "".join(rfd_card(x, f"⭐ Top {n} " + lbl) for x in fp)
-        return [], (f'<section class="topbox" aria-label="Le Top {n} {lbl}"><h2>⭐ Le Top {n} {lbl}</h2>'
-                    '<p class="topsub">Les 5 meilleurs deals du moment, choisis pour toi. Nouveau Top matin et soir : reviens voir! 🔥</p>'
+        cards = "".join(rfd_card(x, f"⭐ Top {n}") for x in fp)
+        return [], (f'<section class="topbox" aria-label="Le Top {n}"><h2>⭐ Le Top {n}</h2>'
+                    '<p class="topsub">Les 5 meilleurs deals du moment, choisis pour toi. Le Top change souvent : reviens voir! 🔥</p>'
                     f'<ol class="top5">{cards}</ol>'
                     '<div class="share">📣 Partage le Top 5 : '
                     '<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frabaisflashqc.ca%2F" target="_blank" rel="noopener">Facebook</a>'
@@ -789,7 +788,7 @@ def rfd_card(x, stats='🔥 Deal du moment'):
         tag = (f'<div class="pic"><img src="{e(src)}" alt="{e(x["title"][:80])}" loading="lazy" width="84" height="84">'
                f'{"<b>-" + str(x["pct"]) + "%</b>" if x.get("pct") else ""}</div>')
     s = datetime.datetime.fromisoformat(x.get("verifie") or x.get("posted") or x["seen"]).astimezone(ZoneInfo("America/Toronto"))  # prix vérifié, sinon moment où il a été repéré
-    when = f'{"1er" if s.day == 1 else s.day} {_MOC[s.month-1]} à {s.hour} h {s.minute:02d}'
+    when = f'{"1er" if s.day == 1 else s.day} {_MOC[s.month-1]}'  # le jour suffit (demande d'Alex du 7 nov.)
     px = ""
     if x.get("price"):
         px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
@@ -880,7 +879,7 @@ def vf_block():
           '<script>(function(){var el=document.getElementById("vfc"),t=Date.parse("2026-11-27T05:00:00Z");function f(){var ms=t-Date.now();if(ms<=0){el.textContent="C\'est le Vendredi fou! 🔥";return}var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);el.innerHTML="Vendredi fou dans <b>"+d+" j "+h+" h "+m+" min</b>"}f();setInterval(f,60000)})();</script>')
     if not L: return cd
     return (cd + '<section class="topbox" aria-label="Meilleurs deals vérifiés"><h2>🔥 Les meilleurs deals vérifiés aujourd\'hui</h2>'
-            '<p class="topsub">Prix lus sur Keepa, avec la date et l\'heure de lecture. Ils bougent vite : vérifie le prix final avant d\'acheter.</p>'
+            '<p class="topsub">Prix vérifiés sur Keepa, avec la date de lecture. Ils bougent vite : vérifie le prix final avant d\'acheter.</p>'
             f'<ul class="deals">{"".join(rfd_card(x) for x in L)}</ul></section>')
 
 def write(slug, content):

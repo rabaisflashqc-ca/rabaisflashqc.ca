@@ -85,7 +85,7 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 ## Règles absolues
 
 - Chaque post finit par : « En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. »
-- Chaque deal affiche nouveau prix, % et ancien prix (champ `was`, sinon « environ ») et « prix observé le [date] » (avec l'heure quand elle est connue). Ne jamais inventer d'heure.
+- Chaque deal affiche nouveau prix, % et ancien prix (champ `was`, sinon « environ ») et « prix observé le [date] ». Sur le site, le jour seulement, sans l'heure (demande d'Alex du 7 nov.). Le Top 5 s'appelle « Le Top 5 », sans « du matin » ni « du soir ». Ne jamais inventer d'heure.
 - Jamais de faux rabais, faux avis, faux manque (« plus que 2 en stock ») ni « partenaire officiel d'Amazon ». Léa (avatar) ne dit jamais avoir essayé un produit.
 - Ne jamais mentionner RedFlagDeals (ni votes, ni communauté) sur le site, les posts ou les images. Les rapports de l'éclaireur restent dans `suivi/`.
 - Tag `coupdecoeurqc-20` partout. Aucun lien de vitrine sur le site. Aucun lien Amazon dans les courriels ou infolettres. Les pubs pointent vers rabaisflashqc.ca, jamais directement vers Amazon.
