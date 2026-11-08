@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-08T03:09+00:00",
+ "genere": "2026-11-08T03:12+00:00",
  "produits": [
   {
    "asin": "B0CMGMCWYG",
@@ -395,6 +395,151 @@
    "asin": "B0HMVPY93P",
    "titre": "Aspirateur balai sans fil 550 W pour poils d'animaux",
    "prix_affiche": 139.98
+  },
+  {
+   "asin": "B08316G583",
+   "titre": "Evenflo Revolve360 siège d'auto pivotant tout-en-un",
+   "prix_affiche": 399.0
+  },
+  {
+   "asin": "B0FMGN9792",
+   "titre": "Miele Guard M1 aspirateur traîneau",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B0DDV3FRHR",
+   "titre": "Sony WH-1000XM5 casque antibruit",
+   "prix_affiche": 348.0
+  },
+  {
+   "asin": "B0D4B6K9SL",
+   "titre": "Ninja Detect TB400C mélangeur et robot culinaire",
+   "prix_affiche": 189.98
+  },
+  {
+   "asin": "B09BZVX3J7",
+   "titre": "Amazon Fire TV Cube",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0D2LBSWVL",
+   "titre": "RENPHO Elis 2XL balance intelligente",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B0H8N377KT",
+   "titre": "roborock Q7 L5+ robot aspirateur et serpillière",
+   "prix_affiche": 329.99
+  },
+  {
+   "asin": "B0C2ZMTXSG",
+   "titre": "Shark Rocket Pro HV370C aspirateur-balai",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B09JZ18GLJ",
+   "titre": "Wavytalk sèche-cheveux avec diffuseur",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B0B7JL1S88",
+   "titre": "EcoFlow DELTA 2 station électrique portable",
+   "prix_affiche": 599.0
+  },
+  {
+   "asin": "B0BHH4BN7Z",
+   "titre": "Graco SnugRide 35 Lite LX siège d'auto pour bébé",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0DBRTG1RJ",
+   "titre": "Brother HL-L2465DW imprimante laser",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0CTD6V6S6",
+   "titre": "JBL PartyBox Stage 320 haut-parleur de fête",
+   "prix_affiche": 549.98
+  },
+  {
+   "asin": "B0CCQRVT7Q",
+   "titre": "HP Smart Tank 5102 imprimante tout-en-un",
+   "prix_affiche": 259.99
+  },
+  {
+   "asin": "B0H8ZRQ7MY",
+   "titre": "Shark BreatheClear purificateur d'air",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B07S1CNXTS",
+   "titre": "Shark aspirateur vertical pour poils d'animaux",
+   "prix_affiche": 199.98
+  },
+  {
+   "asin": "B0CKK9JW46",
+   "titre": "DEWALT ensemble d'outils sans fil",
+   "prix_affiche": 198.0
+  },
+  {
+   "asin": "B08J9MVB6W",
+   "titre": "Sennheiser HD 560S casque d'écoute",
+   "prix_affiche": 149.95
+  },
+  {
+   "asin": "B0H3554RGS",
+   "titre": "iRobot Roomba Plus 515 robot aspirateur",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B0DBNTYL27",
+   "titre": "Ninja four grille-pain rabattable",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B09YN1WSKG",
+   "titre": "Samsung moniteur 32 po",
+   "prix_affiche": 178.0
+  },
+  {
+   "asin": "B0DW8YP1LY",
+   "titre": "Levoit purificateur d'air pour chambre",
+   "prix_affiche": 134.99
+  },
+  {
+   "asin": "B0CRB5HZSB",
+   "titre": "RENPHO pèse-personne intelligent",
+   "prix_affiche": 39.89
+  },
+  {
+   "asin": "B085NTR26K",
+   "titre": "RENPHO pistolet de massage",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B0GM2KLNN1",
+   "titre": "Harman Kardon Aura Studio 5 haut-parleur",
+   "prix_affiche": 299.99
+  },
+  {
+   "asin": "B0H6QRHVB2",
+   "titre": "iRobot Roomba Max 715X robot aspirateur",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B09T4YZGQR",
+   "titre": "Shark AV2511AE robot aspirateur",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B018A57MVG",
+   "titre": "Ninja BL780C système de cuisine",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0GP976V5V",
+   "titre": "Hunger Games coffret 5 livres (anglais)",
+   "prix_affiche": 73.5
   }
  ]
 }
