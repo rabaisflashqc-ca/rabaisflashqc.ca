@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07T18:58-04:00",
+ "date": "2026-11-07T21:22-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -268,6 +268,24 @@
    "img": "/img/p/B0DGMX5845.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
+   "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
+   "price": 5.98,
+   "was": 10.68,
+   "votes": 6,
+   "posts": 2,
+   "time": "2026-11-07T22:37:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
+   "asin": "B0BVRSMXDQ",
+   "pct": 44,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0BVRSMXDQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BVRSMXDQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
    "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
    "price": 51.0,
@@ -428,24 +446,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C35Z66QV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
-   "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
-   "price": 5.98,
-   "was": 10.68,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-07T22:37:16+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
-   "asin": "B0BVRSMXDQ",
-   "pct": 44,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0BVRSMXDQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BVRSMXDQ.jpg"
   }
  ]
 }
