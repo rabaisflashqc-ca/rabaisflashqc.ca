@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-08T02:59+00:00",
+ "genere": "2026-11-08T03:06+00:00",
  "produits": [
   {
    "asin": "B0CMGMCWYG",
@@ -255,6 +255,106 @@
    "asin": "B07R3P6HZX",
    "titre": "Skip Hop guitare jouet pour bébé",
    "prix_affiche": 20.0
+  },
+  {
+   "asin": "B0CJFWLJ3P",
+   "titre": "Philips Sonicare 4100 brosse à dents électrique",
+   "prix_affiche": 49.96
+  },
+  {
+   "asin": "B09488D4JZ",
+   "titre": "Live Clean lotion pour le corps Pois de senteur",
+   "prix_affiche": 15.92
+  },
+  {
+   "asin": "B0DHVBRQ1X",
+   "titre": "philosophy purity made simple nettoyant visage grand format",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B09XJ47GW9",
+   "titre": "AXE éponges de douche pour homme (paquet)",
+   "prix_affiche": 20.99
+  },
+  {
+   "asin": "B0CNSBXCGJ",
+   "titre": "Olay Indulgent Moisture gel douche pour femme",
+   "prix_affiche": 15.97
+  },
+  {
+   "asin": "B0FHJJJBY1",
+   "titre": "Medicube Zero Pore Pad 2.0 tampons pour le visage",
+   "prix_affiche": 22.99
+  },
+  {
+   "asin": "B075DFGJQL",
+   "titre": "FILA vaporisateur parfumé pour le corps",
+   "prix_affiche": 11.5
+  },
+  {
+   "asin": "B07VXJWSJ8",
+   "titre": "KISS 1875 Pro séchoir à cheveux tourmaline",
+   "prix_affiche": 34.36
+  },
+  {
+   "asin": "B0B27YVHNS",
+   "titre": "Tiffany & Co. Rose Gold eau de parfum pour femme",
+   "prix_affiche": 127.77
+  },
+  {
+   "asin": "B082XJ6WZQ",
+   "titre": "Wet Brush Go Green brosse démêlante",
+   "prix_affiche": 16.49
+  },
+  {
+   "asin": "B0DPM4DN21",
+   "titre": "NOW Solutions sérum au bakuchiol",
+   "prix_affiche": 26.59
+  },
+  {
+   "asin": "B0DCR3ZX39",
+   "titre": "Scunci barrettes à cheveux édition Wicked",
+   "prix_affiche": 11.99
+  },
+  {
+   "asin": "B0BYGS9358",
+   "titre": "3INA coffret maquillage The Glow One",
+   "prix_affiche": 29.37
+  },
+  {
+   "asin": "B075GY322K",
+   "titre": "Kevyn Aucoin The Etherealist correcteur",
+   "prix_affiche": 21.11
+  },
+  {
+   "asin": "B07R1V6RPH",
+   "titre": "Kevyn Aucoin Glass Glow brillant à lèvres",
+   "prix_affiche": 23.3
+  },
+  {
+   "asin": "B0009NBCXC",
+   "titre": "NOW Solutions huile de jojoba pure",
+   "prix_affiche": 18.54
+  },
+  {
+   "asin": "B09SR6QQZC",
+   "titre": "Hallmark petits sacs-cadeaux de Noël",
+   "prix_affiche": 13.99
+  },
+  {
+   "asin": "B08WRR9DYP",
+   "titre": "Hallmark papier d'emballage de Noël élégant",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B07TVKQKVL",
+   "titre": "WoodWick bougie sablier moyenne",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0CR5KW939",
+   "titre": "Carhartt bandeau Force pour homme",
+   "prix_affiche": 20.99
   }
  ]
 }
