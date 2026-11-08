@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-08T03:06+00:00",
+ "genere": "2026-11-08T03:09+00:00",
  "produits": [
   {
    "asin": "B0CMGMCWYG",
@@ -355,6 +355,46 @@
    "asin": "B0CR5KW939",
    "titre": "Carhartt bandeau Force pour homme",
    "prix_affiche": 20.99
+  },
+  {
+   "asin": "B0FYRVDT4G",
+   "titre": "Braun Series 5 tondeuse tout-en-un pour homme",
+   "prix_affiche": 66.46
+  },
+  {
+   "asin": "B0G5191P52",
+   "titre": "7MAGIC brosse coiffante 7 en 1 à air chaud",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0FP9CT8LL",
+   "titre": "Cyruzi rasoir de tête 7D pour homme",
+   "prix_affiche": 56.69
+  },
+  {
+   "asin": "B0HJM3X9K7",
+   "titre": "Umaeost fond de teint adaptatif (paquet de 2)",
+   "prix_affiche": 32.0
+  },
+  {
+   "asin": "B0DHKT149D",
+   "titre": "Calendrier de l'Avent soins de barbe pour homme",
+   "prix_affiche": 42.29
+  },
+  {
+   "asin": "B08GPJK1G8",
+   "titre": "Spa Luxetique coffret spa cadeau pour femme (offre éclair)",
+   "prix_affiche": 36.93
+  },
+  {
+   "asin": "B0D92FMY47",
+   "titre": "KAVCENT coffret maquillage complet pour ado",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0HMVPY93P",
+   "titre": "Aspirateur balai sans fil 550 W pour poils d'animaux",
+   "prix_affiche": 139.98
   }
  ]
 }

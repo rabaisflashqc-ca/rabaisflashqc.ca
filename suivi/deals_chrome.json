@@ -777,5 +777,94 @@
   "seen": "2026-11-07T22:02-05:00",
   "until": "2026-11-08T22:02-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CR5KW939.01.L.jpg"
+ },
+ {
+  "asin": "B0FYRVDT4G",
+  "title": "Braun Series 5 tondeuse tout-en-un pour homme",
+  "cat": "beaute",
+  "price": 66.46,
+  "was": 73.84,
+  "pct": 10,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0FYRVDT4G.01.L.jpg"
+ },
+ {
+  "asin": "B0G5191P52",
+  "title": "7MAGIC brosse coiffante 7 en 1 à air chaud",
+  "cat": "beaute",
+  "price": 129.99,
+  "was": 149.99,
+  "pct": 13,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex"
+ },
+ {
+  "asin": "B0FP9CT8LL",
+  "title": "Cyruzi rasoir de tête 7D pour homme",
+  "cat": "beaute",
+  "price": 56.69,
+  "was": 62.99,
+  "pct": 10,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex"
+ },
+ {
+  "asin": "B0HJM3X9K7",
+  "title": "Umaeost fond de teint adaptatif (paquet de 2)",
+  "cat": "beaute",
+  "price": 32.0,
+  "was": 37.65,
+  "pct": 15,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex"
+ },
+ {
+  "asin": "B0DHKT149D",
+  "title": "Calendrier de l'Avent soins de barbe pour homme",
+  "cat": "beaute",
+  "price": 42.29,
+  "was": 54.99,
+  "pct": 23,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex"
+ },
+ {
+  "asin": "B08GPJK1G8",
+  "title": "Spa Luxetique coffret spa cadeau pour femme (offre éclair)",
+  "cat": "beaute",
+  "price": 36.93,
+  "was": 39.99,
+  "pct": 8,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T03:00-05:00",
+  "source": "alex"
+ },
+ {
+  "asin": "B0D92FMY47",
+  "title": "KAVCENT coffret maquillage complet pour ado",
+  "cat": "beaute",
+  "price": 29.98,
+  "was": 39.98,
+  "pct": 25,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex"
+ },
+ {
+  "asin": "B0HMVPY93P",
+  "title": "Aspirateur balai sans fil 550 W pour poils d'animaux",
+  "cat": "maison",
+  "price": 139.98,
+  "was": 239.99,
+  "pct": 42,
+  "seen": "2026-11-07T22:08-05:00",
+  "until": "2026-11-08T22:08-05:00",
+  "source": "alex"
  }
 ]

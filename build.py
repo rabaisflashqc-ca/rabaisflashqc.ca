@@ -59,7 +59,9 @@ def _keepa_frais():
     try:
         for x in json.loads((ROOT / "suivi" / "deals_chrome.json").read_text()):
             try:
-                if (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(x["seen"])).total_seconds() < 24 * 3600:
+                _n = datetime.datetime.now(datetime.timezone.utc)
+                if x.get("until") and datetime.datetime.fromisoformat(x["until"]) < _n: continue  # offre éclair ou prix expiré
+                if (_n - datetime.datetime.fromisoformat(x["seen"])).total_seconds() < 24 * 3600:
                     out[x["asin"]] = x
             except Exception: pass
     except Exception: pass
