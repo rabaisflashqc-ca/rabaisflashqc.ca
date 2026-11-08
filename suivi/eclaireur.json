@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08T12:04-04:00",
+ "date": "2026-11-08T12:48-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    36,
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-07T14:55:34+00:00",
-    "2026-10-07T16:18:52+00:00"
+    "2026-10-06T23:10:13+00:00",
+    "2026-10-06T23:57:51+00:00"
    ],
    [
     "2026-10-14T02:37:51+00:00",
@@ -63,27 +63,27 @@
    44,
    44,
    [
-    "2026-10-06T15:55:41+00:00",
-    "2026-10-06T16:12:37+00:00"
+    "2026-10-02T11:48:57+00:00",
+    "2026-10-02T18:52:18+00:00"
    ],
    [
-    "2026-10-07T14:12:23+00:00",
-    "2026-10-07T14:27:35+00:00"
+    "2026-10-06T17:17:29+00:00",
+    "2026-10-06T18:02:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T04:13:17+00:00",
-    "2026-10-06T07:32:26+00:00"
+    "2026-09-21T15:18:36+00:00",
+    "2026-09-21T16:31:46+00:00"
    ],
    [
-    "2026-10-06T15:46:15+00:00",
-    "2026-10-06T15:51:19+00:00"
+    "2026-10-01T23:43:48+00:00",
+    "2026-10-02T06:44:25+00:00"
    ]
   ],
-  "avant_filtre_date": 131,
+  "avant_filtre_date": 137,
   "apres_filtre_date": 22
  },
  "items": [
@@ -110,7 +110,7 @@
    "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
    "price": 5.98,
    "was": 10.68,
-   "votes": 20,
+   "votes": 21,
    "posts": 4,
    "time": "2026-11-07T22:37:16+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
@@ -196,6 +196,24 @@
    "img": null
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
+   "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
+   "price": 20.57,
+   "was": 41.14,
+   "votes": 9,
+   "posts": 17,
+   "time": "2026-11-07T15:42:26+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
+   "asin": "B0DGMX5845",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DGMX5845?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0DGMX5845.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
    "title": "JBL Go 4 - Portable Bluetooth Speaker - Black - $39.98",
    "price": 39.98,
@@ -212,24 +230,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CTNWBT1Z.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
-   "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
-   "price": 20.57,
-   "was": 41.14,
-   "votes": 8,
-   "posts": 17,
-   "time": "2026-11-07T15:42:26+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
-   "asin": "B0DGMX5845",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DGMX5845?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0DGMX5845.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
