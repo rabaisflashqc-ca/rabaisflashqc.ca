@@ -1,16 +1,6 @@
 {
- "genere": "2026-11-09T23:34+00:00",
+ "genere": "2026-11-09T23:58+00:00",
  "produits": [
-  {
-   "asin": "B0BS1QCFHX",
-   "titre": "Sony WH-CH720N, casque sans fil à réduction de bruit, bleu",
-   "prix_affiche": 118.0
-  },
-  {
-   "asin": "B0BQPNMXQV",
-   "titre": "JBL Vibe Beam, écouteurs sans fil, noir",
-   "prix_affiche": 44.98
-  },
   {
    "asin": "B0DVTGBCBL",
    "titre": "JBL Endurance Race 2, écouteurs sport sans fil",
@@ -22,7 +12,7 @@
    "prix_affiche": 69.99
   },
   {
-   "asin": "B0G62TFG7S",
+   "asin": "B0G62GH9T2",
    "titre": "Blink sonnette filaire 2K+ (nouveau modèle)",
    "prix_affiche": 30.99
   },
@@ -37,18 +27,18 @@
    "prix_affiche": 21.98
   },
   {
+   "asin": "B0G62QQ6S4",
+   "titre": "Blink sonnette à batterie 2K+ (nouveau modèle)",
+   "prix_affiche": 41.99
+  },
+  {
    "asin": "B0B4PBYKPP",
    "titre": "Carhartt coton ouaté ample pour homme",
    "prix_affiche": 50.97
   },
   {
-   "asin": "B0CMGMCWYG",
-   "titre": "Barbie Skipper et sa pouponnière",
-   "prix_affiche": 24.0
-  },
-  {
    "asin": "B0CCPRDH3T",
-   "titre": "Crayola coffret d'art Pokémon pour enfants",
+   "titre": "Crayola coffret créatif Pokémon pour enfants",
    "prix_affiche": 19.98
   },
   {
@@ -62,24 +52,19 @@
    "prix_affiche": 69.99
   },
   {
-   "asin": "B0CFCHY7YM",
-   "titre": "Skullcandy Dime 3, écouteurs sans fil",
-   "prix_affiche": 23.99
-  },
-  {
-   "asin": "B0D9R45FMH",
-   "titre": "Sony WF-C510, écouteurs sans fil",
-   "prix_affiche": 58.0
-  },
-  {
-   "asin": "B00942VIOM",
-   "titre": "Crock-Pot mijoteuse manuelle 7 pintes",
-   "prix_affiche": 44.97
+   "asin": "B0BWWZP49F",
+   "titre": "Blink Mini 2, caméra intelligente avec projecteur",
+   "prix_affiche": 19.99
   },
   {
    "asin": "B0F69ZQS82",
-   "titre": "Braun MultiQuick 5 Vario, mélangeur à main",
+   "titre": "Braun MultiQuick 5, mélangeur à main",
    "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0D9R4GYTN",
+   "titre": "Sony WF-C510, écouteurs sans fil",
+   "prix_affiche": 58.0
   },
   {
    "asin": "B0D712DKKD",
@@ -88,7 +73,7 @@
   },
   {
    "asin": "B091MJ3TKN",
-   "titre": "Wilson ballon de basketball NBA DRV",
+   "titre": "Wilson ballon de basket NBA DRV",
    "prix_affiche": 23.99
   },
   {
@@ -97,19 +82,19 @@
    "prix_affiche": 17.49
   },
   {
-   "asin": "B00LZKATGE",
-   "titre": "Eddie Bauer ensemble de draps grand lit (queen)",
-   "prix_affiche": 61.12
+   "asin": "B0G2ZWTTWL",
+   "titre": "JBL Endurance Peak 4, écouteurs sport",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0721C41NN",
+   "titre": "Eddie Bauer ensemble de draps très grand lit",
+   "prix_affiche": 60.36
   },
   {
    "asin": "B0CD311Q6J",
-   "titre": "5 Surprise My Mini Baby, boules surprises",
+   "titre": "5 Surprise My Mini Baby, jouet surprise",
    "prix_affiche": 17.99
-  },
-  {
-   "asin": "B0FX78S453",
-   "titre": "Columbia Powderbug, bottes d'hiver pour enfant",
-   "prix_affiche": 59.99
   },
   {
    "asin": "B09R15PWSB",
@@ -117,29 +102,39 @@
    "prix_affiche": 19.99
   },
   {
-   "asin": "B0F91ZC21Y",
-   "titre": "Carhartt Sawyer coton ouaté pour femme",
+   "asin": "B0F91Z3VG4",
+   "titre": "Carhartt coton ouaté pour femme",
    "prix_affiche": 47.97
   },
   {
-   "asin": "B0DMF8JZYS",
-   "titre": "LeapFrog Strum & Count, guitare en bois pour tout-petit",
-   "prix_affiche": 18.22
-  },
-  {
    "asin": "B0DSCGXCT4",
-   "titre": "Bitzee boule de hamster interactive",
+   "titre": "BITZEE boule de hamster interactive",
    "prix_affiche": 24.98
   },
   {
-   "asin": "B0CDJQTW4X",
-   "titre": "Conair défroisseur à vapeur pour vêtements",
-   "prix_affiche": 52.22
+   "asin": "B0DMF8JZYS",
+   "titre": "LeapFrog guitare en bois Strum & Count",
+   "prix_affiche": 18.22
   },
   {
-   "asin": "B0797MY6JB",
-   "titre": "Sony S100F, barre de son Bluetooth",
-   "prix_affiche": 128.0
+   "asin": "B019807JYC",
+   "titre": "Columbia Hart Mountain, polar demi-zip pour homme",
+   "prix_affiche": 37.5
+  },
+  {
+   "asin": "B0CMRSDMLP",
+   "titre": "Adidas coton ouaté All SZN pour homme",
+   "prix_affiche": 35.0
+  },
+  {
+   "asin": "B0FM4BRQ5W",
+   "titre": "Skullcandy Icon 180, casque sans fil",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B0FXW38837",
+   "titre": "The North Face Thermoball, pantoufles",
+   "prix_affiche": 66.97
   },
   {
    "asin": "B08XKDMTT8",
@@ -147,68 +142,68 @@
    "prix_affiche": 54.99
   },
   {
-   "asin": "B0CCT8NBSQ",
-   "titre": "Skechers Go Run Consistent, souliers de course pour femme",
-   "prix_affiche": 49.98
-  },
-  {
-   "asin": "B0CBQX6NKX",
-   "titre": "Fisher-Price tapis d'éveil piano Glow and Grow",
-   "prix_affiche": 54.97
-  },
-  {
    "asin": "B08P55W5DW",
-   "titre": "Levi's 505 jeans coupe régulière pour homme",
+   "titre": "Levi's 505 jean coupe régulière pour homme",
    "prix_affiche": 37.03
   },
   {
+   "asin": "B0746RGRL3",
+   "titre": "MyPet North States barrière portative pour animaux",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B00XPTNL7W",
+   "titre": "Columbia Fast Trek, veste polaire pour femme",
+   "prix_affiche": 43.98
+  },
+  {
    "asin": "B0FLF8FSW6",
-   "titre": "JanSport Cool Backpack 34 L, sac à dos",
+   "titre": "JanSport sac à dos 34 L",
    "prix_affiche": 55.99
   },
   {
    "asin": "B0D6GY3BSC",
-   "titre": "Conair Curl Secret, boucleur automatique",
+   "titre": "Conair Curl Secret, fer à boucler automatique",
    "prix_affiche": 64.79
   },
   {
-   "asin": "B0FS6CF36D",
-   "titre": "The North Face Borealis Mini, petit sac à dos pour femme",
-   "prix_affiche": 58.99
-  },
-  {
    "asin": "B01BZ4B8I2",
-   "titre": "Skechers Relment Pelmo, bottes de marche pour homme",
+   "titre": "Skechers Relment Pelmo, bottes pour homme",
    "prix_affiche": 69.98
   },
   {
-   "asin": "B07SYD9WY4",
-   "titre": "Conair InfinitiPRO séchoir à cheveux",
-   "prix_affiche": 34.12
-  },
-  {
-   "asin": "B0G2DHK86Z",
-   "titre": "Merrell Moab 3, souliers de randonnée pour homme",
-   "prix_affiche": 90.0
-  },
-  {
-   "asin": "B0D8QN4C9X",
-   "titre": "Philips série 2000 friteuse à air",
-   "prix_affiche": 99.99
-  },
-  {
    "asin": "B095FSJ7N6",
-   "titre": "Ninja Nutri-Blender Pro, mélangeur personnel",
+   "titre": "Ninja Nutri-Blender Pro, mélangeur individuel",
    "prix_affiche": 89.99
   },
   {
-   "asin": "B0H6P5TFYJ",
-   "titre": "Feandrea griffoir pour chat",
-   "prix_affiche": 22.94
+   "asin": "B07SYD9WY4",
+   "titre": "Conair InfinitiPRO, séchoir à cheveux",
+   "prix_affiche": 34.12
+  },
+  {
+   "asin": "B08F9ZWMKD",
+   "titre": "Toy Story de Disney Pixar, Zigzag le chien jouet",
+   "prix_affiche": 30.06
+  },
+  {
+   "asin": "B0G2257PQM",
+   "titre": "Merrell Moab 3, bottes de randonnée pour homme",
+   "prix_affiche": 90.0
+  },
+  {
+   "asin": "B0FJSDSZJ6",
+   "titre": "Philips friteuse à air série 2000",
+   "prix_affiche": 84.99
+  },
+  {
+   "asin": "B00MYWGTGQ",
+   "titre": "Melissa & Doug K's Kids, poisson à rabats pour bébé",
+   "prix_affiche": 31.56
   },
   {
    "asin": "B06XJDFN6D",
-   "titre": "Victrola Vintage tourne-disque Bluetooth 3 vitesses",
+   "titre": "Victrola tourne-disque vintage Bluetooth",
    "prix_affiche": 71.17
   },
   {
@@ -217,249 +212,19 @@
    "prix_affiche": 20.99
   },
   {
-   "asin": "B078GR8GZC",
-   "titre": "Chew King balles à rapporter pour chien",
-   "prix_affiche": 26.99
+   "asin": "B0CLSG141F",
+   "titre": "Columbia Glennaker Lake, imperméable pour homme",
+   "prix_affiche": 62.99
   },
   {
    "asin": "B0CLSG66KQ",
-   "titre": "Columbia Heavenly II manteau pour femme",
+   "titre": "Columbia Heavenly II, manteau pour femme",
    "prix_affiche": 79.97
   },
   {
-   "asin": "B0746RGRL3",
-   "titre": "MyPet North States barrière portative pour animaux",
-   "prix_affiche": 27.99
-  },
-  {
-   "asin": "B0F9XP5MP5",
-   "titre": "Graco EasyTurn 360, siège d'auto convertible pivotant",
-   "prix_affiche": 384.95
-  },
-  {
-   "asin": "B0BXM37848",
-   "titre": "Amazon Fire TV Stick 4K Max (nouveau modèle)",
-   "prix_affiche": 64.99
-  },
-  {
-   "asin": "B0F7Z43QKK",
-   "titre": "Amazon Fire TV Stick 4K Plus",
+   "asin": "B0CGQBYM43",
+   "titre": "Sonic le hérisson, planche à roulettes 31 po",
    "prix_affiche": 49.99
-  },
-  {
-   "asin": "B0BT752BRT",
-   "titre": "Tablette Amazon Fire HD 10 (nouveau modèle)",
-   "prix_affiche": 159.99
-  },
-  {
-   "asin": "B0CTBCDD6D",
-   "titre": "JBL Tune 720BT, casque sans fil",
-   "prix_affiche": 59.98
-  },
-  {
-   "asin": "B0BQPNMXQV",
-   "titre": "JBL Vibe Beam, écouteurs sans fil",
-   "prix_affiche": 44.98
-  },
-  {
-   "asin": "B0CTNTR9X4",
-   "titre": "JBL Clip 5, haut-parleur Bluetooth étanche",
-   "prix_affiche": 69.98
-  },
-  {
-   "asin": "B0CQ1K6Z4X",
-   "titre": "JBL Live 670NC, casque à réduction de bruit",
-   "prix_affiche": 79.98
-  },
-  {
-   "asin": "B0G2ZWTTWL",
-   "titre": "JBL Endurance Peak 4, écouteurs sport antibruit",
-   "prix_affiche": 99.98
-  },
-  {
-   "asin": "B0DW96RYW7",
-   "titre": "JBL Tune Beam 2 Ghost Edition, écouteurs sans fil",
-   "prix_affiche": 89.98
-  },
-  {
-   "asin": "B0BS1QCFHX",
-   "titre": "Sony WH-CH720N, casque sans fil antibruit",
-   "prix_affiche": 118.0
-  },
-  {
-   "asin": "B0BS1RT9S2",
-   "titre": "Sony WH-CH520, casque sans fil Bluetooth",
-   "prix_affiche": 48.0
-  },
-  {
-   "asin": "B08J9MVB6W",
-   "titre": "Sennheiser HD 560S, casque audiophile",
-   "prix_affiche": 149.95
-  },
-  {
-   "asin": "B0FJ3VXF3Q",
-   "titre": "Skullcandy Hesh 360, casque Bluetooth",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B09D5LYKRB",
-   "titre": "Garmin DriveSmart 66, GPS pour l'auto",
-   "prix_affiche": 249.99
-  },
-  {
-   "asin": "B0H87DRN2H",
-   "titre": "Anker chargeur intelligent avec écran pour portable",
-   "prix_affiche": 59.99
-  },
-  {
-   "asin": "B0FHJ8XWWL",
-   "titre": "Ring sonnette à batterie 2K (nouveau modèle)",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0FJJ3517W",
-   "titre": "Ring sonnette filaire 2K (nouveau modèle)",
-   "prix_affiche": 54.99
-  },
-  {
-   "asin": "B0D4SGCZSW",
-   "titre": "Ring Outdoor Cam Plus branchée, caméra extérieure 2K",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0G62V4MDP",
-   "titre": "Blink sonnette à batterie 2K+ (nouveau modèle)",
-   "prix_affiche": 41.99
-  },
-  {
-   "asin": "B009GPSAP2",
-   "titre": "National Tree sapin de Noël 7,5 pi pré-illuminé",
-   "prix_affiche": 499.99
-  },
-  {
-   "asin": "B0FXXBBJ4D",
-   "titre": "Ecovacs Deebot X2 Omni, robot aspirateur et laveur",
-   "prix_affiche": 349.99
-  },
-  {
-   "asin": "B0FB59FN5M",
-   "titre": "Shark PowerPro Reveal Plus, aspirateur sans fil",
-   "prix_affiche": 299.99
-  },
-  {
-   "asin": "B07P97CD5T",
-   "titre": "Miele Classic C1, aspirateur-traîneau",
-   "prix_affiche": 399.99
-  },
-  {
-   "asin": "B0CD9JV7PB",
-   "titre": "Hoover CleanSlate XL, nettoyeur à tapis portatif",
-   "prix_affiche": 169.99
-  },
-  {
-   "asin": "B0FBGNQSK3",
-   "titre": "Eureka FlexReach, aspirateur vertical",
-   "prix_affiche": 137.68
-  },
-  {
-   "asin": "B0D6NCKY96",
-   "titre": "Henckels Statement, ensemble de 14 couteaux autoaffûtants",
-   "prix_affiche": 179.09
-  },
-  {
-   "asin": "B0DQWC47JN",
-   "titre": "De'Longhi Classic Signature, machine à espresso",
-   "prix_affiche": 179.99
-  },
-  {
-   "asin": "B07JGF236Q",
-   "titre": "Ninja friteuse à air 3,8 L (AF101C)",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B0953DJ39N",
-   "titre": "Ninja cafetière une portion",
-   "prix_affiche": 129.99
-  },
-  {
-   "asin": "B0H9SY6RXC",
-   "titre": "Cuisinart grille-pain XL 4 tranches",
-   "prix_affiche": 79.98
-  },
-  {
-   "asin": "B016D5ZXCK",
-   "titre": "Conair défroisseur vapeur vertical",
-   "prix_affiche": 69.91
-  },
-  {
-   "asin": "B09W21XFS5",
-   "titre": "Levoit humidificateur pour chambre",
-   "prix_affiche": 59.98
-  },
-  {
-   "asin": "B0FM7CHRKV",
-   "titre": "Gotrax voiturette électrique pour enfant de 3 à 8 ans",
-   "prix_affiche": 149.99
-  },
-  {
-   "asin": "B0GXGKLGGM",
-   "titre": "Cybex Libelle, poussette de voyage compacte",
-   "prix_affiche": 349.97
-  },
-  {
-   "asin": "B0FJZDWPT3",
-   "titre": "Calhoun coton ouaté rétro LNH pour homme",
-   "prix_affiche": 34.99
-  },
-  {
-   "asin": "B00B6K4VDK",
-   "titre": "DeWalt TSTAK boîte à outils avec organiseur",
-   "prix_affiche": 39.98
-  },
-  {
-   "asin": "B09BDK7YG6",
-   "titre": "Craftsman boîte à outils verrouillable 16 po",
-   "prix_affiche": 19.98
-  },
-  {
-   "asin": "B01M1SJNVU",
-   "titre": "Dremel 4300, outil rotatif avec 40 accessoires",
-   "prix_affiche": 99.98
-  },
-  {
-   "asin": "B0DQ2C66PH",
-   "titre": "Dremel scie circulaire compacte sans fil 12 V",
-   "prix_affiche": 149.0
-  },
-  {
-   "asin": "B09CDHGWW7",
-   "titre": "RENPHO pistolet de massage chauffant",
-   "prix_affiche": 94.98
-  },
-  {
-   "asin": "B0DDYDXFSL",
-   "titre": "Conair DigitalAire, séchoir et coiffeur 4 en 1",
-   "prix_affiche": 83.46
-  },
-  {
-   "asin": "B0GNTBJC3V",
-   "titre": "Shark FlexStyle, séchoir et coiffeur 4 en 1",
-   "prix_affiche": 279.99
-  },
-  {
-   "asin": "B09JZ18GLJ",
-   "titre": "Wavytalk séchoir ionique avec diffuseur",
-   "prix_affiche": 39.98
-  },
-  {
-   "asin": "B0CFQ3R4CQ",
-   "titre": "Conair 330C, séchoir 1875 W",
-   "prix_affiche": 27.99
-  },
-  {
-   "asin": "B08F51Z8TM",
-   "titre": "Venustas veste chauffante pour femme",
-   "prix_affiche": 152.99
   }
  ]
 }
