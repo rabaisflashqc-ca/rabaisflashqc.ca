@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Réels SANS SON pour le soir du 8 nov. et le matin du 9 nov. (ajouter un son tendance dans chaque app).
-Prix : passe Keepa du 8 nov. à 21 h 13 (suivi/deals_chrome.json). Photos officielles des marques (docs/img/p/marque-*), jamais Amazon.
+Prix : soir = passe Keepa du 8 nov. à 21 h 13; matin et midi = passe du 9 nov. à 8 h 11 (suivi/deals_chrome.json). Photos officielles des marques (docs/img/p/marque-*), jamais Amazon.
 Réel 1 (ce soir) : Cadeaux des Fêtes, 6 deals. Réel 2 (demain matin) : Pour maman, 3 deals. Réel 3 (avant midi) : 1 deal, format TikTok 10 s."""
 import pathlib, tempfile, subprocess, html as H
 import pack
@@ -8,17 +8,18 @@ from playwright.sync_api import sync_playwright
 e=H.escape
 CSS=open('soir_flash.py').read().split('CSS = """')[1].split('"""')[0]
 CSS+=".c{background:#fff;color:#1A1A1A;border-radius:40px;margin:30px 56px;padding:50px 44px;text-align:center}.big{font-family:Anton,Impact,sans-serif;font-size:210px;color:#C1121F;line-height:1}.pc{display:inline-block;background:#FFC72C;color:#8E0B16;border-radius:26px;padding:10px 34px;font-family:Anton,Impact,sans-serif;font-size:110px;margin:20px 0}"
-OB="8 nov."
+OB="9 nov."
 # (marque, produit, fichier photo officielle, avant, prix, %)
-RACE=("JBL","Écouteurs sport Endurance Race 2","B0DVTGBCBL","77,38 $","39,90 $",48)
+RACE=("JBL","Écouteurs sport Endurance Race 2","B0DVTGBCBL","73,25 $","39,98 $",45)
 TIKES=("Little Tikes","Chien berceur Rockin’ Puppy","B08S3BFJ37","87,00 $","49,99 $",43)
 JBL770=("JBL","Casque à réduction de bruit Tune 770NC","B0CTB8GKM2","138,45 $","79,98 $",42)
 LEVIS=("Levi's","Jeans 505 pour homme","B08P55W5DW","61,84 $","37,65 $",39)
 SONY=("Sony","Écouteurs sans fil WF-C510","B0D9R45FMH","85,23 $","58,00 $",32)
 CRAYOLA=("Crayola","Coffret d’art Pokémon","B0CCPRDH3T","28,34 $","19,98 $",29)
-NESP=("Nespresso","Machine Vertuo Pop+ Deluxe","B0D712DKKD","147,09 $","94,00 $",36)
-FERPLAT=("Conair","Fer plat double céramique","B07ZHZMXMV","32,13 $","20,99 $",35)
-NINJA=("Ninja","Mélangeur Nutri-Blender Pro","B095FSJ7N6","121,81 $","89,99 $",26)
+NESP=("Nespresso","Machine Vertuo Pop+ Deluxe","B0D712DKKD","141,67 $","94,00 $",34)
+FRISER=("Conair","Fer à friser double céramique","B07ZL9MXKN","28,10 $","17,49 $",38)
+FERPLAT=("Conair","Fer plat double céramique","B07ZHZMXMV","31,45 $","20,99 $",33)
+NINJA=("Ninja","Mélangeur Nutri-Blender Pro","B095FSJ7N6","118,39 $","89,99 $",24)
 BPM=124; B=60/BPM
 def page(inner,foot="Vérifie le prix final sur rabaisflashqc.ca"):
     return f'<!doctype html><html><head><meta charset="utf-8">{pack.FONTS}<style>{CSS}</style></head><body style="width:1080px;height:1920px"><div class="top" style="padding-top:90px">{pack.BOLT}<span>RABAIS <b>FLASH</b> QC</span></div>{inner}<div class="foot" style="position:absolute;bottom:0;left:0;right:0"><div class="u an">👉 rabaisflashqc.ca</div><div class="s">{foot}</div></div></body></html>'
@@ -29,10 +30,12 @@ def titre(h1,h2): return page(f'<h1 class="an" style="font-size:118px;line-heigh
 FIN=page('<h1 class="an" style="font-size:120px;line-height:1.1;margin-top:330px">PLUS DE DEALS<br>SUR LE SITE 👇</h1><h2 style="font-size:60px">rabaisflashqc.ca</h2><p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:60px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>')
 def bf(j): return page(f'<h1 class="an" style="font-size:120px;line-height:1.1;margin-top:300px">BLACK FRIDAY<br>DANS {j} JOURS ⏳</h1><h2 style="font-size:58px">Enregistre et partage<br>à quelqu’un qui magasine 🎄</h2>')
 REELS={
- "reel-08nov-soir-cadeaux-sans-son.mp4":[(titre("CADEAUX DES FÊTES<br>JUSQU’À -48 % 🎁","Pour lui, pour elle,<br>pour les petits"),5)]+[(deal(*p),5) for p in (RACE,TIKES,JBL770,LEVIS,SONY,CRAYOLA)]+[(bf(19),5),(FIN,5)],
- "reel-09nov-matin-maman-sans-son.mp4":[(titre("CADEAUX POUR MAMAN<br>JUSQU’À -36 % 💝","Café, cheveux, cuisine"),5)]+[(deal(*p),5) for p in (NESP,FERPLAT,NINJA)]+[(bf(18),5),(FIN,5)],
- "reel-09nov-midi-deal-sans-son.mp4":[(page('<h1 class="an" style="font-size:150px;line-height:1.05;margin-top:300px">DES JBL<br>À 39,90 $?! 🤯</h1><h2 style="font-size:70px">-48 %</h2>'),3),(deal(*RACE),8),(FIN,4)],
+#"reel-08nov-soir-cadeaux-sans-son.mp4" (déjà publié, prix du 8 nov.)
+ "_soir":[(titre("CADEAUX DES FÊTES<br>JUSQU’À -48 % 🎁","Pour lui, pour elle,<br>pour les petits"),5)]+[(deal(*p),5) for p in (RACE,TIKES,JBL770,LEVIS,SONY,CRAYOLA)]+[(bf(19),5),(FIN,5)],
+ "reel-09nov-matin-maman-sans-son.mp4":[(titre("CADEAUX POUR MAMAN<br>JUSQU’À -38 % 💝","Cheveux, café, cuisine"),5)]+[(deal(*p),5) for p in (FRISER,NESP,FERPLAT,NINJA)]+[(bf(18),5),(FIN,5)],
+ "reel-09nov-midi-deal-sans-son.mp4":[(page('<h1 class="an" style="font-size:150px;line-height:1.05;margin-top:300px">DES JBL<br>À 39,98 $?! 🤯</h1><h2 style="font-size:70px">-45 %</h2>'),3),(deal(*RACE),8),(FIN,4)],
 }
+REELS.pop("_soir")
 with sync_playwright() as pw:
     for nom,slides in REELS.items():
         tmp=pathlib.Path(tempfile.mkdtemp()); fr=[]
