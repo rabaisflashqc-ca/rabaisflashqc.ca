@@ -264,8 +264,8 @@ ICON = {"tech":"🎧","maison":"🏠","beaute":"💄","femme":"👗","homme":"�
 PAGES = [
   # slug, titre <title>, H1, intro, filtre, recherches de secours
   ("", "Rabais Flash QC · Les meilleurs rabais Amazon au Québec, triés pour toi",
-   "Les meilleurs rabais d'Amazon, triés pour toi",
-   "Tout coûte plus cher. Ici, on fait le tri pour toi : les meilleurs rabais d'Amazon.ca, mis à jour chaque jour, sans chercher pendant des heures.",
+   "Les cadeaux des Fêtes à petit prix, triés pour toute la famille",
+   "Tout coûte plus cher. Ici, on fait le tri pour toi : des marques connues à gros rabais, pour maman, papa, les enfants et la maison. Prix vérifiés et mis à jour chaque jour.",
    lambda d: True, []),
   ("vendredi-fou", "Vendredi fou 2026 sur Amazon.ca · Les meilleurs deals triés | Rabais Flash QC",
    "Vendredi fou 2026 : les meilleurs deals d'Amazon.ca",
@@ -334,7 +334,7 @@ ul.deals{list-style:none;padding:0;margin:8px 0}
 .tag small{font-family:inherit;font-size:12px;font-weight:700;margin-top:4px}
 .pic{position:relative;width:84px;height:84px;border-radius:14px;background:#fff;border:1px solid var(--line);overflow:hidden}.pic img{width:100%;height:100%;object-fit:contain}.pic b{position:absolute;left:4px;top:4px;background:var(--yel);color:var(--deep);font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;padding:1px 6px;border-radius:8px}
 .brand{margin:0;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--red)}
-.idg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0}@media (min-width:760px){.idg{grid-template-columns:repeat(4,1fr)}}.idg a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;text-decoration:none;color:var(--ink);background:#FFF8E1;border:2px solid var(--yel);min-height:96px}.idg a:hover{background:#FFEFC2}.idg b{font-size:30px;line-height:1}.idg span{font-weight:700;color:var(--deep)}.idg small{font-size:14px;color:var(--muted)}.bud{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bud button{font:inherit;font-weight:700;padding:8px 14px;border-radius:999px;border:2px solid var(--red);background:#fff;color:var(--red);cursor:pointer}.bud button[aria-pressed=true]{background:var(--red);color:#fff}.msa{display:inline-block;margin:6px 0 14px;padding:10px 16px;border-radius:999px;background:#0084FF;color:#fff;font-weight:700;text-decoration:none}@media (max-width:600px){header{padding-top:10px!important;padding-bottom:12px!important}header h1{font-size:30px!important;margin:6px 0 4px!important;line-height:1.05!important}header .intro{font-size:15px!important;margin:0 0 4px!important}header .upd{display:none}.hwcta strong,.seas strong{font-size:19px!important}.hwcta,.seas{padding:10px 14px!important;margin:8px 0!important}.hwcta span,.seas span{font-size:14px!important}.hwcta em,.seas em{font-size:28px!important}nav{padding:8px 0!important}}.clubbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#FFF7DD;border:2px solid var(--yel);border-radius:14px;padding:8px 12px;margin:10px 0;font-weight:700;color:var(--deep);font-size:16px}.clubbar a{text-decoration:none;background:#fff;border:2px solid var(--deep);color:var(--deep);border-radius:999px;padding:5px 12px;font-size:15px}.seas{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0;padding:14px 16px;border-radius:16px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#8E0B16,#C1121F);border:2px solid var(--yel)}.seas strong{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:24px;line-height:1;color:var(--yel);display:block}.seas span{font-weight:600;font-size:16px}.seas em{font-style:normal;font-size:36px}.chiph{margin:14px 0 6px;font-weight:700;color:var(--deep)}.topbox{background:#FFFDF5;border:2px solid var(--yel);border-radius:18px;padding:16px 16px 4px;margin:18px 0}.topbox h2{margin:0 0 4px;color:var(--deep);font-size:28px}.topsub{margin:0 0 6px;color:var(--muted)}.top5{counter-reset:t;list-style:none;margin:0;padding:0}.top5 .deal{grid-template-columns:120px 1fr}.top5 .pic{width:120px;height:120px;flex:none}.top5 .tag{width:120px;height:120px}.top5 .px b{font-size:26px;color:var(--red)}.top5 .px s{font-size:17px}.top5 .px span{background:var(--yel);color:#7A0A16;border-radius:8px;padding:2px 8px;font-weight:800}.top5 .deal{counter-increment:t;position:relative}.top5 .deal::before{content:counter(t);position:absolute;left:-6px;top:8px;z-index:1;background:var(--red);color:#fff;font-weight:800;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:16px}.top5 .deal:last-child{border-bottom:none}.note{font-size:15px;color:var(--muted);background:#F7F3EE;border-radius:10px;padding:10px 12px;margin:10px 0}.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
+.idg{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0}@media (min-width:760px){.idg{grid-template-columns:repeat(4,1fr)}}.idg a{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px;text-decoration:none;color:var(--ink);background:#FFF8E1;border:2px solid var(--yel);min-height:96px}.idg a:hover{background:#FFEFC2}.idg b{font-size:30px;line-height:1}.idg span{font-weight:700;color:var(--deep)}.idg small{font-size:14px;color:var(--muted)}.bud{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bud button{font:inherit;font-weight:700;padding:8px 14px;border-radius:999px;border:2px solid var(--red);background:#fff;color:var(--red);cursor:pointer}.bud button[aria-pressed=true]{background:var(--red);color:#fff}.msa{display:inline-block;margin:6px 0 14px;padding:10px 16px;border-radius:999px;background:#0084FF;color:#fff;font-weight:700;text-decoration:none}@media (max-width:600px){header{padding-top:10px!important;padding-bottom:12px!important}header h1{font-size:30px!important;margin:6px 0 4px!important;line-height:1.05!important}header .intro{font-size:15px!important;margin:0 0 4px!important}header .upd{display:none}.hwcta strong,.seas strong{font-size:19px!important}.hwcta,.seas{padding:10px 14px!important;margin:8px 0!important}.hwcta span,.seas span{font-size:14px!important}.hwcta em,.seas em{font-size:28px!important}nav{padding:8px 0!important}}.clubbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#FFF7DD;border:2px solid var(--yel);border-radius:14px;padding:8px 12px;margin:10px 0;font-weight:700;color:var(--deep);font-size:16px}.clubbar a{text-decoration:none;background:#fff;border:2px solid var(--deep);color:var(--deep);border-radius:999px;padding:5px 12px;font-size:15px}.seas{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0;padding:14px 16px;border-radius:16px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#8E0B16,#C1121F);border:2px solid var(--yel)}.seas strong{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:24px;line-height:1;color:var(--yel);display:block}.seas span{font-weight:600;font-size:16px}.seas em{font-style:normal;font-size:36px}.chiph{margin:14px 0 6px;font-weight:700;color:var(--deep)}.famc{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.famc a{font-size:14px;font-weight:700;text-decoration:none;color:var(--deep);background:#FFF8E1;border:2px solid var(--yel);border-radius:999px;padding:5px 10px}.famh{margin:16px 0 2px;font-size:22px;color:var(--deep);scroll-margin-top:12px}.topbox{background:#FFFDF5;border:2px solid var(--yel);border-radius:18px;padding:16px 16px 4px;margin:18px 0}.topbox h2{margin:0 0 4px;color:var(--deep);font-size:28px}.topsub{margin:0 0 6px;color:var(--muted)}.top5{counter-reset:t;list-style:none;margin:0;padding:0}.top5 .deal{grid-template-columns:120px 1fr}.top5 .pic{width:120px;height:120px;flex:none}.top5 .tag{width:120px;height:120px}.top5 .px b{font-size:26px;color:var(--red)}.top5 .px s{font-size:17px}.top5 .px span{background:var(--yel);color:#7A0A16;border-radius:8px;padding:2px 8px;font-weight:800}.top5 .deal{counter-increment:t;position:relative}.top5 .deal::before{content:counter(t);position:absolute;left:-6px;top:8px;z-index:1;background:var(--red);color:#fff;font-weight:800;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:16px}.top5 .deal:last-child{border-bottom:none}.note{font-size:15px;color:var(--muted);background:#F7F3EE;border-radius:10px;padding:10px 12px;margin:10px 0}.shop{background:#FFF8E1;border-radius:12px;padding-left:12px;padding-right:12px}.deal h3{margin:2px 0 6px;font-size:20px;line-height:1.2}.why{margin:0 0 8px;color:var(--muted)}
 .badges span{display:inline-block;font-size:13px;font-weight:700;background:#FFF3D1;color:var(--deep);border-radius:6px;padding:2px 8px;margin:0 6px 6px 0}
 .lea{display:flex;gap:18px;align-items:center;background:linear-gradient(135deg,#fff8e1,#ffe9a8);border:3px solid #C1121F;border-radius:20px;padding:18px;margin:16px 0;box-shadow:0 6px 18px rgba(193,18,31,.18)}.lea .ph{position:relative;flex:none}.lea img{width:132px;height:132px;border-radius:50%;object-fit:cover;display:block;border:4px solid #C1121F;box-shadow:0 4px 12px rgba(0,0,0,.25)}.lea .ia{position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);background:#C1121F;color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}.lea p{margin:0 0 8px;line-height:1.35;font-size:17px}.lea p b{font-size:20px;display:block;margin-bottom:4px}.lea a{display:inline-block;background:#C1121F;color:#fff;text-decoration:none;font-weight:700;padding:9px 14px;border-radius:10px;font-size:15px}@media (min-width:700px){.lea img{width:160px;height:160px}.lea p{font-size:19px}.lea p b{font-size:24px}}@media (max-width:380px){.lea{flex-direction:column;text-align:center}}
 .cd{display:inline-block;margin:0 0 6px;padding:3px 10px;border-radius:999px;background:#FFE3E6;color:#8E0B16;font-weight:700;font-size:14px}.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 12px;font-weight:700;color:var(--deep)}.share a,.share button{font:inherit;font-size:15px;font-weight:700;text-decoration:none;border-radius:999px;padding:6px 14px;border:2px solid var(--deep);background:#fff;color:var(--deep);cursor:pointer}
@@ -861,13 +861,44 @@ def rfd_block(cats=None):
     hors = HORS_SAISON(now)
     L = [x for x in L if not hors.search(x["title"])]
     if not L: return ""
-    if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS]  # accueil : pas de doublon avec le Top 5
+    if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS and x.get("asin") not in FAM_ASINS]  # accueil : pas de doublon avec le Top 5 ni avec « un cadeau pour chaque membre »
     if not L: return ""
     card = rfd_card
     li = "".join(card(x) for x in (L[:60] if cats else L[:40]))  # max de deals (demande d'Alex du 7 nov.) : 60 par catégorie, 40 sur l'accueil
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
+
+FAM_ASINS = set()
+FAMILLE = [("maman", "👩 Pour maman", {"beaute", "femme"}), ("papa", "👨 Pour papa", {"homme"}), ("enfants", "🧸 Pour les enfants", {"enfants", "jouets"}),
+           ("ado", "🎧 Pour l'ado", {"tech"}), ("maison", "🏠 Pour la maison", {"maison"}), ("pitou", "🐾 Pour le pitou et le minou", {"animaux"})]
+
+def famille_block():
+    """Accueil (demande d'Alex du 9 nov. : viser l'audience, maximum de clics) : un cadeau pour chaque membre de la famille,
+    4 deals frais par personne (photo d'abord), plus une rangée « bas de Noël » à moins de 25 $. Pas de doublon avec le Top 5."""
+    now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
+    L = [x for x in load_scan() if rfd_ok(x, now, hors) and x.get("asin") not in TOP_ASINS]
+    L.sort(key=lambda x: -(_score(x, now) + (30 if (x.get("img_url") or x.get("img")) else 0)))  # photo d'abord, nettement (plus vendeur)
+    FAM_ASINS.clear(); rows = []; chips = []
+    def take(f, n=4):
+        out = []
+        for x in L:
+            if len(out) >= n: break
+            if x["asin"] not in FAM_ASINS and f(x): out.append(x); FAM_ASINS.add(x["asin"])
+        return out
+    bas = take(lambda x: float(x["price"]) < 25)
+    for key, lab, cats in FAMILLE:
+        xs = take(lambda x, c=cats: x.get("cat") in c)
+        if xs:
+            chips.append(f'<a href="#{key}">{lab}</a>')
+            rows.append(f'<h3 class="famh" id="{key}">{lab}</h3><ul class="deals">' + "".join(rfd_card(x, lab) for x in xs) + '</ul>')
+    if bas:
+        chips.append('<a href="#bas-de-noel">🎄 Bas de Noël, moins de 25 $</a>')
+        rows.append('<h3 class="famh" id="bas-de-noel">🎄 Pour le bas de Noël, moins de 25 $</h3><ul class="deals">' + "".join(rfd_card(x, "🎄 Moins de 25 $") for x in bas) + '</ul>')
+    if not rows: return ""
+    return ('<section class="topbox" aria-label="Un cadeau pour chaque membre de la famille"><h2>🎁 Un cadeau pour chaque membre de la famille</h2>'
+            '<p class="topsub">Des marques connues à gros rabais, choisies pour les familles du Québec. Touche une personne pour sauter à ses idées :</p>'
+            '<p class="famc">' + "".join(chips) + '</p>' + "".join(rows) + '</section>')
 
 def vf_block():
     """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
@@ -935,7 +966,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (season_banner() + topblock + rfd_block() + brand_block() + dealcat_block() + hwblock + gift_chips() + '<h2>Plus de deals</h2>')
+            extra = (season_banner() + topblock + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
