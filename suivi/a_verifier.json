@@ -1,6 +1,16 @@
 {
- "genere": "2026-11-09T13:15+00:00",
+ "genere": "2026-11-09T13:28+00:00",
  "produits": [
+  {
+   "asin": "B0BS1QCFHX",
+   "titre": "Sony WH-CH720N, casque sans fil à réduction de bruit, bleu",
+   "prix_affiche": 118.0
+  },
+  {
+   "asin": "B0BQPNMXQV",
+   "titre": "JBL Vibe Beam, écouteurs sans fil, noir",
+   "prix_affiche": 44.98
+  },
   {
    "asin": "B0DVTGBCBL",
    "titre": "JBL Endurance Race 2, écouteurs sport sans fil",
@@ -285,6 +295,236 @@
    "asin": "B0GP976V5V",
    "titre": "Hunger Games coffret de 5 romans (en anglais), cadeau pour ado",
    "prix_affiche": 73.5
+  },
+  {
+   "asin": "B0F9XP5MP5",
+   "titre": "Graco EasyTurn 360, siège d'auto convertible pivotant",
+   "prix_affiche": 384.95
+  },
+  {
+   "asin": "B0BXM37848",
+   "titre": "Amazon Fire TV Stick 4K Max (nouveau modèle)",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B0F7Z43QKK",
+   "titre": "Amazon Fire TV Stick 4K Plus",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B0BT752BRT",
+   "titre": "Tablette Amazon Fire HD 10 (nouveau modèle)",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0CTBCDD6D",
+   "titre": "JBL Tune 720BT, casque sans fil",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B0BQPNMXQV",
+   "titre": "JBL Vibe Beam, écouteurs sans fil",
+   "prix_affiche": 44.98
+  },
+  {
+   "asin": "B0CTNTR9X4",
+   "titre": "JBL Clip 5, haut-parleur Bluetooth étanche",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0CQ1K6Z4X",
+   "titre": "JBL Live 670NC, casque à réduction de bruit",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B0G2ZWTTWL",
+   "titre": "JBL Endurance Peak 4, écouteurs sport antibruit",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0DW96RYW7",
+   "titre": "JBL Tune Beam 2 Ghost Edition, écouteurs sans fil",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B0BS1QCFHX",
+   "titre": "Sony WH-CH720N, casque sans fil antibruit",
+   "prix_affiche": 118.0
+  },
+  {
+   "asin": "B0BS1RT9S2",
+   "titre": "Sony WH-CH520, casque sans fil Bluetooth",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B08J9MVB6W",
+   "titre": "Sennheiser HD 560S, casque audiophile",
+   "prix_affiche": 149.95
+  },
+  {
+   "asin": "B0FJ3VXF3Q",
+   "titre": "Skullcandy Hesh 360, casque Bluetooth",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B09D5LYKRB",
+   "titre": "Garmin DriveSmart 66, GPS pour l'auto",
+   "prix_affiche": 249.99
+  },
+  {
+   "asin": "B0H87DRN2H",
+   "titre": "Anker chargeur intelligent avec écran pour portable",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0FHJ8XWWL",
+   "titre": "Ring sonnette à batterie 2K (nouveau modèle)",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0FJJ3517W",
+   "titre": "Ring sonnette filaire 2K (nouveau modèle)",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0D4SGCZSW",
+   "titre": "Ring Outdoor Cam Plus branchée, caméra extérieure 2K",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0G62V4MDP",
+   "titre": "Blink sonnette à batterie 2K+ (nouveau modèle)",
+   "prix_affiche": 41.99
+  },
+  {
+   "asin": "B009GPSAP2",
+   "titre": "National Tree sapin de Noël 7,5 pi pré-illuminé",
+   "prix_affiche": 499.99
+  },
+  {
+   "asin": "B0FXXBBJ4D",
+   "titre": "Ecovacs Deebot X2 Omni, robot aspirateur et laveur",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0FB59FN5M",
+   "titre": "Shark PowerPro Reveal Plus, aspirateur sans fil",
+   "prix_affiche": 299.99
+  },
+  {
+   "asin": "B07P97CD5T",
+   "titre": "Miele Classic C1, aspirateur-traîneau",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B0CD9JV7PB",
+   "titre": "Hoover CleanSlate XL, nettoyeur à tapis portatif",
+   "prix_affiche": 169.99
+  },
+  {
+   "asin": "B0FBGNQSK3",
+   "titre": "Eureka FlexReach, aspirateur vertical",
+   "prix_affiche": 137.68
+  },
+  {
+   "asin": "B0D6NCKY96",
+   "titre": "Henckels Statement, ensemble de 14 couteaux autoaffûtants",
+   "prix_affiche": 179.09
+  },
+  {
+   "asin": "B0DQWC47JN",
+   "titre": "De'Longhi Classic Signature, machine à espresso",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B07JGF236Q",
+   "titre": "Ninja friteuse à air 3,8 L (AF101C)",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0953DJ39N",
+   "titre": "Ninja cafetière une portion",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0H9SY6RXC",
+   "titre": "Cuisinart grille-pain XL 4 tranches",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B016D5ZXCK",
+   "titre": "Conair défroisseur vapeur vertical",
+   "prix_affiche": 69.91
+  },
+  {
+   "asin": "B09W21XFS5",
+   "titre": "Levoit humidificateur pour chambre",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B0FM7CHRKV",
+   "titre": "Gotrax voiturette électrique pour enfant de 3 à 8 ans",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0GXGKLGGM",
+   "titre": "Cybex Libelle, poussette de voyage compacte",
+   "prix_affiche": 349.97
+  },
+  {
+   "asin": "B0FJZDWPT3",
+   "titre": "Calhoun coton ouaté rétro LNH pour homme",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B00B6K4VDK",
+   "titre": "DeWalt TSTAK boîte à outils avec organiseur",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B09BDK7YG6",
+   "titre": "Craftsman boîte à outils verrouillable 16 po",
+   "prix_affiche": 19.98
+  },
+  {
+   "asin": "B01M1SJNVU",
+   "titre": "Dremel 4300, outil rotatif avec 40 accessoires",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0DQ2C66PH",
+   "titre": "Dremel scie circulaire compacte sans fil 12 V",
+   "prix_affiche": 149.0
+  },
+  {
+   "asin": "B09CDHGWW7",
+   "titre": "RENPHO pistolet de massage chauffant",
+   "prix_affiche": 94.98
+  },
+  {
+   "asin": "B0DDYDXFSL",
+   "titre": "Conair DigitalAire, séchoir et coiffeur 4 en 1",
+   "prix_affiche": 83.46
+  },
+  {
+   "asin": "B0GNTBJC3V",
+   "titre": "Shark FlexStyle, séchoir et coiffeur 4 en 1",
+   "prix_affiche": 279.99
+  },
+  {
+   "asin": "B09JZ18GLJ",
+   "titre": "Wavytalk séchoir ionique avec diffuseur",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0CFQ3R4CQ",
+   "titre": "Conair 330C, séchoir 1875 W",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B08F51Z8TM",
+   "titre": "Venustas veste chauffante pour femme",
+   "prix_affiche": 152.99
   }
  ]
 }
