@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09T17:07-04:00",
+ "date": "2026-11-09T17:40-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    43,
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   15,
+   13,
    [
     "2026-11-02T13:59:56+00:00",
     "2026-11-03T03:04:22+00:00"
@@ -53,8 +53,8 @@
    44,
    44,
    [
-    "2026-10-07T12:49:10+00:00",
-    "2026-10-07T13:29:33+00:00"
+    "2026-10-07T18:33:50+00:00",
+    "2026-10-07T19:08:11+00:00"
    ],
    [
     "2026-10-18T16:38:59+00:00",
@@ -65,28 +65,28 @@
    44,
    44,
    [
-    "2026-10-04T17:22:40+00:00",
-    "2026-10-05T13:42:22+00:00"
+    "2026-10-06T19:28:55+00:00",
+    "2026-10-06T20:04:07+00:00"
    ],
    [
-    "2026-10-07T12:39:39+00:00",
-    "2026-10-07T12:42:13+00:00"
+    "2026-10-07T18:23:05+00:00",
+    "2026-10-07T18:28:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T13:18:27+00:00",
-    "2026-09-22T13:47:19+00:00"
+    "2026-10-06T10:45:55+00:00",
+    "2026-10-06T11:25:43+00:00"
    ],
    [
-    "2026-10-04T13:03:02+00:00",
-    "2026-10-04T14:20:25+00:00"
+    "2026-10-06T19:02:23+00:00",
+    "2026-10-06T19:28:09+00:00"
    ]
   ],
-  "avant_filtre_date": 139,
-  "apres_filtre_date": 29
+  "avant_filtre_date": 135,
+  "apres_filtre_date": 31
  },
  "items": [
   {
@@ -112,7 +112,7 @@
    "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
    "price": 11.86,
    "was": 24.97,
-   "votes": 29,
+   "votes": 30,
    "posts": 9,
    "time": "2026-11-08T18:39:35+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
@@ -202,7 +202,7 @@
    "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
    "price": 20.57,
    "was": 41.14,
-   "votes": 12,
+   "votes": 13,
    "posts": 20,
    "time": "2026-11-07T15:42:26+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
@@ -324,6 +324,24 @@
    "img": "/img/p/B0DW9BXCYW.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
+   "price": 56.99,
+   "was": 259.99,
+   "votes": 5,
+   "posts": 12,
+   "time": "2026-11-09T16:24:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+   "asin": "B0H2N9BM7C",
+   "pct": 78,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H2N9BM7C.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
    "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
    "price": 11.57,
@@ -376,24 +394,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F233Y5YL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
-   "price": 56.99,
-   "was": 259.99,
-   "votes": 4,
-   "posts": 10,
-   "time": "2026-11-09T16:24:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "asin": "B0H2N9BM7C",
-   "pct": 78,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H2N9BM7C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
@@ -540,6 +540,24 @@
    "img": "/img/p/B0C35Z66QV.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
+   "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
+   "price": 35.99,
+   "was": 39.99,
+   "votes": 0,
+   "posts": 11,
+   "time": "2026-11-08T20:51:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
+   "asin": "B0H44MLFFL",
+   "pct": 10,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H44MLFFL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H44MLFFL.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-45w-usb-cec-gan-charger-block-smart-real-time-display-29-99-2831522/",
    "title": "UGREEN Nexode Pro 45W USB‑C GaN Charger Block with Smart Real-Time Display - $29.99",
    "price": 29.99,
@@ -574,6 +592,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DVTGBCBL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
+   "price": 118.0,
+   "was": 250.0,
+   "votes": 0,
+   "posts": 1,
+   "time": "2026-11-09T19:42:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "asin": "B0BS1QCFHX",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BS1QCFHX.jpg"
   }
  ]
 }
