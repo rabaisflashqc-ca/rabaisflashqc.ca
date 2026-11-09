@@ -1,92 +1,92 @@
 {
- "date": "2026-11-09T17:40-04:00",
+ "date": "2026-11-09T19:34-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   43,
-   43,
+   44,
+   44,
    [
     "2026-11-03T03:04:22+00:00",
     "2026-11-03T04:26:20+00:00"
    ],
    [
-    "2026-11-09T19:42:15+00:00",
-    "2026-11-09T19:54:13+00:00"
+    "2026-11-09T19:54:13+00:00",
+    "2026-11-09T23:17:54+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   2,
-   2,
+   3,
+   3,
    [
     "2026-11-04T03:00:53+00:00",
     "2026-11-05T18:26:25+00:00"
    ],
    [
-    "2026-11-04T03:00:53+00:00",
-    "2026-11-05T18:26:25+00:00"
+    "2026-11-05T18:26:25+00:00",
+    "2026-11-09T15:24:46+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   13,
+   12,
    [
-    "2026-11-02T13:59:56+00:00",
-    "2026-11-03T03:04:22+00:00"
+    "2026-11-03T03:04:22+00:00",
+    "2026-11-03T04:26:20+00:00"
    ],
    [
-    "2026-11-09T19:42:15+00:00",
-    "2026-11-09T19:54:13+00:00"
+    "2026-11-09T19:54:13+00:00",
+    "2026-11-09T23:17:54+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-20T01:00:56+00:00",
-    "2026-10-20T10:08:42+00:00"
+    "2026-10-20T10:08:42+00:00",
+    "2026-10-20T12:14:48+00:00"
    ],
    [
-    "2026-11-01T21:10:36+00:00",
-    "2026-11-02T11:41:33+00:00"
+    "2026-11-02T11:41:33+00:00",
+    "2026-11-02T13:59:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T18:33:50+00:00",
-    "2026-10-07T19:08:11+00:00"
+    "2026-10-07T13:29:33+00:00",
+    "2026-10-07T14:37:15+00:00"
    ],
    [
-    "2026-10-18T16:38:59+00:00",
-    "2026-10-19T18:22:12+00:00"
+    "2026-10-19T18:22:12+00:00",
+    "2026-10-20T01:00:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T19:28:55+00:00",
-    "2026-10-06T20:04:07+00:00"
+    "2026-10-05T13:42:22+00:00",
+    "2026-10-05T17:00:49+00:00"
    ],
    [
-    "2026-10-07T18:23:05+00:00",
-    "2026-10-07T18:28:14+00:00"
+    "2026-10-07T12:42:13+00:00",
+    "2026-10-07T12:49:10+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T10:45:55+00:00",
-    "2026-10-06T11:25:43+00:00"
+    "2026-09-22T13:47:19+00:00",
+    "2026-09-22T14:10:52+00:00"
    ],
    [
-    "2026-10-06T19:02:23+00:00",
-    "2026-10-06T19:28:09+00:00"
+    "2026-10-04T14:20:25+00:00",
+    "2026-10-04T17:22:40+00:00"
    ]
   ],
-  "avant_filtre_date": 135,
-  "apres_filtre_date": 31
+  "avant_filtre_date": 142,
+  "apres_filtre_date": 32
  },
  "items": [
   {
@@ -288,6 +288,24 @@
    "img": "/img/p/B0HJC3LFBV.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
+   "price": 56.99,
+   "was": 259.99,
+   "votes": 6,
+   "posts": 16,
+   "time": "2026-11-09T16:24:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+   "asin": "B0H2N9BM7C",
+   "pct": 78,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H2N9BM7C.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
    "title": "Ninja Air Fryer Pro, 5 Qt/4.7L, 4-in-1 on sale $99.99(179.99)",
    "price": 99.99,
@@ -322,24 +340,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DW9BXCYW.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
-   "price": 56.99,
-   "was": 259.99,
-   "votes": 5,
-   "posts": 12,
-   "time": "2026-11-09T16:24:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "asin": "B0H2N9BM7C",
-   "pct": 78,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H2N9BM7C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
@@ -383,17 +383,17 @@
    "price": 79.96,
    "was": 144.99,
    "votes": 4,
-   "posts": 11,
+   "posts": 12,
    "time": "2026-11-09T14:15:10+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
-   "asin": "B0F233Y5YL",
+   "asin": "B0F231T7BG",
    "pct": 45,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0F233Y5YL?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0F231T7BG?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0F233Y5YL.jpg"
+   "img": "/img/p/B0F231T7BG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
@@ -450,6 +450,24 @@
    "img": "/img/p/B0F8B8GSS2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
+   "title": "Jansport Medium Accessory Pouch - $10.99",
+   "price": 10.99,
+   "was": 14.99,
+   "votes": 2,
+   "posts": 1,
+   "time": "2026-11-09T19:54:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
+   "asin": "B08YRXB4N2",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08YRXB4N2?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B08YRXB4N2.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
    "title": "UGREEN Nexode Pro 160W GaN Charger - $84.99",
    "price": 84.99,
@@ -504,22 +522,22 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
-   "title": "Jansport Medium Accessory Pouch - $10.99",
-   "price": 10.99,
-   "was": 14.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
+   "price": 118.0,
+   "was": 250.0,
    "votes": 1,
    "posts": 1,
-   "time": "2026-11-09T19:54:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
-   "asin": "B08YRXB4N2",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08YRXB4N2?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B08YRXB4N2.jpg"
+   "time": "2026-11-09T19:42:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "asin": "B0BS1QCFHX",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
@@ -594,22 +612,22 @@
    "img": "/img/p/B0DVTGBCBL.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
-   "price": 118.0,
-   "was": 250.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
+   "title": "Craftsman V20 Cordless Drill Driver and Impact Driver, Includes 2 x 2Ah Lithium Ion Battery and Charger",
+   "price": 128.0,
+   "was": null,
    "votes": 0,
-   "posts": 1,
-   "time": "2026-11-09T19:42:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "asin": "B0BS1QCFHX",
-   "pct": 53,
+   "posts": 0,
+   "time": "2026-11-09T23:17:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
+   "asin": "B0GZ8KTZX7",
+   "pct": null,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
-   "deja": true,
+   "link": "https://www.amazon.ca/dp/B0GZ8KTZX7?tag=coupdecoeurqc-20",
+   "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BS1QCFHX.jpg"
+   "img": "/img/p/B0GZ8KTZX7.jpg"
   }
  ]
 }
