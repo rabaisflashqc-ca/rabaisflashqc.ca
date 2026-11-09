@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-09T02:15+00:00",
+ "genere": "2026-11-09T02:22+00:00",
  "produits": [
   {
    "asin": "B09W21XFS5",
@@ -225,6 +225,71 @@
    "asin": "B00NTVVT5M",
    "titre": "Buffalo David Bitton jeans pour homme",
    "prix_affiche": 62.91
+  },
+  {
+   "asin": "B00486GE48",
+   "titre": "National Tree Company sapin de Noël artificiel Dunhill",
+   "prix_affiche": 219.99
+  },
+  {
+   "asin": "B0DDQV5DYN",
+   "titre": "Shark PowerDetect aspirateur vertical",
+   "prix_affiche": 449.99
+  },
+  {
+   "asin": "B08VG8BBX4",
+   "titre": "Graco poussette avec siège d'auto SnugRide (système de voyage)",
+   "prix_affiche": 499.0
+  },
+  {
+   "asin": "B0H3554RGS",
+   "titre": "iRobot Roomba aspirateur robot avec station auto-vidage",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B085FRKBMF",
+   "titre": "Braun MultiQuick mélangeur à main avec accessoires",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0FKBFZNHK",
+   "titre": "Laifen Lite sèche-cheveux",
+   "prix_affiche": 104.99
+  },
+  {
+   "asin": "B0CRB5HZSB",
+   "titre": "RENPHO pèse-personne intelligent",
+   "prix_affiche": 39.89
+  },
+  {
+   "asin": "B0D4B6K9SL",
+   "titre": "Ninja BlendSense TB400C mélangeur et robot culinaire",
+   "prix_affiche": 189.98
+  },
+  {
+   "asin": "B0FMGN9792",
+   "titre": "Miele aspirateur traîneau AirClean",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B09BZVX3J7",
+   "titre": "Amazon Fire TV Cube",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B073H8STZ7",
+   "titre": "Utopia Bedding couverture en microfibre douillette",
+   "prix_affiche": 25.39
+  },
+  {
+   "asin": "B0CBMPDDYS",
+   "titre": "RENPHO masseur pour pieds avec chaleur, cadeau pour maman",
+   "prix_affiche": 119.98
+  },
+  {
+   "asin": "B0GP976V5V",
+   "titre": "Hunger Games coffret de 5 romans (en anglais), cadeau pour ado",
+   "prix_affiche": 73.5
   }
  ]
 }
