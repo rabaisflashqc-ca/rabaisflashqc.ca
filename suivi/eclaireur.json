@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08T19:07-04:00",
+ "date": "2026-11-08T21:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    37,
@@ -51,8 +51,8 @@
    44,
    44,
    [
-    "2026-10-07T02:58:29+00:00",
-    "2026-10-07T02:59:51+00:00"
+    "2026-10-07T16:37:45+00:00",
+    "2026-10-07T17:13:10+00:00"
    ],
    [
     "2026-10-14T05:36:38+00:00",
@@ -63,27 +63,27 @@
    44,
    44,
    [
-    "2026-10-02T20:46:53+00:00",
-    "2026-10-02T23:33:17+00:00"
+    "2026-10-06T17:17:29+00:00",
+    "2026-10-06T17:42:56+00:00"
    ],
    [
-    "2026-10-06T23:57:51+00:00",
-    "2026-10-07T01:06:05+00:00"
+    "2026-10-07T16:18:52+00:00",
+    "2026-10-07T16:22:51+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-21T18:27:22+00:00",
-    "2026-09-22T02:11:29+00:00"
+    "2026-10-06T08:11:31+00:00",
+    "2026-10-06T08:41:45+00:00"
    ],
    [
-    "2026-10-02T18:52:18+00:00",
-    "2026-10-02T18:54:06+00:00"
+    "2026-10-06T16:12:37+00:00",
+    "2026-10-06T16:55:01+00:00"
    ]
   ],
-  "avant_filtre_date": 135,
+  "avant_filtre_date": 130,
   "apres_filtre_date": 22
  },
  "items": [
@@ -124,6 +124,42 @@
    "img": "/img/p/B0BVRSMXDQ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
+   "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
+   "price": 11.86,
+   "was": 24.97,
+   "votes": 19,
+   "posts": 7,
+   "time": "2026-11-08T18:39:35+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
+   "asin": "B0GV4XGJBN",
+   "pct": 53,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0GV4XGJBN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GV4XGJBN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
+   "price": 114.33,
+   "was": 138.5,
+   "votes": 17,
+   "posts": 22,
+   "time": "2026-11-06T14:20:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
+   "asin": "B0FN6WGN7L",
+   "pct": 17,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FN6WGN7L.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
    "title": "Glorious Gaming Switches and Keycaps - from $8.99",
    "price": 10.99,
@@ -142,24 +178,6 @@
    "img": null
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
-   "price": 114.33,
-   "was": 138.5,
-   "votes": 16,
-   "posts": 22,
-   "time": "2026-11-06T14:20:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "asin": "B0FN6WGN7L",
-   "pct": 17,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FN6WGN7L.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
    "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
    "price": 16.62,
@@ -176,24 +194,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0DHZJBL29.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
-   "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
-   "price": 11.86,
-   "was": 24.97,
-   "votes": 13,
-   "posts": 6,
-   "time": "2026-11-08T18:39:35+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
-   "asin": "B0GV4XGJBN",
-   "pct": 53,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B0GV4XGJBN?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GV4XGJBN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -322,6 +322,24 @@
    "img": "/img/p/B07SVP1SD4.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
+   "title": "JBL Endurance Race 2 True Wireless Sports Earbuds, Black, Waterproof Design $39.90",
+   "price": 39.9,
+   "was": 109.98,
+   "votes": 3,
+   "posts": 3,
+   "time": "2026-11-08T20:14:01+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
+   "asin": "B0DW9BXCYW",
+   "pct": 64,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DW9BXCYW?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DW9BXCYW.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-philips-4pack-led-60w-a19-non-dimmable-2700k-6-38-atl-lower-sub-save-2831025/",
    "title": "PHILIPS 4Pack Led 60W A19 Non Dimmable (2700K) - $6.38 ATL (lower with sub & save)",
    "price": 6.38,
@@ -338,24 +356,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B071JBMY54.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
-   "title": "JBL Endurance Race 2 True Wireless Sports Earbuds, Black, Waterproof Design $39.90",
-   "price": 39.9,
-   "was": 109.98,
-   "votes": 2,
-   "posts": 2,
-   "time": "2026-11-08T20:14:01+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
-   "asin": "B0DW9BXCYW",
-   "pct": 64,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DW9BXCYW?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DW9BXCYW.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
