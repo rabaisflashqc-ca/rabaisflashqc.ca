@@ -1,16 +1,16 @@
 {
- "date": "2026-11-08T22:34-04:00",
+ "date": "2026-11-09T09:54-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    37,
    37,
    [
-    "2026-11-02T11:41:33+00:00",
-    "2026-11-02T13:59:56+00:00"
+    "2026-11-02T13:59:56+00:00",
+    "2026-11-03T03:01:19+00:00"
    ],
    [
-    "2026-11-08T20:14:01+00:00",
-    "2026-11-08T20:51:05+00:00"
+    "2026-11-08T20:51:05+00:00",
+    "2026-11-09T12:07:55+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -25,66 +25,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   22,
+   20,
    [
-    "2026-10-30T13:18:01+00:00",
-    "2026-10-30T13:29:53+00:00"
+    "2026-10-30T13:29:53+00:00",
+    "2026-10-30T13:33:33+00:00"
    ],
    [
-    "2026-11-08T20:14:01+00:00",
-    "2026-11-08T20:51:05+00:00"
+    "2026-11-08T20:51:05+00:00",
+    "2026-11-09T12:07:55+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-15T12:10:09+00:00",
-    "2026-10-15T19:23:35+00:00"
+    "2026-10-15T19:23:35+00:00",
+    "2026-10-16T05:07:40+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-29T23:25:00+00:00"
+    "2026-10-29T23:25:00+00:00",
+    "2026-10-30T13:18:01+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T16:37:45+00:00",
-    "2026-10-07T17:13:10+00:00"
+    "2026-10-07T17:13:10+00:00",
+    "2026-10-07T17:29:38+00:00"
    ],
    [
-    "2026-10-14T05:36:38+00:00",
-    "2026-10-14T06:06:16+00:00"
+    "2026-10-14T06:06:16+00:00",
+    "2026-10-15T12:10:09+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T17:17:29+00:00",
-    "2026-10-06T17:42:56+00:00"
+    "2026-10-06T17:42:56+00:00",
+    "2026-10-06T17:52:01+00:00"
    ],
    [
-    "2026-10-07T16:18:52+00:00",
-    "2026-10-07T16:22:51+00:00"
+    "2026-10-07T16:22:51+00:00",
+    "2026-10-07T16:37:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T08:11:31+00:00",
-    "2026-10-06T08:41:45+00:00"
+    "2026-10-06T08:41:45+00:00",
+    "2026-10-06T09:16:26+00:00"
    ],
    [
-    "2026-10-06T16:12:37+00:00",
-    "2026-10-06T16:55:01+00:00"
+    "2026-10-06T16:55:01+00:00",
+    "2026-10-06T17:17:29+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
-  "apres_filtre_date": 22
+  "avant_filtre_date": 131,
+  "apres_filtre_date": 24
  },
  "items": [
   {
@@ -92,7 +92,7 @@
    "title": "Ecoflow 65W Rapid charger (CSA/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 62,
+   "votes": 64,
    "posts": 43,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-etl-21-2831253/",
@@ -110,8 +110,8 @@
    "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
    "price": 5.98,
    "was": 10.68,
-   "votes": 24,
-   "posts": 5,
+   "votes": 28,
+   "posts": 6,
    "time": "2026-11-07T22:37:16+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
    "asin": "B0BVRSMXDQ",
@@ -128,8 +128,8 @@
    "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
    "price": 11.86,
    "was": 24.97,
-   "votes": 19,
-   "posts": 7,
+   "votes": 24,
+   "posts": 9,
    "time": "2026-11-08T18:39:35+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
    "asin": "B0GV4XGJBN",
@@ -146,7 +146,7 @@
    "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
    "price": 114.33,
    "was": 138.5,
-   "votes": 18,
+   "votes": 19,
    "posts": 23,
    "time": "2026-11-06T14:20:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
@@ -196,11 +196,29 @@
    "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-e-performance-race-car-42176-99-55-off-2831490/",
+   "title": "LEGO Technic Porsche GT4 e-Performance Race Car 42176 @ $99 (55% off)",
+   "price": 99.0,
+   "was": 220.0,
+   "votes": 13,
+   "posts": 10,
+   "time": "2026-11-09T12:07:55+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-e-performance-race-car-42176-99-55-off-2831490/",
+   "asin": "B0CV27WQQV",
+   "pct": 55,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0CV27WQQV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CV27WQQV.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
    "title": "LEGO Technic Porsche GT4",
    "price": 149.99,
    "was": 219.99,
-   "votes": 10,
+   "votes": 11,
    "posts": 4,
    "time": "2026-11-05T05:56:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -214,30 +232,12 @@
    "img": null
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
-   "price": 51.0,
-   "was": 135.0,
-   "votes": 9,
-   "posts": 14,
-   "time": "2026-11-04T19:21:57+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
-   "asin": "B0D464JX3M",
-   "pct": 62,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D464JX3M.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
    "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
    "price": 20.57,
    "was": 41.14,
-   "votes": 9,
-   "posts": 18,
+   "votes": 11,
+   "posts": 19,
    "time": "2026-11-07T15:42:26+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
    "asin": "B0DGMX5845",
@@ -248,6 +248,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DGMX5845.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "title": "Megapro Three Tool Anniversary Kit | 3 Screwdrivers $51.00",
+   "price": 51.0,
+   "was": 135.0,
+   "votes": 9,
+   "posts": 15,
+   "time": "2026-11-04T19:21:57+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-three-tool-anniversary-kit-3-screwdrivers-51-00-2831093/",
+   "asin": "B0D464JX3M",
+   "pct": 62,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0D464JX3M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D464JX3M.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-go-4-portable-bluetooth-speaker-black-39-98-2831095/",
@@ -326,8 +344,8 @@
    "title": "JBL Endurance Race 2 True Wireless Sports Earbuds, Black, Waterproof Design $39.90",
    "price": 39.9,
    "was": 109.98,
-   "votes": 3,
-   "posts": 6,
+   "votes": 4,
+   "posts": 7,
    "time": "2026-11-08T20:14:01+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
    "asin": "B0DW9BXCYW",
@@ -428,6 +446,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F8B8GSS2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
+   "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
+   "price": 35.99,
+   "was": 39.99,
+   "votes": 1,
+   "posts": 6,
+   "time": "2026-11-08T20:51:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
+   "asin": "B0H44MLFFL",
+   "pct": 10,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H44MLFFL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H44MLFFL.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
