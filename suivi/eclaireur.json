@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09T19:34-04:00",
+ "date": "2026-11-09T20:15-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -53,8 +53,8 @@
    44,
    44,
    [
-    "2026-10-07T13:29:33+00:00",
-    "2026-10-07T14:37:15+00:00"
+    "2026-10-07T19:08:11+00:00",
+    "2026-10-07T19:11:46+00:00"
    ],
    [
     "2026-10-19T18:22:12+00:00",
@@ -65,27 +65,27 @@
    44,
    44,
    [
-    "2026-10-05T13:42:22+00:00",
-    "2026-10-05T17:00:49+00:00"
+    "2026-10-06T20:04:07+00:00",
+    "2026-10-06T20:10:14+00:00"
    ],
    [
-    "2026-10-07T12:42:13+00:00",
-    "2026-10-07T12:49:10+00:00"
+    "2026-10-07T18:28:14+00:00",
+    "2026-10-07T18:33:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T13:47:19+00:00",
-    "2026-09-22T14:10:52+00:00"
+    "2026-10-06T11:25:43+00:00",
+    "2026-10-06T11:42:40+00:00"
    ],
    [
-    "2026-10-04T14:20:25+00:00",
-    "2026-10-04T17:22:40+00:00"
+    "2026-10-06T19:28:09+00:00",
+    "2026-10-06T19:28:55+00:00"
    ]
   ],
-  "avant_filtre_date": 142,
+  "avant_filtre_date": 136,
   "apres_filtre_date": 32
  },
  "items": [
@@ -112,8 +112,8 @@
    "title": "Conair 318RC Hair Dryer 1875 Watt Mid-Size Blow Dryer $11.86 (53% off)",
    "price": 11.86,
    "was": 24.97,
-   "votes": 30,
-   "posts": 9,
+   "votes": 31,
+   "posts": 10,
    "time": "2026-11-08T18:39:35+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-conair-318rc-hair-dryer-1875-watt-mid-size-blow-dryer-11-86-53-off-2831434/",
    "asin": "B0GV4XGJBN",
@@ -292,7 +292,7 @@
    "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
    "price": 56.99,
    "was": 259.99,
-   "votes": 6,
+   "votes": 7,
    "posts": 16,
    "time": "2026-11-09T16:24:25+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
@@ -401,7 +401,7 @@
    "price": 7.0,
    "was": 21.0,
    "votes": 4,
-   "posts": 5,
+   "posts": 7,
    "time": "2026-11-09T16:41:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
    "asin": "B07MH8WN23",
@@ -448,6 +448,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F8B8GSS2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
+   "price": 118.0,
+   "was": 250.0,
+   "votes": 2,
+   "posts": 1,
+   "time": "2026-11-09T19:42:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "asin": "B0BS1QCFHX",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
@@ -522,22 +540,22 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
-   "price": 118.0,
-   "was": 250.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
+   "title": "Craftsman V20 Cordless Drill Driver and Impact Driver, Includes 2 x 2Ah Lithium Ion Battery and Charger",
+   "price": 128.0,
+   "was": null,
    "votes": 1,
-   "posts": 1,
-   "time": "2026-11-09T19:42:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "asin": "B0BS1QCFHX",
-   "pct": 53,
+   "posts": 2,
+   "time": "2026-11-09T23:17:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
+   "asin": "B0GZ8KTZX7",
+   "pct": null,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BS1QCFHX.jpg"
+   "link": "https://www.amazon.ca/dp/B0GZ8KTZX7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 2,
+   "doute": true,
+   "img": "/img/p/B0GZ8KTZX7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-gain-aroma-boost-liquid-laundry-detergent-original-scent-he-compatible-107-loads-4-55l-sale-15-98-19-99-2830914/",
@@ -610,24 +628,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DVTGBCBL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
-   "title": "Craftsman V20 Cordless Drill Driver and Impact Driver, Includes 2 x 2Ah Lithium Ion Battery and Charger",
-   "price": 128.0,
-   "was": null,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-09T23:17:54+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
-   "asin": "B0GZ8KTZX7",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GZ8KTZX7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GZ8KTZX7.jpg"
   }
  ]
 }
