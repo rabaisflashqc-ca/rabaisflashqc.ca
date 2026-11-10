@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-09T23:58+00:00",
+ "genere": "2026-11-10T00:03+00:00",
  "produits": [
   {
    "asin": "B0DVTGBCBL",
@@ -225,6 +225,366 @@
    "asin": "B0CGQBYM43",
    "titre": "Sonic le hérisson, planche à roulettes 31 po",
    "prix_affiche": 49.99
+  },
+  {
+   "asin": "B0BXM37848",
+   "titre": "Amazon Fire TV Stick 4K Max (nouveau modèle)",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B0F7Z43QKK",
+   "titre": "Amazon Fire TV Stick 4K Plus",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B0F7K67DY2",
+   "titre": "Amazon Fire TV Stick HD (nouveau modèle)",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0GFWQ5FRM",
+   "titre": "ECOVACS Deebot T90 Pro Omni, robot aspirateur et serpillère",
+   "prix_affiche": 699.99
+  },
+  {
+   "asin": "B0F9XP5MP5",
+   "titre": "Graco EasyTurn 360, siège d'auto pivotant pour enfant",
+   "prix_affiche": 384.95
+  },
+  {
+   "asin": "B0FHJ8XWWL",
+   "titre": "Ring sonnette à batterie 2K (nouveau modèle)",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0BT752BRT",
+   "titre": "Tablette Amazon Fire HD 10 (nouveau modèle)",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0CTBCDD6D",
+   "titre": "JBL Tune 720BT, casque sans fil",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B07VBPLPH5",
+   "titre": "Philips série 2200, machine à expresso automatique",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0BS1QCFHX",
+   "titre": "Sony WH-CH720N, casque à réduction de bruit",
+   "prix_affiche": 118.0
+  },
+  {
+   "asin": "B0BQPNMXQV",
+   "titre": "JBL Vibe Beam, écouteurs sans fil",
+   "prix_affiche": 44.98
+  },
+  {
+   "asin": "B0FRM1VHXH",
+   "titre": "Philips machine à expresso entièrement automatique",
+   "prix_affiche": 799.99
+  },
+  {
+   "asin": "B0DDV3FRHR",
+   "titre": "Sony WH-1000XM5, casque antibruit sans fil",
+   "prix_affiche": 348.0
+  },
+  {
+   "asin": "B0CTNX1VK2",
+   "titre": "JBL Clip 5, enceinte Bluetooth portative",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0DY918NGN",
+   "titre": "Sony WH-CH520, casque sans fil",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B0CTD6V6S6",
+   "titre": "JBL PartyBox Stage 320, haut-parleur de party",
+   "prix_affiche": 549.98
+  },
+  {
+   "asin": "B0G62V4MDP",
+   "titre": "Blink sonnette à batterie 2K+ (nouveau modèle)",
+   "prix_affiche": 41.99
+  },
+  {
+   "asin": "B0F1H55C8Q",
+   "titre": "Cybex Gazelle S 2, poussette pour 1 ou 2 enfants",
+   "prix_affiche": 899.95
+  },
+  {
+   "asin": "B0F7T8CS6V",
+   "titre": "Ring sonnette filaire 4K Pro (nouveau modèle)",
+   "prix_affiche": 209.99
+  },
+  {
+   "asin": "B0GNTBJC3V",
+   "titre": "Shark FlexStyle, séchoir et coiffeur 5 en 1",
+   "prix_affiche": 279.99
+  },
+  {
+   "asin": "B0711F4437",
+   "titre": "Amazon Basics valise rigide extensible",
+   "prix_affiche": 107.81
+  },
+  {
+   "asin": "B01EA5ZI2U",
+   "titre": "Braun MQ505, mélangeur à main",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0FMGN9792",
+   "titre": "Miele Guard M1, aspirateur-traîneau",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B08J9MVB6W",
+   "titre": "Sennheiser HD 560S, casque audiophile",
+   "prix_affiche": 149.95
+  },
+  {
+   "asin": "B0H3554RGS",
+   "titre": "iRobot Roomba Plus 515, robot aspirateur",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B0DW9B1FCL",
+   "titre": "JBL Tune Beam 2 Ghost, écouteurs sans fil",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B00486GE48",
+   "titre": "National Tree Company sapin de Noël Dunhill",
+   "prix_affiche": 219.99
+  },
+  {
+   "asin": "B08VG8BBX4",
+   "titre": "Graco Modes, système de voyage poussette et siège",
+   "prix_affiche": 499.0
+  },
+  {
+   "asin": "B0DW237ZLB",
+   "titre": "Shark PowerDetect Clean & Empty, aspirateur sans fil avec base",
+   "prix_affiche": 549.99
+  },
+  {
+   "asin": "B0F6DY1DGR",
+   "titre": "De'Longhi La Specialista Touch, machine à expresso",
+   "prix_affiche": 799.99
+  },
+  {
+   "asin": "B0852913V2",
+   "titre": "Conair séchoir à cheveux compact",
+   "prix_affiche": 11.86
+  },
+  {
+   "asin": "B0H7YPF966",
+   "titre": "De'Longhi La Specialista Arte Evo, machine à expresso",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B09BZVX3J7",
+   "titre": "Amazon Fire TV Cube (nouveau modèle)",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0GZLV3TYN",
+   "titre": "Blink Mini caméra pivotante (nouveau modèle)",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0GS4NNPPL",
+   "titre": "Ohuhu 216 marqueurs à alcool pour dessin",
+   "prix_affiche": 198.89
+  },
+  {
+   "asin": "B07JGF236Q",
+   "titre": "Ninja friteuse à air 3,8 L, 4 en 1",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0B6JTX6NB",
+   "titre": "Nextmug, tasse à café auto-chauffante",
+   "prix_affiche": 124.95
+  },
+  {
+   "asin": "B0G3626TXZ",
+   "titre": "Ring caméra avec projecteur 2K (nouveau modèle)",
+   "prix_affiche": 154.99
+  },
+  {
+   "asin": "B01MRX9US8",
+   "titre": "Crest 3D Whitestrips Vivid White, bandes blanchissantes",
+   "prix_affiche": 24.66
+  },
+  {
+   "asin": "B0FHKW3LHR",
+   "titre": "OCOOPA chauffe-mains rechargeables",
+   "prix_affiche": 26.99
+  },
+  {
+   "asin": "B00G5DB5QO",
+   "titre": "National Tree Company sapin de Noël artificiel",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0CQ1CVW3Z",
+   "titre": "JBL Live 670NC, casque antibruit sans fil",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B00EVY54IE",
+   "titre": "Eddie Bauer parure de lit en flanelle",
+   "prix_affiche": 75.39
+  },
+  {
+   "asin": "B0GLSK2LRC",
+   "titre": "Conair InfinitiPRO, fer à boucler automatique",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B01M1SJNVU",
+   "titre": "Dremel 4300, outil rotatif avec accessoires",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0G62TFG7S",
+   "titre": "Blink sonnette filaire 2K+ (nouveau modèle)",
+   "prix_affiche": 30.99
+  },
+  {
+   "asin": "B0DT7BFNNW",
+   "titre": "Bose SoundLink Home, haut-parleur Bluetooth",
+   "prix_affiche": 199.0
+  },
+  {
+   "asin": "B0007ZF4OA",
+   "titre": "HeatMax chauffe-mains, 40 paires",
+   "prix_affiche": 39.25
+  },
+  {
+   "asin": "B0FB8DHB8H",
+   "titre": "Gyroor G13, hoverboard pour enfants",
+   "prix_affiche": 189.99
+  },
+  {
+   "asin": "B016D5ZXCK",
+   "titre": "Conair défroisseur à vapeur",
+   "prix_affiche": 69.91
+  },
+  {
+   "asin": "B0GXGKLGGM",
+   "titre": "Cybex Libelle, poussette de voyage légère",
+   "prix_affiche": 349.97
+  },
+  {
+   "asin": "B015XUL74E",
+   "titre": "CAP veste lestée ajustable",
+   "prix_affiche": 72.99
+  },
+  {
+   "asin": "B0DV4T5TSB",
+   "titre": "Blink Outdoor 4 avec projecteur",
+   "prix_affiche": 55.99
+  },
+  {
+   "asin": "B0BMB5WFHW",
+   "titre": "Corsair T3 Rush, chaise de jeu",
+   "prix_affiche": 299.99
+  },
+  {
+   "asin": "B0GWSGZ1LY",
+   "titre": "Blink Mini 4K+ (dernier modèle), caméra intérieure",
+   "prix_affiche": 76.99
+  },
+  {
+   "asin": "B0FX5Y722B",
+   "titre": "SMEG bloc de couteaux style rétro années 50",
+   "prix_affiche": 439.99
+  },
+  {
+   "asin": "B098JYFGWS",
+   "titre": "Hoover CleanSlate Plus, nettoyeur de taches portatif",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B01IQDWP4Q",
+   "titre": "National Tree Company sapin de Noël pré-illuminé",
+   "prix_affiche": 249.99
+  },
+  {
+   "asin": "B0CFCHY7YM",
+   "titre": "Skullcandy Dime 3, écouteurs sans fil",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0C3GTMX5M",
+   "titre": "UGREEN batterie portative 100 W",
+   "prix_affiche": 65.99
+  },
+  {
+   "asin": "B091Z6JNX4",
+   "titre": "UGREEN Nexode, chargeur USB-C rapide",
+   "prix_affiche": 45.99
+  },
+  {
+   "asin": "B075F8QNF6",
+   "titre": "California Design Den, parure de lit 4 pièces",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0BBP8X8GG",
+   "titre": "Cuckoo cuiseur à riz à induction haute pression",
+   "prix_affiche": 475.99
+  },
+  {
+   "asin": "B01JRTZVVM",
+   "titre": "Cuckoo CRP-P0609S, cuiseur à riz sous pression",
+   "prix_affiche": 265.99
+  },
+  {
+   "asin": "B0GJFWP6LM",
+   "titre": "Cricut Joy 2, ensemble deluxe",
+   "prix_affiche": 159.0
+  },
+  {
+   "asin": "B01BGY6GPG",
+   "titre": "Amazon Basics coffre-fort 40 L",
+   "prix_affiche": 116.1
+  },
+  {
+   "asin": "B074D8DTLV",
+   "titre": "National Tree Company couronne de Noël",
+   "prix_affiche": 72.99
+  },
+  {
+   "asin": "B0G1N8ZH2F",
+   "titre": "Bissell CrossWave EdgeFind, aspirateur laveur",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0GM2KLNN1",
+   "titre": "Harman Kardon Aura Studio 5, enceinte",
+   "prix_affiche": 299.99
+  },
+  {
+   "asin": "B0CFQ3R4CQ",
+   "titre": "Conair 330C Titanium Pro, séchoir à cheveux",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B0DBNTYL27",
+   "titre": "Ninja four grille-pain rabattable",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0DDYDXFSL",
+   "titre": "Conair DigitalAire, séchoir coiffant",
+   "prix_affiche": 83.46
   }
  ]
 }
