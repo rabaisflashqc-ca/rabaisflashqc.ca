@@ -991,6 +991,10 @@ def main():
                  + '<h2>Les autres guides</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES if x[0] != g) + '</p><h2>Les rabais du moment pour ce guide</h2>')
         items = order([d for d in DEALS if f(d)])
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
+    write("courriel", simple("courriel", "Les deals du jour par courriel, gratuit | Rabais Flash QC", "📬 Les deals du jour par courriel",
+          '<p>Chaque jour, on trie des milliers de rabais pour toi et on t\'envoie seulement les meilleurs : vrais prix, gros %, marques connues. '
+          'C\'est <b>gratuit</b>, 1 à 2 courriels par jour, et tu peux te désabonner en tout temps.</p>'
+          f'<p style="text-align:center;margin:18px 0"><a class="nlb" href="{FORM}" target="_blank" rel="noopener">Je m\'inscris gratuitement 👉</a></p>'))
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC, c'est un entrepreneur du Québec, pour le Québec. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
         "<h2>Pourquoi « Flash »?</h2><p>Parce que les meilleurs rabais ne durent pas. Certains disparaissent en quelques heures, et Amazon ou la marque peut changer le prix ou arrêter l'offre à tout moment, sans nous prévenir. On ne peut donc pas garantir qu'un rabais sera encore là quand tu cliques. C'est pour ça qu'on met le site à jour plusieurs fois par jour, et qu'on te conseille de ne pas trop attendre.</p>"
