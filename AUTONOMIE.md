@@ -82,6 +82,13 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Communauté : pas de groupe Facebook (décision d'Alex, 1er nov.). On mise sur la page, Instagram, TikTok et le site.
 - Objectif de commissions : 500 $ en décembre demande environ 12 000 $ de ventes (à environ 4 % de commission), soit autour de 4 000 clics vers Amazon dans le mois. 2 000 $ demande environ 4 fois plus. Suivre clics et ventes chaque dimanche dans le bilan.
 
+## Facebook : liens limités (constaté par Alex le 9 nov. 2026)
+
+- Meta limite maintenant la page à 2 publications avec lien par mois (posts ET commentaires) sans l'abonnement payant Meta One. On ne paie pas Meta One sans l'accord d'Alex.
+- Donc dans les packs Facebook : pas de lien cliquable dans le texte ni dans le premier commentaire. On écrit l'adresse en texte qui ne devient pas un lien (« rabaisflashqc point ca », ou l'adresse écrite en gros sur l'image ou le réel) et on renvoie vers le bouton de la page et le lien du profil.
+- Garder les 2 liens du mois pour les gros moments (Vendredi fou 27 nov., Cyber lundi 30 nov.).
+- Inscription courriel : rabaisflashqc.ca/courriel (bouton d'action de la page, bios Instagram et TikTok).
+
 ## Règles absolues
 
 - Chaque post finit par : « En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. »
