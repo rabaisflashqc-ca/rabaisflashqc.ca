@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09T20:15-04:00",
+ "date": "2026-11-09T22:23-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   12,
+   11,
    [
     "2026-11-03T03:04:22+00:00",
     "2026-11-03T04:26:20+00:00"
@@ -85,8 +85,8 @@
     "2026-10-06T19:28:55+00:00"
    ]
   ],
-  "avant_filtre_date": 136,
-  "apres_filtre_date": 32
+  "avant_filtre_date": 137,
+  "apres_filtre_date": 33
  },
  "items": [
   {
@@ -130,7 +130,7 @@
    "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
    "price": 5.98,
    "was": 10.68,
-   "votes": 28,
+   "votes": 29,
    "posts": 6,
    "time": "2026-11-07T22:37:16+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
@@ -220,7 +220,7 @@
    "title": "LEGO Technic Porsche GT4",
    "price": 149.99,
    "was": 219.99,
-   "votes": 11,
+   "votes": 12,
    "posts": 4,
    "time": "2026-11-05T05:56:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-technic-porsche-gt4-2831149/",
@@ -270,6 +270,24 @@
    "img": "/img/p/B0CTNWBT1Z.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
+   "price": 56.99,
+   "was": 259.99,
+   "votes": 8,
+   "posts": 21,
+   "time": "2026-11-09T16:24:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+   "asin": "B0H2N9BM7C",
+   "pct": 78,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H2N9BM7C.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-monster-sleep-ear200-bluetooth-6-0-wireless-ear-headphones-sleep-earbuds-anc-sale-41-99-129-99-2830919/",
    "title": "Monster Sleep Ear200, Bluetooth 6.0 Wireless in-Ear Headphones, Sleep Earbuds with ANC on sale $41.99($129.99)",
    "price": 41.99,
@@ -286,24 +304,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HJC3LFBV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
-   "price": 56.99,
-   "was": 259.99,
-   "votes": 7,
-   "posts": 16,
-   "time": "2026-11-09T16:24:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "asin": "B0H2N9BM7C",
-   "pct": 78,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H2N9BM7C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-air-fryer-pro-5-qt-4-7l-4-1-sale-99-99-179-99-2830913/",
@@ -473,7 +473,7 @@
    "price": 10.99,
    "was": 14.99,
    "votes": 2,
-   "posts": 1,
+   "posts": 2,
    "time": "2026-11-09T19:54:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
    "asin": "B08YRXB4N2",
@@ -540,12 +540,30 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
+   "title": "JBL Endurance Race 2 - Waterproof Sports True Wireless Earbuds - $39.98",
+   "price": 39.98,
+   "was": 109.98,
+   "votes": 1,
+   "posts": 0,
+   "time": "2026-11-09T17:00:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
+   "asin": "B0DVTGBCBL",
+   "pct": 64,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DVTGBCBL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DVTGBCBL.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
    "title": "Craftsman V20 Cordless Drill Driver and Impact Driver, Includes 2 x 2Ah Lithium Ion Battery and Charger",
    "price": 128.0,
    "was": null,
    "votes": 1,
-   "posts": 2,
+   "posts": 7,
    "time": "2026-11-09T23:17:54+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-craftsman-v20-cordless-drill-driver-impact-driver-includes-2-x-2ah-lithium-ion-battery-charger-2831566/",
    "asin": "B0GZ8KTZX7",
@@ -553,8 +571,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0GZ8KTZX7?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 2,
-   "doute": true,
+   "morts": 0,
+   "doute": false,
    "img": "/img/p/B0GZ8KTZX7.jpg"
   },
   {
@@ -612,22 +630,22 @@
    "img": "/img/p/B0H8NSBTRH.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
-   "title": "JBL Endurance Race 2 - Waterproof Sports True Wireless Earbuds - $39.98",
-   "price": 39.98,
-   "was": 109.98,
+   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-super-automatic-349-99-2831523/",
+   "title": "Philips 2200 Super Automatic - $349.99",
+   "price": 349.99,
+   "was": 549.99,
    "votes": 0,
-   "posts": 0,
-   "time": "2026-11-09T17:00:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
-   "asin": "B0DVTGBCBL",
-   "pct": 64,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DVTGBCBL?tag=coupdecoeurqc-20",
+   "posts": 9,
+   "time": "2026-11-09T16:56:55+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-super-automatic-349-99-2831523/",
+   "asin": "B07VBPLPH5",
+   "pct": 36,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DVTGBCBL.jpg"
+   "img": "/img/p/B07VBPLPH5.jpg"
   }
  ]
 }
