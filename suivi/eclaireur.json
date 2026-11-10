@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10T14:18-04:00",
+ "date": "2026-11-10T14:55-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    40,
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   14,
+   15,
    [
     "2026-11-03T04:59:26+00:00",
     "2026-11-03T05:10:25+00:00"
@@ -53,8 +53,8 @@
    44,
    44,
    [
-    "2026-10-07T19:24:52+00:00",
-    "2026-10-07T19:57:32+00:00"
+    "2026-10-07T17:22:58+00:00",
+    "2026-10-07T17:29:38+00:00"
    ],
    [
     "2026-10-20T12:14:48+00:00",
@@ -65,28 +65,28 @@
    44,
    44,
    [
-    "2026-10-06T20:25:00+00:00",
-    "2026-10-06T20:37:28+00:00"
+    "2026-10-06T02:06:41+00:00",
+    "2026-10-06T06:44:23+00:00"
    ],
    [
-    "2026-10-07T19:11:46+00:00",
-    "2026-10-07T19:20:38+00:00"
+    "2026-10-07T14:37:15+00:00",
+    "2026-10-07T16:16:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T12:46:06+00:00",
-    "2026-10-06T12:46:34+00:00"
+    "2026-09-22T15:20:42+00:00",
+    "2026-09-22T16:11:35+00:00"
    ],
    [
-    "2026-10-06T20:10:14+00:00",
-    "2026-10-06T20:13:34+00:00"
+    "2026-10-05T17:00:49+00:00",
+    "2026-10-05T21:19:30+00:00"
    ]
   ],
-  "avant_filtre_date": 135,
-  "apres_filtre_date": 30
+  "avant_filtre_date": 142,
+  "apres_filtre_date": 29
  },
  "items": [
   {
@@ -293,7 +293,7 @@
    "price": 37.99,
    "was": 49.99,
    "votes": 6,
-   "posts": 12,
+   "posts": 13,
    "time": "2026-11-09T13:59:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "asin": "B0FG7MXDH6",
@@ -301,8 +301,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0FG7MXDH6?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
+   "morts": 0,
+   "doute": false,
    "img": "/img/p/B0FG7MXDH6.jpg"
   },
   {
@@ -540,6 +540,24 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
+   "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
+   "price": 659.99,
+   "was": 899.99,
+   "votes": 1,
+   "posts": 1,
+   "time": "2026-11-10T17:27:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
+   "asin": "B0GH74B9RQ",
+   "pct": 27,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GH74B9RQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GH74B9RQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
    "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
    "price": 35.99,
@@ -574,24 +592,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BQPNMXQV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
-   "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
-   "price": 659.99,
-   "was": 899.99,
-   "votes": 0,
-   "posts": 1,
-   "time": "2026-11-10T17:27:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
-   "asin": "B0GH74B9RQ",
-   "pct": 27,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GH74B9RQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GH74B9RQ.jpg"
   }
  ]
 }
