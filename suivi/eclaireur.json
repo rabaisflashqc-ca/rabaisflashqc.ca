@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10T14:55-04:00",
+ "date": "2026-11-10T17:00-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    40,
@@ -14,14 +14,14 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   4,
-   4,
+   2,
+   2,
    [
     "2026-11-04T03:00:53+00:00",
-    "2026-11-06T14:57:49+00:00"
+    "2026-11-09T15:24:46+00:00"
    ],
    [
-    "2026-11-08T19:17:26+00:00",
+    "2026-11-04T03:00:53+00:00",
     "2026-11-09T15:24:46+00:00"
    ]
   ],
@@ -401,7 +401,7 @@
    "price": 10.99,
    "was": 14.99,
    "votes": 4,
-   "posts": 2,
+   "posts": 3,
    "time": "2026-11-09T19:54:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
    "asin": "B08YRXB4N2",
@@ -419,7 +419,7 @@
    "price": 24.93,
    "was": 42.99,
    "votes": 4,
-   "posts": 11,
+   "posts": 12,
    "time": "2026-11-10T02:33:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
    "asin": "B0FB9FHQV5",
@@ -545,7 +545,7 @@
    "price": 659.99,
    "was": 899.99,
    "votes": 1,
-   "posts": 1,
+   "posts": 3,
    "time": "2026-11-10T17:27:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
    "asin": "B0GH74B9RQ",
