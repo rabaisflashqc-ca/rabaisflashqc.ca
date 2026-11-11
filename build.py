@@ -481,6 +481,8 @@ def season_banner(t=None):
     t = t or datetime.date.today(); m, d = t.month, t.day
     if (m == 11 and d >= 20) or (m == 12 and d <= 2):
         a = ("/vendredi-fou/", "C'EST LE VENDREDI FOU", "Les meilleurs deals du moment, au même endroit", "🔥")
+    elif m == 11 and prevf_list():
+        a = ("/vendredi-fou/", "LES OFFRES PRÉ-VENDREDI FOU SONT LÀ", "Les premiers rabais d'Amazon, triés pour toi", "🔥")
     elif m in (10, 11):
         a = ("/idees-cadeaux/", "NOËL APPROCHE", "Nos guides cadeaux par personne et par budget", "🎁")
     elif m == 12 and d <= 23:
@@ -914,6 +916,23 @@ def famille_block():
             '<p class="topsub">Des marques connues à gros rabais, choisies pour les familles du Québec. Touche une personne pour sauter à ses idées :</p>'
             '<p class="famc">' + "".join(chips) + '</p>' + "".join(rows) + '</section>')
 
+def prevf_list():
+    """Offres pré-Vendredi fou (champ vf dans suivi/deals_chrome.json, lues il y a moins de 24 h), photo d'abord puis plus gros rabais."""
+    now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
+    L = [x for x in KEEPA_FRAIS.values() if x.get("vf") and x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
+         and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
+    L.sort(key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
+    return [{**x, "verifie": x["seen"]} for x in L]
+
+def prevf_block(n=None):
+    """Section mise en avant (demande d'Alex du 10 nov.) : les offres pré-Vendredi fou d'Amazon. n = nombre de cartes (accueil), None = toutes."""
+    L = prevf_list()
+    if not L: return ""
+    more = f'<p class="more"><a href="/vendredi-fou/">Voir les {len(L)} offres pré-Vendredi fou →</a></p>' if n and len(L) > n else ""
+    return ('<section class="topbox" id="pre-vendredi-fou" aria-label="Offres pré-Vendredi fou"><h2>🔥 Offres pré-Vendredi fou</h2>'
+            '<p class="topsub">Les premiers rabais du Vendredi fou sont déjà sortis sur Amazon. On a gardé les marques connues et les vrais rabais.</p>'
+            f'<ul class="deals">{"".join(rfd_card(x, "🔥 Pré-Vendredi fou") for x in (L[:n] if n else L))}</ul>{more}</section>')
+
 def vf_block():
     """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -922,6 +941,8 @@ def vf_block():
     L = [{**x, "verifie": x["seen"]} for x in sorted(L, key=lambda x: -(x.get("pct") or 0))[:40]]
     cd = ('<div class="seas" style="display:block;text-align:center"><strong id="vfc">Vendredi fou : 27 novembre 2026</strong></div>'
           '<script>(function(){var el=document.getElementById("vfc"),t=Date.parse("2026-11-27T05:00:00Z");function f(){var ms=t-Date.now();if(ms<=0){el.textContent="C\'est le Vendredi fou! 🔥";return}var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);el.innerHTML="Vendredi fou dans <b>"+d+" j "+h+" h "+m+" min</b>"}f();setInterval(f,60000)})();</script>')
+    cd += prevf_block()
+    _pv = {x["asin"] for x in prevf_list()}; L = [x for x in L if x["asin"] not in _pv]
     if not L: return cd
     return (cd + '<section class="topbox" aria-label="Meilleurs deals vérifiés"><h2>🔥 Les meilleurs deals vérifiés aujourd\'hui</h2>'
             '<p class="topsub">Prix vérifiés sur Keepa, avec la date de lecture. Ils bougent vite : vérifie le prix final avant d\'acheter.</p>'
@@ -980,7 +1001,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (season_banner() + topblock + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
+            extra = (season_banner() + topblock + prevf_block(8) + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
