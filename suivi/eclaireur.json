@@ -1,92 +1,92 @@
 {
- "date": "2026-11-10T22:42-04:00",
+ "date": "2026-11-11T13:17-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   40,
-   40,
+   44,
+   44,
    [
-    "2026-11-04T03:00:53+00:00",
-    "2026-11-04T04:02:11+00:00"
+    "2026-11-04T19:21:57+00:00",
+    "2026-11-04T19:48:21+00:00"
    ],
    [
-    "2026-11-10T16:57:59+00:00",
-    "2026-11-10T17:27:03+00:00"
+    "2026-11-11T16:06:02+00:00",
+    "2026-11-11T16:22:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   2,
-   2,
+   7,
+   7,
    [
-    "2026-11-04T03:00:53+00:00",
-    "2026-11-09T15:24:46+00:00"
+    "2026-11-04T21:50:48+00:00",
+    "2026-11-06T14:57:49+00:00"
    ],
    [
-    "2026-11-04T03:00:53+00:00",
-    "2026-11-09T15:24:46+00:00"
+    "2026-11-11T13:44:20+00:00",
+    "2026-11-11T16:06:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   15,
+   14,
    [
-    "2026-11-03T04:59:26+00:00",
-    "2026-11-03T05:10:25+00:00"
+    "2026-11-04T19:48:21+00:00",
+    "2026-11-04T19:49:53+00:00"
    ],
    [
-    "2026-11-10T16:57:59+00:00",
-    "2026-11-10T17:27:03+00:00"
+    "2026-11-11T16:06:02+00:00",
+    "2026-11-11T16:22:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   44,
+   43,
    [
-    "2026-10-21T00:41:23+00:00",
-    "2026-10-21T21:46:17+00:00"
+    "2026-10-23T09:52:47+00:00",
+    "2026-10-23T12:44:30+00:00"
    ],
    [
-    "2026-11-03T04:26:20+00:00",
-    "2026-11-03T04:34:26+00:00"
+    "2026-11-04T04:02:11+00:00",
+    "2026-11-04T19:21:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T17:22:58+00:00",
-    "2026-10-07T17:29:38+00:00"
+    "2026-10-08T00:14:10+00:00",
+    "2026-10-08T02:29:03+00:00"
    ],
    [
-    "2026-10-20T12:14:48+00:00",
-    "2026-10-20T23:45:11+00:00"
+    "2026-10-23T05:10:09+00:00",
+    "2026-10-23T05:23:39+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T02:06:41+00:00",
-    "2026-10-06T06:44:23+00:00"
+    "2026-10-06T12:24:34+00:00",
+    "2026-10-06T12:59:33+00:00"
    ],
    [
-    "2026-10-07T14:37:15+00:00",
-    "2026-10-07T16:16:56+00:00"
+    "2026-10-07T19:36:28+00:00",
+    "2026-10-07T22:55:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-22T15:20:42+00:00",
-    "2026-09-22T16:11:35+00:00"
+    "2026-09-23T23:00:22+00:00",
+    "2026-09-24T12:26:57+00:00"
    ],
    [
-    "2026-10-05T17:00:49+00:00",
-    "2026-10-05T21:19:30+00:00"
+    "2026-10-06T10:21:02+00:00",
+    "2026-10-06T11:14:40+00:00"
    ]
   ],
-  "avant_filtre_date": 142,
-  "apres_filtre_date": 29
+  "avant_filtre_date": 138,
+  "apres_filtre_date": 31
  },
  "items": [
   {
@@ -184,8 +184,8 @@
    "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
    "price": 56.99,
    "was": 259.99,
-   "votes": 15,
-   "posts": 30,
+   "votes": 17,
+   "posts": 31,
    "time": "2026-11-09T16:24:25+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
    "asin": "B0H2N9BM7C",
@@ -293,7 +293,7 @@
    "price": 37.99,
    "was": 49.99,
    "votes": 7,
-   "posts": 13,
+   "posts": 14,
    "time": "2026-11-09T13:59:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "asin": "B0FG7MXDH6",
@@ -310,7 +310,7 @@
    "title": "JBL Endurance Race 2 True Wireless Sports Earbuds, Black, Waterproof Design $39.90",
    "price": 39.9,
    "was": 109.98,
-   "votes": 5,
+   "votes": 6,
    "posts": 7,
    "time": "2026-11-08T20:14:01+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
@@ -322,6 +322,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DW9BXCYW.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
+   "title": "SUPVAN E11 Label Maker Machine + 1 Tape $24.93",
+   "price": 24.93,
+   "was": 42.99,
+   "votes": 6,
+   "posts": 16,
+   "time": "2026-11-10T02:33:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
+   "asin": "B0FB9FHQV5",
+   "pct": 42,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FB9FHQV5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FB9FHQV5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-patriot-memory-64gb-lx-series-micro-sd-card-surveillance-action-camera-19-49-61-off-2831736/",
+   "title": "Patriot Memory 64GB LX Series Micro SD Card, Surveillance, Action Camera $19.49 (61% off)",
+   "price": 19.49,
+   "was": 50.49,
+   "votes": 6,
+   "posts": 10,
+   "time": "2026-11-11T14:03:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-patriot-memory-64gb-lx-series-micro-sd-card-surveillance-action-camera-19-49-61-off-2831736/",
+   "asin": "B08KSTX3R4",
+   "pct": 61,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B08KSTX3R4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08KSTX3R4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
@@ -360,22 +396,22 @@
    "img": "/img/p/B07MH8WN23.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
-   "title": "SUPVAN E11 Label Maker Machine + 1 Tape $24.93",
-   "price": 24.93,
-   "was": 42.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
+   "price": 118.0,
+   "was": 250.0,
    "votes": 5,
-   "posts": 15,
-   "time": "2026-11-10T02:33:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
-   "asin": "B0FB9FHQV5",
-   "pct": 42,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FB9FHQV5?tag=coupdecoeurqc-20",
-   "deja": false,
+   "posts": 6,
+   "time": "2026-11-09T19:42:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "asin": "B0BS1QCFHX",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
+   "deja": true,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FB9FHQV5.jpg"
+   "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
@@ -396,24 +432,6 @@
    "img": "/img/p/B07SVP1SD4.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
-   "price": 118.0,
-   "was": 250.0,
-   "votes": 4,
-   "posts": 3,
-   "time": "2026-11-09T19:42:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "asin": "B0BS1QCFHX",
-   "pct": 53,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BS1QCFHX.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
    "title": "Jansport Medium Accessory Pouch - $10.99",
    "price": 10.99,
@@ -432,22 +450,22 @@
    "img": "/img/p/B08YRXB4N2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-philips-4pack-led-60w-a19-non-dimmable-2700k-6-38-atl-lower-sub-save-2831025/",
-   "title": "PHILIPS 4Pack Led 60W A19 Non Dimmable (2700K) - $6.38 ATL (lower with sub & save)",
-   "price": 6.38,
-   "was": 7.97,
-   "votes": 2,
-   "posts": 10,
-   "time": "2026-11-04T04:02:11+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-4pack-led-60w-a19-non-dimmable-2700k-6-38-atl-lower-sub-save-2831025/",
-   "asin": "B071JBMY54",
-   "pct": 20,
+   "url": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
+   "title": "Mind Reader Metal Mesh Countertop Organizer $29.99 (-55%)",
+   "price": 29.99,
+   "was": 66.95,
+   "votes": 4,
+   "posts": 1,
+   "time": "2026-11-11T13:11:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
+   "asin": "B0741XP8RH",
+   "pct": 55,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B071JBMY54?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0741XP8RH?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B071JBMY54.jpg"
+   "img": "/img/p/B0741XP8RH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
@@ -486,22 +504,40 @@
    "img": "/img/p/B0DVTGBCBL.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
-   "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
-   "price": 659.99,
-   "was": 899.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
+   "title": "Nilight 12\" 300W Led Light Bar (for trucks etc) @ $7.31",
+   "price": 7.31,
+   "was": null,
    "votes": 2,
-   "posts": 6,
-   "time": "2026-11-10T17:27:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
-   "asin": "B0GH74B9RQ",
-   "pct": 27,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GH74B9RQ?tag=coupdecoeurqc-20",
+   "posts": 7,
+   "time": "2026-11-11T14:38:32+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
+   "asin": "B073XMM3T5",
+   "pct": null,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B073XMM3T5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B073XMM3T5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-saucony-womens-s10862-05-trail-running-shoe-29-41-65-off-2831745/",
+   "title": "Saucony Womens S10862-05 Trail Running Shoe (@ $29.41; 65% Off)",
+   "price": 29.41,
+   "was": 84.45,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-11T16:22:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-saucony-womens-s10862-05-trail-running-shoe-29-41-65-off-2831745/",
+   "asin": "B0CMBG9SBR",
+   "pct": 65,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0CMBG9SBR?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0GH74B9RQ.jpg"
+   "img": "/img/p/B0CMBG9SBR.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
@@ -558,6 +594,24 @@
    "img": "/img/p/B0HF4MRYHN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
+   "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
+   "price": 659.99,
+   "was": 899.99,
+   "votes": 1,
+   "posts": 14,
+   "time": "2026-11-10T17:27:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
+   "asin": "B0GH74B9RQ",
+   "pct": 27,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GH74B9RQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GH74B9RQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
    "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
    "price": 35.99,
@@ -574,24 +628,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H44MLFFL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-vibe-beam-true-wireless-earbuds-sale-44-98-99-99-2831618/",
-   "title": "JBL Vibe Beam - True Wireless Earbuds on sale $44.98($99.99)",
-   "price": 44.98,
-   "was": 99.98,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-10T16:26:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-vibe-beam-true-wireless-earbuds-sale-44-98-99-99-2831618/",
-   "asin": "B0BQPNMXQV",
-   "pct": 55,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BQPNMXQV?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BQPNMXQV.jpg"
   }
  ]
 }
