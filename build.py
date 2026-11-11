@@ -933,6 +933,31 @@ def prevf_block(n=None):
             '<p class="topsub">Les premiers rabais du Vendredi fou sont déjà sortis sur Amazon. On a gardé les marques connues et les vrais rabais.</p>'
             f'<ul class="deals">{"".join(rfd_card(x, "🔥 Pré-Vendredi fou") for x in (L[:n] if n else L))}</ul>{more}</section>')
 
+OJ_THEMES = [("pre-vendredi-fou", "🔥 Offres pré-Vendredi fou", lambda x: x.get("vf") and "Noël" not in x["title"]),
+             ("tech", "🎧 Tech et son", lambda x: x["cat"] == "tech"),
+             ("maison", "🏠 Maison et cuisine", lambda x: x["cat"] == "maison" and "Noël" not in x["title"]),
+             ("noel", "🎄 Sapins et décos de Noël", lambda x: "Noël" in x["title"]),
+             ("beaute", "💄 Beauté et coiffure", lambda x: x["cat"] == "beaute"),
+             ("enfants", "🧸 Enfants et jouets", lambda x: x["cat"] in ("jouets", "enfants")),
+             ("mode", "👕 Mode pour elle et lui", lambda x: x["cat"] in ("homme", "femme")),
+             ("animaux", "🐾 Animaux et plein air", lambda x: x["cat"] in ("animaux", "plein-air"))]
+
+def offres_du_jour_block():
+    """Page /offres-du-jour/ (10 nov. : page d'arrivée de l'infolettre, un seul lien dans le courriel) : tous les deals lus il y a moins de 24 h, par thème, photo d'abord."""
+    now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
+    L = [{**x, "verifie": x["seen"]} for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
+         and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
+    L.sort(key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
+    pris, chips, rows = set(), [], []
+    for key, lab, f in OJ_THEMES:
+        xs = [x for x in L if x["asin"] not in pris and f(x)]
+        if not xs: continue
+        pris.update(x["asin"] for x in xs)
+        chips.append(f'<a href="#{key}">{lab}</a>')
+        rows.append(f'<h2 class="famh" id="{key}">{lab}</h2><ul class="deals">' + "".join(rfd_card(x, lab) for x in xs) + '</ul>')
+    if not rows: return ""
+    return '<p class="famc">' + "".join(chips) + '</p>' + "".join(rows)
+
 def vf_block():
     """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -1015,6 +1040,10 @@ def main():
                  + '<h2>Les autres guides</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES if x[0] != g) + '</p><h2>Les rabais du moment pour ce guide</h2>')
         items = order([d for d in DEALS if f(d)])
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
+    _oj = offres_du_jour_block()
+    write("offres-du-jour", page("offres-du-jour", "Les offres du jour sur Amazon.ca, triées par thème | Rabais Flash QC", "Les offres du jour, triées pour toi",
+          "Tous les deals qu'on a vérifiés aujourd'hui, par thème : marques connues, vrais rabais, photos et prix datés. Touche un thème pour y sauter.",
+          [], _oj or '<p>Les deals du jour arrivent bientôt. Reviens dans quelques heures!</p>').replace('<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>', "")); urls.append("offres-du-jour")
     write("courriel", simple("courriel", "Les deals du jour par courriel, gratuit | Rabais Flash QC", "📬 Les deals du jour par courriel",
           '<p>Chaque jour, on trie des milliers de rabais pour toi et on t\'envoie seulement les meilleurs : vrais prix, gros %, marques connues. '
           'C\'est <b>gratuit</b>, 1 à 2 courriels par jour, et tu peux te désabonner en tout temps.</p>'
