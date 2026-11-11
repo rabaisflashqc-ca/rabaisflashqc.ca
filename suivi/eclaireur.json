@@ -1,12 +1,12 @@
 {
- "date": "2026-11-11T17:32-04:00",
+ "date": "2026-11-11T18:41-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   39,
-   39,
+   38,
+   38,
    [
-    "2026-11-04T21:50:48+00:00",
-    "2026-11-04T23:05:40+00:00"
+    "2026-11-04T23:05:40+00:00",
+    "2026-11-05T05:56:37+00:00"
    ],
    [
     "2026-11-11T16:06:02+00:00",
@@ -14,11 +14,11 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   6,
-   6,
+   4,
+   4,
    [
-    "2026-11-06T14:57:49+00:00",
-    "2026-11-08T19:17:26+00:00"
+    "2026-11-09T15:24:46+00:00",
+    "2026-11-11T06:34:46+00:00"
    ],
    [
     "2026-11-11T13:44:20+00:00",
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   20,
+   21,
    [
     "2026-11-04T19:21:57+00:00",
     "2026-11-04T19:48:21+00:00"
@@ -85,8 +85,8 @@
     "2026-10-06T10:21:02+00:00"
    ]
   ],
-  "avant_filtre_date": 137,
-  "apres_filtre_date": 24
+  "avant_filtre_date": 136,
+  "apres_filtre_date": 23
  },
  "items": [
   {
@@ -94,7 +94,7 @@
    "title": "Ecoflow 65W Rapid charger (CSA/ETL) $21",
    "price": 20.99,
    "was": 30.99,
-   "votes": 65,
+   "votes": 66,
    "posts": 45,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-etl-21-2831253/",
@@ -306,6 +306,24 @@
    "img": "/img/p/B0FB9FHQV5.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
+   "title": "Mind Reader Metal Mesh Countertop Organizer $29.99 (-55%)",
+   "price": 29.99,
+   "was": 66.95,
+   "votes": 6,
+   "posts": 3,
+   "time": "2026-11-11T13:11:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
+   "asin": "B0741XP8RH",
+   "pct": 55,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0741XP8RH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0741XP8RH.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
    "title": "Razer Kishi V3 Gaming Controller $79.96",
    "price": 79.96,
@@ -358,24 +376,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BS1QCFHX.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
-   "title": "Mind Reader Metal Mesh Countertop Organizer $29.99 (-55%)",
-   "price": 29.99,
-   "was": 66.95,
-   "votes": 5,
-   "posts": 3,
-   "time": "2026-11-11T13:11:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
-   "asin": "B0741XP8RH",
-   "pct": 55,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0741XP8RH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0741XP8RH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
@@ -484,24 +484,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H44MLFFL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
-   "title": "Nilight 12\" 300W Led Light Bar (for trucks etc) @ $7.31",
-   "price": 7.31,
-   "was": null,
-   "votes": 0,
-   "posts": 9,
-   "time": "2026-11-11T14:38:32+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
-   "asin": "B073XMM3T5",
-   "pct": null,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B073XMM3T5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B073XMM3T5.jpg"
   }
  ]
 }
