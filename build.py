@@ -701,7 +701,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 {club()}
 <footer><p>Les rabais sont fixés par Amazon et par les marques, qui peuvent les modifier ou y mettre fin à tout moment, sans préavis. Leur durée n'est jamais garantie. Vérifie toujours le prix actuel sur Amazon.ca avant d'acheter.</p>
 <p>{DISCLOSURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a><a href="{IG}" rel="noopener">Instagram</a><a href="{TT}" rel="noopener">TikTok</a></p></footer>
-</main><script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);}})();</script></body></html>"""
+</main><script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);var a=location.hash.slice(1);if(/^[A-Z0-9]{{10}}$/.test(a)){{var d=document.querySelector('li[data-asin="'+a+'"]');if(d){{d.style.outline='3px solid #ffc629';d.style.outlineOffset='2px';setTimeout(function(){{d.scrollIntoView({{block:'center'}});}},150);}}}}}})();</script></body></html>"""
 
 def simple(slug, title, h1, body):
     return page(slug, title, h1, "", [], extra=body).replace('<ul class="deals"><li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li></ul>', "").replace('<p class="intro"></p>', "")
@@ -809,7 +809,7 @@ def rfd_card(x, stats='🔥 Deal du moment'):
     if x.get("price"):
         px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
               f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix vérifié le {when}</small></p>')
-    return (f'<li class="deal"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
+    return (f'<li class="deal" data-asin="{e(x["asin"])}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
             f'<h3>{e(x["title"])}</h3>{px}'
             f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
 
