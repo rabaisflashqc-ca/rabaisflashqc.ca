@@ -14,7 +14,7 @@ import json, re, sys
 from datetime import datetime, timezone, timedelta
 
 MENTION = "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
-SOURCES_OK = {"keepa"}
+SOURCES_OK = {"keepa", "amazon"}  # "amazon" : page de deals amazon.ca envoyée par Alex et lue en une passe (exception du 7 nov., AUTONOMIE.md)
 TEXTES = ["Facebook", "Premier commentaire Facebook", "Instagram", "TikTok"]
 from zoneinfo import ZoneInfo
 QC = ZoneInfo("America/Toronto")
@@ -72,7 +72,7 @@ def main():
         check(not re.search(r"partenaire officiel", t, re.I), f"{nom} : pas de « partenaire officiel »")
         check(not re.search(r"plus que \d+ en stock|derni[eè]res? unit", t, re.I), f"{nom} : pas de faux manque")
     if "Premier commentaire Facebook" in sec:
-        check("rabaisflashqc.ca" in sec["Premier commentaire Facebook"], "premier commentaire : lien du site")
+        check(re.search(r"rabaisflashqc(\.ca| point ca)", sec["Premier commentaire Facebook"]), "premier commentaire : adresse du site (« rabaisflashqc point ca » depuis la limite de liens Facebook du 9 nov.)")
 
     # 2. Données des deals
     data = sec.get("Données (ne pas publier)", "")
