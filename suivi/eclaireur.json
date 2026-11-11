@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11T14:05-04:00",
+ "date": "2026-11-11T14:59-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -53,8 +53,8 @@
    44,
    44,
    [
-    "2026-10-07T23:26:09+00:00",
-    "2026-10-07T23:57:48+00:00"
+    "2026-10-08T00:14:10+00:00",
+    "2026-10-08T02:29:03+00:00"
    ],
    [
     "2026-10-23T05:10:09+00:00",
@@ -65,27 +65,27 @@
    44,
    44,
    [
-    "2026-10-06T21:42:16+00:00",
-    "2026-10-06T23:37:47+00:00"
+    "2026-10-06T12:24:34+00:00",
+    "2026-10-06T12:59:33+00:00"
    ],
    [
-    "2026-10-07T22:55:58+00:00",
-    "2026-10-07T23:13:35+00:00"
+    "2026-10-07T19:36:28+00:00",
+    "2026-10-07T22:55:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T13:19:26+00:00",
-    "2026-10-06T13:25:11+00:00"
+    "2026-09-23T23:00:22+00:00",
+    "2026-09-24T12:26:57+00:00"
    ],
    [
-    "2026-10-06T21:12:52+00:00",
-    "2026-10-06T21:15:52+00:00"
+    "2026-10-06T10:21:02+00:00",
+    "2026-10-06T11:14:40+00:00"
    ]
   ],
-  "avant_filtre_date": 133,
+  "avant_filtre_date": 138,
   "apres_filtre_date": 31
  },
  "items": [
@@ -293,7 +293,7 @@
    "price": 37.99,
    "was": 49.99,
    "votes": 7,
-   "posts": 14,
+   "posts": 15,
    "time": "2026-11-09T13:59:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "asin": "B0FG7MXDH6",
@@ -304,24 +304,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FG7MXDH6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-patriot-memory-64gb-lx-series-micro-sd-card-surveillance-action-camera-19-49-61-off-2831736/",
-   "title": "Patriot Memory 64GB LX Series Micro SD Card, Surveillance, Action Camera $19.49 (61% off)",
-   "price": 19.49,
-   "was": 50.49,
-   "votes": 7,
-   "posts": 12,
-   "time": "2026-11-11T14:03:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-patriot-memory-64gb-lx-series-micro-sd-card-surveillance-action-camera-19-49-61-off-2831736/",
-   "asin": "B08KSTX3R4",
-   "pct": 61,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08KSTX3R4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08KSTX3R4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
@@ -358,6 +340,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FB9FHQV5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-patriot-memory-64gb-lx-series-micro-sd-card-surveillance-action-camera-19-49-61-off-2831736/",
+   "title": "Patriot Memory 64GB LX Series Micro SD Card, Surveillance, Action Camera $19.49 (61% off)",
+   "price": 19.49,
+   "was": 50.49,
+   "votes": 6,
+   "posts": 14,
+   "time": "2026-11-11T14:03:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-patriot-memory-64gb-lx-series-micro-sd-card-surveillance-action-camera-19-49-61-off-2831736/",
+   "asin": "B08KSTX3R4",
+   "pct": 61,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B08KSTX3R4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08KSTX3R4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
@@ -414,6 +414,24 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
+   "title": "Mind Reader Metal Mesh Countertop Organizer $29.99 (-55%)",
+   "price": 29.99,
+   "was": 66.95,
+   "votes": 5,
+   "posts": 3,
+   "time": "2026-11-11T13:11:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
+   "asin": "B0741XP8RH",
+   "pct": 55,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0741XP8RH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0741XP8RH.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lepage-pl-premium-max-construction-adhesive-266-ml-cartridge-11-57-2831166/",
    "title": "LePage PL Premium MAX Construction Adhesive, 266 ml, Cartridge - $11.57",
    "price": 11.57,
@@ -450,42 +468,6 @@
    "img": "/img/p/B08YRXB4N2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
-   "title": "Mind Reader Metal Mesh Countertop Organizer $29.99 (-55%)",
-   "price": 29.99,
-   "was": 66.95,
-   "votes": 4,
-   "posts": 3,
-   "time": "2026-11-11T13:11:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
-   "asin": "B0741XP8RH",
-   "pct": 55,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0741XP8RH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0741XP8RH.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-saucony-womens-s10862-05-trail-running-shoe-29-41-65-off-2831745/",
-   "title": "Saucony Womens S10862-05 Trail Running Shoe (@ $29.41; 65% Off)",
-   "price": 29.41,
-   "was": 84.45,
-   "votes": 3,
-   "posts": 5,
-   "time": "2026-11-11T16:22:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-saucony-womens-s10862-05-trail-running-shoe-29-41-65-off-2831745/",
-   "asin": "B0CMBG9SBR",
-   "pct": 65,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0CMBG9SBR?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CMBG9SBR.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-petg-3d-printer-filament-4kg-ci-48-59-59-99-2831167/",
    "title": "ELEGOO PETG 3D Printer Filament 4KG – $48.59 (was. $59.99)",
    "price": 48.59,
@@ -520,24 +502,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DVTGBCBL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
-   "title": "Nilight 12\" 300W Led Light Bar (for trucks etc) @ $7.31",
-   "price": 7.31,
-   "was": null,
-   "votes": 2,
-   "posts": 7,
-   "time": "2026-11-11T14:38:32+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
-   "asin": "B073XMM3T5",
-   "pct": null,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B073XMM3T5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B073XMM3T5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-160w-gan-charger-84-99-2831094/",
@@ -599,7 +563,7 @@
    "price": 659.99,
    "was": 899.99,
    "votes": 1,
-   "posts": 16,
+   "posts": 20,
    "time": "2026-11-10T17:27:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
    "asin": "B0GH74B9RQ",
@@ -610,6 +574,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GH74B9RQ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
+   "title": "Nilight 12\" 300W Led Light Bar (for trucks etc) @ $7.31",
+   "price": 7.31,
+   "was": null,
+   "votes": 1,
+   "posts": 8,
+   "time": "2026-11-11T14:38:32+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-nilight-12-300w-led-light-bar-trucks-etc-7-31-2831738/",
+   "asin": "B073XMM3T5",
+   "pct": null,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B073XMM3T5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B073XMM3T5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
@@ -628,6 +610,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H44MLFFL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-saucony-womens-s10862-05-trail-running-shoe-29-41-65-off-2831745/",
+   "title": "Saucony Womens S10862-05 Trail Running Shoe (@ $29.41; 65% Off)",
+   "price": 29.41,
+   "was": 84.45,
+   "votes": 0,
+   "posts": 6,
+   "time": "2026-11-11T16:22:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-saucony-womens-s10862-05-trail-running-shoe-29-41-65-off-2831745/",
+   "asin": "B0CMBG9SBR",
+   "pct": 65,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0CMBG9SBR?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CMBG9SBR.jpg"
   }
  ]
 }
