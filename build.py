@@ -942,21 +942,92 @@ OJ_THEMES = [("pre-vendredi-fou", "🔥 Offres pré-Vendredi fou", lambda x: x.g
              ("mode", "👕 Mode pour elle et lui", lambda x: x["cat"] in ("homme", "femme")),
              ("animaux", "🐾 Animaux et plein air", lambda x: x["cat"] in ("animaux", "plein-air"))]
 
-def offres_du_jour_block():
-    """Page /offres-du-jour/ (10 nov. : page d'arrivée de l'infolettre, un seul lien dans le courriel) : tous les deals lus il y a moins de 24 h, par thème, photo d'abord."""
+def offres_du_jour_page():
+    """Page /offres-du-jour/ (10 nov., demande d'Alex : « plus wow que le site ») : page d'arrivée de l'infolettre, mise en page à part.
+    Tous les deals lus il y a moins de 24 h, par thème, grandes photos, filtres de prix, compte à rebours réel vers le 27 nov."""
     now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
-    L = [{**x, "verifie": x["seen"]} for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
+    L = [x for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
          and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
     L.sort(key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
+    EMO = {"tech": "🎧", "maison": "🏠", "beaute": "💄", "jouets": "🧸", "enfants": "🧸", "homme": "👕", "femme": "👗", "animaux": "🐾", "plein-air": "🏃"}
+    def when(x):
+        d = datetime.datetime.fromisoformat(x["seen"]).astimezone(ZoneInfo("America/Toronto"))
+        return f'{"1er" if d.day == 1 else d.day} {_MOC[d.month-1]}'
+    def card(x, big=False):
+        u = f'https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}'
+        pic = (f'<img src="{e(x["img_url"])}" alt="{e(x["title"][:80])}" loading="lazy" width="300" height="300" onerror="this.outerHTML=\'<span class=emo>🔥</span>\'">' if x.get("img_url")
+               else f'<span class="emo" aria-hidden="true">{EMO.get(x["cat"], "🔥")}</span>')
+        eco = float(x["was"]) - float(x["price"])
+        return (f'<li class="c{" big" if big else ""}" data-asin="{e(x["asin"])}" data-price="{x["price"]}" data-pct="{x["pct"]}"><a href="{u}" target="_blank" rel="sponsored nofollow noopener">'
+                f'<div class="ph">{pic}<b class="pc">-{x["pct"]}&nbsp;%</b></div><div class="tx"><h3>{e(x["title"])}</h3>'
+                f'<p class="px"><s>{_money(float(x["was"]))}</s><strong>{_money(float(x["price"]))}</strong></p>'
+                f'<p class="eco">Tu économises {_money(eco)}</p><span class="go">Voir le deal 👉</span>'
+                f'<small>prix vérifié le {when(x)}</small></div></a></li>')
+    if not L:
+        return page("offres-du-jour", "Les offres du jour | Rabais Flash QC", "Les offres du jour", "Les deals du jour arrivent bientôt. Reviens dans quelques heures!", [], "")
     pris, chips, rows = set(), [], []
+    vedette = next((x for x in L if x.get("img_url")), L[0]); pris.add(vedette["asin"])
     for key, lab, f in OJ_THEMES:
         xs = [x for x in L if x["asin"] not in pris and f(x)]
         if not xs: continue
         pris.update(x["asin"] for x in xs)
         chips.append(f'<a href="#{key}">{lab}</a>')
-        rows.append(f'<h2 class="famh" id="{key}">{lab}</h2><ul class="deals">' + "".join(rfd_card(x, lab) for x in xs) + '</ul>')
-    if not rows: return ""
-    return '<p class="famc">' + "".join(chips) + '</p>' + "".join(rows)
+        rows.append(f'<section id="{key}"><h2>{lab} <em>{len(xs)}</em></h2><ul class="g">' + "".join(card(x) for x in xs) + '</ul></section>')
+    n = len(pris); mx = max(x["pct"] for x in L); title = "Les offres du jour sur Amazon.ca, triées par thème | Rabais Flash QC"
+    desc = f"{n} deals vérifiés aujourd'hui, jusqu'à -{mx} % : marques connues, vrais rabais, photos et prix datés, classés par thème."
+    css = """*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#12060a;color:#1d1d1f}
+a{color:inherit}.hero{position:relative;overflow:hidden;background:radial-gradient(120% 90% at 50% 0,#e01e2f 0,#a50d1c 45%,#4a0610 100%);color:#fff;text-align:center;padding:26px 16px 30px}
+.hero:before,.hero:after{content:"";position:absolute;inset:-50%;background-image:radial-gradient(#ffd45a 1.2px,transparent 1.6px),radial-gradient(#fff 1px,transparent 1.4px);background-size:90px 90px,140px 140px;background-position:0 0,40px 60px;opacity:.35;animation:nei 26s linear infinite}
+.hero:after{animation-duration:40s;opacity:.2;background-size:170px 170px,110px 110px}@keyframes nei{to{transform:translateY(140px)}}
+.hero>*{position:relative;z-index:1}.logo{display:inline-block;letter-spacing:.18em;font-size:.82rem;text-decoration:none;color:#fff;opacity:.95}.logo b{color:#ffc629}
+.hero h1{margin:.5rem auto .3rem;font-size:clamp(2rem,7vw,3.4rem);line-height:1.05;font-weight:900;max-width:14ch;text-wrap:balance}
+.hero h1 span{color:#ffc629;display:block}.hero p{margin:.4rem auto 0;max-width:34rem;font-size:1.02rem;line-height:1.45}
+.cd{display:inline-flex;gap:8px;margin-top:16px;align-items:center;flex-wrap:wrap;justify-content:center}.cd i{font-style:normal;font-size:.85rem;opacity:.9;width:100%}
+.cd b{background:#12060a;color:#ffc629;border-radius:10px;padding:8px 10px;min-width:58px;font-size:1.5rem;font-variant-numeric:tabular-nums;line-height:1;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.cd b small{display:block;font-size:.6rem;color:#fff;font-weight:600;letter-spacing:.08em;margin-top:4px}
+.bar{position:sticky;top:0;z-index:5;background:#12060a;padding:10px 12px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;box-shadow:0 6px 16px rgba(0,0,0,.4)}
+.bar::-webkit-scrollbar{display:none}.bar a,.fl button{flex:none;white-space:nowrap;text-decoration:none;font:600 .88rem system-ui,sans-serif;padding:8px 13px;border-radius:99px;background:#2a1217;color:#fff;border:1px solid #4d2029;cursor:pointer}
+.bar a:hover{background:#c1121f}main{background:#fff7ec;padding:16px 12px 30px}.w{max-width:1120px;margin:0 auto}
+.fl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:4px 0 6px}.fl span{font-size:.88rem;font-weight:700;color:#5b3a3f}
+.fl button{background:#fff;color:#7a1220;border-color:#e3c9b6}.fl button[aria-pressed=true]{background:#c1121f;color:#fff;border-color:#c1121f}
+section{scroll-margin-top:64px}h2{font-size:1.45rem;margin:26px 2px 12px;color:#7a0c18}h2 em{font-style:normal;font-size:.8rem;background:#ffc629;color:#3a2a00;border-radius:99px;padding:2px 9px;vertical-align:middle}
+.g{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}@media(min-width:700px){.g{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(min-width:980px){.g{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.c{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(90,20,30,.1);transition:transform .18s,box-shadow .18s}.c:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(90,20,30,.22)}
+.c a{display:flex;flex-direction:column;height:100%;text-decoration:none}.ph{position:relative;aspect-ratio:1;background:#fff;display:flex;align-items:center;justify-content:center;padding:12px}
+.ph img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}.emo{font-size:4.2rem}
+.pc{position:absolute;top:10px;left:10px;background:#c1121f;color:#fff;font-size:1.02rem;font-weight:900;padding:5px 10px;border-radius:99px;box-shadow:0 3px 8px rgba(193,18,31,.4)}
+.tx{padding:4px 12px 12px;display:flex;flex-direction:column;flex:1}.c h3{font-size:.92rem;line-height:1.3;margin:0 0 6px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.px{margin:auto 0 0;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px}.px s{color:#8a7b74;font-size:.85rem}.px strong{color:#c1121f;font-size:1.35rem;font-weight:900}
+.eco{margin:2px 0 8px;font-size:.78rem;font-weight:700;color:#0f7a3d}.go{display:block;text-align:center;background:#ffc629;color:#2b2000;font-weight:800;border-radius:99px;padding:10px 8px;font-size:.92rem}
+.c:hover .go{background:#c1121f;color:#fff}.c small{display:block;text-align:center;color:#8a7b74;font-size:.7rem;margin-top:6px}
+.big{max-width:760px;margin:4px auto 0;list-style:none;border:3px solid #ffc629}.big a{flex-direction:row;align-items:center}.big .ph{flex:0 0 42%}.big h3{font-size:1.15rem;-webkit-line-clamp:4}.big .px strong{font-size:2rem}
+.kick{display:block;text-align:center;font-weight:900;letter-spacing:.1em;font-size:.8rem;color:#c1121f;margin:8px 0}
+.c.hi{outline:4px solid #ffc629;outline-offset:2px}.none{display:none;text-align:center;color:#5b3a3f;padding:8px}
+.cta{background:#12060a;color:#fff;text-align:center;padding:28px 16px}.cta h2{color:#ffc629;margin:0 0 8px}.cta p{margin:0 auto 14px;max-width:32rem}
+.cta a.b{display:inline-block;margin:4px;background:#ffc629;color:#2b2000;font-weight:800;text-decoration:none;border-radius:99px;padding:12px 20px}.cta a.b.r{background:#c1121f;color:#fff}
+footer{background:#12060a;color:#c9b6b9;font-size:.78rem;line-height:1.5;text-align:center;padding:6px 16px 30px}footer a{color:#fff}
+@media(prefers-reduced-motion:reduce){.hero:before,.hero:after{animation:none}.c{transition:none}html{scroll-behavior:auto}}"""
+    js = """(function(){var t=Date.parse("2026-11-27T05:00:00Z"),el=document.getElementById("cd");function f(){var ms=t-Date.now();if(ms<=0){el.innerHTML="<i>C'est le Vendredi fou! 🔥</i>";return}
+var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4),s=Math.floor(ms%6e4/1e3);
+el.innerHTML="<i>Le Vendredi fou commence dans</i><b>"+d+"<small>JOURS</small></b><b>"+h+"<small>HEURES</small></b><b>"+m+"<small>MIN</small></b><b>"+s+"<small>SEC</small></b>"}f();setInterval(f,1000);
+var bs=document.querySelectorAll(".fl button");bs.forEach(function(b){b.addEventListener("click",function(){bs.forEach(function(x){x.setAttribute("aria-pressed",x===b)});var mx=+b.dataset.max||1e9,mp=+b.dataset.pct||0;
+document.querySelectorAll("section").forEach(function(sec){var n=0;sec.querySelectorAll(".c").forEach(function(c){var ok=+c.dataset.price<=mx&&+c.dataset.pct>=mp;c.style.display=ok?"":"none";if(ok)n++});sec.style.display=n?"":"none"})})});
+var a=location.hash.slice(1);if(/^[A-Z0-9]{10}$/.test(a)){var d=document.querySelector('[data-asin="'+a+'"]');if(d){d.classList.add("hi");setTimeout(function(){d.scrollIntoView({block:"center"})},200)}}})();"""
+    return (f'<!doctype html><html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title>'
+            f'<meta name="description" content="{e(desc)}"><link rel="canonical" href="{DOMAIN}/offres-du-jour/"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
+            f'<meta property="og:image" content="{DOMAIN}/couverture.jpg"><meta name="theme-color" content="#a50d1c"><style>{css}</style></head><body>'
+            f'<header class="hero"><a class="logo" href="/">⚡ RABAIS <b>FLASH</b> QC</a><h1>Les offres du jour<span>jusqu\'à -{mx}&nbsp;%</span></h1>'
+            f'<p><b>{n} deals vérifiés aujourd\'hui</b>, triés pour les familles du Québec : marques connues, vrais rabais, prix datés.</p><div class="cd" id="cd" aria-live="off"></div></header>'
+            f'<nav class="bar" aria-label="Thèmes">{"".join(chips)}</nav><main><div class="w">'
+            f'<span class="kick">⭐ LE COUP DE CŒUR DU JOUR</span><ul style="margin:0;padding:0">{card(vedette, True)}</ul>'
+            '<div class="fl" style="margin-top:20px"><span>Mon budget :</span><button aria-pressed="true">Tout voir</button><button aria-pressed="false" data-max="25">Moins de 25 $</button>'
+            '<button aria-pressed="false" data-max="50">Moins de 50 $</button><button aria-pressed="false" data-max="100">Moins de 100 $</button><button aria-pressed="false" data-pct="40">-40 % et plus</button></div>'
+            + "".join(rows) + '</div></main>'
+            f'<div class="cta"><h2>Ne manque pas le prochain deal</h2><p>Les meilleures offres partent en quelques heures. Suis-nous pour être averti en premier, c\'est gratuit.</p>'
+            f'<a class="b" href="/courriel/">📬 Les deals par courriel</a><a class="b r" href="{FB}" target="_blank" rel="noopener">Suivre sur Facebook</a><a class="b r" href="/">Voir tout le site</a></div>'
+            '<footer><p>Les prix et la disponibilité changent vite : vérifie le prix final sur Amazon avant d\'acheter.<br>En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>'
+            '<p><a href="/a-propos/">À propos</a> · <a href="/confidentialite/">Confidentialité</a></p></footer>'
+            f'<script>{js}</script></body></html>')
 
 def vf_block():
     """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
@@ -1040,10 +1111,7 @@ def main():
                  + '<h2>Les autres guides</h2><p class="more">' + "".join(f'<a href="/idees-cadeaux/{x[0]}/">{e(x[2])}</a>' for x in GUIDES if x[0] != g) + '</p><h2>Les rabais du moment pour ce guide</h2>')
         items = order([d for d in DEALS if f(d)])
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
-    _oj = offres_du_jour_block()
-    write("offres-du-jour", page("offres-du-jour", "Les offres du jour sur Amazon.ca, triées par thème | Rabais Flash QC", "Les offres du jour, triées pour toi",
-          "Tous les deals qu'on a vérifiés aujourd'hui, par thème : marques connues, vrais rabais, photos et prix datés. Touche un thème pour y sauter.",
-          [], _oj or '<p>Les deals du jour arrivent bientôt. Reviens dans quelques heures!</p>').replace('<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>', "")); urls.append("offres-du-jour")
+    write("offres-du-jour", offres_du_jour_page()); urls.append("offres-du-jour")
     write("courriel", simple("courriel", "Les deals du jour par courriel, gratuit | Rabais Flash QC", "📬 Les deals du jour par courriel",
           '<p>Chaque jour, on trie des milliers de rabais pour toi et on t\'envoie seulement les meilleurs : vrais prix, gros %, marques connues. '
           'C\'est <b>gratuit</b>, 1 à 2 courriels par jour, et tu peux te désabonner en tout temps.</p>'
