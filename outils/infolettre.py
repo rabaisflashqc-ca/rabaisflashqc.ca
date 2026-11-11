@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Infolettre « offres du jour » : courriel HTML par thème, avec photos, à partir de suivi/deals_chrome.json (prix lus il y a moins de 24 h).
-Usage : python3 outils/infolettre.py [--direct] > fichier.html
+Usage : python3 outils/infolettre.py [--direct] [--leger] > fichier.html
 Par défaut, chaque deal pointe vers sa carte sur rabaisflashqc.ca (règle absolue : aucun lien Amazon dans les courriels).
 --direct : liens Amazon avec le tag (contraire à la règle et aux conditions des Associés Amazon; seulement si Alex le décide)."""
 import json, sys, datetime, html, pathlib
@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TAG = "coupdecoeurqc-20"; SITE = "https://rabaisflashqc.ca"
 DIRECT = "--direct" in sys.argv
+LEGER = "--leger" in sys.argv  # 2 deals par thème : moins de liens, moins de risque de pourriel dans Gmail
 PAGE = {"beaute": "beaute", "maison": "maison", "tech": "tech", "enfants": "enfants", "jouets": "enfants", "animaux": "animaux", "plein-air": "plein-air", "homme": "mode", "femme": "mode"}
 MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."]
 e = html.escape
@@ -52,7 +53,7 @@ def grid(xs):
     return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows}</table>'
 body = ""; total = 0
 for titre, sous, f, n, slug in THEMES:
-    xs = take(f, n)
+    xs = take(f, 2 if LEGER else n)
     if len(xs) < 2: continue
     if len(xs) % 2: pris.discard(xs.pop()["asin"])
     total += len(xs)
