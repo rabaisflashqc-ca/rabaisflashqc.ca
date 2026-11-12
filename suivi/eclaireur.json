@@ -1,24 +1,24 @@
 {
- "date": "2026-11-11T18:41-04:00",
+ "date": "2026-11-11T21:41-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   38,
-   38,
+   36,
+   36,
    [
-    "2026-11-04T23:05:40+00:00",
-    "2026-11-05T05:56:37+00:00"
+    "2026-11-05T05:56:37+00:00",
+    "2026-11-05T12:22:46+00:00"
    ],
    [
     "2026-11-11T16:06:02+00:00",
-    "2026-11-11T16:22:34+00:00"
+    "2026-11-12T00:16:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   4,
-   4,
+   3,
+   3,
    [
-    "2026-11-09T15:24:46+00:00",
-    "2026-11-11T06:34:46+00:00"
+    "2026-11-11T06:34:46+00:00",
+    "2026-11-11T13:44:20+00:00"
    ],
    [
     "2026-11-11T13:44:20+00:00",
@@ -27,26 +27,26 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   21,
+   22,
    [
-    "2026-11-04T19:21:57+00:00",
-    "2026-11-04T19:48:21+00:00"
+    "2026-11-04T04:02:11+00:00",
+    "2026-11-04T19:21:57+00:00"
    ],
    [
     "2026-11-11T16:06:02+00:00",
-    "2026-11-11T16:22:34+00:00"
+    "2026-11-12T00:16:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-23T05:23:39+00:00",
-    "2026-10-23T09:52:47+00:00"
+    "2026-10-23T05:10:09+00:00",
+    "2026-10-23T05:23:39+00:00"
    ],
    [
-    "2026-11-04T03:00:53+00:00",
-    "2026-11-04T04:02:11+00:00"
+    "2026-11-03T05:27:01+00:00",
+    "2026-11-04T03:00:53+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
@@ -54,39 +54,39 @@
    44,
    [
     "2026-10-07T22:55:58+00:00",
-    "2026-10-08T00:14:10+00:00"
+    "2026-10-07T23:13:35+00:00"
    ],
    [
-    "2026-10-23T04:52:52+00:00",
-    "2026-10-23T05:10:09+00:00"
+    "2026-10-22T23:29:53+00:00",
+    "2026-10-23T04:52:52+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T11:14:40+00:00",
-    "2026-10-06T12:24:34+00:00"
+    "2026-10-06T21:12:52+00:00",
+    "2026-10-06T21:15:52+00:00"
    ],
    [
-    "2026-10-07T18:25:16+00:00",
-    "2026-10-07T19:36:28+00:00"
+    "2026-10-07T20:20:09+00:00",
+    "2026-10-07T21:00:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-23T14:20:56+00:00",
-    "2026-09-23T23:00:22+00:00"
+    "2026-10-06T13:11:53+00:00",
+    "2026-10-06T13:14:37+00:00"
    ],
    [
-    "2026-10-06T10:18:30+00:00",
-    "2026-10-06T10:21:02+00:00"
+    "2026-10-06T20:56:57+00:00",
+    "2026-10-06T21:10:59+00:00"
    ]
   ],
-  "avant_filtre_date": 136,
-  "apres_filtre_date": 23
+  "avant_filtre_date": 131,
+  "apres_filtre_date": 22
  },
  "items": [
   {
@@ -95,7 +95,7 @@
    "price": 20.99,
    "was": 30.99,
    "votes": 66,
-   "posts": 45,
+   "posts": 46,
    "time": "2026-11-06T06:39:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-etl-21-2831253/",
    "asin": "B0FDGTY477",
@@ -196,24 +196,6 @@
    "morts": 0,
    "doute": false,
    "img": null
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
-   "title": "ESR for MagSafe Car Mount Charger w/CryoBoost for iPhone Duo/18 Pro/17-12 $16.62",
-   "price": 16.62,
-   "was": 34.99,
-   "votes": 14,
-   "posts": 20,
-   "time": "2026-11-04T23:05:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-esr-magsafe-car-mount-charger-w-cryoboost-iphone-duo-18-pro-17-12-16-62-2831120/",
-   "asin": "B0DHZJBL29",
-   "pct": 53,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHZJBL29?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0DHZJBL29.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
