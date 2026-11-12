@@ -1,55 +1,35 @@
 {
- "genere": "2026-11-12T09:56+00:00",
+ "genere": "2026-11-12T14:38+00:00",
  "produits": [
-  {
-   "asin": "B0DW9C8RVQ",
-   "titre": "Écouteurs sans fil JBL Endurance Race 2 (sport)",
-   "prix_affiche": 39.9
-  },
-  {
-   "asin": "B0DW994GH9",
-   "titre": "Écouteurs sans fil JBL Vibe Flex 2",
-   "prix_affiche": 49.99
-  },
   {
    "asin": "B0F3BCVPN2",
    "titre": "Caméra intérieure Blink Mini 2K+",
    "prix_affiche": 23.99
   },
   {
-   "asin": "B0BWX13628",
-   "titre": "Caméras Blink Mini 2 (paquet de 2)",
-   "prix_affiche": 34.99
+   "asin": "B0G62QQ6S4",
+   "titre": "Sonnette sans fil Blink Battery Doorbell 2K+",
+   "prix_affiche": 41.99
   },
   {
    "asin": "B0G2D2GRMH",
-   "titre": "Sonnette vidéo Ring Battery Doorbell 2K",
+   "titre": "Sonnette sans fil Ring Battery Doorbell 2K",
    "prix_affiche": 69.99
   },
   {
-   "asin": "B0797MY6JB",
-   "titre": "Barre de son Sony S100F avec Bluetooth",
-   "prix_affiche": 111.11
+   "asin": "B0FZPZX9L9",
+   "titre": "Caméra extérieure Ring Outdoor Cam 2K",
+   "prix_affiche": 69.99
   },
   {
-   "asin": "B08ZK1WCRL",
-   "titre": "Routeur maillé Amazon eero 6+",
-   "prix_affiche": 129.99
+   "asin": "B0CS6ZM7X9",
+   "titre": "Machine à café Nespresso Vertuo Pop+",
+   "prix_affiche": 84.0
   },
   {
-   "asin": "B07D9TB156",
-   "titre": "Sandales adidas Adissage pour homme",
-   "prix_affiche": 19.78
-  },
-  {
-   "asin": "B091ZF4YGX",
-   "titre": "Sandales adidas Adilette Comfort",
-   "prix_affiche": 17.84
-  },
-  {
-   "asin": "B0DNKKFQL2",
-   "titre": "Bas Dickies Dri-Tech pour homme (paquet)",
-   "prix_affiche": 22.99
+   "asin": "B0DJ19GJVW",
+   "titre": "LEGO Friends Le camping-car de l'amitié",
+   "prix_affiche": 49.86
   },
   {
    "asin": "B0FX7MFP7Z",
@@ -57,89 +37,59 @@
    "prix_affiche": 59.99
   },
   {
-   "asin": "B00M2W29F8",
-   "titre": "Chandail polaire Columbia Hart Mountain pour homme",
-   "prix_affiche": 44.98
+   "asin": "B091M7X5Z6",
+   "titre": "Ballon de basketball Wilson NBA DRV",
+   "prix_affiche": 25.99
   },
   {
-   "asin": "B0DVKW4Z44",
-   "titre": "Jeans Buffalo David Bitton pour homme",
-   "prix_affiche": 53.61
+   "asin": "B00EVY5BV4",
+   "titre": "Ensemble de draps Eddie Bauer (grand lit double)",
+   "prix_affiche": 64.76
   },
   {
-   "asin": "B0CLR7KV2F",
-   "titre": "Manteau Columbia Heavenly II pour femme",
-   "prix_affiche": 79.97
+   "asin": "B0DN4BG1RW",
+   "titre": "Écouteurs sans fil JBL Vibe Beam 2",
+   "prix_affiche": 49.98
   },
   {
-   "asin": "B0BTD8CRBR",
-   "titre": "Souliers Skechers Go Walk Flex pour femme",
-   "prix_affiche": 35.12
+   "asin": "B0FY4453F6",
+   "titre": "Écouteurs sport JBL Endurance Run 3 USB-C",
+   "prix_affiche": 24.98
   },
   {
-   "asin": "B01IR7RI9S",
-   "titre": "Jeans Levi's 505 coupe régulière pour homme",
-   "prix_affiche": 29.32
+   "asin": "B08DBM534X",
+   "titre": "Nettoyeur à tapis portatif BISSELL SpotClean ProHeat",
+   "prix_affiche": 97.99
   },
   {
-   "asin": "B0D2JHSTRN",
-   "titre": "Souliers de course adidas Duramo SL 2 pour homme",
-   "prix_affiche": 27.93
+   "asin": "B09NMD4CZD",
+   "titre": "Crocs Classic Clog pour enfant",
+   "prix_affiche": 39.96
   },
   {
-   "asin": "B0G2D13LL7",
-   "titre": "Souliers de randonnée Merrell Moab 3 pour homme",
-   "prix_affiche": 90.0
+   "asin": "B0CT9SBWC9",
+   "titre": "Casque sans fil à réduction de bruit JBL Tune 670NC",
+   "prix_affiche": 49.98
   },
   {
-   "asin": "B08XLBHRWQ",
-   "titre": "Souliers Skechers Delson 3.0 pour homme",
-   "prix_affiche": 54.99
+   "asin": "B0DMYS2K1C",
+   "titre": "Haut-parleur Bluetooth JBL Flip 7",
+   "prix_affiche": 138.98
   },
   {
-   "asin": "B0CLWJNP6L",
-   "titre": "Bottes d'hiver Columbia Fairbanks Omni-Heat pour homme",
-   "prix_affiche": 87.63
+   "asin": "B0D41VRXR6",
+   "titre": "Contenant isotherme THERMOS Icon 24 oz",
+   "prix_affiche": 26.39
   },
   {
-   "asin": "B008OGFLRY",
-   "titre": "Jeans Wrangler George Strait pour homme",
-   "prix_affiche": 44.47
+   "asin": "B0B4Y639SN",
+   "titre": "PAW Patrol coffret de figurines 10e anniversaire",
+   "prix_affiche": 27.96
   },
   {
-   "asin": "B0CVSG5T62",
-   "titre": "Sac de sport Carhartt Classic Duffel",
-   "prix_affiche": 105.99
-  },
-  {
-   "asin": "B07ZL9MXKN",
-   "titre": "Fer à friser double céramique Conair",
-   "prix_affiche": 17.49
-  },
-  {
-   "asin": "B0GLSXY2JL",
-   "titre": "Fer à boucler automatique Conair Curl Secret",
-   "prix_affiche": 62.99
-  },
-  {
-   "asin": "B0DDYDXFSL",
-   "titre": "Brosse coiffante Conair DigitalAire",
-   "prix_affiche": 83.46
-  },
-  {
-   "asin": "B00JGLEQAO",
-   "titre": "Clinique Dramatically Different (hydratant)",
-   "prix_affiche": 48.0
-  },
-  {
-   "asin": "B0D58JJM8M",
-   "titre": "Fond de teint coussin TIRTIR Mask Fit Red",
-   "prix_affiche": 27.74
-  },
-  {
-   "asin": "B0CDJQTW4X",
-   "titre": "Défroisseur à vapeur Conair",
-   "prix_affiche": 52.22
+   "asin": "B0FKVBT7NS",
+   "titre": "Haut-parleur Bluetooth JBL Grip",
+   "prix_affiche": 99.98
   },
   {
    "asin": "B0D1KQKZM2",
@@ -147,49 +97,14 @@
    "prix_affiche": 129.93
   },
   {
-   "asin": "B0CNF63GQZ",
-   "titre": "Mélangeur portatif Ninja Blast",
-   "prix_affiche": 49.93
+   "asin": "B0DSCGXCT4",
+   "titre": "BITZEE Hamster interactif",
+   "prix_affiche": 23.99
   },
   {
-   "asin": "B00EVY54IE",
-   "titre": "Ensemble de draps Eddie Bauer (grand lit)",
-   "prix_affiche": 75.39
-  },
-  {
-   "asin": "B00S1116J4",
-   "titre": "Sapin de Noël artificiel National Tree Company",
-   "prix_affiche": 139.99
-  },
-  {
-   "asin": "B00004YOBR",
-   "titre": "Serre-joints IRWIN Quick-Grip une main (paquet de 2)",
-   "prix_affiche": 22.98
-  },
-  {
-   "asin": "B0FMS5W9HT",
-   "titre": "LEGO Friends Aire de jeux intérieure",
-   "prix_affiche": 59.99
-  },
-  {
-   "asin": "B0FMS82D7Z",
-   "titre": "LEGO City Avion",
-   "prix_affiche": 64.99
-  },
-  {
-   "asin": "B0G2T1X4SB",
-   "titre": "LEGO City Lave-auto",
-   "prix_affiche": 64.99
-  },
-  {
-   "asin": "B0FMS854QG",
-   "titre": "LEGO DUPLO Camion de pompiers",
-   "prix_affiche": 29.99
-  },
-  {
-   "asin": "B0B4Y639SN",
-   "titre": "PAW Patrol édition 10e anniversaire",
-   "prix_affiche": 27.96
+   "asin": "B0F8G4K3CN",
+   "titre": "Thermos FUNTAINER pour la boîte à lunch des enfants",
+   "prix_affiche": 21.59
   },
   {
    "asin": "B0G8J64978",
@@ -197,9 +112,99 @@
    "prix_affiche": 34.99
   },
   {
+   "asin": "B0G2T4VTM5",
+   "titre": "LEGO Editions Olivia Rodrigo",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B08VFCH7C9",
+   "titre": "Gourde THERMOS FUNTAINER pour enfant",
+   "prix_affiche": 15.99
+  },
+  {
+   "asin": "B0DDYDXFSL",
+   "titre": "Brosse soufflante Conair DigitalAire",
+   "prix_affiche": 83.46
+  },
+  {
+   "asin": "B0CNF63GQZ",
+   "titre": "Mélangeur portatif Ninja Blast",
+   "prix_affiche": 49.93
+  },
+  {
    "asin": "B08F2NJYRQ",
-   "titre": "Play-Doh Coffret du dentiste",
+   "titre": "Play-Doh Le dentiste",
    "prix_affiche": 17.34
+  },
+  {
+   "asin": "B0BTD8CRBR",
+   "titre": "Skechers Go Walk Flex pour femme",
+   "prix_affiche": 35.12
+  },
+  {
+   "asin": "B0C29BL8BS",
+   "titre": "Haut-parleur Bluetooth Sony SRS-XB100",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B00M2W0UF4",
+   "titre": "Veste polaire Columbia Hart Mountain pour homme",
+   "prix_affiche": 44.98
+  },
+  {
+   "asin": "B0GGN98CTL",
+   "titre": "Kinetic Sand Sweet Station",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B01N9MZPD7",
+   "titre": "Bottes d'hiver Kamik Rocket pour garçon",
+   "prix_affiche": 43.28
+  },
+  {
+   "asin": "B0HF17BGKC",
+   "titre": "Séchoir à cheveux Conair Cake Pop",
+   "prix_affiche": 41.99
+  },
+  {
+   "asin": "B0GV1MZ2S5",
+   "titre": "Casque à réduction de bruit JBL Tune 780NC",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0833P1QS1",
+   "titre": "Nourriture humide pour chat Purina Pro Plan (24 boîtes)",
+   "prix_affiche": 35.66
+  },
+  {
+   "asin": "B07S49VDGM",
+   "titre": "Nourriture sèche Blue Buffalo Life Protection",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0D2JHSTRN",
+   "titre": "Espadrilles de course adidas Duramo SL 2 pour homme",
+   "prix_affiche": 27.93
+  },
+  {
+   "asin": "B01IR7RI9S",
+   "titre": "Jeans Levi's 505 coupe régulière pour homme",
+   "prix_affiche": 29.32
+  },
+  {
+   "asin": "B0G2D13LL7",
+   "titre": "Bottes de randonnée Merrell Moab 3 pour homme",
+   "prix_affiche": 90.0
+  },
+  {
+   "asin": "B0D36B9J9C",
+   "titre": "Pantalon de travail Dickies 874 pour homme",
+   "prix_affiche": 43.57
+  },
+  {
+   "asin": "B0D169DDMM",
+   "titre": "Espadrilles Under Armour Charged pour homme",
+   "prix_affiche": 79.99
   },
   {
    "asin": "B0CJZFB8YQ",
@@ -207,174 +212,19 @@
    "prix_affiche": 17.63
   },
   {
-   "asin": "B0961QRR5K",
-   "titre": "Biberons Philips Avent anti-coliques",
-   "prix_affiche": 26.03
-  },
-  {
-   "asin": "B091M7X5Z6",
-   "titre": "Ballon de basketball Wilson NBA DRV",
-   "prix_affiche": 25.99
-  },
-  {
-   "asin": "B0H3CPRNYT",
-   "titre": "Bouteille isolée Hydro Flask 21 oz",
-   "prix_affiche": 27.81
-  },
-  {
-   "asin": "B06ZZC83MG",
-   "titre": "Distributeur de nourriture et d'eau Amazon Basics pour animaux",
-   "prix_affiche": 37.23
-  },
-  {
-   "asin": "B071FH2NLX",
-   "titre": "Gâteries pour chat GREENIES Feline",
-   "prix_affiche": 21.47
-  },
-  {
-   "asin": "B0BS1QCFHX",
-   "titre": "Casque sans fil antibruit Sony WH-CH720N",
-   "prix_affiche": 118.0
-  },
-  {
-   "asin": "B0BSGQL41X",
-   "titre": "Casque sans fil Sony WH-CH520",
-   "prix_affiche": 48.0
-  },
-  {
-   "asin": "B0CTBCDD6D",
-   "titre": "Casque sans fil JBL Tune 720BT",
-   "prix_affiche": 59.98
-  },
-  {
-   "asin": "B0BQPNMXQV",
-   "titre": "Écouteurs sans fil JBL Vibe Beam",
-   "prix_affiche": 44.98
-  },
-  {
-   "asin": "B0D1HPP7XF",
-   "titre": "Enceinte Bluetooth JBL Clip 5 étanche",
-   "prix_affiche": 69.98
-  },
-  {
-   "asin": "B0FHJ8XWWL",
-   "titre": "Sonnette à batterie Ring 2K (nouveau modèle)",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0BT752BRT",
-   "titre": "Tablette Amazon Fire HD 10",
-   "prix_affiche": 159.99
-  },
-  {
-   "asin": "B0DXMMGG7H",
-   "titre": "Caméra intérieure Ring 2K (nouveau modèle)",
-   "prix_affiche": 39.99
-  },
-  {
-   "asin": "B0CQ1CVW3Z",
-   "titre": "Casque antibruit JBL Live 670NC",
-   "prix_affiche": 79.98
-  },
-  {
-   "asin": "B0DW9B1FCL",
-   "titre": "Écouteurs JBL Tune Beam 2 Ghost",
+   "asin": "B093QJB1DY",
+   "titre": "Espadrilles New Balance 574 pour homme",
    "prix_affiche": 89.98
   },
   {
-   "asin": "B0G31P119K",
-   "titre": "Écouteurs sport antibruit JBL Endurance Peak 4",
-   "prix_affiche": 99.98
+   "asin": "B0FDH3SQG7",
+   "titre": "Poupée Monster High",
+   "prix_affiche": 16.21
   },
   {
-   "asin": "B0CZ9LH53B",
-   "titre": "Batterie externe Anker Zolo 20 000 mAh",
-   "prix_affiche": 47.49
-  },
-  {
-   "asin": "B0G12HGD6R",
-   "titre": "Casque de jeu sans fil Logitech G325",
-   "prix_affiche": 89.99
-  },
-  {
-   "asin": "B07JGF236Q",
-   "titre": "Friteuse à air Ninja 3,8 L (AF101C)",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B01EA5ZI2U",
-   "titre": "Mélangeur à main Braun MQ505 avec fouet",
-   "prix_affiche": 44.99
-  },
-  {
-   "asin": "B085FRKBMF",
-   "titre": "Mélangeur à main et robot Braun MultiQuick 3 en 1",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B0953DJ39N",
-   "titre": "Cafetière portion individuelle Ninja",
-   "prix_affiche": 129.99
-  },
-  {
-   "asin": "B0C2ZMTXSG",
-   "titre": "Aspirateur-balai Shark Rocket Pro",
-   "prix_affiche": 139.99
-  },
-  {
-   "asin": "B0CCY6VG8Z",
-   "titre": "Humidificateur Dreo 4 L pour chambre",
-   "prix_affiche": 47.49
-  },
-  {
-   "asin": "B0DW8YP1LY",
-   "titre": "Purificateur d'air Levoit pour chambre",
-   "prix_affiche": 134.99
-  },
-  {
-   "asin": "B07DVYN14S",
-   "titre": "Parure de lit en flanelle Eddie Bauer",
-   "prix_affiche": 55.43
-  },
-  {
-   "asin": "B016D5ZXCK",
-   "titre": "Défroisseur vapeur vertical Conair",
-   "prix_affiche": 69.91
-  },
-  {
-   "asin": "B01KIMOEW4",
-   "titre": "Nettoyeur à tapis portatif Hoover Spotless",
-   "prix_affiche": 89.99
-  },
-  {
-   "asin": "B01MRX9US8",
-   "titre": "Crest 3D Whitestrips Vivid White",
-   "prix_affiche": 24.66
-  },
-  {
-   "asin": "B0B5B2KBXV",
-   "titre": "Brosse à dents électrique Oral-B Pro 500",
-   "prix_affiche": 37.22
-  },
-  {
-   "asin": "B0CBMPDDYS",
-   "titre": "Masseur de pieds chauffant RENPHO",
-   "prix_affiche": 119.98
-  },
-  {
-   "asin": "B085NTR26K",
-   "titre": "Pistolet de massage RENPHO",
-   "prix_affiche": 79.97
-  },
-  {
-   "asin": "B0FTTWCSHV",
-   "titre": "Brosse à dents électrique Oral-B iO Kids",
-   "prix_affiche": 62.99
-  },
-  {
-   "asin": "B0GP976V5V",
-   "titre": "Coffret Hunger Games 5 livres (édition de luxe)",
-   "prix_affiche": 72.57
+   "asin": "B0007YR9FI",
+   "titre": "Soutien-gorge Playtex 18 Hour pour femme",
+   "prix_affiche": 38.91
   }
  ]
 }
