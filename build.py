@@ -385,6 +385,49 @@ body.hw .social a{background:#140A1F;color:#FFD9B8;border-color:#FF7518}body.hw 
 .hwgrid a:hover{background:rgba(255,117,24,.18)}.hwgrid b{font-size:32px;line-height:1}.hwgrid span{font-weight:700}.hwgrid small{font-size:14px;color:#E6D6FA}
 @media (prefers-reduced-motion:reduce){.fl i{animation:none}}
 @media (max-width:420px){.deal{grid-template-columns:70px 1fr}.tag{width:70px;height:70px;font-size:24px}}
+/* --- UX nov. 2026 : cellulaire d'abord, puis tablette et ordi. Cartes en grille, carte entière cliquable, Vendredi fou en avant --- */
+.wrap{max-width:1120px}
+header{padding:10px 0 12px}header h1{font-size:clamp(24px,5.4vw,44px);margin:8px 0 4px;line-height:1.05}header .intro{font-size:16px}
+@media (max-width:699px){header .intro,header .upd{display:none}header h1{font-size:23px!important;margin:6px 0 0!important}body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}}
+nav{position:sticky;top:0;z-index:30;background:var(--paper);flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -18px;padding:8px 18px!important;gap:6px;box-shadow:0 2px 6px rgba(0,0,0,.06)}nav::-webkit-scrollbar{display:none}
+nav a{white-space:nowrap;min-height:38px;display:inline-flex;align-items:center}
+nav a.vf{background:var(--yel);border-color:var(--yel);color:#7A0A16}nav a.vf[aria-current]{background:var(--red);border-color:var(--red);color:#fff}
+@media (min-width:1000px){nav{flex-wrap:wrap;overflow:visible;justify-content:center}}
+.vfs{display:flex;align-items:center;gap:12px;margin:12px 0;padding:12px 14px;border-radius:16px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#1A1A1A,#8E0B16 70%,#C1121F);border:2px solid var(--yel);box-shadow:0 4px 14px rgba(142,11,22,.25)}
+.vfs>div{flex:1;min-width:0}.vfs strong{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:clamp(20px,5vw,30px);line-height:1.05;color:var(--yel)}.vfs span{display:block;font-weight:600;font-size:15px;margin-top:2px}
+.vfs i{flex:none;font-style:normal;font-weight:700;background:var(--yel);color:#7A0A16;border-radius:999px;padding:9px 14px;font-size:15px;white-space:nowrap}
+ul.deals,ol.top5{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:10px 0 14px}
+@media (min-width:700px){ul.deals,ol.top5{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}}
+@media (min-width:1000px){ul.deals{grid-template-columns:repeat(4,minmax(0,1fr))}ol.top5{grid-template-columns:repeat(5,minmax(0,1fr))}}
+ul.deals>.empty{grid-column:1/-1}
+.deals .deal,.top5 .deal{position:relative;display:flex;flex-direction:column;gap:8px;padding:10px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.07);transition:transform .15s,box-shadow .15s}
+.deals .deal>div:last-child,.top5 .deal>div:last-child{display:flex;flex-direction:column;flex:1;min-width:0}
+.deals .deal .pic,.top5 .deal .pic{width:100%;height:auto;aspect-ratio:1/1;border:none;border-radius:12px}
+.deals .deal .tag,.top5 .deal .tag{width:100%;height:auto;aspect-ratio:2/1;font-size:34px}
+.deal .pic b{font-size:19px;padding:2px 8px;left:6px;top:6px;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.top5 .deal .pic b{left:auto;right:6px}.top5 .deal::before{left:4px;top:4px;width:30px;height:30px;z-index:2}
+.deals .deal h3,.top5 .deal h3{font-size:15.5px;line-height:1.25;margin:0 0 4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.deals .deal .why{font-size:14px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.deal .badges{margin:0}.deal .badges span{font-size:12px;padding:1px 7px;margin:0 4px 4px 0}.deal .brand{font-size:12px}
+.deals .deal .px,.top5 .deal .px{gap:2px 8px;margin:0 0 8px}.deals .deal .px b,.top5 .deal .px b{font-size:22px;line-height:1.1}.deals .deal .px s,.top5 .deal .px s{font-size:14px}.deal .px span{font-size:13px}.deal .px small{font-size:12px}
+.deal .cd{font-size:12.5px;padding:2px 8px;margin:0 0 4px;align-self:flex-start}
+.deals .deal .go,.top5 .deal .go{display:block;margin-top:auto;text-align:center;padding:11px 6px;font-size:16px;border-radius:12px;box-shadow:0 2px 0 rgba(0,0,0,.18)}
+.deals .deal .go::after,.top5 .deal .go::after{content:"";position:absolute;inset:0;border-radius:16px}
+@media (hover:hover){.deals .deal:hover,.top5 .deal:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(142,11,22,.18)}}
+@media (min-width:700px){.deals .deal h3,.top5 .deal h3{font-size:17px}.deals .deal .px b,.top5 .deal .px b{font-size:24px}}
+.topbox{padding:12px 10px 4px;margin:14px 0;scroll-margin-top:60px}.topbox h2{font-size:clamp(22px,5.5vw,30px);line-height:1.1}.topsub{font-size:15px}
+@media (min-width:700px){.topbox{padding:18px 18px 6px}}
+.famh{scroll-margin-top:64px;font-size:20px}.famc{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:8px -10px;padding:0 10px}.famc::-webkit-scrollbar{display:none}.famc a{white-space:nowrap;padding:8px 12px}
+@media (min-width:700px){.famc{flex-wrap:wrap;overflow:visible}}
+.bud{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:10px -18px;padding:0 18px}.bud::-webkit-scrollbar{display:none}.bud button{white-space:nowrap;min-height:40px}
+.more a{min-height:40px;display:inline-flex;align-items:center}
+.nl{max-width:720px;margin-left:auto;margin-right:auto}.follow,.club,.note,.gang{max-width:720px;margin-left:auto;margin-right:auto}
+.tabbar{display:none}
+@media (max-width:699px){.tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:1px solid var(--line);box-shadow:0 -3px 12px rgba(0,0,0,.12);padding:4px 4px calc(4px + env(safe-area-inset-bottom))}
+.tabbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-height:52px;text-decoration:none;font-size:12.5px;font-weight:700;color:var(--deep);border-radius:12px}.tabbar a b{font-size:21px;line-height:1}.tabbar a.vf{background:var(--red);color:#fff}}
+@media (max-width:480px){.vfs{padding:10px 12px;gap:8px}.vfs strong{font-size:19px}.vfs span{font-size:13.5px}.vfs i{padding:8px 10px;font-size:13.5px}}
+@media (min-width:700px){header h1{font-size:34px}header .intro{max-width:none}header .upd{display:none}}
+body.hw nav{background:#140A1F}body.hw .deals .deal{background:#1E1030}
 """
 
 BOLT = '<svg width="16" height="26" viewBox="0 0 100 160" aria-hidden="true"><path d="M62 0 L8 92 L44 92 L28 160 L94 58 L58 58 L78 0 Z" fill="#FFC72C"/></svg>'
@@ -491,6 +534,18 @@ def season_banner(t=None):
         return ""
     return f'<a class="seas" href="{a[0]}"><div><strong>{a[1]}</strong><span>{a[2]}</span></div><em aria-hidden="true">{a[3]}</em></a>'
 
+def vf_strip():
+    """Bandeau Vendredi fou en haut de chaque page (demande d'Alex du 12 nov.) : vrai compte à rebours vers le 27 nov. 2026, lien vers /vendredi-fou/."""
+    t = datetime.date.today()
+    if not ((t.month == 11) or (t.month == 12 and t.day <= 2)): return ""
+    n = len(prevf_list())
+    sub = f"{n} offres pré-Vendredi fou déjà sorties, triées pour toi" if n else "Les meilleurs rabais de l'année, triés pour toi"
+    return ('<a class="vfs" href="/vendredi-fou/"><div><strong id="vfs">🔥 VENDREDI FOU : 27 NOVEMBRE</strong>'
+            f'<span>{sub}</span></div><i>Voir les offres →</i></a>'
+            '<script>(function(){var el=document.getElementById("vfs"),t=Date.parse("2026-11-27T05:00:00Z"),f=Date.parse("2026-12-01T05:00:00Z");var ms=t-Date.now();'
+            'if(Date.now()>=f)return;if(ms<=0){el.textContent="🔥 C\'EST LE VENDREDI FOU!";return}var d=Math.ceil(ms/864e5);'
+            'el.textContent=d>1?"🔥 VENDREDI FOU DANS "+d+" JOURS":"🔥 VENDREDI FOU : C\'EST DEMAIN!"})();</script>')
+
 def gift_chips():
     lab = {"pour-elle": "👩 Elle", "pour-lui": "👨 Lui", "ado": "🎮 Ado", "enfants": "🧸 Enfants", "moins-de-25": "💵 Moins de 25 $", "moins-de-50": "💰 Moins de 50 $"}
     return '<p class="chiph">🎁 Je cherche un cadeau pour…</p><p class="more">' + "".join(f'<a href="/idees-cadeaux/{k}/">{v}</a>' for k, v in lab.items()) + '</p>'
@@ -534,7 +589,7 @@ def top5():
         loc = datetime.datetime.now(ZoneInfo("America/Toronto"))
         n = len(fp)
         cards = "".join(rfd_card(x, f"⭐ Top {n}") for x in fp)
-        return [], (f'<section class="topbox" aria-label="Le Top {n}"><h2>⭐ Le Top {n}</h2>'
+        return [], (f'<section class="topbox" id="top5" aria-label="Le Top {n}"><h2>⭐ Le Top {n}</h2>'
                     '<p class="topsub">Les 5 meilleurs deals du moment, choisis pour toi. Le Top change souvent : reviens voir! 🔥</p>'
                     f'<ol class="top5">{cards}</ol>'
                     '<div class="share">📣 Partage le Top 5 : '
@@ -623,7 +678,7 @@ def _top5_catalogue():
             why = f"{why} Tu économises environ {savings(x)} $."
         return deal_html({**x, "why": why})
     cards = "".join(card(x, i) for i, x in enumerate(picks))
-    return picks, ('<section class="topbox" aria-label="Le Top 5 du jour"><h2>⭐ Le Top 5 du jour</h2>'
+    return picks, ('<section class="topbox" id="top5" aria-label="Le Top 5 du jour"><h2>⭐ Le Top 5 du jour</h2>'
                    '<p class="topsub">Nos coups de cœur du moment, choisis un par un. Les rabais peuvent changer à tout moment : clique vite!</p>'
                    f'<ol class="top5">{cards}</ol>'
                    '<div class="share">📣 Partage le Top 5 : '
@@ -669,7 +724,12 @@ def order(items):
 
 def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     url = f"{DOMAIN}/{slug + '/' if slug else ''}"
-    nav = "".join(f'<a href="/{s + "/" if s else ""}"{" aria-current=\"page\"" if s == slug else ""}>{e(n)}</a>' for s, n in NAV)
+    nav = "".join(f'<a href="/{s + "/" if s else ""}"{" class=\"vf\"" if s == "vendredi-fou" else ""}{" aria-current=\"page\"" if s == slug else ""}>{"🔥 " if s == "vendredi-fou" else ""}{e(n)}</a>' for s, n in NAV)
+    nlbox = inscr() + clubbar()
+    banner = vf_strip() if slug not in ("vendredi-fou", "halloween", "courriel") else ""
+    if "<!--NL-->" in extra: extra, nlbox = extra.replace("<!--NL-->", nlbox, 1), ""
+    tabbar = ('<div class="tabbar" role="navigation" aria-label="Raccourcis"><a class="vf" href="/vendredi-fou/"><b>🔥</b>Vendredi fou</a><a href="/#top5"><b>⭐</b>Top 5</a>'
+              '<a href="/idees-cadeaux/"><b>🎁</b>Cadeaux</a><a href="/courriel/"><b>📬</b>Alertes</a></div>')
     ld = {"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"inLanguage":"fr-CA",
           "isPartOf":{"@type":"WebSite","name":"Rabais Flash QC","url":DOMAIN+"/"},
           "publisher":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/","sameAs":[FB,IG,TT]}}
@@ -690,18 +750,18 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <body{" class=\"hw\"" if slug == "halloween" else ""}><header>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
 <h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
-{inscr()}
-{clubbar()}
-{msbtn(slug) if slug else ""}
+{banner}
 {extra}
 {bud}
 <p class="note">⚡ Y'a une raison si on s'appelle <b>Flash</b> : certains rabais durent très peu de temps. Amazon et les marques peuvent les modifier ou y mettre fin à tout moment, et on ne peut pas le garantir. Si le prix a bougé quand tu arrives, c'est que l'offre a changé. Clique vite quand un deal te tente!</p>
 <ul class="deals">{lst}</ul>
+{nlbox}
+{msbtn(slug) if slug else ""}
 {after}
 {club()}
 <footer><p>Les rabais sont fixés par Amazon et par les marques, qui peuvent les modifier ou y mettre fin à tout moment, sans préavis. Leur durée n'est jamais garantie. Vérifie toujours le prix actuel sur Amazon.ca avant d'acheter.</p>
 <p>{DISCLOSURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a><a href="{IG}" rel="noopener">Instagram</a><a href="{TT}" rel="noopener">TikTok</a></p></footer>
-</main><script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);var a=location.hash.slice(1);if(/^[A-Z0-9]{{10}}$/.test(a)){{var d=document.querySelector('li[data-asin="'+a+'"]');if(d){{d.style.outline='3px solid #ffc629';d.style.outlineOffset='2px';setTimeout(function(){{d.scrollIntoView({{block:'center'}});}},150);}}}}}})();</script></body></html>"""
+</main>{tabbar}<script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);var a=location.hash.slice(1);if(/^[A-Z0-9]{{10}}$/.test(a)){{var d=document.querySelector('li[data-asin="'+a+'"]');if(d){{d.style.outline='3px solid #ffc629';d.style.outlineOffset='2px';setTimeout(function(){{d.scrollIntoView({{block:'center'}});}},150);}}}}}})();</script></body></html>"""
 
 def simple(slug, title, h1, body):
     return page(slug, title, h1, "", [], extra=body).replace('<ul class="deals"><li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li></ul>', "").replace('<p class="intro"></p>', "")
@@ -1077,7 +1137,7 @@ def main():
             extra = brand_block({slug}, "💖 Les rabais de tes marques préférées") + extra
         _rc = {"enfants": {"enfants", "jouets"}, "plein-air": {"plein-air"}, "tech": {"tech"}, "animaux": {"animaux"}, "epicerie": {"epicerie"},
                "beaute": {"beaute"}, "maison": {"maison"}, "mode": {"mode", "homme", "femme"}}.get(slug)
-        if _rc: extra = rfd_block(_rc) + dealcat_block(_rc) + extra
+        if _rc: extra = rfd_block(_rc) + "<!--NL-->" + dealcat_block(_rc) + extra
         if slug == "vendredi-fou": extra = vf_block() + extra
         if slug == "epicerie":
             _u = "https://www.amazon.ca/-/fr/deals?discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25226967216011%255C%2522%255D%257D%252C%255C%2522rangeRefinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%257B%255C%2522min%255C%2522%253A20%252C%255C%2522max%255C%2522%253A40%257D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&tag=" + TAG
@@ -1097,7 +1157,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (season_banner() + topblock + prevf_block(8) + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
+            extra = (("" if vf_strip() else season_banner()) + prevf_block(8) + topblock + "<!--NL-->" + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'

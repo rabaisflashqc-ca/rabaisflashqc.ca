@@ -100,3 +100,10 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Dans Chrome : aucune action de masse (abonnements, commentaires ou messages automatiques en rafale), ne jamais toucher aux paramètres de paiement, de pub ou de sécurité des comptes, ne jamais saisir de mot de passe. Si une connexion est demandée ou si Meta/TikTok affiche un avertissement, arrêter et prévenir Alex.
 - Le NAS d'Alex est confidentiel. Ne jamais demander de clés API ou d'informations bancaires dans le clavardage.
 - Si quelque chose bloque, l'expliquer clairement à Alex au lieu de s'arrêter en silence.
+
+## Mise en page du site (refonte du 12 nov. 2026, demande d'Alex : cellulaire d'abord, puis tablette, puis ordi)
+
+- Cartes de deals en grille (2 colonnes au cellulaire, 3 à la tablette, 4 à l'ordi), photo en haut, carte entière cliquable.
+- Vendredi fou en avant : bandeau avec vrai compte à rebours (27 nov.) sur chaque page (`vf_strip()`), pastille jaune dans le menu, section pré-Vendredi fou en premier sur l'accueil, puis le Top 5.
+- Menu sur une ligne qui défile et reste collé en haut. Au cellulaire, barre de raccourcis fixe en bas (Vendredi fou, Top 5, Cadeaux, Alertes).
+- L'inscription courriel et les boutons des réseaux passent après les premiers deals (marqueur `<!--NL-->` dans `extra`), pour qu'un deal soit visible dès l'ouverture.
