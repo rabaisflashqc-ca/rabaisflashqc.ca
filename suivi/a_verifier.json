@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-12T14:38+00:00",
+ "genere": "2026-11-12T14:43+00:00",
  "produits": [
   {
    "asin": "B0F3BCVPN2",
@@ -225,6 +225,271 @@
    "asin": "B0007YR9FI",
    "titre": "Soutien-gorge Playtex 18 Hour pour femme",
    "prix_affiche": 38.91
+  },
+  {
+   "asin": "B07VBPLPH5",
+   "titre": "Machine à expresso automatique Philips série 2200",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0D11TKT2Z",
+   "titre": "Nettoyeur à tapis portatif BISSELL Little Green Max Pet",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B0C3HCD34R",
+   "titre": "Casque à réduction de bruit Anker Soundcore Q20i",
+   "prix_affiche": 47.99
+  },
+  {
+   "asin": "B0GQ4ZCNRN",
+   "titre": "Cafetière à dosettes Keurig K-Mini Go",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B01EA5ZI2U",
+   "titre": "Mélangeur plongeant Braun MQ505 avec fouet",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0CTP1XHBX",
+   "titre": "Haut-parleur Bluetooth JBL Clip 5",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B01MRX9US8",
+   "titre": "Bandes blanchissantes Crest 3D Whitestrips Vivid White",
+   "prix_affiche": 24.66
+  },
+  {
+   "asin": "B085FRKBMF",
+   "titre": "Mélangeur plongeant et robot Braun MultiQuick 7 (3 en 1)",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0BTYCRJSS",
+   "titre": "Écouteurs sans fil Anker Soundcore P20i",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0B5B2KBXV",
+   "titre": "Brosse à dents électrique Oral-B Pro 500",
+   "prix_affiche": 37.22
+  },
+  {
+   "asin": "B0D8VTQKQX",
+   "titre": "Cadre photo numérique Frameo Wi-Fi 10 po, cadeau pour grand-maman",
+   "prix_affiche": 71.99
+  },
+  {
+   "asin": "B07CD5WW33",
+   "titre": "Balai rotatif BISSELL Spinwave pour planchers",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B01MR5U5J2",
+   "titre": "Chaufferette à bain d'huile De'Longhi Dragon",
+   "prix_affiche": 143.99
+  },
+  {
+   "asin": "B08ZKVXV65",
+   "titre": "Fer à onduler triple Conair",
+   "prix_affiche": 29.31
+  },
+  {
+   "asin": "B0D6GY3BSC",
+   "titre": "Fer à boucler sans fil Conair Curl Secret Mini",
+   "prix_affiche": 64.79
+  },
+  {
+   "asin": "B07N7GFJ55",
+   "titre": "Couette Utopia Bedding pour grand lit",
+   "prix_affiche": 39.48
+  },
+  {
+   "asin": "B0DCZ2QFV8",
+   "titre": "Écouteurs ouverts Anker Soundcore AeroFit 2",
+   "prix_affiche": 84.99
+  },
+  {
+   "asin": "B0GZLV3TYN",
+   "titre": "Caméra orientable Blink Mini 2K+",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B073H8STZ7",
+   "titre": "Couverture polaire Utopia Bedding pour grand lit",
+   "prix_affiche": 25.39
+  },
+  {
+   "asin": "B0G9BTVK3D",
+   "titre": "Brosse à dents électrique Philips Sonicare 6100",
+   "prix_affiche": 99.95
+  },
+  {
+   "asin": "B08PBG6QHZ",
+   "titre": "Taies d'oreiller en satin Bedsure (lot de 2)",
+   "prix_affiche": 15.19
+  },
+  {
+   "asin": "B0C3GTMX5M",
+   "titre": "Batterie externe UGREEN 20 000 mAh 100 W",
+   "prix_affiche": 65.99
+  },
+  {
+   "asin": "B016D5ZXCK",
+   "titre": "Défroisseur vapeur vertical Conair",
+   "prix_affiche": 69.91
+  },
+  {
+   "asin": "B0D9R2KDY9",
+   "titre": "Écouteurs sans fil Sony WF-C510",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B0DXMT5LVD",
+   "titre": "Caméra intérieure Ring 2K",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B0BWWZP49F",
+   "titre": "Caméra intérieure Blink Mini 2",
+   "prix_affiche": 19.99
+  },
+  {
+   "asin": "B0G62TFG7S",
+   "titre": "Sonnette vidéo Blink Wired Doorbell 2K+",
+   "prix_affiche": 30.99
+  },
+  {
+   "asin": "B0FTTWCSHV",
+   "titre": "Brosse à dents électrique Oral-B iO Kids Spider-Man",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0G2T1RG9R",
+   "titre": "Poupée Baby Alive Câlins de nuit",
+   "prix_affiche": 20.74
+  },
+  {
+   "asin": "B0G66ZJG3Y",
+   "titre": "Brosse à dents électrique Philips Sonicare 7300",
+   "prix_affiche": 169.95
+  },
+  {
+   "asin": "B0D9N2RZK7",
+   "titre": "Bottes d'hiver DREAM PAIRS doublées pour femme",
+   "prix_affiche": 56.99
+  },
+  {
+   "asin": "B09K719KDR",
+   "titre": "Couverture chauffante Westinghouse avec poche pour les pieds",
+   "prix_affiche": 84.99
+  },
+  {
+   "asin": "B0CFQ3R4CQ",
+   "titre": "Séchoir à cheveux Conair Titanium Pro 1875 W",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B0C8ZM8DCF",
+   "titre": "Chariot-poussette Radio Flyer Atlas Stroll N Wagon",
+   "prix_affiche": 299.99
+  },
+  {
+   "asin": "B01KIMOEW4",
+   "titre": "Nettoyeur à tapis portatif Hoover Spotless",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B00EVY54IE",
+   "titre": "Draps en flanelle Eddie Bauer",
+   "prix_affiche": 75.39
+  },
+  {
+   "asin": "B09SKFVSMZ",
+   "titre": "Outil rotatif sans fil Dremel 8240, cadeau pour lui",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0CPRWWY1F",
+   "titre": "Couverture sherpa Bedsure pour très grand lit",
+   "prix_affiche": 56.99
+  },
+  {
+   "asin": "B091Z6JNX4",
+   "titre": "Chargeur USB-C UGREEN Nexode 100 W (4 ports)",
+   "prix_affiche": 45.99
+  },
+  {
+   "asin": "B091FSYDQF",
+   "titre": "Aspirateur à main sans fil BISSELL TurboSlim",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0CFCHY7YM",
+   "titre": "Écouteurs sans fil Skullcandy Dime 3",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B01M4R7D9A",
+   "titre": "Crème de nuit raffermissante Olay Total Effects",
+   "prix_affiche": 18.87
+  },
+  {
+   "asin": "B085NTR26K",
+   "titre": "Pistolet de massage RENPHO, cadeau pour lui",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B07KG2X2GZ",
+   "titre": "Aspirateur à main BLACK+DECKER Dustbuster",
+   "prix_affiche": 37.99
+  },
+  {
+   "asin": "B0D972PWYC",
+   "titre": "Mélangeur magic bullet Combo",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0D4ZJZ5CC",
+   "titre": "Crayola Scribble Scrubbie Animaux (coffret)",
+   "prix_affiche": 16.99
+  },
+  {
+   "asin": "B0CVL2RTBJ",
+   "titre": "Tasse isotherme THERMOS Icon 473 ml",
+   "prix_affiche": 23.56
+  },
+  {
+   "asin": "B0C2H652ZJ",
+   "titre": "Gonfleur de pneus AstroAI 12 V pour l'auto",
+   "prix_affiche": 29.74
+  },
+  {
+   "asin": "B0BHH4BN7Z",
+   "titre": "Siège d'auto pour bébé Graco SnugRide 35 Lite LX",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B07S5V2MKY",
+   "titre": "Nourriture pour chien Blue Buffalo Life Protection poulet et riz",
+   "prix_affiche": 56.94
+  },
+  {
+   "asin": "B0DVM25YP4",
+   "titre": "Nourriture pour chat Blue Buffalo Tastefuls saumon",
+   "prix_affiche": 29.74
+  },
+  {
+   "asin": "B09YL5G1Y8",
+   "titre": "Caméra Wi-Fi Tapo C110 2K de TP-Link",
+   "prix_affiche": 25.99
+  },
+  {
+   "asin": "B0CDJQTW4X",
+   "titre": "Défroisseur vapeur portatif Conair",
+   "prix_affiche": 52.22
   }
  ]
 }
