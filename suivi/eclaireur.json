@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11T22:55-04:00",
+ "date": "2026-11-11T23:46-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    37,
@@ -53,8 +53,8 @@
    44,
    44,
    [
-    "2026-10-07T22:55:58+00:00",
-    "2026-10-08T00:14:10+00:00"
+    "2026-10-07T23:13:35+00:00",
+    "2026-10-07T23:26:09+00:00"
    ],
    [
     "2026-10-23T04:52:52+00:00",
@@ -65,27 +65,27 @@
    44,
    44,
    [
-    "2026-10-06T11:14:40+00:00",
-    "2026-10-06T12:24:34+00:00"
+    "2026-10-06T21:15:52+00:00",
+    "2026-10-06T21:42:16+00:00"
    ],
    [
-    "2026-10-07T18:25:16+00:00",
-    "2026-10-07T19:36:28+00:00"
+    "2026-10-07T21:00:02+00:00",
+    "2026-10-07T22:55:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-23T14:20:56+00:00",
-    "2026-09-23T23:00:22+00:00"
+    "2026-10-06T13:14:37+00:00",
+    "2026-10-06T13:19:26+00:00"
    ],
    [
-    "2026-10-06T10:18:30+00:00",
-    "2026-10-06T10:21:02+00:00"
+    "2026-10-06T21:10:59+00:00",
+    "2026-10-06T21:12:52+00:00"
    ]
   ],
-  "avant_filtre_date": 137,
+  "avant_filtre_date": 132,
   "apres_filtre_date": 23
  },
  "items": [
@@ -432,6 +432,24 @@
    "img": "/img/p/B0DVTGBCBL.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
+   "title": "kindle scribe 64gb with premium pen like new $221.64",
+   "price": 221.64,
+   "was": null,
+   "votes": 2,
+   "posts": 1,
+   "time": "2026-11-12T01:58:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
+   "asin": "B09BSQ8PRD",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B09BSQ8PRD?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09BSQ8PRD.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
    "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
    "price": 659.99,
@@ -448,24 +466,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GH74B9RQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
-   "title": "kindle scribe 64gb with premium pen like new $221.64",
-   "price": 221.64,
-   "was": null,
-   "votes": 1,
-   "posts": 1,
-   "time": "2026-11-12T01:58:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
-   "asin": "B09BSQ8PRD",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09BSQ8PRD?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09BSQ8PRD.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
