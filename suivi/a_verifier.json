@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-12T02:49+00:00",
+ "genere": "2026-11-12T02:53+00:00",
  "produits": [
   {
    "asin": "B0DW9C8RVQ",
@@ -230,6 +230,151 @@
    "asin": "B071FH2NLX",
    "titre": "Gâteries pour chat GREENIES Feline",
    "prix_affiche": 21.47
+  },
+  {
+   "asin": "B0BS1QCFHX",
+   "titre": "Casque sans fil antibruit Sony WH-CH720N",
+   "prix_affiche": 118.0
+  },
+  {
+   "asin": "B0BSGQL41X",
+   "titre": "Casque sans fil Sony WH-CH520",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B0CTBCDD6D",
+   "titre": "Casque sans fil JBL Tune 720BT",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B0BQPNMXQV",
+   "titre": "Écouteurs sans fil JBL Vibe Beam",
+   "prix_affiche": 44.98
+  },
+  {
+   "asin": "B0D1HPP7XF",
+   "titre": "Enceinte Bluetooth JBL Clip 5 étanche",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0FHJ8XWWL",
+   "titre": "Sonnette à batterie Ring 2K (nouveau modèle)",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0BT752BRT",
+   "titre": "Tablette Amazon Fire HD 10",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0DXMMGG7H",
+   "titre": "Caméra intérieure Ring 2K (nouveau modèle)",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B0CQ1CVW3Z",
+   "titre": "Casque antibruit JBL Live 670NC",
+   "prix_affiche": 79.98
+  },
+  {
+   "asin": "B0DW9B1FCL",
+   "titre": "Écouteurs JBL Tune Beam 2 Ghost",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B0G31P119K",
+   "titre": "Écouteurs sport antibruit JBL Endurance Peak 4",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0CZ9LH53B",
+   "titre": "Batterie externe Anker Zolo 20 000 mAh",
+   "prix_affiche": 47.49
+  },
+  {
+   "asin": "B0G12HGD6R",
+   "titre": "Casque de jeu sans fil Logitech G325",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B07JGF236Q",
+   "titre": "Friteuse à air Ninja 3,8 L (AF101C)",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B01EA5ZI2U",
+   "titre": "Mélangeur à main Braun MQ505 avec fouet",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B085FRKBMF",
+   "titre": "Mélangeur à main et robot Braun MultiQuick 3 en 1",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0953DJ39N",
+   "titre": "Cafetière portion individuelle Ninja",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0C2ZMTXSG",
+   "titre": "Aspirateur-balai Shark Rocket Pro",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0CCY6VG8Z",
+   "titre": "Humidificateur Dreo 4 L pour chambre",
+   "prix_affiche": 47.49
+  },
+  {
+   "asin": "B0DW8YP1LY",
+   "titre": "Purificateur d'air Levoit pour chambre",
+   "prix_affiche": 134.99
+  },
+  {
+   "asin": "B07DVYN14S",
+   "titre": "Parure de lit en flanelle Eddie Bauer",
+   "prix_affiche": 55.43
+  },
+  {
+   "asin": "B016D5ZXCK",
+   "titre": "Défroisseur vapeur vertical Conair",
+   "prix_affiche": 69.91
+  },
+  {
+   "asin": "B01KIMOEW4",
+   "titre": "Nettoyeur à tapis portatif Hoover Spotless",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B01MRX9US8",
+   "titre": "Crest 3D Whitestrips Vivid White",
+   "prix_affiche": 24.66
+  },
+  {
+   "asin": "B0B5B2KBXV",
+   "titre": "Brosse à dents électrique Oral-B Pro 500",
+   "prix_affiche": 37.22
+  },
+  {
+   "asin": "B0CBMPDDYS",
+   "titre": "Masseur de pieds chauffant RENPHO",
+   "prix_affiche": 119.98
+  },
+  {
+   "asin": "B085NTR26K",
+   "titre": "Pistolet de massage RENPHO",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B0FTTWCSHV",
+   "titre": "Brosse à dents électrique Oral-B iO Kids",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0GP976V5V",
+   "titre": "Coffret Hunger Games 5 livres (édition de luxe)",
+   "prix_affiche": 72.57
   }
  ]
 }
