@@ -13,3 +13,10 @@ Chaque dimanche : la décision de la semaine, la raison, et le résultat à vér
 - 10,05 $ en 3 jours : 1 197 vues, 998 personnes, 92 clics sur le lien (taux de clic environ 7,7 %), 81 vues du site à 0,12 $ chacune.
 - Audience réelle : 84 % de femmes, surtout 45 ans et plus (65+ en tête, puis 45-54 et 55-64). Les 25-44 cliquent peu.
 - À valider : ventes Amazon Associés des mêmes jours (combien de ces 81 visites ont cliqué vers Amazon et acheté).
+
+## 12 nov. 2026 : stats Facebook du réel « Parents d'ados » (11 nov. au soir)
+
+- 262 comptes rejoints en 13 h, 96,6 % de non-abonnés, 96,6 % via les Reels. 0 abonné gagné.
+- Visionnage complet 1,2 % : presque personne ne voit l'écran de fin avec l'adresse du site.
+- Audience réelle plus âgée que prévu : 55-64 ans 22 %, 65 ans et plus 22 %, 45-54 ans 21 %. Les grands-parents achètent les cadeaux.
+- Décision : 1re image = produit + prix + accroche (pas d'écran titre), réels plus courts (11 à 13 s), adresse du site visible en permanence en bas, viser aussi mamies et papis dans les accroches.
