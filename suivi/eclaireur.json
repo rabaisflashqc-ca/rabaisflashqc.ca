@@ -1,12 +1,12 @@
 {
- "date": "2026-11-12T20:42-04:00",
+ "date": "2026-11-12T22:36-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-06T06:39:03+00:00",
-    "2026-11-06T14:20:02+00:00"
+    "2026-11-06T14:20:02+00:00",
+    "2026-11-06T14:57:49+00:00"
    ],
    [
     "2026-11-12T19:16:32+00:00",
@@ -15,7 +15,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    17,
-   14,
+   16,
    [
     "2026-11-06T14:57:49+00:00",
     "2026-11-08T19:17:26+00:00"
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   14,
+   16,
    [
     "2026-11-06T14:57:49+00:00",
     "2026-11-06T20:18:30+00:00"
@@ -39,13 +39,13 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   42,
+   43,
    [
-    "2026-10-27T04:50:38+00:00",
-    "2026-10-27T13:00:59+00:00"
+    "2026-10-27T03:30:41+00:00",
+    "2026-10-27T04:50:38+00:00"
    ],
    [
-    "2026-11-06T06:39:03+00:00",
+    "2026-11-05T14:50:52+00:00",
     "2026-11-06T14:20:02+00:00"
    ]
   ],
@@ -53,67 +53,49 @@
    44,
    44,
    [
-    "2026-10-09T19:37:11+00:00",
-    "2026-10-11T00:40:31+00:00"
+    "2026-10-09T18:32:47+00:00",
+    "2026-10-09T19:37:11+00:00"
    ],
    [
-    "2026-10-27T03:20:45+00:00",
-    "2026-10-27T03:30:41+00:00"
+    "2026-10-27T00:50:56+00:00",
+    "2026-10-27T03:20:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:40:19+00:00",
-    "2026-10-06T14:48:13+00:00"
+    "2026-10-06T14:30:49+00:00",
+    "2026-10-06T14:40:19+00:00"
    ],
    [
-    "2026-10-09T15:28:13+00:00",
-    "2026-10-09T18:32:47+00:00"
+    "2026-10-09T02:05:57+00:00",
+    "2026-10-09T15:28:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T16:03:50+00:00",
-    "2026-09-28T16:29:03+00:00"
+    "2026-09-28T15:56:56+00:00",
+    "2026-09-28T16:03:50+00:00"
    ],
    [
-    "2026-10-06T14:25:34+00:00",
-    "2026-10-06T14:30:49+00:00"
+    "2026-10-06T14:21:45+00:00",
+    "2026-10-06T14:25:34+00:00"
    ]
   ],
-  "avant_filtre_date": 139,
-  "apres_filtre_date": 32
+  "avant_filtre_date": 137,
+  "apres_filtre_date": 29
  },
  "items": [
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-etl-21-2831253/",
-   "title": "Ecoflow 65W Rapid charger (CSA/ETL) $21",
-   "price": 20.99,
-   "was": 30.99,
-   "votes": 66,
-   "posts": 48,
-   "time": "2026-11-06T06:39:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecoflow-65w-rapid-charger-csa-etl-21-2831253/",
-   "asin": "B0FDGTY477",
-   "pct": 32,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FDGTY477?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0FDGTY477.jpg"
-  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 56,
-   "posts": 37,
+   "votes": 62,
+   "posts": 39,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "asin": "B0C2V1512F",
@@ -221,7 +203,7 @@
    "price": 44.99,
    "was": 77.99,
    "votes": 18,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-12T05:42:30+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
    "asin": "B01EA5ZI2U",
@@ -274,8 +256,8 @@
    "title": "Anker soundcore P20i True Wireless Earbuds Black - $24.99",
    "price": 24.99,
    "was": 39.99,
-   "votes": 12,
-   "posts": 12,
+   "votes": 13,
+   "posts": 13,
    "time": "2026-11-12T13:51:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
    "asin": "B0FNWCYLZN",
@@ -292,7 +274,7 @@
    "title": "Assassin's Creed Shadows (Switch 2) - $33.19 w/ coupon - ATL(?)",
    "price": 33.19,
    "was": 49.96,
-   "votes": 11,
+   "votes": 13,
    "posts": 9,
    "time": "2026-11-12T16:13:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
@@ -310,8 +292,8 @@
    "title": "$99.98-Sony WH-CH720N Headphones-Amazon & Walmart",
    "price": 99.98,
    "was": 248.0,
-   "votes": 8,
-   "posts": 13,
+   "votes": 9,
+   "posts": 15,
    "time": "2026-11-12T11:30:35+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
    "asin": "B0BS1QCFHX",
@@ -401,7 +383,7 @@
    "price": 599.99,
    "was": 999.99,
    "votes": 6,
-   "posts": 19,
+   "posts": 24,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -628,42 +610,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H44MLFFL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-apple-watch-series-11-gps-46mm-smartwatch-sale-489-97-589-2831822/",
-   "title": "Apple Watch Series 11 [GPS 46mm] Smartwatch on sale $489.97($589)",
-   "price": 489.97,
-   "was": 589.0,
-   "votes": 0,
-   "posts": 4,
-   "time": "2026-11-12T05:16:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-watch-series-11-gps-46mm-smartwatch-sale-489-97-589-2831822/",
-   "asin": "B0FQG8Y4V9",
-   "pct": 17,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FQG8Y4V9?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FQG8Y4V9.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-custos-shoe-storage-bench-cushion-66-49-2831907/",
-   "title": "Custos Shoe Storage Bench with Cushion @ $66.49",
-   "price": 66.49,
-   "was": 89.99,
-   "votes": 0,
-   "posts": 3,
-   "time": "2026-11-12T18:56:26+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-custos-shoe-storage-bench-cushion-66-49-2831907/",
-   "asin": "B085DCPQB8",
-   "pct": 26,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B085DCPQB8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B085DCPQB8.jpg"
   }
  ]
 }
