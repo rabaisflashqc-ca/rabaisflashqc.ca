@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-13T13:42+00:00",
+ "genere": "2026-11-13T13:46+00:00",
  "produits": [
   {
    "asin": "B0FW7HHPS4",
@@ -765,6 +765,111 @@
    "asin": "B0D5SLWJ2N",
    "titre": "Crayons de couleur Crayola pour enfant",
    "prix_affiche": 11.76
+  },
+  {
+   "asin": "B0F6T83LDV",
+   "titre": "Crayola Scribble Scrubbie Bluey, ensemble de jeu",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0D4ZDFQTQ",
+   "titre": "Crayola Scribble Scrubbie, la pouponnière des animaux",
+   "prix_affiche": 15.99
+  },
+  {
+   "asin": "B0GTQP62QJ",
+   "titre": "Thermomètre et hygromètre GoveeLife",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B09N7DL2DH",
+   "titre": "Capteurs de température et d'humidité Govee",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B07JLTMQJT",
+   "titre": "Gonfleur portatif CRAFTSMAN (pneus d'hiver)",
+   "prix_affiche": 78.0
+  },
+  {
+   "asin": "B00B6K4VDK",
+   "titre": "Coffre à outils DEWALT TSTAK",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0GMV24P4X",
+   "titre": "Casque filaire JBL Tune 530C",
+   "prix_affiche": 34.98
+  },
+  {
+   "asin": "B01EZV35QU",
+   "titre": "Interrupteur intelligent Kasa Wi-Fi",
+   "prix_affiche": 14.99
+  },
+  {
+   "asin": "B08BCHKY52",
+   "titre": "Haut-parleur Bluetooth Soundcore 3",
+   "prix_affiche": 54.98
+  },
+  {
+   "asin": "B0HFB8JYK3",
+   "titre": "Casque sans fil Sony",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B08V4T782S",
+   "titre": "Hot Wheels Monster Trucks, l'arène",
+   "prix_affiche": 83.84
+  },
+  {
+   "asin": "B0CJZFB8YQ",
+   "titre": "NERF Minecraft Firebrand",
+   "prix_affiche": 17.63
+  },
+  {
+   "asin": "B074D9BSDQ",
+   "titre": "Couronne de Noël illuminée National Tree Company",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B09DT173R1",
+   "titre": "Prise intelligente extérieure Kasa",
+   "prix_affiche": 18.99
+  },
+  {
+   "asin": "B08NWNDMNT",
+   "titre": "Aspirateur balai Eureka avec fil",
+   "prix_affiche": 37.53
+  },
+  {
+   "asin": "B0HBCXT4NJ",
+   "titre": "Brosse à dents électrique Philips Sonicare 3100",
+   "prix_affiche": 27.95
+  },
+  {
+   "asin": "B07P39MLKH",
+   "titre": "Haut-parleur Bluetooth Soundcore Motion+",
+   "prix_affiche": 77.34
+  },
+  {
+   "asin": "B0C51J2ZXN",
+   "titre": "Souris de jeu Razer Cobra",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B0FCCXMW59",
+   "titre": "Écouteurs sans fil Soundcore",
+   "prix_affiche": 139.97
+  },
+  {
+   "asin": "B0CQ27PZG3",
+   "titre": "Purificateur d'air GoveeLife",
+   "prix_affiche": 48.99
+  },
+  {
+   "asin": "B08J2L498P",
+   "titre": "Haltères réglables Lifepro",
+   "prix_affiche": 132.99
   }
  ]
 }
