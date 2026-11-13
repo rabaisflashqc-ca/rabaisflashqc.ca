@@ -1,4 +1,220 @@
 {
- "genere": "2026-11-13T08:08+00:00",
- "produits": []
+ "genere": "2026-11-13T13:34+00:00",
+ "produits": [
+  {
+   "asin": "B0FW7HHPS4",
+   "titre": "Jeans Levi's Cinch Baggy pour femme",
+   "prix_affiche": 69.96
+  },
+  {
+   "asin": "B091ZF4YGX",
+   "titre": "Sandales adidas Adilette pour la maison",
+   "prix_affiche": 17.84
+  },
+  {
+   "asin": "B01A6LTSA0",
+   "titre": "Sabots Crocs Classic doublés (chauds)",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0B4PBYKPP",
+   "titre": "Coton ouaté Carhartt Loose Fit pour homme",
+   "prix_affiche": 50.97
+  },
+  {
+   "asin": "B0FX7FTTHC",
+   "titre": "Bottes d'hiver Columbia Powderbug pour enfant",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0FX3GP31W",
+   "titre": "Coton ouaté à capuchon The North Face Evolution pour femme",
+   "prix_affiche": 58.96
+  },
+  {
+   "asin": "B0FLRF21KN",
+   "titre": "Souliers Skechers Hands Free Slip-ins pour femme",
+   "prix_affiche": 77.26
+  },
+  {
+   "asin": "B0G21Q8DPX",
+   "titre": "Souliers de marche Merrell Moab 3 pour homme",
+   "prix_affiche": 90.0
+  },
+  {
+   "asin": "B0CLSZY56V",
+   "titre": "Veste sans manches Columbia Heavenly II pour femme",
+   "prix_affiche": 89.97
+  },
+  {
+   "asin": "B0F91Z1PKX",
+   "titre": "Coton ouaté Carhartt Sawyer pour femme",
+   "prix_affiche": 47.97
+  },
+  {
+   "asin": "B093QJNJ9P",
+   "titre": "Espadrilles New Balance 574 pour homme",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B07N1K4NK8",
+   "titre": "Bottes d'hiver doublées Kamik Forester pour homme",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B0D1LGWQ7Q",
+   "titre": "Espadrilles New Balance Fresh Foam pour femme",
+   "prix_affiche": 52.8
+  },
+  {
+   "asin": "B0B1KDCCGB",
+   "titre": "Jeans Levi's 559 coupe ample pour homme",
+   "prix_affiche": 64.94
+  },
+  {
+   "asin": "B0F5CVMPK1",
+   "titre": "Espadrilles Skechers Arch Fit pour femme",
+   "prix_affiche": 50.0
+  },
+  {
+   "asin": "B00Q7EAGHK",
+   "titre": "Veste polaire Columbia Steens Mountain pour homme",
+   "prix_affiche": 25.01
+  },
+  {
+   "asin": "B0F2B4MTXT",
+   "titre": "Espadrilles adidas Grand Court Alpha pour homme",
+   "prix_affiche": 35.0
+  },
+  {
+   "asin": "B0CLSS58LT",
+   "titre": "Manteau softshell Columbia Ascender pour homme",
+   "prix_affiche": 64.79
+  },
+  {
+   "asin": "B0DJV5WYQZ",
+   "titre": "Jeans Levi's 578 Baggy pour homme",
+   "prix_affiche": 55.96
+  },
+  {
+   "asin": "B000GHYX5U",
+   "titre": "Parfum Calvin Klein Obsession, eau de toilette",
+   "prix_affiche": 36.0
+  },
+  {
+   "asin": "B005192VQG",
+   "titre": "Protecteur de chaleur ghd Bodyguard pour cheveux",
+   "prix_affiche": 23.04
+  },
+  {
+   "asin": "B0H9B6TDFV",
+   "titre": "Coffret des Fêtes Hempz, lotions minis",
+   "prix_affiche": 23.48
+  },
+  {
+   "asin": "B0CS71J3GP",
+   "titre": "Machine à café Nespresso Vertuo Pop+",
+   "prix_affiche": 84.0
+  },
+  {
+   "asin": "B0FSNZRV96",
+   "titre": "Gobelet Stanley Quencher H2.0",
+   "prix_affiche": 38.98
+  },
+  {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent DREO",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0F39MQ78M",
+   "titre": "Nettoyeur à taches BISSELL Little Green",
+   "prix_affiche": 81.99
+  },
+  {
+   "asin": "B0CNF63GQZ",
+   "titre": "Mélangeur portatif Ninja Blast",
+   "prix_affiche": 49.93
+  },
+  {
+   "asin": "B0BZJT8C4V",
+   "titre": "Mijoteuse Crock-Pot 6 pintes Cook & Carry",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B0CT9SBWC9",
+   "titre": "Écouteurs JBL Tune 670NC à réduction de bruit",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0DN45YMP6",
+   "titre": "Écouteurs sans fil JBL Vibe Beam 2",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0F63ZGHGG",
+   "titre": "Clé de diffusion Roku Streaming Stick 2025",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0BWX13628",
+   "titre": "Caméras intérieures Blink Mini 2",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0CXL5KTBD",
+   "titre": "Haut-parleur Bluetooth Sony ULT FIELD 1",
+   "prix_affiche": 98.0
+  },
+  {
+   "asin": "B0DHLGFRV3",
+   "titre": "LEGO Speed Champions McLaren F1",
+   "prix_affiche": 21.79
+  },
+  {
+   "asin": "B0DJ19GJVW",
+   "titre": "LEGO Friends, la roulotte de l'amitié",
+   "prix_affiche": 49.86
+  },
+  {
+   "asin": "B0DN1NFKQW",
+   "titre": "Hot Wheels Mario Kart, château de Bowser",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B0G8J64978",
+   "titre": "Bitzee KPop Demon Hunters, animal virtuel",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0FJZ2L5JX",
+   "titre": "Fisher-Price labyrinthe de perles en bois",
+   "prix_affiche": 15.98
+  },
+  {
+   "asin": "B071FH2NLX",
+   "titre": "Gâteries pour chat GREENIES, grand format",
+   "prix_affiche": 21.47
+  },
+  {
+   "asin": "B07HMCQTGW",
+   "titre": "Veste polaire Gooby pour chien",
+   "prix_affiche": 19.08
+  },
+  {
+   "asin": "B0CFW215X1",
+   "titre": "Nourriture pour chien Blue Buffalo Life Protection",
+   "prix_affiche": 56.94
+  },
+  {
+   "asin": "B091FXKQZ6",
+   "titre": "Tapis de yoga épais Retrospec Solana",
+   "prix_affiche": 36.02
+  },
+  {
+   "asin": "B091M7X5Z6",
+   "titre": "Ballon de basket Wilson NBA DRV",
+   "prix_affiche": 25.99
+  }
+ ]
 }
