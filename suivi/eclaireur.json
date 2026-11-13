@@ -1,48 +1,48 @@
 {
- "date": "2026-11-12T23:22-04:00",
+ "date": "2026-11-13T13:17-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   44,
-   44,
+   43,
+   43,
    [
-    "2026-11-06T14:20:02+00:00",
-    "2026-11-06T14:57:49+00:00"
+    "2026-11-06T20:18:30+00:00",
+    "2026-11-07T15:42:26+00:00"
    ],
    [
-    "2026-11-12T19:16:32+00:00",
-    "2026-11-12T20:47:41+00:00"
+    "2026-11-13T05:34:23+00:00",
+    "2026-11-13T16:46:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   17,
-   15,
+   14,
+   14,
    [
-    "2026-11-06T14:57:49+00:00",
-    "2026-11-08T19:17:26+00:00"
+    "2026-11-08T19:17:26+00:00",
+    "2026-11-09T15:24:46+00:00"
    ],
    [
-    "2026-11-12T18:56:26+00:00",
-    "2026-11-12T19:16:32+00:00"
+    "2026-11-12T19:16:32+00:00",
+    "2026-11-13T05:34:23+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   15,
+   16,
    [
     "2026-11-06T14:57:49+00:00",
     "2026-11-06T20:18:30+00:00"
    ],
    [
-    "2026-11-12T19:16:32+00:00",
-    "2026-11-12T20:47:41+00:00"
+    "2026-11-13T05:34:23+00:00",
+    "2026-11-13T16:46:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   43,
+   44,
    [
-    "2026-10-27T03:30:41+00:00",
-    "2026-10-27T04:50:38+00:00"
+    "2026-10-26T19:35:56+00:00",
+    "2026-10-27T00:50:56+00:00"
    ],
    [
     "2026-11-05T14:50:52+00:00",
@@ -53,40 +53,40 @@
    44,
    44,
    [
-    "2026-10-09T18:32:47+00:00",
-    "2026-10-09T19:37:11+00:00"
+    "2026-10-08T14:30:40+00:00",
+    "2026-10-08T15:23:36+00:00"
    ],
    [
-    "2026-10-27T00:50:56+00:00",
-    "2026-10-27T03:20:45+00:00"
+    "2026-10-26T12:14:44+00:00",
+    "2026-10-26T15:52:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:30:49+00:00",
-    "2026-10-06T14:40:19+00:00"
+    "2026-10-06T13:25:11+00:00",
+    "2026-10-06T13:41:30+00:00"
    ],
    [
-    "2026-10-09T02:05:57+00:00",
-    "2026-10-09T15:28:13+00:00"
+    "2026-10-08T11:01:20+00:00",
+    "2026-10-08T13:24:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T15:56:56+00:00",
-    "2026-09-28T16:03:50+00:00"
+    "2026-09-25T20:27:57+00:00",
+    "2026-09-27T01:21:46+00:00"
    ],
    [
-    "2026-10-06T14:21:45+00:00",
-    "2026-10-06T14:25:34+00:00"
+    "2026-10-06T13:09:04+00:00",
+    "2026-10-06T13:24:30+00:00"
    ]
   ],
   "avant_filtre_date": 138,
-  "apres_filtre_date": 30
+  "apres_filtre_date": 28
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 67,
-   "posts": 41,
+   "votes": 123,
+   "posts": 61,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "asin": "B0C2V1512F",
@@ -126,24 +126,6 @@
    "img": "/img/p/B0GV4XGJBN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-149-95-sennheiser-hd-560s-wired-over-ear-audiophile-headphones-2831400/",
-   "title": "$149.95 - Sennheiser HD 560S - Wired Over-the-Ear Audiophile Headphones",
-   "price": 149.95,
-   "was": 279.95,
-   "votes": 32,
-   "posts": 35,
-   "time": "2026-11-08T04:56:27+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-149-95-sennheiser-hd-560s-wired-over-ear-audiophile-headphones-2831400/",
-   "asin": "B08J9MVB6W",
-   "pct": 46,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08J9MVB6W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08J9MVB6W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-irwin-bi-material-tape-measure-26-ft-metric-imperial-5-98-25-ft-imperial-6-98-2831386/",
    "title": "IRWIN Bi-Material Tape Measure 26-ft Metric & Imperial $5.98 | 25-ft Imperial $6.98",
    "price": 5.98,
@@ -162,30 +144,12 @@
    "img": "/img/p/B0BVRSMXDQ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "title": "Tenda WiFi 7 Mesh System BE5100 (Dual Band) (2 pack) ($114.33)",
-   "price": 114.33,
-   "was": 138.5,
-   "votes": 20,
-   "posts": 24,
-   "time": "2026-11-06T14:20:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tenda-wifi-7-mesh-system-be5100-dual-band-2-pack-114-33-2831266/",
-   "asin": "B0FN6WGN7L",
-   "pct": 17,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FN6WGN7L?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FN6WGN7L.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
    "title": "Braun MQ505 Immersion Hand Blender w/Whisk & Beaker, Dual Speed, 350W on sale $44.99($77.99)",
    "price": 44.99,
    "was": 77.99,
-   "votes": 19,
-   "posts": 9,
+   "votes": 22,
+   "posts": 11,
    "time": "2026-11-12T05:42:30+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
    "asin": "B01EA5ZI2U",
@@ -238,8 +202,8 @@
    "title": "Assassin's Creed Shadows (Switch 2) - $33.19 w/ coupon - ATL(?)",
    "price": 33.19,
    "was": 49.96,
-   "votes": 15,
-   "posts": 12,
+   "votes": 17,
+   "posts": 13,
    "time": "2026-11-12T16:13:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
    "asin": "B0FXBVGKHT",
@@ -250,6 +214,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FXBVGKHT.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
+   "title": "Anker soundcore P20i True Wireless Earbuds Black - $24.99",
+   "price": 24.99,
+   "was": 39.99,
+   "votes": 15,
+   "posts": 14,
+   "time": "2026-11-12T13:51:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
+   "asin": "B0FNWCYLZN",
+   "pct": 38,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
@@ -270,29 +252,11 @@
    "img": "/img/p/B0DGMX5845.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
-   "title": "Anker soundcore P20i True Wireless Earbuds Black - $24.99",
-   "price": 24.99,
-   "was": 39.99,
-   "votes": 13,
-   "posts": 13,
-   "time": "2026-11-12T13:51:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
-   "asin": "B0FNWCYLZN",
-   "pct": 38,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FNWCYLZN.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
    "title": "$99.98-Sony WH-CH720N Headphones-Amazon & Walmart",
    "price": 99.98,
    "was": 248.0,
-   "votes": 9,
+   "votes": 11,
    "posts": 15,
    "time": "2026-11-12T11:30:35+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
@@ -306,30 +270,12 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
-   "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
-   "price": 37.99,
-   "was": 49.99,
-   "votes": 7,
-   "posts": 16,
-   "time": "2026-11-09T13:59:48+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
-   "asin": "B0FG7MXDH6",
-   "pct": 24,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FG7MXDH6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FG7MXDH6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
    "price": 599.99,
    "was": 999.99,
-   "votes": 7,
-   "posts": 26,
+   "votes": 9,
+   "posts": 37,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -340,6 +286,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0B38KRTV6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
+   "title": "Typhur Sync Gold Lite Meat Thermometer (black) - $39.99",
+   "price": 39.99,
+   "was": 99.99,
+   "votes": 9,
+   "posts": 7,
+   "time": "2026-11-12T19:13:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
+   "asin": "B0FRM7YC6X",
+   "pct": 60,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FRM7YC6X?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FRM7YC6X.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
+   "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
+   "price": 37.99,
+   "was": 49.99,
+   "votes": 7,
+   "posts": 17,
+   "time": "2026-11-09T13:59:48+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
+   "asin": "B0FG7MXDH6",
+   "pct": 24,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FG7MXDH6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FG7MXDH6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
@@ -378,24 +360,6 @@
    "img": "/img/p/B0FB9FHQV5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
-   "title": "Mind Reader Metal Mesh Countertop Organizer $29.99 (-55%)",
-   "price": 29.99,
-   "was": 66.95,
-   "votes": 6,
-   "posts": 3,
-   "time": "2026-11-11T13:11:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mind-reader-metal-mesh-countertop-organizer-29-99-55-2831726/",
-   "asin": "B0741XP8RH",
-   "pct": 55,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0741XP8RH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0741XP8RH.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
    "title": "Razer Kishi V3 Gaming Controller $79.96",
    "price": 79.96,
@@ -432,22 +396,22 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
-   "title": "Typhur Sync Gold Lite Meat Thermometer (black) - $39.99",
-   "price": 39.99,
-   "was": 99.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
+   "title": "Ninja DT201C, Foodi 10-in-1 XL Pro Air Fry Oven - $199.99",
+   "price": 199.99,
+   "was": 399.99,
    "votes": 5,
-   "posts": 7,
-   "time": "2026-11-12T19:13:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
-   "asin": "B0FRM7YC6X",
-   "pct": 60,
+   "posts": 11,
+   "time": "2026-11-12T18:53:44+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
+   "asin": "B08LQY2XF5",
+   "pct": 50,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FRM7YC6X?tag=coupdecoeurqc-20",
-   "deja": false,
+   "link": "https://www.amazon.ca/dp/B08LQY2XF5?tag=coupdecoeurqc-20",
+   "deja": true,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FRM7YC6X.jpg"
+   "img": "/img/p/B08LQY2XF5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
@@ -504,24 +468,6 @@
    "img": "/img/p/B0DVTGBCBL.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
-   "title": "Ninja DT201C, Foodi 10-in-1 XL Pro Air Fry Oven - $199.99",
-   "price": 199.99,
-   "was": 399.99,
-   "votes": 3,
-   "posts": 4,
-   "time": "2026-11-12T18:53:44+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
-   "asin": "B08LQY2XF5",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08LQY2XF5?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08LQY2XF5.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
    "title": "REOLINK PoE Security Camera CX820 - $115.99",
    "price": 115.99,
@@ -538,6 +484,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BVQW93DZ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
+   "title": "ORICO Magnetic M.2 2230 NVMe Enclosure 10Gbps Docking Station",
+   "price": 38.49,
+   "was": 69.99,
+   "votes": 2,
+   "posts": 7,
+   "time": "2026-11-13T05:31:27+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
+   "asin": "B0H7B72QFC",
+   "pct": 45,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H7B72QFC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H7B72QFC.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
@@ -581,7 +545,7 @@
    "price": 166.42,
    "was": 186.99,
    "votes": 1,
-   "posts": 4,
+   "posts": 5,
    "time": "2026-11-12T20:47:41+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-renogy-40a-dc-dc-mppt-battery-charger-agm-gel-lithium-166-42-2831918/",
    "asin": "B0DBVKDGZ9",
@@ -612,22 +576,22 @@
    "img": "/img/p/B0H44MLFFL.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-custos-shoe-storage-bench-cushion-66-49-2831907/",
-   "title": "Custos Shoe Storage Bench with Cushion @ $66.49",
-   "price": 66.49,
-   "was": 89.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
+   "title": "$37.99 Blink Outdoor 4 and Wired Doorbell 2K+ (newest model) & Sync Module Core included",
+   "price": 37.99,
+   "was": 204.98,
    "votes": 0,
-   "posts": 5,
-   "time": "2026-11-12T18:56:26+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-custos-shoe-storage-bench-cushion-66-49-2831907/",
-   "asin": "B085DCPQB8",
-   "pct": 26,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B085DCPQB8?tag=coupdecoeurqc-20",
+   "posts": 2,
+   "time": "2026-11-13T16:46:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
+   "asin": "B0H1H6M135",
+   "pct": 81,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0H1H6M135?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B085DCPQB8.jpg"
+   "img": "/img/p/B0H1H6M135.jpg"
   }
  ]
 }
