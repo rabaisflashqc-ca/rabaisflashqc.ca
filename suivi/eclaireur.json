@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12T22:36-04:00",
+ "date": "2026-11-12T23:22-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -15,7 +15,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    17,
-   16,
+   15,
    [
     "2026-11-06T14:57:49+00:00",
     "2026-11-08T19:17:26+00:00"
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   16,
+   15,
    [
     "2026-11-06T14:57:49+00:00",
     "2026-11-06T20:18:30+00:00"
@@ -85,8 +85,8 @@
     "2026-10-06T14:25:34+00:00"
    ]
   ],
-  "avant_filtre_date": 137,
-  "apres_filtre_date": 29
+  "avant_filtre_date": 138,
+  "apres_filtre_date": 30
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 62,
-   "posts": 39,
+   "votes": 67,
+   "posts": 41,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "asin": "B0C2V1512F",
@@ -180,6 +180,24 @@
    "img": "/img/p/B0FN6WGN7L.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
+   "title": "Braun MQ505 Immersion Hand Blender w/Whisk & Beaker, Dual Speed, 350W on sale $44.99($77.99)",
+   "price": 44.99,
+   "was": 77.99,
+   "votes": 19,
+   "posts": 9,
+   "time": "2026-11-12T05:42:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
+   "asin": "B01EA5ZI2U",
+   "pct": 42,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01EA5ZI2U?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01EA5ZI2U.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
    "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
    "price": 56.99,
@@ -198,24 +216,6 @@
    "img": "/img/p/B0H2N9BM7C.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
-   "title": "Braun MQ505 Immersion Hand Blender w/Whisk & Beaker, Dual Speed, 350W on sale $44.99($77.99)",
-   "price": 44.99,
-   "was": 77.99,
-   "votes": 18,
-   "posts": 9,
-   "time": "2026-11-12T05:42:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
-   "asin": "B01EA5ZI2U",
-   "pct": 42,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01EA5ZI2U?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01EA5ZI2U.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-glorious-gaming-switches-keycaps-8-99-2831318/",
    "title": "Glorious Gaming Switches and Keycaps - from $8.99",
    "price": 10.99,
@@ -232,6 +232,24 @@
    "morts": 0,
    "doute": false,
    "img": null
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
+   "title": "Assassin's Creed Shadows (Switch 2) - $33.19 w/ coupon - ATL(?)",
+   "price": 33.19,
+   "was": 49.96,
+   "votes": 15,
+   "posts": 12,
+   "time": "2026-11-12T16:13:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
+   "asin": "B0FXBVGKHT",
+   "pct": 34,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FXBVGKHT?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FXBVGKHT.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
@@ -270,24 +288,6 @@
    "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
-   "title": "Assassin's Creed Shadows (Switch 2) - $33.19 w/ coupon - ATL(?)",
-   "price": 33.19,
-   "was": 49.96,
-   "votes": 13,
-   "posts": 9,
-   "time": "2026-11-12T16:13:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
-   "asin": "B0FXBVGKHT",
-   "pct": 34,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FXBVGKHT?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FXBVGKHT.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
    "title": "$99.98-Sony WH-CH720N Headphones-Amazon & Walmart",
    "price": 99.98,
@@ -322,6 +322,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FG7MXDH6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
+   "price": 599.99,
+   "was": 999.99,
+   "votes": 7,
+   "posts": 26,
+   "time": "2026-11-12T17:47:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
@@ -378,24 +396,6 @@
    "img": "/img/p/B0741XP8RH.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
-   "price": 599.99,
-   "was": 999.99,
-   "votes": 6,
-   "posts": 24,
-   "time": "2026-11-12T17:47:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
    "title": "Razer Kishi V3 Gaming Controller $79.96",
    "price": 79.96,
@@ -430,6 +430,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BS1QCFHX.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
+   "title": "Typhur Sync Gold Lite Meat Thermometer (black) - $39.99",
+   "price": 39.99,
+   "was": 99.99,
+   "votes": 5,
+   "posts": 7,
+   "time": "2026-11-12T19:13:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
+   "asin": "B0FRM7YC6X",
+   "pct": 60,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FRM7YC6X?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FRM7YC6X.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
@@ -468,24 +486,6 @@
    "img": "/img/p/B08YRXB4N2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
-   "title": "Typhur Sync Gold Lite Meat Thermometer (black) - $39.99",
-   "price": 39.99,
-   "was": 99.99,
-   "votes": 4,
-   "posts": 7,
-   "time": "2026-11-12T19:13:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
-   "asin": "B0FRM7YC6X",
-   "pct": 60,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FRM7YC6X?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FRM7YC6X.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
    "title": "JBL Endurance Race 2 - Waterproof Sports True Wireless Earbuds - $39.98",
    "price": 39.98,
@@ -504,6 +504,24 @@
    "img": "/img/p/B0DVTGBCBL.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
+   "title": "Ninja DT201C, Foodi 10-in-1 XL Pro Air Fry Oven - $199.99",
+   "price": 199.99,
+   "was": 399.99,
+   "votes": 3,
+   "posts": 4,
+   "time": "2026-11-12T18:53:44+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
+   "asin": "B08LQY2XF5",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08LQY2XF5?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08LQY2XF5.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
    "title": "REOLINK PoE Security Camera CX820 - $115.99",
    "price": 115.99,
@@ -520,24 +538,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BVQW93DZ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
-   "title": "Ninja DT201C, Foodi 10-in-1 XL Pro Air Fry Oven - $199.99",
-   "price": 199.99,
-   "was": 399.99,
-   "votes": 2,
-   "posts": 2,
-   "time": "2026-11-12T18:53:44+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
-   "asin": "B08LQY2XF5",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08LQY2XF5?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08LQY2XF5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
@@ -610,6 +610,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H44MLFFL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-custos-shoe-storage-bench-cushion-66-49-2831907/",
+   "title": "Custos Shoe Storage Bench with Cushion @ $66.49",
+   "price": 66.49,
+   "was": 89.99,
+   "votes": 0,
+   "posts": 5,
+   "time": "2026-11-12T18:56:26+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-custos-shoe-storage-bench-cushion-66-49-2831907/",
+   "asin": "B085DCPQB8",
+   "pct": 26,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B085DCPQB8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B085DCPQB8.jpg"
   }
  ]
 }
