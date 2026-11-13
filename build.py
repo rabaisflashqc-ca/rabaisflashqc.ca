@@ -539,7 +539,7 @@ def vf_strip():
     t = datetime.date.today()
     if not ((t.month == 11) or (t.month == 12 and t.day <= 2)): return ""
     n = len(prevf_list())
-    sub = f"{n} offres pré-Vendredi fou déjà sorties, triées pour toi" if n else "Les meilleurs rabais de l'année, triés pour toi"
+    sub = f"{n} deals à prix de Vendredi fou déjà là, triés pour toi" if n else "Les meilleurs rabais de l'année, triés pour toi"
     return ('<a class="vfs" href="/vendredi-fou/"><div><strong id="vfs">🔥 VENDREDI FOU : 27 NOVEMBRE</strong>'
             f'<span>{sub}</span></div><i>Voir les offres →</i></a>'
             '<script>(function(){var el=document.getElementById("vfs"),t=Date.parse("2026-11-27T05:00:00Z"),f=Date.parse("2026-12-01T05:00:00Z");var ms=t-Date.now();'
@@ -988,12 +988,12 @@ def prevf_block(n=None):
     """Section mise en avant (demande d'Alex du 10 nov.) : les offres pré-Vendredi fou d'Amazon. n = nombre de cartes (accueil), None = toutes."""
     L = prevf_list()
     if not L: return ""
-    more = f'<p class="more"><a href="/vendredi-fou/">Voir les {len(L)} offres pré-Vendredi fou →</a></p>' if n and len(L) > n else ""
-    return ('<section class="topbox" id="pre-vendredi-fou" aria-label="Offres pré-Vendredi fou"><h2>🔥 Offres pré-Vendredi fou</h2>'
-            '<p class="topsub">Les premiers rabais du Vendredi fou sont déjà sortis sur Amazon. On a gardé les marques connues et les vrais rabais.</p>'
-            f'<ul class="deals">{"".join(rfd_card(x, "🔥 Pré-Vendredi fou") for x in (L[:n] if n else L))}</ul>{more}</section>')
+    more = f'<p class="more"><a href="/vendredi-fou/">Voir les {len(L)} deals à prix de Vendredi fou →</a></p>' if n and len(L) > n else ""
+    return ('<section class="topbox" id="pre-vendredi-fou" aria-label="Offres pré-Vendredi fou"><h2>🔥 Prix de Vendredi fou, déjà là</h2>'
+            '<p class="topsub">Pas besoin d\'attendre le 27 novembre : ces rabais de 30 % et plus sur des marques connues sont en vigueur maintenant. Prix vérifiés, datés sur chaque carte.</p>'
+            f'<ul class="deals">{"".join(rfd_card(x, "🔥 Prix Vendredi fou") for x in (L[:n] if n else L))}</ul>{more}</section>')
 
-OJ_THEMES = [("pre-vendredi-fou", "🔥 Offres pré-Vendredi fou", lambda x: x.get("vf") and "Noël" not in x["title"]),
+OJ_THEMES = [("pre-vendredi-fou", "🔥 Prix de Vendredi fou, déjà là", lambda x: x.get("vf") and "Noël" not in x["title"]),
              ("tech", "🎧 Tech et son", lambda x: x["cat"] == "tech"),
              ("maison", "🏠 Maison et cuisine", lambda x: x["cat"] == "maison" and "Noël" not in x["title"]),
              ("noel", "🎄 Sapins et décos de Noël", lambda x: "Noël" in x["title"]),
@@ -1157,7 +1157,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (("" if vf_strip() else season_banner()) + prevf_block(8) + topblock + "<!--NL-->" + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
+            extra = (("" if vf_strip() else season_banner()) + prevf_block(12) + topblock + "<!--NL-->" + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'

@@ -106,4 +106,5 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Cartes de deals en grille (2 colonnes au cellulaire, 3 à la tablette, 4 à l'ordi), photo en haut, carte entière cliquable.
 - Vendredi fou en avant : bandeau avec vrai compte à rebours (27 nov.) sur chaque page (`vf_strip()`), pastille jaune dans le menu, section pré-Vendredi fou en premier sur l'accueil, puis le Top 5.
 - Menu sur une ligne qui défile et reste collé en haut. Au cellulaire, barre de raccourcis fixe en bas (Vendredi fou, Top 5, Cadeaux, Alertes).
+- Section « Prix de Vendredi fou, déjà là » (demande d'Alex du 13 nov.) : en tête de l'accueil (12 cartes) et sur /vendredi-fou/. Elle se remplit avec le champ `"vf": true` dans suivi/deals_chrome.json. À chaque passe Keepa ou Amazon, mettre vf sur chaque deal avec photo et 30 % ou plus. Le texte ne dit jamais que c'est une offre officielle d'Amazon.
 - L'inscription courriel et les boutons des réseaux passent après les premiers deals (marqueur `<!--NL-->` dans `extra`), pour qu'un deal soit visible dès l'ouverture.
