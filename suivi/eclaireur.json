@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13T16:59-04:00",
+ "date": "2026-11-13T17:58-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -65,8 +65,8 @@
    44,
    44,
    [
-    "2026-10-06T14:13:44+00:00",
-    "2026-10-06T14:21:45+00:00"
+    "2026-10-07T02:07:23+00:00",
+    "2026-10-07T02:58:29+00:00"
    ],
    [
     "2026-10-08T15:23:36+00:00",
@@ -77,15 +77,15 @@
    44,
    44,
    [
-    "2026-09-28T13:05:03+00:00",
-    "2026-09-28T15:16:35+00:00"
+    "2026-10-06T14:20:09+00:00",
+    "2026-10-06T14:25:34+00:00"
    ],
    [
-    "2026-10-06T13:41:30+00:00",
-    "2026-10-06T14:10:04+00:00"
+    "2026-10-07T00:58:52+00:00",
+    "2026-10-07T01:06:05+00:00"
    ]
   ],
-  "avant_filtre_date": 138,
+  "avant_filtre_date": 132,
   "apres_filtre_date": 29
  },
  "items": [
@@ -94,8 +94,8 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 129,
-   "posts": 68,
+   "votes": 130,
+   "posts": 69,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "asin": "B0C2V1512F",
@@ -149,7 +149,7 @@
    "price": 44.99,
    "was": 77.99,
    "votes": 22,
-   "posts": 11,
+   "posts": 12,
    "time": "2026-11-12T05:42:30+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
    "asin": "B01EA5ZI2U",
@@ -288,6 +288,24 @@
    "img": "/img/p/B0FRM7YC6X.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
+   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
+   "price": 34.99,
+   "was": 59.99,
+   "votes": 9,
+   "posts": 0,
+   "time": "2026-11-13T19:20:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
+   "asin": "B0BT4DP7SC",
+   "pct": 42,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BT4DP7SC.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
    "price": 37.99,
@@ -396,24 +414,6 @@
    "img": "/img/p/B08LQY2XF5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
-   "price": 34.99,
-   "was": 59.99,
-   "votes": 5,
-   "posts": 0,
-   "time": "2026-11-13T19:20:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "asin": "B0BT4DP7SC",
-   "pct": 42,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BT4DP7SC.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
    "title": "Bedsure Satin Pillow Cases - $7 - $8.50",
    "price": 7.0,
@@ -491,7 +491,7 @@
    "price": 37.99,
    "was": 204.98,
    "votes": 2,
-   "posts": 6,
+   "posts": 8,
    "time": "2026-11-13T16:46:34+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
    "asin": "B0H1H6M135",
@@ -576,24 +576,6 @@
    "img": "/img/p/B0DBVKDGZ9.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
-   "title": "ORICO Magnetic M.2 2230 NVMe Enclosure 10Gbps Docking Station",
-   "price": 38.49,
-   "was": 69.99,
-   "votes": 1,
-   "posts": 8,
-   "time": "2026-11-13T05:31:27+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
-   "asin": "B0H7B72QFC",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0H7B72QFC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H7B72QFC.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
    "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
    "price": 35.99,
@@ -610,6 +592,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H44MLFFL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
+   "title": "ORICO Magnetic M.2 2230 NVMe Enclosure 10Gbps Docking Station",
+   "price": 38.49,
+   "was": 69.99,
+   "votes": 0,
+   "posts": 8,
+   "time": "2026-11-13T05:31:27+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
+   "asin": "B0H7B72QFC",
+   "pct": 45,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H7B72QFC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H7B72QFC.jpg"
   }
  ]
 }
