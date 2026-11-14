@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14T11:53-04:00",
+ "date": "2026-11-14T12:45-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,11 +14,11 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   20,
+   21,
    18,
    [
     "2026-11-08T19:17:26+00:00",
-    "2026-11-09T15:24:46+00:00"
+    "2026-11-08T20:51:05+00:00"
    ],
    [
     "2026-11-14T07:47:41+00:00",
@@ -65,8 +65,8 @@
    44,
    44,
    [
-    "2026-10-07T03:44:53+00:00",
-    "2026-10-07T04:43:18+00:00"
+    "2026-10-06T14:40:19+00:00",
+    "2026-10-06T14:48:13+00:00"
    ],
    [
     "2026-10-09T18:32:47+00:00",
@@ -77,15 +77,15 @@
    44,
    44,
    [
-    "2026-10-06T14:50:34+00:00",
-    "2026-10-06T14:52:02+00:00"
+    "2026-09-28T16:03:50+00:00",
+    "2026-09-28T16:29:03+00:00"
    ],
    [
-    "2026-10-07T03:15:38+00:00",
-    "2026-10-07T03:43:53+00:00"
+    "2026-10-06T14:25:34+00:00",
+    "2026-10-06T14:30:49+00:00"
    ]
   ],
-  "avant_filtre_date": 132,
+  "avant_filtre_date": 137,
   "apres_filtre_date": 30
  },
  "items": [
@@ -94,7 +94,7 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 135,
+   "votes": 136,
    "posts": 74,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
@@ -185,7 +185,7 @@
    "price": 34.99,
    "was": 59.99,
    "votes": 18,
-   "posts": 2,
+   "posts": 3,
    "time": "2026-11-13T19:20:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
    "asin": "B0BT4DP7SC",
@@ -193,8 +193,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
@@ -252,6 +252,24 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
+   "price": 599.99,
+   "was": 999.99,
+   "votes": 8,
+   "posts": 48,
+   "time": "2026-11-12T17:47:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
    "price": 37.99,
@@ -268,24 +286,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FG7MXDH6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
-   "price": 599.99,
-   "was": 999.99,
-   "votes": 7,
-   "posts": 45,
-   "time": "2026-11-12T17:47:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
@@ -576,6 +576,24 @@
    "img": "/img/p/B0H1H6M135.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
+   "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
+   "price": 150.0,
+   "was": 300.0,
+   "votes": 0,
+   "posts": 1,
+   "time": "2026-11-12T17:30:51+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
+   "asin": "B0GLMM6YYG",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GLMM6YYG?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GLMM6YYG.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
    "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz on Sale $1,124.95($1,499.99)",
    "price": 1124.9,
@@ -592,24 +610,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0F5QTSCGY.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
-   "title": "Bedsure Couverture Fleece Throw Blanket - $18.49 ~ $24.99",
-   "price": 18.49,
-   "was": 49.99,
-   "votes": 0,
-   "posts": 2,
-   "time": "2026-11-14T12:55:56+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
-   "asin": "B07HSQ99L1",
-   "pct": 63,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07HSQ99L1?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07HSQ99L1.jpg"
   }
  ]
 }
