@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14T13:21-04:00",
+ "date": "2026-11-14T15:29-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,11 +14,11 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   21,
-   18,
+   20,
+   19,
    [
     "2026-11-08T19:17:26+00:00",
-    "2026-11-08T20:51:05+00:00"
+    "2026-11-09T15:24:46+00:00"
    ],
    [
     "2026-11-14T07:47:41+00:00",
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   17,
+   18,
    [
     "2026-11-08T20:51:05+00:00",
     "2026-11-09T13:59:48+00:00"
@@ -85,8 +85,8 @@
     "2026-10-06T14:30:49+00:00"
    ]
   ],
-  "avant_filtre_date": 137,
-  "apres_filtre_date": 30
+  "avant_filtre_date": 136,
+  "apres_filtre_date": 29
  },
  "items": [
   {
@@ -166,7 +166,7 @@
    "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
    "price": 56.99,
    "was": 259.99,
-   "votes": 18,
+   "votes": 19,
    "posts": 33,
    "time": "2026-11-09T16:24:25+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
@@ -178,24 +178,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H2N9BM7C.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
-   "price": 34.99,
-   "was": 59.99,
-   "votes": 18,
-   "posts": 3,
-   "time": "2026-11-13T19:20:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "asin": "B0BT4DP7SC",
-   "pct": 42,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
@@ -214,6 +196,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FXBVGKHT.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
+   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
+   "price": 34.99,
+   "was": 59.99,
+   "votes": 17,
+   "posts": 3,
+   "time": "2026-11-13T19:20:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
+   "asin": "B0BT4DP7SC",
+   "pct": 42,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
@@ -257,7 +257,7 @@
    "price": 599.99,
    "was": 999.99,
    "votes": 8,
-   "posts": 49,
+   "posts": 51,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -576,24 +576,6 @@
    "img": "/img/p/B0H1H6M135.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
-   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz on Sale $1,124.95($1,499.99)",
-   "price": 1124.9,
-   "was": 1499.9,
-   "votes": 1,
-   "posts": 8,
-   "time": "2026-11-14T06:28:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
-   "asin": "B0F5QTSCGY",
-   "pct": 25,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0F5QTSCGY.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -610,6 +592,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GLMM6YYG.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
+   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz on Sale $1,124.95($1,499.99)",
+   "price": 1124.9,
+   "was": 1499.9,
+   "votes": 0,
+   "posts": 8,
+   "time": "2026-11-14T06:28:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
+   "asin": "B0F5QTSCGY",
+   "pct": 25,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0F5QTSCGY.jpg"
   }
  ]
 }
