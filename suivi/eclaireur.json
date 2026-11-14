@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13T17:58-04:00",
+ "date": "2026-11-13T20:28-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,11 +14,11 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   17,
+   16,
    16,
    [
     "2026-11-08T19:17:26+00:00",
-    "2026-11-08T20:51:05+00:00"
+    "2026-11-09T15:24:46+00:00"
    ],
    [
     "2026-11-13T05:34:23+00:00",
@@ -29,8 +29,8 @@
    44,
    16,
    [
-    "2026-11-07T22:37:16+00:00",
-    "2026-11-08T18:39:35+00:00"
+    "2026-11-07T15:42:26+00:00",
+    "2026-11-07T22:37:16+00:00"
    ],
    [
     "2026-11-13T18:19:49+00:00",
@@ -39,54 +39,54 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   43,
+   44,
    [
-    "2026-10-27T03:30:41+00:00",
-    "2026-10-27T04:50:38+00:00"
+    "2026-10-27T03:20:45+00:00",
+    "2026-10-27T03:30:41+00:00"
    ],
    [
-    "2026-11-06T20:18:30+00:00",
-    "2026-11-07T15:42:26+00:00"
+    "2026-11-06T14:57:49+00:00",
+    "2026-11-06T20:18:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-09T02:05:57+00:00",
-    "2026-10-09T15:28:13+00:00"
+    "2026-10-08T16:17:58+00:00",
+    "2026-10-09T02:05:57+00:00"
    ],
    [
-    "2026-10-27T00:50:56+00:00",
-    "2026-10-27T03:20:45+00:00"
+    "2026-10-26T19:35:56+00:00",
+    "2026-10-27T00:50:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T02:07:23+00:00",
-    "2026-10-07T02:58:29+00:00"
+    "2026-10-07T01:06:05+00:00",
+    "2026-10-07T02:07:23+00:00"
    ],
    [
-    "2026-10-08T15:23:36+00:00",
-    "2026-10-08T16:17:58+00:00"
+    "2026-10-08T14:30:40+00:00",
+    "2026-10-08T15:23:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:20:09+00:00",
-    "2026-10-06T14:25:34+00:00"
+    "2026-10-06T14:10:50+00:00",
+    "2026-10-06T14:20:09+00:00"
    ],
    [
-    "2026-10-07T00:58:52+00:00",
-    "2026-10-07T01:06:05+00:00"
+    "2026-10-07T00:51:57+00:00",
+    "2026-10-07T00:58:52+00:00"
    ]
   ],
   "avant_filtre_date": 132,
-  "apres_filtre_date": 29
+  "apres_filtre_date": 28
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 130,
-   "posts": 69,
+   "votes": 131,
+   "posts": 71,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "asin": "B0C2V1512F",
@@ -252,47 +252,11 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
-   "price": 599.99,
-   "was": 999.99,
-   "votes": 10,
-   "posts": 40,
-   "time": "2026-11-12T17:47:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
-   "title": "Typhur Sync Gold Lite Meat Thermometer (black) - $39.99",
-   "price": 39.99,
-   "was": 99.99,
-   "votes": 10,
-   "posts": 7,
-   "time": "2026-11-12T19:13:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-typhur-sync-gold-lite-meat-thermometer-black-39-99-2831910/",
-   "asin": "B0FRM7YC6X",
-   "pct": 60,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FRM7YC6X?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FRM7YC6X.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
    "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
    "price": 34.99,
    "was": 59.99,
-   "votes": 9,
+   "votes": 11,
    "posts": 0,
    "time": "2026-11-13T19:20:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
@@ -304,6 +268,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BT4DP7SC.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
+   "price": 599.99,
+   "was": 999.99,
+   "votes": 9,
+   "posts": 40,
+   "time": "2026-11-12T17:47:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
@@ -491,7 +473,7 @@
    "price": 37.99,
    "was": 204.98,
    "votes": 2,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-13T16:46:34+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
    "asin": "B0H1H6M135",
