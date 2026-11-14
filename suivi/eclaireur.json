@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14T15:29-04:00",
+ "date": "2026-11-14T16:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,8 +9,8 @@
     "2026-11-08T18:39:35+00:00"
    ],
    [
-    "2026-11-14T07:47:41+00:00",
-    "2026-11-14T12:55:56+00:00"
+    "2026-11-14T12:55:56+00:00",
+    "2026-11-14T20:13:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -33,8 +33,8 @@
     "2026-11-09T13:59:48+00:00"
    ],
    [
-    "2026-11-14T07:47:41+00:00",
-    "2026-11-14T12:55:56+00:00"
+    "2026-11-14T12:55:56+00:00",
+    "2026-11-14T20:13:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
@@ -196,24 +196,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FXBVGKHT.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
-   "price": 34.99,
-   "was": 59.99,
-   "votes": 17,
-   "posts": 3,
-   "time": "2026-11-13T19:20:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "asin": "B0BT4DP7SC",
-   "pct": 42,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
@@ -468,6 +450,24 @@
    "img": "/img/p/B0BVQW93DZ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
+   "title": "$37.99 Blink Outdoor 4 and Wired Doorbell 2K+ (newest model) & Sync Module Core included",
+   "price": 37.99,
+   "was": 204.98,
+   "votes": 2,
+   "posts": 10,
+   "time": "2026-11-13T16:46:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
+   "asin": "B0H1H6M135",
+   "pct": 81,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0H1H6M135?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H1H6M135.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
    "title": "eufy Robot Vacuums — C28 Omni $629.99 (55% off), C30 $799.99 (38% off), Omni E35 $1,499.99 (12% off)",
    "price": 629.99,
@@ -558,24 +558,6 @@
    "img": "/img/p/B0DBVKDGZ9.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
-   "title": "$37.99 Blink Outdoor 4 and Wired Doorbell 2K+ (newest model) & Sync Module Core included",
-   "price": 37.99,
-   "was": 204.98,
-   "votes": 1,
-   "posts": 9,
-   "time": "2026-11-13T16:46:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
-   "asin": "B0H1H6M135",
-   "pct": 81,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0H1H6M135?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H1H6M135.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -610,6 +592,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0F5QTSCGY.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-rog-falcata-split-75-hall-effect-keyboard-249-99-2832167/",
+   "title": "ROG Falcata - Split 75% hall-effect keyboard - $249.99",
+   "price": 249.99,
+   "was": 579.99,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-14T20:13:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-rog-falcata-split-75-hall-effect-keyboard-249-99-2832167/",
+   "asin": "B0H7ZVK15D",
+   "pct": 57,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H7ZVK15D?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H7ZVK15D.jpg"
   }
  ]
 }
