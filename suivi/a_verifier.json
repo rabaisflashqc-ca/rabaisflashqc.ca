@@ -1,4 +1,230 @@
 {
- "genere": "2026-11-14T07:40+00:00",
- "produits": []
+ "genere": "2026-11-14T13:31+00:00",
+ "produits": [
+  {
+   "asin": "B0F3BCVPN2",
+   "titre": "Caméra intérieure Blink Mini 2K+",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0DN4BG1RW",
+   "titre": "Écouteurs sans fil JBL Vibe Beam 2",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0F63ZGHGG",
+   "titre": "Roku Streaming Stick (2025)",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0DNKKFQL2",
+   "titre": "Bas de travail Dickies Dri-Tech pour homme",
+   "prix_affiche": 22.99
+  },
+  {
+   "asin": "B0DHLGFRV3",
+   "titre": "LEGO Speed Champions McLaren",
+   "prix_affiche": 21.79
+  },
+  {
+   "asin": "B0FW7HHPS4",
+   "titre": "Jeans Levi's Cinch Baggy pour femme",
+   "prix_affiche": 69.96
+  },
+  {
+   "asin": "B091FXKQZ6",
+   "titre": "Tapis de yoga Retrospec Solana 1 po",
+   "prix_affiche": 36.02
+  },
+  {
+   "asin": "B0FSNZRV96",
+   "titre": "Gobelet Stanley Quencher H2.0",
+   "prix_affiche": 38.98
+  },
+  {
+   "asin": "B0CT9SBWC9",
+   "titre": "Casque JBL Tune 670NC à réduction de bruit",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B091ZDJ6JF",
+   "titre": "Sandales adidas Adilette pour la maison",
+   "prix_affiche": 17.99
+  },
+  {
+   "asin": "B0CS6ZM7X9",
+   "titre": "Machine à café Nespresso Vertuo Pop+",
+   "prix_affiche": 84.0
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Coffret d'art Crayola Inspiration",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0DJ19GJVW",
+   "titre": "LEGO Friends Camp de l'amitié",
+   "prix_affiche": 49.86
+  },
+  {
+   "asin": "B07QCW1MZX",
+   "titre": "Nettoyeur à tapis BISSELL Little Green ProHeat",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0GHYJ7BS9",
+   "titre": "Haut-parleur JBL Go 5",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0BSG9JVFM",
+   "titre": "Sabots Crocs Classic",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B00EVY5BV4",
+   "titre": "Ensemble de draps Eddie Bauer (grand lit double)",
+   "prix_affiche": 64.76
+  },
+  {
+   "asin": "B0DF81PBXK",
+   "titre": "LEGO Fortnite Autobus de combat",
+   "prix_affiche": 91.19
+  },
+  {
+   "asin": "B0D41VRXR6",
+   "titre": "Thermos alimentaire THERMOS Icon 24 oz",
+   "prix_affiche": 26.39
+  },
+  {
+   "asin": "B0BGM5XPQZ",
+   "titre": "Imprimante photo de poche Canon IVY 2",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0CMJRHFZL",
+   "titre": "Hot Wheels City Ultra Requin",
+   "prix_affiche": 39.97
+  },
+  {
+   "asin": "B0G8J64978",
+   "titre": "Bitzee KPop Demon Hunters",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0DN1NFKQW",
+   "titre": "Hot Wheels Mario Kart Bowser",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B0GM2L31NZ",
+   "titre": "Casque JBL Live 780NC",
+   "prix_affiche": 149.98
+  },
+  {
+   "asin": "B0CXKSCY1G",
+   "titre": "Haut-parleur Sony ULT Field 1",
+   "prix_affiche": 98.0
+  },
+  {
+   "asin": "B0GV1MZ2S5",
+   "titre": "Casque JBL Tune 780NC",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent DREO",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0CNF63GQZ",
+   "titre": "Mélangeur portatif Ninja Blast",
+   "prix_affiche": 49.93
+  },
+  {
+   "asin": "B08VFCH7C9",
+   "titre": "Bouteille d'eau THERMOS Funtainer pour enfant",
+   "prix_affiche": 15.99
+  },
+  {
+   "asin": "B074948P3C",
+   "titre": "Pantalon Haggar Premium Comfort pour homme",
+   "prix_affiche": 50.87
+  },
+  {
+   "asin": "B0DTBVJP7G",
+   "titre": "La maison de poupée de Gabby",
+   "prix_affiche": 15.21
+  },
+  {
+   "asin": "B093QM1W9V",
+   "titre": "Espadrilles New Balance 574 pour homme",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B0FXVZ1LNY",
+   "titre": "Pantoufles The North Face ThermoBall Traction",
+   "prix_affiche": 66.97
+  },
+  {
+   "asin": "B08XMZP2MP",
+   "titre": "Draps de flanelle Laura Ashley",
+   "prix_affiche": 69.07
+  },
+  {
+   "asin": "B07H8L4TP2",
+   "titre": "PLUS PLUS 600 pièces",
+   "prix_affiche": 32.86
+  },
+  {
+   "asin": "B0BNGWDJ7R",
+   "titre": "Poupée BABY born My Real Baby",
+   "prix_affiche": 44.94
+  },
+  {
+   "asin": "B0BSB5JLWP",
+   "titre": "Espadrilles Skechers Go Walk Flex pour femme",
+   "prix_affiche": 54.88
+  },
+  {
+   "asin": "B0018OFHXM",
+   "titre": "Jeans Levi's 505 coupe régulière pour homme",
+   "prix_affiche": 63.96
+  },
+  {
+   "asin": "B0D971QH6N",
+   "titre": "Machine à café Nespresso Pixie",
+   "prix_affiche": 119.0
+  },
+  {
+   "asin": "B0D36B3NLF",
+   "titre": "Pantalon de travail Dickies 874 pour homme",
+   "prix_affiche": 40.99
+  },
+  {
+   "asin": "B08XLBHC66",
+   "titre": "Souliers Skechers Delson 3.0 pour homme",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0F91YV67H",
+   "titre": "Chandail Carhartt Sawyer pour femme",
+   "prix_affiche": 47.97
+  },
+  {
+   "asin": "B0D9C63MFK",
+   "titre": "Espadrilles Skechers Hands Free Slip-ins pour femme",
+   "prix_affiche": 49.88
+  },
+  {
+   "asin": "B0DSGPRG48",
+   "titre": "Barbie Signature Wonder Woman",
+   "prix_affiche": 45.0
+  },
+  {
+   "asin": "B08CLH6Q5J",
+   "titre": "Melissa & Doug Dentiste Super Smile",
+   "prix_affiche": 29.99
+  }
+ ]
 }
