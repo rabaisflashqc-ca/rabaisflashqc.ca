@@ -1,92 +1,92 @@
 {
- "date": "2026-11-13T23:03-04:00",
+ "date": "2026-11-14T11:53-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-07T15:42:26+00:00",
-    "2026-11-07T22:37:16+00:00"
+    "2026-11-07T22:37:16+00:00",
+    "2026-11-08T18:39:35+00:00"
    ],
    [
-    "2026-11-13T19:20:29+00:00",
-    "2026-11-14T01:43:20+00:00"
+    "2026-11-14T07:47:41+00:00",
+    "2026-11-14T12:55:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   16,
-   16,
+   20,
+   18,
    [
     "2026-11-08T19:17:26+00:00",
     "2026-11-09T15:24:46+00:00"
    ],
    [
-    "2026-11-13T05:34:23+00:00",
-    "2026-11-13T17:20:24+00:00"
+    "2026-11-14T07:47:41+00:00",
+    "2026-11-14T12:55:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   16,
+   17,
    [
-    "2026-11-07T22:37:16+00:00",
-    "2026-11-08T18:39:35+00:00"
+    "2026-11-08T20:51:05+00:00",
+    "2026-11-09T13:59:48+00:00"
    ],
    [
-    "2026-11-13T19:20:29+00:00",
-    "2026-11-14T01:43:20+00:00"
+    "2026-11-14T07:47:41+00:00",
+    "2026-11-14T12:55:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   43,
+   41,
    [
-    "2026-10-27T03:30:41+00:00",
-    "2026-10-27T04:50:38+00:00"
+    "2026-10-28T07:07:36+00:00",
+    "2026-10-28T14:09:54+00:00"
    ],
    [
-    "2026-11-06T20:18:30+00:00",
-    "2026-11-07T15:42:26+00:00"
+    "2026-11-08T19:17:26+00:00",
+    "2026-11-08T20:14:01+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-09T02:05:57+00:00",
-    "2026-10-09T15:28:13+00:00"
+    "2026-10-11T00:40:31+00:00",
+    "2026-10-12T15:32:42+00:00"
    ],
    [
-    "2026-10-27T00:50:56+00:00",
-    "2026-10-27T03:20:45+00:00"
+    "2026-10-27T13:00:59+00:00",
+    "2026-10-28T04:31:38+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:13:44+00:00",
-    "2026-10-06T14:21:45+00:00"
+    "2026-10-07T03:44:53+00:00",
+    "2026-10-07T04:43:18+00:00"
    ],
    [
-    "2026-10-08T15:23:36+00:00",
-    "2026-10-08T16:17:58+00:00"
+    "2026-10-09T18:32:47+00:00",
+    "2026-10-09T19:37:11+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T13:05:03+00:00",
-    "2026-09-28T15:16:35+00:00"
+    "2026-10-06T14:50:34+00:00",
+    "2026-10-06T14:52:02+00:00"
    ],
    [
-    "2026-10-06T13:41:30+00:00",
-    "2026-10-06T14:10:04+00:00"
+    "2026-10-07T03:15:38+00:00",
+    "2026-10-07T03:43:53+00:00"
    ]
   ],
-  "avant_filtre_date": 138,
-  "apres_filtre_date": 29
+  "avant_filtre_date": 132,
+  "apres_filtre_date": 30
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 133,
-   "posts": 72,
+   "votes": 135,
+   "posts": 74,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
    "asin": "B0C2V1512F",
@@ -148,7 +148,7 @@
    "title": "Braun MQ505 Immersion Hand Blender w/Whisk & Beaker, Dual Speed, 350W on sale $44.99($77.99)",
    "price": 44.99,
    "was": 77.99,
-   "votes": 23,
+   "votes": 24,
    "posts": 12,
    "time": "2026-11-12T05:42:30+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
@@ -178,6 +178,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H2N9BM7C.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
+   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
+   "price": 34.99,
+   "was": 59.99,
+   "votes": 18,
+   "posts": 2,
+   "time": "2026-11-13T19:20:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
+   "asin": "B0BT4DP7SC",
+   "pct": 42,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
@@ -216,24 +234,6 @@
    "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
-   "title": "Megapro 13 in 1 Multi Bit Ratchet Screwdriver $20.57",
-   "price": 20.57,
-   "was": 41.14,
-   "votes": 13,
-   "posts": 20,
-   "time": "2026-11-07T15:42:26+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-megapro-13-1-multi-bit-ratchet-screwdriver-20-57-2831357/",
-   "asin": "B0DGMX5845",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DGMX5845?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DGMX5845.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
    "title": "$99.98-Sony WH-CH720N Headphones-Amazon & Walmart",
    "price": 99.98,
@@ -250,24 +250,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BS1QCFHX.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "title": "Logitech Pebble Keys 2 K380s Bluetooth Keyboard - ATL $34.99 - Black only",
-   "price": 34.99,
-   "was": 59.99,
-   "votes": 12,
-   "posts": 0,
-   "time": "2026-11-13T19:20:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-pebble-keys-2-k380s-bluetooth-keyboard-atl-34-99-black-only-2832044/",
-   "asin": "B0BT4DP7SC",
-   "pct": 42,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BT4DP7SC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
@@ -293,7 +275,7 @@
    "price": 599.99,
    "was": 999.99,
    "votes": 7,
-   "posts": 42,
+   "posts": 45,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -322,6 +304,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DW9BXCYW.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
+   "price": 118.0,
+   "was": 250.0,
+   "votes": 6,
+   "posts": 8,
+   "time": "2026-11-09T19:42:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
+   "asin": "B0BS1QCFHX",
+   "pct": 53,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
@@ -358,24 +358,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0F231T7BG.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "title": "[Amazon] Sony WH-CH720N Headphones - $118",
-   "price": 118.0,
-   "was": 250.0,
-   "votes": 5,
-   "posts": 8,
-   "time": "2026-11-09T19:42:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
-   "asin": "B0BS1QCFHX",
-   "pct": 53,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0BS1QCFHX?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
@@ -432,6 +414,24 @@
    "img": "/img/p/B08YRXB4N2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
+   "title": "REOLINK Duo 2V 8MP Dual-Lens PoE Camera - $135.99",
+   "price": 135.99,
+   "was": 169.99,
+   "votes": 4,
+   "posts": 0,
+   "time": "2026-11-13T18:19:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
+   "asin": "B0D2VXGMBH",
+   "pct": 20,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0D2VXGMBH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D2VXGMBH.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
    "title": "JBL Endurance Race 2 - Waterproof Sports True Wireless Earbuds - $39.98",
    "price": 39.98,
@@ -468,22 +468,40 @@
    "img": "/img/p/B0BVQW93DZ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
-   "title": "REOLINK Duo 2V 8MP Dual-Lens PoE Camera - $135.99",
-   "price": 135.99,
-   "was": 169.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
+   "title": "eufy Robot Vacuums — C28 Omni $629.99 (55% off), C30 $799.99 (38% off), Omni E35 $1,499.99 (12% off)",
+   "price": 629.99,
+   "was": 1399.9,
    "votes": 2,
    "posts": 0,
-   "time": "2026-11-13T18:19:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
-   "asin": "B0D2VXGMBH",
-   "pct": 20,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D2VXGMBH?tag=coupdecoeurqc-20",
+   "time": "2026-11-14T01:43:20+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
+   "asin": "B0FWK41WF2",
+   "pct": 55,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0D2VXGMBH.jpg"
+   "img": "/img/p/B0FWK41WF2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
+   "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
+   "price": 35.99,
+   "was": 39.99,
+   "votes": 1,
+   "posts": 12,
+   "time": "2026-11-08T20:51:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
+   "asin": "B0H44MLFFL",
+   "pct": 10,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H44MLFFL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H44MLFFL.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
@@ -527,7 +545,7 @@
    "price": 166.42,
    "was": 186.99,
    "votes": 1,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-12T20:47:41+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-renogy-40a-dc-dc-mppt-battery-charger-agm-gel-lithium-166-42-2831918/",
    "asin": "B0DBVKDGZ9",
@@ -558,58 +576,40 @@
    "img": "/img/p/B0H1H6M135.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
-   "title": "Huntkey 100W Fast Charging Powerbank 19750mAh Battery (71.1Wh)",
-   "price": 35.99,
-   "was": 39.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
+   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz on Sale $1,124.95($1,499.99)",
+   "price": 1124.9,
+   "was": 1499.9,
    "votes": 0,
-   "posts": 12,
-   "time": "2026-11-08T20:51:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
-   "asin": "B0H44MLFFL",
-   "pct": 10,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0H44MLFFL?tag=coupdecoeurqc-20",
+   "posts": 6,
+   "time": "2026-11-14T06:28:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
+   "asin": "B0F5QTSCGY",
+   "pct": 25,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H44MLFFL.jpg"
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0F5QTSCGY.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
-   "title": "ORICO Magnetic M.2 2230 NVMe Enclosure 10Gbps Docking Station",
-   "price": 38.49,
-   "was": 69.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
+   "title": "Bedsure Couverture Fleece Throw Blanket - $18.49 ~ $24.99",
+   "price": 18.49,
+   "was": 49.99,
    "votes": 0,
-   "posts": 8,
-   "time": "2026-11-13T05:31:27+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-magnetic-m-2-2230-nvme-enclosure-10gbps-docking-station-2831976/",
-   "asin": "B0H7B72QFC",
-   "pct": 45,
+   "posts": 2,
+   "time": "2026-11-14T12:55:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
+   "asin": "B07HSQ99L1",
+   "pct": 63,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0H7B72QFC?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B07HSQ99L1?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0H7B72QFC.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
-   "title": "eufy Robot Vacuums — C28 Omni $629.99 (55% off), C30 $799.99 (38% off), Omni E35 $1,499.99 (12% off)",
-   "price": 629.99,
-   "was": 1399.9,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-14T01:43:20+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
-   "asin": "B0FWK41WF2",
-   "pct": 55,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FWK41WF2.jpg"
+   "img": "/img/p/B07HSQ99L1.jpg"
   }
  ]
 }
