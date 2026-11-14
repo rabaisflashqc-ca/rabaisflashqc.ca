@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13T22:21-04:00",
+ "date": "2026-11-13T23:03-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -65,8 +65,8 @@
    44,
    44,
    [
-    "2026-10-07T02:07:23+00:00",
-    "2026-10-07T02:58:29+00:00"
+    "2026-10-06T14:13:44+00:00",
+    "2026-10-06T14:21:45+00:00"
    ],
    [
     "2026-10-08T15:23:36+00:00",
@@ -77,15 +77,15 @@
    44,
    44,
    [
-    "2026-10-06T14:20:09+00:00",
-    "2026-10-06T14:25:34+00:00"
+    "2026-09-28T13:05:03+00:00",
+    "2026-09-28T15:16:35+00:00"
    ],
    [
-    "2026-10-07T00:58:52+00:00",
-    "2026-10-07T01:06:05+00:00"
+    "2026-10-06T13:41:30+00:00",
+    "2026-10-06T14:10:04+00:00"
    ]
   ],
-  "avant_filtre_date": 132,
+  "avant_filtre_date": 138,
   "apres_filtre_date": 29
  },
  "items": [
@@ -94,7 +94,7 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (was $17.99)",
    "price": 7.75,
    "was": 17.99,
-   "votes": 132,
+   "votes": 133,
    "posts": 72,
    "time": "2026-11-12T12:33:29+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-17-99-2831847/",
@@ -167,7 +167,7 @@
    "price": 56.99,
    "was": 259.99,
    "votes": 18,
-   "posts": 32,
+   "posts": 33,
    "time": "2026-11-09T16:24:25+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
    "asin": "B0H2N9BM7C",
@@ -270,24 +270,6 @@
    "img": "/img/p/B0BT4DP7SC.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
-   "price": 599.99,
-   "was": 999.99,
-   "votes": 8,
-   "posts": 41,
-   "time": "2026-11-12T17:47:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
    "price": 37.99,
@@ -304,6 +286,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FG7MXDH6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
+   "price": 599.99,
+   "was": 999.99,
+   "votes": 7,
+   "posts": 42,
+   "time": "2026-11-12T17:47:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-true-wireless-sports-earbuds-black-waterproof-design-39-90-2831441/",
