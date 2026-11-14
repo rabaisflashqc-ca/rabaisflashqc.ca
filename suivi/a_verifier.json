@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-14T13:31+00:00",
+ "genere": "2026-11-14T13:33+00:00",
  "produits": [
   {
    "asin": "B0F3BCVPN2",
@@ -225,6 +225,96 @@
    "asin": "B08CLH6Q5J",
    "titre": "Melissa & Doug Dentiste Super Smile",
    "prix_affiche": 29.99
+  },
+  {
+   "asin": "B096YNQDNF",
+   "titre": "Pantalon habillé Amazon Essentials taille extensible pour homme",
+   "prix_affiche": 31.44
+  },
+  {
+   "asin": "B07NY4XTPC",
+   "titre": "Pantalon extensible coupe ajustée Amazon Essentials pour homme",
+   "prix_affiche": 27.36
+  },
+  {
+   "asin": "B088KGY3GJ",
+   "titre": "Ballerines à bout pointu Amazon Essentials pour femme",
+   "prix_affiche": 27.68
+  },
+  {
+   "asin": "B07J3892PG",
+   "titre": "Pantalon skinny Amazon Essentials pour femme",
+   "prix_affiche": 27.73
+  },
+  {
+   "asin": "B07739Q1GG",
+   "titre": "Chino stretch coupe ajustée Amazon Essentials pour homme",
+   "prix_affiche": 26.6
+  },
+  {
+   "asin": "B01JQTJFAG",
+   "titre": "Chino infroissable Amazon Essentials pour homme",
+   "prix_affiche": 21.28
+  },
+  {
+   "asin": "B08J8YNLMN",
+   "titre": "Chandail léger col rond Amazon Essentials pour homme",
+   "prix_affiche": 16.43
+  },
+  {
+   "asin": "B07Q3958Y3",
+   "titre": "Manteau matelassé à capuchon Amazon Essentials pour fille",
+   "prix_affiche": 32.7
+  },
+  {
+   "asin": "B07XMRTDQ5",
+   "titre": "Chandail en coton col rond Amazon Essentials pour femme",
+   "prix_affiche": 23.49
+  },
+  {
+   "asin": "B0BKLDCD1B",
+   "titre": "Lot de 2 chandails côtelés Amazon Essentials pour femme",
+   "prix_affiche": 30.23
+  },
+  {
+   "asin": "B07NYBGQ2J",
+   "titre": "Cardigan en coton Amazon Essentials pour homme",
+   "prix_affiche": 28.98
+  },
+  {
+   "asin": "B0D9ZBTX2Y",
+   "titre": "Ensemble coton ouaté Amazon Essentials pour bébé",
+   "prix_affiche": 20.8
+  },
+  {
+   "asin": "B07NQ6HX2Z",
+   "titre": "Mocassins Amazon Essentials pour femme",
+   "prix_affiche": 32.99
+  },
+  {
+   "asin": "B07BN3XQ4V",
+   "titre": "Chemise de flanelle Amazon Essentials pour homme",
+   "prix_affiche": 25.12
+  },
+  {
+   "asin": "B0BNBZN771",
+   "titre": "Bottillons Lorena Amazon Essentials pour femme",
+   "prix_affiche": 48.49
+  },
+  {
+   "asin": "B08T7QWZXC",
+   "titre": "Kangourou en tricot doux Amazon Essentials pour femme",
+   "prix_affiche": 29.84
+  },
+  {
+   "asin": "B0868JF4KV",
+   "titre": "Chandail doux col rond Amazon Essentials pour femme",
+   "prix_affiche": 28.36
+  },
+  {
+   "asin": "B08T7JCWXS",
+   "titre": "Chandail doux épaules plissées Amazon Essentials pour femme",
+   "prix_affiche": 28.16
   }
  ]
 }
