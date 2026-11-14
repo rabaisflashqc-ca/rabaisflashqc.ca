@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14T12:45-04:00",
+ "date": "2026-11-14T13:21-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -257,7 +257,7 @@
    "price": 599.99,
    "was": 999.99,
    "votes": 8,
-   "posts": 48,
+   "posts": 49,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -576,6 +576,24 @@
    "img": "/img/p/B0H1H6M135.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
+   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz on Sale $1,124.95($1,499.99)",
+   "price": 1124.9,
+   "was": 1499.9,
+   "votes": 1,
+   "posts": 8,
+   "time": "2026-11-14T06:28:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
+   "asin": "B0F5QTSCGY",
+   "pct": 25,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0F5QTSCGY.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -592,24 +610,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GLMM6YYG.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
-   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz on Sale $1,124.95($1,499.99)",
-   "price": 1124.9,
-   "was": 1499.9,
-   "votes": 0,
-   "posts": 6,
-   "time": "2026-11-14T06:28:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
-   "asin": "B0F5QTSCGY",
-   "pct": 25,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0F5QTSCGY.jpg"
   }
  ]
 }
