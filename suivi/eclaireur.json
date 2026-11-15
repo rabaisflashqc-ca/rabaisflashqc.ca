@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14T19:22-04:00",
+ "date": "2026-11-14T21:51-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,84 +9,84 @@
     "2026-11-08T19:17:26+00:00"
    ],
    [
-    "2026-11-14T20:13:36+00:00",
-    "2026-11-14T20:42:25+00:00"
+    "2026-11-14T20:42:25+00:00",
+    "2026-11-15T01:04:08+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   21,
-   21,
+   23,
+   20,
    [
     "2026-11-08T19:17:26+00:00",
-    "2026-11-09T15:24:46+00:00"
+    "2026-11-08T20:51:05+00:00"
    ],
    [
-    "2026-11-14T20:13:36+00:00",
-    "2026-11-14T20:42:25+00:00"
+    "2026-11-14T12:55:56+00:00",
+    "2026-11-14T20:13:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   20,
+   19,
    [
-    "2026-11-09T13:59:48+00:00",
-    "2026-11-09T14:15:10+00:00"
+    "2026-11-09T14:15:10+00:00",
+    "2026-11-09T15:24:46+00:00"
    ],
    [
-    "2026-11-14T20:13:36+00:00",
-    "2026-11-14T20:42:25+00:00"
+    "2026-11-14T20:42:25+00:00",
+    "2026-11-15T01:04:08+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   41,
+   40,
    [
-    "2026-10-28T14:09:54+00:00",
-    "2026-10-28T15:50:04+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:57:39+00:00"
    ],
    [
-    "2026-11-08T20:14:01+00:00",
-    "2026-11-08T20:51:05+00:00"
+    "2026-11-08T20:51:05+00:00",
+    "2026-11-09T13:59:48+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-12T15:32:42+00:00",
-    "2026-10-12T16:05:51+00:00"
+    "2026-10-12T16:05:51+00:00",
+    "2026-10-13T12:43:25+00:00"
    ],
    [
-    "2026-10-28T04:31:38+00:00",
-    "2026-10-28T07:07:36+00:00"
+    "2026-10-28T07:07:36+00:00",
+    "2026-10-28T14:09:54+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:48:13+00:00",
-    "2026-10-06T14:50:34+00:00"
+    "2026-10-07T04:58:17+00:00",
+    "2026-10-07T04:58:27+00:00"
    ],
    [
-    "2026-10-09T19:37:11+00:00",
-    "2026-10-11T00:40:31+00:00"
+    "2026-10-11T00:40:31+00:00",
+    "2026-10-12T15:32:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-28T16:29:03+00:00",
-    "2026-09-28T17:30:07+00:00"
+    "2026-10-06T14:57:00+00:00",
+    "2026-10-06T14:59:35+00:00"
    ],
    [
-    "2026-10-06T14:30:49+00:00",
-    "2026-10-06T14:40:19+00:00"
+    "2026-10-07T03:44:53+00:00",
+    "2026-10-07T04:43:18+00:00"
    ]
   ],
-  "avant_filtre_date": 134,
-  "apres_filtre_date": 27
+  "avant_filtre_date": 131,
+  "apres_filtre_date": 29
  },
  "items": [
   {
@@ -216,24 +216,6 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
-   "price": 599.99,
-   "was": 999.99,
-   "votes": 8,
-   "posts": 53,
-   "time": "2026-11-12T17:47:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
    "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
    "price": 37.99,
@@ -304,6 +286,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FB9FHQV5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
+   "price": 599.99,
+   "was": 999.99,
+   "votes": 6,
+   "posts": 53,
+   "time": "2026-11-12T17:47:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
@@ -437,7 +437,7 @@
    "price": 37.99,
    "was": 204.98,
    "votes": 2,
-   "posts": 10,
+   "posts": 12,
    "time": "2026-11-13T16:46:34+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
    "asin": "B0H1H6M135",
@@ -466,6 +466,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FWK41WF2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-2832168/",
+   "title": "Wera Tool-Check Plus 2, 39 piece metric tool set",
+   "price": 124.1,
+   "was": 165.99,
+   "votes": 2,
+   "posts": 9,
+   "time": "2026-11-14T20:42:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-2832168/",
+   "asin": "B0F7R9DQHY",
+   "pct": 25,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0F7R9DQHY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F7R9DQHY.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
+   "title": "Greenies Dog & Cat Treats 30% off coupon w/ S&S",
+   "price": null,
+   "was": null,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-15T01:04:08+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
+   "asin": "B071FH2NLX",
+   "pct": null,
+   "cat": "animaux",
+   "link": "https://www.amazon.ca/dp/B071FH2NLX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-huntkey-100w-fast-charging-powerbank-19750mah-battery-71-1wh-2831444/",
@@ -563,7 +599,7 @@
    "price": 1124.9,
    "was": 1499.9,
    "votes": 0,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-11-14T06:28:52+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-sale-1-124-95-1-499-99-2832111/",
    "asin": "B0F5QTSCGY",
