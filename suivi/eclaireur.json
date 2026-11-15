@@ -1,5 +1,5 @@
 {
- "date": "2026-11-15T13:26-04:00",
+ "date": "2026-11-15T14:02-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -15,19 +15,19 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    26,
-   21,
+   20,
    [
     "2026-11-08T19:17:26+00:00",
     "2026-11-08T20:51:05+00:00"
    ],
    [
-    "2026-11-15T07:23:23+00:00",
+    "2026-11-15T14:50:40+00:00",
     "2026-11-15T15:48:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   19,
+   18,
    [
     "2026-11-09T16:52:18+00:00",
     "2026-11-09T16:56:55+00:00"
@@ -65,8 +65,8 @@
    44,
    44,
    [
-    "2026-10-06T15:09:40+00:00",
-    "2026-10-06T15:48:05+00:00"
+    "2026-10-07T13:05:41+00:00",
+    "2026-10-07T13:29:33+00:00"
    ],
    [
     "2026-10-13T12:43:25+00:00",
@@ -77,16 +77,16 @@
    44,
    44,
    [
-    "2026-09-29T14:14:05+00:00",
-    "2026-09-29T18:35:52+00:00"
+    "2026-10-06T15:16:45+00:00",
+    "2026-10-06T15:20:57+00:00"
    ],
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-07T04:58:27+00:00",
+    "2026-10-07T12:34:40+00:00"
    ]
   ],
-  "avant_filtre_date": 134,
-  "apres_filtre_date": 32
+  "avant_filtre_date": 133,
+  "apres_filtre_date": 33
  },
  "items": [
   {
@@ -612,24 +612,6 @@
    "img": "/img/p/B0H7ZVK15D.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-vitamix-5-speed-immersion-blender-3-piece-bundle-stainless-steel-black-179-99-2832259/",
-   "title": "Vitamix 5-Speed Immersion Blender 3-Piece Bundle, Stainless Steel/Black [$179.99]",
-   "price": 179.99,
-   "was": 299.99,
-   "votes": 1,
-   "posts": 4,
-   "time": "2026-11-15T14:50:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-vitamix-5-speed-immersion-blender-3-piece-bundle-stainless-steel-black-179-99-2832259/",
-   "asin": "B0BLWCJSC3",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BLWCJSC3?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BLWCJSC3.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -664,6 +646,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07HSQ99L1.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-vitamix-5-speed-immersion-blender-3-piece-bundle-stainless-steel-black-179-99-2832259/",
+   "title": "Vitamix 5-Speed Immersion Blender 3-Piece Bundle, Stainless Steel/Black [$179.99]",
+   "price": 179.99,
+   "was": 299.99,
+   "votes": 0,
+   "posts": 4,
+   "time": "2026-11-15T14:50:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-vitamix-5-speed-immersion-blender-3-piece-bundle-stainless-steel-black-179-99-2832259/",
+   "asin": "B0BLWCJSC3",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0BLWCJSC3?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BLWCJSC3.jpg"
   }
  ]
 }
