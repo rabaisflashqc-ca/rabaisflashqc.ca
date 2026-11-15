@@ -1,6 +1,21 @@
 {
- "genere": "2026-11-15T18:02+00:00",
+ "genere": "2026-11-15T18:52+00:00",
  "produits": [
+  {
+   "asin": "B0FHWNZLKT",
+   "titre": "Écouteurs antibruit sans fil Nothing Ear (3)",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0GN4L93SM",
+   "titre": "Aspirateur balai BISSELL PowerClean, spécial poils d'animaux",
+   "prix_affiche": 107.99
+  },
+  {
+   "asin": "B0FVXQFFZM",
+   "titre": "Fer à repasser et défroisseur sans fil Rowenta Freemove",
+   "prix_affiche": 84.99
+  },
   {
    "asin": "B0DN45YMP6",
    "titre": "Écouteurs sans fil JBL Vibe Beam 2",

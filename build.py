@@ -855,8 +855,11 @@ try: PHOTOS_OK = set(json.loads((ROOT / "suivi" / "photos.json").read_text())["o
 except Exception: PHOTOS_OK = set()
 _MOC = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
 
+REC_BADGE = '<p style="margin:0 0 4px;font-size:.72rem;font-weight:800;color:#fff;background:#d6001c;display:inline-block;padding:2px 7px;border-radius:6px">📉 Plus bas prix jamais vu</p>'
+
 def rfd_card(x, stats='🔥 Deal du moment'):
     """Carte d'un deal scanné : prix, ancien prix, % et heure du dernier scan (heure du Québec)."""
+    if x.get("record"): stats = "📉 Plus bas prix jamais vu"
     tag = f'<div class="tag">-{x["pct"]}%<small>rabais</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
     ph = next((st for st in (x.get("asin", ""), f'{x.get("asin")}-2', f'{x.get("asin")}-3') if st in PHOTOS_OK), None)
     src = f"/img/p/{ph}.jpg" if ph else (x.get("img_url") or (VERIF.get(x.get("asin")) or {}).get("img_url"))
@@ -892,7 +895,7 @@ def _score(x, now):
     """Meilleur deal et plus récent : % de rabais, petit bonus de votes, moins 1 point par heure depuis la lecture du prix."""
     try: h = (now - datetime.datetime.fromisoformat(x.get("verifie") or x["seen"])).total_seconds() / 3600
     except Exception: h = 12
-    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h + 1.5 * _comm(x) + (x.get("aud") or 0)  # aud : affinité avec l'audience (mamans du Québec, cadeaux des Fêtes)
+    return (x.get("pct") or 0) + min(x.get("votes") or 0, 10) - h + 1.5 * _comm(x) + (x.get("aud") or 0) + (10 if x.get("record") else 0)  # record : plus bas prix jamais vu (+10). aud : affinité avec l'audience (mamans du Québec, cadeaux des Fêtes)
 
 # Taux de commission Amazon.ca Associés (tableau officiel, vérifié le 6 nov. 2026) : un deal à forte commission monte un peu.
 COMM_CAT = {"animaux": 9, "beaute": 6, "femme": 6, "homme": 6, "maison": 6, "plein-air": 6, "enfants": 5, "tech": 4, "jouets": 3}
@@ -1019,7 +1022,7 @@ def offres_du_jour_page():
                else f'<span class="emo" aria-hidden="true">{EMO.get(x["cat"], "🔥")}</span>')
         eco = float(x["was"]) - float(x["price"])
         return (f'<li class="c{" big" if big else ""}" data-asin="{e(x["asin"])}" data-price="{x["price"]}" data-pct="{x["pct"]}"><a href="{u}" target="_blank" rel="sponsored nofollow noopener">'
-                f'<div class="ph">{pic}<b class="pc">-{x["pct"]}&nbsp;%</b></div><div class="tx"><h3>{e(x["title"])}</h3>'
+                f'<div class="ph">{pic}<b class="pc">-{x["pct"]}&nbsp;%</b></div><div class="tx">{REC_BADGE if x.get("record") else ""}<h3>{e(x["title"])}</h3>'
                 f'<p class="px"><s>{_money(float(x["was"]))}</s><strong>{_money(float(x["price"]))}</strong></p>'
                 f'<p class="eco">Tu économises {_money(eco)}</p><span class="go">Voir le deal 👉</span>'
                 f'<small>prix vérifié le {when(x)}</small></div></a></li>')
