@@ -1,4 +1,230 @@
 {
- "genere": "2026-11-15T09:37+00:00",
- "produits": []
+ "genere": "2026-11-15T16:10+00:00",
+ "produits": [
+  {
+   "asin": "B0DN45YMP6",
+   "titre": "Écouteurs sans fil JBL Vibe Beam 2",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0CT9SBWC9",
+   "titre": "Casque antibruit JBL Tune 670NC",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0F63ZGHGG",
+   "titre": "Roku Streaming Stick (2025)",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0F63ZBN1P",
+   "titre": "Roku Streaming Stick Plus 4K",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0BGM5XPQZ",
+   "titre": "Mini imprimante photo Canon IVY 2",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0GHYJ7BS9",
+   "titre": "Haut-parleur portable JBL Go 5",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0GM2L31NZ",
+   "titre": "Casque antibruit JBL Live 780NC",
+   "prix_affiche": 149.98
+  },
+  {
+   "asin": "B0GV1MZ2S5",
+   "titre": "Casque antibruit JBL Tune 780NC",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0CXL5KTBD",
+   "titre": "Haut-parleur Sony ULT Field 1",
+   "prix_affiche": 98.0
+  },
+  {
+   "asin": "B0GZW2VK3B",
+   "titre": "Écouteurs antibruit Nothing Ear (3a)",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0FZWL8VK9",
+   "titre": "Écouteurs sans fil JBL Sense Lite",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0F6BZQDPS",
+   "titre": "Mélangeur à main Braun MultiQuick Vario 5",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0CS6ZM7X9",
+   "titre": "Machine à café Nespresso Vertuo Pop+",
+   "prix_affiche": 84.0
+  },
+  {
+   "asin": "B0D971QH6N",
+   "titre": "Machine à espresso Nespresso Pixie",
+   "prix_affiche": 119.0
+  },
+  {
+   "asin": "B0F3DQZ193",
+   "titre": "Grande chandelle parfumée Yankee Candle",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent Dreo",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0GZLP7JP5",
+   "titre": "Aspirateur balai sans fil Bissell PowerClean FurFinder",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B00HR0WZP4",
+   "titre": "Tasse isotherme Zojirushi 360 ml",
+   "prix_affiche": 53.0
+  },
+  {
+   "asin": "B08GH6R477",
+   "titre": "Poêle antiadhésive Jamie Oliver par Tefal",
+   "prix_affiche": 38.99
+  },
+  {
+   "asin": "B0CW6NHBFD",
+   "titre": "Gâteries pour chat INABA Churu",
+   "prix_affiche": 72.68
+  },
+  {
+   "asin": "B08MQ3567G",
+   "titre": "Arbre à chat Feandrea 206 cm",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B0G8J64978",
+   "titre": "Bitzee KPop Demon Hunters",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0DN1NFKQW",
+   "titre": "Hot Wheels Mario Kart Bowser",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B0DR3XYYB5",
+   "titre": "Hot Wheels Formula 1 Grand Prix",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B0DMWF97XF",
+   "titre": "Hot Wheels Monster Trucks",
+   "prix_affiche": 39.97
+  },
+  {
+   "asin": "B0DJ19GJVW",
+   "titre": "LEGO Friends Camionnette de camping de l'amitié",
+   "prix_affiche": 49.86
+  },
+  {
+   "asin": "B0DRW5DBY3",
+   "titre": "LEGO DUPLO Animaux 3 en 1",
+   "prix_affiche": 24.86
+  },
+  {
+   "asin": "B0DSGPRG48",
+   "titre": "Barbie Signature Wonder Woman",
+   "prix_affiche": 45.0
+  },
+  {
+   "asin": "B0FCHQBK96",
+   "titre": "Ensemble Calico Critters Baby Dream",
+   "prix_affiche": 41.98
+  },
+  {
+   "asin": "B0DTBVJP7G",
+   "titre": "Ensemble Gabby et la maison magique",
+   "prix_affiche": 15.21
+  },
+  {
+   "asin": "B07H8L4TP2",
+   "titre": "Plus-Plus 600 pièces",
+   "prix_affiche": 32.86
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Coffret d'art Crayola Inspiration",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B09642VSFM",
+   "titre": "Crocs Classic pour enfant",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B087QN96MN",
+   "titre": "Siège d'appoint Chicco GoFit Plus",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B000JJIERS",
+   "titre": "Chandail ras du cou Carhartt pour homme",
+   "prix_affiche": 32.97
+  },
+  {
+   "asin": "B0DJV5WYQZ",
+   "titre": "Jeans Levi's 578 Baggy pour homme",
+   "prix_affiche": 55.96
+  },
+  {
+   "asin": "B072Q3KBTZ",
+   "titre": "Jeans Levi's 541 Athletic pour homme",
+   "prix_affiche": 64.96
+  },
+  {
+   "asin": "B00CX2NJG0",
+   "titre": "Jeans Wrangler 20X pour homme",
+   "prix_affiche": 60.4
+  },
+  {
+   "asin": "B093QKRSQB",
+   "titre": "Espadrilles New Balance 574 pour homme",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B0184DZPG8",
+   "titre": "Espadrilles DC Court Graffik pour homme",
+   "prix_affiche": 53.98
+  },
+  {
+   "asin": "B0FW7HHPS4",
+   "titre": "Jeans Levi's Cinch Baggy pour femme",
+   "prix_affiche": 69.96
+  },
+  {
+   "asin": "B0F91Z1PKX",
+   "titre": "Chandail à capuchon Carhartt pour femme",
+   "prix_affiche": 47.97
+  },
+  {
+   "asin": "B0BSB5JLWP",
+   "titre": "Souliers Skechers Go Walk Flex pour femme",
+   "prix_affiche": 54.88
+  },
+  {
+   "asin": "B0CLSZY56V",
+   "titre": "Veste matelassée Columbia Heavenly pour femme",
+   "prix_affiche": 89.97
+  },
+  {
+   "asin": "B0GTWZR8GM",
+   "titre": "Sac à dos Thule EnRoute 23 L",
+   "prix_affiche": 134.95
+  }
+ ]
 }
