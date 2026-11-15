@@ -1,5 +1,5 @@
 {
- "date": "2026-11-15T17:01-04:00",
+ "date": "2026-11-15T19:31-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,15 +14,15 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   26,
+   25,
    20,
    [
     "2026-11-09T15:24:46+00:00",
     "2026-11-09T16:52:18+00:00"
    ],
    [
-    "2026-11-15T15:48:22+00:00",
-    "2026-11-15T20:28:43+00:00"
+    "2026-11-15T14:50:40+00:00",
+    "2026-11-15T15:48:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
@@ -198,6 +198,24 @@
    "img": "/img/p/B0BS1QCFHX.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
+   "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
+   "price": 124.1,
+   "was": 165.99,
+   "votes": 10,
+   "posts": 18,
+   "time": "2026-11-14T20:42:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
+   "asin": "B0F7R9DQHY",
+   "pct": 25,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0F7R9DQHY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F7R9DQHY.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
    "price": 599.99,
@@ -214,24 +232,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
-   "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
-   "price": 124.1,
-   "was": 165.99,
-   "votes": 9,
-   "posts": 18,
-   "time": "2026-11-14T20:42:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
-   "asin": "B0F7R9DQHY",
-   "pct": 25,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0F7R9DQHY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0F7R9DQHY.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
@@ -486,6 +486,24 @@
    "img": "/img/p/B0FWK41WF2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hyperx-alloy-origins-65-mechanical-gaming-keyboard-69-atl-2832281/",
+   "title": "HyperX Alloy Origins 65 Mechanical Gaming Keyboard - $69 ATL",
+   "price": 69.99,
+   "was": 99.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-15T20:28:43+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hyperx-alloy-origins-65-mechanical-gaming-keyboard-69-atl-2832281/",
+   "asin": "B09RBB2VJJ",
+   "pct": 30,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B09RBB2VJJ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
    "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
    "price": 659.99,
@@ -610,24 +628,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLWCJSC3.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hyperx-alloy-origins-65-mechanical-gaming-keyboard-69-atl-2832281/",
-   "title": "HyperX Alloy Origins 65 Mechanical Gaming Keyboard - $69 ATL",
-   "price": 69.99,
-   "was": 99.99,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-15T20:28:43+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hyperx-alloy-origins-65-mechanical-gaming-keyboard-69-atl-2832281/",
-   "asin": "B09RBB2VJJ",
-   "pct": 30,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09RBB2VJJ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   }
  ]
 }
