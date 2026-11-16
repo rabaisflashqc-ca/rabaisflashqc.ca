@@ -1,4 +1,245 @@
 {
- "genere": "2026-11-16T16:46+00:00",
- "produits": []
+ "genere": "2026-11-16T16:57+00:00",
+ "produits": [
+  {
+   "asin": "B002JWSNIS",
+   "titre": "Coffret d'embouts de tournevis DEWALT",
+   "prix_affiche": 21.01
+  },
+  {
+   "asin": "B0008IVIA0",
+   "titre": "Chandail Carhartt pour homme",
+   "prix_affiche": 32.97
+  },
+  {
+   "asin": "B0CK9PT53B",
+   "titre": "Gobelet Stanley Quencher H2.0",
+   "prix_affiche": 26.0
+  },
+  {
+   "asin": "B0CT9SBWC9",
+   "titre": "Casque antibruit sans fil JBL Tune 670NC",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B014VGDS2K",
+   "titre": "Chemise Legendary Whitetails pour homme",
+   "prix_affiche": 31.74
+  },
+  {
+   "asin": "B08P55HC6F",
+   "titre": "Jeans Levi's 541 Athletic pour homme",
+   "prix_affiche": 55.98
+  },
+  {
+   "asin": "B01EOUB046",
+   "titre": "Espadrilles Skechers D'Lites pour femme",
+   "prix_affiche": 50.49
+  },
+  {
+   "asin": "B0GXH2FM6N",
+   "titre": "Kangourou Carhartt Sawyer pour femme",
+   "prix_affiche": 47.97
+  },
+  {
+   "asin": "B0D4B6T4V2",
+   "titre": "Mélangeur Ninja Detect Duo Power & Perform",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B0DTBVJP7G",
+   "titre": "Poupée Gabby's Dollhouse",
+   "prix_affiche": 15.21
+  },
+  {
+   "asin": "B0G6LGJW6D",
+   "titre": "Casque antibruit Nothing Headphone (a)",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0DS6MZMJP",
+   "titre": "Coffret de figurines Harry Potter",
+   "prix_affiche": 19.99
+  },
+  {
+   "asin": "B0C3NKXRQ8",
+   "titre": "Sac à dos pour enfant Simple Modern",
+   "prix_affiche": 40.32
+  },
+  {
+   "asin": "B071FH2NLX",
+   "titre": "Gâteries pour chat Greenies Feline",
+   "prix_affiche": 20.21
+  },
+  {
+   "asin": "B00HR0WZP4",
+   "titre": "Tasse isolante Zojirushi 360 ml",
+   "prix_affiche": 53.0
+  },
+  {
+   "asin": "B0DLWYGNHR",
+   "titre": "Tasse de voyage Ninja Sip Perfect 12 oz",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0DR3XYYB5",
+   "titre": "Hot Wheels Formula 1 Grand Prix",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B0DSGPRG48",
+   "titre": "Poupée Barbie Signature Wonder Woman",
+   "prix_affiche": 45.0
+  },
+  {
+   "asin": "B09642VSFM",
+   "titre": "Crocs Classic pour enfant",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B091ZJBQKH",
+   "titre": "Sandales adidas Adilette",
+   "prix_affiche": 17.08
+  },
+  {
+   "asin": "B07N1K4NK8",
+   "titre": "Bottes doublées Kamik Forester pour homme",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B074VFP2GC",
+   "titre": "Kangourou Hanes EcoSmart pour homme",
+   "prix_affiche": 22.69
+  },
+  {
+   "asin": "B0CHBZZBCC",
+   "titre": "Gobelet isolé Simple Modern avec poignée",
+   "prix_affiche": 20.99
+  },
+  {
+   "asin": "B0DN1NFKQW",
+   "titre": "Piste Hot Wheels Mario Kart Bowser",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B00CX2NJG0",
+   "titre": "Jeans Wrangler 20X pour homme",
+   "prix_affiche": 60.4
+  },
+  {
+   "asin": "B0DMWF97XF",
+   "titre": "Hot Wheels Monster Trucks",
+   "prix_affiche": 39.97
+  },
+  {
+   "asin": "B0GLMM6YYG",
+   "titre": "Casque antibruit JBL Live 780NC",
+   "prix_affiche": 149.98
+  },
+  {
+   "asin": "B0CS6ZM7X9",
+   "titre": "Machine à café Nespresso Vertuo Pop+",
+   "prix_affiche": 84.0
+  },
+  {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent DREO",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0DJTMZC2D",
+   "titre": "Jeans Levi's 578 Baggy pour homme",
+   "prix_affiche": 55.96
+  },
+  {
+   "asin": "B08MQ3567G",
+   "titre": "Arbre à chat Feandrea 206 cm",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B0D971QH6N",
+   "titre": "Machine à café Nespresso Pixie",
+   "prix_affiche": 119.0
+  },
+  {
+   "asin": "B0DN45YMP6",
+   "titre": "Écouteurs sans fil JBL Vibe Beam 2",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0F63ZGHGG",
+   "titre": "Roku Streaming Stick 2025",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B0H96FFSY6",
+   "titre": "Ensemble Nespresso Vertuo Pop+ Deluxe",
+   "prix_affiche": 95.0
+  },
+  {
+   "asin": "B0CMJRHFZL",
+   "titre": "Piste Hot Wheels City Ultra Shark",
+   "prix_affiche": 39.97
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Mallette d'art Crayola Inspiration",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0DHLT3YNW",
+   "titre": "T-shirt Under Armour Velocity pour homme",
+   "prix_affiche": 18.88
+  },
+  {
+   "asin": "B0CXL5KTBD",
+   "titre": "Haut-parleur Bluetooth Sony ULT Field 1",
+   "prix_affiche": 98.0
+  },
+  {
+   "asin": "B08BZF6SLW",
+   "titre": "Déodorant naturel Routine Superstar",
+   "prix_affiche": 20.29
+  },
+  {
+   "asin": "B0D5FX6VRL",
+   "titre": "Friteuse à air Chefman 6 pintes",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0G8J64978",
+   "titre": "Bitzee KPop Demon Hunters",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B0CLSZY56V",
+   "titre": "Veste sans manches Columbia Heavenly pour femme",
+   "prix_affiche": 89.97
+  },
+  {
+   "asin": "B0BSB5JLWP",
+   "titre": "Espadrilles Skechers Go Walk Flex pour femme",
+   "prix_affiche": 54.88
+  },
+  {
+   "asin": "B0F3DQZ193",
+   "titre": "Grande chandelle parfumée Yankee Candle",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0BGM5XPQZ",
+   "titre": "Mini imprimante photo Canon IVY 2",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B001CZJIPA",
+   "titre": "Crampons Yaktrax Walk pour l'hiver",
+   "prix_affiche": 26.64
+  },
+  {
+   "asin": "B005EXOJZK",
+   "titre": "Pince-clé Knipex 150 mm",
+   "prix_affiche": 60.31
+  }
+ ]
 }
