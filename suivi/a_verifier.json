@@ -1,6 +1,16 @@
 {
- "genere": "2026-11-16T16:57+00:00",
+ "genere": "2026-11-16T17:00+00:00",
  "produits": [
+  {
+   "asin": "B0F3BCVPN2",
+   "titre": "Caméra intérieure Blink Mini 2K+",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0G62V4MDP",
+   "titre": "Sonnette à batterie Blink 2K+",
+   "prix_affiche": 41.99
+  },
   {
    "asin": "B002JWSNIS",
    "titre": "Coffret d'embouts de tournevis DEWALT",
@@ -12,9 +22,39 @@
    "prix_affiche": 32.97
   },
   {
+   "asin": "B0DQY78Q7H",
+   "titre": "Gobelet Stanley Quencher H2.0 FlowState",
+   "prix_affiche": 16.5
+  },
+  {
+   "asin": "B0FHJ8XWWL",
+   "titre": "Sonnette à batterie Ring 2K",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0CQXMXJC5",
+   "titre": "Casque Anker Soundcore Q20i",
+   "prix_affiche": 49.99
+  },
+  {
+   "asin": "B08DJ8Z3WH",
+   "titre": "Aspirateur Shark Navigator NV150C",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B0C7HX99Q6",
+   "titre": "Caméra extérieure Ring",
+   "prix_affiche": 54.99
+  },
+  {
    "asin": "B0CK9PT53B",
    "titre": "Gobelet Stanley Quencher H2.0",
    "prix_affiche": 26.0
+  },
+  {
+   "asin": "B0F2LCBKVN",
+   "titre": "Casque antibruit Bose QuietComfort",
+   "prix_affiche": 249.0
   },
   {
    "asin": "B0CT9SBWC9",
@@ -27,6 +67,16 @@
    "prix_affiche": 31.74
   },
   {
+   "asin": "B0HFBPZWF2",
+   "titre": "Casque antibruit Sony WH-CH730N",
+   "prix_affiche": 138.0
+  },
+  {
+   "asin": "B01IQDWP4Q",
+   "titre": "Sapin de Noël National Tree Company",
+   "prix_affiche": 249.99
+  },
+  {
    "asin": "B08P55HC6F",
    "titre": "Jeans Levi's 541 Athletic pour homme",
    "prix_affiche": 55.98
@@ -37,9 +87,59 @@
    "prix_affiche": 50.49
   },
   {
+   "asin": "B0D9R4GYTN",
+   "titre": "Écouteurs sans fil Sony WF-C510",
+   "prix_affiche": 58.0
+  },
+  {
+   "asin": "B09CQFR9T6",
+   "titre": "Fer à repasser Rowenta Pro Master",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0DDQKXDZF",
+   "titre": "Casque Beats Studio Pro",
+   "prix_affiche": 229.95
+  },
+  {
+   "asin": "B0CT4CGSF7",
+   "titre": "Bouteille Stanley Quick Flip GO",
+   "prix_affiche": 19.8
+  },
+  {
+   "asin": "B0GN4L93SM",
+   "titre": "Aspirateur balai sans fil BISSELL PowerClean",
+   "prix_affiche": 107.99
+  },
+  {
+   "asin": "B07DVYN14S",
+   "titre": "Parure de lit Eddie Bauer",
+   "prix_affiche": 55.43
+  },
+  {
+   "asin": "B00G5DIXJQ",
+   "titre": "Petit sapin de Noël National Tree Company",
+   "prix_affiche": 61.99
+  },
+  {
+   "asin": "B07F758MP8",
+   "titre": "Chandail polaire Nautica pour homme",
+   "prix_affiche": 30.04
+  },
+  {
    "asin": "B0GXH2FM6N",
    "titre": "Kangourou Carhartt Sawyer pour femme",
    "prix_affiche": 47.97
+  },
+  {
+   "asin": "B0BTYCRJSS",
+   "titre": "Écouteurs sans fil Anker Soundcore P20i",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0CHZ9W4K3",
+   "titre": "Jeu PS5 Marvel's Spider-Man 2",
+   "prix_affiche": 39.99
   },
   {
    "asin": "B0D4B6T4V2",
@@ -50,6 +150,11 @@
    "asin": "B0DTBVJP7G",
    "titre": "Poupée Gabby's Dollhouse",
    "prix_affiche": 15.21
+  },
+  {
+   "asin": "B0GLSK2LRC",
+   "titre": "Fer à boucler Conair InfinitiPRO",
+   "prix_affiche": 62.99
   },
   {
    "asin": "B0G6LGJW6D",
@@ -70,6 +175,11 @@
    "asin": "B071FH2NLX",
    "titre": "Gâteries pour chat Greenies Feline",
    "prix_affiche": 20.21
+  },
+  {
+   "asin": "B0CJSJ93MY",
+   "titre": "Détacheur BISSELL Little Green HydroSteam",
+   "prix_affiche": 179.99
   },
   {
    "asin": "B00HR0WZP4",
@@ -102,6 +212,36 @@
    "prix_affiche": 17.08
   },
   {
+   "asin": "B0F5HZGZ84",
+   "titre": "Boxers SAXX pour homme, paquet de 3",
+   "prix_affiche": 38.97
+  },
+  {
+   "asin": "B0GY9T544P",
+   "titre": "Boxers SAXX pour homme, paquet de 5",
+   "prix_affiche": 55.22
+  },
+  {
+   "asin": "B071HHX6VF",
+   "titre": "Valise rigide extensible Amazon Basics",
+   "prix_affiche": 99.47
+  },
+  {
+   "asin": "B0D41MSS7Q",
+   "titre": "Pot alimentaire Thermos Icon",
+   "prix_affiche": 27.85
+  },
+  {
+   "asin": "B0DJ1B7BC1",
+   "titre": "LEGO Creator Famille de pandas",
+   "prix_affiche": 32.37
+  },
+  {
+   "asin": "B0DCZ2QFV8",
+   "titre": "Écouteurs Anker Soundcore AeroFit 2",
+   "prix_affiche": 84.99
+  },
+  {
    "asin": "B07N1K4NK8",
    "titre": "Bottes doublées Kamik Forester pour homme",
    "prix_affiche": 89.99
@@ -117,6 +257,11 @@
    "prix_affiche": 20.99
   },
   {
+   "asin": "B0CPSNS4YQ",
+   "titre": "Couverture sherpa Bedsure",
+   "prix_affiche": 45.99
+  },
+  {
    "asin": "B0DN1NFKQW",
    "titre": "Piste Hot Wheels Mario Kart Bowser",
    "prix_affiche": 49.97
@@ -130,6 +275,11 @@
    "asin": "B0DMWF97XF",
    "titre": "Hot Wheels Monster Trucks",
    "prix_affiche": 39.97
+  },
+  {
+   "asin": "B0GQ574FMD",
+   "titre": "Cafetière Keurig K-Mini Go",
+   "prix_affiche": 79.99
   },
   {
    "asin": "B0GLMM6YYG",
@@ -162,6 +312,21 @@
    "prix_affiche": 119.0
   },
   {
+   "asin": "B0H8YLMG6Z",
+   "titre": "Soutien-gorge Shapermint Everyday pour femme",
+   "prix_affiche": 33.91
+  },
+  {
+   "asin": "B09BW1QVVT",
+   "titre": "Écouteurs de sport Shokz OpenRun",
+   "prix_affiche": 114.95
+  },
+  {
+   "asin": "B074D8DTLV",
+   "titre": "Couronne de Noël National Tree Company",
+   "prix_affiche": 72.99
+  },
+  {
    "asin": "B0DN45YMP6",
    "titre": "Écouteurs sans fil JBL Vibe Beam 2",
    "prix_affiche": 49.98
@@ -182,6 +347,16 @@
    "prix_affiche": 39.97
   },
   {
+   "asin": "B0DHLHWZT7",
+   "titre": "LEGO Speed Champions Ferrari",
+   "prix_affiche": 23.98
+  },
+  {
+   "asin": "B0G2SYW4FW",
+   "titre": "LEGO Minecraft The Skeleton",
+   "prix_affiche": 37.98
+  },
+  {
    "asin": "B00CMM4VF4",
    "titre": "Mallette d'art Crayola Inspiration",
    "prix_affiche": 24.99
@@ -190,6 +365,41 @@
    "asin": "B0DHLT3YNW",
    "titre": "T-shirt Under Armour Velocity pour homme",
    "prix_affiche": 18.88
+  },
+  {
+   "asin": "B014E2D6BY",
+   "titre": "Masques contour des yeux grace & stella",
+   "prix_affiche": 19.45
+  },
+  {
+   "asin": "B0D1J2GCJD",
+   "titre": "Haut-parleur Bluetooth JBL Clip 5",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0DF81PBXK",
+   "titre": "LEGO Fortnite Battle Bus",
+   "prix_affiche": 91.19
+  },
+  {
+   "asin": "B0CLHK7X9G",
+   "titre": "Poêle hybride HexClad",
+   "prix_affiche": 125.0
+  },
+  {
+   "asin": "B07ZL9511J",
+   "titre": "Fer à friser Conair",
+   "prix_affiche": 17.49
+  },
+  {
+   "asin": "B07KG2X2GZ",
+   "titre": "Aspirateur à main BLACK+DECKER",
+   "prix_affiche": 37.99
+  },
+  {
+   "asin": "B0G2T38DCJ",
+   "titre": "LEGO Disney Vaiana Pua",
+   "prix_affiche": 69.98
   },
   {
    "asin": "B0CXL5KTBD",

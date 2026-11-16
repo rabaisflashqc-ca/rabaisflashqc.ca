@@ -1,5 +1,27 @@
 [
  {
+  "asin": "B0F3BCVPN2",
+  "title": "Caméra intérieure Blink Mini 2K+",
+  "cat": "tech",
+  "price": 23.99,
+  "was": 59.99,
+  "pct": 60,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0G62V4MDP",
+  "title": "Sonnette à batterie Blink 2K+",
+  "cat": "tech",
+  "price": 41.99,
+  "was": 94.99,
+  "pct": 56,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
   "asin": "B002JWSNIS",
   "title": "Coffret d'embouts de tournevis DEWALT",
   "cat": "maison",
@@ -24,6 +46,65 @@
   "vf": true
  },
  {
+  "asin": "B0DQY78Q7H",
+  "title": "Gobelet Stanley Quencher H2.0 FlowState",
+  "cat": "maison",
+  "price": 16.5,
+  "was": 32.99,
+  "pct": 50,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DQY78Q7H.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0FHJ8XWWL",
+  "title": "Sonnette à batterie Ring 2K",
+  "cat": "tech",
+  "price": 69.99,
+  "was": 139.99,
+  "pct": 50,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0CQXMXJC5",
+  "title": "Casque Anker Soundcore Q20i",
+  "cat": "tech",
+  "price": 49.99,
+  "was": 99.99,
+  "pct": 50,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B08DJ8Z3WH",
+  "title": "Aspirateur Shark Navigator NV150C",
+  "cat": "maison",
+  "price": 99.98,
+  "was": 199.98,
+  "pct": 50,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B08DJ8Z3WH.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0C7HX99Q6",
+  "title": "Caméra extérieure Ring",
+  "cat": "tech",
+  "price": 54.99,
+  "was": 109.99,
+  "pct": 50,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
   "asin": "B0CK9PT53B",
   "title": "Gobelet Stanley Quencher H2.0",
   "cat": "maison",
@@ -33,6 +114,19 @@
   "seen": "2026-11-16T11:55-05:00",
   "until": "2026-11-17T11:55-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CK9PT53B.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0F2LCBKVN",
+  "title": "Casque antibruit Bose QuietComfort",
+  "cat": "tech",
+  "price": 249.0,
+  "was": 479.0,
+  "pct": 48,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0F2LCBKVN.01.L.jpg",
   "vf": true
  },
  {
@@ -60,6 +154,32 @@
   "vf": true
  },
  {
+  "asin": "B0HFBPZWF2",
+  "title": "Casque antibruit Sony WH-CH730N",
+  "cat": "tech",
+  "price": 138.0,
+  "was": 249.99,
+  "pct": 45,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0HFBPZWF2.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B01IQDWP4Q",
+  "title": "Sapin de Noël National Tree Company",
+  "cat": "maison",
+  "price": 249.99,
+  "was": 439.99,
+  "pct": 43,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B01IQDWP4Q.01.L.jpg",
+  "vf": true
+ },
+ {
   "asin": "B08P55HC6F",
   "title": "Jeans Levi's 541 Athletic pour homme",
   "cat": "homme",
@@ -84,6 +204,110 @@
   "vf": true
  },
  {
+  "asin": "B0D9R4GYTN",
+  "title": "Écouteurs sans fil Sony WF-C510",
+  "cat": "tech",
+  "price": 58.0,
+  "was": 99.99,
+  "pct": 42,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0D9R4GYTN.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B09CQFR9T6",
+  "title": "Fer à repasser Rowenta Pro Master",
+  "cat": "maison",
+  "price": 99.99,
+  "was": 170.92,
+  "pct": 41,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B09CQFR9T6.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0DDQKXDZF",
+  "title": "Casque Beats Studio Pro",
+  "cat": "tech",
+  "price": 229.95,
+  "was": 388.99,
+  "pct": 41,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DDQKXDZF.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0CT4CGSF7",
+  "title": "Bouteille Stanley Quick Flip GO",
+  "cat": "maison",
+  "price": 19.8,
+  "was": 33.0,
+  "pct": 40,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CT4CGSF7.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0GN4L93SM",
+  "title": "Aspirateur balai sans fil BISSELL PowerClean",
+  "cat": "maison",
+  "price": 107.99,
+  "was": 179.99,
+  "pct": 40,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0GN4L93SM.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B07DVYN14S",
+  "title": "Parure de lit Eddie Bauer",
+  "cat": "maison",
+  "price": 55.43,
+  "was": 92.39,
+  "pct": 40,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07DVYN14S.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B00G5DIXJQ",
+  "title": "Petit sapin de Noël National Tree Company",
+  "cat": "maison",
+  "price": 61.99,
+  "was": 103.99,
+  "pct": 40,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B00G5DIXJQ.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B07F758MP8",
+  "title": "Chandail polaire Nautica pour homme",
+  "cat": "homme",
+  "price": 30.04,
+  "was": 50.07,
+  "pct": 40,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07F758MP8.01.L.jpg",
+  "vf": true
+ },
+ {
   "asin": "B0GXH2FM6N",
   "title": "Kangourou Carhartt Sawyer pour femme",
   "cat": "femme",
@@ -93,6 +317,30 @@
   "seen": "2026-11-16T11:55-05:00",
   "until": "2026-11-17T11:55-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0GXH2FM6N.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0BTYCRJSS",
+  "title": "Écouteurs sans fil Anker Soundcore P20i",
+  "cat": "tech",
+  "price": 24.99,
+  "was": 39.99,
+  "pct": 38,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0CHZ9W4K3",
+  "title": "Jeu PS5 Marvel's Spider-Man 2",
+  "cat": "tech",
+  "price": 39.99,
+  "was": 65.0,
+  "pct": 38,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CHZ9W4K3.01.L.jpg",
   "vf": true
  },
  {
@@ -117,6 +365,19 @@
   "seen": "2026-11-16T11:55-05:00",
   "until": "2026-11-17T11:55-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DTBVJP7G.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0GLSK2LRC",
+  "title": "Fer à boucler Conair InfinitiPRO",
+  "cat": "beaute",
+  "price": 62.99,
+  "was": 99.99,
+  "pct": 37,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0GLSK2LRC.01.L.jpg",
   "vf": true
  },
  {
@@ -165,6 +426,19 @@
   "seen": "2026-11-16T11:55-05:00",
   "until": "2026-11-17T11:55-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B071FH2NLX.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0CJSJ93MY",
+  "title": "Détacheur BISSELL Little Green HydroSteam",
+  "cat": "maison",
+  "price": 179.99,
+  "was": 279.97,
+  "pct": 36,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CJSJ93MY.01.L.jpg",
   "vf": true
  },
  {
@@ -238,6 +512,76 @@
   "vf": true
  },
  {
+  "asin": "B0F5HZGZ84",
+  "title": "Boxers SAXX pour homme, paquet de 3",
+  "cat": "homme",
+  "price": 38.97,
+  "was": 59.95,
+  "pct": 35,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0GY9T544P",
+  "title": "Boxers SAXX pour homme, paquet de 5",
+  "cat": "homme",
+  "price": 55.22,
+  "was": 84.95,
+  "pct": 35,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B071HHX6VF",
+  "title": "Valise rigide extensible Amazon Basics",
+  "cat": "maison",
+  "price": 99.47,
+  "was": 153.04,
+  "pct": 35,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0D41MSS7Q",
+  "title": "Pot alimentaire Thermos Icon",
+  "cat": "maison",
+  "price": 27.85,
+  "was": 42.99,
+  "pct": 35,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0DJ1B7BC1",
+  "title": "LEGO Creator Famille de pandas",
+  "cat": "jouets",
+  "price": 32.37,
+  "was": 49.99,
+  "pct": 35,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DJ1B7BC1.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0DCZ2QFV8",
+  "title": "Écouteurs Anker Soundcore AeroFit 2",
+  "cat": "tech",
+  "price": 84.99,
+  "was": 129.99,
+  "pct": 35,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DCZ2QFV8.01.L.jpg",
+  "vf": true
+ },
+ {
   "asin": "B07N1K4NK8",
   "title": "Bottes doublées Kamik Forester pour homme",
   "cat": "homme",
@@ -274,6 +618,17 @@
   "vf": true
  },
  {
+  "asin": "B0CPSNS4YQ",
+  "title": "Couverture sherpa Bedsure",
+  "cat": "maison",
+  "price": 45.99,
+  "was": 69.99,
+  "pct": 34,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
   "asin": "B0DN1NFKQW",
   "title": "Piste Hot Wheels Mario Kart Bowser",
   "cat": "jouets",
@@ -307,6 +662,19 @@
   "seen": "2026-11-16T11:55-05:00",
   "until": "2026-11-17T11:55-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DMWF97XF.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0GQ574FMD",
+  "title": "Cafetière Keurig K-Mini Go",
+  "cat": "maison",
+  "price": 79.99,
+  "was": 119.99,
+  "pct": 33,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0GQ574FMD.01.L.jpg",
   "vf": true
  },
  {
@@ -380,6 +748,41 @@
   "vf": true
  },
  {
+  "asin": "B0H8YLMG6Z",
+  "title": "Soutien-gorge Shapermint Everyday pour femme",
+  "cat": "femme",
+  "price": 33.91,
+  "was": 49.99,
+  "pct": 32,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B09BW1QVVT",
+  "title": "Écouteurs de sport Shokz OpenRun",
+  "cat": "tech",
+  "price": 114.95,
+  "was": 169.95,
+  "pct": 32,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B074D8DTLV",
+  "title": "Couronne de Noël National Tree Company",
+  "cat": "maison",
+  "price": 72.99,
+  "was": 107.59,
+  "pct": 32,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B074D8DTLV.01.L.jpg",
+  "vf": true
+ },
+ {
   "asin": "B0DN45YMP6",
   "title": "Écouteurs sans fil JBL Vibe Beam 2",
   "cat": "tech",
@@ -426,6 +829,32 @@
   "vf": true
  },
  {
+  "asin": "B0DHLHWZT7",
+  "title": "LEGO Speed Champions Ferrari",
+  "cat": "jouets",
+  "price": 23.98,
+  "was": 34.99,
+  "pct": 31,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DHLHWZT7.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0G2SYW4FW",
+  "title": "LEGO Minecraft The Skeleton",
+  "cat": "jouets",
+  "price": 37.98,
+  "was": 54.99,
+  "pct": 31,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0G2SYW4FW.01.L.jpg",
+  "vf": true
+ },
+ {
   "asin": "B00CMM4VF4",
   "title": "Mallette d'art Crayola Inspiration",
   "cat": "jouets",
@@ -447,6 +876,93 @@
   "seen": "2026-11-16T11:55-05:00",
   "until": "2026-11-17T11:55-05:00",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DHLT3YNW.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B014E2D6BY",
+  "title": "Masques contour des yeux grace & stella",
+  "cat": "beaute",
+  "price": 19.45,
+  "was": 27.95,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B0D1J2GCJD",
+  "title": "Haut-parleur Bluetooth JBL Clip 5",
+  "cat": "tech",
+  "price": 69.98,
+  "was": 99.98,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0D1J2GCJD.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0DF81PBXK",
+  "title": "LEGO Fortnite Battle Bus",
+  "cat": "jouets",
+  "price": 91.19,
+  "was": 129.99,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DF81PBXK.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0CLHK7X9G",
+  "title": "Poêle hybride HexClad",
+  "cat": "maison",
+  "price": 125.0,
+  "was": 179.0,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon"
+ },
+ {
+  "asin": "B07ZL9511J",
+  "title": "Fer à friser Conair",
+  "cat": "beaute",
+  "price": 17.49,
+  "was": 24.99,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07ZL9511J.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B07KG2X2GZ",
+  "title": "Aspirateur à main BLACK+DECKER",
+  "cat": "maison",
+  "price": 37.99,
+  "was": 54.0,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07KG2X2GZ.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B0G2T38DCJ",
+  "title": "LEGO Disney Vaiana Pua",
+  "cat": "jouets",
+  "price": 69.98,
+  "was": 99.99,
+  "pct": 30,
+  "seen": "2026-11-16T11:59-05:00",
+  "until": "2026-11-17T11:59-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0G2T38DCJ.01.L.jpg",
   "vf": true
  },
  {
