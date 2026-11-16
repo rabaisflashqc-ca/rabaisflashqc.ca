@@ -1,5 +1,5 @@
 {
- "date": "2026-11-15T21:57-04:00",
+ "date": "2026-11-15T22:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,7 +14,7 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   26,
+   25,
    21,
    [
     "2026-11-09T15:24:46+00:00",
@@ -65,8 +65,8 @@
    44,
    44,
    [
-    "2026-10-07T13:49:39+00:00",
-    "2026-10-07T13:52:23+00:00"
+    "2026-10-06T15:55:41+00:00",
+    "2026-10-06T16:24:00+00:00"
    ],
    [
     "2026-10-13T13:39:34+00:00",
@@ -77,15 +77,15 @@
    44,
    44,
    [
-    "2026-10-06T15:29:12+00:00",
-    "2026-10-06T15:40:58+00:00"
+    "2026-09-30T01:09:42+00:00",
+    "2026-09-30T14:25:09+00:00"
    ],
    [
-    "2026-10-07T13:05:41+00:00",
-    "2026-10-07T13:29:33+00:00"
+    "2026-10-06T15:09:40+00:00",
+    "2026-10-06T15:48:05+00:00"
    ]
   ],
-  "avant_filtre_date": 131,
+  "avant_filtre_date": 134,
   "apres_filtre_date": 30
  },
  "items": [
@@ -252,6 +252,24 @@
    "img": "/img/p/B0FG7MXDH6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
+   "title": "Greenies Dog & Cat Treats 30% off coupon w/ S&S",
+   "price": null,
+   "was": null,
+   "votes": 7,
+   "posts": 3,
+   "time": "2026-11-15T01:04:08+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
+   "asin": "B071FH2NLX",
+   "pct": null,
+   "cat": "animaux",
+   "link": "https://www.amazon.ca/dp/B071FH2NLX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
    "title": "[Amazon] Sony WH-CH720N Headphones - $118",
    "price": 118.0,
@@ -286,24 +304,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FB9FHQV5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
-   "title": "Greenies Dog & Cat Treats 30% off coupon w/ S&S",
-   "price": null,
-   "was": null,
-   "votes": 6,
-   "posts": 3,
-   "time": "2026-11-15T01:04:08+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
-   "asin": "B071FH2NLX",
-   "pct": null,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B071FH2NLX?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
