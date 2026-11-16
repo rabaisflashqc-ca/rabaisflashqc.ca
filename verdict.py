@@ -10,7 +10,7 @@ def eco(x):
 
 def eco_txt(v):
     """Arrondi vers le bas : jamais plus que la vraie économie."""
-    return f"{int(v)} $" if v >= 10 else f"{v:.2f} $".replace(".", ",")
+    return f"{int(v + 0.005)} $" if v >= 10 else f"{v:.2f} $".replace(".", ",")
 
 def verdict(x):
     """Retourne (texte, classe CSS). Record Keepa = « Plus bas prix jamais vu »; 40 % et plus ET au moins 20 $ de moins = « Ça vaut le clic »;
