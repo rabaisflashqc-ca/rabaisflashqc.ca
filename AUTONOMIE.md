@@ -101,10 +101,20 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Le NAS d'Alex est confidentiel. Ne jamais demander de clés API ou d'informations bancaires dans le clavardage.
 - Si quelque chose bloque, l'expliquer clairement à Alex au lieu de s'arrêter en silence.
 
+## Positionnement : « Les rabais qui valent vraiment le clic » (décision d'Alex du 16 nov. 2026)
+
+- On ne vend plus « les meilleurs rabais » (impossible à démontrer). On vend le tri : Amazon fixe le prix, Rabais Flash QC dit s'il mérite l'attention.
+- Hero de l'accueil : « Avant d'acheter sur Amazon, regarde ici. » + la signature « Les rabais qui valent vraiment le clic. » + un seul bouton vers le Top 5. La signature revient partout : pied de page du site, posts, réels, infolettre.
+- Verdict sur chaque carte avec prix vérifié (`verdict()` dans build.py, règle publiée sur /a-propos/#choix) : « 🔥 Ça vaut le clic » = 40 % et plus ET au moins 20 $ de moins (environ 1 deal sur 4, il doit rester rare); « 👍 Bon rabais » = 20 % et plus; « 📉 Plus bas prix jamais vu » = champ record de Keepa. Ne pas donner le verdict fort à la main et ne pas baisser les seuils pour en avoir plus.
+- Chaque carte affiche aussi l'économie en dollars (« Tu économises 32 $ », arrondie vers le bas).
+- Ordre de l'accueil : Top 5, puis « Prix de Vendredi fou, déjà là », puis le bloc « On repère, on trie, tu économises », puis l'inscription courriel. Le bandeau Vendredi fou reste en haut.
+- Mots à éviter tant qu'on ne peut pas les prouver : « meilleur prix », « vraie aubaine », « le moins cher ». Le verdict parle du prix, jamais du produit (on ne teste rien).
+- Dans les posts et les réels : le verdict en une ligne (« Verdict : ça vaut le clic. 🔥 »), l'économie en dollars en accroche, puis rabaisflashqc.ca.
+
 ## Mise en page du site (refonte du 12 nov. 2026, demande d'Alex : cellulaire d'abord, puis tablette, puis ordi)
 
 - Cartes de deals en grille (2 colonnes au cellulaire, 3 à la tablette, 4 à l'ordi), photo en haut, carte entière cliquable.
-- Vendredi fou en avant : bandeau avec vrai compte à rebours (27 nov.) sur chaque page (`vf_strip()`), pastille jaune dans le menu, section pré-Vendredi fou en premier sur l'accueil, puis le Top 5.
+- Vendredi fou en avant : bandeau avec vrai compte à rebours (27 nov.) sur chaque page (`vf_strip()`), pastille jaune dans le menu, Top 5 en premier sur l'accueil, puis la section pré-Vendredi fou (changé le 16 nov., voir Positionnement).
 - Menu sur une ligne qui défile et reste collé en haut. Au cellulaire, barre de raccourcis fixe en bas (Vendredi fou, Top 5, Cadeaux, Alertes).
 - Section « Prix de Vendredi fou, déjà là » (demande d'Alex du 13 nov.) : en tête de l'accueil (12 cartes) et sur /vendredi-fou/. Elle se remplit avec le champ `"vf": true` dans suivi/deals_chrome.json. À chaque passe Keepa ou Amazon, mettre vf sur chaque deal avec photo et 30 % ou plus. Le texte ne dit jamais que c'est une offre officielle d'Amazon.
 - L'inscription courriel et les boutons des réseaux passent après les premiers deals (marqueur `<!--NL-->` dans `extra`), pour qu'un deal soit visible dès l'ouverture.

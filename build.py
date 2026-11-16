@@ -265,9 +265,9 @@ ICON = {"tech":"🎧","maison":"🏠","beaute":"💄","femme":"👗","homme":"�
 
 PAGES = [
   # slug, titre <title>, H1, intro, filtre, recherches de secours
-  ("", "Rabais Flash QC · Les meilleurs rabais Amazon au Québec, triés pour toi",
-   "Les cadeaux des Fêtes à petit prix, triés pour toute la famille",
-   "Tout coûte plus cher. Ici, on fait le tri pour toi : des marques connues à gros rabais, pour maman, papa, les enfants et la maison. Prix vérifiés et mis à jour chaque jour.",
+  ("", "Rabais Flash QC · Avant d'acheter sur Amazon, regarde ici",
+   "Avant d'acheter sur Amazon, regarde ici.",
+   "Rabais Flash QC repère et trie les aubaines Amazon pour faire ressortir celles qui valent vraiment le clic. Moins de temps à chercher, plus de chances de tomber sur le bon deal.",
    lambda d: True, []),
   ("vendredi-fou", "Vendredi fou 2026 sur Amazon.ca · Les meilleurs deals triés | Rabais Flash QC",
    "Vendredi fou 2026 : les meilleurs deals d'Amazon.ca",
@@ -428,6 +428,19 @@ ul.deals>.empty{grid-column:1/-1}
 @media (max-width:480px){.vfs{padding:10px 12px;gap:8px}.vfs strong{font-size:19px}.vfs span{font-size:13.5px}.vfs i{padding:8px 10px;font-size:13.5px}}
 @media (min-width:700px){header h1{font-size:34px}header .intro{max-width:none}header .upd{display:none}}
 body.hw nav{background:#140A1F}body.hw .deals .deal{background:#1E1030}
+/* --- 16 nov. 2026 : « Les rabais qui valent vraiment le clic ». Hero de l'accueil, verdict et économie sur chaque carte --- */
+.sig{margin:4px 0 0;font-weight:700;font-size:clamp(17px,4.4vw,22px);line-height:1.2;color:#fff}
+.hcta{display:inline-block;margin:10px 0 2px;padding:12px 22px;border-radius:999px;background:var(--yel);color:#7A0A16;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 3px 0 rgba(0,0,0,.22)}
+@media (max-width:699px){.hcta{display:block;text-align:center}}
+.deal .badges span.v{background:#FFF3D1;color:var(--deep);font-size:12.5px}
+.deal .badges span.v.hot{background:var(--red);color:#fff}.deal .badges span.v.rec{background:#1A1A1A;color:var(--yel)}
+.deal .px em{flex-basis:100%;font-style:normal;font-weight:700;font-size:13.5px;color:#0F7A3D}
+.tri{max-width:880px;margin:18px auto;padding:16px;border-radius:20px;background:#FFF8E1;border:2px solid var(--yel)}
+.tri h2{margin:0 0 4px;font-size:clamp(22px,5.5vw,30px);line-height:1.1}.tri .trs{margin:0 0 10px;font-size:16px}
+.tri ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}@media (min-width:700px){.tri ul{grid-template-columns:repeat(3,1fr)}}
+.tri li{background:#fff;border-radius:14px;padding:12px}.tri li b{display:block;color:var(--deep);font-size:18px}.tri li span{font-size:15px;color:var(--muted)}
+.tri .trl{margin:10px 0 0;font-size:15px;font-weight:700}.tri .trl a{color:var(--deep)}
+.sigf{font-weight:700;color:var(--deep)}
 """
 
 BOLT = '<svg width="16" height="26" viewBox="0 0 100 160" aria-hidden="true"><path d="M62 0 L8 92 L44 92 L28 160 L94 58 L58 58 L78 0 Z" fill="#FFC72C"/></svg>'
@@ -505,8 +518,8 @@ SHOP = "https://www.amazon.ca/shop/coupdecoeurqc"
 def inscr():
     """Encadré vendeur en haut de chaque page : inscription aux deals par courriel (formulaire Google d'Alex)."""
     return ('<section class="nl" aria-label="Reçois les deals par courriel"><p class="nlk">📬 GRATUIT · 1 à 2 courriels par jour</p>'
-            '<p class="nlh">Les meilleurs deals du jour,<br>direct dans ta boîte courriel</p>'
-            '<p class="nls">On fouille des milliers de rabais chaque jour. Toi, tu reçois juste les bons : <b>vrais prix, gros %, marques connues.</b></p>'
+            '<p class="nlh">Les rabais qui valent le clic,<br>direct dans ta boîte courriel</p>'
+            '<p class="nls">On fouille des milliers de rabais chaque jour. Toi, tu reçois juste ceux qui passent notre tri : <b>vrais prix, gros %, marques connues.</b></p>'
             '<ul><li>⚡ Les offres éclair <b>avant qu\'elles disparaissent</b></li><li>🔥 Le <b>Vendredi fou</b> (27 nov.) en primeur</li><li>🎁 Des idées cadeaux pour toute la famille</li></ul>'
             f'<a class="nlb" href="{FORM}" target="_blank" rel="noopener">Je m\'inscris gratuitement 👉</a>'
             '<p class="nlp">Ton courriel sert seulement à t\'envoyer nos aubaines. Zéro pourriel. Tu peux te désabonner en tout temps.</p></section>')
@@ -590,7 +603,7 @@ def top5():
         n = len(fp)
         cards = "".join(rfd_card(x, f"⭐ Top {n}") for x in fp)
         return [], (f'<section class="topbox" id="top5" aria-label="Le Top {n}"><h2>⭐ Le Top {n}</h2>'
-                    '<p class="topsub">Les 5 meilleurs deals du moment, choisis pour toi. Le Top change souvent : reviens voir! 🔥</p>'
+                    f'<p class="topsub">Les rabais qui chauffent en ce moment. Sur tout ce qu\'on a repéré aujourd\'hui, c\'est ces {n}-là qu\'on regarderait en premier. Le Top change souvent : reviens voir! 🔥</p>'
                     f'<ol class="top5">{cards}</ol>'
                     '<div class="share">📣 Partage le Top 5 : '
                     '<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frabaisflashqc.ca%2F" target="_blank" rel="noopener">Facebook</a>'
@@ -734,6 +747,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
           "isPartOf":{"@type":"WebSite","name":"Rabais Flash QC","url":DOMAIN+"/"},
           "publisher":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/","sameAs":[FB,IG,TT]}}
     bud = BUDGET if sum(1 for d in items if d.get("price")) >= 4 else ""
+    hero = f'<p class="sig">{SIGNATURE}</p><a class="hcta" href="#top5">🔥 Voir les meilleurs rabais</a>' if slug == "" else ""
     lst = mix(items, [b for b in brands if b in STORES]) or '<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>'
     return f"""<!doctype html>
 <html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -748,7 +762,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
 <body{" class=\"hw\"" if slug == "halloween" else ""}><header>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
-<h1>{e(h1)}</h1><p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
+<h1>{e(h1)}</h1>{hero}<p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {banner}
 {extra}
@@ -760,7 +774,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 {after}
 {club()}
 <footer><p>Les rabais sont fixés par Amazon et par les marques, qui peuvent les modifier ou y mettre fin à tout moment, sans préavis. Leur durée n'est jamais garantie. Vérifie toujours le prix actuel sur Amazon.ca avant d'acheter.</p>
-<p>{DISCLOSURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a><a href="{IG}" rel="noopener">Instagram</a><a href="{TT}" rel="noopener">TikTok</a></p></footer>
+<p>{DISCLOSURE}</p><p class="sigf">⚡ Rabais Flash QC · {SIGNATURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a><a href="{IG}" rel="noopener">Instagram</a><a href="{TT}" rel="noopener">TikTok</a></p></footer>
 </main>{tabbar}<script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);var a=location.hash.slice(1);if(/^[A-Z0-9]{{10}}$/.test(a)){{var d=document.querySelector('li[data-asin="'+a+'"]');if(d){{d.style.outline='3px solid #ffc629';d.style.outlineOffset='2px';setTimeout(function(){{d.scrollIntoView({{block:'center'}});}},150);}}}}}})();</script></body></html>"""
 
 def simple(slug, title, h1, body):
@@ -855,11 +869,28 @@ try: PHOTOS_OK = set(json.loads((ROOT / "suivi" / "photos.json").read_text())["o
 except Exception: PHOTOS_OK = set()
 _MOC = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]
 
+VB = '<p style="margin:0 0 4px;font-size:.72rem;font-weight:800;color:#7a0c18;background:#ffe9a8;display:inline-block;padding:2px 7px;border-radius:6px;align-self:flex-start">{}</p>'
 REC_BADGE = '<p style="margin:0 0 4px;font-size:.72rem;font-weight:800;color:#fff;background:#d6001c;display:inline-block;padding:2px 7px;border-radius:6px">📉 Plus bas prix jamais vu</p>'
+
+SIGNATURE = "Les rabais qui valent vraiment le clic."
+def _eco(x):
+    try: return max(float(x["was"]) - float(x["price"]), 0)
+    except Exception: return 0
+def _eco_txt(v): return f"{int(v)} $" if v >= 10 else _money(v)  # arrondi vers le bas : jamais plus que la vraie économie
+def verdict(x):
+    """Verdict Rabais Flash QC (positionnement du 16 nov. 2026 : on ne montre pas un prix, on rend un verdict).
+    Règle écrite, publiée sur /a-propos/ : record Keepa = « Plus bas prix jamais vu »; 40 % et plus ET au moins 20 $ de moins = « Ça vaut le clic » (environ 1 deal sur 4);
+    20 % et plus = « Bon rabais ». Sinon, pas de verdict. Retourne (texte, classe CSS)."""
+    pct, eco = x.get("pct") or 0, _eco(x)
+    if x.get("record"): return "📉 Plus bas prix jamais vu", "v rec"
+    if pct >= 40 and eco >= 20: return "🔥 Ça vaut le clic", "v hot"
+    if pct >= 20: return "👍 Bon rabais", "v"
+    return "", ""
 
 def rfd_card(x, stats='🔥 Deal du moment'):
     """Carte d'un deal scanné : prix, ancien prix, % et heure du dernier scan (heure du Québec)."""
-    if x.get("record"): stats = "📉 Plus bas prix jamais vu"
+    vt, vc = verdict(x)
+    badge = f'<span class="{vc}">{vt}</span>' if vt else f'<span>{stats}</span>'
     tag = f'<div class="tag">-{x["pct"]}%<small>rabais</small></div>' if x.get("pct") else '<div class="tag" aria-hidden="true">🔥</div>'
     ph = next((st for st in (x.get("asin", ""), f'{x.get("asin")}-2', f'{x.get("asin")}-3') if st in PHOTOS_OK), None)
     src = f"/img/p/{ph}.jpg" if ph else (x.get("img_url") or (VERIF.get(x.get("asin")) or {}).get("img_url"))
@@ -871,8 +902,9 @@ def rfd_card(x, stats='🔥 Deal du moment'):
     px = ""
     if x.get("price"):
         px = (f'<p class="px">{"<s>" + _money(x["was"]) + "</s> " if x.get("was") else ""}<b>{_money(x["price"])}</b>'
-              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}<small>prix vérifié le {when}</small></p>')
-    return (f'<li class="deal" data-asin="{e(x["asin"])}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges"><span>{stats}</span></p>'
+              f'{"<span>-" + str(x["pct"]) + " %</span>" if x.get("pct") else ""}'
+              f'{"<em>Tu économises " + _eco_txt(_eco(x)) + "</em>" if _eco(x) >= 1 else ""}<small>prix vérifié le {when}</small></p>')
+    return (f'<li class="deal" data-asin="{e(x["asin"])}"{(" data-price=" + chr(34) + str(x["price"]) + chr(34)) if x.get("price") else ""}>{tag}<div><p class="badges">{badge}</p>'
             f'<h3>{e(x["title"])}</h3>{px}'
             f'<a class="go" href="https://www.amazon.ca/dp/{e(x["asin"])}?tag={TAG}" target="_blank" rel="sponsored nofollow noopener">Voir le deal 👉</a></div></li>')
 
@@ -945,8 +977,17 @@ def rfd_block(cats=None):
     card = rfd_card
     li = "".join(card(x) for x in (L[:60] if cats else L[:40]))  # max de deals (demande d'Alex du 7 nov.) : 60 par catégorie, 40 sur l'accueil
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
-            '<p class="topsub">Les aubaines Amazon.ca que nos yeux ont repérées aujourd\'hui. Elles partent vite!</p>'
+            '<p class="topsub">Les aubaines Amazon qui ont passé notre tri aujourd\'hui, avec notre verdict sur chaque carte. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
+
+def tri_block():
+    """Accueil (16 nov. 2026) : pourquoi passer par ici avant d'acheter. Court, après les premiers deals."""
+    return ('<section class="tri" aria-label="Comment on trie"><h2>Pas besoin de fouiller Amazon pendant des heures.</h2>'
+            '<p class="trs">Un gros pourcentage ne veut pas toujours dire une bonne affaire. On fait le tri pour que tu repères vite ce qui vaut le clic.</p>'
+            '<ul><li><b>🔎 On repère</b><span>Les baisses de prix qui ressortent, chaque jour.</span></li>'
+            '<li><b>⚡ On trie</b><span>Chaque deal reçoit un verdict. Ce qui ne passe pas ne se rend pas ici.</span></li>'
+            '<li><b>💰 Tu économises</b><span>Tu trouves ton deal et tu finalises ton achat sur Amazon.</span></li></ul>'
+            '<p class="trl"><a href="/a-propos/#choix">Comment on rend nos verdicts →</a></p></section>')
 
 FAM_ASINS = set()
 FAMILLE = [("maman", "👩 Pour maman", {"beaute", "femme"}), ("papa", "👨 Pour papa", {"homme"}), ("enfants", "🧸 Pour les enfants", {"enfants", "jouets"}),
@@ -1022,7 +1063,7 @@ def offres_du_jour_page():
                else f'<span class="emo" aria-hidden="true">{EMO.get(x["cat"], "🔥")}</span>')
         eco = float(x["was"]) - float(x["price"])
         return (f'<li class="c{" big" if big else ""}" data-asin="{e(x["asin"])}" data-price="{x["price"]}" data-pct="{x["pct"]}"><a href="{u}" target="_blank" rel="sponsored nofollow noopener">'
-                f'<div class="ph">{pic}<b class="pc">-{x["pct"]}&nbsp;%</b></div><div class="tx">{REC_BADGE if x.get("record") else ""}<h3>{e(x["title"])}</h3>'
+                f'<div class="ph">{pic}<b class="pc">-{x["pct"]}&nbsp;%</b></div><div class="tx">{REC_BADGE if x.get("record") else (VB.format(verdict(x)[0]) if verdict(x)[0] else "")}<h3>{e(x["title"])}</h3>'
                 f'<p class="px"><s>{_money(float(x["was"]))}</s><strong>{_money(float(x["price"]))}</strong></p>'
                 f'<p class="eco">Tu économises {_money(eco)}</p><span class="go">Voir le deal 👉</span>'
                 f'<small>prix vérifié le {when(x)}</small></div></a></li>')
@@ -1080,7 +1121,7 @@ var a=location.hash.slice(1);if(/^[A-Z0-9]{10}$/.test(a)){var d=document.querySe
             f'<meta name="description" content="{e(desc)}"><link rel="canonical" href="{DOMAIN}/offres-du-jour/"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
             f'<meta property="og:image" content="{DOMAIN}/couverture.jpg"><meta name="theme-color" content="#a50d1c"><style>{css}</style></head><body>'
             f'<header class="hero"><a class="logo" href="/">⚡ RABAIS <b>FLASH</b> QC</a><h1>Les offres du jour<span>jusqu\'à -{mx}&nbsp;%</span></h1>'
-            f'<p><b>{n} deals vérifiés aujourd\'hui</b>, triés pour les familles du Québec : marques connues, vrais rabais, prix datés.</p><div class="cd" id="cd" aria-live="off"></div></header>'
+            f'<p><b>Les rabais qui valent vraiment le clic.</b> {n} deals vérifiés aujourd\'hui, triés pour les familles du Québec, avec notre verdict sur chaque carte.</p><div class="cd" id="cd" aria-live="off"></div></header>'
             f'<nav class="bar" aria-label="Thèmes">{"".join(chips)}</nav><main><div class="w">'
             f'<span class="kick">⭐ LE COUP DE CŒUR DU JOUR</span><ul style="margin:0;padding:0">{card(vedette, True)}</ul>'
             '<div class="fl" style="margin-top:20px"><span>Mon budget :</span><button aria-pressed="true">Tout voir</button><button aria-pressed="false" data-max="25">Moins de 25 $</button>'
@@ -1160,7 +1201,7 @@ def main():
             if False:
                 hwblock = ('<h2>🎃 Halloween : les meilleurs rabais du moment</h2><ul class="deals">' + "".join(deal_html(x) for x in hw) + '</ul>'
                            '<p class="more"><a href="/halloween/">Voir tous les rabais Halloween →</a></p>')
-            extra = (("" if vf_strip() else season_banner()) + prevf_block(12) + topblock + "<!--NL-->" + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
+            extra = (("" if vf_strip() else season_banner()) + topblock + prevf_block(12) + tri_block() + "<!--NL-->" + famille_block() + gift_chips() + rfd_block() + brand_block() + dealcat_block() + hwblock + '<h2>Plus de deals</h2>')
             items = [x for x in items if x["cat"] != "halloween"][:12]
             after = ('<h2>Les offres de tes marques préférées</h2><p class="more">' + pills + '</p>'
                      '<h2>📖 Nos guides d\'achat</h2><p class="more">' + "".join(f'<a href="/{a["slug"]}/">{e(a["h1"])}</a>' for a in ARTICLES) + '</p>'
@@ -1182,7 +1223,12 @@ def main():
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC, c'est un entrepreneur du Québec, pour le Québec. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
         "<h2>Pourquoi « Flash »?</h2><p>Parce que les meilleurs rabais ne durent pas. Certains disparaissent en quelques heures, et Amazon ou la marque peut changer le prix ou arrêter l'offre à tout moment, sans nous prévenir. On ne peut donc pas garantir qu'un rabais sera encore là quand tu cliques. C'est pour ça qu'on met le site à jour plusieurs fois par jour, et qu'on te conseille de ne pas trop attendre.</p>"
-        "<h2 id=\"choix\">Comment on choisit</h2><p>On garde surtout des rabais affichés par Amazon sur des marques connues, avec de bons avis. On classe tout par thème et on retire les offres expirées. Les prix changent souvent : vérifie toujours le prix final sur Amazon.ca.</p>"
+        "<h2 id=\"choix\">Comment on choisit</h2><p>Amazon fixe le prix. Nous, on te dit s'il mérite ton attention. On garde surtout des rabais sur des marques connues, on classe tout par thème et on retire les offres expirées.</p>"
+        "<p>Chaque deal avec un prix vérifié reçoit un verdict, toujours selon la même règle :</p>"
+        "<ul><li><b>🔥 Ça vaut le clic</b> : 40 % de rabais et plus, et au moins 20 $ de moins que le prix d'avant. C'est notre verdict le plus fort, on le donne à peu de deals.</li>"
+        "<li><b>👍 Bon rabais</b> : 20 % de rabais et plus. Intéressant si le produit était déjà sur ta liste.</li>"
+        "<li><b>📉 Plus bas prix jamais vu</b> : le prix le plus bas de l'historique qu'on consulte pour ce produit.</li></ul>"
+        "<p>Le verdict parle du prix, pas du produit : on ne teste pas les articles. Les prix changent souvent, alors vérifie toujours le prix final sur Amazon avant d'acheter.</p>"
         f"<h2>Transparence</h2><p>{DISCLOSURE} Ça ne change rien au prix que tu paies.</p>"
         f'<h2>Nous joindre</h2><p>Écris-nous sur <a href="{MS}">Messenger</a> ou sur notre <a href="{FB}">page Facebook</a>.</p>')); urls.append("a-propos")
     write("confidentialite", simple("confidentialite", "Politique de confidentialité | Rabais Flash QC", "Politique de confidentialité",
