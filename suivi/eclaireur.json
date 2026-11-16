@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16T16:42-04:00",
+ "date": "2026-11-16T17:18-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -148,8 +148,8 @@
    "title": "PS5 - DualSense Wireless Controller - $69.99 Early Black Friday",
    "price": 69.99,
    "was": 94.99,
-   "votes": 20,
-   "posts": 18,
+   "votes": 21,
+   "posts": 20,
    "time": "2026-11-16T15:26:24+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ps5-dualsense-wireless-controller-69-99-early-black-friday-2832388/",
    "asin": "B0GL96NJL5",
@@ -274,8 +274,8 @@
    "title": "Amazon Basics Standby UPS Battery Backup 800VA - $99.99",
    "price": 99.99,
    "was": 135.0,
-   "votes": 8,
-   "posts": 9,
+   "votes": 9,
+   "posts": 11,
    "time": "2026-11-16T17:08:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "asin": "B01HDC236Q",
@@ -286,6 +286,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HDC236Q.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-saros-ps5-physical-edition-49-99-atl-2832373/",
+   "title": "Saros (PS5 Physical Edition) - $49.99 ATL",
+   "price": 49.99,
+   "was": 89.99,
+   "votes": 7,
+   "posts": 3,
+   "time": "2026-11-16T14:21:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-saros-ps5-physical-edition-49-99-atl-2832373/",
+   "asin": "B0G5BMQVWX",
+   "pct": 44,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0G5BMQVWX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0G5BMQVWX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
@@ -340,24 +358,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FYPW5CFP.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-saros-ps5-physical-edition-49-99-atl-2832373/",
-   "title": "Saros (PS5 Physical Edition) - $49.99 ATL",
-   "price": 49.99,
-   "was": 89.99,
-   "votes": 6,
-   "posts": 3,
-   "time": "2026-11-16T14:21:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-saros-ps5-physical-edition-49-99-atl-2832373/",
-   "asin": "B0G5BMQVWX",
-   "pct": 44,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0G5BMQVWX?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0G5BMQVWX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
