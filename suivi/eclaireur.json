@@ -1,92 +1,92 @@
 {
- "date": "2026-11-15T22:42-04:00",
+ "date": "2026-11-16T15:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-09T13:59:48+00:00",
-    "2026-11-09T14:15:10+00:00"
+    "2026-11-09T19:42:15+00:00",
+    "2026-11-09T19:54:13+00:00"
    ],
    [
-    "2026-11-15T20:28:43+00:00",
-    "2026-11-16T00:12:21+00:00"
+    "2026-11-16T18:17:56+00:00",
+    "2026-11-16T19:32:29+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   25,
+   30,
    21,
    [
-    "2026-11-09T15:24:46+00:00",
-    "2026-11-09T16:52:18+00:00"
+    "2026-11-09T23:17:54+00:00",
+    "2026-11-10T12:47:42+00:00"
    ],
    [
-    "2026-11-15T15:48:22+00:00",
-    "2026-11-16T00:12:21+00:00"
+    "2026-11-16T18:17:56+00:00",
+    "2026-11-16T19:32:29+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   18,
+   16,
    [
-    "2026-11-09T17:00:22+00:00",
-    "2026-11-09T19:42:15+00:00"
+    "2026-11-12T05:16:13+00:00",
+    "2026-11-12T05:42:30+00:00"
    ],
    [
-    "2026-11-15T20:28:43+00:00",
-    "2026-11-16T00:12:21+00:00"
+    "2026-11-16T18:17:56+00:00",
+    "2026-11-16T19:32:29+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   40,
+   39,
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-29T23:25:00+00:00"
+    "2026-11-03T03:04:22+00:00",
+    "2026-11-03T04:26:20+00:00"
    ],
    [
-    "2026-11-09T16:52:18+00:00",
-    "2026-11-09T16:56:55+00:00"
+    "2026-11-11T13:44:20+00:00",
+    "2026-11-12T01:58:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-13T21:08:43+00:00",
-    "2026-10-14T02:37:51+00:00"
+    "2026-10-16T08:07:42+00:00",
+    "2026-10-18T16:38:59+00:00"
    ],
    [
-    "2026-10-29T09:48:19+00:00",
-    "2026-10-29T20:51:43+00:00"
+    "2026-11-01T21:10:36+00:00",
+    "2026-11-02T11:41:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T15:55:41+00:00",
-    "2026-10-06T16:24:00+00:00"
+    "2026-10-07T17:29:38+00:00",
+    "2026-10-07T17:38:06+00:00"
    ],
    [
-    "2026-10-13T13:39:34+00:00",
-    "2026-10-13T15:16:26+00:00"
+    "2026-10-16T05:07:40+00:00",
+    "2026-10-16T05:31:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-09-30T01:09:42+00:00",
-    "2026-09-30T14:25:09+00:00"
+    "2026-10-06T17:52:01+00:00",
+    "2026-10-06T18:34:55+00:00"
    ],
    [
-    "2026-10-06T15:09:40+00:00",
-    "2026-10-06T15:48:05+00:00"
+    "2026-10-07T16:37:45+00:00",
+    "2026-10-07T17:13:10+00:00"
    ]
   ],
-  "avant_filtre_date": 134,
-  "apres_filtre_date": 30
+  "avant_filtre_date": 131,
+  "apres_filtre_date": 33
  },
  "items": [
   {
@@ -108,40 +108,58 @@
    "img": "/img/p/B0C2V1512F.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-playstation-vr2-sense-controller-charging-station-25-99-playstation-vr2-pc-adapter-29-99-2832375/",
+   "title": "PlayStation VR2 Sense Controller Charging Station @ $25.99 | PlayStation VR2 PC Adapter @ $29.99",
+   "price": null,
+   "was": null,
+   "votes": 27,
+   "posts": 22,
+   "time": "2026-11-16T14:23:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-playstation-vr2-sense-controller-charging-station-25-99-playstation-vr2-pc-adapter-29-99-2832375/",
+   "asin": "B0D92XQL22",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0D92XQL22?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 2,
+   "doute": true,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
    "title": "Braun MQ505 Immersion Hand Blender w/Whisk & Beaker, Dual Speed, 350W on sale $44.99($77.99)",
    "price": 44.99,
    "was": 77.99,
-   "votes": 24,
-   "posts": 12,
+   "votes": 25,
+   "posts": 14,
    "time": "2026-11-12T05:42:30+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-braun-mq505-immersion-hand-blender-w-whisk-beaker-dual-speed-350w-sale-44-99-77-99-2831824/",
-   "asin": "B01EA5ZI2U",
+   "asin": "B0F6BZQDPS",
    "pct": 42,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01EA5ZI2U?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0F6BZQDPS?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01EA5ZI2U.jpg"
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0F6BZQDPS.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
-   "price": 56.99,
-   "was": 259.99,
-   "votes": 19,
-   "posts": 33,
-   "time": "2026-11-09T16:24:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-   "asin": "B0H2N9BM7C",
-   "pct": 78,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ps5-dualsense-wireless-controller-69-99-early-black-friday-2832388/",
+   "title": "PS5 - DualSense Wireless Controller - $69.99 Early Black Friday",
+   "price": 69.99,
+   "was": 94.99,
+   "votes": 18,
+   "posts": 14,
+   "time": "2026-11-16T15:26:24+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ps5-dualsense-wireless-controller-69-99-early-black-friday-2832388/",
+   "asin": "B0GL96NJL5",
+   "pct": 26,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H2N9BM7C?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GL96NJL5?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0H2N9BM7C.jpg"
+   "img": "/img/p/B0GL96NJL5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
@@ -167,7 +185,7 @@
    "price": 33.19,
    "was": 49.96,
    "votes": 17,
-   "posts": 13,
+   "posts": 14,
    "time": "2026-11-12T16:13:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
    "asin": "B0FXBVGKHT",
@@ -202,8 +220,8 @@
    "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
    "price": 124.1,
    "was": 165.99,
-   "votes": 10,
-   "posts": 18,
+   "votes": 12,
+   "posts": 20,
    "time": "2026-11-14T20:42:25+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
    "asin": "B0F7R9DQHY",
@@ -220,8 +238,8 @@
    "title": "De'Longhi Magnifica Evo Automatic Espresso Machine with Milk Frother - HOT",
    "price": 599.99,
    "was": 999.99,
-   "votes": 9,
-   "posts": 56,
+   "votes": 10,
+   "posts": 63,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -234,29 +252,11 @@
    "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
-   "title": "UGREEN FineTrack 2 Duo Tags (iOS & Android) 4 Pack - $37.99",
-   "price": 37.99,
-   "was": 49.99,
-   "votes": 7,
-   "posts": 17,
-   "time": "2026-11-09T13:59:48+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-finetrack-2-duo-tags-ios-android-4-pack-37-99-2831499/",
-   "asin": "B0FG7MXDH6",
-   "pct": 24,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FG7MXDH6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FG7MXDH6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
    "title": "Greenies Dog & Cat Treats 30% off coupon w/ S&S",
    "price": null,
    "was": null,
-   "votes": 7,
+   "votes": 9,
    "posts": 3,
    "time": "2026-11-15T01:04:08+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
@@ -268,6 +268,24 @@
    "morts": 0,
    "doute": false,
    "img": null
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
+   "title": "Amazon Basics Standby UPS Battery Backup 800VA - $99.99",
+   "price": 99.99,
+   "was": 135.0,
+   "votes": 7,
+   "posts": 9,
+   "time": "2026-11-16T17:08:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
+   "asin": "B01HDC236Q",
+   "pct": 26,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01HDC236Q?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01HDC236Q.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-sony-wh-ch720n-headphones-118-2831538/",
@@ -306,22 +324,58 @@
    "img": "/img/p/B0FB9FHQV5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
-   "title": "Razer Kishi V3 Gaming Controller $79.96",
-   "price": 79.96,
-   "was": 144.99,
-   "votes": 5,
-   "posts": 16,
-   "time": "2026-11-09T14:15:10+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-razer-kishi-v3-gaming-controller-79-96-2831501/",
-   "asin": "B0F231T7BG",
-   "pct": 45,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
+   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz 85U68QF(2025) on Sale $1,124.95($1,499.99)",
+   "price": 1124.9,
+   "was": 1499.9,
+   "votes": 6,
+   "posts": 22,
+   "time": "2026-11-14T06:28:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
+   "asin": "B0F5QTSCGY",
+   "pct": 25,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0F231T7BG?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0F231T7BG.jpg"
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F5QTSCGY.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-cheerble-wicked-ball-duo-2-9-99-2832370/",
+   "title": "Cheerble Wicked Ball Duo 2 - $9.99",
+   "price": 9.99,
+   "was": 19.99,
+   "votes": 6,
+   "posts": 5,
+   "time": "2026-11-16T14:08:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-cheerble-wicked-ball-duo-2-9-99-2832370/",
+   "asin": "B0FYPW5CFP",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FYPW5CFP?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FYPW5CFP.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-saros-ps5-physical-edition-49-99-atl-2832373/",
+   "title": "Saros (PS5 Physical Edition) - $49.99 ATL",
+   "price": 49.99,
+   "was": 89.99,
+   "votes": 6,
+   "posts": 3,
+   "time": "2026-11-16T14:21:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-saros-ps5-physical-edition-49-99-atl-2832373/",
+   "asin": "B0G5BMQVWX",
+   "pct": 44,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0G5BMQVWX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0G5BMQVWX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
@@ -342,40 +396,22 @@
    "img": "/img/p/B08LQY2XF5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
-   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz 85U68QF(2025) on Sale $1,124.95($1,499.99)",
-   "price": 1124.9,
-   "was": 1499.9,
+   "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
+   "title": "Corsair CORSAIR RM850x SHIFT Modular ATX PSU - $165",
+   "price": 165.0,
+   "was": 210.0,
    "votes": 5,
-   "posts": 22,
-   "time": "2026-11-14T06:28:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
-   "asin": "B0F5QTSCGY",
-   "pct": 25,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0F5QTSCGY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0F5QTSCGY.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
-   "title": "Bedsure Satin Pillow Cases - $7 - $8.50",
-   "price": 7.0,
-   "was": 21.0,
-   "votes": 4,
-   "posts": 11,
-   "time": "2026-11-09T16:41:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bedsure-satin-pillow-cases-7-8-50-2831519/",
-   "asin": "B07MH8WN23",
-   "pct": 67,
+   "posts": 4,
+   "time": "2026-11-16T14:04:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
+   "asin": "B0FJYN9HP1",
+   "pct": 21,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07MH8WN23?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0FJYN9HP1?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B07MH8WN23.jpg"
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jansport-medium-accessory-pouch-10-99-2831540/",
@@ -412,24 +448,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0D2VXGMBH.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
-   "title": "JBL Endurance Race 2 - Waterproof Sports True Wireless Earbuds - $39.98",
-   "price": 39.98,
-   "was": 109.98,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-09T17:00:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jbl-endurance-race-2-waterproof-sports-true-wireless-earbuds-39-98-2831524/",
-   "asin": "B0DVTGBCBL",
-   "pct": 64,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DVTGBCBL?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DVTGBCBL.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
@@ -484,24 +502,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FWK41WF2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hyperx-alloy-origins-65-mechanical-gaming-keyboard-69-atl-2832281/",
-   "title": "HyperX Alloy Origins 65 Mechanical Gaming Keyboard - $69 ATL",
-   "price": 69.99,
-   "was": 99.99,
-   "votes": 2,
-   "posts": 0,
-   "time": "2026-11-15T20:28:43+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hyperx-alloy-origins-65-mechanical-gaming-keyboard-69-atl-2832281/",
-   "asin": "B09RBB2VJJ",
-   "pct": 30,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09RBB2VJJ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
@@ -576,6 +576,24 @@
    "img": "/img/p/B0H7ZVK15D.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
+   "title": "Reolink Video Doorbell PoE (2K, wired) - $104.99",
+   "price": 104.99,
+   "was": 149.99,
+   "votes": 1,
+   "posts": 1,
+   "time": "2026-11-16T17:39:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
+   "asin": "B0B7S1HMPC",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B7S1HMPC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B7S1HMPC.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -617,7 +635,7 @@
    "price": 179.99,
    "was": 299.99,
    "votes": 0,
-   "posts": 9,
+   "posts": 11,
    "time": "2026-11-15T14:50:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-vitamix-5-speed-immersion-blender-3-piece-bundle-stainless-steel-black-179-99-2832259/",
    "asin": "B0BLWCJSC3",
@@ -628,6 +646,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLWCJSC3.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-supvan-e12-keyboard-bluetooth-label-maker-machine-tape-29-2832387/",
+   "title": "SUPVAN E12 Keyboard & Bluetooth Label Maker Machine with Tape $29",
+   "price": 29.0,
+   "was": 54.0,
+   "votes": 0,
+   "posts": 4,
+   "time": "2026-11-16T15:25:51+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-supvan-e12-keyboard-bluetooth-label-maker-machine-tape-29-2832387/",
+   "asin": "B0GGBQJJYJ",
+   "pct": 46,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GGBQJJYJ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 2,
+   "doute": true,
+   "img": "/img/p/B0GGBQJJYJ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-etoolab-propane-torch-weed-burner-gas-torch-14-foot-hose-39-59-2832439/",
+   "title": "ETOOLAB Propane Torch Weed Burner - Gas Torch with 14-foot Hose @ $39.59",
+   "price": 39.59,
+   "was": 59.76,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-16T19:32:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-etoolab-propane-torch-weed-burner-gas-torch-14-foot-hose-39-59-2832439/",
+   "asin": "B0H7HSN5N5",
+   "pct": 34,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H7HSN5N5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H7HSN5N5.jpg"
   }
  ]
 }
