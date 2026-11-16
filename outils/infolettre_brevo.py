@@ -5,6 +5,7 @@ Usage : python3 outils/infolettre_brevo.py > fichier.html"""
 import json, datetime, html, pathlib, sys
 from zoneinfo import ZoneInfo
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT)); from verdict import verdict, eco, eco_txt, SIGNATURE
 TAG = "coupdecoeurqc-20"; SITE = "https://rabaisflashqc.ca/offres-du-jour/?utm_source=brevo"
 MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."]
 e = html.escape
@@ -30,19 +31,19 @@ for t, f, k in T:
     for x in xs:
         u = f'https://www.amazon.ca/dp/{x["asin"]}?tag={TAG}'
         body += (f'<p style="margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#222222">'
-                 f'• <a href="{u}" style="color:#1a56b3">{e(x["title"])}</a> : <b>{m(x["price"])}</b> au lieu de {m(x["was"])} <b style="color:#c1121f">(-{x["pct"]} %)</b></p>')
+                 f'• <a href="{u}" style="color:#1a56b3">{e(x["title"])}</a> : <b>{m(x["price"])}</b> au lieu de {m(x["was"])} <b style="color:#c1121f">(-{x["pct"]} %)</b>. {eco_txt(eco(x))} de moins. <b>{verdict(x)[0]}</b></p>')
 top = D[0]
 print(f'''<!DOCTYPE html><html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Les offres du jour</title></head>
 <body style="margin:0;padding:0;background:#ffffff">
-<div style="display:none;max-height:0;overflow:hidden">{e(top["title"].split(",")[0])} à {m(top["price"])} et {n - 1} autres rabais triés par thème.</div>
+<div style="display:none;max-height:0;overflow:hidden">{e(top["title"].split(",")[0])} à {m(top["price"])} et {n - 1} autres rabais qui valent le clic.</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="padding:20px 16px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px"><tr><td>
 <p {P}>Salut!</p>
-<p {P}>Les premières offres du Vendredi fou sont déjà sorties, et on a fait le tri pour toi : {n} deals de marques connues, classés par thème. Clique sur un produit pour le voir.</p>
+<p {P}>Avant d'acheter sur Amazon, regarde ici. Les premières offres du Vendredi fou sont sorties et on a fait le tri pour toi : {n} deals de marques connues, classés par thème, chacun avec notre verdict. Clique sur un produit pour le voir.</p>
 {body}
 <p style="margin:24px 0 14px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#222222">Tous les deals du jour, avec photos et filtres par budget :<br><a href="{SITE}" style="color:#c1121f;font-weight:bold">rabaisflashqc.ca/offres-du-jour</a></p>
 <p {P}>Lequel tu prends en premier? Réponds à ce courriel, je lis tout.</p>
-<p {P}>Alex, Rabais Flash QC</p>
+<p {P}>Alex, Rabais Flash QC<br>{SIGNATURE}</p>
 <p style="margin:20px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#888888">Prix observés le {jt}, ils peuvent changer vite : vérifie le prix final avant d'acheter. En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.<br>Tu reçois ce courriel parce que tu t'es inscrit aux deals de Rabais Flash QC. <a href="{{{{ unsubscribe }}}}" style="color:#888888">Se désinscrire</a></p>
 </td></tr></table></td></tr></table></body></html>''')
 print(f"{n} deals", file=sys.stderr)

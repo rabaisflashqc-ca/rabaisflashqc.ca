@@ -872,20 +872,7 @@ _MOC = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct
 VB = '<p style="margin:0 0 4px;font-size:.72rem;font-weight:800;color:#7a0c18;background:#ffe9a8;display:inline-block;padding:2px 7px;border-radius:6px;align-self:flex-start">{}</p>'
 REC_BADGE = '<p style="margin:0 0 4px;font-size:.72rem;font-weight:800;color:#fff;background:#d6001c;display:inline-block;padding:2px 7px;border-radius:6px">📉 Plus bas prix jamais vu</p>'
 
-SIGNATURE = "Les rabais qui valent vraiment le clic."
-def _eco(x):
-    try: return max(float(x["was"]) - float(x["price"]), 0)
-    except Exception: return 0
-def _eco_txt(v): return f"{int(v)} $" if v >= 10 else _money(v)  # arrondi vers le bas : jamais plus que la vraie économie
-def verdict(x):
-    """Verdict Rabais Flash QC (positionnement du 16 nov. 2026 : on ne montre pas un prix, on rend un verdict).
-    Règle écrite, publiée sur /a-propos/ : record Keepa = « Plus bas prix jamais vu »; 40 % et plus ET au moins 20 $ de moins = « Ça vaut le clic » (environ 1 deal sur 4);
-    20 % et plus = « Bon rabais ». Sinon, pas de verdict. Retourne (texte, classe CSS)."""
-    pct, eco = x.get("pct") or 0, _eco(x)
-    if x.get("record"): return "📉 Plus bas prix jamais vu", "v rec"
-    if pct >= 40 and eco >= 20: return "🔥 Ça vaut le clic", "v hot"
-    if pct >= 20: return "👍 Bon rabais", "v"
-    return "", ""
+from verdict import SIGNATURE, verdict, eco as _eco, eco_txt as _eco_txt  # règle unique, partagée avec les posts et l'infolettre
 
 def rfd_card(x, stats='🔥 Deal du moment'):
     """Carte d'un deal scanné : prix, ancien prix, % et heure du dernier scan (heure du Québec)."""

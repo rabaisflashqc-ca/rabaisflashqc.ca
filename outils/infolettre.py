@@ -6,6 +6,7 @@ Par défaut, chaque deal pointe vers sa carte sur rabaisflashqc.ca (règle absol
 import json, sys, datetime, html, pathlib
 from zoneinfo import ZoneInfo
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT)); from verdict import verdict, eco, eco_txt, SIGNATURE
 TAG = "coupdecoeurqc-20"; SITE = "https://rabaisflashqc.ca"
 DIRECT = "--direct" in sys.argv
 LEGER = "--leger" in sys.argv  # 2 deals par thème : moins de liens, moins de risque de pourriel dans Gmail
@@ -42,7 +43,8 @@ def card(x):
             f'<tr><td style="padding:4px 12px 12px;font-family:Arial,Helvetica,sans-serif;text-align:center">'
             f'<span style="display:inline-block;background:#c1121f;color:#ffffff;font-weight:bold;font-size:14px;padding:3px 9px;border-radius:20px">-{x["pct"]} %</span>'
             f'<p style="margin:8px 0 6px;font-size:14px;line-height:19px;color:#222222;font-weight:bold"><a href="{e(url(x))}" target="_blank" style="color:#222222;text-decoration:none">{e(x["title"])}</a></p>'
-            f'<p style="margin:0 0 10px;font-size:13px;color:#777777"><s>{money(x["was"])}</s> <b style="font-size:19px;color:#c1121f">{money(x["price"])}</b></p>'
+            f'<p style="margin:0 0 4px;font-size:13px;color:#777777"><s>{money(x["was"])}</s> <b style="font-size:19px;color:#c1121f">{money(x["price"])}</b></p>'
+            f'<p style="margin:0 0 10px;font-size:13px;line-height:18px;color:#0f7a3d;font-weight:bold">{eco_txt(eco(x))} de moins<br><span style="color:#7a0c18">{verdict(x)[0]}</span></p>'
             f'<a href="{e(url(x))}" target="_blank" style="display:inline-block;background:#ffc629;color:#222222;font-weight:bold;font-size:14px;text-decoration:none;padding:9px 16px;border-radius:24px">Voir le deal 👉</a>'
             f'</td></tr></table></td>')
 def grid(xs):
@@ -61,7 +63,7 @@ for titre, sous, f, n, slug in THEMES:
              f'<p style="margin:4px 0 6px;font-size:14px;color:#555555">{sous}</p></td></tr><tr><td style="padding:0 8px">{grid(xs)}</td></tr>'
              f'<tr><td align="center" style="padding:6px 14px 4px;font-family:Arial,Helvetica,sans-serif"><a href="{SITE}/{slug}/?utm_source=infolettre" target="_blank" style="font-size:14px;color:#c1121f;font-weight:bold">Voir tous les deals de cette section →</a></td></tr>')
 vedette = D[0]
-pre = f'{vedette["title"].split(",")[0]} à {money(vedette["price"])} (-{vedette["pct"]} %) et {total - 1} autres rabais triés pour toi.'
+pre = f'{vedette["title"].split(",")[0]} à {money(vedette["price"])} (-{vedette["pct"]} %) et {total - 1} autres rabais qui valent le clic.'
 print(f'''<!DOCTYPE html><html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Les offres du jour · Rabais Flash QC</title></head>
 <body style="margin:0;padding:0;background:#f6efe6">
 <div style="display:none;max-height:0;overflow:hidden;font-size:1px;color:#f6efe6">{e(pre)}</div>
@@ -69,13 +71,13 @@ print(f'''<!DOCTYPE html><html lang="fr-CA"><head><meta charset="utf-8"><meta na
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:#fffaf3;border-radius:14px;overflow:hidden">
 <tr><td style="background:#c1121f;padding:22px 18px;font-family:Arial,Helvetica,sans-serif;text-align:center">
 <a href="{SITE}/?utm_source=infolettre" target="_blank" style="color:#ffffff;text-decoration:none;font-size:15px;letter-spacing:2px">⚡ RABAIS <b style="color:#ffc629">FLASH</b> QC</a>
-<h1 style="margin:10px 0 6px;color:#ffc629;font-size:26px;line-height:31px">Les {total} meilleurs deals du jour, déjà triés pour toi</h1>
-<p style="margin:0;color:#ffffff;font-size:15px;line-height:21px">Les offres pré-Vendredi fou viennent de sortir, et on a fait le tour pour toi : marques connues, vrais rabais, jusqu'à -{vedette["pct"]} %. Les meilleures partent vite, fais ton tour avant ce soir!</p></td></tr>
+<h1 style="margin:10px 0 6px;color:#ffc629;font-size:26px;line-height:31px">Les {total} rabais du jour qui valent le clic</h1>
+<p style="margin:0;color:#ffffff;font-size:15px;line-height:21px">Avant d'acheter sur Amazon, regarde ici. On a fait le tri dans les offres pré-Vendredi fou et chaque deal a son verdict. Jusqu'à -{vedette["pct"]} %. Les meilleurs partent vite, fais ton tour avant ce soir!</p></td></tr>
 <tr><td style="padding:16px 14px 0;font-family:Arial,Helvetica,sans-serif"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff3c9;border:2px dashed #c1121f;border-radius:12px"><tr>
 <td width="120" align="center" style="padding:10px"><a href="{e(url(vedette))}" target="_blank"><img src="{e(vedette["img_url"])}" alt="{e(vedette["title"])}" width="110" height="110" style="display:block;width:110px;height:110px;object-fit:contain;border:0"></a></td>
 <td style="padding:10px 12px 10px 0;font-family:Arial,Helvetica,sans-serif"><p style="margin:0;font-size:12px;font-weight:bold;color:#c1121f;letter-spacing:1px">LE COUP DE CŒUR DU JOUR</p>
 <p style="margin:4px 0;font-size:16px;line-height:21px;font-weight:bold;color:#222222">{e(vedette["title"])}</p>
-<p style="margin:0 0 8px;font-size:14px;color:#777777"><s>{money(vedette["was"])}</s> <b style="font-size:21px;color:#c1121f">{money(vedette["price"])}</b> <b style="color:#c1121f">(-{vedette["pct"]} %)</b></p>
+<p style="margin:0 0 8px;font-size:14px;color:#777777"><s>{money(vedette["was"])}</s> <b style="font-size:21px;color:#c1121f">{money(vedette["price"])}</b> <b style="color:#c1121f">(-{vedette["pct"]} %)</b><br><b style="color:#0f7a3d">{eco_txt(eco(vedette))} de moins · {verdict(vedette)[0]}</b></p>
 <a href="{e(url(vedette))}" target="_blank" style="display:inline-block;background:#c1121f;color:#ffffff;font-weight:bold;font-size:14px;text-decoration:none;padding:9px 16px;border-radius:24px">J'en profite 👉</a></td></tr></table></td></tr>
 {body}
 <tr><td align="center" style="padding:24px 18px 8px;font-family:Arial,Helvetica,sans-serif"><p style="margin:0 0 10px;font-size:17px;font-weight:bold;color:#222222">Lequel tu prends en premier? 👀</p>
@@ -84,6 +86,6 @@ print(f'''<!DOCTYPE html><html lang="fr-CA"><head><meta charset="utf-8"><meta na
 <tr><td style="padding:16px 18px 22px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#888888;text-align:center">
 Prix observés le {jour_txt}. Les prix et la disponibilité changent vite : vérifie le prix final avant d'acheter.<br>
 En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.<br>
-Tu reçois ce courriel parce que tu es inscrit aux deals de Rabais Flash QC.</td></tr>
+⚡ Rabais Flash QC · {SIGNATURE}<br>Tu reçois ce courriel parce que tu es inscrit aux deals de Rabais Flash QC.</td></tr>
 </table></td></tr></table></body></html>''')
 print(f"deals: {total} | objet: voir suivi/infolettres", file=sys.stderr)

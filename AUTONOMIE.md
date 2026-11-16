@@ -109,6 +109,8 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Chaque carte affiche aussi l'économie en dollars (« Tu économises 32 $ », arrondie vers le bas).
 - Ordre de l'accueil : Top 5, puis « Prix de Vendredi fou, déjà là », puis le bloc « On repère, on trie, tu économises », puis l'inscription courriel. Le bandeau Vendredi fou reste en haut.
 - Mots à éviter tant qu'on ne peut pas les prouver : « meilleur prix », « vraie aubaine », « le moins cher ». Le verdict parle du prix, jamais du produit (on ne teste rien).
+- Textes de chaque pack (obligatoire depuis le 16 nov.) : une fois le bloc « Données » écrit, lancer `python3 outils/textes_pack.py suivi/posts/FICHIER.md "ACCROCHE" "#mots-clics"`, puis le verrou. Le script écrit Facebook, premier commentaire, Instagram et TikTok avec le verdict, l'économie en dollars et la signature. La règle du verdict vit dans `verdict.py` (site, posts et infolettre partagent la même).
+- Infolettres (outils/infolettre.py et infolettre_brevo.py) : chaque deal affiche son économie en dollars et son verdict, la signature ferme le courriel.
 - Dans les posts et les réels : le verdict en une ligne (« Verdict : ça vaut le clic. 🔥 »), l'économie en dollars en accroche, puis rabaisflashqc.ca.
 
 ## Mise en page du site (refonte du 12 nov. 2026, demande d'Alex : cellulaire d'abord, puis tablette, puis ordi)

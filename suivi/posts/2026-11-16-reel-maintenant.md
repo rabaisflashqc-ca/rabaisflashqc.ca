@@ -6,44 +6,58 @@ VERROU : python3 outils/verifier_pack.py suivi/posts/2026-11-16-reel-maintenant.
 
 ## Facebook
 
-🔥 Les pré-deals du Vendredi fou sont déjà là!
+🔥 Ça vaut le clic? Les pré-deals du Vendredi fou sont déjà là.
+
+On a fait le tri. Jusqu'à 36 $ de moins, avec notre verdict sur chacun :
 
 1️⃣ Caméra intérieure Blink Mini 2K+ : 23,99 $ au lieu de 59,99 $ (-60 %)
+     36 $ de moins. Verdict : 🔥 Ça vaut le clic
 2️⃣ Gobelet Stanley Quencher FlowState : 16,50 $ au lieu de 32,99 $ (-50 %)
+     16 $ de moins. Verdict : 👍 Bon rabais
 3️⃣ Écouteurs sans fil JBL Vibe Beam 2 : 49,98 $ au lieu de 72,46 $ (-31 %)
+     22 $ de moins. Verdict : 👍 Bon rabais
 
-⏰ Les prix bougent vite cette semaine. Prix observés le 16 nov.
 Lequel tu prends? 1, 2 ou 3? 👇
 
-Les liens et plus de 80 autres deals : rabaisflashqc point ca (bouton « Voir le site » de la page).
+Avant d'acheter sur Amazon, regarde ici 👉 rabaisflashqc point ca (bouton « Voir le site » de la page).
+⚡ Les rabais qui valent vraiment le clic.
 
+Prix observés le 16 nov.
 En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
 
 ## Premier commentaire Facebook
 
-👉 Tape rabaisflashqc point ca dans ton navigateur : tous les deals avec photos.
+👉 Tape rabaisflashqc point ca dans ton navigateur. Les rabais qui valent vraiment le clic.
 
 ## Instagram
 
-🔥 Les pré-deals du Vendredi fou sont déjà là!
+🔥 Ça vaut le clic? Les pré-deals du Vendredi fou sont déjà là.
+
+Jusqu'à 36 $ de moins, avec notre verdict sur chacun :
 
 1️⃣ Caméra intérieure Blink Mini 2K+ : 23,99 $ au lieu de 59,99 $ (-60 %)
+     36 $ de moins. Verdict : 🔥 Ça vaut le clic
 2️⃣ Gobelet Stanley Quencher FlowState : 16,50 $ au lieu de 32,99 $ (-50 %)
+     16 $ de moins. Verdict : 👍 Bon rabais
 3️⃣ Écouteurs sans fil JBL Vibe Beam 2 : 49,98 $ au lieu de 72,46 $ (-31 %)
+     22 $ de moins. Verdict : 👍 Bon rabais
 
-Prix observés le 16 nov. Lequel tu prends? 👇 Liens sur rabaisflashqc.ca 👉 lien dans la bio.
+Lequel tu prends? 1, 2 ou 3? 👇
+Avant d'acheter sur Amazon, regarde ici 👉 rabaisflashqc.ca, lien dans la bio.
+⚡ Les rabais qui valent vraiment le clic.
 
+Prix observés le 16 nov.
 En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
 
 #vendredifou #blackfriday #blink #stanley #jbl #rabaisqc #quebec #dealsqc
 
 ## TikTok
 
-🔥 Les pré-deals du Vendredi fou sont déjà là! Caméra intérieure Blink Mini 2K+ 23,99 $ (-60 %), Gobelet Stanley Quencher FlowState 16,50 $ (-50 %), Écouteurs sans fil JBL Vibe Beam 2 49,98 $ (-31 %). Tu l'aurais payé combien? 👇 Liens sur rabaisflashqc.ca
+🔥 Ça vaut le clic? Les pré-deals du Vendredi fou sont déjà là. Caméra intérieure Blink Mini 2K+ 23,99 $ (-60 %), ça vaut le clic. Gobelet Stanley Quencher FlowState 16,50 $ (-50 %), bon rabais. Écouteurs sans fil JBL Vibe Beam 2 49,98 $ (-31 %), bon rabais. T'es d'accord avec nos verdicts? 👇 Les rabais qui valent vraiment le clic. Liens sur rabaisflashqc.ca
 En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
 #vendredifou #blackfriday #blink #stanley #jbl #rabaisqc #quebec
 
-Commentaire à épingler : Les liens sont sur rabaisflashqc.ca 👈 tape-le dans ton navigateur!
+Commentaire à épingler : Avant d'acheter, regarde sur rabaisflashqc.ca 👈 tape-le dans ton navigateur!
 
 ## Données (ne pas publier)
 
