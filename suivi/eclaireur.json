@@ -1,12 +1,12 @@
 {
- "date": "2026-11-16T17:18-04:00",
+ "date": "2026-11-16T19:30-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-09T23:17:54+00:00",
-    "2026-11-10T02:33:31+00:00"
+    "2026-11-10T02:33:31+00:00",
+    "2026-11-10T12:47:42+00:00"
    ],
    [
     "2026-11-16T18:17:56+00:00",
@@ -14,11 +14,11 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   28,
-   22,
+   27,
+   20,
    [
-    "2026-11-09T23:17:54+00:00",
-    "2026-11-10T12:47:42+00:00"
+    "2026-11-10T12:47:42+00:00",
+    "2026-11-10T16:26:46+00:00"
    ],
    [
     "2026-11-16T18:17:56+00:00",
@@ -27,7 +27,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   17,
+   16,
    [
     "2026-11-12T05:16:13+00:00",
     "2026-11-12T05:42:30+00:00"
@@ -86,7 +86,7 @@
    ]
   ],
   "avant_filtre_date": 134,
-  "apres_filtre_date": 30
+  "apres_filtre_date": 31
  },
  "items": [
   {
@@ -112,7 +112,7 @@
    "title": "PlayStation VR2 Sense Controller Charging Station @ $25.99 | PlayStation VR2 PC Adapter @ $29.99",
    "price": null,
    "was": null,
-   "votes": 28,
+   "votes": 29,
    "posts": 24,
    "time": "2026-11-16T14:23:33+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-playstation-vr2-sense-controller-charging-station-25-99-playstation-vr2-pc-adapter-29-99-2832375/",
@@ -148,8 +148,8 @@
    "title": "PS5 - DualSense Wireless Controller - $69.99 Early Black Friday",
    "price": 69.99,
    "was": 94.99,
-   "votes": 21,
-   "posts": 20,
+   "votes": 22,
+   "posts": 23,
    "time": "2026-11-16T15:26:24+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ps5-dualsense-wireless-controller-69-99-early-black-friday-2832388/",
    "asin": "B0GL96NJL5",
@@ -160,6 +160,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GL96NJL5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
+   "title": "Assassin's Creed Shadows (Switch 2) - $33.19 w/ coupon - ATL(?)",
+   "price": 33.19,
+   "was": 49.96,
+   "votes": 18,
+   "posts": 16,
+   "time": "2026-11-12T16:13:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
+   "asin": "B0FXBVGKHT",
+   "pct": 34,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FXBVGKHT?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FXBVGKHT.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
@@ -178,24 +196,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FNWCYLZN.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
-   "title": "Assassin's Creed Shadows (Switch 2) - $33.19 w/ coupon - ATL(?)",
-   "price": 33.19,
-   "was": 49.96,
-   "votes": 17,
-   "posts": 15,
-   "time": "2026-11-12T16:13:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-assassins-creed-shadows-switch-2-33-19-w-coupon-atl-2831879/",
-   "asin": "B0FXBVGKHT",
-   "pct": 34,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FXBVGKHT?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FXBVGKHT.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
@@ -239,7 +239,7 @@
    "price": 599.99,
    "was": 999.99,
    "votes": 10,
-   "posts": 63,
+   "posts": 66,
    "time": "2026-11-12T17:47:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-hot-2831895/",
    "asin": "B0B38KRTV6",
@@ -275,7 +275,7 @@
    "price": 99.99,
    "was": 135.0,
    "votes": 9,
-   "posts": 11,
+   "posts": 16,
    "time": "2026-11-16T17:08:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "asin": "B01HDC236Q",
@@ -628,6 +628,24 @@
    "morts": 2,
    "doute": true,
    "img": "/img/p/B0GGBQJJYJ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-24-2832415/",
+   "title": "LEGO Speed Champions Ferrari SF-24 F1 - $24",
+   "price": 24.0,
+   "was": 35.0,
+   "votes": 0,
+   "posts": 2,
+   "time": "2026-11-16T18:17:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-24-2832415/",
+   "asin": "B0DHLGFRV3",
+   "pct": 31,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DHLGFRV3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHLGFRV3.jpg"
   }
  ]
 }
