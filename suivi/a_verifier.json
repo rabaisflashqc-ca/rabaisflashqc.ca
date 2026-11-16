@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-16T19:16+00:00",
+ "genere": "2026-11-16T19:27+00:00",
  "produits": [
   {
    "asin": "B0F3BCVPN2",
@@ -289,7 +289,7 @@
   {
    "asin": "B0CS6ZM7X9",
    "titre": "Machine à café Nespresso Vertuo Pop+",
-   "prix_affiche": 84.0
+   "prix_affiche": 94.0
   },
   {
    "asin": "B0CCVX6FSD",
@@ -450,6 +450,66 @@
    "asin": "B005EXOJZK",
    "titre": "Pince-clé Knipex 150 mm",
    "prix_affiche": 60.31
+  },
+  {
+   "asin": "B08LQY2XF5",
+   "titre": "Four friteuse à air Ninja Foodi 10 en 1 XL Pro",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0C3P361SQ",
+   "titre": "Machine à café Nespresso Vertuo Pop+ avec mousseur à lait",
+   "prix_affiche": 119.49
+  },
+  {
+   "asin": "B0GT28CSYM",
+   "titre": "Aspirateur balai sans fil Dyson",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0BLMCGD6N",
+   "titre": "Robot aspirateur et vadrouille Shark",
+   "prix_affiche": 399.98
+  },
+  {
+   "asin": "B0CTN1Y4QH",
+   "titre": "Shark FlexStyle, séchage et coiffage",
+   "prix_affiche": 279.99
+  },
+  {
+   "asin": "B0GLKT85K2",
+   "titre": "Machine à café Nespresso Vertuo, blanc perle",
+   "prix_affiche": 209
+  },
+  {
+   "asin": "B095PYDPSK",
+   "titre": "Aspirateur à main Shark UltraCyclone",
+   "prix_affiche": 84.99
+  },
+  {
+   "asin": "B0GGDQ2ZF8",
+   "titre": "Marmite à pression électrique Ninja",
+   "prix_affiche": 179.98
+  },
+  {
+   "asin": "B0H8ZRQ7MY",
+   "titre": "Purificateur d'air Shark",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B0D4B6K9SL",
+   "titre": "Système de mélange Ninja",
+   "prix_affiche": 189.98
+  },
+  {
+   "asin": "B01N1XVJPZ",
+   "titre": "Aspirateur balai sans fil Shark",
+   "prix_affiche": 299.99
+  },
+  {
+   "asin": "B0DDZ28BVS",
+   "titre": "Nettoyeur de sol humide et sec Shark",
+   "prix_affiche": 179.99
   }
  ]
 }

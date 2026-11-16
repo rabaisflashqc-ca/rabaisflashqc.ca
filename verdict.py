@@ -14,9 +14,10 @@ def eco_txt(v):
 
 def verdict(x):
     """Retourne (texte, classe CSS). Record Keepa = « Plus bas prix jamais vu »; 40 % et plus ET au moins 20 $ de moins = « Ça vaut le clic »;
-    20 % et plus = « Bon rabais ». Sinon, pas de verdict."""
+    20 % et plus = « Bon rabais ». Sinon, pas de verdict.
+    Champ ref = "conseille" (rabais calculé sur le prix conseillé du fabricant, pas sur un ancien prix réel) : jamais de verdict fort."""
     pct, v = x.get("pct") or 0, eco(x)
     if x.get("record"): return "📉 Plus bas prix jamais vu", "v rec"
-    if pct >= 40 and v >= 20: return "🔥 Ça vaut le clic", "v hot"
+    if pct >= 40 and v >= 20 and x.get("ref") != "conseille": return "🔥 Ça vaut le clic", "v hot"  # pas de verdict fort quand le rabais se compare au prix conseillé (souvent gonflé)
     if pct >= 20: return "👍 Bon rabais", "v"
     return "", ""
