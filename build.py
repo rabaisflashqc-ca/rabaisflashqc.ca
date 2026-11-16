@@ -265,9 +265,9 @@ ICON = {"tech":"🎧","maison":"🏠","beaute":"💄","femme":"👗","homme":"�
 
 PAGES = [
   # slug, titre <title>, H1, intro, filtre, recherches de secours
-  ("", "Rabais Flash QC · Avant d'acheter sur Amazon, regarde ici",
-   "Avant d'acheter sur Amazon, regarde ici.",
-   "Rabais Flash QC repère et trie les aubaines Amazon pour faire ressortir celles qui valent vraiment le clic. Moins de temps à chercher, plus de chances de tomber sur le bon deal.",
+  ("", "Rabais Flash QC · Ça vaut le clic? Les rabais Amazon triés pour le Québec",
+   "Ça vaut le clic? T'es à la bonne place.",
+   "Avant d'acheter sur Amazon, regarde ici. On trie les rabais et les chutes de prix pour te montrer ceux qui valent vraiment le clic, pendant qu'ils sont encore là.",
    lambda d: True, []),
   ("vendredi-fou", "Vendredi fou 2026 sur Amazon.ca · Les meilleurs deals triés | Rabais Flash QC",
    "Vendredi fou 2026 : les meilleurs deals d'Amazon.ca",
@@ -429,8 +429,14 @@ ul.deals>.empty{grid-column:1/-1}
 @media (min-width:700px){header h1{font-size:34px}header .intro{max-width:none}header .upd{display:none}}
 body.hw nav{background:#140A1F}body.hw .deals .deal{background:#1E1030}
 /* --- 16 nov. 2026 : « Les rabais qui valent vraiment le clic ». Hero de l'accueil, verdict et économie sur chaque carte --- */
-.sig{margin:4px 0 0;font-weight:700;font-size:clamp(17px,4.4vw,22px);line-height:1.2;color:#fff}
-.hcta{display:inline-block;margin:10px 0 2px;padding:12px 22px;border-radius:999px;background:var(--yel);color:#7A0A16;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 3px 0 rgba(0,0,0,.22)}
+.sig{margin:4px 0 0;font-weight:500;font-size:clamp(16px,4.2vw,20px);line-height:1.3;color:#fff;max-width:36em}.sig b{color:var(--yel)}
+header.home{padding:14px 0 16px;background:radial-gradient(120% 120% at 0 0,#E01E2F 0,#C1121F 45%,#8E0B16 100%)}
+header.home h1{font-size:clamp(32px,8.6vw,56px)!important;line-height:1!important;margin:8px 0 6px!important;text-wrap:balance}
+.hk{display:inline-block;margin:10px 0 0;padding:4px 12px;border-radius:999px;background:#1A1A1A;color:var(--yel);font-weight:700;font-size:14px}
+.hb{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;padding:0}.hb li{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 11px;font-weight:700;font-size:14.5px}
+.hu{margin:8px 0 0;font-size:14px;font-weight:500;opacity:.95}
+@media (max-width:699px){.hb{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-18px;padding-right:18px}.hb::-webkit-scrollbar{display:none}.hb li{white-space:nowrap;font-size:13.5px}.hu{font-size:13px;margin-top:6px}.hk{font-size:13px}header.home{padding:10px 0 12px}}
+.hcta{display:inline-block;margin:12px 0 2px;padding:12px 22px;border-radius:999px;background:var(--yel);color:#7A0A16;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 3px 0 rgba(0,0,0,.22)}
 @media (max-width:699px){.hcta{display:block;text-align:center}}
 .deal .badges span.v{background:#FFF3D1;color:var(--deep);font-size:12.5px}
 .deal .badges span.v.hot{background:var(--red);color:#fff}.deal .badges span.v.rec{background:#1A1A1A;color:var(--yel)}
@@ -735,6 +741,24 @@ def order(items):
                                         "".join(chr(255 - ord(c)) for c in d.get("added", "0000-00-00")),
                                         -_attrait(d), d["r"])))
 
+def hero_accueil():
+    """Haut de l'accueil (demande d'Alex du 16 nov. : « ça vaut le clic », émotion, urgence, temps limité, économies, plaisir).
+    Les chiffres sont réels, recalculés à chaque build à partir des deals vérifiés affichables. Aucune heure, aucun faux compte à rebours.
+    Retourne (pastille au-dessus du H1, bloc sous le H1)."""
+    now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
+    L = [x for x in load_scan() if rfd_ok(x, now, hors)]
+    hot = [x for x in L if verdict(x)[1] == "v hot"]
+    kick = ""
+    if len(L) >= 5:
+        mx = _eco_txt(max(_eco(x) for x in L))
+        kick = (f'<p class="hk">🔥 {len(hot)} rabais « Ça vaut le clic » en ce moment · jusqu\'à {mx} de moins</p>' if len(hot) >= 3
+                else f'<p class="hk">🔥 {len(L)} rabais vérifiés aujourd\'hui · jusqu\'à {mx} de moins</p>')
+    bas = ('<p class="sig">Avant d\'acheter sur Amazon, regarde ici. On trie les rabais et les chutes de prix pour te montrer ceux qui valent la peine, <b>pendant qu\'ils sont encore là.</b></p>'
+           '<ul class="hb"><li>💰 Tu sauves des $</li><li>⏳ Avant que le prix remonte</li><li>😎 Le fun de pogner le bon deal</li></ul>'
+           '<a class="hcta" href="#top5">🔥 Voir ce qui vaut le clic</a>'
+           '<p class="hu">⏳ Un prix peut remonter à tout moment, sans avertissement. Si t\'en vois un qui te plaît, fonce!</p>')
+    return kick, bas
+
 def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     url = f"{DOMAIN}/{slug + '/' if slug else ''}"
     nav = "".join(f'<a href="/{s + "/" if s else ""}"{" class=\"vf\"" if s == "vendredi-fou" else ""}{" aria-current=\"page\"" if s == slug else ""}>{"🔥 " if s == "vendredi-fou" else ""}{e(n)}</a>' for s, n in NAV)
@@ -747,7 +771,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
           "isPartOf":{"@type":"WebSite","name":"Rabais Flash QC","url":DOMAIN+"/"},
           "publisher":{"@type":"Organization","name":"Rabais Flash QC","url":DOMAIN+"/","sameAs":[FB,IG,TT]}}
     bud = BUDGET if sum(1 for d in items if d.get("price")) >= 4 else ""
-    hero = f'<p class="sig">{SIGNATURE}</p><a class="hcta" href="#top5">🔥 Voir les meilleurs rabais</a>' if slug == "" else ""
+    hero = hero_accueil() if slug == "" else ""
     lst = mix(items, [b for b in brands if b in STORES]) or '<li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li>'
     return f"""<!doctype html>
 <html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -761,8 +785,8 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@500;700&display=swap">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
-<body{" class=\"hw\"" if slug == "halloween" else ""}><header>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
-<h1>{e(h1)}</h1>{hero}<p class="intro">{e(intro)}</p><p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
+<body{" class=\"hw\"" if slug == "halloween" else ""}><header{" class=\"home\"" if slug == "" else ""}>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
+{hero[0] if hero else ""}<h1>{e(h1)}</h1>{hero[1] if hero else '<p class="intro">' + e(intro) + "</p>"}<p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {banner}
 {extra}
