@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-17T12:34+00:00",
+ "genere": "2026-11-17T12:40+00:00",
  "produits": [
   {
    "asin": "B079R8JPVC",
@@ -225,6 +225,131 @@
    "asin": "B093QL7WCJ",
    "titre": "Souliers New Balance 574 pour homme",
    "prix_affiche": 89.98
+  },
+  {
+   "asin": "B0GY9T544P",
+   "titre": "Lot de 5 boxers SAXX pour homme",
+   "prix_affiche": 55.22
+  },
+  {
+   "asin": "B0B1N6QK7Z",
+   "titre": "Caméra extérieure Blink Outdoor 4",
+   "prix_affiche": 32.99
+  },
+  {
+   "asin": "B0DF82Q8JB",
+   "titre": "Caméra extérieure sans fil Tapo C410 2K",
+   "prix_affiche": 74.99
+  },
+  {
+   "asin": "B0F3BJMLKJ",
+   "titre": "Caméra intérieure Blink Mini 2K+ (noire)",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0FJJ3517W",
+   "titre": "Sonnette filaire Ring 2K",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0CWVX1GNX",
+   "titre": "Casque Sony ULT WEAR à réduction de bruit",
+   "prix_affiche": 173.0
+  },
+  {
+   "asin": "B08HMWZBXC",
+   "titre": "Casque sans fil Soundcore d'Anker à réduction de bruit",
+   "prix_affiche": 67.99
+  },
+  {
+   "asin": "B0FGYDGJ3H",
+   "titre": "Casque sans fil Bose à réduction de bruit",
+   "prix_affiche": 249.0
+  },
+  {
+   "asin": "B09C5RG6KV",
+   "titre": "Chargeur mural Anker 65 W",
+   "prix_affiche": 34.98
+  },
+  {
+   "asin": "B07BMNZ2XH",
+   "titre": "Manteau long matelassé à capuchon Amazon Essentials pour femme",
+   "prix_affiche": 54.64
+  },
+  {
+   "asin": "B07PY4W2MF",
+   "titre": "Manteau d'hiver matelassé Amazon Essentials pour fille",
+   "prix_affiche": 46.56
+  },
+  {
+   "asin": "B07NYBGPZR",
+   "titre": "Cardigan en coton Amazon Essentials pour homme",
+   "prix_affiche": 28.64
+  },
+  {
+   "asin": "B07QHPWHQR",
+   "titre": "Bandes blanchissantes Crest 3D Whitestrips",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B08XTG3QSF",
+   "titre": "Sac à dos Pat'Patrouille Melissa & Doug pour enfant",
+   "prix_affiche": 23.19
+  },
+  {
+   "asin": "B0DLLC8HHP",
+   "titre": "Brosse à dents électrique Oral-B iO2",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0DCCJZC9F",
+   "titre": "Brosse à dents électrique Oral-B iO Series 7",
+   "prix_affiche": 164.99
+  },
+  {
+   "asin": "B0G156GM21",
+   "titre": "Brosse à dents électrique Oral-B iO (rose)",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B09YKYJX7Y",
+   "titre": "Écouteurs sans fil Sony WI-C100",
+   "prix_affiche": 28.0
+  },
+  {
+   "asin": "B0D2XRXNGY",
+   "titre": "Écouteurs ouverts Soundcore V20i d'Anker",
+   "prix_affiche": 35.98
+  },
+  {
+   "asin": "B08XTHQ5HW",
+   "titre": "Tableau de bord en bois Melissa & Doug",
+   "prix_affiche": 30.24
+  },
+  {
+   "asin": "B0BN2F767S",
+   "titre": "Séchoir à cheveux Remington avec diffuseur",
+   "prix_affiche": 25.65
+  },
+  {
+   "asin": "B00BTKAPUU",
+   "titre": "Purificateur d'air COWAY AP-1512HH",
+   "prix_affiche": 198.0
+  },
+  {
+   "asin": "B0CQ53RVTW",
+   "titre": "Haut-parleur Soundcore Boom 2 d'Anker",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B000ASBJ0C",
+   "titre": "Tigre géant en peluche Melissa & Doug",
+   "prix_affiche": 100.49
+  },
+  {
+   "asin": "B0D6GY3BSC",
+   "titre": "Fer à boucler Conair Curl Secret Mini",
+   "prix_affiche": 64.79
   }
  ]
 }
