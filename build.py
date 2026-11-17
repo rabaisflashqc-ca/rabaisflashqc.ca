@@ -451,6 +451,29 @@ header.home h1{font-size:clamp(32px,8.6vw,56px)!important;line-height:1!importan
 
 BOLT = '<svg width="16" height="26" viewBox="0 0 100 160" aria-hidden="true"><path d="M62 0 L8 92 L44 92 L28 160 L94 58 L58 58 L78 0 Z" fill="#FFC72C"/></svg>'
 
+RECHERCHE = """<section class="rq" aria-label="Chercher un produit">
+<form id="rq-f" role="search" autocomplete="off"><input id="rq-q" type="search" placeholder="Cherche un produit (ex. casque, aspirateur, perceuse)" aria-label="Chercher un produit" enterkeyhint="search"><button type="submit">Chercher</button></form>
+<div id="rq-r" hidden><p id="rq-m"></p><ul id="rq-l" class="deals"></ul><a id="rq-b" class="rq-go" href="#" target="_blank" rel="sponsored nofollow noopener"></a><a id="rq-t" class="rq-all" href="#" target="_blank" rel="sponsored nofollow noopener"></a></div>
+</section>
+<style>.rq{max-width:880px;margin:14px auto 6px}#rq-f{display:flex;gap:8px}#rq-q{flex:1;min-width:0;padding:14px;font:inherit;font-size:16px;border:2px solid #C1121F;border-radius:12px;background:#fff}
+#rq-f button{flex:none;padding:14px 18px;font:inherit;font-size:16px;font-weight:700;color:#fff;background:#C1121F;border:0;border-radius:12px;cursor:pointer}
+#rq-r{margin-top:12px;text-align:center}#rq-m{margin:0 0 10px;font-weight:700}#rq-l{text-align:left;margin-bottom:12px}
+.rq-go{display:block;padding:15px;font-size:18px;font-weight:700;color:#fff;background:#C1121F;border-radius:12px;text-decoration:none}.rq-all{display:inline-block;margin-top:10px;font-size:15px;color:#5C5C5C}</style>
+<script>(function(){var TAG="coupdecoeurqc-20",MIN=15,f=document.getElementById("rq-f"),q=document.getElementById("rq-q"),r=document.getElementById("rq-r"),m=document.getElementById("rq-m"),l=document.getElementById("rq-l"),b=document.getElementById("rq-b"),t=document.getElementById("rq-t");
+function n(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}
+function az(v,d){return"https://www.amazon.ca/s?k="+encodeURIComponent(v)+(d?"&pct-off="+MIN+"-":"")+"&tag="+TAG}
+function go(){var v=q.value.trim();l.innerHTML="";if(!v){r.hidden=true;return}
+var w=n(v).split(/\\s+/),seen={},k=0;
+document.querySelectorAll("main li.deal").forEach(function(c){if(c.closest("#rq-r")||c.classList.contains("empty"))return;
+var h=c.querySelector("h3"),br=c.querySelector(".brand"),txt=n((br?br.textContent:"")+" "+(h?h.textContent:""));
+if(!w.every(function(x){return txt.indexOf(x)>-1}))return;var id=c.getAttribute("data-asin")||txt;if(seen[id])return;seen[id]=1;k++;if(k<=6)l.appendChild(c.cloneNode(true))});
+r.hidden=false;
+if(k){m.textContent=k+(k>1?" deals trouvés":" deal trouvé")+" sur notre site";b.textContent="Voir aussi tous les rabais sur « "+v+" »"}
+else{m.textContent="Pas encore sur notre site. On t'envoie vers les rabais.";b.textContent="Voir les rabais sur « "+v+" » 👉"}
+b.href=az(v,true);t.textContent="Voir tous les résultats, sans filtre";t.href=az(v,false)}
+f.addEventListener("submit",function(e){e.preventDefault();go()});q.addEventListener("input",function(){if(!q.value.trim())go()})})();</script>
+"""
+
 def store_html(b):
     off = "/deals" in STORES[b]
     return (f'<li class="deal shop"><div class="tag" aria-hidden="true">🏷️<small>boutique</small></div><div><p class="badges"><span>Boutique officielle</span></p>'
@@ -789,6 +812,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 {hero[0] if hero else ""}<h1>{e(h1)}</h1>{hero[1] if hero else '<p class="intro">' + e(intro) + "</p>"}<p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {banner}
+{RECHERCHE if slug == "" else ""}
 {extra}
 {bud}
 <p class="note">⚡ Y'a une raison si on s'appelle <b>Flash</b> : certains rabais durent très peu de temps. Amazon et les marques peuvent les modifier ou y mettre fin à tout moment, et on ne peut pas le garantir. Si le prix a bougé quand tu arrives, c'est que l'offre a changé. Clique vite quand un deal te tente!</p>
