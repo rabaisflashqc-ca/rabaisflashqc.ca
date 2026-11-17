@@ -470,7 +470,7 @@ RECHERCHE = """<section class="rq" id="recherche" aria-label="Chercher un deal">
 @media (max-width:699px){#rq-f{flex-wrap:wrap}#rq-q{flex-basis:100%}#rq-f button{width:100%;padding:14px;font-size:18px}.rq{margin-top:10px;padding:12px}}</style>
 <script>(function(){var TAG="coupdecoeurqc-20",MIN=15,f=document.getElementById("rq-f"),q=document.getElementById("rq-q"),r=document.getElementById("rq-r"),m=document.getElementById("rq-m"),l=document.getElementById("rq-l"),b=document.getElementById("rq-b"),t=document.getElementById("rq-t");
 function n(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}
-function az(v,d){return"https://www.amazon.ca/s?k="+encodeURIComponent(v)+(d?"&pct-off="+MIN+"-":"")+"&tag="+TAG}
+function az(v,p){return"https://www.amazon.ca/s?k="+encodeURIComponent(v)+"&pct-off="+(p||MIN)+"-&tag="+TAG}
 function cartes(){return[].slice.call(document.querySelectorAll("main li.deal")).filter(function(c){return!c.closest("#rq-r")&&!c.classList.contains("empty")})}
 document.addEventListener("DOMContentLoaded",function(){var u={};cartes().forEach(function(c){u[c.getAttribute("data-asin")||c.textContent]=1});var k=Object.keys(u).length;if(k>=10)document.getElementById("rq-n").textContent=k+" deals vérifiés à fouiller, juste ici 👇"});
 function go(){var v=q.value.trim();l.innerHTML="";if(!v){r.hidden=true;return}
@@ -480,7 +480,7 @@ if(!w.every(function(x){return txt.indexOf(x)>-1}))return;var id=c.getAttribute(
 r.hidden=false;
 if(k){m.textContent="🎉 Bingo! "+k+(k>1?" deals vérifiés":" deal vérifié")+" pour « "+v+" »";b.textContent="Encore plus de rabais sur « "+v+" » 👉"}
 else{m.textContent="Pas encore dans notre tri. Pas grave : on t'amène direct sur les rabais de 15 % et plus 👇";b.textContent="Voir les rabais sur « "+v+" » 👉"}
-b.href=az(v,true);t.textContent="Voir tous les résultats, sans filtre";t.href=az(v,false);
+b.href=az(v,MIN);t.textContent="🔥 Seulement les gros rabais (30 % et plus)";t.href=az(v,30);
 if(window.innerWidth<700)setTimeout(function(){m.scrollIntoView({behavior:"smooth",block:"start"})},60)}
 f.addEventListener("submit",function(e){e.preventDefault();q.blur();go()});q.addEventListener("input",function(){if(!q.value.trim())go()});
 [].forEach.call(document.querySelectorAll(".rq-ch button"),function(x){x.addEventListener("click",function(){q.value=x.textContent;go()})})})();</script>
