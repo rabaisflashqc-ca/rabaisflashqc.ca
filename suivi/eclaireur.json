@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17T15:26-04:00",
+ "date": "2026-11-17T16:06-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,75 +14,75 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   39,
-   21,
+   40,
+   22,
    [
     "2026-11-11T13:44:20+00:00",
     "2026-11-12T01:58:19+00:00"
    ],
    [
     "2026-11-17T14:08:11+00:00",
-    "2026-11-17T18:52:42+00:00"
+    "2026-11-17T19:34:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    13,
    [
-    "2026-11-13T23:21:49+00:00",
-    "2026-11-14T01:43:20+00:00"
+    "2026-11-14T01:43:20+00:00",
+    "2026-11-14T06:28:52+00:00"
    ],
    [
-    "2026-11-17T15:42:28+00:00",
-    "2026-11-17T18:52:42+00:00"
+    "2026-11-17T18:52:42+00:00",
+    "2026-11-17T19:34:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    31,
    [
-    "2026-11-05T14:50:52+00:00",
-    "2026-11-06T14:20:02+00:00"
+    "2026-11-06T14:20:02+00:00",
+    "2026-11-06T14:57:49+00:00"
    ],
    [
-    "2026-11-13T17:20:24+00:00",
-    "2026-11-13T18:19:49+00:00"
+    "2026-11-13T18:19:49+00:00",
+    "2026-11-13T23:21:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-26T09:31:03+00:00",
-    "2026-10-26T12:14:44+00:00"
+    "2026-10-26T12:14:44+00:00",
+    "2026-10-26T15:52:14+00:00"
    ],
    [
-    "2026-11-05T05:56:37+00:00",
-    "2026-11-05T12:22:46+00:00"
+    "2026-11-05T12:22:46+00:00",
+    "2026-11-05T14:50:52+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-08T02:30:26+00:00",
-    "2026-10-08T11:01:20+00:00"
+    "2026-10-08T11:01:20+00:00",
+    "2026-10-08T13:24:40+00:00"
    ],
    [
-    "2026-10-24T23:36:14+00:00",
-    "2026-10-26T04:42:54+00:00"
+    "2026-10-26T04:42:54+00:00",
+    "2026-10-26T09:31:03+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T13:04:53+00:00",
-    "2026-10-06T13:09:04+00:00"
+    "2026-10-06T23:59:56+00:00",
+    "2026-10-07T00:05:30+00:00"
    ],
    [
-    "2026-10-08T00:14:10+00:00",
-    "2026-10-08T02:29:03+00:00"
+    "2026-10-07T23:57:48+00:00",
+    "2026-10-08T00:14:10+00:00"
    ]
   ],
   "avant_filtre_date": 134,
@@ -180,6 +180,24 @@
    "img": "/img/p/B0FXBVGKHT.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
+   "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
+   "price": 124.1,
+   "was": 165.99,
+   "votes": 14,
+   "posts": 26,
+   "time": "2026-11-14T20:42:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
+   "asin": "B0F7R9DQHY",
+   "pct": 25,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0F7R9DQHY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F7R9DQHY.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-bosch-glm100-23-100-ft-blaze-laser-distance-measure-34-99-56-off-2832554/",
    "title": "Bosch GLM100-23 100 Ft Blaze Laser Distance Measure [$34.99 - 56% off]",
    "price": 34.99,
@@ -196,24 +214,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C76CPGC7.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
-   "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
-   "price": 124.1,
-   "was": 165.99,
-   "votes": 13,
-   "posts": 25,
-   "time": "2026-11-14T20:42:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
-   "asin": "B0F7R9DQHY",
-   "pct": 25,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0F7R9DQHY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0F7R9DQHY.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-99-98-sony-wh-ch720n-headphones-amazon-walmart-2831843/",
@@ -414,6 +414,24 @@
    "img": "/img/p/B0DZHLH9WM.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
+   "title": "$49.99 - Bosch GLL50-20 Cross Line Laser, Self Leveling, 50ft Range and Magnetic Laser Mount",
+   "price": 49.99,
+   "was": 72.45,
+   "votes": 5,
+   "posts": 11,
+   "time": "2026-11-17T15:42:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
+   "asin": "B0CKJXX4XR",
+   "pct": 31,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0CKJXX4XR?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CKJXX4XR.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
    "title": "REOLINK Duo 2V 8MP Dual-Lens PoE Camera - $135.99",
    "price": 135.99,
@@ -432,22 +450,22 @@
    "img": "/img/p/B0D2VXGMBH.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
-   "title": "$49.99 - Bosch GLL50-20 Cross Line Laser, Self Leveling, 50ft Range and Magnetic Laser Mount",
-   "price": 49.99,
-   "was": 72.45,
+   "url": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
+   "title": "LISEN Compact 54W Car Charger with USB-C and USB-A @ $6.25",
+   "price": 6.25,
+   "was": 12.49,
    "votes": 4,
-   "posts": 10,
-   "time": "2026-11-17T15:42:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
-   "asin": "B0CKJXX4XR",
-   "pct": 31,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CKJXX4XR?tag=coupdecoeurqc-20",
+   "posts": 5,
+   "time": "2026-11-17T18:52:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
+   "asin": "B0CBVGZJPD",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CBVGZJPD?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CKJXX4XR.jpg"
+   "img": "/img/p/B0CBVGZJPD.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pampers-swaddlers-diapers-size-2-10-22-lbs-144-count-23-72-s-s-2832496/",
@@ -558,6 +576,42 @@
    "img": "/img/p/B09YLFHFDW.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
+   "title": "LG UltraWide 34U601 34\" 120Hz WQHD Curved Gaming Monitor FreeSync Premium on sale $279.99($339.99)",
+   "price": 279.99,
+   "was": 339.99,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-17T05:37:39+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
+   "asin": "B0GXX5NQ4F",
+   "pct": 18,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GXX5NQ4F?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GXX5NQ4F.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tcl-98-inch-qm64l-series-qled-4k-smart-qd-mini-led-tv-fire-tv-2026-model-144hz-sale-2-498-2-949-98-2832516/",
+   "title": "TCL 98-Inch QM64L Series QLED 4K Smart QD-Mini LED TV with Fire TV (2026 Model) 144Hz on sale $ 2,498($2,949.98)",
+   "price": 2498.0,
+   "was": 2949.9,
+   "votes": 2,
+   "posts": 4,
+   "time": "2026-11-17T05:48:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-98-inch-qm64l-series-qled-4k-smart-qd-mini-led-tv-fire-tv-2026-model-144hz-sale-2-498-2-949-98-2832516/",
+   "asin": "B0GBY8439N",
+   "pct": 15,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GBY8439N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GBY8439N.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
    "title": "kindle scribe 64gb with premium pen like new $221.64",
    "price": 221.64,
@@ -666,42 +720,6 @@
    "img": "/img/p/B01FYIAQA6.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
-   "title": "LG UltraWide 34U601 34\" 120Hz WQHD Curved Gaming Monitor FreeSync Premium on sale $279.99($339.99)",
-   "price": 279.99,
-   "was": 339.99,
-   "votes": 1,
-   "posts": 3,
-   "time": "2026-11-17T05:37:39+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
-   "asin": "B0GXX5NQ4F",
-   "pct": 18,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GXX5NQ4F?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GXX5NQ4F.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tcl-98-inch-qm64l-series-qled-4k-smart-qd-mini-led-tv-fire-tv-2026-model-144hz-sale-2-498-2-949-98-2832516/",
-   "title": "TCL 98-Inch QM64L Series QLED 4K Smart QD-Mini LED TV with Fire TV (2026 Model) 144Hz on sale $ 2,498($2,949.98)",
-   "price": 2498.0,
-   "was": 2949.9,
-   "votes": 1,
-   "posts": 3,
-   "time": "2026-11-17T05:48:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-98-inch-qm64l-series-qled-4k-smart-qd-mini-led-tv-fire-tv-2026-model-144hz-sale-2-498-2-949-98-2832516/",
-   "asin": "B0GBY8439N",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GBY8439N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GBY8439N.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-evenflo-omni-signature-travel-system-litemax-infant-car-seat-sale-399-97-549-97-2832518/",
    "title": "Evenflo Omni Signature Travel System with LiteMax Infant Car Seat on sale $399.97($549.97)",
    "price": 399.97,
@@ -743,7 +761,7 @@
    "price": 149.99,
    "was": 199.99,
    "votes": 1,
-   "posts": 1,
+   "posts": 2,
    "time": "2026-11-17T12:40:59+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-300w-charging-station-149-99-2832540/",
    "asin": "B0F9FH3WFR",
@@ -844,24 +862,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLWCJSC3.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
-   "title": "LISEN Compact 54W Car Charger with USB-C and USB-A @ $6.25",
-   "price": 6.25,
-   "was": 12.49,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-17T18:52:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
-   "asin": "B0CBVGZJPD",
-   "pct": 50,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CBVGZJPD?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   }
  ]
 }
