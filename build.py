@@ -999,7 +999,7 @@ def rfd_block(cats=None):
         n, keep = {}, []
         _now = datetime.datetime.now(datetime.timezone.utc)
         for x in sorted(L, key=lambda x: -_score(x, _now)):
-            if n.get(x.get("cat"), 0) < 8: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
+            if n.get(x.get("cat"), 0) < 60: keep.append(x); n[x.get("cat")] = n.get(x.get("cat"), 0) + 1
         L = keep
     now = datetime.datetime.now(datetime.timezone.utc)
     L = [x for x in L if rfd_ok(x, now, HORS_SAISON(now))]
@@ -1010,7 +1010,7 @@ def rfd_block(cats=None):
     if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS and x.get("asin") not in FAM_ASINS]  # accueil : pas de doublon avec le Top 5 ni avec « un cadeau pour chaque membre »
     if not L: return ""
     card = rfd_card
-    li = "".join(card(x) for x in (L[:60] if cats else L[:40]))  # max de deals (demande d'Alex du 7 nov.) : 60 par catégorie, 40 sur l'accueil
+    li = "".join(card(x) for x in (L[:80] if cats else L[:250]))  # max de deals (demandes d'Alex du 7 et du 17 nov., pour la barre de recherche) : 80 par catégorie, 250 sur l'accueil
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon qui ont passé notre tri aujourd\'hui, avec notre verdict sur chaque carte. Elles partent vite!</p>'
             f'<ul class="deals">{li}</ul></section>')
