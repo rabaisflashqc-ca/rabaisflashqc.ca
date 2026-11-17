@@ -1,91 +1,91 @@
 {
- "date": "2026-11-16T20:14-04:00",
+ "date": "2026-11-16T22:37-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-10T02:33:31+00:00",
-    "2026-11-10T12:47:42+00:00"
+    "2026-11-10T12:47:42+00:00",
+    "2026-11-10T16:26:46+00:00"
    ],
    [
-    "2026-11-16T23:53:10+00:00",
-    "2026-11-16T23:58:29+00:00"
+    "2026-11-17T00:13:38+00:00",
+    "2026-11-17T02:15:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   28,
-   20,
+   30,
+   21,
    [
     "2026-11-10T12:47:42+00:00",
     "2026-11-10T16:26:46+00:00"
    ],
    [
-    "2026-11-16T19:32:29+00:00",
-    "2026-11-16T23:58:29+00:00"
+    "2026-11-17T00:13:38+00:00",
+    "2026-11-17T02:15:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    15,
    [
-    "2026-11-12T05:42:30+00:00",
-    "2026-11-12T10:34:46+00:00"
+    "2026-11-12T11:30:35+00:00",
+    "2026-11-12T12:33:29+00:00"
    ],
    [
-    "2026-11-16T23:53:10+00:00",
-    "2026-11-16T23:58:29+00:00"
+    "2026-11-17T00:13:38+00:00",
+    "2026-11-17T02:15:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    41,
    [
-    "2026-11-03T04:26:20+00:00",
-    "2026-11-03T04:34:26+00:00"
+    "2026-11-03T04:59:26+00:00",
+    "2026-11-03T05:10:25+00:00"
    ],
    [
-    "2026-11-12T01:58:19+00:00",
-    "2026-11-12T05:16:13+00:00"
+    "2026-11-12T05:42:30+00:00",
+    "2026-11-12T10:34:46+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-18T16:38:59+00:00",
-    "2026-10-19T18:22:12+00:00"
+    "2026-10-20T01:00:56+00:00",
+    "2026-10-20T10:08:42+00:00"
    ],
    [
-    "2026-11-02T11:41:33+00:00",
-    "2026-11-03T03:04:22+00:00"
+    "2026-11-03T04:26:20+00:00",
+    "2026-11-03T04:34:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T17:38:06+00:00",
-    "2026-10-07T17:44:49+00:00"
+    "2026-10-07T12:39:39+00:00",
+    "2026-10-07T12:42:13+00:00"
    ],
    [
-    "2026-10-16T05:31:05+00:00",
-    "2026-10-16T08:07:42+00:00"
+    "2026-10-18T16:38:59+00:00",
+    "2026-10-19T18:22:12+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T19:01:04+00:00",
-    "2026-10-06T19:02:23+00:00"
+    "2026-10-04T13:03:02+00:00",
+    "2026-10-04T14:20:25+00:00"
    ],
    [
-    "2026-10-07T17:29:38+00:00",
-    "2026-10-07T17:38:06+00:00"
+    "2026-10-07T04:43:18+00:00",
+    "2026-10-07T11:54:40+00:00"
    ]
   ],
-  "avant_filtre_date": 130,
+  "avant_filtre_date": 133,
   "apres_filtre_date": 32
  },
  "items": [
@@ -130,8 +130,8 @@
    "title": "PS5 - DualSense Wireless Controller - $69.99 Early Black Friday",
    "price": 69.99,
    "was": 94.99,
-   "votes": 22,
-   "posts": 23,
+   "votes": 24,
+   "posts": 27,
    "time": "2026-11-16T15:26:24+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ps5-dualsense-wireless-controller-69-99-early-black-friday-2832388/",
    "asin": "B0GL96NJL5",
@@ -239,7 +239,7 @@
    "price": 99.99,
    "was": 135.0,
    "votes": 10,
-   "posts": 16,
+   "posts": 17,
    "time": "2026-11-16T17:08:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "asin": "B01HDC236Q",
@@ -288,24 +288,6 @@
    "img": "/img/p/B0G5BMQVWX.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
-   "title": "SUPVAN E11 Label Maker Machine + 1 Tape $24.93",
-   "price": 24.93,
-   "was": 42.99,
-   "votes": 6,
-   "posts": 17,
-   "time": "2026-11-10T02:33:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-supvan-e11-label-maker-machine-1-tape-24-93-2831587/",
-   "asin": "B0FB9FHQV5",
-   "pct": 42,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FB9FHQV5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FB9FHQV5.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
    "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz 85U68QF(2025) on Sale $1,124.95($1,499.99)",
    "price": 1124.9,
@@ -329,7 +311,7 @@
    "price": 9.99,
    "was": 19.99,
    "votes": 6,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-16T14:08:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-cheerble-wicked-ball-duo-2-9-99-2832370/",
    "asin": "B0FYPW5CFP",
@@ -394,6 +376,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0D2VXGMBH.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
+   "title": "Marvel's Spider-Man 2 - PS5 Standard Edition $39.99",
+   "price": 39.99,
+   "was": 65.0,
+   "votes": 3,
+   "posts": 4,
+   "time": "2026-11-16T23:58:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
+   "asin": "B0CHZ9W4K3",
+   "pct": 38,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CHZ9W4K3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CHZ9W4K3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
@@ -468,6 +468,24 @@
    "img": "/img/p/B0B7S1HMPC.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-sony-wi-c100-wireless-ear-bluetooth-headphones-built-microphone-black-28-2832470/",
+   "title": "Sony WI-C100 Wireless in-Ear Bluetooth Headphones with Built-in Microphone, Black $28",
+   "price": 28.0,
+   "was": 48.0,
+   "votes": 2,
+   "posts": 2,
+   "time": "2026-11-16T23:53:10+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-sony-wi-c100-wireless-ear-bluetooth-headphones-built-microphone-black-28-2832470/",
+   "asin": "B09YLFHFDW",
+   "pct": 42,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B09YLFHFDW?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09YLFHFDW.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-55-4k-smart-mini-led-fire-tv-2026-model-144hz-sale-659-99-899-99-2831627/",
    "title": "Hisense - 55\" 4K Smart Mini-LED Fire TV (2026 Model) 144Hz on sale $659.99($899.99)",
    "price": 659.99,
@@ -540,24 +558,6 @@
    "img": "/img/p/B0H7ZVK15D.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-sony-wi-c100-wireless-ear-bluetooth-headphones-built-microphone-black-28-2832470/",
-   "title": "Sony WI-C100 Wireless in-Ear Bluetooth Headphones with Built-in Microphone, Black $28",
-   "price": 28.0,
-   "was": 48.0,
-   "votes": 1,
-   "posts": 2,
-   "time": "2026-11-16T23:53:10+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-sony-wi-c100-wireless-ear-bluetooth-headphones-built-microphone-black-28-2832470/",
-   "asin": "B09YLFHFDW",
-   "pct": 42,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09YLFHFDW?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09YLFHFDW.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -617,7 +617,7 @@
    "price": 29.0,
    "was": 54.0,
    "votes": 0,
-   "posts": 4,
+   "posts": 5,
    "time": "2026-11-16T15:25:51+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-supvan-e12-keyboard-bluetooth-label-maker-machine-tape-29-2832387/",
    "asin": "B0GGBQJJYJ",
@@ -648,22 +648,22 @@
    "img": "/img/p/B0DHLGFRV3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
-   "title": "Marvel's Spider-Man 2 - PS5 Standard Edition $39.99",
-   "price": 39.99,
-   "was": 65.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-bissell-spotclean-proheat-portable-carpet-upholstery-cleaner-sale-97-99-149-99-2832489/",
+   "title": "BISSELL SpotClean ProHeat Portable Carpet & Upholstery Cleaner on sale $97.99($149.99)",
+   "price": 97.99,
+   "was": 149.99,
    "votes": 0,
    "posts": 0,
-   "time": "2026-11-16T23:58:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
-   "asin": "B0CHZ9W4K3",
-   "pct": 38,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CHZ9W4K3?tag=coupdecoeurqc-20",
+   "time": "2026-11-17T02:15:26+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bissell-spotclean-proheat-portable-carpet-upholstery-cleaner-sale-97-99-149-99-2832489/",
+   "asin": "B08DBM534X",
+   "pct": 35,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08DBM534X?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CHZ9W4K3.jpg"
+   "img": "/img/p/B08DBM534X.jpg"
   }
  ]
 }
