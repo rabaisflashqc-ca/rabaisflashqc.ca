@@ -889,5 +889,71 @@
   "source": "amazon",
   "ref": "conseille",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0D6GY3BSC.01.L.jpg"
+ },
+ {
+  "asin": "B0DVTGBCBL",
+  "title": "Écouteurs sport JBL Endurance Race 2",
+  "cat": "tech",
+  "price": 71.52,
+  "was": 109.98,
+  "pct": 35,
+  "seen": "2026-11-17T07:43-05:00",
+  "until": "2026-11-18T07:43-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DVTGBCBL.01.L.jpg",
+  "ref": "conseille",
+  "vf": true
+ },
+ {
+  "asin": "B0C3HCD34R",
+  "title": "Casque Soundcore Q20i d'Anker à réduction de bruit",
+  "cat": "tech",
+  "price": 47.99,
+  "was": 69.99,
+  "pct": 31,
+  "seen": "2026-11-17T07:43-05:00",
+  "until": "2026-11-18T07:43-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0C3HCD34R.01.L.jpg",
+  "vf": true
+ },
+ {
+  "asin": "B077YR9FFG",
+  "title": "Presse-panini et gril Chefman",
+  "cat": "maison",
+  "price": 52.99,
+  "was": 69.99,
+  "pct": 24,
+  "seen": "2026-11-17T07:43-05:00",
+  "until": "2026-11-18T07:43-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B077YR9FFG.01.L.jpg",
+  "ref": "conseille"
+ },
+ {
+  "asin": "B0B5B2KBXV",
+  "title": "Brosse à dents électrique Oral-B Pro 500",
+  "cat": "beaute",
+  "price": 37.22,
+  "was": 49.99,
+  "pct": 26,
+  "seen": "2026-11-17T07:43-05:00",
+  "until": "2026-11-18T07:43-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0B5B2KBXV.01.L.jpg",
+  "ref": "conseille"
+ },
+ {
+  "asin": "B0CZF2T7CK",
+  "title": "Fixateur de maquillage L'Oréal Paris Infaillible 3 secondes",
+  "cat": "beaute",
+  "price": 15.96,
+  "was": 20.99,
+  "pct": 24,
+  "seen": "2026-11-17T07:43-05:00",
+  "until": "2026-11-18T07:43-05:00",
+  "source": "amazon",
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CZF2T7CK.01.L.jpg",
+  "ref": "conseille"
  }
 ]

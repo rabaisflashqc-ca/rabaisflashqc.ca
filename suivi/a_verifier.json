@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-17T12:40+00:00",
+ "genere": "2026-11-17T12:43+00:00",
  "produits": [
   {
    "asin": "B079R8JPVC",
@@ -350,6 +350,31 @@
    "asin": "B0D6GY3BSC",
    "titre": "Fer à boucler Conair Curl Secret Mini",
    "prix_affiche": 64.79
+  },
+  {
+   "asin": "B0DVTGBCBL",
+   "titre": "Écouteurs sport JBL Endurance Race 2",
+   "prix_affiche": 71.52
+  },
+  {
+   "asin": "B0C3HCD34R",
+   "titre": "Casque Soundcore Q20i d'Anker à réduction de bruit",
+   "prix_affiche": 47.99
+  },
+  {
+   "asin": "B077YR9FFG",
+   "titre": "Presse-panini et gril Chefman",
+   "prix_affiche": 52.99
+  },
+  {
+   "asin": "B0B5B2KBXV",
+   "titre": "Brosse à dents électrique Oral-B Pro 500",
+   "prix_affiche": 37.22
+  },
+  {
+   "asin": "B0CZF2T7CK",
+   "titre": "Fixateur de maquillage L'Oréal Paris Infaillible 3 secondes",
+   "prix_affiche": 15.96
   }
  ]
 }
