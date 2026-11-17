@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17T18:39-04:00",
+ "date": "2026-11-17T19:30-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -126,6 +126,24 @@
    "img": "/img/p/B0F6BZQDPS.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
+   "title": "LISEN Compact 54W Car Charger with USB-C and USB-A @ $6.25",
+   "price": 6.25,
+   "was": 12.49,
+   "votes": 21,
+   "posts": 9,
+   "time": "2026-11-17T18:52:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
+   "asin": "B08VNWF24S",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B08VNWF24S?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08VNWF24S.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
    "title": "Anker soundcore P20i True Wireless Earbuds Black - $24.99",
    "price": 24.99,
@@ -160,24 +178,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FXBVGKHT.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
-   "title": "LISEN Compact 54W Car Charger with USB-C and USB-A @ $6.25",
-   "price": 6.25,
-   "was": 12.49,
-   "votes": 18,
-   "posts": 9,
-   "time": "2026-11-17T18:52:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
-   "asin": "B08VNWF24S",
-   "pct": 50,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08VNWF24S?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08VNWF24S.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
