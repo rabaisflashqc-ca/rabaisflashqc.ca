@@ -1,80 +1,230 @@
 {
- "genere": "2026-11-17T05:02+00:00",
+ "genere": "2026-11-17T12:34+00:00",
  "produits": [
+  {
+   "asin": "B079R8JPVC",
+   "titre": "Chandail col rond Amazon Essentials pour homme",
+   "prix_affiche": 19.04
+  },
+  {
+   "asin": "B002JWSNIS",
+   "titre": "Coffret d'embouts de tournevis DEWALT",
+   "prix_affiche": 21.01
+  },
+  {
+   "asin": "B0CP9Y3152",
+   "titre": "Gobelet Stanley Quencher H2.0",
+   "prix_affiche": 29.5
+  },
+  {
+   "asin": "B000JJIERS",
+   "titre": "Chandail molleton Carhartt pour homme",
+   "prix_affiche": 32.97
+  },
+  {
+   "asin": "B014VGDS2K",
+   "titre": "Chemise en flanelle Legendary Whitetails pour homme",
+   "prix_affiche": 31.74
+  },
+  {
+   "asin": "B0D3JF9C6B",
+   "titre": "Jeans Levi's Ribcage droit pour femme",
+   "prix_affiche": 59.46
+  },
+  {
+   "asin": "B09HY42PH5",
+   "titre": "Siège d'appoint Diono Solana 2 XL",
+   "prix_affiche": 46.99
+  },
+  {
+   "asin": "B0FKVK89N5",
+   "titre": "Friteuse à air Ninja Pro XL 7-en-1",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0CT9SBWC9",
+   "titre": "Casque JBL Tune 670NC à réduction de bruit",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B08BG9DLVF",
+   "titre": "Draps en flanelle Laura Ashley",
+   "prix_affiche": 71.19
+  },
+  {
+   "asin": "B004PBN8RC",
+   "titre": "Ensemble de perles Melissa & Doug Created by Me",
+   "prix_affiche": 18.89
+  },
+  {
+   "asin": "B07BJKR9VQ",
+   "titre": "Pantalon pyjama flanelle Amazon Essentials pour homme",
+   "prix_affiche": 15.36
+  },
+  {
+   "asin": "B0BFNM7ZD6",
+   "titre": "Sandales de récupération Crocs Mellow",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0D4B6T4V2",
+   "titre": "Mélangeur Ninja Detect Duo",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B092NKY9HF",
+   "titre": "Coton ouaté Hanes EcoSmart pour homme",
+   "prix_affiche": 19.14
+  },
+  {
+   "asin": "B0C3NKXRQ8",
+   "titre": "Sac à dos Simple Modern pour enfant",
+   "prix_affiche": 40.32
+  },
+  {
+   "asin": "B0DTBVJP7G",
+   "titre": "Ensemble Gabby et la maison magique",
+   "prix_affiche": 15.21
+  },
+  {
+   "asin": "B074VFP2GC",
+   "titre": "Kangourou à capuchon Hanes pour homme",
+   "prix_affiche": 22.69
+  },
+  {
+   "asin": "B09642VSFM",
+   "titre": "Sabots Crocs Classic pour enfant",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B071FH2NLX",
+   "titre": "Gâteries dentaires GREENIES pour chat",
+   "prix_affiche": 20.21
+  },
+  {
+   "asin": "B01MSAI76U",
+   "titre": "Taies et draps 400 fils Amazon Basics",
+   "prix_affiche": 16.34
+  },
+  {
+   "asin": "B09RXGJW3N",
+   "titre": "Bottes hautes Amazon Essentials pour femme",
+   "prix_affiche": 46.33
+  },
+  {
+   "asin": "B091ZJBQKH",
+   "titre": "Sandales adidas Adilette",
+   "prix_affiche": 17.08
+  },
+  {
+   "asin": "B0DR3XYYB5",
+   "titre": "Circuit Hot Wheels Formule 1 Grand Prix",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B08HPB288W",
+   "titre": "T-shirt Under Armour Tech pour homme",
+   "prix_affiche": 18.88
+  },
+  {
+   "asin": "B009Q3YX8W",
+   "titre": "Ensemble à biscuits Melissa & Doug Slice & Bake",
+   "prix_affiche": 26.52
+  },
+  {
+   "asin": "B09LJRVSTX",
+   "titre": "Gel douche hydratant Aveeno",
+   "prix_affiche": 15.74
+  },
+  {
+   "asin": "B0C6FMSS7Y",
+   "titre": "Caméra extérieure Tapo 2K pivotante",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B0CBNKV9ZS",
+   "titre": "Sac Calvin Klein Millie 2-en-1 pour femme",
+   "prix_affiche": 60.22
+  },
+  {
+   "asin": "B0CCVX6FSD",
+   "titre": "Humidificateur intelligent DREO",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Mallette d'art Crayola Inspiration",
+   "prix_affiche": 24.99
+  },
   {
    "asin": "B0CS6ZM7X9",
    "titre": "Machine à café Nespresso Vertuo Pop+",
-   "prix_affiche": 94.0
+   "prix_affiche": 84.0
   },
   {
-   "asin": "B0D971QH6N",
-   "titre": "Machine à café Nespresso Pixie",
-   "prix_affiche": 119.0
+   "asin": "B0GLMM6YYG",
+   "titre": "Casque JBL Live 780NC",
+   "prix_affiche": 149.98
   },
   {
-   "asin": "B0H96FFSY6",
-   "titre": "Ensemble Nespresso Vertuo Pop+ Deluxe",
-   "prix_affiche": 95.0
+   "asin": "B0F63ZGHGG",
+   "titre": "Clé de diffusion Roku Streaming Stick 2025",
+   "prix_affiche": 29.98
   },
   {
-   "asin": "B08LQY2XF5",
-   "titre": "Four friteuse à air Ninja Foodi 10 en 1 XL Pro",
-   "prix_affiche": 199.99
+   "asin": "B0CMJRHFZL",
+   "titre": "Piste Hot Wheels City Ultra Shark",
+   "prix_affiche": 39.97
   },
   {
-   "asin": "B0C3P361SQ",
-   "titre": "Machine à café Nespresso Vertuo Pop+ avec mousseur à lait",
-   "prix_affiche": 119.49
+   "asin": "B0DN45YMP6",
+   "titre": "Écouteurs sans fil JBL Vibe Beam 2",
+   "prix_affiche": 49.98
   },
   {
-   "asin": "B0GT28CSYM",
-   "titre": "Aspirateur balai sans fil Dyson",
-   "prix_affiche": 349.99
+   "asin": "B0C24FV44Z",
+   "titre": "Gants tactiles The North Face Etip",
+   "prix_affiche": 44.67
   },
   {
-   "asin": "B0BLMCGD6N",
-   "titre": "Robot aspirateur et vadrouille Shark",
-   "prix_affiche": 399.98
+   "asin": "B0CXL5KTBD",
+   "titre": "Haut-parleur Sony ULT FIELD 1",
+   "prix_affiche": 98.0
   },
   {
-   "asin": "B0CTN1Y4QH",
-   "titre": "Shark FlexStyle, séchage et coiffage",
-   "prix_affiche": 279.99
+   "asin": "B0G8J64978",
+   "titre": "Animal virtuel Bitzee KPop Demon Hunters",
+   "prix_affiche": 34.99
   },
   {
-   "asin": "B0GLKT85K2",
-   "titre": "Machine à café Nespresso Vertuo, blanc perle",
-   "prix_affiche": 209
+   "asin": "B0BGM5XPQZ",
+   "titre": "Imprimante photo Canon IVY 2",
+   "prix_affiche": 99.99
   },
   {
-   "asin": "B095PYDPSK",
-   "titre": "Aspirateur à main Shark UltraCyclone",
-   "prix_affiche": 84.99
+   "asin": "B0GHY1H2JS",
+   "titre": "Haut-parleur JBL Go 5",
+   "prix_affiche": 49.98
   },
   {
-   "asin": "B0GGDQ2ZF8",
-   "titre": "Marmite à pression électrique Ninja",
-   "prix_affiche": 179.98
+   "asin": "B0FW7HHPS4",
+   "titre": "Jeans Levi's Cinch Baggy pour femme",
+   "prix_affiche": 67.13
   },
   {
-   "asin": "B0H8ZRQ7MY",
-   "titre": "Purificateur d'air Shark",
-   "prix_affiche": 399.99
+   "asin": "B0F6BZQDPS",
+   "titre": "Mélangeur à main Braun MultiQuick 5",
+   "prix_affiche": 69.99
   },
   {
-   "asin": "B0D4B6K9SL",
-   "titre": "Système de mélange Ninja",
-   "prix_affiche": 189.98
+   "asin": "B0FCHQBK96",
+   "titre": "Ensemble Calico Critters pour bébés",
+   "prix_affiche": 41.98
   },
   {
-   "asin": "B01N1XVJPZ",
-   "titre": "Aspirateur balai sans fil Shark",
-   "prix_affiche": 299.99
-  },
-  {
-   "asin": "B0DDZ28BVS",
-   "titre": "Nettoyeur de sol humide et sec Shark",
-   "prix_affiche": 179.99
+   "asin": "B093QL7WCJ",
+   "titre": "Souliers New Balance 574 pour homme",
+   "prix_affiche": 89.98
   }
  ]
 }
