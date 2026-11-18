@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18T15:07-04:00",
+ "date": "2026-11-18T15:40-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,8 +9,8 @@
     "2026-11-12T05:42:30+00:00"
    ],
    [
-    "2026-11-18T14:11:21+00:00",
-    "2026-11-18T16:10:54+00:00"
+    "2026-11-18T16:10:54+00:00",
+    "2026-11-18T18:06:41+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,7 +21,7 @@
     "2026-11-12T10:34:46+00:00"
    ],
    [
-    "2026-11-18T18:06:41+00:00",
+    "2026-11-18T13:02:08+00:00",
     "2026-11-18T18:47:40+00:00"
    ]
   ],
@@ -77,8 +77,8 @@
    44,
    44,
    [
-    "2026-10-06T14:50:34+00:00",
-    "2026-10-06T14:52:02+00:00"
+    "2026-10-07T04:58:17+00:00",
+    "2026-10-07T04:58:27+00:00"
    ],
    [
     "2026-10-11T00:40:31+00:00",
@@ -184,7 +184,7 @@
    "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (49% off)",
    "price": 7.75,
    "was": 15.2,
-   "votes": 17,
+   "votes": 18,
    "posts": 29,
    "time": "2026-11-18T14:04:21+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-49-off-2832683/",
@@ -257,7 +257,7 @@
    "price": 19.98,
    "was": 29.98,
    "votes": 11,
-   "posts": 12,
+   "posts": 13,
    "time": "2026-11-18T00:48:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
    "asin": "B0DX7JTJ7N",
@@ -265,7 +265,7 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0DX7JTJ7N?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
+   "morts": 2,
    "doute": true,
    "img": "/img/p/B0DX7JTJ7N.jpg"
   },
@@ -365,7 +365,7 @@
    "price": 278.0,
    "was": 430.0,
    "votes": 7,
-   "posts": 14,
+   "posts": 16,
    "time": "2026-11-18T05:13:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
    "asin": "B0HFB8N519",
@@ -412,6 +412,24 @@
    "morts": 3,
    "doute": true,
    "img": "/img/p/B097GLJ758.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-stanley-quencher-h2-0-tumbler-handle-straw-40-oz-50-off-2832697/",
+   "title": "Stanley Quencher H2.0 Tumbler with Handle and Straw 40 oz (50% OFF)",
+   "price": 29.5,
+   "was": 59.0,
+   "votes": 6,
+   "posts": 1,
+   "time": "2026-11-18T16:10:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-stanley-quencher-h2-0-tumbler-handle-straw-40-oz-50-off-2832697/",
+   "asin": "B0CJZW65R3",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0CJZW65R3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CJZW65R3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
@@ -520,24 +538,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FWK41WF2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-stanley-quencher-h2-0-tumbler-handle-straw-40-oz-50-off-2832697/",
-   "title": "Stanley Quencher H2.0 Tumbler with Handle and Straw 40 oz (50% OFF)",
-   "price": 29.5,
-   "was": 59.0,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-18T16:10:54+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-stanley-quencher-h2-0-tumbler-handle-straw-40-oz-50-off-2832697/",
-   "asin": "B0CJZW65R3",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CJZW65R3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CJZW65R3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
@@ -846,6 +846,24 @@
    "img": "/img/p/B0F48ZR6YT.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
+   "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
+   "price": 46.99,
+   "was": 79.99,
+   "votes": 1,
+   "posts": 0,
+   "time": "2026-11-18T18:06:41+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
+   "asin": "B09HY42PH5",
+   "pct": 41,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B09HY42PH5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09HY42PH5.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jbl-live-780nc-wireless-over-ear-anc-headphones-150-2831892/",
    "title": "JBL Live 780NC - Wireless Over-Ear ANC Headphones - $150",
    "price": 150.0,
@@ -952,24 +970,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLWCJSC3.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
-   "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
-   "price": 46.99,
-   "was": 79.99,
-   "votes": 0,
-   "posts": 0,
-   "time": "2026-11-18T18:06:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
-   "asin": "B09HY42PH5",
-   "pct": 41,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B09HY42PH5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09HY42PH5.jpg"
   }
  ]
 }
