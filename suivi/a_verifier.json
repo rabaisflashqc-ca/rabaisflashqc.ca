@@ -1,4 +1,230 @@
 {
- "genere": "2026-11-18T11:55+00:00",
- "produits": []
+ "genere": "2026-11-18T13:37+00:00",
+ "produits": [
+  {
+   "asin": "B0DQY7C2K4",
+   "titre": "Gourde Stanley Quencher H2.0",
+   "prix_affiche": 24.75
+  },
+  {
+   "asin": "B0CT9SBWC9",
+   "titre": "Casque antibruit JBL Tune 670NC",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0C6FMSS7Y",
+   "titre": "Caméra extérieure Tapo 2K pivotante",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Mallette d'art Crayola Inspiration",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B08FCXBV23",
+   "titre": "T-shirt Under Armour Tech 2.0 pour homme",
+   "prix_affiche": 22.5
+  },
+  {
+   "asin": "B0FW7HLNL6",
+   "titre": "Jean Levi's Cinch Baggy pour femme",
+   "prix_affiche": 67.13
+  },
+  {
+   "asin": "B0D1JG8CRC",
+   "titre": "Haut-parleur JBL Go 4",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0GHY7V8C4",
+   "titre": "Haut-parleur JBL Go 5",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B09642VSFM",
+   "titre": "Crocs Classic pour enfant",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0F3DQZ193",
+   "titre": "Grande bougie Yankee Candle",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B002G9UDE6",
+   "titre": "Kangourou Carhartt Midweight pour homme",
+   "prix_affiche": 72.24
+  },
+  {
+   "asin": "B0721C1H4N",
+   "titre": "Coton ouaté Hanes EcoSmart pour homme",
+   "prix_affiche": 19.14
+  },
+  {
+   "asin": "B09Y8TLP25",
+   "titre": "Caméra pour animaux Tapo 2K",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B08XQYHP5X",
+   "titre": "Pyjama Amazon Essentials pour femme",
+   "prix_affiche": 29.2
+  },
+  {
+   "asin": "B07337Y7SF",
+   "titre": "Jean Signature by Levi Strauss pour homme",
+   "prix_affiche": 31.94
+  },
+  {
+   "asin": "B0FMWPR8X3",
+   "titre": "Caméras de sécurité Arlo Essential",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0CVHHF5MR",
+   "titre": "Poubelle à litière Litter Genie Style",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0C3P361SQ",
+   "titre": "Machine à café Nespresso Vertuo Pop+",
+   "prix_affiche": 119.49
+  },
+  {
+   "asin": "B0F91Z1PKX",
+   "titre": "Coton ouaté Carhartt pour femme",
+   "prix_affiche": 47.97
+  },
+  {
+   "asin": "B0G6LGJW6D",
+   "titre": "Casque Nothing Headphone (a)",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0DR3XYYB5",
+   "titre": "Circuit Hot Wheels Formule 1 Grand Prix",
+   "prix_affiche": 49.97
+  },
+  {
+   "asin": "B0FXVZ1LNY",
+   "titre": "Pantoufles The North Face ThermoBall Traction",
+   "prix_affiche": 66.97
+  },
+  {
+   "asin": "B0BHX9WTYR",
+   "titre": "Sac à dos JanSport pour portable",
+   "prix_affiche": 52.49
+  },
+  {
+   "asin": "B002JWSNIS",
+   "titre": "Ensemble d'embouts DEWALT",
+   "prix_affiche": 21.01
+  },
+  {
+   "asin": "B0F3FFQ1CD",
+   "titre": "Poutre d'équilibre B. toys",
+   "prix_affiche": 54.49
+  },
+  {
+   "asin": "B07F758MP8",
+   "titre": "Chandail Nautica 1/4 zip pour homme",
+   "prix_affiche": 30.04
+  },
+  {
+   "asin": "B09LJRVSTX",
+   "titre": "Lotion Aveeno Daily Moisturizing",
+   "prix_affiche": 15.74
+  },
+  {
+   "asin": "B0D4B6T4V2",
+   "titre": "Mélangeur Ninja Detect Duo",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B0D6WD2QSQ",
+   "titre": "Haut-parleur Bose SoundLink Flex",
+   "prix_affiche": 149.0
+  },
+  {
+   "asin": "B0CRGCV6B4",
+   "titre": "Jouet Thomas & Friends pour tout-petit",
+   "prix_affiche": 24.97
+  },
+  {
+   "asin": "B0D5FX6VRL",
+   "titre": "Friteuse à air Chefman 6 pintes",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B08DJ8Z3WH",
+   "titre": "Aspirateur Shark Navigator Swivel Pro",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B074L8RV1F",
+   "titre": "Trousse de vétérinaire Melissa & Doug",
+   "prix_affiche": 24.57
+  },
+  {
+   "asin": "B0FTK9H3R6",
+   "titre": "Imprimante photo Fujifilm Instax Mini Link 3",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B004PBN8RC",
+   "titre": "Ensemble de bricolage Melissa & Doug Created by Me",
+   "prix_affiche": 18.89
+  },
+  {
+   "asin": "B00GJKXLOC",
+   "titre": "Essoreuse à salade Cuisinart",
+   "prix_affiche": 17.97
+  },
+  {
+   "asin": "B0DW994GH9",
+   "titre": "Écouteurs JBL Vibe Flex 2",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B000CBSNKQ",
+   "titre": "Magna-Tiles Clear Colors",
+   "prix_affiche": 51.24
+  },
+  {
+   "asin": "B09XFJTTBS",
+   "titre": "Pyjamas des Fêtes familiaux The Children's Place",
+   "prix_affiche": 25.83
+  },
+  {
+   "asin": "B07BQFZ1VF",
+   "titre": "Manteau Carhartt Rain Defender pour homme",
+   "prix_affiche": 90.75
+  },
+  {
+   "asin": "B08BG9DLVF",
+   "titre": "Draps en flanelle Laura Ashley",
+   "prix_affiche": 71.19
+  },
+  {
+   "asin": "B0FXW1XHM8",
+   "titre": "Pantoufles The North Face ThermoBall pour homme",
+   "prix_affiche": 62.97
+  },
+  {
+   "asin": "B0G31BR7D3",
+   "titre": "Écouteurs JBL Endurance Peak 4",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B07PWHVD1R",
+   "titre": "Water Wow Melissa & Doug",
+   "prix_affiche": 19.78
+  },
+  {
+   "asin": "B0FW7PFFCS",
+   "titre": "Jean Levi's Ribcage Straight pour femme",
+   "prix_affiche": 73.83
+  }
+ ]
 }
