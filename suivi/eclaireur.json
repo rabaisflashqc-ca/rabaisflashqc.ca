@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18T18:20-04:00",
+ "date": "2026-11-18T18:58-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -77,15 +77,15 @@
    44,
    44,
    [
-    "2026-10-07T04:58:27+00:00",
-    "2026-10-07T12:34:40+00:00"
+    "2026-10-06T14:52:02+00:00",
+    "2026-10-06T14:57:00+00:00"
    ],
    [
     "2026-10-12T15:32:42+00:00",
     "2026-10-12T16:05:51+00:00"
    ]
   ],
-  "avant_filtre_date": 131,
+  "avant_filtre_date": 132,
   "apres_filtre_date": 50
  },
  "items": [
@@ -94,8 +94,8 @@
    "title": "LISEN Compact 54W Car Charger with USB-C and USB-A @ $6.25",
    "price": 6.25,
    "was": 12.49,
-   "votes": 39,
-   "posts": 23,
+   "votes": 40,
+   "posts": 24,
    "time": "2026-11-17T18:52:42+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
    "asin": "B08VNWF24S",
@@ -149,7 +149,7 @@
    "price": 7.75,
    "was": 15.2,
    "votes": 20,
-   "posts": 30,
+   "posts": 31,
    "time": "2026-11-18T14:04:21+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-49-off-2832683/",
    "asin": "B0C2V1512F",
@@ -666,6 +666,24 @@
    "img": "/img/p/B0D7CKV1J8.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-3-ci-429-99-505-2832675/",
+   "title": "DJI Osmo Pocket 3 – $429.99 (was. $505)",
+   "price": 429.99,
+   "was": 505.0,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-18T12:26:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-3-ci-429-99-505-2832675/",
+   "asin": "B0CG19QXWD",
+   "pct": 15,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0CG19QXWD?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CG19QXWD.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-action-4-essential-combo-ci-249-99-319-2832678/",
    "title": "DJI Osmo Action 4 Essential Combo – $249.99 (was. $319)",
    "price": 249.99,
@@ -826,24 +844,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GVLX7Y72.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-3-ci-429-99-505-2832675/",
-   "title": "DJI Osmo Pocket 3 – $429.99 (was. $505)",
-   "price": 429.99,
-   "was": 505.0,
-   "votes": 1,
-   "posts": 3,
-   "time": "2026-11-18T12:26:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-3-ci-429-99-505-2832675/",
-   "asin": "B0CG19QXWD",
-   "pct": 15,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CG19QXWD?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CG19QXWD.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bissell-revolution-hydrosteam-carpet-cleaner-279-29-atl-2832684/",
