@@ -121,3 +121,10 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Menu sur une ligne qui défile et reste collé en haut. Au cellulaire, barre de raccourcis fixe en bas (Vendredi fou, Top 5, Cadeaux, Alertes).
 - Section « Prix de Vendredi fou, déjà là » (demande d'Alex du 13 nov.) : en tête de l'accueil (12 cartes) et sur /vendredi-fou/. Elle se remplit avec le champ `"vf": true` dans suivi/deals_chrome.json. À chaque passe Keepa ou Amazon, mettre vf sur chaque deal avec photo et 30 % ou plus. Le texte ne dit jamais que c'est une offre officielle d'Amazon.
 - L'inscription courriel et les boutons des réseaux passent après les premiers deals (marqueur `<!--NL-->` dans `extra`), pour qu'un deal soit visible dès l'ouverture.
+
+## Palette du site (18 nov. 2026, choix d'Alex : maquette « B2 rouge franc + crème »)
+
+- Chaque couleur a un seul rôle : jaune (#FFC21A) = action seulement (recherche, « Voir le deal », boutons) ; rouge (#C1121F) = marque et urgence (en-tête, prix, onglet actif) ; vert = économie (« Tu économises ») ; crème (#FFF7E8) = fond calme. Bannière Vendredi fou en bordeaux (#3D0A10) avec titre jaune.
+- En-tête de l'accueil en rouge uni (pas de dégradé), titre blanc avec « clic? » en jaune, chercheur blanc sans contour, avec une ombre.
+- Pastilles du menu crème, pas de contour rouge. Un seul affichage du % de rabais par carte (le badge sur la photo).
+- Les règles sont dans le bloc CSS « 18 nov. 2026 : palette B2 » de build.py. Ne pas remettre du rouge sur les boutons ou les pastilles.

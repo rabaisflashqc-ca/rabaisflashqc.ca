@@ -448,6 +448,24 @@ header.home h1{font-size:clamp(32px,8.6vw,56px)!important;line-height:1!importan
 .tri li{background:#fff;border-radius:14px;padding:12px}.tri li b{display:block;color:var(--deep);font-size:18px}.tri li span{font-size:15px;color:var(--muted)}
 .tri .trl{margin:10px 0 0;font-size:15px;font-weight:700}.tri .trl a{color:var(--deep)}
 .sigf{font-weight:700;color:var(--deep)}
+/* --- 18 nov. 2026 : palette B2 choisie par Alex (rouge franc + crème). Jaune = action, rouge = marque et urgence, vert = économie, crème = calme --- */
+body{background:#FFF7E8}
+header.home{background:#C1121F}header.home h1{color:#fff}header.home h1 .hl{color:#FFD23F;font-weight:400}
+.hk{background:#FFD23F;color:#5A0A10}
+.hb li{background:none;border:0;padding:0 10px 0 0;font-weight:600;opacity:.95}
+nav{background:#fff;border-bottom:1px solid #F1E3C8}
+nav a{background:#FFF7E8;border:1px solid #F1DCB4;color:#5A0A10}
+nav a[aria-current]{background:var(--red);border-color:var(--red);color:#fff}
+nav a.vf{background:#FFC21A;border-color:#FFC21A;color:#2A0508}
+.go,.deals .deal .go,.top5 .deal .go{background:#FFC21A;color:#2A0508}
+.vfs{background:#3D0A10;border:0;box-shadow:0 4px 14px rgba(61,10,16,.25)}.vfs strong{color:#FFD23F}.vfs i{background:#FFC21A;color:#2A0508}
+.topbox{background:transparent;border:0}
+.deals .deal,.top5 .deal{border-color:#F1E3C8}
+.deal:has(.pic b) .px span{display:none}
+.deal .px em{color:#146C34}
+.deal .badges span.v{background:#FFF7E8;color:#5A0A10}.deal .badges span.v.hot{background:#FFD23F;color:#5A0A10}
+.tabbar{border-top-color:#F1E3C8}
+body.hw nav a{background:transparent}
 """
 
 BOLT = '<svg width="16" height="26" viewBox="0 0 100 160" aria-hidden="true"><path d="M62 0 L8 92 L44 92 L28 160 L94 58 L58 58 L78 0 Z" fill="#FFC72C"/></svg>'
@@ -458,15 +476,15 @@ RECHERCHE = """<section class="rq" id="recherche" aria-label="Chercher un deal">
 <div class="rq-ch"><span>Populaire :</span><button type="button">Casque</button><button type="button">Aspirateur</button><button type="button">LEGO</button><button type="button">Friteuse à air</button><button type="button">Expresso</button><button type="button">Montre</button><button type="button">Brosse à dents</button><button type="button">Boxers</button></div>
 <div id="rq-r" hidden><p id="rq-m"></p><ul id="rq-l" class="deals"></ul><a id="rq-b" class="rq-go" href="#" target="_blank" rel="sponsored nofollow noopener"></a><a id="rq-t" class="rq-all" href="#" target="_blank" rel="sponsored nofollow noopener"></a></div>
 </section>
-<style>.rq{margin:14px 0 4px;padding:14px;border-radius:20px;background:#fff;color:#1A1A1A;box-shadow:0 10px 28px rgba(0,0,0,.28);border:3px solid #FFC72C}
+<style>.rq{margin:14px 0 4px;padding:14px;border-radius:20px;background:#fff;color:#1A1A1A;box-shadow:0 14px 34px rgba(80,0,8,.38);border:0}
 .rq-t{margin:0 0 8px;font-size:17px}.rq-t b{color:#C1121F}#rq-n{display:block;font-size:14.5px;font-weight:700;color:#0F7A3D}
-#rq-f{display:flex;gap:8px}#rq-q{flex:1;min-width:0;padding:15px 14px;font:inherit;font-size:17px;border:2px solid #C1121F;border-radius:14px;background:#FFF8E1}
-#rq-q:focus{outline:3px solid #FFC72C;outline-offset:1px;background:#fff}
-#rq-f button{flex:none;padding:14px 16px;font:inherit;font-size:17px;font-weight:700;color:#7A0A16;background:#FFC72C;border:0;border-radius:14px;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.25)}
+#rq-f{display:flex;gap:8px}#rq-q{flex:1;min-width:0;padding:15px 14px;font:inherit;font-size:17px;border:1px solid #D9D3CB;border-radius:14px;background:#fff}
+#rq-q:focus{outline:3px solid #FFC72C;outline-offset:1px;border-color:#C1121F}
+#rq-f button{flex:none;padding:14px 16px;font:inherit;font-size:17px;font-weight:700;color:#2A0508;background:#FFC21A;border:0;border-radius:14px;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.25)}
 .rq-ch{display:flex;gap:6px;margin-top:10px;overflow-x:auto;scrollbar-width:none;align-items:center}.rq-ch::-webkit-scrollbar{display:none}.rq-ch span{flex:none;font-size:14px;font-weight:700;color:#5C5C5C}
-.rq-ch button{flex:none;white-space:nowrap;font:inherit;font-size:15px;font-weight:700;padding:6px 12px;border-radius:999px;border:1px solid #ECD7D9;background:#FFF3D1;color:#8E0B16;cursor:pointer}
+.rq-ch button{flex:none;white-space:nowrap;font:inherit;font-size:15px;font-weight:700;padding:6px 12px;border-radius:999px;border:1px solid #F1DCB4;background:#FFF7E8;color:#5A0A10;cursor:pointer}
 #rq-r{margin-top:12px;text-align:center}#rq-m{margin:0 0 10px;font-weight:700;font-size:18px}#rq-l{text-align:left;margin-bottom:12px}
-.rq-go{display:block;padding:15px;font-size:18px;font-weight:700;color:#fff;background:#C1121F;border-radius:14px;text-decoration:none}.rq-all{display:inline-block;margin-top:10px;font-size:15px;color:#5C5C5C}
+.rq-go{display:block;padding:15px;font-size:18px;font-weight:700;color:#2A0508;background:#FFC21A;border-radius:14px;text-decoration:none}.rq-all{display:inline-block;margin-top:10px;font-size:15px;color:#5C5C5C}
 @media (max-width:699px){#rq-f{flex-wrap:wrap}#rq-q{flex-basis:100%}#rq-f button{width:100%;padding:14px;font-size:18px}.rq{margin-top:10px;padding:12px}}</style>
 <script>(function(){var TAG="coupdecoeurqc-20",MIN=15,f=document.getElementById("rq-f"),q=document.getElementById("rq-q"),r=document.getElementById("rq-r"),m=document.getElementById("rq-m"),l=document.getElementById("rq-l"),b=document.getElementById("rq-b"),t=document.getElementById("rq-t");
 function n(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}
@@ -791,7 +809,7 @@ def hero_accueil():
     bas = ('<p class="sig">Le jeu est simple : <b>tu tapes ce que tu veux, on te montre les rabais qui valent le clic.</b> Moins cher, plus vite, et le fun de pogner le bon deal avant tout le monde.</p>'
            + RECHERCHE +
            '<ul class="hb"><li>💰 Tu sauves des $</li><li>😎 Le fun du bon deal</li><li>⏳ Avant que le prix remonte</li></ul>'
-           '<a class="hcta2" href="#top5">🔥 Ou va droit au Top 5 →</a>'
+           '<a class="hcta2" href="#top5">🔥 On va droit au Top 5 →</a>'
            '<p class="hu">⏳ Un prix peut remonter à tout moment, sans avertissement. Si t\'en vois un qui te plaît, fonce!</p>')
     return kick, bas
 
@@ -822,7 +840,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
 <body{" class=\"hw\"" if slug == "halloween" else ""}><header{" class=\"home\"" if slug == "" else ""}>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
-{hero[0] if hero else ""}<h1>{e(h1)}</h1>{hero[1] if hero else '<p class="intro">' + e(intro) + "</p>"}<p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
+{hero[0] if hero else ""}<h1>{e(h1).replace("clic?", "<b class=\"hl\">clic?</b>", 1) if hero else e(h1)}</h1>{hero[1] if hero else '<p class="intro">' + e(intro) + "</p>"}<p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {banner}
 {extra}
