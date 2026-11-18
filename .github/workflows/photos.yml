@@ -1,6 +1,9 @@
 name: Photos des produits
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [suivi/photos_sources.json]
 permissions:
   contents: write
 jobs:
