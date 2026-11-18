@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-18T13:48+00:00",
+ "genere": "2026-11-18T13:50+00:00",
  "produits": [
   {
    "asin": "B0DQY7C2K4",
@@ -980,6 +980,216 @@
    "asin": "B08WK6BZ7V",
    "titre": "Jogging polaire Amazon Essentials pour garçon",
    "prix_affiche": 26.64
+  },
+  {
+   "asin": "B0DLLGG2Z8",
+   "titre": "Brosse à dents électrique Oral-B iO2",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0CPT8W3RV",
+   "titre": "Masques yeux au rétinol grace & stella, 24 paires",
+   "prix_affiche": 19.95
+  },
+  {
+   "asin": "B0CS77B588",
+   "titre": "Crest 3D Whitestrips avec lumière",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B07L5P2J8D",
+   "titre": "Brosses à dents Oral-B Pro 1000, lot de 2",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B07SYD9WY4",
+   "titre": "Sèche-cheveux Conair InfinitiPRO avec diffuseur",
+   "prix_affiche": 34.12
+  },
+  {
+   "asin": "B07SZG537S",
+   "titre": "Rasoir à grille BaBylissPRO FoilFX pour homme",
+   "prix_affiche": 127.49
+  },
+  {
+   "asin": "B0B5HQZ4QB",
+   "titre": "Brosse à dents Oral-B iO Série 3",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0FLKLY8LQ",
+   "titre": "Brosse à dents Oral-B iO Kids Spider-Man",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0DTKL6HFD",
+   "titre": "Philips OneBlade 360 Pro pour homme",
+   "prix_affiche": 79.95
+  },
+  {
+   "asin": "B08FNFCPNL",
+   "titre": "Rasoir rotatif Remington XR7000 pour homme",
+   "prix_affiche": 55.99
+  },
+  {
+   "asin": "B079F981MS",
+   "titre": "Fer plat BaBylissPRO Nano Titanium Optima",
+   "prix_affiche": 172.49
+  },
+  {
+   "asin": "B0BWB1DQ5T",
+   "titre": "Sérum à l'acide hyaluronique grace & stella",
+   "prix_affiche": 13.95
+  },
+  {
+   "asin": "B0HBCXT4NJ",
+   "titre": "Brosse à dents Philips Sonicare 3100",
+   "prix_affiche": 27.95
+  },
+  {
+   "asin": "B01MDVO2GE",
+   "titre": "Fer plat Conair InfinitiPRO titane",
+   "prix_affiche": 37.16
+  },
+  {
+   "asin": "B010942W6Q",
+   "titre": "Sèche-cheveux BaBylissPRO Nano Titanium",
+   "prix_affiche": 78.74
+  },
+  {
+   "asin": "B0G66ZJG3Y",
+   "titre": "Brosse à dents Philips Sonicare 7300",
+   "prix_affiche": 169.95
+  },
+  {
+   "asin": "B0GY29XS3P",
+   "titre": "Sèche-cheveux BaBylissPRO Rapido 2.0",
+   "prix_affiche": 224.99
+  },
+  {
+   "asin": "B003BF8D9G",
+   "titre": "Sèche-cheveux BaBylissPRO TT avec diffuseur",
+   "prix_affiche": 74.99
+  },
+  {
+   "asin": "B01MTLEKNA",
+   "titre": "Hydropulseur AquaSonic Aqua Flosser",
+   "prix_affiche": 42.95
+  },
+  {
+   "asin": "B0HDV6KHX4",
+   "titre": "Coffret cadeau NIVEA Q10",
+   "prix_affiche": 22.24
+  },
+  {
+   "asin": "B0DV1C6PZF",
+   "titre": "Tondeuse BaBylissPRO X Tomb 45 pour homme",
+   "prix_affiche": 209.99
+  },
+  {
+   "asin": "B0B5HR8HX8",
+   "titre": "Brosse à dents Oral-B iO Série 5",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0GWKD65RB",
+   "titre": "Sèche-cheveux Conair Cake Pop rose",
+   "prix_affiche": 41.99
+  },
+  {
+   "asin": "B0DDYDXFSL",
+   "titre": "Coiffeur 4 en 1 Conair DigitalAire",
+   "prix_affiche": 83.46
+  },
+  {
+   "asin": "B014SG66UO",
+   "titre": "Trousse de coupe Remington Shortcut Pro",
+   "prix_affiche": 56.1
+  },
+  {
+   "asin": "B0H6GZ5CHV",
+   "titre": "Fer à friser BaBylissPRO PrecisionGrip",
+   "prix_affiche": 112.49
+  },
+  {
+   "asin": "B0CHX48XCT",
+   "titre": "Crème NEOSTRATA Rebound",
+   "prix_affiche": 80.5
+  },
+  {
+   "asin": "B097QRFR7G",
+   "titre": "Rasoir à grille BaBylissPRO haute vitesse",
+   "prix_affiche": 112.49
+  },
+  {
+   "asin": "B0BN2F767S",
+   "titre": "Sèche-cheveux Remington violet",
+   "prix_affiche": 25.65
+  },
+  {
+   "asin": "B0CQKLX6NL",
+   "titre": "Rasoir Philips série 3000 pour homme",
+   "prix_affiche": 54.95
+  },
+  {
+   "asin": "B0DXW617C3",
+   "titre": "Baguettes à friser Remington 5 en 1",
+   "prix_affiche": 68.54
+  },
+  {
+   "asin": "B0H9B1LYJB",
+   "titre": "Trio de minis Hempz banane tropicale",
+   "prix_affiche": 20.27
+  },
+  {
+   "asin": "B0HFP6DJBS",
+   "titre": "Philips OneBlade 360 Hybrid Face",
+   "prix_affiche": 54.95
+  },
+  {
+   "asin": "B081SHG4F8",
+   "titre": "Tondeuse à cheveux Philips série 5000",
+   "prix_affiche": 39.95
+  },
+  {
+   "asin": "B0G3Y71X9L",
+   "titre": "Crème contour des yeux ATTITUDE",
+   "prix_affiche": 33.74
+  },
+  {
+   "asin": "B0F3JVZS5X",
+   "titre": "Coiffeur Conair 5 en 1 en céramique",
+   "prix_affiche": 74.17
+  },
+  {
+   "asin": "B08586N9J9",
+   "titre": "Brosse à air chaud Conair",
+   "prix_affiche": 33.06
+  },
+  {
+   "asin": "B09GKYSV42",
+   "titre": "Fer à friser conique Remington Shine Therapy",
+   "prix_affiche": 24.01
+  },
+  {
+   "asin": "B0GLN521TM",
+   "titre": "Sèche-cheveux Conair InfinitiPRO infrarouge",
+   "prix_affiche": 57.83
+  },
+  {
+   "asin": "B072BGN1VP",
+   "titre": "Robe de chambre Nautica pour homme",
+   "prix_affiche": 45.33
+  },
+  {
+   "asin": "B00B17P5YW",
+   "titre": "Robe de chambre à carreaux Nautica pour homme",
+   "prix_affiche": 47.17
+  },
+  {
+   "asin": "B07W3T1G7C",
+   "titre": "Brosse à dents Philips Sonicare pour enfants",
+   "prix_affiche": 47.95
   }
  ]
 }
