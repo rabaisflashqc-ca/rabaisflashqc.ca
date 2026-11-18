@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-18T20:42+00:00",
+ "genere": "2026-11-18T22:20+00:00",
  "produits": [
   {
    "asin": "B0DQY7C2K4",
@@ -1190,6 +1190,16 @@
    "asin": "B07W3T1G7C",
    "titre": "Brosse à dents Philips Sonicare pour enfants",
    "prix_affiche": 47.95
+  },
+  {
+   "asin": "B0FSJPFDPV",
+   "titre": "Robot aspirateur et serpillère Dreame L40 Ultra Gen 2",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B0G5Y3LN8M",
+   "titre": "Robot aspirateur et serpillère Dreame D20 Air Plus",
+   "prix_affiche": 259.99
   }
  ]
 }
