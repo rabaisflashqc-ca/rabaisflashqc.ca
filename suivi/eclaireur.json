@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17T21:52-04:00",
+ "date": "2026-11-17T23:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,78 +14,78 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   42,
-   24,
+   43,
+   25,
    [
     "2026-11-11T13:44:20+00:00",
     "2026-11-12T01:58:19+00:00"
    ],
    [
-    "2026-11-17T19:34:49+00:00",
-    "2026-11-17T22:01:45+00:00"
+    "2026-11-18T02:34:47+00:00",
+    "2026-11-18T02:57:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   13,
+   14,
    [
-    "2026-11-14T12:55:56+00:00",
-    "2026-11-14T20:13:36+00:00"
+    "2026-11-14T20:13:36+00:00",
+    "2026-11-14T20:42:25+00:00"
    ],
    [
-    "2026-11-18T00:21:03+00:00",
-    "2026-11-18T00:48:37+00:00"
+    "2026-11-18T02:34:47+00:00",
+    "2026-11-18T02:57:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   30,
+   29,
    [
-    "2026-11-07T15:42:26+00:00",
-    "2026-11-07T22:37:16+00:00"
+    "2026-11-07T22:37:16+00:00",
+    "2026-11-08T18:39:35+00:00"
    ],
    [
-    "2026-11-14T06:28:52+00:00",
-    "2026-11-14T07:47:41+00:00"
+    "2026-11-14T07:47:41+00:00",
+    "2026-11-14T12:55:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-26T19:35:56+00:00",
-    "2026-10-27T00:50:56+00:00"
+    "2026-10-27T00:50:56+00:00",
+    "2026-10-27T03:20:45+00:00"
    ],
    [
-    "2026-11-06T14:20:02+00:00",
-    "2026-11-06T14:57:49+00:00"
+    "2026-11-06T14:57:49+00:00",
+    "2026-11-07T15:42:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-08T14:30:40+00:00",
-    "2026-10-08T15:23:36+00:00"
+    "2026-10-08T15:23:36+00:00",
+    "2026-10-08T16:17:58+00:00"
    ],
    [
-    "2026-10-26T12:14:44+00:00",
-    "2026-10-26T15:52:14+00:00"
+    "2026-10-26T15:52:14+00:00",
+    "2026-10-26T19:35:56+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-07T00:51:57+00:00",
-    "2026-10-07T00:58:52+00:00"
+    "2026-10-07T00:58:52+00:00",
+    "2026-10-07T01:06:05+00:00"
    ],
    [
-    "2026-10-08T11:01:20+00:00",
-    "2026-10-08T13:24:40+00:00"
+    "2026-10-08T13:24:40+00:00",
+    "2026-10-08T14:30:40+00:00"
    ]
   ],
-  "avant_filtre_date": 133,
+  "avant_filtre_date": 132,
   "apres_filtre_date": 45
  },
  "items": [
@@ -94,8 +94,8 @@
    "title": "Carhartt Men's Knit Cuffed Beanie ($13.50)",
    "price": 13.5,
    "was": 27.0,
-   "votes": 40,
-   "posts": 9,
+   "votes": 54,
+   "posts": 14,
    "time": "2026-11-18T00:21:03+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-carhartt-mens-knit-cuffed-beanie-13-50-2832618/",
    "asin": "B01C3LW2KO",
@@ -131,7 +131,7 @@
    "price": 6.25,
    "was": 12.49,
    "votes": 29,
-   "posts": 13,
+   "posts": 15,
    "time": "2026-11-17T18:52:42+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
    "asin": "B08VNWF24S",
@@ -139,8 +139,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B08VNWF24S?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B08VNWF24S.jpg"
   },
   {
@@ -252,6 +252,24 @@
    "img": "/img/p/B0B38KRTV6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
+   "title": "$49.99 - Bosch GLL50-20 Cross Line Laser, Self Leveling, 50ft Range and Magnetic Laser Mount",
+   "price": 49.99,
+   "was": 72.45,
+   "votes": 11,
+   "posts": 19,
+   "time": "2026-11-17T15:42:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
+   "asin": "B0CKJXX4XR",
+   "pct": 31,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0CKJXX4XR?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CKJXX4XR.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "title": "Amazon Basics Standby UPS Battery Backup 800VA - $99.99",
    "price": 99.99,
@@ -268,24 +286,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HDC236Q.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
-   "title": "$49.99 - Bosch GLL50-20 Cross Line Laser, Self Leveling, 50ft Range and Magnetic Laser Mount",
-   "price": 49.99,
-   "was": 72.45,
-   "votes": 10,
-   "posts": 18,
-   "time": "2026-11-17T15:42:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-49-99-bosch-gll50-20-cross-line-laser-self-leveling-50ft-range-magnetic-laser-mount-2832557/",
-   "asin": "B0CKJXX4XR",
-   "pct": 31,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0CKJXX4XR?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CKJXX4XR.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
@@ -342,6 +342,24 @@
    "img": "/img/p/B0G5BMQVWX.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
+   "title": "Corsair CORSAIR RM850x SHIFT Modular ATX PSU - $165",
+   "price": 165.0,
+   "was": 210.0,
+   "votes": 7,
+   "posts": 5,
+   "time": "2026-11-16T14:04:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
+   "asin": "B0FJYN9HP1",
+   "pct": 21,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FJYN9HP1?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
    "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz 85U68QF(2025) on Sale $1,124.95($1,499.99)",
    "price": 1124.9,
@@ -358,42 +376,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F5QTSCGY.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
-   "title": "Corsair CORSAIR RM850x SHIFT Modular ATX PSU - $165",
-   "price": 165.0,
-   "was": 210.0,
-   "votes": 6,
-   "posts": 4,
-   "time": "2026-11-16T14:04:58+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
-   "asin": "B0FJYN9HP1",
-   "pct": 21,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FJYN9HP1?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-kenke-case-keyboard-ipad-air-11-inch-m4-2026-m3-2025-m2-2024-ipad-air-5th-4th-generation-9-99-2832543/",
-   "title": "KenKe Case with Keyboard for iPad Air 11 inch M4 2026/M3 2025/M2 2024, iPad Air 5th/4th Generation - $9.99",
-   "price": 9.99,
-   "was": 19.99,
-   "votes": 6,
-   "posts": 5,
-   "time": "2026-11-17T13:08:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-kenke-case-keyboard-ipad-air-11-inch-m4-2026-m3-2025-m2-2024-ipad-air-5th-4th-generation-9-99-2832543/",
-   "asin": "B0DK958Q3Y",
-   "pct": 50,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DK958Q3Y?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0DK958Q3Y.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-dt201c-foodi-10-1-xl-pro-air-fry-oven-199-99-2831906/",
@@ -448,6 +430,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CSDVLYVS.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
+   "title": "Bounty Paper Towels Select-A-Size White, 8 Double Plus Rolls = 20 regular rolls $19.98",
+   "price": 19.98,
+   "was": 29.98,
+   "votes": 5,
+   "posts": 11,
+   "time": "2026-11-18T00:48:37+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
+   "asin": "B0DX7JTJ7N",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DX7JTJ7N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DX7JTJ7N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
@@ -610,24 +610,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07649SXQ8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
-   "title": "Bounty Paper Towels Select-A-Size White, 8 Double Plus Rolls = 20 regular rolls $19.98",
-   "price": 19.98,
-   "was": 29.98,
-   "votes": 2,
-   "posts": 0,
-   "time": "2026-11-18T00:48:37+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
-   "asin": "B0DX7JTJ7N",
-   "pct": 33,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DX7JTJ7N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DX7JTJ7N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
@@ -880,6 +862,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLWCJSC3.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
+   "title": "USB-C Bluetooth 5.3 Dongle (PC/Ps5/Switch2) - $25.73",
+   "price": 25.73,
+   "was": 38.99,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-18T02:34:47+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
+   "asin": "B0D7CKV1J8",
+   "pct": 34,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0D7CKV1J8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D7CKV1J8.jpg"
   }
  ]
 }
