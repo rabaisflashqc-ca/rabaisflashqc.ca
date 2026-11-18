@@ -247,7 +247,7 @@ def club():
     return ('<section class="club" aria-label="Rejoins la gang"><h2>🔔 Ne paie plus jamais le gros prix</h2>'
             '<p>Rejoins la gang et reçois <b>gratuitement</b> les meilleures aubaines avant tout le monde :</p>'
             '<ul><li>🔥 Les deals du <b>Vendredi fou</b> en primeur</li><li>🎁 Le <b>Guide cadeaux</b> de Noël par budget</li><li>⚡ Les offres éclair avant qu\'elles disparaissent</li></ul>'
-            + form +
+            + form + SPAM_NOTE +
             f'<div class="social"><a href="{FB}" target="_blank" rel="noopener"><b>👍</b>Aime la page</a>'
             f'<a href="{FB}" target="_blank" rel="noopener"><b>🔔</b>Active les notifs</a>'
             f'<a href="{TT}" target="_blank" rel="noopener"><b>🎵</b>TikTok</a>'
@@ -465,6 +465,8 @@ nav a.vf{background:#FFC21A;border-color:#FFC21A;color:#2A0508}
 .deal .px em{color:#146C34}
 .deal .badges span.v{background:#FFF7E8;color:#5A0A10}.deal .badges span.v.hot{background:#FFD23F;color:#5A0A10}
 .tabbar{border-top-color:#F1E3C8}
+.spamn{max-width:460px;margin:12px auto 4px;padding:10px 12px;border-radius:12px;background:#FFF7E8;color:#2A0508;font-size:15px;line-height:1.35;text-align:left}.spamn b{color:#8E0B16}
+.spams{max-width:620px;margin:18px auto;padding:16px 18px;border-radius:16px;background:#fff;border:2px solid #FFC21A}.spams h2{margin:0 0 8px;font-size:22px;color:#8E0B16}.spams ol{margin:0;padding-left:22px}.spams li{margin:6px 0}
 body.hw nav a{background:transparent}
 """
 
@@ -574,13 +576,21 @@ def deal_html(d):
 IG = "https://www.instagram.com/rabaisflashqc/"
 TT = "https://www.tiktok.com/@rabais.flash.qc"
 SHOP = "https://www.amazon.ca/shop/coupdecoeurqc"
+SPAM_NOTE = ('<p class="spamn"><b>📥 Important après ton inscription :</b> notre premier courriel arrive souvent dans tes <b>pourriels (spams)</b> ou dans l\'onglet Promotions. '
+             'Va le chercher et clique <b>« Ce n\'est pas un spam »</b>. Sans ça, les courriels suivants risquent de ne jamais apparaître dans ta boîte de réception.</p>')
+SPAM_STEPS = ('<div class="spams"><h2>Pour recevoir nos courriels, 3 étapes</h2><ol>'
+              '<li><b>Inscris-toi</b> avec le bouton ci-dessus.</li>'
+              '<li><b>Va voir dans tes pourriels (spams)</b>, et sur Gmail dans l\'onglet Promotions aussi. Notre premier courriel atterrit presque toujours là.</li>'
+              '<li><b>Ouvre-le et clique « Ce n\'est pas un spam »</b> (ou glisse-le dans ta boîte principale), puis ajoute-nous à tes contacts. C\'est ce qui permet aux courriels suivants d\'arriver au bon endroit.</li>'
+              '</ol></div>')
+
 def inscr():
     """Encadré vendeur en haut de chaque page : inscription aux deals par courriel (formulaire Google d'Alex)."""
     return ('<section class="nl" aria-label="Reçois les deals par courriel"><p class="nlk">📬 GRATUIT · 1 à 2 courriels par jour</p>'
             '<p class="nlh">Les rabais qui valent le clic,<br>direct dans ta boîte courriel</p>'
             '<p class="nls">On fouille des milliers de rabais chaque jour. Toi, tu reçois juste ceux qui passent notre tri : <b>vrais prix, gros %, marques connues.</b></p>'
             '<ul><li>⚡ Les offres éclair <b>avant qu\'elles disparaissent</b></li><li>🔥 Le <b>Vendredi fou</b> (27 nov.) en primeur</li><li>🎁 Des idées cadeaux pour toute la famille</li></ul>'
-            f'<a class="nlb" href="{FORM}" target="_blank" rel="noopener">Je m\'inscris gratuitement 👉</a>'
+            f'<a class="nlb" href="{FORM}" target="_blank" rel="noopener">Je m\'inscris gratuitement 👉</a>' + SPAM_NOTE +
             '<p class="nlp">Ton courriel sert seulement à t\'envoyer nos aubaines. Zéro pourriel. Tu peux te désabonner en tout temps.</p></section>')
 
 def clubbar():
@@ -1307,7 +1317,7 @@ def main():
     write("courriel", simple("courriel", "Les deals du jour par courriel, gratuit | Rabais Flash QC", "📬 Les deals du jour par courriel",
           '<p>Chaque jour, on trie des milliers de rabais pour toi et on t\'envoie seulement les meilleurs : vrais prix, gros %, marques connues. '
           'C\'est <b>gratuit</b>, 1 à 2 courriels par jour, et tu peux te désabonner en tout temps.</p>'
-          f'<p style="text-align:center;margin:18px 0"><a class="nlb" href="{FORM}" target="_blank" rel="noopener">Je m\'inscris gratuitement 👉</a></p>'))
+          f'<p style="text-align:center;margin:18px 0"><a class="nlb" href="{FORM}" target="_blank" rel="noopener">Je m\'inscris gratuitement 👉</a></p>' + SPAM_STEPS))
     write("a-propos", simple("a-propos", "À propos de Rabais Flash QC", "À propos",
         "<h2>Qui on est</h2><p>Rabais Flash QC, c'est un entrepreneur du Québec, pour le Québec. Tout coûte plus cher, alors on fait le tri des aubaines d'Amazon.ca pour te faire gagner du temps et de l'argent.</p>"
         "<h2>Pourquoi « Flash »?</h2><p>Parce que les meilleurs rabais ne durent pas. Certains disparaissent en quelques heures, et Amazon ou la marque peut changer le prix ou arrêter l'offre à tout moment, sans nous prévenir. On ne peut donc pas garantir qu'un rabais sera encore là quand tu cliques. C'est pour ça qu'on met le site à jour plusieurs fois par jour, et qu'on te conseille de ne pas trop attendre.</p>"
