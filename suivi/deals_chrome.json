@@ -3066,5 +3066,31 @@
   "source": "amazon",
   "ref": "conseille",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07W3T1G7C.01.L.jpg"
+ },
+ {
+  "asin": "B0FSJPFDPV",
+  "title": "Robot aspirateur et serpillère Dreame L40 Ultra Gen 2",
+  "cat": "maison",
+  "price": 599.99,
+  "was": 799.99,
+  "pct": 25,
+  "seen": "2026-11-18T16:25-05:00",
+  "until": "2026-11-19T16:25-05:00",
+  "source": "keepa",
+  "record": true,
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0FSJPFDPV.01.L.jpg"
+ },
+ {
+  "asin": "B0G5Y3LN8M",
+  "title": "Robot aspirateur et serpillère Dreame D20 Air Plus",
+  "cat": "maison",
+  "price": 259.99,
+  "was": 349.99,
+  "pct": 26,
+  "seen": "2026-11-18T16:25-05:00",
+  "until": "2026-11-19T16:25-05:00",
+  "source": "keepa",
+  "record": true,
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0G5Y3LN8M.01.L.jpg"
  }
 ]
