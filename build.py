@@ -1073,7 +1073,30 @@ def prevf_list():
     L = [x for x in KEEPA_FRAIS.values() if x.get("vf") and x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
          and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
     L.sort(key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
-    return [{**x, "verifie": x["seen"]} for x in L]
+    return [{**x, "verifie": x["seen"]} for x in _varier(L)]
+
+_MARQUES = re.compile(r"\b(Blink|Ring|eufy|Tapo|Arlo|Google|JBL|Bose|Sony|Anker|Soundcore|Samsung|Fujifilm|Canon|Nothing|Oral-B|Philips|Sonicare|Crest|Aquasonic|AquaSonic|BaBylissPRO|Conair|InfinitiPRO|Remington|grace & stella|NIVEA|NEOSTRATA|ATTITUDE|Hempz|Ninja|Shark|BISSELL|Hoover|Cuisinart|Nespresso|De'Longhi|Braun|Cosori|Chefman|FoodSaver|HexClad|HENCKELS|Lagostina|Rubbermaid|Thermos|Stanley|Levi|Signature by Levi|Carhartt|SAXX|Nautica|Amazon Essentials|Amazon Basics|Shapermint|Karl Lagerfeld|DKNY|Dockers|Aeropostale|PUMA|LEGO|Magna-Tiles|Melissa & Doug|Our Generation|B\\. toys|Crayola|Hot Wheels|National Geographic|Laura Ashley|Eddie Bauer|The North Face|Under Armour|Hanes|Crocs|DEWALT|SINGER|Roborock|Yankee Candle|Litter Genie)\b", re.I)
+_ORDRE_CATS = ["beaute", "femme", "jouets", "maison", "homme", "enfants", "animaux", "tech", "plein-air"]
+
+def _marque(t):
+    m = _MARQUES.search(t or "")
+    return (m.group(1).lower().replace("signature by levi", "levi") if m else (t or "").split(" ")[-1].lower())
+
+def _varier(L):
+    """Variété (demande d'Alex du 18 nov.) : une carte par marque d'abord, catégories en alternance (beauté, femme, jouets, maison, homme...),
+    puis le reste dans l'ordre d'origine. L doit déjà être trié (photo d'abord, plus gros rabais)."""
+    par_cat = {}
+    vus, reste = set(), []
+    for x in L:
+        b = _marque(x["title"])
+        if b in vus: reste.append(x); continue
+        vus.add(b); par_cat.setdefault(x.get("cat", ""), []).append(x)
+    cats = [c for c in _ORDRE_CATS if c in par_cat] + [c for c in par_cat if c not in _ORDRE_CATS]
+    out = []
+    while any(par_cat.get(c) for c in cats):
+        for c in cats:
+            if par_cat.get(c): out.append(par_cat[c].pop(0))
+    return out + reste
 
 def prevf_block(n=None):
     """Section mise en avant (demande d'Alex du 10 nov.) : les offres pré-Vendredi fou d'Amazon. n = nombre de cartes (accueil), None = toutes."""
