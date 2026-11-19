@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19T18:28-04:00",
+ "date": "2026-11-19T19:04-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,72 +21,72 @@
     "2026-11-13T16:46:34+00:00"
    ],
    [
-    "2026-11-19T21:50:22+00:00",
-    "2026-11-19T21:56:11+00:00"
+    "2026-11-19T21:56:11+00:00",
+    "2026-11-19T22:33:21+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    11,
    [
-    "2026-11-19T14:32:02+00:00",
-    "2026-11-19T14:56:38+00:00"
+    "2026-11-19T14:56:38+00:00",
+    "2026-11-19T15:00:47+00:00"
    ],
    [
-    "2026-11-19T21:50:22+00:00",
-    "2026-11-19T21:56:11+00:00"
+    "2026-11-19T21:56:11+00:00",
+    "2026-11-19T22:33:21+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    15,
    [
-    "2026-11-17T05:58:30+00:00",
-    "2026-11-17T06:11:53+00:00"
+    "2026-11-17T06:11:53+00:00",
+    "2026-11-17T07:02:58+00:00"
    ],
    [
-    "2026-11-19T14:24:40+00:00",
-    "2026-11-19T14:27:26+00:00"
+    "2026-11-19T14:27:26+00:00",
+    "2026-11-19T14:32:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   21,
+   20,
    [
-    "2026-11-12T16:13:12+00:00",
-    "2026-11-12T17:30:51+00:00"
+    "2026-11-12T17:30:51+00:00",
+    "2026-11-12T17:47:06+00:00"
    ],
    [
-    "2026-11-17T05:37:39+00:00",
-    "2026-11-17T05:48:50+00:00"
+    "2026-11-17T05:48:50+00:00",
+    "2026-11-17T05:58:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-11-03T04:59:26+00:00",
-    "2026-11-03T05:10:25+00:00"
+    "2026-11-03T05:10:25+00:00",
+    "2026-11-03T05:20:01+00:00"
    ],
    [
-    "2026-11-12T13:26:32+00:00",
-    "2026-11-12T13:51:13+00:00"
+    "2026-11-12T13:51:13+00:00",
+    "2026-11-12T16:13:12+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-20T01:00:56+00:00",
-    "2026-10-20T10:08:42+00:00"
+    "2026-10-20T10:08:42+00:00",
+    "2026-10-20T23:45:11+00:00"
    ],
    [
-    "2026-11-03T04:26:20+00:00",
-    "2026-11-03T04:34:26+00:00"
+    "2026-11-03T04:34:26+00:00",
+    "2026-11-03T04:59:26+00:00"
    ]
   ],
   "avant_filtre_date": 136,
-  "apres_filtre_date": 85
+  "apres_filtre_date": 86
  },
  "items": [
   {
@@ -94,18 +94,18 @@
    "title": "SABRE Protector Spray Multipack$ 6.50",
    "price": 6.5,
    "was": 22.5,
-   "votes": 52,
-   "posts": 15,
+   "votes": 57,
+   "posts": 18,
    "time": "2026-11-19T19:23:38+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-sabre-protector-spray-multipack-6-50-2832925/",
-   "asin": "B0BPW94MYF",
+   "asin": "B007FG77BW",
    "pct": 71,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BPW94MYF?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B007FG77BW?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BPW94MYF.jpg"
+   "img": "/img/p/B007FG77BW.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ps5-dualsense-wireless-controller-69-99-early-black-friday-2832388/",
@@ -238,7 +238,7 @@
    "title": "DEAL SOLD OUT - Tonka - Steel Classics Mighty Dump Truck FFP - $38.47 (was $84.70)",
    "price": 38.47,
    "was": 84.7,
-   "votes": 12,
+   "votes": 11,
    "posts": 7,
    "time": "2026-11-19T13:59:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-deal-sold-out-tonka-steel-classics-mighty-dump-truck-ffp-38-47-84-70-2832837/",
@@ -250,6 +250,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07ZS7J192.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lutron-ma-t51mn-wh-maestro-3-amp-600-watt-countdown-timer-control-switch-39-99-20-off-2832842/",
+   "title": "Lutron MA-T51MN-WH Maestro 3-Amp/600 Watt Countdown Timer Control Switch - $39.99 (20% off)",
+   "price": 39.99,
+   "was": 49.99,
+   "votes": 11,
+   "posts": 7,
+   "time": "2026-11-19T14:14:48+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lutron-ma-t51mn-wh-maestro-3-amp-600-watt-countdown-timer-control-switch-39-99-20-off-2832842/",
+   "asin": "B0C9W9GSF7",
+   "pct": 20,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0C9W9GSF7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C9W9GSF7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
@@ -270,22 +288,22 @@
    "img": "/img/p/B01HDC236Q.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lutron-ma-t51mn-wh-maestro-3-amp-600-watt-countdown-timer-control-switch-39-99-20-off-2832842/",
-   "title": "Lutron MA-T51MN-WH Maestro 3-Amp/600 Watt Countdown Timer Control Switch - $39.99 (20% off)",
-   "price": 39.99,
-   "was": 49.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-elden-ring-playstation-5-29-99-2832903/",
+   "title": "Elden Ring - PlayStation 5 $29.99",
+   "price": 29.99,
+   "was": 64.99,
    "votes": 10,
    "posts": 7,
-   "time": "2026-11-19T14:14:48+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lutron-ma-t51mn-wh-maestro-3-amp-600-watt-countdown-timer-control-switch-39-99-20-off-2832842/",
-   "asin": "B0C9W9GSF7",
-   "pct": 20,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0C9W9GSF7?tag=coupdecoeurqc-20",
+   "time": "2026-11-19T17:37:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elden-ring-playstation-5-29-99-2832903/",
+   "asin": "B09743F8P6",
+   "pct": 54,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B09743F8P6?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0C9W9GSF7.jpg"
+   "img": "/img/p/B09743F8P6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
@@ -322,24 +340,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FYPW5CFP.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-elden-ring-playstation-5-29-99-2832903/",
-   "title": "Elden Ring - PlayStation 5 $29.99",
-   "price": 29.99,
-   "was": 64.99,
-   "votes": 9,
-   "posts": 7,
-   "time": "2026-11-19T17:37:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-elden-ring-playstation-5-29-99-2832903/",
-   "asin": "B09743F8P6",
-   "pct": 54,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09743F8P6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09743F8P6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
@@ -401,7 +401,7 @@
    "price": 248.99,
    "was": 449.99,
    "votes": 8,
-   "posts": 11,
+   "posts": 12,
    "time": "2026-11-19T16:11:10+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
    "asin": "B0FC33ZF1B",
@@ -707,7 +707,7 @@
    "price": 43.53,
    "was": 54.87,
    "votes": 5,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-19T16:35:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
    "asin": "B0DV3XNC3C",
@@ -882,6 +882,24 @@
    "img": "/img/p/B0FQJH54TR.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
+   "title": "VIOFO A119M Pro 4K HDR Mini Dash Cam - $189.99 (was $259.99)",
+   "price": 189.99,
+   "was": 259.99,
+   "votes": 3,
+   "posts": 8,
+   "time": "2026-11-19T14:32:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
+   "asin": "B0C9TBZF8X",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0C9TBZF8X?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C9TBZF8X.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-american-tourister-stratum-xlt-2pc-set-co-l-atl-102-39-2832887/",
    "title": "American Tourister Stratum XLT 2pc Set (CO/L) - ATL - $102.39",
    "price": 102.39,
@@ -934,6 +952,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BS1PRC4L.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-energizer-ultimate-lithium-aa-batteries-8-pack-15-19-2832952/",
+   "title": "Amazon: Energizer Ultimate Lithium AA Batteries (8 Pack) $15.19",
+   "price": 15.19,
+   "was": null,
+   "votes": 3,
+   "posts": 1,
+   "time": "2026-11-19T21:50:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-energizer-ultimate-lithium-aa-batteries-8-pack-15-19-2832952/",
+   "asin": "B00EAKP8S0",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00EAKP8S0?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00EAKP8S0.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
@@ -1062,24 +1098,6 @@
    "img": "/img/p/B00FZPRUTY.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
-   "title": "VIOFO A119M Pro 4K HDR Mini Dash Cam - $189.99 (was $259.99)",
-   "price": 189.99,
-   "was": 259.99,
-   "votes": 2,
-   "posts": 8,
-   "time": "2026-11-19T14:32:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
-   "asin": "B0C9TBZF8X",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C9TBZF8X?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C9TBZF8X.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-msi-pro-a1000pl-80-platinum-fully-modular-power-supply-179-atl-2832853/",
    "title": "MSI Pro A1000PL 80+ Platinum Fully Modular Power Supply - $179 ATL",
    "price": 179.0,
@@ -1121,7 +1139,7 @@
    "price": 115.99,
    "was": 149.99,
    "votes": 2,
-   "posts": 0,
+   "posts": 3,
    "time": "2026-11-19T16:54:18+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-toshiba-0-9-cu-ft-900w-microwave-sound-off-115-99-2832893/",
    "asin": "B09NR6NSX7",
@@ -1242,24 +1260,6 @@
    "img": "/img/p/B0BV19S4QW.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-coop-adjustable-pillow-king-queen-back-side-sleepers-2832882/",
-   "title": "Coop Adjustable Pillow - King / Queen (for back and side sleepers)",
-   "price": 113.6,
-   "was": 142.0,
-   "votes": 1,
-   "posts": 5,
-   "time": "2026-11-19T16:25:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-coop-adjustable-pillow-king-queen-back-side-sleepers-2832882/",
-   "asin": "B00EINBSJ2",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00EINBSJ2?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00EINBSJ2.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
    "title": "NVME Docking Station - $28.79",
    "price": 28.79,
@@ -1276,6 +1276,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B084ZKLQR8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-meross-matter-smart-thermostat-electric-baseboard-heaters-93-49-2832936/",
+   "title": "Meross Matter Smart Thermostat for Electric Baseboard Heaters - $93.49",
+   "price": 93.49,
+   "was": 109.99,
+   "votes": 1,
+   "posts": 3,
+   "time": "2026-11-19T20:03:47+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-meross-matter-smart-thermostat-electric-baseboard-heaters-93-49-2832936/",
+   "asin": "B0FSZNYLZ8",
+   "pct": 15,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FSZNYLZ8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FSZNYLZ8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-apple-watch-series-12-479-42mm-549-46mm-2832942/",
@@ -1301,7 +1319,7 @@
    "price": 799.0,
    "was": null,
    "votes": 1,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-19T20:28:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-breville-smart-oven-pizzaiolo-799-2832944/",
    "asin": "B08R8YZR32",
@@ -1312,42 +1330,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B08R8YZR32.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-energizer-ultimate-lithium-aa-batteries-8-pack-15-19-2832952/",
-   "title": "Amazon: Energizer Ultimate Lithium AA Batteries (8 Pack) $15.19",
-   "price": 15.19,
-   "was": null,
-   "votes": 1,
-   "posts": 1,
-   "time": "2026-11-19T21:50:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-energizer-ultimate-lithium-aa-batteries-8-pack-15-19-2832952/",
-   "asin": "B00EAKP8S0",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00EAKP8S0?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00EAKP8S0.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
-   "title": "Mini Electric Bike Pump with Gauge, 120PSI Rechargeable - $39.41",
-   "price": 39.41,
-   "was": 79.99,
-   "votes": 1,
-   "posts": 1,
-   "time": "2026-11-19T21:56:11+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
-   "asin": "B0GGBH6JHV",
-   "pct": 51,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0GGBH6JHV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GGBH6JHV.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
@@ -1476,12 +1458,30 @@
    "img": "/img/p/B0DFCMJH5L.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-coop-adjustable-pillow-king-queen-back-side-sleepers-2832882/",
+   "title": "Coop Adjustable Pillow - King / Queen (for back and side sleepers)",
+   "price": 113.6,
+   "was": 142.0,
+   "votes": 0,
+   "posts": 5,
+   "time": "2026-11-19T16:25:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-coop-adjustable-pillow-king-queen-back-side-sleepers-2832882/",
+   "asin": "B00EINBSJ2",
+   "pct": 20,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00EINBSJ2?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00EINBSJ2.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-329-hp-omnibook-3-laptop-ai-16-ct0010ca-windows-11-home-16-snapdragon-x-8gb-ram-128gb-ufs-2k-2832902/",
    "title": "$329 - HP OmniBook 3 Laptop AI 16-ct0010ca, Windows 11 Home, 16\", Snapdragon® X, 8GB RAM, 128GB UFS, 2K",
    "price": 329.0,
    "was": 715.22,
    "votes": 0,
-   "posts": 4,
+   "posts": 6,
    "time": "2026-11-19T17:21:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-329-hp-omnibook-3-laptop-ai-16-ct0010ca-windows-11-home-16-snapdragon-x-8gb-ram-128gb-ufs-2k-2832902/",
    "asin": "B0HDTZBZVC",
@@ -1530,24 +1530,6 @@
    "img": "/img/p/B08JHGGNXF.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-meross-matter-smart-thermostat-electric-baseboard-heaters-93-49-2832936/",
-   "title": "Meross Matter Smart Thermostat for Electric Baseboard Heaters - $93.49",
-   "price": 93.49,
-   "was": 109.99,
-   "votes": 0,
-   "posts": 3,
-   "time": "2026-11-19T20:03:47+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-meross-matter-smart-thermostat-electric-baseboard-heaters-93-49-2832936/",
-   "asin": "B0FSZNYLZ8",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FSZNYLZ8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FSZNYLZ8.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dry-cat-food-liveclear-chicken-rice-7-26-kg-bag-2832938/",
    "title": "Dry Cat Food, LiveClear Chicken & Rice - 7.26 kg Bag",
    "price": 70.0,
@@ -1571,7 +1553,7 @@
    "price": 281.59,
    "was": 319.99,
    "votes": 0,
-   "posts": 2,
+   "posts": 3,
    "time": "2026-11-19T21:25:08+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-48v-16-cordless-snow-shovel-wheels-281-59-2832950/",
    "asin": "B0C68R6KWN",
@@ -1582,6 +1564,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C68R6KWN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
+   "title": "Mini Electric Bike Pump with Gauge, 120PSI Rechargeable - $39.41",
+   "price": 39.41,
+   "was": 79.99,
+   "votes": 0,
+   "posts": 3,
+   "time": "2026-11-19T21:56:11+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
+   "asin": "B0GGBH6JHV",
+   "pct": 51,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0GGBH6JHV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0GGBH6JHV.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-99-amazon-2832962/",
+   "title": "Littman Classic iii - $99 - Amazon",
+   "price": 99.0,
+   "was": 132.0,
+   "votes": 0,
+   "posts": 1,
+   "time": "2026-11-19T22:33:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-99-amazon-2832962/",
+   "asin": "B01CS2OOMM",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01CS2OOMM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01CS2OOMM.jpg"
   }
  ]
 }
