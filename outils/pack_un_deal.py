@@ -30,9 +30,15 @@ def shot(pw, html, size, tmp, nom):
 def main():
     date, asin, hk = sys.argv[1:4]
     d = {x["asin"]: x for x in json.load(open("suivi/deals_chrome.json"))}[asin]
+    sys.path.insert(0, str(ROOT / "outils")); import registre  # pause de 30 jours (option --forcer pour passer outre)
+    st, why = registre.etat(asin, d["price"], date)
+    if st == "pause" and "--forcer" not in sys.argv:
+        sys.exit(f"PAUSE 30 JOURS : {why}\nChoisis un autre produit (ou --forcer).")
     y, m, dd = map(int, date.split("-")); jour = f"{dd} {MOIS[m-1]}."; tag = f"{dd}{MOIS[m-1]}"
     tmp = pathlib.Path(tempfile.mkdtemp()); pack.OUT.mkdir(parents=True, exist_ok=True)
-    fin = doc('<h1 class="an" style="font-size:120px;line-height:1.08;margin-top:260px;text-align:center">LE LIEN EST<br>SUR LE SITE 👇</h1><div style="margin:50px 56px 0;text-align:center"><span style="display:inline-block;background:#fff;color:#C1121F;border-radius:30px;padding:24px 44px;font-family:Anton,Impact,sans-serif;font-size:104px">rabaisflashqc.ca</span></div><p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:60px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>', 1920, f"Prix observé le {jour}, il peut changer")
+    mot = sys.argv[4] if len(sys.argv) > 4 and not sys.argv[4].startswith("--") else ""
+    cta = (f"CHERCHE « {e(mot.upper())} » DANS LA RECHERCHE DU SITE" if mot else "TU CHERCHES AUTRE CHOSE? UTILISE LA RECHERCHE DU SITE")
+    fin = doc(f'<h1 class="an" style="font-size:120px;line-height:1.08;margin-top:260px;text-align:center">LE LIEN EST<br>SUR LE SITE 👇</h1><div style="margin:50px 56px 0;text-align:center"><span style="display:inline-block;background:#fff;color:#C1121F;border-radius:30px;padding:24px 44px;font-family:Anton,Impact,sans-serif;font-size:104px">rabaisflashqc.ca</span></div><p style="color:#FFC72C;font-family:Anton,Impact,sans-serif;font-size:62px;text-align:center;padding:0 60px;margin-top:56px;line-height:1.15">🔎 {cta}</p><p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:40px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>', 1920, f"Prix observé le {jour}, il peut changer")
     with sync_playwright() as pw:
         im = shot(pw, doc(carte(d, hk, jour, 170, 64), 1350, "Prix observé, il peut changer · prix final sur le site"), (1080,1350), tmp, "im")
         (pack.OUT/f"post-{tag}-matin.png").write_bytes(im.read_bytes())

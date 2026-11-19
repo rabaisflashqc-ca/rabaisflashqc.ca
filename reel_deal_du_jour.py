@@ -43,7 +43,8 @@ def slides_for(n, a, t, ic, av, pr, court, pc):
               f'<div style="font-size:30px;color:#555;margin-top:18px">prix observé le {OB}</div></div>')
     s3 = page(f'<h1 class="an" style="font-size:118px;line-height:1.1;margin-top:300px">TU L’AURAIS PAYÉ<br>COMBIEN? 👇</h1>'
               f'<h2 style="font-size:62px">Abonne-toi pour le<br>Deal du jour #{n + 1} 🔔</h2>'
-              f'<div class="site">rabaisflashqc.ca</div>'
+              f'<div class="site">rabaisflashqc.ca/tt</div>'
+              f'<p style="color:#fff;font-size:44px;font-weight:700;text-align:center;padding:0 60px;margin-top:34px">🔎 Tu cherches autre chose?<br>Tape-le dans la recherche du site</p>'
               f'<p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:50px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>', foot=False)
     return [(s1, 1.9), (s2, 4.7), (s3, 2.8)]
 

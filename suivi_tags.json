@@ -1,0 +1,5 @@
+{
+  "_aide": "Alex : crée les identifiants de suivi dans Amazon Associés (Outils > Gérer les identifiants de suivi), puis colle-les ici. Un identifiant vide garde coupdecoeurqc-20. Le journal reçoit les mots cherchés : voir outils/recherches.py.",
+  "tags": {"fb": "", "ig": "", "tt": "", "nl": "", "rech": ""},
+  "journal": {"url": "", "q": "", "n": "", "src": ""}
+}
