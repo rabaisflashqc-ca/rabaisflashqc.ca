@@ -10,7 +10,7 @@ Le pack doit contenir une section « ## Données (ne pas publier) » avec un blo
 price_verified_at = heure réelle où le prix a été lu (champ seen de deals_chrome.json), jamais l'heure d'un scan
 qui n'a pas lu le prix. discovered_at = moment où l'offre a été repérée (information seulement).
 """
-import json, re, sys
+import json, os, re, sys
 from datetime import datetime, timezone, timedelta
 
 MENTION = "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
@@ -18,6 +18,8 @@ SOURCES_OK = {"keepa", "amazon"}  # "amazon" : page de deals amazon.ca envoyée 
 TEXTES = ["Facebook", "Premier commentaire Facebook", "Instagram", "TikTok"]
 from zoneinfo import ZoneInfo
 QC = ZoneInfo("America/Toronto")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import registre  # pause de 30 jours (plan du 19 nov. 2026)
 
 
 def iso(s):
@@ -117,7 +119,22 @@ def main():
             check(False, f"{n} : % calculable")
         lv = v.astimezone(QC)
         heures_ok.add(f"{lv.hour} h {lv.minute:02d}")
-    # 3. Aucune heure inventée : chaque « à H h MM » des textes doit être une heure de vérification réelle
+    # 3. Pause de 30 jours : un produit déjà publié ne revient pas, sauf si son prix a baissé (suivi/publies.json, outils/registre.py)
+    reg, nom_pack, pauses = registre.charger(), os.path.basename(pack_path), []
+    for d in deals:
+        if not d.get("asin") or d.get("price") in (None, ""):
+            continue
+        st, why = registre.etat(d["asin"], float(d["price"]), now.astimezone(QC).date(), pack=nom_pack, reg=reg)
+        n = d.get("nom") or d["asin"]
+        if st == "pause":
+            pauses.append(f"{n} : {why}")
+        elif st == "levee":
+            ok.append(f"{n} : repris parce que le prix a baissé ({why})")
+    tolere = 0 if len(deals) == 1 else registre.TOLERE_SELECTION
+    check(len(pauses) <= tolere, "pause de 30 jours respectée" + ("" if not pauses else " : " + " | ".join(pauses)))
+    if pauses and len(pauses) <= tolere:
+        ok.append("produit déjà publié toléré dans une sélection (" + pauses[0] + ")")
+    # 4. Aucune heure inventée : chaque « à H h MM » des textes doit être une heure de vérification réelle
     for h in set(re.findall(r"à (\d{1,2} h \d{2})", tous)):
         check(h in heures_ok, f"heure « {h} » des textes = une vraie heure de vérification")
     return fin(ok, erreurs)

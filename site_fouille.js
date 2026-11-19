@@ -30,6 +30,7 @@ function carte(x){var u="https://www.amazon.ca/dp/"+x.a+"?tag="+TAG;
  +(x.e>=1?'<p class="fe">Tu économises '+x.e+' $</p>':'')+(x.v?'<p class="fv">'+esc(x.v)+'</p>':'')
  +'<p class="fd">Prix observé le '+esc(x.d)+'</p><span class="fb">Voir le deal 👉</span></a></li>'}
 function go(){var p=parse(q.value),L=D.filter(function(x){return ok(x,p)});L.sort(TRI[tri.value]||TRI.best);
+ if(window.rfqLog&&q.value.trim())rfqLog(q.value,L.length);
  cpt.textContent=L.length===D.length?D.length+" rabais vérifiés, tous ici":L.length+" rabais trouvés sur "+D.length;
  lst.innerHTML=L.length?L.slice(0,vus).map(carte).join(""):'<li class="fz">Rien pour ça en ce moment. Essaie un mot plus court ou enlève un filtre. Les deals changent chaque jour!</li>';
  plus.hidden=L.length<=vus;plus.textContent="Voir "+Math.min(PAS,L.length-vus)+" rabais de plus ("+(L.length-vus)+" restants)";

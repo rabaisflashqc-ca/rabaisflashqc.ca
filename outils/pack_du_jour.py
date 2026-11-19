@@ -25,6 +25,11 @@ def main():
     date, asins = sys.argv[1], sys.argv[2:]
     src = {d["asin"]: d for d in json.load(open(ROOT/"suivi/deals_chrome.json"))}
     deals = [src[a] for a in asins]
+    import registre  # pause de 30 jours : refuse les produits déjà publiés sauf prix en baisse (option --forcer pour passer outre)
+    if "--forcer" not in sys.argv:
+        pauses = [f'{d["asin"]} {registre.etat(d["asin"], d["price"], date)[1]}' for d in deals if registre.etat(d["asin"], d["price"], date)[0] == "pause"]
+        if len(pauses) > registre.TOLERE_SELECTION:
+            sys.exit("PAUSE 30 JOURS : " + " | ".join(pauses) + "\nChoisis d'autres produits (ou --forcer).")
     y, m, dd = map(int, date.split('-')); tag = f"{dd}{MOIS[m-1]}"
     pack.OUT.mkdir(parents=True, exist_ok=True)
     tmp = pathlib.Path(tempfile.mkdtemp())
@@ -36,7 +41,7 @@ def main():
         img = pack.OUT/f"matin-{tag}-prix.png"; pg.screenshot(path=str(img)); ctx.close(); br.close()
         fr = []
         slides = [slide(d, k) for k, d in enumerate(deals)]
-        slides.append(page('<h1 class="an" style="font-size:120px;line-height:1.1;margin-top:330px">LES LIENS<br>SONT SUR LE SITE 👇</h1><h2 style="font-size:64px">rabaisflashqc.ca</h2><p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:60px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>', 1920, None, "👉 LIEN DANS LA BIO"))
+        slides.append(page('<h1 class="an" style="font-size:120px;line-height:1.1;margin-top:330px">LES LIENS<br>SONT SUR LE SITE 👇</h1><h2 style="font-size:64px">rabaisflashqc.ca</h2><p style="color:#FFC72C;font-family:Anton,Impact,sans-serif;font-size:56px;text-align:center;padding:0 60px;margin-top:40px;line-height:1.15">🔎 TU CHERCHES AUTRE CHOSE?<br>UTILISE LA RECHERCHE DU SITE</p><p style="color:#fff;font-size:30px;text-align:center;padding:0 70px;margin-top:60px">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>', 1920, None, "👉 LIEN DANS LA BIO"))
         for i, s in enumerate(slides):
             br, ctx, pg = pack.render(pw, s, (1080, 1920), tmp, f"s{i}"); pg.wait_for_timeout(500)
             p = tmp/f"s{i}.png"; pg.screenshot(path=str(p)); ctx.close(); br.close(); fr.append(p)

@@ -17,7 +17,7 @@ boxer:["boxer"],jean:["jean"],sapin:["sapin"],camera:["camera","sonnette"],sonne
 var MARQUES=["Dyson","LEGO","Sony","Bose","Samsung","Apple","JBL","Levi's","Ninja","Shark","Oral-B","Philips","Garmin","De'Longhi","Nespresso","Vitamix","Cuisinart","BISSELL","Hoover","Magna-Tiles","DEWALT","Hugo Boss","Calvin Klein","Stanley","Melissa & Doug","Ring","Blink","Anker","Soundcore","SAXX","Crest","Conair","BaBylissPRO","Remington","roborock","Eufy","Keurig","KitchenAid","Henckels","Lagostina","Playmobil","VTech","Crayola","Coway","Canon","Fujifilm","Google","Fitbit","Tile","Thermos","Eddie Bauer","Shapermint","Amazon Kids","Black+Decker","FoodSaver","Chefman","Shokz","Sennheiser","Tefal","Braun","nutribullet"];
 function charge(){if(D)return Promise.resolve(D);if(!LOAD)LOAD=fetch("/recherche.json",{cache:"no-cache"}).then(function(x){return x.json()}).then(function(j){D=j.map(function(x){x.n=n(x.t+" "+x.c);return x});marques();return D}).catch(function(){D=[];return D});return LOAD}
 function money(v){return v.toFixed(2).replace(".",",").replace(/\B(?=(\d{3})+(?!\d))/g," ")+" $"}
-function az(v,p){return"https://www.amazon.ca/s?k="+encodeURIComponent(v)+"&pct-off="+(p||MIN)+"-&tag="+TAG}
+function az(v,p){return"https://www.amazon.ca/s?k="+encodeURIComponent(v)+"&pct-off="+(p||MIN)+"-&tag="+(window.rfqTag?window.rfqTag("rech"):TAG)}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function marques(){if(!mk)return;var c=MARQUES.map(function(b){var k=n(b),re=new RegExp("(^|[^a-z])"+k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"([^a-z]|$)");return[b,D.filter(function(x){return re.test(x.n)}).length]}).filter(function(x){return x[1]>0}).slice(0,18);
 if(!c.length){mk.parentNode.hidden=true;return}mk.innerHTML=c.map(function(x){return'<button type="button" data-q="'+esc(x[0])+'">'+esc(x[0])+' <small>'+x[1]+'</small></button>'}).join("");
@@ -44,7 +44,7 @@ function montre(k){l.innerHTML=TOUT.slice(0,k).map(carte).join("");mo.hidden=TOU
 function go(scroll){var v=q.value.trim();if(v.length<2){r.hidden=true;l.innerHTML="";return}
 charge().then(function(){var o=analyse(v);TOUT=cherche(o);
 if(!TOUT.length&&o.mots.length>1){var o2=JSON.parse(JSON.stringify(o));o2.mots=[o.mots[0]];TOUT=cherche(o2)}
-r.hidden=false;var k=TOUT.length;
+r.hidden=false;var k=TOUT.length;if(window.rfqLog)rfqLog(v,k);
 if(k){var h=TOUT.filter(function(x){return x.h}).length;m.innerHTML="🎉 <b>"+k+(k>1?" deals vérifiés":" deal vérifié")+"</b> pour « "+esc(v)+" »"+(h?" · dont "+h+" 🔥 Ça vaut le clic":"");b.textContent="Encore plus de rabais sur « "+v+" » 👉"}
 else{m.textContent="Pas encore dans notre tri. Pas grave : on t'amène direct sur les rabais de 15 % et plus 👇";b.textContent="Voir les rabais sur « "+v+" » 👉"}
 montre(12);var az_q=(o.mots.join(" ")||v);b.href=az(az_q,MIN);t.textContent="🔥 Seulement les gros rabais (30 % et plus)";t.href=az(az_q,30);

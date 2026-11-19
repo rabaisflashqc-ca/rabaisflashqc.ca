@@ -492,6 +492,16 @@ RECHERCHE = """<section class="rq" id="recherche" aria-label="Chercher un deal">
 <script src="/recherche.js?v=RQV" defer></script>
 """
 
+# Suivi par canal et journal des recherches (19 nov. 2026) : réglages dans suivi_tags.json (vide = rien ne change).
+def _suivi_cfg():
+    try: c = json.loads((ROOT / "suivi_tags.json").read_text(encoding="utf-8"))
+    except Exception: c = {}
+    tags = {k: v.strip() for k, v in (c.get("tags") or {}).items() if isinstance(v, str) and v.strip()}
+    jr = c.get("journal") or {}
+    journal = {k: v.strip() for k, v in jr.items() if isinstance(v, str) and v.strip()} if jr.get("url") else {}
+    return {"tags": tags, "journal": journal}
+SUIVI_HTML = '<script>window.RFQ=' + json.dumps(_suivi_cfg(), ensure_ascii=False, separators=(",", ":")) + ';</script><script src="/suivi.js?v=' + NOW.strftime("%Y%m%d%H%M") + '" defer></script>'
+
 FOUILLE = """<p class="fx">Tous les rabais vérifiés du site sont ici : <b><span id="ftot">…</span> produits</b>. Tape un mot (« Dyson », « pantoufles », « LEGO sous 30 »), choisis un rayon ou un prix, et trie comme tu veux. Ça va vite, promis.</p>
 <form id="ff" role="search" autocomplete="off"><input id="fq" type="search" placeholder="Ex. : casque, Barbie, cadeau pour elle sous 50" aria-label="Chercher un rabais" enterkeyhint="search"><select id="ft" aria-label="Trier"><option value="best">Meilleurs deals d'abord</option><option value="pct">Plus gros %</option><option value="eco">Plus grosse économie $</option><option value="bas">Prix : du plus bas</option><option value="haut">Prix : du plus haut</option></select></form>
 <div class="fch" id="fc"><button type="button" class="on" data-v="">Tout</button><button type="button" data-v="beaute">💄 Beauté</button><button type="button" data-v="maison">🏠 Maison</button><button type="button" data-v="tech">🎧 Tech</button><button type="button" data-v="enfants">🧸 Enfants et jouets</button><button type="button" data-v="femme">👩 Femme</button><button type="button" data-v="homme">👨 Homme</button><button type="button" data-v="animaux">🐶 Animaux</button><button type="button" data-v="plein-air">🏕️ Plein air</button></div>
@@ -847,6 +857,7 @@ def index_recherche():
     (OUT / "recherche.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
     (OUT / "recherche.js").write_text((ROOT / "site_recherche.js").read_text())
     (OUT / "fouille.js").write_text((ROOT / "site_fouille.js").read_text())
+    (OUT / "suivi.js").write_text((ROOT / "site_suivi.js").read_text())
     return len(out)
 
 def page(slug, title, h1, intro, items, extra="", after="", brands=()):
@@ -890,7 +901,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 {club()}
 <footer><p>Les rabais sont fixés par Amazon et par les marques, qui peuvent les modifier ou y mettre fin à tout moment, sans préavis. Leur durée n'est jamais garantie. Vérifie toujours le prix actuel sur Amazon.ca avant d'acheter.</p>
 <p>{DISCLOSURE}</p><p class="sigf">⚡ Rabais Flash QC · {SIGNATURE}</p><p><a href="/a-propos/">À propos</a><a href="/confidentialite/">Confidentialité</a><a href="{FB}" rel="noopener">Facebook</a><a href="{IG}" rel="noopener">Instagram</a><a href="{TT}" rel="noopener">TikTok</a></p></footer>
-</main>{tabbar}<script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);var a=location.hash.slice(1);if(/^[A-Z0-9]{{10}}$/.test(a)){{var d=document.querySelector('li[data-asin="'+a+'"]');if(d){{d.style.outline='3px solid #ffc629';d.style.outlineOffset='2px';setTimeout(function(){{d.scrollIntoView({{block:'center'}});}},150);}}}}}})();</script></body></html>"""
+</main>{tabbar}<script>(function(){{function t(){{document.querySelectorAll('[data-until]').forEach(function(li){{var m=Date.parse(li.dataset.until)-Date.now();if(m<=0){{li.remove();return;}}var c=li.querySelector('.cd');if(!c){{c=document.createElement('p');c.className='cd';var h=li.querySelector('h3');h.parentNode.insertBefore(c,h);}}var hh=Math.floor(m/36e5),mm=Math.floor(m%36e5/6e4);c.textContent='⏳ Offre éclair : finit dans '+(hh?hh+' h ':'')+mm+' min';}});}}t();setInterval(t,30000);var a=location.hash.slice(1);if(/^[A-Z0-9]{{10}}$/.test(a)){{var d=document.querySelector('li[data-asin="'+a+'"]');if(d){{d.style.outline='3px solid #ffc629';d.style.outlineOffset='2px';setTimeout(function(){{d.scrollIntoView({{block:'center'}});}},150);}}}}}})();</script>{SUIVI_HTML}</body></html>"""
 
 def simple(slug, title, h1, body):
     return page(slug, title, h1, "", [], extra=body).replace('<ul class="deals"><li class="empty">On est en train de dénicher les prochains deals pour cette section. Reviens bientôt!</li></ul>', "").replace('<p class="intro"></p>', "")
@@ -1274,7 +1285,7 @@ var a=location.hash.slice(1);if(/^[A-Z0-9]{10}$/.test(a)){var d=document.querySe
             f'<a class="b" href="/courriel/">📬 Les deals par courriel</a><a class="b r" href="{FB}" target="_blank" rel="noopener">Suivre sur Facebook</a><a class="b r" href="/">Voir tout le site</a></div>'
             '<footer><p>Les prix et la disponibilité changent vite : vérifie le prix final sur Amazon avant d\'acheter.<br>En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</p>'
             '<p><a href="/a-propos/">À propos</a> · <a href="/confidentialite/">Confidentialité</a></p></footer>'
-            f'<script>{js}</script></body></html>')
+            f'<script>{js}</script>{SUIVI_HTML}</body></html>')
 
 def vf_block():
     """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
@@ -1302,6 +1313,46 @@ def a_verifier():
     L += [{"asin": x["asin"], "titre": x["title"], "prix_affiche": x.get("price")} for x in load_scan() if rfd_ok(x, now, HORS_SAISON(now))]
     try: (ROOT / "suivi" / "a_verifier.json").write_text(json.dumps({"genere": now.isoformat(timespec="minutes"), "produits": L}, ensure_ascii=False, indent=1))
     except Exception: pass
+
+def deal_pages():
+    """Une page directe par deal frais : /d/ASIN/ (plan du 19 nov. 2026, point 4). Un réel, une pub ou un post mène au bon produit,
+    avec le verdict, le vrai prix du jour, d'autres deals du même rayon et la recherche du site (jamais une impasse).
+    Les produits publiés dans les 30 derniers jours (suivi/publies.json) dont le prix n'est plus frais ne montrent aucun prix :
+    petite page qui renvoie vers la recherche du site. Les pages sont refaites à chaque build (dossier docs/d vidé)."""
+    import shutil
+    shutil.rmtree(OUT / "d", ignore_errors=True)
+    now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
+    vivants = [x for x in load_scan() if rfd_ok(x, now, hors)]
+    vivants.sort(key=lambda x: -_score(x, now))
+    try: reg = json.loads((ROOT / "suivi" / "publies.json").read_text(encoding="utf-8")).get("asins", {})
+    except Exception: reg = {}
+    recents = {a: v[-1] for a, v in reg.items() if v and (NOW.date() - datetime.date.fromisoformat(v[-1]["date"])).days < 30}
+    par_asin = {x["asin"]: x for x in vivants}
+    garde = [x for x in vivants[:40]] + [par_asin[a] for a in recents if a in par_asin and par_asin[a] not in vivants[:40]]
+    n = 0
+    for x in garde:
+        proches = [y for y in vivants if y["asin"] != x["asin"] and y.get("cat") == x.get("cat")][:4]
+        if len(proches) < 4: proches += [y for y in vivants if y["asin"] != x["asin"] and y not in proches][:4 - len(proches)]
+        vt, vc = verdict(x)
+        body = (f'<ul class="deals">{rfd_card(x)}</ul>'
+                '<p class="small">Notre verdict compare le prix d\'aujourd\'hui à celui d\'avant, toujours avec la même règle : '
+                '<a href="/a-propos/#choix">voir comment on choisit</a>.</p>'
+                '<h2>D\'autres rabais qui valent le clic</h2><ul class="deals">' + "".join(rfd_card(y) for y in proches) + '</ul>'
+                '<p class="more"><a href="/recherche/">🔎 Fouiller tous les rabais du site</a><a href="/">⚡ Le Top 5 du moment</a></p>')
+        titre = x["title"][:90]
+        pg = simple(f"d/{x['asin']}", f"{titre} : le deal vérifié | Rabais Flash QC", titre, body)
+        pg = pg.replace('<link rel="canonical"', '<meta name="robots" content="noindex,follow"><link rel="canonical"', 1)
+        write(f"d/{x['asin']}", pg); n += 1
+    for a, v in recents.items():  # deal parti : page minuscule qui mène vers la recherche
+        if a in par_asin: continue
+        mots = " ".join(re.sub(r"[^\w' -]", " ", v.get("nom") or "").split()[:1])
+        dest = "/recherche/" + (("?q=" + urllib.parse.quote(mots)) if mots else "")
+        write(f"d/{a}", f'<!doctype html><html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">'
+                        f'<meta http-equiv="refresh" content="3;url={e(dest)}"><title>Ce deal est parti | Rabais Flash QC</title></head>'
+                        f'<body style="font-family:system-ui,sans-serif;background:#FFF7E8;color:#1A1A1A;text-align:center;padding:48px 20px"><h1 style="color:#C1121F">Ce deal est parti 😅</h1>'
+                        f'<p>Le prix a changé depuis. On t\'envoie voir ce qui vaut le clic en ce moment.</p><p><a href="{e(dest)}" style="font-size:20px;font-weight:700;color:#C1121F">Voir les rabais du moment 👉</a></p>'
+                        f'<script>setTimeout(function(){{location.replace({json.dumps(dest)})}},2500)</script></body></html>'); n += 1
+    return n
 
 def main():
     OUT.mkdir(exist_ok=True)
@@ -1359,7 +1410,11 @@ def main():
         items = order([d for d in DEALS if f(d)])
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
     write("offres-du-jour", offres_du_jour_page()); urls.append("offres-du-jour")
+    for _c in ("fb", "ig", "tt", "nl"):  # liens courts par canal pour les bios et les réels : rabaisflashqc.ca/tt
+        write(_c, f'<!doctype html><html lang="fr-CA"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url=/?src={_c}">'
+                  f'<title>Rabais Flash QC</title></head><body><script>location.replace("/?src={_c}")</script><p><a href="/?src={_c}">Rabais Flash QC : les rabais qui valent vraiment le clic</a></p></body></html>')
     n_rq = index_recherche()
+    n_dp = deal_pages()
     write("recherche", simple("recherche", f"Chercher parmi {n_rq} rabais Amazon vérifiés | Rabais Flash QC", f"🔎 Fouille les {n_rq} rabais du moment",
           FOUILLE.replace("FQV", NOW.strftime("%Y%m%d%H%M")))); urls.append("recherche")
     write("courriel", simple("courriel", "Les deals du jour par courriel, gratuit | Rabais Flash QC", "📬 Les deals du jour par courriel",
@@ -1379,6 +1434,7 @@ def main():
         f'<h2>Nous joindre</h2><p>Écris-nous sur <a href="{MS}">Messenger</a> ou sur notre <a href="{FB}">page Facebook</a>.</p>')); urls.append("a-propos")
     write("confidentialite", simple("confidentialite", "Politique de confidentialité | Rabais Flash QC", "Politique de confidentialité",
         "<p>Ce site ne te demande aucune information personnelle pour consulter les deals. Il n'utilise pas de témoins publicitaires qui lui sont propres.</p>"
+        "<p>Quand tu utilises la recherche du site, on garde le mot cherché (jamais ton nom, ton adresse courriel ni ton adresse IP), le nombre de résultats et le réseau d'où tu arrives, pour savoir quels rabais aller dénicher. Ces données restent regroupées et ne servent qu'à améliorer le site.</p>"
         "<p>Quand tu cliques sur un lien vers Amazon.ca, Amazon peut utiliser des témoins pour attribuer l'achat, selon sa propre politique de confidentialité.</p>"
         "<p>Si tu t'inscris à notre infolettre, ton adresse courriel sert seulement à t'envoyer nos aubaines. Tu peux te désabonner en tout temps avec le lien présent dans chaque courriel. Pour toute question sur tes renseignements personnels, écris-nous sur Messenger.</p>"
         f"<p>Dernière mise à jour : {TODAY}.</p>")); urls.append("confidentialite")
@@ -1389,7 +1445,7 @@ def main():
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
         "".join(f"<url><loc>{DOMAIN}/{u + '/' if u else ''}</loc><lastmod>{NOW.date()}</lastmod></url>" for u in urls) + "</urlset>\n")
-    print("pages:", len(urls))
+    print("pages:", len(urls), "| pages deal /d/ :", n_dp)
 
 if __name__ == "__main__":
     main()
