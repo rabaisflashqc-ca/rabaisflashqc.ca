@@ -1012,6 +1012,14 @@ def _comm(x):
     try: return float(x["comm"]) if x.get("comm") is not None else COMM_CAT.get(x.get("cat"), 2)
     except Exception: return 2
 
+_TOP_MARQUES = re.compile(r"\b(amazon|echo|kindle|fire tv|blink|lego|jbl|stanley|owala|dyson|ninja|philips|sonicare|oral-b|cerave|levi'?s|crocs|kamik|carhartt|saxx|samsung|sony|bose|garmin|apple|hot wheels|barbie|vtech|melissa & doug|nespresso|de'?longhi|breville|govee|kasa|tapo|greenies|purina|hill'?s|samsonite|adidas|nike|under armour|clinique|l'or[ée]al|covergirl|dreame|shark|bissell|graco|maxi-cosi|fisher-price|playmobil)\b", re.I)
+def _marque_top(x):
+    """Marque d'un deal (pour varier le Top 5). Les appareils Amazon (Echo, Fire TV, Kindle, Blink) comptent comme une seule marque."""
+    m = _TOP_MARQUES.search(x.get("title") or "")
+    if not m: return (x.get("title") or "").split(" ")[0].lower()
+    b = m.group(1).lower()
+    return "amazon" if b in ("echo", "kindle", "fire tv", "blink") else b.replace("sonicare", "philips")
+
 def fresh_top5():
     """Top 5 bâti à partir des deals frais (moins de 12 h : éclaireur et Keepa dans Chrome), recalculé à chaque build.
     Pas de verrou : dès qu'un meilleur deal plus récent arrive, il entre dans le Top 5.
@@ -1024,9 +1032,19 @@ def fresh_top5():
     if len(pool) < 3: return []
     picks, cats = sorted([x for x in pool if isinstance(x.get("top"), int)], key=lambda x: x["top"])[:5], set()  # choix à la main (champ top = rang)
     cats = {x["cat"] for x in picks}
-    for x in pool:  # 1 par catégorie d'abord
-        if len(picks) >= 5: break
-        if x["cat"] not in cats: picks.append(x); cats.add(x["cat"])
+    # Variété (demande d'Alex du 19 nov.) : 1 par catégorie, 1 par marque (un seul appareil Amazon), au plus 2 gros prix (150 $ et plus)
+    # et au moins un petit prix (moins de 30 $) dans le Top 5.
+    brands = {_marque_top(x) for x in picks}
+    def ok(x, strict=True):
+        if x in picks or _marque_top(x) in brands: return False
+        if strict and x["cat"] in cats: return False
+        if (x.get("price") or 0) >= 150 and sum((y.get("price") or 0) >= 150 for y in picks) >= 2: return False
+        if len(picks) == 4 and not any((y.get("price") or 0) < 30 for y in picks) and (x.get("price") or 0) >= 30: return False
+        return True
+    for strict in (True, False):
+        for x in pool:
+            if len(picks) >= 5: break
+            if ok(x, strict): picks.append(x); cats.add(x["cat"]); brands.add(_marque_top(x))
     for x in pool:
         if len(picks) >= 5: break
         if x not in picks: picks.append(x)

@@ -1,6 +1,586 @@
 {
- "genere": "2026-11-19T13:08+00:00",
+ "genere": "2026-11-19T13:28+00:00",
  "produits": [
+  {
+   "asin": "B0FGXZ17J3",
+   "titre": "Miniverse Make It Mini Café de MGA (objet à collectionner)",
+   "prix_affiche": 4.99
+  },
+  {
+   "asin": "B0DHVT5K49",
+   "titre": "Réveil veilleuse Super Mario de Lexibook",
+   "prix_affiche": 47.99
+  },
+  {
+   "asin": "B0F5HZGQ22",
+   "titre": "Boxers SAXX en maille pour homme (paquet de 3)",
+   "prix_affiche": 38.97
+  },
+  {
+   "asin": "B0FLLSS6WT",
+   "titre": "Manette sans fil Xbox Carbon Black",
+   "prix_affiche": 64.96
+  },
+  {
+   "asin": "B006W6YHYQ",
+   "titre": "Gâteries dentaires Greenies pour petit chien",
+   "prix_affiche": 31.39
+  },
+  {
+   "asin": "B0C9RP14QB",
+   "titre": "Philips OneBlade 360 tondeuse et rasoir",
+   "prix_affiche": 39.95
+  },
+  {
+   "asin": "B00HFQQ0VU",
+   "titre": "Hydropulseur Waterpik Aquarius",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0D9V9RYBM",
+   "titre": "Cardigan surdimensionné PRETTYGARDEN pour femme",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B0G6MB4VDG",
+   "titre": "Tondeuse tout-en-un Philips Série 5000 (20 pièces)",
+   "prix_affiche": 44.95
+  },
+  {
+   "asin": "B09NNVS1CW",
+   "titre": "Boxers ultra doux Saxx pour homme (paquet de 3)",
+   "prix_affiche": 61.77
+  },
+  {
+   "asin": "B07WJJF8PB",
+   "titre": "Boîte de briques classique LEGO Duplo",
+   "prix_affiche": 31.99
+  },
+  {
+   "asin": "B0BYGRLRS1",
+   "titre": "Prises intelligentes Kasa Matter (paquet de 2)",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B09GTRVJQM",
+   "titre": "Purificateur d'air Levoit pour chambre",
+   "prix_affiche": 68.99
+  },
+  {
+   "asin": "B0BN15NTGG",
+   "titre": "Garage Hot Wheels City Ultimate avec 2 voitures",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0764BZBQW",
+   "titre": "Mélangeur Magic Bullet",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B08PR8YSBT",
+   "titre": "Nettoyant exfoliant CeraVe à l'acide salicylique",
+   "prix_affiche": 17.99
+  },
+  {
+   "asin": "B09JVQQ99K",
+   "titre": "Pantoufles en mousse mémoire Litfun pour femme",
+   "prix_affiche": 24.22
+  },
+  {
+   "asin": "B01MR32LQT",
+   "titre": "Pantoufles en mousse mémoire RockDove pour homme",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B09NWK5P2V",
+   "titre": "Têtes de rechange Oral-B Sensitive Gum Care",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B09LD8PTNJ",
+   "titre": "Brosse à dents électrique Philips Sonicare 2100",
+   "prix_affiche": 24.95
+  },
+  {
+   "asin": "B0FQJH54TR",
+   "titre": "Micros sans fil DJI Mic Mini (2 émetteurs)",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0FMS7XL6Q",
+   "titre": "LEGO Speed Champions Ferrari SF90 XX Stradale",
+   "prix_affiche": 26.58
+  },
+  {
+   "asin": "B0G2T45QGM",
+   "titre": "LEGO City L'avion de ligne",
+   "prix_affiche": 33.24
+  },
+  {
+   "asin": "B07YVNWW78",
+   "titre": "Siège d'appoint Britax Skyline",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B0BHBVWJWX",
+   "titre": "Gobelet isotherme Simple Modern avec poignée",
+   "prix_affiche": 21.55
+  },
+  {
+   "asin": "B0852913V2",
+   "titre": "Sèche-cheveux Conair 1875 W",
+   "prix_affiche": 11.86
+  },
+  {
+   "asin": "B0DRW73TRY",
+   "titre": "LEGO Ideas Disney Pixar Luxo Jr.",
+   "prix_affiche": 62.25
+  },
+  {
+   "asin": "B0BBSPM876",
+   "titre": "Brillant à lèvres COVERGIRL Clean Fresh Yummy Gloss",
+   "prix_affiche": 5.23
+  },
+  {
+   "asin": "B0H48L6SRX",
+   "titre": "Gobelet Stanley Quencher ProTour",
+   "prix_affiche": 39.0
+  },
+  {
+   "asin": "B0FMS8VHYM",
+   "titre": "LEGO Marvel Spidey sur sa moto contre Rhino",
+   "prix_affiche": 9.86
+  },
+  {
+   "asin": "B08NWNDMNT",
+   "titre": "Aspirateur à main Eureka Blaze",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0CHRF49DJ",
+   "titre": "Ensemble molleton 2 pièces PRETTYGARDEN pour femme",
+   "prix_affiche": 54.7
+  },
+  {
+   "asin": "B0B2RDZT51",
+   "titre": "Veste sans manches chauffante ORORO pour femme",
+   "prix_affiche": 134.99
+  },
+  {
+   "asin": "B015CCR6UC",
+   "titre": "Barbie Dreamland poupée et voiture décapotable",
+   "prix_affiche": 33.7
+  },
+  {
+   "asin": "B0D683BQR2",
+   "titre": "Eau de parfum adidas Vibes Happy Feels",
+   "prix_affiche": 13.9
+  },
+  {
+   "asin": "B009Q3YX8W",
+   "titre": "Biscuits de Noël en bois Melissa & Doug",
+   "prix_affiche": 26.52
+  },
+  {
+   "asin": "B0D1CBNKTF",
+   "titre": "Pantoufles en suède DREAM PAIRS pour femme",
+   "prix_affiche": 47.49
+  },
+  {
+   "asin": "B07SK29291",
+   "titre": "Trousse de toilette de voyage Bagsmart",
+   "prix_affiche": 18.94
+  },
+  {
+   "asin": "B0094GHHO8",
+   "titre": "Mascara COVERGIRL Clump Crusher",
+   "prix_affiche": 6.07
+  },
+  {
+   "asin": "B0GB2XV2K7",
+   "titre": "Bouteille Stanley IceFlow Flip Straw 2.0",
+   "prix_affiche": 34.5
+  },
+  {
+   "asin": "B0DJBB123K",
+   "titre": "Tondeuse corporelle MANSCAPED 5.0 Ultra pour homme",
+   "prix_affiche": 104.99
+  },
+  {
+   "asin": "B0D541M5C6",
+   "titre": "Lecteur audio Yoto Mini pour enfants",
+   "prix_affiche": 74.99
+  },
+  {
+   "asin": "B0G2STSGW3",
+   "titre": "LEGO Star Wars AT-AT en pain d'épices",
+   "prix_affiche": 56.98
+  },
+  {
+   "asin": "B0D94XYL18",
+   "titre": "Jeu Opération électronique",
+   "prix_affiche": 12.98
+  },
+  {
+   "asin": "B099WTN2TR",
+   "titre": "Lampadaire DEL Govee RGBIC",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0H7HSSYG7",
+   "titre": "Écouteurs sport Shokz OpenRun Air 2",
+   "prix_affiche": 129.95
+  },
+  {
+   "asin": "B0G2T1VN17",
+   "titre": "LEGO City Le parc des montagnes russes",
+   "prix_affiche": 111.99
+  },
+  {
+   "asin": "B0BPJZC26G",
+   "titre": "Lite-Brite Touch",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B0FMS84RFJ",
+   "titre": "LEGO Speed Champions DeLorean Retour vers le futur",
+   "prix_affiche": 23.88
+  },
+  {
+   "asin": "B07ZS7J192",
+   "titre": "Camion benne Tonka Steel Classics",
+   "prix_affiche": 38.47
+  },
+  {
+   "asin": "B0991Q94KP",
+   "titre": "Bandes lumineuses DEL Govee RGBIC",
+   "prix_affiche": 14.99
+  },
+  {
+   "asin": "B0BLJ4SVWV",
+   "titre": "LEGO Creator La licorne magique 3 en 1",
+   "prix_affiche": 7.57
+  },
+  {
+   "asin": "B0DRW5QJ5R",
+   "titre": "LEGO Star Wars Clones de la 327e Star Corps",
+   "prix_affiche": 29.86
+  },
+  {
+   "asin": "B0FMSD393S",
+   "titre": "LEGO Marvel Spider-Man contre l'Homme-Sable",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0DQY6LSWL",
+   "titre": "Gobelet Stanley Quencher H2.0 de 20 oz",
+   "prix_affiche": 23.0
+  },
+  {
+   "asin": "B0BTYCRJSS",
+   "titre": "Écouteurs sans fil Anker Soundcore P20i",
+   "prix_affiche": 23.73
+  },
+  {
+   "asin": "B0036BI56G",
+   "titre": "Sérum vitamine C Timeless",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0G2SZQS1C",
+   "titre": "LEGO Botanicals Plantes à bascule",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0CFZQFD3T",
+   "titre": "Jeu Hippos Gloutons pour tout-petits",
+   "prix_affiche": 12.98
+  },
+  {
+   "asin": "B0CGY4J7QT",
+   "titre": "LEGO Creator Le camion à plateau 3 en 1",
+   "prix_affiche": 17.11
+  },
+  {
+   "asin": "B08SSM21R4",
+   "titre": "Shampoing Redken All Soft",
+   "prix_affiche": 20.99
+  },
+  {
+   "asin": "B0CZF2T7CK",
+   "titre": "Fixateur de maquillage L'Oréal Paris Infaillible",
+   "prix_affiche": 13.57
+  },
+  {
+   "asin": "B0B5B3RQL9",
+   "titre": "Brosse à dents électrique Oral-B Pro 300",
+   "prix_affiche": 19.97
+  },
+  {
+   "asin": "B0G2KJ8V5R",
+   "titre": "LEGO Ornements bonhomme de neige",
+   "prix_affiche": 13.28
+  },
+  {
+   "asin": "B0DY11V1TV",
+   "titre": "Masques en feuille au collagène MEDIHEAL",
+   "prix_affiche": 16.62
+  },
+  {
+   "asin": "B0BPLB81LX",
+   "titre": "Jeté en peluche douillet Bedsure",
+   "prix_affiche": 18.98
+  },
+  {
+   "asin": "B0DHLGFRV3",
+   "titre": "LEGO Speed Champions McLaren F1 MCL38",
+   "prix_affiche": 21.79
+  },
+  {
+   "asin": "B00GW7LO00",
+   "titre": "Lotion hydratante Clinique Dramatically Different",
+   "prix_affiche": 17.5
+  },
+  {
+   "asin": "B08P541DPH",
+   "titre": "Sérum Estée Lauder Advanced Night Repair",
+   "prix_affiche": 19.6
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Mallette d'art Crayola Inspiration (140 pièces)",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0843XPGNN",
+   "titre": "Lotion hydratante CeraVe visage et corps",
+   "prix_affiche": 17.24
+  },
+  {
+   "asin": "B07ZL9511J",
+   "titre": "Fer à friser Conair 2,5 cm",
+   "prix_affiche": 17.49
+  },
+  {
+   "asin": "B0DRW5TL43",
+   "titre": "LEGO Speed Champions Porsche 911 GT3 RS",
+   "prix_affiche": 24.24
+  },
+  {
+   "asin": "B002A97L3I",
+   "titre": "Hydratant Clinique Moisture Surge 100H",
+   "prix_affiche": 16.1
+  },
+  {
+   "asin": "B0C2RG3GQS",
+   "titre": "Jeu Exploding Kittens Hurry Up Chicken Butt",
+   "prix_affiche": 16.99
+  },
+  {
+   "asin": "B0CGFF2G5V",
+   "titre": "Bloc d'autocollants Sticker Wow! Melissa & Doug",
+   "prix_affiche": 10.73
+  },
+  {
+   "asin": "B002KQ7E9M",
+   "titre": "Revitalisant sans rinçage milk_shake",
+   "prix_affiche": 23.45
+  },
+  {
+   "asin": "B0FMS7CRHX",
+   "titre": "LEGO Botanicals Marguerites",
+   "prix_affiche": 14.24
+  },
+  {
+   "asin": "B0CQ8THH5X",
+   "titre": "Brosse à dents Philips One for Kids by Sonicare",
+   "prix_affiche": 16.95
+  },
+  {
+   "asin": "B0FMWPNKJR",
+   "titre": "Crème brume Dr.Althea 345",
+   "prix_affiche": 18.9
+  },
+  {
+   "asin": "B0B58G1DJF",
+   "titre": "Circuit à billes VTech Marble Rush",
+   "prix_affiche": 18.99
+  },
+  {
+   "asin": "B07JRG42D9",
+   "titre": "Brume parfumée Victoria's Secret",
+   "prix_affiche": 21.56
+  },
+  {
+   "asin": "B0F3BJMLKJ",
+   "titre": "Caméra intérieure Blink Mini 2K+",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0CD311Q6J",
+   "titre": "5 Surprise My Mini Baby (paquet de 2)",
+   "prix_affiche": 15.11
+  },
+  {
+   "asin": "B083GG6L8G",
+   "titre": "Crème contour des yeux CeraVe",
+   "prix_affiche": 20.24
+  },
+  {
+   "asin": "B0FNXC51RH",
+   "titre": "LEGO Editions Lionel Messi",
+   "prix_affiche": 23.74
+  },
+  {
+   "asin": "B01HQLYMU4",
+   "titre": "Blocs de papier pour peinture aux doigts Melissa & Doug",
+   "prix_affiche": 11.99
+  },
+  {
+   "asin": "B0DQVSZD36",
+   "titre": "Surfaceuse PLAYMOBIL LNH",
+   "prix_affiche": 22.49
+  },
+  {
+   "asin": "B0D2JGYX3F",
+   "titre": "Console de jeux actifs Nex Playground pour enfants",
+   "prix_affiche": 279.96
+  },
+  {
+   "asin": "B0CFPWLGF2",
+   "titre": "Kindle Paperwhite 16 Go (2024)",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B0DNRDML7Z",
+   "titre": "Système de voyage Maxi-Cosi Zelia Luxe 5 en 1",
+   "prix_affiche": 664.99
+  },
+  {
+   "asin": "B0GRK1N94H",
+   "titre": "Bague intelligente Oura Ring 5",
+   "prix_affiche": 399.0
+  },
+  {
+   "asin": "B0D14WHX88",
+   "titre": "Lumières extérieures permanentes Govee 2 (30 m)",
+   "prix_affiche": 249.99
+  },
+  {
+   "asin": "B09XRFCVD2",
+   "titre": "Siège d'auto Graco 4Ever 4 en 1",
+   "prix_affiche": 324.97
+  },
+  {
+   "asin": "B0BLJTJ38M",
+   "titre": "Maison de rêve Barbie",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0C7XDKZPD",
+   "titre": "Écran intelligent Amazon Echo Show 15",
+   "prix_affiche": 274.99
+  },
+  {
+   "asin": "B0FC36F7N3",
+   "titre": "Montre Samsung Galaxy Watch8 40 mm",
+   "prix_affiche": 348.99
+  },
+  {
+   "asin": "B0GFWRY9K4",
+   "titre": "Écouteurs Samsung Galaxy Buds4 Pro",
+   "prix_affiche": 229.98
+  },
+  {
+   "asin": "B0FL9TBVT3",
+   "titre": "Tablette Amazon Kids 8 pour 6 à 12 ans",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0CX8MQF7R",
+   "titre": "Liseuse Kindle Colorsoft 16 Go",
+   "prix_affiche": 209.99
+  },
+  {
+   "asin": "B0GT28CSYM",
+   "titre": "Aspirateur sans fil Dyson V8 Cyclone",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0B38KRTV6",
+   "titre": "Machine à espresso De'Longhi Magnifica Evo",
+   "prix_affiche": 599.98
+  },
+  {
+   "asin": "B0CCZ26B5V",
+   "titre": "Casque Bose QuietComfort",
+   "prix_affiche": 249.0
+  },
+  {
+   "asin": "B0DFP2NBPD",
+   "titre": "Télé intelligente Amazon Ember Série 4 de 55 po",
+   "prix_affiche": 409.99
+  },
+  {
+   "asin": "B0B5VQQW6R",
+   "titre": "Brosse à dents Philips Sonicare DiamondClean 9000",
+   "prix_affiche": 124.95
+  },
+  {
+   "asin": "B0HDVVDGZW",
+   "titre": "Dyson Airwrap i.d. multi-coiffeur",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B08LQY2XF5",
+   "titre": "Four friteuse à air Ninja Foodi XL Pro 10 en 1",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0CHBNXJ24",
+   "titre": "Machine à crème glacée Ninja CREAMi XL Deluxe",
+   "prix_affiche": 199.98
+  },
+  {
+   "asin": "B0F38GK1QZ",
+   "titre": "Montre Garmin vívoactive 6",
+   "prix_affiche": 329.99
+  },
+  {
+   "asin": "B0FL84HYWM",
+   "titre": "Aspirateur sans fil BISSELL PowerClean",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0HDVZK5KP",
+   "titre": "Sèche-cheveux Dyson Supersonic",
+   "prix_affiche": 449.99
+  },
+  {
+   "asin": "B0BBYNPV33",
+   "titre": "Machine à espresso Breville Barista Express Impress",
+   "prix_affiche": 879.99
+  },
+  {
+   "asin": "B0HF9V25FZ",
+   "titre": "Casque antibruit Sony WH-1000XM4",
+   "prix_affiche": 278.0
+  },
+  {
+   "asin": "B0F1GZ68PH",
+   "titre": "Haut-parleur portable JBL Boombox 4",
+   "prix_affiche": 399.98
+  },
+  {
+   "asin": "B0BN2LZ9JH",
+   "titre": "Purificateur d'air Blueair 311i Max",
+   "prix_affiche": 206.99
+  },
+  {
+   "asin": "B0DXRKTZKF",
+   "titre": "Barre de son Samsung HW-B750F 5.1",
+   "prix_affiche": 348.0
+  },
   {
    "asin": "B0F7K67DY2",
    "titre": "Amazon Fire TV Stick HD (nouveau modèle)",
