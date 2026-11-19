@@ -1323,7 +1323,7 @@ def main():
         "<h2>Pourquoi « Flash »?</h2><p>Parce que les meilleurs rabais ne durent pas. Certains disparaissent en quelques heures, et Amazon ou la marque peut changer le prix ou arrêter l'offre à tout moment, sans nous prévenir. On ne peut donc pas garantir qu'un rabais sera encore là quand tu cliques. C'est pour ça qu'on met le site à jour plusieurs fois par jour, et qu'on te conseille de ne pas trop attendre.</p>"
         "<h2 id=\"choix\">Comment on choisit</h2><p>Amazon fixe le prix. Nous, on te dit s'il mérite ton attention. On garde surtout des rabais sur des marques connues, on classe tout par thème et on retire les offres expirées.</p>"
         "<p>Chaque deal avec un prix vérifié reçoit un verdict, toujours selon la même règle :</p>"
-        "<ul><li><b>🔥 Ça vaut le clic</b> : 40 % de rabais et plus, et au moins 20 $ de moins que le prix d'avant. C'est notre verdict le plus fort, on le donne à peu de deals.</li>"
+        "<ul><li><b>🔥 Ça vaut le clic</b> : 40 % de rabais et plus, et au moins 20 $ de moins que le prix d'avant. Aussi : une offre à durée limitée (minuterie d'Amazon) à 30 % et plus, et au moins 15 $ de moins, parce qu'elle est à saisir avant la fin. C'est notre verdict le plus fort, on le donne à peu de deals.</li>"
         "<li><b>👍 Bon rabais</b> : 20 % de rabais et plus. Intéressant si le produit était déjà sur ta liste.</li>"
         "<li><b>📉 Plus bas prix jamais vu</b> : le prix le plus bas de l'historique qu'on consulte pour ce produit.</li></ul>"
         "<p>Le verdict parle du prix, pas du produit : on ne teste pas les articles. Les prix changent souvent, alors vérifie toujours le prix final sur Amazon avant d'acheter.</p>"

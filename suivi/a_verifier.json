@@ -1,6 +1,831 @@
 {
- "genere": "2026-11-19T00:03+00:00",
+ "genere": "2026-11-19T00:21+00:00",
  "produits": [
+  {
+   "asin": "B0FY6PBWWJ",
+   "titre": "Manette DualSense PS5 Galactic Purple",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0FVCSD838",
+   "titre": "Tablette Samsung Galaxy Tab A11+ 128 Go",
+   "prix_affiche": 269.98
+  },
+  {
+   "asin": "B0GHCC2559",
+   "titre": "Aspirateur sans fil Shark PowerDetect Clean & Empty",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B0GT28CSYM",
+   "titre": "Aspirateur sans fil Dyson V8 Cyclone",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0CHBNXJ24",
+   "titre": "Machine à crème glacée Ninja CREAMi XL Deluxe",
+   "prix_affiche": 199.98
+  },
+  {
+   "asin": "B0DFNNFNJB",
+   "titre": "Téléviseur 4K Amazon Ember Série 4 de 50 po",
+   "prix_affiche": 369.99
+  },
+  {
+   "asin": "B0F5J2MZBJ",
+   "titre": "SAXX lot de 3 boxers pour homme",
+   "prix_affiche": 38.97
+  },
+  {
+   "asin": "B0DQY78Q7H",
+   "titre": "Gobelet Stanley Quencher H2.0 FlowState",
+   "prix_affiche": 16.5
+  },
+  {
+   "asin": "B0FWK41WF2",
+   "titre": "Robot aspirateur et vadrouille Eufy C28 Omni",
+   "prix_affiche": 639.99
+  },
+  {
+   "asin": "B0F75LXJ2Q",
+   "titre": "Téléviseur Amazon Ember Série 2 de 32 po avec Fire TV",
+   "prix_affiche": 169.99
+  },
+  {
+   "asin": "B0D1JG8CRC",
+   "titre": "Enceinte Bluetooth JBL Go 4",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0CCZ26B5V",
+   "titre": "Casque antibruit Bose QuietComfort",
+   "prix_affiche": 249.0
+  },
+  {
+   "asin": "B0F5FTGX3T",
+   "titre": "Tablette Amazon Kids 11 pour enfants de 6 à 12 ans",
+   "prix_affiche": 289.99
+  },
+  {
+   "asin": "B0FLVP54H9",
+   "titre": "Tablette Samsung Galaxy Tab S10 Lite 128 Go",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B0DN45YMP6",
+   "titre": "Écouteurs antibruit JBL Vibe Beam 2",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0HJRSW5K9",
+   "titre": "Coiffeur Shark FlexStyle IonCurl",
+   "prix_affiche": 279.99
+  },
+  {
+   "asin": "B0GFWRY9K4",
+   "titre": "Écouteurs Samsung Galaxy Buds4 Pro",
+   "prix_affiche": 229.98
+  },
+  {
+   "asin": "B0B38KFWNK",
+   "titre": "Machine à expresso De'Longhi Magnifica Evo",
+   "prix_affiche": 549.98
+  },
+  {
+   "asin": "B0FLQLG4TM",
+   "titre": "Friteuse à air Ninja Foodi DualZone XL 10 pintes",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B08DBM534X",
+   "titre": "Nettoyeur à tapis portable Bissell SpotClean ProHeat",
+   "prix_affiche": 97.99
+  },
+  {
+   "asin": "B0BLJ4FDT4",
+   "titre": "LEGO Creator 3 en 1 navette spatiale",
+   "prix_affiche": 7.57
+  },
+  {
+   "asin": "B08LQY2XF5",
+   "titre": "Four friteuse à air Ninja Foodi XL Pro 10 en 1",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0F38FCHD2",
+   "titre": "Montre GPS Garmin vívoactive 6",
+   "prix_affiche": 329.98
+  },
+  {
+   "asin": "B07QHPWHQR",
+   "titre": "Crest 3D Whitestrips Professionnel, 22 traitements",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0F3PQHWTZ",
+   "titre": "Casque antibruit Sony WH-1000XM6",
+   "prix_affiche": 478.0
+  },
+  {
+   "asin": "B0F1J12B7J",
+   "titre": "Aspirateur sans fil Bissell PowerClean FurFinder",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B0FB59FN5M",
+   "titre": "Aspirateur sans fil Shark PowerPro Reveal Plus",
+   "prix_affiche": 249.99
+  },
+  {
+   "asin": "B0DHLV4PG6",
+   "titre": "Caméras Blink Outdoor 4, ensemble de 3",
+   "prix_affiche": 90.99
+  },
+  {
+   "asin": "B0DLLGG2Z8",
+   "titre": "Brosse à dents électrique Oral-B iO2",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B07649SXQ8",
+   "titre": "Robot culinaire Cuisinart 14 tasses",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0BGM5XPQZ",
+   "titre": "Mini imprimante photo Canon IVY 2",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0FLF2LCHS",
+   "titre": "Aspirateur balai sans fil Shark pour poils d'animaux",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B00BTKAPUU",
+   "titre": "Purificateur d'air Coway AP-1512HH",
+   "prix_affiche": 198.0
+  },
+  {
+   "asin": "B0DN2ZCZX6",
+   "titre": "Enceinte Bluetooth JBL Charge 6",
+   "prix_affiche": 179.98
+  },
+  {
+   "asin": "B0HFB8N519",
+   "titre": "Casque antibruit Sony WH-1000XM4 (2e génération)",
+   "prix_affiche": 278.0
+  },
+  {
+   "asin": "B0H2WPRPT1",
+   "titre": "Mélangeur professionnel Ninja 2.0, 1400 W",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0FHJ8XWWL",
+   "titre": "Sonnette vidéo Ring 2K à batterie",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0FL85XRNM",
+   "titre": "Friteuse à air Ninja Pro 5 en 1, 4,7 l",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0GFPX4WHV",
+   "titre": "Brosse à dents électrique Oral-B iO Deep Clean",
+   "prix_affiche": 164.99
+  },
+  {
+   "asin": "B0CT9MB4WR",
+   "titre": "Casque antibruit JBL Tune 670NC",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B09BW1QVVT",
+   "titre": "Casque de sport à conduction osseuse Shokz OpenRun",
+   "prix_affiche": 114.95
+  },
+  {
+   "asin": "B0GGDQ2ZF8",
+   "titre": "Autocuiseur Ninja HyperHeat 9 en 1",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0FL9LS1QL",
+   "titre": "Tablette Amazon Kids 8 pour enfants de 3 à 5 ans",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B000CBSNRY",
+   "titre": "Magna-Tiles, ensemble de 100 pièces",
+   "prix_affiche": 118.99
+  },
+  {
+   "asin": "B0H7CSMXT9",
+   "titre": "Friteuse à air Ninja DualZone 9,5 l",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B0GHYKY79N",
+   "titre": "Enceinte Bluetooth JBL Go 5",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0CSDCS8JJ",
+   "titre": "Circuit à billes VTech Marble Rush T-Rex",
+   "prix_affiche": 37.97
+  },
+  {
+   "asin": "B0BTYCRJSS",
+   "titre": "Écouteurs sans fil Anker Soundcore P20i",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0FQQTN6L7",
+   "titre": "Cafetière Keurig K-Mini Go",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0CTNX1VK2",
+   "titre": "Enceinte Bluetooth JBL Clip 5",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0DMV3BMGP",
+   "titre": "Enceinte Bluetooth JBL Flip 7",
+   "prix_affiche": 138.98
+  },
+  {
+   "asin": "B0G53V17VS",
+   "titre": "Mélangeur personnel Ninja BlendBOSS",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B07VBPLPH5",
+   "titre": "Machine à expresso Philips série 2200",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B01IRJFRBC",
+   "titre": "Hachoir Ninja Express Chop",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B07KG2X2GZ",
+   "titre": "Aspirateur à main Black+Decker Dustbuster",
+   "prix_affiche": 37.99
+  },
+  {
+   "asin": "B0749Z8YKW",
+   "titre": "Sapin de Noël artificiel National Tree Dunhill",
+   "prix_affiche": 74.99
+  },
+  {
+   "asin": "B0DHLHWZT7",
+   "titre": "LEGO Speed Champions Ferrari SF-24 F1",
+   "prix_affiche": 23.98
+  },
+  {
+   "asin": "B0H96FFSY6",
+   "titre": "Machine Nespresso Vertuo Pop+ Deluxe",
+   "prix_affiche": 95.0
+  },
+  {
+   "asin": "B07GH54F83",
+   "titre": "SAXX lot de 3 boxers ultra doux pour homme",
+   "prix_affiche": 61.77
+  },
+  {
+   "asin": "B0HFBMXJQ9",
+   "titre": "Casque antibruit Sony WH-CH730N",
+   "prix_affiche": 138.0
+  },
+  {
+   "asin": "B0DX1PT8X6",
+   "titre": "Robot aspirateur et vadrouille roborock Q7 L5+",
+   "prix_affiche": 269.99
+  },
+  {
+   "asin": "B0FWNW55V1",
+   "titre": "Machine à slush Chefman Iceman Slush-Ease MAX",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B071HHX6VF",
+   "titre": "Valise rigide extensible Amazon Basics",
+   "prix_affiche": 99.47
+  },
+  {
+   "asin": "B0F7T8CS6V",
+   "titre": "Sonnette vidéo Ring 4K Pro câblée",
+   "prix_affiche": 209.99
+  },
+  {
+   "asin": "B08DJ8Z3WH",
+   "titre": "Aspirateur vertical Shark Navigator Swivel Pro",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B08HMWZBXC",
+   "titre": "Casque antibruit Anker Soundcore Life Q30",
+   "prix_affiche": 67.99
+  },
+  {
+   "asin": "B0DF81PBXK",
+   "titre": "LEGO Fortnite Battle Bus",
+   "prix_affiche": 91.19
+  },
+  {
+   "asin": "B0BLJ4SVWV",
+   "titre": "LEGO Creator licorne magique 3 en 1",
+   "prix_affiche": 7.57
+  },
+  {
+   "asin": "B0DZ248TDD",
+   "titre": "Chromebook HP 14 po",
+   "prix_affiche": 229.0
+  },
+  {
+   "asin": "B0CS77B588",
+   "titre": "Crest 3D Whitestrips Express avec lumière",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0B5HQZ4QB",
+   "titre": "Brosse à dents électrique Oral-B iO Série 3",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0B5HVM6JX",
+   "titre": "Brosse à dents électrique Oral-B iO Série 5",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B07SZG537S",
+   "titre": "Rasoir à grille BaBylissPRO FoilFX pour homme",
+   "prix_affiche": 127.49
+  },
+  {
+   "asin": "B00IGB86YC",
+   "titre": "Hugo Boss Bottled Unlimited, eau de toilette pour homme 100 ml",
+   "prix_affiche": 119.2
+  },
+  {
+   "asin": "B003ZWEQGY",
+   "titre": "Calvin Klein Eternity, eau de parfum pour femme",
+   "prix_affiche": 53.6
+  },
+  {
+   "asin": "B094S8333N",
+   "titre": "Hugo Boss In Motion, eau de toilette pour homme 100 ml",
+   "prix_affiche": 81.6
+  },
+  {
+   "asin": "B0GWKD65RB",
+   "titre": "Séchoir Conair Cake Pop avec diffuseur",
+   "prix_affiche": 41.99
+  },
+  {
+   "asin": "B0G9BTVK3D",
+   "titre": "Brosse à dents électrique Philips Sonicare 6100",
+   "prix_affiche": 99.95
+  },
+  {
+   "asin": "B0DTKL6HFD",
+   "titre": "Philips OneBlade 360 Pro pour homme",
+   "prix_affiche": 79.95
+  },
+  {
+   "asin": "B0CQKLX6NL",
+   "titre": "Rasoir électrique Philips série 3000 pour homme",
+   "prix_affiche": 54.95
+  },
+  {
+   "asin": "B0GT22LR2Q",
+   "titre": "Brosse à dents Oral-B iO Kids Stitch pour enfants",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0HFP6DJBS",
+   "titre": "Philips OneBlade 360 Hybrid visage pour homme",
+   "prix_affiche": 54.95
+  },
+  {
+   "asin": "B0HBCRWDLR",
+   "titre": "Brosse à dents électrique Philips Sonicare 3100",
+   "prix_affiche": 27.95
+  },
+  {
+   "asin": "B0BN2F767S",
+   "titre": "Séchoir Remington 1875 W",
+   "prix_affiche": 25.65
+  },
+  {
+   "asin": "B08586N9J9",
+   "titre": "Brosse soufflante Conair",
+   "prix_affiche": 33.06
+  },
+  {
+   "asin": "B0GWFQYD4J",
+   "titre": "Rasoir rotatif Conair 9D pour homme",
+   "prix_affiche": 78.91
+  },
+  {
+   "asin": "B0FGL1W6DZ",
+   "titre": "Lisseur à vapeur Conair InfinitiPro",
+   "prix_affiche": 66.49
+  },
+  {
+   "asin": "B0DR3T17RV",
+   "titre": "Pets Alive Polly l'oiseau magique",
+   "prix_affiche": 19.93
+  },
+  {
+   "asin": "B00NHQF6MG",
+   "titre": "LEGO Classic boîte de briques de luxe 10698",
+   "prix_affiche": 51.42
+  },
+  {
+   "asin": "B0G2SYW4FW",
+   "titre": "LEGO Minecraft Le squelette",
+   "prix_affiche": 37.98
+  },
+  {
+   "asin": "B0FMS84RFJ",
+   "titre": "LEGO Speed Champions DeLorean Retour vers le futur",
+   "prix_affiche": 23.88
+  },
+  {
+   "asin": "B0GGTKB8CW",
+   "titre": "Magna-Tiles Rail Racers Max, 80 pièces",
+   "prix_affiche": 90.99
+  },
+  {
+   "asin": "B0DRW6KZKF",
+   "titre": "LEGO Technic Ferrari FXX K",
+   "prix_affiche": 54.13
+  },
+  {
+   "asin": "B0DJ1B7BC1",
+   "titre": "LEGO Creator famille de pandas 3 en 1",
+   "prix_affiche": 32.37
+  },
+  {
+   "asin": "B08XTG3QSF",
+   "titre": "Sac à dos Pat'Patrouille Melissa & Doug pour enfant",
+   "prix_affiche": 23.19
+  },
+  {
+   "asin": "B00CMM4VF4",
+   "titre": "Coffret d'art Crayola Inspiration, 140 pièces",
+   "prix_affiche": 24.99
+  },
+  {
+   "asin": "B0DRW6LQTN",
+   "titre": "LEGO Disney Pixar Wall-E et EVE",
+   "prix_affiche": 62.68
+  },
+  {
+   "asin": "B0DRW6C13X",
+   "titre": "LEGO Technic Nissan Skyline GT-R (R34) Rapides et dangereux",
+   "prix_affiche": 125.05
+  },
+  {
+   "asin": "B0FMS7WSD1",
+   "titre": "LEGO Friends la maison de Liann",
+   "prix_affiche": 61.71
+  },
+  {
+   "asin": "B0DSCGXCT4",
+   "titre": "Bitzee, hamster interactif dans sa balle",
+   "prix_affiche": 23.99
+  },
+  {
+   "asin": "B0916DJSGH",
+   "titre": "Montre intelligente VTech KidiZoom DX3 pour enfants",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0FNXC51RH",
+   "titre": "LEGO Editions Lionel Messi",
+   "prix_affiche": 23.74
+  },
+  {
+   "asin": "B0BGQSNWYZ",
+   "titre": "Barbecue en bois Melissa & Doug pour enfants",
+   "prix_affiche": 134.99
+  },
+  {
+   "asin": "B074L8RV1F",
+   "titre": "Trousse de vétérinaire Melissa & Doug, 24 pièces",
+   "prix_affiche": 24.57
+  },
+  {
+   "asin": "B0DQVTV75D",
+   "titre": "PLAYMOBIL Aréna de hockey de la LNH",
+   "prix_affiche": 78.36
+  },
+  {
+   "asin": "B0CSZ7DYGN",
+   "titre": "Maison de poupée Gabby, 63,5 cm",
+   "prix_affiche": 55.99
+  },
+  {
+   "asin": "B0DS2TSWP1",
+   "titre": "LEGO Super Mario Mario Kart",
+   "prix_affiche": 40.58
+  },
+  {
+   "asin": "B0DRW7PFQV",
+   "titre": "LEGO City bulldozer de chantier",
+   "prix_affiche": 51.28
+  },
+  {
+   "asin": "B0DRW52N58",
+   "titre": "LEGO Marvel Spider-Man contre Oscorp",
+   "prix_affiche": 119.18
+  },
+  {
+   "asin": "B0FZWTHN7J",
+   "titre": "SAXX lot de 3 boxers en coton pour homme",
+   "prix_affiche": 50.37
+  },
+  {
+   "asin": "B0BST4K178",
+   "titre": "Brassière de sport Shapermint pour femme",
+   "prix_affiche": 34.39
+  },
+  {
+   "asin": "B0H8YT3KG8",
+   "titre": "Soutien-gorge sans armature Shapermint Everyday pour femme",
+   "prix_affiche": 35.9
+  },
+  {
+   "asin": "B0DJTTMM2C",
+   "titre": "Jean Levi's 578 coupe ample pour homme",
+   "prix_affiche": 69.96
+  },
+  {
+   "asin": "B08NCMNY6H",
+   "titre": "Chandail à capuchon zippé Levi's pour homme",
+   "prix_affiche": 49.14
+  },
+  {
+   "asin": "B09P9V1N7S",
+   "titre": "Nettoyeur portable Hoover CleanSlate",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B0F48ZR6YT",
+   "titre": "Nettoyeur à tapis Bissell Revolution HydroSteam",
+   "prix_affiche": 279.29
+  },
+  {
+   "asin": "B0HGJD4KF7",
+   "titre": "Friteuse à air Cuisinart ClearView 4,3 l",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0GN4L93SM",
+   "titre": "Aspirateur balai Bissell PowerClean",
+   "prix_affiche": 107.99
+  },
+  {
+   "asin": "B0D41VRXR6",
+   "titre": "Pot alimentaire isotherme Thermos ICON",
+   "prix_affiche": 26.39
+  },
+  {
+   "asin": "B07F82X5HH",
+   "titre": "Machine à pain Cuisinart",
+   "prix_affiche": 107.97
+  },
+  {
+   "asin": "B078YZ586K",
+   "titre": "Nettoyeur à tapis Hoover PowerDash Pet",
+   "prix_affiche": 93.99
+  },
+  {
+   "asin": "B004Q4DRJW",
+   "titre": "Aspirateur Shark Navigator Lift-Away NV352",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B08TT4YHG1",
+   "titre": "Aspirateur autonettoyant Shark Navigator HEPA",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B09HSWBTN4",
+   "titre": "Four grille-pain Cuisinart 8 en 1 avec friteuse à air",
+   "prix_affiche": 189.99
+  },
+  {
+   "asin": "B0CBSZR9NF",
+   "titre": "Nettoyeur à taches Shark StainStriker",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0C8PH9Z2H",
+   "titre": "Mélangeur Vitamix Propel 750",
+   "prix_affiche": 499.99
+  },
+  {
+   "asin": "B0FJ857T1B",
+   "titre": "Cocotte en fonte émaillée Cuisinart 4,7 l",
+   "prix_affiche": 68.25
+  },
+  {
+   "asin": "B0D96XT9BF",
+   "titre": "Machine à expresso De'Longhi Magnifica Start",
+   "prix_affiche": 449.99
+  },
+  {
+   "asin": "B006LXOJC0",
+   "titre": "Aspirateur à main Black+Decker Dustbuster 16 V",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B08BDHZ1PV",
+   "titre": "Machine à emballer sous vide FoodSaver compacte",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B08QW6RBBX",
+   "titre": "Aspirateur balai Shark Rocket",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0BWSLYK5H",
+   "titre": "Mélangeur Vitamix Propel 510",
+   "prix_affiche": 399.99
+  },
+  {
+   "asin": "B07DVYN14S",
+   "titre": "Parure de lit en flanelle Eddie Bauer",
+   "prix_affiche": 55.43
+  },
+  {
+   "asin": "B0DTB21V51",
+   "titre": "Nettoyeuse de tapis Shark CarpetXpert HairPro",
+   "prix_affiche": 249.99
+  },
+  {
+   "asin": "B07PC27RSQ",
+   "titre": "Batterie de cuisine Lagostina Bronzeo, 12 pièces",
+   "prix_affiche": 259.99
+  },
+  {
+   "asin": "B0GQDS7RYT",
+   "titre": "Aspirateur-laveur sans fil Bissell CrossWave Edge",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0H859Y2P4",
+   "titre": "Mélangeur nutribullet Turbo Tumbler",
+   "prix_affiche": 64.99
+  },
+  {
+   "asin": "B0D4B6T4V2",
+   "titre": "Mélangeur Ninja Detect Power Blender",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B089TQGC8T",
+   "titre": "Aspirateur balai Shark Vertex ultra-léger",
+   "prix_affiche": 229.99
+  },
+  {
+   "asin": "B0C47CBKKK",
+   "titre": "Aspirateur sans fil Miele Triflex HX1",
+   "prix_affiche": 499.99
+  },
+  {
+   "asin": "B00DI342B4",
+   "titre": "Machine sous vide FoodSaver V4400 2 en 1",
+   "prix_affiche": 169.99
+  },
+  {
+   "asin": "B0CV842H6R",
+   "titre": "Ensemble de 14 couteaux Henckels",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B00BY0A8Y8",
+   "titre": "Mélangeur Vitamix 5200 rouge",
+   "prix_affiche": 429.99
+  },
+  {
+   "asin": "B00MS7WMY0",
+   "titre": "Sapin de Noël artificiel National Tree Feel Real",
+   "prix_affiche": 274.99
+  },
+  {
+   "asin": "B0BLMCGD6N",
+   "titre": "Robot aspirateur et vadrouille Shark Matrix Plus 2 en 1",
+   "prix_affiche": 399.98
+  },
+  {
+   "asin": "B0FGG17Z8C",
+   "titre": "Bouilloire électrique Chefman 1,8 l",
+   "prix_affiche": 38.99
+  },
+  {
+   "asin": "B08GHD3JWQ",
+   "titre": "Poêles antiadhésives Tefal Jamie Oliver",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0B6G9TPNQ",
+   "titre": "Casque sans fil Sennheiser Momentum 4",
+   "prix_affiche": 249.95
+  },
+  {
+   "asin": "B0CDC6LH5W",
+   "titre": "Montre GPS Garmin Venu 3",
+   "prix_affiche": 399.0
+  },
+  {
+   "asin": "B0F2TQBG6T",
+   "titre": "Localisateur Bluetooth Tile de Life360",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0D634ZR1Y",
+   "titre": "Localisateurs Tile Pro, lot de 4",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0CRMB9Z84",
+   "titre": "Écouteurs antibruit JLab JBuds Lux",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0GMTNSFR3",
+   "titre": "Casque Bluetooth JBL Tune 730BT",
+   "prix_affiche": 69.98
+  },
+  {
+   "asin": "B0FC3XN1Q3",
+   "titre": "Montre Samsung Galaxy Watch8 44 mm",
+   "prix_affiche": 349.99
+  },
+  {
+   "asin": "B0FLQFQGDX",
+   "titre": "Écouteurs Samsung Galaxy Buds3 FE",
+   "prix_affiche": 124.99
+  },
+  {
+   "asin": "B0CFDPQXN4",
+   "titre": "Batterie externe Anker MagGo 10 000 mAh",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B09NRG4GK3",
+   "titre": "Batterie externe magnétique Anker 633",
+   "prix_affiche": 59.98
+  },
+  {
+   "asin": "B01KIMOEW4",
+   "titre": "Nettoyeur portable Hoover Spotless",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B0F46CBL35",
+   "titre": "Balai vapeur Bissell SpinWave SmartSteam",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0FBN7G55R",
+   "titre": "Nettoyeur de sol Bissell CrossWave Edge",
+   "prix_affiche": 169.99
+  },
+  {
+   "asin": "B0FCLRG225",
+   "titre": "Écouteurs de sommeil Soundcore Sleep A30 d'Anker",
+   "prix_affiche": 184.99
+  },
+  {
+   "asin": "B086MF86HR",
+   "titre": "Coussin chauffant Sunbeam",
+   "prix_affiche": 35.99
+  },
+  {
+   "asin": "B0BGJB379W",
+   "titre": "Boucles d'oreilles en argent sterling Amazon Essentials pour femme",
+   "prix_affiche": 15.36
+  },
+  {
+   "asin": "B0CJSJ93MY",
+   "titre": "Nettoyeur de tapis portable Bissell Little Green HydroSteam",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B0GFBQ8XM8",
+   "titre": "Perceuse à percussion sans fil DEWALT 20 V MAX",
+   "prix_affiche": 207.09
+  },
   {
    "asin": "B0DQY7C2K4",
    "titre": "Gourde Stanley Quencher H2.0",
@@ -17,11 +842,6 @@
    "prix_affiche": 64.99
   },
   {
-   "asin": "B00CMM4VF4",
-   "titre": "Mallette d'art Crayola Inspiration",
-   "prix_affiche": 24.99
-  },
-  {
    "asin": "B08FCXBV23",
    "titre": "T-shirt Under Armour Tech 2.0 pour homme",
    "prix_affiche": 22.5
@@ -30,11 +850,6 @@
    "asin": "B0FW7HLNL6",
    "titre": "Jean Levi's Cinch Baggy pour femme",
    "prix_affiche": 67.13
-  },
-  {
-   "asin": "B0D1JG8CRC",
-   "titre": "Haut-parleur JBL Go 4",
-   "prix_affiche": 39.98
   },
   {
    "asin": "B0GHY7V8C4",
@@ -137,11 +952,6 @@
    "prix_affiche": 15.74
   },
   {
-   "asin": "B0D4B6T4V2",
-   "titre": "Mélangeur Ninja Detect Duo",
-   "prix_affiche": 119.99
-  },
-  {
    "asin": "B0D6WD2QSQ",
    "titre": "Haut-parleur Bose SoundLink Flex",
    "prix_affiche": 149.0
@@ -155,16 +965,6 @@
    "asin": "B0D5FX6VRL",
    "titre": "Friteuse à air Chefman 6 pintes",
    "prix_affiche": 79.99
-  },
-  {
-   "asin": "B08DJ8Z3WH",
-   "titre": "Aspirateur Shark Navigator Swivel Pro",
-   "prix_affiche": 99.98
-  },
-  {
-   "asin": "B074L8RV1F",
-   "titre": "Trousse de vétérinaire Melissa & Doug",
-   "prix_affiche": 24.57
   },
   {
    "asin": "B0FTK9H3R6",
@@ -242,19 +1042,9 @@
    "prix_affiche": 38.97
   },
   {
-   "asin": "B0CCZ26B5V",
-   "titre": "Casque antibruit Bose QuietComfort",
-   "prix_affiche": 249.0
-  },
-  {
    "asin": "B0DM3PRC5P",
    "titre": "Fer à repasser sans fil Panasonic",
    "prix_affiche": 104.48
-  },
-  {
-   "asin": "B0FLQLG4TM",
-   "titre": "Friteuse à air Ninja Foodi DualZone XL 10 pintes",
-   "prix_affiche": 179.99
   },
   {
    "asin": "B0CYCFRZKD",
@@ -262,64 +1052,14 @@
    "prix_affiche": 16.95
   },
   {
-   "asin": "B0DN45YMP6",
-   "titre": "Écouteurs antibruit JBL Vibe Beam 2",
-   "prix_affiche": 49.98
-  },
-  {
-   "asin": "B0DHLV4PG6",
-   "titre": "Caméras extérieures Blink Outdoor 4, lot de 3",
-   "prix_affiche": 90.99
-  },
-  {
-   "asin": "B07649SXQ8",
-   "titre": "Robot culinaire Cuisinart 14 tasses",
-   "prix_affiche": 199.99
-  },
-  {
-   "asin": "B0FB59FN5M",
-   "titre": "Aspirateur sans fil Shark PowerPro Reveal Plus",
-   "prix_affiche": 249.99
-  },
-  {
-   "asin": "B0CHBNXJ24",
-   "titre": "Machine à crème glacée Ninja CREAMi XL Deluxe",
-   "prix_affiche": 199.98
-  },
-  {
-   "asin": "B0FHJ8XWWL",
-   "titre": "Sonnette vidéo Ring 2K à batterie",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0FL85XRNM",
-   "titre": "Friteuse à air Ninja Pro 4,7 L",
-   "prix_affiche": 99.99
-  },
-  {
    "asin": "B0BGM5WRQ1",
    "titre": "Imprimante photo Canon IVY 2",
    "prix_affiche": 99.99
   },
   {
-   "asin": "B08LQY2XF5",
-   "titre": "Four friteuse à air Ninja Foodi XL Pro 10 en 1",
-   "prix_affiche": 199.99
-  },
-  {
-   "asin": "B07QHPWHQR",
-   "titre": "Crest 3D Whitestrips, 22 traitements",
-   "prix_affiche": 44.99
-  },
-  {
    "asin": "B0DFD2CVFN",
    "titre": "Brosses à dents électriques Oral-B iO2, lot de 2",
    "prix_affiche": 99.99
-  },
-  {
-   "asin": "B0H2WPRPT1",
-   "titre": "Mélangeur Ninja Professionnel 2.0",
-   "prix_affiche": 79.99
   },
   {
    "asin": "B0H8YMB4G6",
@@ -337,16 +1077,6 @@
    "prix_affiche": 119.99
   },
   {
-   "asin": "B0FLF2LCHS",
-   "titre": "Aspirateur balai Shark pour poils d'animaux",
-   "prix_affiche": 179.99
-  },
-  {
-   "asin": "B0DMV3BMGP",
-   "titre": "Haut-parleur JBL Flip 7",
-   "prix_affiche": 138.98
-  },
-  {
    "asin": "B0GCJHLVSV",
    "titre": "Boxers SAXX Ultra pour homme, lot de 3",
    "prix_affiche": 61.77
@@ -355,21 +1085,6 @@
    "asin": "B008G7OJFQ",
    "titre": "Coton ouaté Carhartt Loose Fit pour homme",
    "prix_affiche": 76.49
-  },
-  {
-   "asin": "B0BTYCRJSS",
-   "titre": "Écouteurs sans fil Anker Soundcore P20i",
-   "prix_affiche": 24.99
-  },
-  {
-   "asin": "B0DF81PBXK",
-   "titre": "LEGO Fortnite Autobus de combat",
-   "prix_affiche": 91.19
-  },
-  {
-   "asin": "B071HHX6VF",
-   "titre": "Valise rigide Amazon Basics",
-   "prix_affiche": 99.47
   },
   {
    "asin": "B08F69M456",
@@ -385,16 +1100,6 @@
    "asin": "B0GY9T544P",
    "titre": "Boxers SAXX Core pour homme, lot de 5",
    "prix_affiche": 55.22
-  },
-  {
-   "asin": "B00DI342B4",
-   "titre": "Machine sous vide FoodSaver V4400",
-   "prix_affiche": 169.99
-  },
-  {
-   "asin": "B000CBSNRY",
-   "titre": "Magna-Tiles Clear Colors 100 pièces",
-   "prix_affiche": 118.99
   },
   {
    "asin": "B0G2T2Q1RH",
@@ -417,11 +1122,6 @@
    "prix_affiche": 42.95
   },
   {
-   "asin": "B09P9V1N7S",
-   "titre": "Nettoyeur à tapis Hoover CleanSlate",
-   "prix_affiche": 89.99
-  },
-  {
    "asin": "B0D1KQKZM2",
    "titre": "Friteuse à air Cosori TurboBlaze 6 pintes",
    "prix_affiche": 129.93
@@ -437,34 +1137,14 @@
    "prix_affiche": 50.38
   },
   {
-   "asin": "B0G53V17VS",
-   "titre": "Mélangeur Ninja BlendBOSS",
-   "prix_affiche": 129.99
-  },
-  {
    "asin": "B01MRX9US8",
    "titre": "Crest 3D Whitestrips Vivid White",
    "prix_affiche": 20.94
   },
   {
-   "asin": "B0D41VRXR6",
-   "titre": "Pot isotherme Thermos ICON 680 ml",
-   "prix_affiche": 26.39
-  },
-  {
    "asin": "B08BR9HBZ3",
    "titre": "Contenants en verre Rubbermaid Brilliance",
    "prix_affiche": 76.99
-  },
-  {
-   "asin": "B078YZ586K",
-   "titre": "Nettoyeur à tapis Hoover PowerDash Pet",
-   "prix_affiche": 93.99
-  },
-  {
-   "asin": "B0GGDQ2ZF8",
-   "titre": "Autocuiseur Ninja HyperHeat 9 en 1",
-   "prix_affiche": 149.99
   },
   {
    "asin": "B0G2T5CVZ5",
@@ -512,11 +1192,6 @@
    "prix_affiche": 67.99
   },
   {
-   "asin": "B0G2SYW4FW",
-   "titre": "LEGO Minecraft Le squelette",
-   "prix_affiche": 37.98
-  },
-  {
    "asin": "B0CX4SSBTJ",
    "titre": "Magna-Tiles Château DLX 48 pièces",
    "prix_affiche": 69.99
@@ -545,16 +1220,6 @@
    "asin": "B09RTLFV3F",
    "titre": "Fer plat Remington Shine Therapy",
    "prix_affiche": 30.23
-  },
-  {
-   "asin": "B0GN4L93SM",
-   "titre": "Aspirateur balai BISSELL PowerClean",
-   "prix_affiche": 107.99
-  },
-  {
-   "asin": "B07KG2X2GZ",
-   "titre": "Aspirateur à main BLACK+DECKER Dustbuster",
-   "prix_affiche": 37.99
   },
   {
    "asin": "B0CQ53RVTW",
@@ -597,11 +1262,6 @@
    "prix_affiche": 199.98
   },
   {
-   "asin": "B08TT4YHG1",
-   "titre": "Aspirateur Shark Navigator autonettoyant",
-   "prix_affiche": 199.99
-  },
-  {
    "asin": "B07MR81PFZ",
    "titre": "Lits superposés Our Generation pour poupée",
    "prix_affiche": 56.49
@@ -610,11 +1270,6 @@
    "asin": "B085FRKBMF",
    "titre": "Mélangeur à main Braun MultiQuick 7",
    "prix_affiche": 99.99
-  },
-  {
-   "asin": "B0G9BTVK3D",
-   "titre": "Brosse à dents Philips Sonicare 6100",
-   "prix_affiche": 99.95
   },
   {
    "asin": "B0FMS7HMNN",
@@ -640,16 +1295,6 @@
    "asin": "B0F446LYD5",
    "titre": "Rasoir Philips i9000 Prestige pour homme",
    "prix_affiche": 229.95
-  },
-  {
-   "asin": "B0CV842H6R",
-   "titre": "Couteaux HENCKELS, ensemble de 14",
-   "prix_affiche": 139.99
-  },
-  {
-   "asin": "B0CJSJ93MY",
-   "titre": "Nettoyeur BISSELL Little Green HydroSteam",
-   "prix_affiche": 179.99
   },
   {
    "asin": "B0CFSQ6GZ7",
@@ -680,16 +1325,6 @@
    "asin": "B0DSLBFRNG",
    "titre": "Robot aspirateur Roborock Q7 L5",
    "prix_affiche": 179.99
-  },
-  {
-   "asin": "B0GGTKB8CW",
-   "titre": "Magna-Tiles Rail Racers Max 80 pièces",
-   "prix_affiche": 90.99
-  },
-  {
-   "asin": "B0FLQFQGDX",
-   "titre": "Écouteurs Samsung Galaxy Buds3 FE",
-   "prix_affiche": 124.99
   },
   {
    "asin": "B0C7HX99Q6",
@@ -725,16 +1360,6 @@
    "asin": "B016D5ZXCK",
    "titre": "Défroisseur vapeur Conair",
    "prix_affiche": 69.91
-  },
-  {
-   "asin": "B07DVYN14S",
-   "titre": "Parure de draps en flanelle Eddie Bauer",
-   "prix_affiche": 55.43
-  },
-  {
-   "asin": "B08QW6RBBX",
-   "titre": "Aspirateur balai Shark Rocket",
-   "prix_affiche": 149.99
   },
   {
    "asin": "B081768Q39",
@@ -982,19 +1607,9 @@
    "prix_affiche": 26.64
   },
   {
-   "asin": "B0DLLGG2Z8",
-   "titre": "Brosse à dents électrique Oral-B iO2",
-   "prix_affiche": 59.99
-  },
-  {
    "asin": "B0CPT8W3RV",
    "titre": "Masques yeux au rétinol grace & stella, 24 paires",
    "prix_affiche": 19.95
-  },
-  {
-   "asin": "B0CS77B588",
-   "titre": "Crest 3D Whitestrips avec lumière",
-   "prix_affiche": 59.99
   },
   {
    "asin": "B07L5P2J8D",
@@ -1007,24 +1622,9 @@
    "prix_affiche": 34.12
   },
   {
-   "asin": "B07SZG537S",
-   "titre": "Rasoir à grille BaBylissPRO FoilFX pour homme",
-   "prix_affiche": 127.49
-  },
-  {
-   "asin": "B0B5HQZ4QB",
-   "titre": "Brosse à dents Oral-B iO Série 3",
-   "prix_affiche": 99.99
-  },
-  {
    "asin": "B0FLKLY8LQ",
    "titre": "Brosse à dents Oral-B iO Kids Spider-Man",
    "prix_affiche": 59.99
-  },
-  {
-   "asin": "B0DTKL6HFD",
-   "titre": "Philips OneBlade 360 Pro pour homme",
-   "prix_affiche": 79.95
   },
   {
    "asin": "B08FNFCPNL",
@@ -1092,11 +1692,6 @@
    "prix_affiche": 129.99
   },
   {
-   "asin": "B0GWKD65RB",
-   "titre": "Sèche-cheveux Conair Cake Pop rose",
-   "prix_affiche": 41.99
-  },
-  {
    "asin": "B0DDYDXFSL",
    "titre": "Coiffeur 4 en 1 Conair DigitalAire",
    "prix_affiche": 83.46
@@ -1122,16 +1717,6 @@
    "prix_affiche": 112.49
   },
   {
-   "asin": "B0BN2F767S",
-   "titre": "Sèche-cheveux Remington violet",
-   "prix_affiche": 25.65
-  },
-  {
-   "asin": "B0CQKLX6NL",
-   "titre": "Rasoir Philips série 3000 pour homme",
-   "prix_affiche": 54.95
-  },
-  {
    "asin": "B0DXW617C3",
    "titre": "Baguettes à friser Remington 5 en 1",
    "prix_affiche": 68.54
@@ -1140,11 +1725,6 @@
    "asin": "B0H9B1LYJB",
    "titre": "Trio de minis Hempz banane tropicale",
    "prix_affiche": 20.27
-  },
-  {
-   "asin": "B0HFP6DJBS",
-   "titre": "Philips OneBlade 360 Hybrid Face",
-   "prix_affiche": 54.95
   },
   {
    "asin": "B081SHG4F8",
@@ -1160,11 +1740,6 @@
    "asin": "B0F3JVZS5X",
    "titre": "Coiffeur Conair 5 en 1 en céramique",
    "prix_affiche": 74.17
-  },
-  {
-   "asin": "B08586N9J9",
-   "titre": "Brosse à air chaud Conair",
-   "prix_affiche": 33.06
   },
   {
    "asin": "B09GKYSV42",
