@@ -1,12 +1,12 @@
 {
- "date": "2026-11-18T21:29-04:00",
+ "date": "2026-11-18T23:19-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-12T01:58:19+00:00",
-    "2026-11-12T05:42:30+00:00"
+    "2026-11-12T05:42:30+00:00",
+    "2026-11-12T11:30:35+00:00"
    ],
    [
     "2026-11-18T18:06:41+00:00",
@@ -14,78 +14,78 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   36,
+   36,
    [
     "2026-11-12T05:16:13+00:00",
     "2026-11-12T10:34:46+00:00"
    ],
    [
-    "2026-11-18T18:47:40+00:00",
-    "2026-11-18T19:40:14+00:00"
+    "2026-11-19T02:27:01+00:00",
+    "2026-11-19T02:44:24+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   14,
+   16,
    [
-    "2026-11-16T14:04:58+00:00",
-    "2026-11-16T14:08:50+00:00"
+    "2026-11-16T15:25:51+00:00",
+    "2026-11-16T15:26:24+00:00"
    ],
    [
-    "2026-11-18T19:40:14+00:00",
-    "2026-11-18T23:47:43+00:00"
+    "2026-11-19T02:27:01+00:00",
+    "2026-11-19T02:44:24+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   25,
+   23,
    [
-    "2026-11-09T16:52:18+00:00",
-    "2026-11-09T16:56:55+00:00"
+    "2026-11-09T19:42:15+00:00",
+    "2026-11-09T19:54:13+00:00"
    ],
    [
-    "2026-11-16T10:01:45+00:00",
-    "2026-11-16T12:55:57+00:00"
+    "2026-11-16T14:08:50+00:00",
+    "2026-11-16T14:21:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-28T16:57:39+00:00",
-    "2026-10-29T06:10:56+00:00"
+    "2026-10-29T20:51:43+00:00",
+    "2026-10-29T23:15:50+00:00"
    ],
    [
-    "2026-11-09T16:24:25+00:00",
-    "2026-11-09T16:41:53+00:00"
+    "2026-11-09T16:56:55+00:00",
+    "2026-11-09T17:00:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-13T12:43:25+00:00",
-    "2026-10-13T12:55:18+00:00"
+    "2026-10-13T15:16:26+00:00",
+    "2026-10-13T21:08:43+00:00"
    ],
    [
-    "2026-10-28T14:09:54+00:00",
-    "2026-10-28T15:50:04+00:00"
+    "2026-10-29T06:10:56+00:00",
+    "2026-10-29T09:48:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-06T15:48:05+00:00",
+    "2026-10-06T15:55:41+00:00"
    ],
    [
-    "2026-10-12T15:32:42+00:00",
-    "2026-10-12T16:05:51+00:00"
+    "2026-10-13T12:55:18+00:00",
+    "2026-10-13T13:39:34+00:00"
    ]
   ],
-  "avant_filtre_date": 131,
+  "avant_filtre_date": 129,
   "apres_filtre_date": 49
  },
  "items": [
@@ -347,7 +347,7 @@
    "price": 11.95,
    "was": 17.84,
    "votes": 7,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-11-18T03:54:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-slim-rfid-leather-wallet-11-95-33-off-2832642/",
    "asin": "B097GLJ758",
@@ -355,7 +355,7 @@
    "cat": "mode",
    "link": "https://www.amazon.ca/dp/B097GLJ758?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 3,
+   "morts": 2,
    "doute": true,
    "img": "/img/p/B097GLJ758.jpg"
   },
@@ -558,6 +558,24 @@
    "img": "/img/p/B0FWK41WF2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
+   "title": "USB-C Bluetooth 5.3 Dongle (PC/Ps5/Switch2) - $25.73",
+   "price": 25.73,
+   "was": 38.99,
+   "votes": 3,
+   "posts": 12,
+   "time": "2026-11-18T02:34:47+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
+   "asin": "B0D7CKV1J8",
+   "pct": 34,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0D7CKV1J8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D7CKV1J8.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
    "title": "REOLINK PoE Security Camera CX820 - $115.99",
    "price": 115.99,
@@ -648,24 +666,6 @@
    "img": "/img/p/B01FYIAQA6.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
-   "title": "USB-C Bluetooth 5.3 Dongle (PC/Ps5/Switch2) - $25.73",
-   "price": 25.73,
-   "was": 38.99,
-   "votes": 2,
-   "posts": 11,
-   "time": "2026-11-18T02:34:47+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
-   "asin": "B0D7CKV1J8",
-   "pct": 34,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D7CKV1J8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D7CKV1J8.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-action-4-essential-combo-ci-249-99-319-2832678/",
    "title": "DJI Osmo Action 4 Essential Combo – $249.99 (was. $319)",
    "price": 249.99,
@@ -682,24 +682,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DS2B3P2B.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
-   "title": "kindle scribe 64gb with premium pen like new $221.64",
-   "price": 221.64,
-   "was": null,
-   "votes": 1,
-   "posts": 2,
-   "time": "2026-11-12T01:58:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-kindle-scribe-64gb-premium-pen-like-new-221-64-2831798/",
-   "asin": "B09BSQ8PRD",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09BSQ8PRD?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B09BSQ8PRD.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-renogy-40a-dc-dc-mppt-battery-charger-agm-gel-lithium-166-42-2831918/",
@@ -934,6 +916,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLWCJSC3.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-action-6-capture-more-combo-ci-567-81-669-2832780/",
+   "title": "DJI Osmo Action 6 Capture More Combo – $567.81 (was. $669)",
+   "price": 567.81,
+   "was": 669.0,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-19T02:44:24+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-action-6-capture-more-combo-ci-567-81-669-2832780/",
+   "asin": "B0GT4JVFPF",
+   "pct": 15,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GT4JVFPF?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GT4JVFPF.jpg"
   }
  ]
 }
