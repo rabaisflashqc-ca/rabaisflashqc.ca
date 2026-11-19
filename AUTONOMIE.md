@@ -122,6 +122,12 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Section « Prix de Vendredi fou, déjà là » (demande d'Alex du 13 nov.) : en tête de l'accueil (12 cartes) et sur /vendredi-fou/. Elle se remplit avec le champ `"vf": true` dans suivi/deals_chrome.json. À chaque passe Keepa ou Amazon, mettre vf sur chaque deal avec photo et 30 % ou plus. Le texte ne dit jamais que c'est une offre officielle d'Amazon.
 - L'inscription courriel et les boutons des réseaux passent après les premiers deals (marqueur `<!--NL-->` dans `extra`), pour qu'un deal soit visible dès l'ouverture.
 
+## Chercheur de rabais intelligent (18 nov. 2026, demande d'Alex : « trouver les deals en un clic »)
+
+- Code : `site_recherche.js` (copié en docs/recherche.js) + index `docs/recherche.json` écrit par `index_recherche()` dans build.py (tous les deals vérifiés affichables, pas seulement ceux de la page). Présent sur toutes les pages (dans le hero à l'accueil).
+- Résultats pendant qu'on tape, sans accents ni pluriels, synonymes FR/EN (casque, aspirateur, friteuse, café…), filtres compris dans la phrase (« sous 50 $ », « cadeau pour elle / lui », « pour enfants », « ça vaut le clic »), boutons « Grandes marques » (Dyson, LEGO, Sony, Bose, Samsung, JBL, Levi's… dans cet ordre, seulement celles qui ont des deals) et « En un clic ». Lien partageable : rabaisflashqc.ca/?q=LEGO.
+- Les réels et posts en parlent : « Clique une grande marque ou tape sous 50 $ ».
+
 ## Palette du site (18 nov. 2026, choix d'Alex : maquette « B2 rouge franc + crème »)
 
 - Chaque couleur a un seul rôle : jaune (#FFC21A) = action seulement (recherche, « Voir le deal », boutons) ; rouge (#C1121F) = marque et urgence (en-tête, prix, onglet actif) ; vert = économie (« Tu économises ») ; crème (#FFF7E8) = fond calme. Bannière Vendredi fou en bordeaux (#3D0A10) avec titre jaune.
