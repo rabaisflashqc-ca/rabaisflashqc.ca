@@ -314,7 +314,7 @@ PAGES = [
    "Tout pour être prêt le 31 octobre : costumes pour enfants et adultes, décorations, maquillage et bonbons en vrac, livrés vite avec Prime. Commande tôt, les tailles populaires partent vite!",
    lambda d: d["cat"] == "halloween" or d.get("hw"), [("Déguisements","halloween déguisement"),("Déco d'Halloween","halloween decor"),("Bonbons d'Halloween","halloween bonbons"),("Maquillage d'Halloween","halloween maquillage")]),
 ]
-NAV = [("", "Accueil"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("plein-air","Plein air"), ("tech","Tech"), ("animaux","Animaux")]
+NAV = [("", "Accueil"), ("recherche","🔎 Chercher"), ("vendredi-fou","Vendredi fou"), ("idees-cadeaux","Cadeaux"), ("beaute","Beauté"), ("mode","Mode"), ("enfants","Enfants"), ("epicerie","Épicerie"), ("maison","Maison"), ("plein-air","Plein air"), ("tech","Tech"), ("animaux","Animaux")]
 
 CSS = """
 :root{--red:#C1121F;--deep:#8E0B16;--yel:#FFC72C;--ink:#1A1A1A;--muted:#5C5C5C;--line:#ECD7D9;--paper:#fff}
@@ -423,7 +423,7 @@ ul.deals>.empty{grid-column:1/-1}
 .more a{min-height:40px;display:inline-flex;align-items:center}
 .nl{max-width:720px;margin-left:auto;margin-right:auto}.follow,.club,.note,.gang{max-width:720px;margin-left:auto;margin-right:auto}
 .tabbar{display:none}
-@media (max-width:699px){.tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:1px solid var(--line);box-shadow:0 -3px 12px rgba(0,0,0,.12);padding:4px 4px calc(4px + env(safe-area-inset-bottom))}
+@media (max-width:699px){.tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:1px solid var(--line);box-shadow:0 -3px 12px rgba(0,0,0,.12);padding:4px 4px calc(4px + env(safe-area-inset-bottom))}
 .tabbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-height:52px;text-decoration:none;font-size:12.5px;font-weight:700;color:var(--deep);border-radius:12px}.tabbar a b{font-size:21px;line-height:1}.tabbar a.vf{background:var(--red);color:#fff}}
 @media (max-width:480px){.vfs{padding:10px 12px;gap:8px}.vfs strong{font-size:19px}.vfs span{font-size:13.5px}.vfs i{padding:8px 10px;font-size:13.5px}}
 @media (min-width:700px){header h1{font-size:34px}header .intro{max-width:none}header .upd{display:none}}
@@ -490,6 +490,30 @@ RECHERCHE = """<section class="rq" id="recherche" aria-label="Chercher un deal">
 .rq-go{display:block;padding:15px;font-size:18px;font-weight:700;color:#2A0508;background:#FFC21A;border-radius:14px;text-decoration:none}.rq-all{display:inline-block;margin-top:10px;font-size:15px;color:#5C5C5C}
 @media (max-width:699px){#rq-f{flex-wrap:wrap}#rq-q{flex-basis:100%}#rq-f button{width:100%;padding:14px;font-size:18px}.rq{margin-top:10px;padding:12px}}.rq-ch button small{font-weight:500;color:#8a6a4a;margin-left:2px}.rq-ch.mk span{color:#C1121F}#rq-more{display:block;width:100%;margin:0 0 12px;padding:13px;font:inherit;font-size:16px;font-weight:700;border-radius:14px;border:2px solid #C1121F;background:#fff;color:#C1121F;cursor:pointer}</style>
 <script src="/recherche.js?v=RQV" defer></script>
+"""
+
+FOUILLE = """<p class="fx">Tous les rabais vérifiés du site sont ici : <b><span id="ftot">…</span> produits</b>. Tape un mot (« Dyson », « pantoufles », « LEGO sous 30 »), choisis un rayon ou un prix, et trie comme tu veux. Ça va vite, promis.</p>
+<form id="ff" role="search" autocomplete="off"><input id="fq" type="search" placeholder="Ex. : casque, Barbie, cadeau pour elle sous 50" aria-label="Chercher un rabais" enterkeyhint="search"><select id="ft" aria-label="Trier"><option value="best">Meilleurs deals d'abord</option><option value="pct">Plus gros %</option><option value="eco">Plus grosse économie $</option><option value="bas">Prix : du plus bas</option><option value="haut">Prix : du plus haut</option></select></form>
+<div class="fch" id="fc"><button type="button" class="on" data-v="">Tout</button><button type="button" data-v="beaute">💄 Beauté</button><button type="button" data-v="maison">🏠 Maison</button><button type="button" data-v="tech">🎧 Tech</button><button type="button" data-v="enfants">🧸 Enfants et jouets</button><button type="button" data-v="femme">👩 Femme</button><button type="button" data-v="homme">👨 Homme</button><button type="button" data-v="animaux">🐶 Animaux</button><button type="button" data-v="plein-air">🏕️ Plein air</button></div>
+<div class="fch" id="fm"><button type="button" class="on" data-v="0">Tous les prix</button><button type="button" data-v="25">Sous 25 $</button><button type="button" data-v="50">Sous 50 $</button><button type="button" data-v="100">Sous 100 $</button><button type="button" data-v="200">Sous 200 $</button><label class="fhh"><input type="checkbox" id="fh"> 🔥 Ça vaut le clic seulement</label></div>
+<p id="fn" class="fn" aria-live="polite">Chargement des rabais…</p><ul id="fl" class="fl"></ul><button type="button" id="fp" class="fpb" hidden></button>
+<p class="fx">Les prix viennent d'Amazon et peuvent changer à tout moment. Chaque carte dit quand le prix a été observé.</p>
+<style>.fx{font-size:16px;line-height:1.45}#ff{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 8px;position:sticky;top:52px;z-index:5;background:#FFF7E8;padding:8px 0}
+#fq{flex:1 1 260px;min-width:0;padding:15px 14px;font:inherit;font-size:17px;border:2px solid #C1121F;border-radius:14px;background:#fff}#fq:focus{outline:3px solid #FFC21A}
+#ft{flex:0 1 auto;padding:12px;font:inherit;font-size:15px;border:1px solid #D9D3CB;border-radius:12px;background:#fff}
+.fch{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:6px 0;align-items:center}.fch::-webkit-scrollbar{display:none}
+.fch button,.fhh{flex:none;white-space:nowrap;font:inherit;font-size:15px;font-weight:700;padding:7px 12px;border-radius:999px;border:1px solid #F1DCB4;background:#fff;color:#5A0A10;cursor:pointer}
+.fch button.on{background:#C1121F;color:#fff;border-color:#C1121F}.fhh input{margin-right:4px}
+.fn{font-weight:700;font-size:18px;margin:12px 0 8px;color:#0F7A3D}
+.fl{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}@media(min-width:700px){.fl{grid-template-columns:repeat(3,1fr)}}@media(min-width:1000px){.fl{grid-template-columns:repeat(4,1fr)}}
+.fl li a{display:flex;flex-direction:column;height:100%;background:#fff;border-radius:16px;padding:10px;color:#1A1A1A;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.fi{position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:12px;overflow:hidden}.fi img{max-width:100%;max-height:100%;object-fit:contain}.fi span{font-size:44px}
+.fi b{position:absolute;top:6px;left:6px;background:#C1121F;color:#fff;border-radius:999px;padding:3px 8px;font-size:14px}
+.fl h3{font-size:15px;line-height:1.25;margin:8px 0 4px;font-weight:700}.fpx{margin:0}.fpx strong{color:#C1121F;font-size:20px}.fpx s{color:#6B6560;font-size:14px}
+.fe{margin:2px 0;color:#0F7A3D;font-weight:700;font-size:14px}.fv{margin:2px 0;font-size:13.5px;font-weight:700}.fd{margin:2px 0 8px;font-size:12.5px;color:#6B6560}
+.fb{margin-top:auto;display:block;text-align:center;background:#FFC21A;color:#2A0508;font-weight:700;border-radius:12px;padding:10px}.fz{grid-column:1/-1;padding:18px;background:#fff;border-radius:14px}
+.fpb{display:block;width:100%;margin:14px 0;padding:14px;font:inherit;font-size:17px;font-weight:700;border-radius:14px;border:2px solid #C1121F;background:#fff;color:#C1121F;cursor:pointer}</style>
+<script src="/fouille.js?v=FQV" defer></script>
 """
 
 def store_html(b):
@@ -800,12 +824,12 @@ def hero_accueil():
     kick = ""
     if len(L) >= 5:
         mx = _eco_txt(max(_eco(x) for x in L))
-        kick = (f'<p class="hk">🔥 {len(hot)} rabais « Ça vaut le clic » en ce moment · jusqu\'à {mx} de moins</p>' if len(hot) >= 3
-                else f'<p class="hk">🔥 {len(L)} rabais vérifiés aujourd\'hui · jusqu\'à {mx} de moins</p>')
+        kick = f'<p class="hk">🔎 {len(L)} produits en rabais référencés · 🔥 jusqu\'à {mx} de moins</p>'
     bas = ('<p class="sig">Le jeu est simple : <b>tu tapes ce que tu veux, on te montre les rabais qui valent le clic.</b> Moins cher, plus vite, et le fun de pogner le bon deal avant tout le monde.</p>'
            + RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M")) +
            '<ul class="hb"><li>💰 Tu sauves des $</li><li>😎 Le fun du bon deal</li><li>⏳ Avant que le prix remonte</li></ul>'
            '<a class="hcta2" href="#top5">🔥 On va droit au Top 5 →</a>'
+           f'<a class="hcta2" href="/recherche/">🔎 Fouiller les {len(L)} rabais (filtres et tri) →</a>'
            '<p class="hu">⏳ Un prix peut remonter à tout moment, sans avertissement. Si t\'en vois un qui te plaît, fonce!</p>')
     return kick, bas
 
@@ -822,6 +846,7 @@ def index_recherche():
                     "d": f'{"1er" if s.day == 1 else s.day} {_MOC[s.month-1]}', "e": int(_eco(x))})
     (OUT / "recherche.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
     (OUT / "recherche.js").write_text((ROOT / "site_recherche.js").read_text())
+    (OUT / "fouille.js").write_text((ROOT / "site_fouille.js").read_text())
     return len(out)
 
 def page(slug, title, h1, intro, items, extra="", after="", brands=()):
@@ -830,7 +855,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     nlbox = inscr() + clubbar()
     banner = vf_strip() if slug not in ("vendredi-fou", "halloween", "courriel") else ""
     if "<!--NL-->" in extra: extra, nlbox = extra.replace("<!--NL-->", nlbox, 1), ""
-    tabbar = ('<div class="tabbar" role="navigation" aria-label="Raccourcis"><a class="vf" href="/vendredi-fou/"><b>🔥</b>Vendredi fou</a><a href="/#top5"><b>⭐</b>Top 5</a>'
+    tabbar = ('<div class="tabbar" role="navigation" aria-label="Raccourcis"><a class="vf" href="/vendredi-fou/"><b>🔥</b>Vendredi fou</a><a href="/#top5"><b>⭐</b>Top 5</a><a href="/recherche/"><b>🔎</b>Chercher</a>'
               '<a href="/idees-cadeaux/"><b>🎁</b>Cadeaux</a><a href="/courriel/"><b>📬</b>Alertes</a></div>')
     ld = {"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"inLanguage":"fr-CA",
           "isPartOf":{"@type":"WebSite","name":"Rabais Flash QC","url":DOMAIN+"/"},
@@ -854,7 +879,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 {hero[0] if hero else ""}<h1>{e(h1).replace("clic?", "<b class=\"hl\">clic?</b>", 1) if hero else e(h1)}</h1>{hero[1] if hero else '<p class="intro">' + e(intro) + "</p>"}<p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {banner}
-{"" if slug == "" or "id=\"recherche\"" in extra else RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M"))}
+{"" if slug in ("", "recherche") or "id=\"recherche\"" in extra else RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M"))}
 {extra}
 {bud}
 <p class="note">⚡ Y'a une raison si on s'appelle <b>Flash</b> : certains rabais durent très peu de temps. Amazon et les marques peuvent les modifier ou y mettre fin à tout moment, et on ne peut pas le garantir. Si le prix a bougé quand tu arrives, c'est que l'offre a changé. Clique vite quand un deal te tente!</p>
@@ -1334,6 +1359,9 @@ def main():
         items = order([d for d in DEALS if f(d)])
         write(slug, page(slug, title, h1, intro, items, extra, "", brands)); urls.append(slug)
     write("offres-du-jour", offres_du_jour_page()); urls.append("offres-du-jour")
+    n_rq = index_recherche()
+    write("recherche", simple("recherche", f"Chercher parmi {n_rq} rabais Amazon vérifiés | Rabais Flash QC", f"🔎 Fouille les {n_rq} rabais du moment",
+          FOUILLE.replace("FQV", NOW.strftime("%Y%m%d%H%M")))); urls.append("recherche")
     write("courriel", simple("courriel", "Les deals du jour par courriel, gratuit | Rabais Flash QC", "📬 Les deals du jour par courriel",
           '<p>Chaque jour, on trie des milliers de rabais pour toi et on t\'envoie seulement les meilleurs : vrais prix, gros %, marques connues. '
           'C\'est <b>gratuit</b>, 1 à 2 courriels par jour, et tu peux te désabonner en tout temps.</p>'

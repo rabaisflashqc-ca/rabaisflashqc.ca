@@ -128,6 +128,7 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - Code : `site_recherche.js` (copié en docs/recherche.js) + index `docs/recherche.json` écrit par `index_recherche()` dans build.py (tous les deals vérifiés affichables, pas seulement ceux de la page). Présent sur toutes les pages (dans le hero à l'accueil).
 - Résultats pendant qu'on tape, sans accents ni pluriels, synonymes FR/EN (casque, aspirateur, friteuse, café…), filtres compris dans la phrase (« sous 50 $ », « cadeau pour elle / lui », « pour enfants », « ça vaut le clic »), boutons « Grandes marques » (Dyson, LEGO, Sony, Bose, Samsung, JBL, Levi's… dans cet ordre, seulement celles qui ont des deals) et « En un clic ». Lien partageable : rabaisflashqc.ca/?q=LEGO.
 - Les réels et posts en parlent : « Clique une grande marque ou tape sous 50 $ ».
+- Page /recherche/ (19 nov., demande d'Alex) : tous les deals vérifiés du site (recherche.json), recherche par mots, rayons, prix max, « Ça vaut le clic seulement », tri (meilleurs, %, économie, prix), 48 cartes à la fois. Code : site_fouille.js (copié en docs/fouille.js), bloc FOUILLE dans build.py. Lien « 🔎 Chercher » dans le menu et la barre du bas. L'accueil affiche le nombre de produits référencés (« 🔎 N produits en rabais référencés »).
 
 ## Palette du site (18 nov. 2026, choix d'Alex : maquette « B2 rouge franc + crème »)
 
