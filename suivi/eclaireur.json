@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19T15:12-04:00",
+ "date": "2026-11-19T15:41-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,8 +9,8 @@
     "2026-11-14T01:43:20+00:00"
    ],
    [
-    "2026-11-19T17:37:30+00:00",
-    "2026-11-19T18:22:19+00:00"
+    "2026-11-19T18:22:19+00:00",
+    "2026-11-19T19:23:38+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,72 +21,72 @@
     "2026-11-13T05:31:27+00:00"
    ],
    [
-    "2026-11-19T18:59:07+00:00",
-    "2026-11-19T19:03:31+00:00"
+    "2026-11-19T19:03:31+00:00",
+    "2026-11-19T19:33:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    9,
    [
-    "2026-11-19T13:23:56+00:00",
-    "2026-11-19T13:44:59+00:00"
+    "2026-11-19T13:46:50+00:00",
+    "2026-11-19T13:57:52+00:00"
    ],
    [
-    "2026-11-19T18:59:07+00:00",
-    "2026-11-19T19:03:31+00:00"
+    "2026-11-19T19:23:38+00:00",
+    "2026-11-19T19:33:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   18,
+   19,
    [
-    "2026-11-16T23:53:10+00:00",
-    "2026-11-16T23:58:29+00:00"
+    "2026-11-17T00:13:38+00:00",
+    "2026-11-17T02:15:26+00:00"
    ],
    [
-    "2026-11-19T12:41:54+00:00",
-    "2026-11-19T12:53:50+00:00"
+    "2026-11-19T13:23:56+00:00",
+    "2026-11-19T13:44:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   26,
+   24,
    [
-    "2026-11-10T16:26:46+00:00",
-    "2026-11-10T16:57:59+00:00"
+    "2026-11-10T17:27:03+00:00",
+    "2026-11-12T01:58:19+00:00"
    ],
    [
-    "2026-11-16T18:17:56+00:00",
-    "2026-11-16T19:32:29+00:00"
+    "2026-11-16T23:53:10+00:00",
+    "2026-11-16T23:58:29+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-30T13:18:01+00:00",
-    "2026-10-30T13:29:53+00:00"
+    "2026-10-30T13:33:33+00:00",
+    "2026-10-30T14:08:31+00:00"
    ],
    [
-    "2026-11-09T19:54:13+00:00",
-    "2026-11-09T23:17:54+00:00"
+    "2026-11-10T16:26:46+00:00",
+    "2026-11-10T16:57:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-14T03:26:43+00:00",
-    "2026-10-14T05:13:35+00:00"
+    "2026-10-14T05:36:38+00:00",
+    "2026-10-14T06:06:16+00:00"
    ],
    [
-    "2026-10-29T23:15:50+00:00",
-    "2026-10-29T23:25:00+00:00"
+    "2026-10-30T13:18:01+00:00",
+    "2026-10-30T13:29:53+00:00"
    ]
   ],
   "avant_filtre_date": 132,
-  "apres_filtre_date": 79
+  "apres_filtre_date": 80
  },
  "items": [
   {
@@ -149,7 +149,7 @@
    "price": 28.0,
    "was": 139.97,
    "votes": 14,
-   "posts": 15,
+   "posts": 17,
    "time": "2026-11-19T16:38:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-foot-massager-3-level-heat-3-rolling-speeds-air-pressure-deep-kneading-shiatsu-remote-28-139-97-2832888/",
    "asin": "B0FHW3MFYK",
@@ -157,7 +157,7 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0FHW3MFYK?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 3,
+   "morts": 2,
    "doute": true,
    "img": "/img/p/B0FHW3MFYK.jpg"
   },
@@ -166,8 +166,8 @@
    "title": "Greenworks 80V 2.0Ah Lithium-Ion Battery $109.99 ATL",
    "price": 109.99,
    "was": 189.99,
-   "votes": 12,
-   "posts": 10,
+   "votes": 13,
+   "posts": 11,
    "time": "2026-11-19T10:23:38+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-greenworks-80v-2-0ah-lithium-ion-battery-109-99-atl-2832821/",
    "asin": "B0BKFRR3RV",
@@ -178,6 +178,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BKFRR3RV.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
+   "title": "Apple AirPods Pro 3 Wireless - $229.00",
+   "price": 229.0,
+   "was": 329.0,
+   "votes": 12,
+   "posts": 4,
+   "time": "2026-11-19T16:30:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
+   "asin": "B0FQG8RW95",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FQG8RW95?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FQG8RW95.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-ceramic-box-cutter-5-23-40-2832832/",
@@ -198,24 +216,6 @@
    "img": "/img/p/B0DM5BL72X.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
-   "title": "Apple AirPods Pro 3 Wireless - $229.00",
-   "price": 229.0,
-   "was": 329.0,
-   "votes": 11,
-   "posts": 4,
-   "time": "2026-11-19T16:30:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
-   "asin": "B0FQG8RW95",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FQG8RW95?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FQG8RW95.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "title": "Amazon Basics Standby UPS Battery Backup 800VA - $99.99",
    "price": 99.99,
@@ -232,6 +232,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HDC236Q.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tonka-steel-classics-mighty-dump-truck-ffp-38-47-84-70-2832837/",
+   "title": "Tonka - Steel Classics Mighty Dump Truck FFP - $38.47 (was $84.70)",
+   "price": 38.47,
+   "was": 84.7,
+   "votes": 10,
+   "posts": 6,
+   "time": "2026-11-19T13:59:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tonka-steel-classics-mighty-dump-truck-ffp-38-47-84-70-2832837/",
+   "asin": "B07ZS7J192",
+   "pct": 55,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07ZS7J192?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07ZS7J192.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-michael-jackson-number-ones-black-vinyl-double-lp-19-97-2832895/",
+   "title": "Michael Jackson - Number Ones (Black Vinyl) - double LP - $19.97",
+   "price": 19.97,
+   "was": null,
+   "votes": 10,
+   "posts": 0,
+   "time": "2026-11-19T16:55:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-michael-jackson-number-ones-black-vinyl-double-lp-19-97-2832895/",
+   "asin": "B0FZL43997",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FZL43997?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FZL43997.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
@@ -270,22 +306,22 @@
    "img": "/img/p/B0FYPW5CFP.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tonka-steel-classics-mighty-dump-truck-ffp-38-47-84-70-2832837/",
-   "title": "Tonka - Steel Classics Mighty Dump Truck FFP - $38.47 (was $84.70)",
-   "price": 38.47,
-   "was": 84.7,
+   "url": "https://forums.redflagdeals.com/amazon-ca-sabre-protector-spray-multipack-6-50-2832925/",
+   "title": "SABRE Protector Spray Multipack$ 6.50",
+   "price": 6.5,
+   "was": 22.5,
    "votes": 9,
-   "posts": 5,
-   "time": "2026-11-19T13:59:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tonka-steel-classics-mighty-dump-truck-ffp-38-47-84-70-2832837/",
-   "asin": "B07ZS7J192",
-   "pct": 55,
+   "posts": 3,
+   "time": "2026-11-19T19:23:38+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-sabre-protector-spray-multipack-6-50-2832925/",
+   "asin": "B0BPW94MYF",
+   "pct": 71,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07ZS7J192?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0BPW94MYF?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B07ZS7J192.jpg"
+   "img": "/img/p/B0BPW94MYF.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
@@ -340,24 +376,6 @@
    "morts": 2,
    "doute": true,
    "img": "/img/p/B097GLJ758.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-michael-jackson-number-ones-black-vinyl-double-lp-19-97-2832895/",
-   "title": "Michael Jackson - Number Ones (Black Vinyl) - double LP - $19.97",
-   "price": 19.97,
-   "was": null,
-   "votes": 8,
-   "posts": 0,
-   "time": "2026-11-19T16:55:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-michael-jackson-number-ones-black-vinyl-double-lp-19-97-2832895/",
-   "asin": "B0FZL43997",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FZL43997?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FZL43997.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
@@ -725,7 +743,7 @@
    "price": 7.0,
    "was": null,
    "votes": 4,
-   "posts": 2,
+   "posts": 3,
    "time": "2026-11-19T16:15:47+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-mrs-meyers-clean-day-liquid-hand-soap-refill-peony-compassion-flower-975-ml-7-first-s-s-only-coupon-2832879/",
    "asin": "B0DR3TBZ2F",
@@ -844,6 +862,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B09743F8P6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
+   "title": "AstroAI L7 Portable Tire Inflator - $26.34",
+   "price": 26.34,
+   "was": 49.99,
+   "votes": 3,
+   "posts": 1,
+   "time": "2026-11-19T18:59:07+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
+   "asin": "B0CS3B7MD8",
+   "pct": 47,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0CS3B7MD8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CS3B7MD8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
+   "title": "NVME Docking Station - $28.79",
+   "price": 28.79,
+   "was": 35.99,
+   "votes": 3,
+   "posts": 0,
+   "time": "2026-11-19T19:03:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
+   "asin": "B084ZKLQR8",
+   "pct": 20,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B084ZKLQR8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B084ZKLQR8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-37-99-blink-outdoor-4-wired-doorbell-2k-newest-model-sync-module-core-included-2832024/",
@@ -1026,6 +1080,42 @@
    "img": "/img/p/B0GVG4JN8W.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-toshiba-0-9-cu-ft-900w-microwave-sound-off-115-99-2832893/",
+   "title": "Toshiba 0.9 Cu Ft 900W Microwave with Sound Off - $115.99",
+   "price": 115.99,
+   "was": 149.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-19T16:54:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-toshiba-0-9-cu-ft-900w-microwave-sound-off-115-99-2832893/",
+   "asin": "B09NR6NSX7",
+   "pct": 23,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B09NR6NSX7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09NR6NSX7.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-tire-inflator-portable-air-compressor-12vdc-tire-pump-digital-gauge-150-psi-47-7-off-33-99-2832900/",
+   "title": "AstroAI Tire Inflator Portable Air Compressor 12VDC Tire Pump Digital Gauge 150 PSI - 47.7% off, $33.99",
+   "price": 33.99,
+   "was": 64.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-19T17:01:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-tire-inflator-portable-air-compressor-12vdc-tire-pump-digital-gauge-150-psi-47-7-off-33-99-2832900/",
+   "asin": "B0C4GZMKXZ",
+   "pct": 48,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0C4GZMKXZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C4GZMKXZ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-renogy-40a-dc-dc-mppt-battery-charger-agm-gel-lithium-166-42-2831918/",
    "title": "Renogy 40A DC-DC MPPT Battery Charger for AGM/Gel/Lithium - $166.42",
    "price": 166.42,
@@ -1157,7 +1247,7 @@
    "price": 113.6,
    "was": 142.0,
    "votes": 1,
-   "posts": 1,
+   "posts": 2,
    "time": "2026-11-19T16:25:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-coop-adjustable-pillow-king-queen-back-side-sleepers-2832882/",
    "asin": "B00EINBSJ2",
@@ -1168,42 +1258,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00EINBSJ2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-toshiba-0-9-cu-ft-900w-microwave-sound-off-115-99-2832893/",
-   "title": "Toshiba 0.9 Cu Ft 900W Microwave with Sound Off - $115.99",
-   "price": 115.99,
-   "was": 149.99,
-   "votes": 1,
-   "posts": 0,
-   "time": "2026-11-19T16:54:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-toshiba-0-9-cu-ft-900w-microwave-sound-off-115-99-2832893/",
-   "asin": "B09NR6NSX7",
-   "pct": 23,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B09NR6NSX7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09NR6NSX7.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-tire-inflator-portable-air-compressor-12vdc-tire-pump-digital-gauge-150-psi-47-7-off-33-99-2832900/",
-   "title": "AstroAI Tire Inflator Portable Air Compressor 12VDC Tire Pump Digital Gauge 150 PSI - 47.7% off, $33.99",
-   "price": 33.99,
-   "was": 64.99,
-   "votes": 1,
-   "posts": 0,
-   "time": "2026-11-19T17:01:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-tire-inflator-portable-air-compressor-12vdc-tire-pump-digital-gauge-150-psi-47-7-off-33-99-2832900/",
-   "asin": "B0C4GZMKXZ",
-   "pct": 48,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0C4GZMKXZ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C4GZMKXZ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-39-98-sony-wh-ch520-wireless-headphones-ear-w-mic-2832909/",
@@ -1222,24 +1276,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BS1PRC4L.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
-   "title": "AstroAI L7 Portable Tire Inflator - $26.34",
-   "price": 26.34,
-   "was": 49.99,
-   "votes": 1,
-   "posts": 1,
-   "time": "2026-11-19T18:59:07+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
-   "asin": "B0CS3B7MD8",
-   "pct": 47,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0CS3B7MD8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CS3B7MD8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
@@ -1350,24 +1386,6 @@
    "img": "/img/p/B0FY2W2Z5S.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-luxe-bidet-neo-120-bidet-attachment-toilet-seat-white-2832852/",
-   "title": "LUXE Bidet NEO 120 - Bidet Attachment for Toilet Seat, White",
-   "price": 45.59,
-   "was": 56.99,
-   "votes": 0,
-   "posts": 9,
-   "time": "2026-11-19T14:56:38+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-luxe-bidet-neo-120-bidet-attachment-toilet-seat-white-2832852/",
-   "asin": "B00JG2DETM",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00JG2DETM?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-air-45w-usb-c-charger-block-flat-ultra-slim-wall-charger-29-99-25-off-2832868/",
    "title": "UGREEN Nexode Air 45W USB C Charger Block, Flat Ultra Slim Wall Charger $29.99 - 25% off",
    "price": 29.99,
@@ -1440,22 +1458,22 @@
    "img": "/img/p/B07QR4Q42L.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
-   "title": "NVME Docking Station - $28.79",
-   "price": 28.79,
-   "was": 35.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-igloo-90s-retro-collection-fanny-pack-portable-cooler-jade-21-18-41-2832927/",
+   "title": "Igloo 90s Retro Collection Fanny Pack Portable Cooler (Jade) - $21.18 (-41%)",
+   "price": 21.18,
+   "was": 36.04,
    "votes": 0,
    "posts": 0,
-   "time": "2026-11-19T19:03:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
-   "asin": "B084ZKLQR8",
-   "pct": 20,
+   "time": "2026-11-19T19:33:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-igloo-90s-retro-collection-fanny-pack-portable-cooler-jade-21-18-41-2832927/",
+   "asin": "B08JHGGNXF",
+   "pct": 41,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B084ZKLQR8?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B08JHGGNXF?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B084ZKLQR8.jpg"
+   "img": "/img/p/B08JHGGNXF.jpg"
   }
  ]
 }
