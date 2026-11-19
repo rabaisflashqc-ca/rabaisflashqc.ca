@@ -2,6 +2,86 @@
  "genere": "2026-11-19T13:07+00:00",
  "produits": [
   {
+   "asin": "B0F7K67DY2",
+   "titre": "Amazon Fire TV Stick HD (nouveau modèle)",
+   "prix_affiche": 22.99
+  },
+  {
+   "asin": "B0BXM37848",
+   "titre": "Amazon Fire TV Stick 4K Max",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B09B93ZDG4",
+   "titre": "Amazon Echo Dot (dernière génération)",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0787P86ZZ",
+   "titre": "T-shirts Gildan pour homme (paquet)",
+   "prix_affiche": 25.43
+  },
+  {
+   "asin": "B0BSHF5645",
+   "titre": "Bottes d'hiver Kamik Snobuster1 pour enfant",
+   "prix_affiche": 38.49
+  },
+  {
+   "asin": "B09B2SBHQK",
+   "titre": "Amazon Echo Show 5 (dernier modèle)",
+   "prix_affiche": 74.99
+  },
+  {
+   "asin": "B0FW7HLNL6",
+   "titre": "Jeans Levi's Cinch Baggy pour femme",
+   "prix_affiche": 67.13
+  },
+  {
+   "asin": "B09DZ6NRSL",
+   "titre": "Sandales adidas Adilette (cadeau pour lui)",
+   "prix_affiche": 22.46
+  },
+  {
+   "asin": "B0GHYBY9KG",
+   "titre": "Haut-parleur portatif JBL Go 5",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0D41V2YWV",
+   "titre": "Thermos Icon pot isotherme 16 oz",
+   "prix_affiche": 23.69
+  },
+  {
+   "asin": "B0BFCBKXWL",
+   "titre": "Amazon Echo Spot (réveil intelligent)",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B01L8JJITK",
+   "titre": "Coton ouaté Hanes EcoSmart pour homme",
+   "prix_affiche": 17.0
+  },
+  {
+   "asin": "B0FD46BDLN",
+   "titre": "Amazon Echo Dot Kids pour enfants",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B0D6SX8VLQ",
+   "titre": "Amazon Echo Dot Max (dernier modèle)",
+   "prix_affiche": 84.99
+  },
+  {
+   "asin": "B09BZVX3J7",
+   "titre": "Amazon Fire TV Cube (dernier modèle)",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0CLSTHRLZ",
+   "titre": "Valise cabine Samsonite Omni 2 à roulettes",
+   "prix_affiche": 110.0
+  },
+  {
    "asin": "B0DQY7C2K4",
    "titre": "Gobelet isotherme Stanley Quencher H2.0",
    "prix_affiche": 24.75
