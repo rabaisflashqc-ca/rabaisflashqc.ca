@@ -189,7 +189,8 @@
   "seen": "2026-11-19T08:03-05:00",
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
-  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DQY7C2K4.01.L.jpg"
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DQY7C2K4.01.L.jpg",
+  "comm": 4
  },
  {
   "asin": "B0DHLHMK9V",
@@ -261,7 +262,8 @@
   "seen": "2026-11-19T08:03-05:00",
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
-  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07M67JHMW.01.L.jpg"
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07M67JHMW.01.L.jpg",
+  "comm": 6
  },
  {
   "asin": "B0DVTGBCBL",
@@ -299,7 +301,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B09Y8TLP25.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 4
  },
  {
   "asin": "B0DJWLDHCL",
@@ -350,7 +353,8 @@
   "seen": "2026-11-19T08:03-05:00",
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
-  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B09642VSFM.01.L.jpg"
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B09642VSFM.01.L.jpg",
+  "comm": 6
  },
  {
   "asin": "B00JUM48CA",
@@ -401,7 +405,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CYTF114H.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 4
  },
  {
   "asin": "B0FMS7WSD1",
@@ -427,7 +432,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0F3DRYY1N.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 6
  },
  {
   "asin": "B0BZYCJK89",
@@ -440,7 +446,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0BZYCJK89.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 4
  },
  {
   "asin": "B0B5P82L53",
@@ -516,7 +523,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B01MS2WGGU.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 6
  },
  {
   "asin": "B07N1JP56L",
@@ -528,7 +536,8 @@
   "seen": "2026-11-19T08:03-05:00",
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
-  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07N1JP56L.01.L.jpg"
+  "img_url": "https://images-na.ssl-images-amazon.com/images/P/B07N1JP56L.01.L.jpg",
+  "comm": 5
  },
  {
   "asin": "B0FKVK89N5",
@@ -541,7 +550,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0FKVK89N5.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 5
  },
  {
   "asin": "B0FKTV8TH6",
@@ -591,7 +601,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0CZCB3B6S.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 5
  },
  {
   "asin": "B0CJ9YX7DG",
@@ -630,7 +641,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B0DW9C5S18.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 4
  },
  {
   "asin": "B0F91Z1PKX",
@@ -691,7 +703,8 @@
   "until": "2026-11-20T08:03-05:00",
   "source": "keepa",
   "img_url": "https://images-na.ssl-images-amazon.com/images/P/B014TLGBX0.01.L.jpg",
-  "vf": true
+  "vf": true,
+  "comm": 7
  },
  {
   "asin": "B0CSDCS8JJ",
