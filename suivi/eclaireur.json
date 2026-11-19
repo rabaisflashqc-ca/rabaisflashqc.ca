@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18T18:58-04:00",
+ "date": "2026-11-18T20:03-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -14,78 +14,78 @@
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
-   34,
-   34,
+   35,
+   35,
    [
     "2026-11-12T05:16:13+00:00",
     "2026-11-12T10:34:46+00:00"
    ],
    [
-    "2026-11-18T18:47:40+00:00",
-    "2026-11-18T19:40:14+00:00"
+    "2026-11-18T19:40:14+00:00",
+    "2026-11-18T23:47:43+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   13,
+   14,
    [
-    "2026-11-16T14:04:58+00:00",
-    "2026-11-16T14:08:50+00:00"
+    "2026-11-16T14:08:50+00:00",
+    "2026-11-16T14:21:05+00:00"
    ],
    [
-    "2026-11-18T18:47:40+00:00",
-    "2026-11-18T19:40:14+00:00"
+    "2026-11-18T19:40:14+00:00",
+    "2026-11-18T23:47:43+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   25,
+   24,
    [
-    "2026-11-09T16:52:18+00:00",
-    "2026-11-09T16:56:55+00:00"
+    "2026-11-09T16:56:55+00:00",
+    "2026-11-09T17:00:22+00:00"
    ],
    [
-    "2026-11-16T10:01:45+00:00",
-    "2026-11-16T12:55:57+00:00"
+    "2026-11-16T12:55:57+00:00",
+    "2026-11-16T14:04:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-28T16:57:39+00:00",
-    "2026-10-29T06:10:56+00:00"
+    "2026-10-29T06:10:56+00:00",
+    "2026-10-29T09:48:19+00:00"
    ],
    [
-    "2026-11-09T16:24:25+00:00",
-    "2026-11-09T16:41:53+00:00"
+    "2026-11-09T16:41:53+00:00",
+    "2026-11-09T16:52:18+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-13T12:43:25+00:00",
-    "2026-10-13T12:55:18+00:00"
+    "2026-10-13T12:55:18+00:00",
+    "2026-10-13T13:39:34+00:00"
    ],
    [
-    "2026-10-28T14:09:54+00:00",
-    "2026-10-28T15:50:04+00:00"
+    "2026-10-28T15:50:04+00:00",
+    "2026-10-28T16:57:39+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-06T14:52:02+00:00",
-    "2026-10-06T14:57:00+00:00"
+    "2026-10-07T12:34:40+00:00",
+    "2026-10-07T13:05:41+00:00"
    ],
    [
-    "2026-10-12T15:32:42+00:00",
-    "2026-10-12T16:05:51+00:00"
+    "2026-10-12T16:05:51+00:00",
+    "2026-10-13T12:43:25+00:00"
    ]
   ],
-  "avant_filtre_date": 132,
+  "avant_filtre_date": 130,
   "apres_filtre_date": 50
  },
  "items": [
@@ -95,7 +95,7 @@
    "price": 6.25,
    "was": 12.49,
    "votes": 40,
-   "posts": 24,
+   "posts": 25,
    "time": "2026-11-17T18:52:42+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lisen-compact-54w-car-charger-usb-c-usb-6-25-2832576/",
    "asin": "B08VNWF24S",
@@ -144,24 +144,6 @@
    "img": "/img/p/B0F6BZQDPS.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-49-off-2832683/",
-   "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (49% off)",
-   "price": 7.75,
-   "was": 15.2,
-   "votes": 20,
-   "posts": 31,
-   "time": "2026-11-18T14:04:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-49-off-2832683/",
-   "asin": "B0C2V1512F",
-   "pct": 49,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0C2V1512F?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C2V1512F.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p20i-true-wireless-earbuds-black-24-99-2831858/",
    "title": "Anker soundcore P20i True Wireless Earbuds Black - $24.99",
    "price": 24.99,
@@ -198,6 +180,24 @@
    "img": "/img/p/B0FXBVGKHT.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-49-off-2832683/",
+   "title": "INIU 240W USB C to USB C Charger Cable [2-Pack 2m] - $7.75 (49% off)",
+   "price": 7.75,
+   "was": 15.2,
+   "votes": 19,
+   "posts": 31,
+   "time": "2026-11-18T14:04:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-iniu-240w-usb-c-usb-c-charger-cable-2-pack-2m-7-75-49-off-2832683/",
+   "asin": "B0C2V1512F",
+   "pct": 49,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0C2V1512F?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C2V1512F.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
    "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
    "price": 124.1,
@@ -220,8 +220,8 @@
    "title": "Bounty Paper Towels Select-A-Size White, 8 Double Plus Rolls = 20 regular rolls $19.98",
    "price": 19.98,
    "was": 29.98,
-   "votes": 13,
-   "posts": 14,
+   "votes": 14,
+   "posts": 15,
    "time": "2026-11-18T00:48:37+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
    "asin": "B0DX7JTJ7N",
@@ -275,7 +275,7 @@
    "price": 99.99,
    "was": 135.0,
    "votes": 10,
-   "posts": 18,
+   "posts": 19,
    "time": "2026-11-16T17:08:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "asin": "B01HDC236Q",
@@ -522,6 +522,24 @@
    "img": "/img/p/B07649SXQ8.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
+   "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
+   "price": 46.99,
+   "was": 79.99,
+   "votes": 4,
+   "posts": 0,
+   "time": "2026-11-18T18:06:41+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
+   "asin": "B09HY42PH5",
+   "pct": 41,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B09HY42PH5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09HY42PH5.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
    "title": "eufy Robot Vacuums — C28 Omni $629.99 (55% off), C30 $799.99 (38% off), Omni E35 $1,499.99 (12% off)",
    "price": 629.99,
@@ -538,24 +556,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FWK41WF2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
-   "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
-   "price": 46.99,
-   "was": 79.99,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-18T18:06:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
-   "asin": "B09HY42PH5",
-   "pct": 41,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B09HY42PH5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09HY42PH5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-poe-security-camera-cx820-115-99-2831854/",
@@ -934,24 +934,6 @@
    "morts": 2,
    "doute": true,
    "img": "/img/p/B0GGBQJJYJ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-300w-charging-station-149-99-2832540/",
-   "title": "UGREEN Nexode Pro 300W Charging Station - $149.99",
-   "price": 149.99,
-   "was": 199.99,
-   "votes": 0,
-   "posts": 4,
-   "time": "2026-11-17T12:40:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ugreen-nexode-pro-300w-charging-station-149-99-2832540/",
-   "asin": "B0F9FH3WFR",
-   "pct": 25,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0F9FH3WFR?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0F9FH3WFR.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-vitamix-5-speed-immersion-blender-3-piece-bundle-179-99-40-2832548/",
