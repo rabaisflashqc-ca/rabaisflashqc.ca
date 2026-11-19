@@ -20,3 +20,9 @@ Chaque dimanche : la décision de la semaine, la raison, et le résultat à vér
 - Visionnage complet 1,2 % : presque personne ne voit l'écran de fin avec l'adresse du site.
 - Audience réelle plus âgée que prévu : 55-64 ans 22 %, 65 ans et plus 22 %, 45-54 ans 21 %. Les grands-parents achètent les cadeaux.
 - Décision : 1re image = produit + prix + accroche (pas d'écran titre), réels plus courts (11 à 13 s), adresse du site visible en permanence en bas, viser aussi mamies et papis dans les accroches.
+
+## Pub « Trafic vers le site », stats envoyées par Alex le 19 nov. 2026 (depuis le 17-18 nov.)
+- 47 vues de page de destination pour 9,33 $, soit 0,20 $ par vue (médiane des pages comparables : 0,22 $).
+- Audience réelle : 66 % hommes, 26 % femmes. Surtout 65 ans et plus (20 hommes, 7 femmes), puis 55-64 ans (7 hommes). Presque rien chez les 25-44 ans.
+- Coût par vue : 0,16 $ chez les hommes, 0,33 $ chez les femmes. Meta va vers le clic le moins cher, pas vers notre cible (mamans de 25 à 50 ans).
+- À vérifier dans Amazon Associés : est-ce que ces visites donnent des achats? Toute décision sur l'âge, le genre ou le budget revient à Alex.
