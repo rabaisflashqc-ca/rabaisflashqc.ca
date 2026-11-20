@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20T15:19-04:00",
+ "date": "2026-11-20T17:59-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,71 +21,71 @@
     "2026-11-14T20:13:36+00:00"
    ],
    [
-    "2026-11-20T14:37:16+00:00",
-    "2026-11-20T15:03:51+00:00"
+    "2026-11-20T15:03:51+00:00",
+    "2026-11-20T15:27:15+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    30,
    [
-    "2026-11-20T03:57:22+00:00",
-    "2026-11-20T04:00:24+00:00"
+    "2026-11-20T04:00:24+00:00",
+    "2026-11-20T04:31:06+00:00"
    ],
    [
-    "2026-11-20T17:46:19+00:00",
-    "2026-11-20T17:58:22+00:00"
+    "2026-11-20T17:58:22+00:00",
+    "2026-11-20T19:32:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   19,
+   20,
    [
-    "2026-11-19T16:11:10+00:00",
-    "2026-11-19T16:15:47+00:00"
+    "2026-11-19T16:15:47+00:00",
+    "2026-11-19T16:25:05+00:00"
    ],
    [
-    "2026-11-20T03:15:40+00:00",
-    "2026-11-20T03:22:45+00:00"
+    "2026-11-20T03:22:45+00:00",
+    "2026-11-20T03:57:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   19,
+   18,
    [
-    "2026-11-18T02:57:31+00:00",
-    "2026-11-18T03:54:48+00:00"
+    "2026-11-18T03:54:48+00:00",
+    "2026-11-18T05:13:12+00:00"
    ],
    [
-    "2026-11-19T16:02:18+00:00",
-    "2026-11-19T16:02:59+00:00"
+    "2026-11-19T16:02:59+00:00",
+    "2026-11-19T16:11:10+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    20,
    [
-    "2026-11-13T17:20:24+00:00",
-    "2026-11-13T18:19:49+00:00"
+    "2026-11-13T18:19:49+00:00",
+    "2026-11-13T23:21:49+00:00"
    ],
    [
-    "2026-11-18T00:48:37+00:00",
-    "2026-11-18T02:34:47+00:00"
+    "2026-11-18T02:34:47+00:00",
+    "2026-11-18T02:57:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-11-04T19:49:53+00:00",
-    "2026-11-04T19:51:45+00:00"
+    "2026-11-04T19:51:45+00:00",
+    "2026-11-04T20:25:11+00:00"
    ],
    [
-    "2026-11-13T05:34:23+00:00",
-    "2026-11-13T16:46:34+00:00"
+    "2026-11-13T16:46:34+00:00",
+    "2026-11-13T17:20:24+00:00"
    ]
   ],
-  "avant_filtre_date": 140,
+  "avant_filtre_date": 139,
   "apres_filtre_date": 109
  },
  "items": [
@@ -130,7 +130,7 @@
    "title": "Apple AirPods Pro 3 Wireless - $229.00",
    "price": 229.0,
    "was": 329.0,
-   "votes": 19,
+   "votes": 20,
    "posts": 7,
    "time": "2026-11-19T16:30:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
@@ -142,6 +142,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FQG8RW95.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
+   "title": "Hasbro Scrabble Board Game for $12.97",
+   "price": 12.97,
+   "was": 29.99,
+   "votes": 20,
+   "posts": 0,
+   "time": "2026-11-20T17:58:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
+   "asin": "B09D44JH4S",
+   "pct": 57,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B09D44JH4S?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09D44JH4S.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
@@ -167,7 +185,7 @@
    "price": 109.99,
    "was": 189.99,
    "votes": 15,
-   "posts": 15,
+   "posts": 16,
    "time": "2026-11-19T10:23:38+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-greenworks-80v-2-0ah-lithium-ion-battery-109-99-atl-2832821/",
    "asin": "B0BKFRR3RV",
@@ -216,22 +234,40 @@
    "img": "/img/p/B0DM5BL72X.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
-   "title": "Hasbro Scrabble Board Game for $12.97",
-   "price": 12.97,
-   "was": 29.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
+   "title": "Samsung Galaxy Watch8 Smartwatch - $248.99+ with COUPON (was $449.99)",
+   "price": 248.99,
+   "was": 449.99,
    "votes": 12,
-   "posts": 0,
-   "time": "2026-11-20T17:58:22+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
-   "asin": "B09D44JH4S",
-   "pct": 57,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B09D44JH4S?tag=coupdecoeurqc-20",
+   "posts": 14,
+   "time": "2026-11-19T16:11:10+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
+   "asin": "B0FC33ZF1B",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FC33ZF1B?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B09D44JH4S.jpg"
+   "img": "/img/p/B0FC33ZF1B.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
+   "title": "Intel® Core™ Ultra 5 Processor 250K - $225",
+   "price": 225.0,
+   "was": 330.88,
+   "votes": 12,
+   "posts": 9,
+   "time": "2026-11-20T11:45:39+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
+   "asin": "B0GMKXVVJQ",
+   "pct": 32,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GMKXVVJQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0GMKXVVJQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lutron-ma-t51mn-wh-maestro-3-amp-600-watt-countdown-timer-control-switch-39-99-20-off-2832842/",
@@ -250,24 +286,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C9W9GSF7.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
-   "title": "Samsung Galaxy Watch8 Smartwatch - $248.99+ with COUPON (was $449.99)",
-   "price": 248.99,
-   "was": 449.99,
-   "votes": 11,
-   "posts": 13,
-   "time": "2026-11-19T16:11:10+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
-   "asin": "B0FC33ZF1B",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FC33ZF1B?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FC33ZF1B.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-elden-ring-playstation-5-29-99-2832903/",
@@ -306,6 +324,42 @@
    "img": "/img/p/B01HDC236Q.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
+   "title": "Kitchenaid KF3 Automatic Espresso Machine 749.99 - Available at multiple retailers (Amazon/BB/ECS/Doyon/...)",
+   "price": 749.99,
+   "was": 999.99,
+   "votes": 10,
+   "posts": 3,
+   "time": "2026-11-19T16:43:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
+   "asin": "B0GVG4JN8W",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GVG4JN8W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GVG4JN8W.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
+   "title": "LEGO NINJAGO Kai's Ninja Race Car EVO - $7.57 (ATL)",
+   "price": 7.57,
+   "was": 13.99,
+   "votes": 10,
+   "posts": 1,
+   "time": "2026-11-20T11:12:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
+   "asin": "B0BBY4QYBG",
+   "pct": 46,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0BBY4QYBG?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BBY4QYBG.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
    "title": "Greenies Dog & Cat Treats 30% off coupon w/ S&S",
    "price": null,
@@ -342,58 +396,22 @@
    "img": "/img/p/B0FYPW5CFP.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
-   "title": "Kitchenaid KF3 Automatic Espresso Machine 749.99 - Available at multiple retailers (Amazon/BB/ECS/Doyon/...)",
-   "price": 749.99,
-   "was": 999.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
+   "title": "AstroAI L7 Portable Tire Inflator - $26.34",
+   "price": 26.34,
+   "was": 49.99,
    "votes": 9,
-   "posts": 3,
-   "time": "2026-11-19T16:43:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
-   "asin": "B0GVG4JN8W",
-   "pct": 25,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GVG4JN8W?tag=coupdecoeurqc-20",
+   "posts": 11,
+   "time": "2026-11-19T18:59:07+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
+   "asin": "B0CS3B7MD8",
+   "pct": 47,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0CS3B7MD8?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GVG4JN8W.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
-   "title": "LEGO NINJAGO Kai's Ninja Race Car EVO - $7.57 (ATL)",
-   "price": 7.57,
-   "was": 13.99,
-   "votes": 9,
-   "posts": 1,
-   "time": "2026-11-20T11:12:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
-   "asin": "B0BBY4QYBG",
-   "pct": 46,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0BBY4QYBG?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BBY4QYBG.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
-   "title": "Intel® Core™ Ultra 5 Processor 250K - $225",
-   "price": 225.0,
-   "was": 330.88,
-   "votes": 9,
-   "posts": 7,
-   "time": "2026-11-20T11:45:39+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
-   "asin": "B0GMKXVVJQ",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GMKXVVJQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GMKXVVJQ.jpg"
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0CS3B7MD8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
@@ -437,7 +455,7 @@
    "price": 11.95,
    "was": 17.84,
    "votes": 8,
-   "posts": 10,
+   "posts": 11,
    "time": "2026-11-18T03:54:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-slim-rfid-leather-wallet-11-95-33-off-2832642/",
    "asin": "B097GLJ758",
@@ -445,27 +463,9 @@
    "cat": "mode",
    "link": "https://www.amazon.ca/dp/B097GLJ758?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B097GLJ758.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
-   "title": "AstroAI L7 Portable Tire Inflator - $26.34",
-   "price": 26.34,
-   "was": 49.99,
-   "votes": 8,
-   "posts": 10,
-   "time": "2026-11-19T18:59:07+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
-   "asin": "B0CS3B7MD8",
-   "pct": 47,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0CS3B7MD8?tag=coupdecoeurqc-20",
-   "deja": false,
    "morts": 1,
    "doute": true,
-   "img": "/img/p/B0CS3B7MD8.jpg"
+   "img": "/img/p/B097GLJ758.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
@@ -473,7 +473,7 @@
    "price": 1124.9,
    "was": 1499.9,
    "votes": 7,
-   "posts": 23,
+   "posts": 25,
    "time": "2026-11-14T06:28:52+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
    "asin": "B0F5QTSCGY",
@@ -720,6 +720,24 @@
    "img": "/img/p/B0DJ1B7BC1.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-2-1-kids-play-tent-70-39-2833113/",
+   "title": "2 in 1 Kids Play Tent - $70.39",
+   "price": 70.39,
+   "was": 89.99,
+   "votes": 6,
+   "posts": 0,
+   "time": "2026-11-20T14:06:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-2-1-kids-play-tent-70-39-2833113/",
+   "asin": "B0CC9DB4YB",
+   "pct": 22,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0CC9DB4YB?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CC9DB4YB.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-logitech-mk345-mouse-keyboard-35-2833153/",
    "title": "Logitech MK345 Mouse and Keyboard $35",
    "price": 35.0,
@@ -882,24 +900,6 @@
    "img": "/img/p/B0HL8SHD6N.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-2-1-kids-play-tent-70-39-2833113/",
-   "title": "2 in 1 Kids Play Tent - $70.39",
-   "price": 70.39,
-   "was": 89.99,
-   "votes": 5,
-   "posts": 0,
-   "time": "2026-11-20T14:06:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-2-1-kids-play-tent-70-39-2833113/",
-   "asin": "B0CC9DB4YB",
-   "pct": 22,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0CC9DB4YB?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CC9DB4YB.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
    "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
    "price": 69.99,
@@ -1006,6 +1006,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0D5RK75Q8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
+   "title": "HOTO Mini Electric Bike Pump – $53.85 (Reg. $69.99)",
+   "price": 53.85,
+   "was": 69.99,
+   "votes": 4,
+   "posts": 3,
+   "time": "2026-11-20T12:40:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
+   "asin": "B0DCG1JGKN",
+   "pct": 23,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0DCG1JGKN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DCG1JGKN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
@@ -1134,22 +1152,22 @@
    "img": "/img/p/B09B8V1LZ3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
-   "title": "HOTO Mini Electric Bike Pump – $53.85 (Reg. $69.99)",
-   "price": 53.85,
-   "was": 69.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
+   "title": "HOTO 25-Piece Electric Screwdriver Set – $37.99 (Reg. $49.99)",
+   "price": 37.99,
+   "was": 49.99,
    "votes": 3,
-   "posts": 3,
-   "time": "2026-11-20T12:40:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
-   "asin": "B0DCG1JGKN",
-   "pct": 23,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0DCG1JGKN?tag=coupdecoeurqc-20",
+   "posts": 4,
+   "time": "2026-11-20T12:39:20+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
+   "asin": "B0BLMQ8BXB",
+   "pct": 24,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0BLMQ8BXB?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DCG1JGKN.jpg"
+   "img": "/img/p/B0BLMQ8BXB.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
@@ -1368,6 +1386,24 @@
    "img": "/img/p/B0B1TXSFMK.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
+   "title": "Refoss HomeKit Smart Garage Door Opener - $45.59",
+   "price": 45.59,
+   "was": 57.99,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-19T23:22:04+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
+   "asin": "B08GG1H7TV",
+   "pct": 21,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B08GG1H7TV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-procase-kids-hearing-protection-ear-muffs-snr-27db-ci-17-54-33-off-2833045/",
    "title": "ProCase Kids Hearing Protection Ear Muffs (SNR 27dB) – $17.54 (33% Off)",
    "price": 17.54,
@@ -1386,22 +1422,22 @@
    "img": "/img/p/B07QHBYT26.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
-   "title": "HOTO 25-Piece Electric Screwdriver Set – $37.99 (Reg. $49.99)",
-   "price": 37.99,
-   "was": 49.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-gss20-40-orbital-finishing-sander-1-4-sheet-44-85-2833144/",
+   "title": "Bosch GSS20-40 Orbital Finishing Sander (1/4-Sheet) - $44.85",
+   "price": 44.85,
+   "was": null,
    "votes": 2,
-   "posts": 4,
-   "time": "2026-11-20T12:39:20+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
-   "asin": "B0BLMQ8BXB",
-   "pct": 24,
+   "posts": 0,
+   "time": "2026-11-20T15:27:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-gss20-40-orbital-finishing-sander-1-4-sheet-44-85-2833144/",
+   "asin": "B01LY8Y2UU",
+   "pct": null,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BLMQ8BXB?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B01LY8Y2UU?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BLMQ8BXB.jpg"
+   "img": "/img/p/B01LY8Y2UU.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-rog-falcata-split-75-hall-effect-keyboard-249-99-2832167/",
@@ -1566,30 +1602,12 @@
    "img": "/img/p/B0FSZNYLZ8.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-euhomy-nugget-ice-maker-44-lbs-day-290-99-2832967/",
-   "title": "EUHOMY Nugget Ice Maker, 44 lbs/Day - $290.99",
-   "price": 290.99,
-   "was": 340.99,
-   "votes": 1,
-   "posts": 8,
-   "time": "2026-11-19T23:18:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-euhomy-nugget-ice-maker-44-lbs-day-290-99-2832967/",
-   "asin": "B0GVYRDGS4",
-   "pct": 15,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GVYRDGS4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GVYRDGS4.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
    "title": "JAYO PETG 3d printer filament ~$42.49",
    "price": 42.49,
    "was": 48.0,
    "votes": 1,
-   "posts": 4,
+   "posts": 6,
    "time": "2026-11-20T17:08:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
    "asin": "B0FSZKHTBS",
@@ -1602,22 +1620,22 @@
    "img": "/img/p/B0FSZKHTBS.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-gss20-40-orbital-finishing-sander-1-4-sheet-44-85-2833144/",
-   "title": "Bosch GSS20-40 Orbital Finishing Sander (1/4-Sheet) - $44.85",
-   "price": 44.85,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
+   "title": "BISSELL PowerClean Corded Stick Vacuum Cleaner $107.99",
+   "price": 107.99,
+   "was": 179.99,
    "votes": 1,
    "posts": 0,
-   "time": "2026-11-20T15:27:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-gss20-40-orbital-finishing-sander-1-4-sheet-44-85-2833144/",
-   "asin": "B01LY8Y2UU",
-   "pct": null,
+   "time": "2026-11-20T16:33:20+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
+   "asin": "B0GN4L93SM",
+   "pct": 40,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01LY8Y2UU?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GN4L93SM?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B01LY8Y2UU.jpg"
+   "img": "/img/p/B0GN4L93SM.jpg"
   }
  ]
 }
