@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20T17:59-04:00",
+ "date": "2026-11-20T18:43-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,13 +21,13 @@
     "2026-11-14T20:13:36+00:00"
    ],
    [
-    "2026-11-20T15:03:51+00:00",
-    "2026-11-20T15:27:15+00:00"
+    "2026-11-20T15:27:15+00:00",
+    "2026-11-20T17:08:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   30,
+   29,
    [
     "2026-11-20T04:00:24+00:00",
     "2026-11-20T04:31:06+00:00"
@@ -39,7 +39,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   20,
+   21,
    [
     "2026-11-19T16:15:47+00:00",
     "2026-11-19T16:25:05+00:00"
@@ -185,7 +185,7 @@
    "price": 109.99,
    "was": 189.99,
    "votes": 15,
-   "posts": 16,
+   "posts": 17,
    "time": "2026-11-19T10:23:38+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-greenworks-80v-2-0ah-lithium-ion-battery-109-99-atl-2832821/",
    "asin": "B0BKFRR3RV",
@@ -702,6 +702,24 @@
    "img": "/img/p/B00EAKP8S0.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-eco-worthy-powermega-48v-314ah-16-1kwh-lifepo4-battery-3-549-99-24-off-2833058/",
+   "title": "ECO-WORTHY Powermega 48V 314Ah 16.1kWh LiFePO4 Battery $3,549.99 (24% off)",
+   "price": 3549.9,
+   "was": 4671.0,
+   "votes": 6,
+   "posts": 6,
+   "time": "2026-11-20T04:36:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-eco-worthy-powermega-48v-314ah-16-1kwh-lifepo4-battery-3-549-99-24-off-2833058/",
+   "asin": "B0HL8SHD6N",
+   "pct": 24,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0HL8SHD6N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HL8SHD6N.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-creator-3-1-wild-animals-panda-family-31165-32-37-626-pieces-2833104/",
    "title": "LEGO Creator 3 in 1 Wild Animals: Panda Family 31165 - $32.37, 626 pieces",
    "price": 32.37,
@@ -736,6 +754,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CC9DB4YB.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
+   "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
+   "price": 69.99,
+   "was": 99.99,
+   "votes": 6,
+   "posts": 0,
+   "time": "2026-11-20T14:37:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
+   "asin": "B0B63VTW46",
+   "pct": 30,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0B63VTW46?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B63VTW46.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-logitech-mk345-mouse-keyboard-35-2833153/",
@@ -880,42 +916,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01CS2OOMM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-eco-worthy-powermega-48v-314ah-16-1kwh-lifepo4-battery-3-549-99-24-off-2833058/",
-   "title": "ECO-WORTHY Powermega 48V 314Ah 16.1kWh LiFePO4 Battery $3,549.99 (24% off)",
-   "price": 3549.9,
-   "was": 4671.0,
-   "votes": 5,
-   "posts": 6,
-   "time": "2026-11-20T04:36:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-eco-worthy-powermega-48v-314ah-16-1kwh-lifepo4-battery-3-549-99-24-off-2833058/",
-   "asin": "B0HL8SHD6N",
-   "pct": 24,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0HL8SHD6N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HL8SHD6N.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
-   "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
-   "price": 69.99,
-   "was": 99.99,
-   "votes": 5,
-   "posts": 0,
-   "time": "2026-11-20T14:37:16+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
-   "asin": "B0B63VTW46",
-   "pct": 30,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0B63VTW46?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B63VTW46.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
@@ -1440,6 +1440,24 @@
    "img": "/img/p/B01LY8Y2UU.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
+   "title": "JAYO PETG 3d printer filament ~$42.49",
+   "price": 42.49,
+   "was": 48.0,
+   "votes": 2,
+   "posts": 10,
+   "time": "2026-11-20T17:08:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
+   "asin": "B0FSZKHTBS",
+   "pct": 11,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FSZKHTBS?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FSZKHTBS.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-rog-falcata-split-75-hall-effect-keyboard-249-99-2832167/",
    "title": "ROG Falcata - Split 75% hall-effect keyboard - $249.99",
    "price": 249.99,
@@ -1582,42 +1600,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CTTL9R7Z.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-meross-matter-smart-thermostat-electric-baseboard-heaters-93-49-2832936/",
-   "title": "Meross Matter Smart Thermostat for Electric Baseboard Heaters - $93.49",
-   "price": 93.49,
-   "was": 109.99,
-   "votes": 1,
-   "posts": 4,
-   "time": "2026-11-19T20:03:47+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-meross-matter-smart-thermostat-electric-baseboard-heaters-93-49-2832936/",
-   "asin": "B0FSZNYLZ8",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FSZNYLZ8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FSZNYLZ8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
-   "title": "JAYO PETG 3d printer filament ~$42.49",
-   "price": 42.49,
-   "was": 48.0,
-   "votes": 1,
-   "posts": 6,
-   "time": "2026-11-20T17:08:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
-   "asin": "B0FSZKHTBS",
-   "pct": 11,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FSZKHTBS?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FSZKHTBS.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
