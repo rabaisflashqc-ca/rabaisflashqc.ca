@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20T13:55-04:00",
+ "date": "2026-11-20T14:54-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,16 +9,16 @@
     "2026-11-14T20:42:25+00:00"
    ],
    [
-    "2026-11-20T13:45:30+00:00",
-    "2026-11-20T16:07:21+00:00"
+    "2026-11-20T16:07:21+00:00",
+    "2026-11-20T17:58:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-13T18:19:49+00:00",
-    "2026-11-14T01:43:20+00:00"
+    "2026-11-14T01:43:20+00:00",
+    "2026-11-14T20:13:36+00:00"
    ],
    [
     "2026-11-20T14:37:16+00:00",
@@ -27,62 +27,62 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   31,
+   30,
    [
-    "2026-11-20T03:57:22+00:00",
-    "2026-11-20T04:00:24+00:00"
+    "2026-11-20T04:00:24+00:00",
+    "2026-11-20T04:31:06+00:00"
    ],
    [
-    "2026-11-20T17:23:21+00:00",
-    "2026-11-20T17:46:19+00:00"
+    "2026-11-20T17:46:19+00:00",
+    "2026-11-20T17:58:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   19,
+   20,
    [
-    "2026-11-19T16:11:10+00:00",
-    "2026-11-19T16:15:47+00:00"
+    "2026-11-19T16:15:47+00:00",
+    "2026-11-19T16:25:05+00:00"
    ],
    [
-    "2026-11-20T03:15:40+00:00",
-    "2026-11-20T03:22:45+00:00"
+    "2026-11-20T03:22:45+00:00",
+    "2026-11-20T03:57:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   19,
+   18,
    [
-    "2026-11-18T02:57:31+00:00",
-    "2026-11-18T03:54:48+00:00"
+    "2026-11-18T03:54:48+00:00",
+    "2026-11-18T05:13:12+00:00"
    ],
    [
-    "2026-11-19T16:02:18+00:00",
-    "2026-11-19T16:02:59+00:00"
+    "2026-11-19T16:02:59+00:00",
+    "2026-11-19T16:11:10+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   19,
+   20,
    [
-    "2026-11-13T17:20:24+00:00",
-    "2026-11-13T18:19:49+00:00"
+    "2026-11-13T18:19:49+00:00",
+    "2026-11-13T23:21:49+00:00"
    ],
    [
-    "2026-11-18T00:48:37+00:00",
-    "2026-11-18T02:34:47+00:00"
+    "2026-11-18T02:34:47+00:00",
+    "2026-11-18T02:57:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-11-04T19:49:53+00:00",
-    "2026-11-04T19:51:45+00:00"
+    "2026-11-04T19:51:45+00:00",
+    "2026-11-04T20:25:11+00:00"
    ],
    [
-    "2026-11-13T05:34:23+00:00",
-    "2026-11-13T16:46:34+00:00"
+    "2026-11-13T16:46:34+00:00",
+    "2026-11-13T17:20:24+00:00"
    ]
   ],
   "avant_filtre_date": 139,
@@ -286,6 +286,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HDC236Q.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
+   "title": "Hasbro Scrabble Board Game for $12.97",
+   "price": 12.97,
+   "was": 29.99,
+   "votes": 10,
+   "posts": 0,
+   "time": "2026-11-20T17:58:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
+   "asin": "B09D44JH4S",
+   "pct": 57,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B09D44JH4S?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09D44JH4S.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
@@ -864,24 +882,6 @@
    "img": "/img/p/B0HL8SHD6N.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
-   "title": "Smart Cat Ultimate Scratching Post- Gray, Large (32-Inch) 14% off $88 instead of $103",
-   "price": 88.58,
-   "was": 103.0,
-   "votes": 5,
-   "posts": 6,
-   "time": "2026-11-20T14:05:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
-   "asin": "B07G3SLKQ8",
-   "pct": 14,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B07G3SLKQ8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07G3SLKQ8.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-2-1-kids-play-tent-70-39-2833113/",
    "title": "2 in 1 Kids Play Tent - $70.39",
    "price": 70.39,
@@ -916,24 +916,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0B63VTW46.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
-   "title": "REOLINK Duo 2V 8MP Dual-Lens PoE Camera - $135.99",
-   "price": 135.99,
-   "was": 169.99,
-   "votes": 4,
-   "posts": 0,
-   "time": "2026-11-13T18:19:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-reolink-duo-2v-8mp-dual-lens-poe-camera-135-99-2832038/",
-   "asin": "B0D2VXGMBH",
-   "pct": 20,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D2VXGMBH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D2VXGMBH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
@@ -1168,6 +1150,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DCG1JGKN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
+   "title": "Smart Cat Ultimate Scratching Post- Gray, Large (32-Inch) 14% off $88 instead of $103",
+   "price": 88.58,
+   "was": 103.0,
+   "votes": 3,
+   "posts": 8,
+   "time": "2026-11-20T14:05:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
+   "asin": "B07G3SLKQ8",
+   "pct": 14,
+   "cat": "animaux",
+   "link": "https://www.amazon.ca/dp/B07G3SLKQ8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07G3SLKQ8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
