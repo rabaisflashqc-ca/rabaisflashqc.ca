@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-20T17:55+00:00",
+ "genere": "2026-11-20T18:28+00:00",
  "produits": [
   {
    "asin": "B0FD46BDLN",
@@ -1030,6 +1030,76 @@
    "asin": "B00XKYRBKA",
    "titre": "Wrangler Authentics pantalon pour homme",
    "prix_affiche": 42.81
+  },
+  {
+   "asin": "B0BS1PRC4L",
+   "titre": "Casque Sony WH-CH520 Bluetooth, 50 h d'autonomie",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0DN3RPV45",
+   "titre": "Écouteurs JBL Vibe Buds 2 à réduction de bruit",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0CZ4GN5YT",
+   "titre": "Machine espresso automatique Philips série 3300 LatteGo",
+   "prix_affiche": 599.99
+  },
+  {
+   "asin": "B0FXG2BDTJ",
+   "titre": "Robot aspirateur et vadrouille roborock Qrevo Curv 2 Flow",
+   "prix_affiche": 849.99
+  },
+  {
+   "asin": "B09JF3BR78",
+   "titre": "Aspirateur-laveur sans fil Tineco Floor ONE S5 Combo",
+   "prix_affiche": 199.0
+  },
+  {
+   "asin": "B0G5VFJCTM",
+   "titre": "Pelle à neige électrique sans fil Snow Joe 20 V",
+   "prix_affiche": 125.99
+  },
+  {
+   "asin": "B0GH41DZ7D",
+   "titre": "Remorque de vélo pour enfants Thule Coaster XT",
+   "prix_affiche": 478.95
+  },
+  {
+   "asin": "B0D88SMLS2",
+   "titre": "Machine à boissons glacées Ninja SLUSHi FS301C",
+   "prix_affiche": 279.99
+  },
+  {
+   "asin": "B0FMLGV15G",
+   "titre": "Sac à dos glacière Ninja FrostVault Go",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B0GSS72GZJ",
+   "titre": "Apple AirPods Max 2 (bleu)",
+   "prix_affiche": 559.0
+  },
+  {
+   "asin": "B0GR1JTFP8",
+   "titre": "Apple MacBook Air 13 po 2026, puce M5",
+   "prix_affiche": 1589.99
+  },
+  {
+   "asin": "B09P1G2952",
+   "titre": "Leggings CRZ YOGA Butterluxe 25 po",
+   "prix_affiche": 40.0
+  },
+  {
+   "asin": "B0CH3W2ZZQ",
+   "titre": "Machine à coudre robuste SINGER 6380",
+   "prix_affiche": 245.9
+  },
+  {
+   "asin": "B0CJ4W36XZ",
+   "titre": "Lot de 2 chaises de camping surdimensionnées Overmont",
+   "prix_affiche": 83.59
   }
  ]
 }
