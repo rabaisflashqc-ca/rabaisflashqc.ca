@@ -3,8 +3,8 @@
   "asin": "B007FG77BW",
   "title": "SABRE Protector Spray Multipack",
   "cat": "maison",
-  "votes": 91,
-  "posts": 32,
+  "votes": 111,
+  "posts": 33,
   "rfd": "https://forums.redflagdeals.com/amazon-ca-sabre-protector-spray-multipack-6-50-2832925/",
   "img": "/img/p/B007FG77BW.jpg",
   "doute": false,
@@ -13,8 +13,8 @@
   "was": 22.5,
   "pct": 71,
   "posted": "2026-11-19T19:23:38+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0GL96NJL5",
@@ -30,8 +30,25 @@
   "was": 94.99,
   "pct": 26,
   "posted": "2026-11-16T15:26:24+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
+ },
+ {
+  "asin": "B0FQG8RW95",
+  "title": "Apple AirPods Pro 3 Wireless",
+  "cat": "maison",
+  "votes": 19,
+  "posts": 7,
+  "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
+  "img": "/img/p/B0FQG8RW95.jpg",
+  "doute": false,
+  "morts": 0,
+  "price": 229.0,
+  "was": 329.0,
+  "pct": 30,
+  "posted": "2026-11-19T16:30:09+00:00",
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0DX7JTJ7N",
@@ -47,32 +64,15 @@
   "was": 29.98,
   "pct": 33,
   "posted": "2026-11-18T00:48:37+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
- },
- {
-  "asin": "B0FQG8RW95",
-  "title": "Apple AirPods Pro 3 Wireless",
-  "cat": "maison",
-  "votes": 16,
-  "posts": 6,
-  "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
-  "img": "/img/p/B0FQG8RW95.jpg",
-  "doute": false,
-  "morts": 0,
-  "price": 229.0,
-  "was": 329.0,
-  "pct": 30,
-  "posted": "2026-11-19T16:30:09+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0BKFRR3RV",
   "title": "Greenworks 80V 2.0Ah Lithium-Ion Battery ATL",
   "cat": "maison",
   "votes": 15,
-  "posts": 14,
+  "posts": 15,
   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenworks-80v-2-0ah-lithium-ion-battery-109-99-atl-2832821/",
   "img": "/img/p/B0BKFRR3RV.jpg",
   "doute": false,
@@ -81,8 +81,8 @@
   "was": 189.99,
   "pct": 42,
   "posted": "2026-11-19T10:23:38+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0F7R9DQHY",
@@ -98,8 +98,8 @@
   "was": 165.99,
   "pct": 25,
   "posted": "2026-11-14T20:42:25+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0DM5BL72X",
@@ -115,8 +115,8 @@
   "was": 8.65,
   "pct": 40,
   "posted": "2026-11-19T13:23:56+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B09743F8P6",
@@ -132,8 +132,8 @@
   "was": 64.99,
   "pct": 54,
   "posted": "2026-11-19T17:37:30+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0FC33ZF1B",
@@ -149,15 +149,15 @@
   "was": 449.99,
   "pct": 45,
   "posted": "2026-11-19T16:11:10+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0C9W9GSF7",
   "title": "Lutron MA-T51MN-WH Maestro 3-Amp/600 Watt Countdown Timer Control Switch",
   "cat": "enfants",
   "votes": 11,
-  "posts": 7,
+  "posts": 8,
   "rfd": "https://forums.redflagdeals.com/amazon-ca-lutron-ma-t51mn-wh-maestro-3-amp-600-watt-countdown-timer-control-switch-39-99-20-off-2832842/",
   "img": "/img/p/B0C9W9GSF7.jpg",
   "doute": false,
@@ -166,8 +166,42 @@
   "was": 49.99,
   "pct": 20,
   "posted": "2026-11-19T14:14:48+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
+ },
+ {
+  "asin": "B0BBY4QYBG",
+  "title": "LEGO NINJAGO Kai's Ninja Race Car EVO",
+  "cat": "enfants",
+  "votes": 9,
+  "posts": 1,
+  "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
+  "img": "/img/p/B0BBY4QYBG.jpg",
+  "doute": false,
+  "morts": 0,
+  "price": 7.57,
+  "was": 13.99,
+  "pct": 46,
+  "posted": "2026-11-20T11:12:05+00:00",
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
+ },
+ {
+  "asin": "B0CS3B7MD8",
+  "title": "AstroAI L7 Portable Tire Inflator",
+  "cat": "plein-air",
+  "votes": 8,
+  "posts": 10,
+  "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
+  "img": "/img/p/B0CS3B7MD8.jpg",
+  "doute": true,
+  "morts": 1,
+  "price": 26.34,
+  "was": 49.99,
+  "pct": 47,
+  "posted": "2026-11-19T18:59:07+00:00",
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0G5BMQVWX",
@@ -183,8 +217,8 @@
   "was": 89.99,
   "pct": 44,
   "posted": "2026-11-16T14:21:05+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B097GLJ758",
@@ -200,8 +234,8 @@
   "was": 17.84,
   "pct": 33,
   "posted": "2026-11-18T03:54:48+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0BLJTJ38M",
@@ -217,25 +251,8 @@
   "was": 249.99,
   "pct": 48,
   "posted": "2026-11-19T14:02:07+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
- },
- {
-  "asin": "B0CS3B7MD8",
-  "title": "AstroAI L7 Portable Tire Inflator",
-  "cat": "plein-air",
-  "votes": 7,
-  "posts": 7,
-  "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
-  "img": "/img/p/B0CS3B7MD8.jpg",
-  "doute": false,
-  "morts": 0,
-  "price": 26.34,
-  "was": 49.99,
-  "pct": 47,
-  "posted": "2026-11-19T18:59:07+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B09HY42PH5",
@@ -251,8 +268,8 @@
   "was": 79.99,
   "pct": 41,
   "posted": "2026-11-18T18:06:41+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0CGY22J6Y",
@@ -268,15 +285,15 @@
   "was": 119.99,
   "pct": 33,
   "posted": "2026-11-19T15:36:53+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0F5QTSCGY",
   "title": "Hisense 85\" 4K UHD Mini-LED Smart Gaming Fire TV, QLED, 144 Hz 85U68QF on Sale",
   "cat": "tech",
   "votes": 7,
-  "posts": 22,
+  "posts": 23,
   "rfd": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
   "img": "/img/p/B0F5QTSCGY.jpg",
   "doute": false,
@@ -285,8 +302,25 @@
   "was": 1499.9,
   "pct": 25,
   "posted": "2026-11-14T06:28:52+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
+ },
+ {
+  "asin": "B0DJ1B7BC1",
+  "title": "LEGO Creator 3 in 1 Wild Animals: Panda Family 31165 - 626 pieces",
+  "cat": "enfants",
+  "votes": 6,
+  "posts": 2,
+  "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-creator-3-1-wild-animals-panda-family-31165-32-37-626-pieces-2833104/",
+  "img": "/img/p/B0DJ1B7BC1.jpg",
+  "doute": false,
+  "morts": 0,
+  "price": 32.37,
+  "was": 49.99,
+  "pct": 35,
+  "posted": "2026-11-20T13:45:30+00:00",
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B07649SXQ8",
@@ -302,8 +336,8 @@
   "was": 339.99,
   "pct": 41,
   "posted": "2026-11-18T00:02:23+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0B5B2KBXV",
@@ -319,25 +353,42 @@
   "was": 49.99,
   "pct": 26,
   "posted": "2026-11-19T05:29:40+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
+ },
+ {
+  "asin": "B07G3SLKQ8",
+  "title": "Smart Cat Ultimate Scratching Post- Gray, Large instead of",
+  "cat": "animaux",
+  "votes": 5,
+  "posts": 6,
+  "rfd": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
+  "img": "/img/p/B07G3SLKQ8.jpg",
+  "doute": false,
+  "morts": 0,
+  "price": 88.58,
+  "was": 103.0,
+  "pct": 14,
+  "posted": "2026-11-20T14:05:34+00:00",
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0GGBH6JHV",
   "title": "Mini Electric Bike Pump with Gauge, 120PSI Rechargeable",
   "cat": "plein-air",
   "votes": 3,
-  "posts": 7,
+  "posts": 9,
   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
   "img": "/img/p/B0GGBH6JHV.jpg",
-  "doute": true,
-  "morts": 2,
+  "doute": false,
+  "morts": 0,
   "price": 39.41,
   "was": 79.99,
   "pct": 51,
   "posted": "2026-11-19T21:56:11+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0C4GZMKXZ",
@@ -353,48 +404,14 @@
   "was": 64.99,
   "pct": 48,
   "posted": "2026-11-19T17:01:28+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
- },
- {
-  "asin": "B0DHLGFRV3",
-  "title": "LEGO Speed Champions Ferrari SF-24 F1",
-  "cat": "enfants",
-  "votes": 2,
-  "posts": 3,
-  "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-24-2832415/",
-  "img": "/img/p/B0DHLGFRV3.jpg",
-  "doute": false,
-  "morts": 0,
-  "price": 24.0,
-  "was": 35.0,
-  "pct": 31,
-  "posted": "2026-11-16T18:17:56+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
- },
- {
-  "asin": "B07QHBYT26",
-  "title": "ProCase Kids Hearing Protection Ear Muffs",
-  "cat": "enfants",
-  "votes": 1,
-  "posts": 0,
-  "rfd": "https://forums.redflagdeals.com/amazon-ca-procase-kids-hearing-protection-ear-muffs-snr-27db-ci-17-54-33-off-2833045/",
-  "img": "/img/p/B07QHBYT26.jpg",
-  "doute": false,
-  "morts": 0,
-  "price": 17.54,
-  "was": 26.18,
-  "pct": 33,
-  "posted": "2026-11-20T03:15:40+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  },
  {
   "asin": "B0848KXRBS",
   "title": "Dry Cat Food, LiveClear Chicken & Rice - 7.26 kg Bag",
   "cat": "animaux",
-  "votes": 1,
+  "votes": 2,
   "posts": 0,
   "rfd": "https://forums.redflagdeals.com/amazon-ca-dry-cat-food-liveclear-chicken-rice-7-26-kg-bag-2832938/",
   "img": "/img/p/B0848KXRBS.jpg",
@@ -404,41 +421,7 @@
   "was": 95.0,
   "pct": 26,
   "posted": "2026-11-19T20:04:05+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
- },
- {
-  "asin": "B0HJB23HFR",
-  "title": "Apple Watch Series 12",
-  "cat": "mode",
-  "votes": 1,
-  "posts": 4,
-  "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-watch-series-12-479-42mm-549-46mm-2832942/",
-  "img": "/img/p/B0HJB23HFR.jpg",
-  "doute": false,
-  "morts": 0,
-  "price": 549.0,
-  "was": 619.0,
-  "pct": 11,
-  "posted": "2026-11-19T20:22:17+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
- },
- {
-  "asin": "B0C2NY5SVQ",
-  "title": "Cat Feather Toys, Cat Toys Wand, Interactive Cat Toy with Super Suction Cup, 2 PCS",
-  "cat": "animaux",
-  "votes": 0,
-  "posts": 0,
-  "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-feather-toys-cat-toys-wand-interactive-cat-toy-super-suction-cup-2-pcs-2833040/",
-  "img": "/img/p/B0C2NY5SVQ.jpg",
-  "doute": false,
-  "morts": 0,
-  "price": 17.55,
-  "was": 19.94,
-  "pct": 12,
-  "posted": "2026-11-20T02:56:09+00:00",
-  "seen": "2026-11-19T23:59-04:00",
-  "until": "2026-11-20T23:59-04:00"
+  "seen": "2026-11-20T13:55-04:00",
+  "until": "2026-11-21T13:55-04:00"
  }
 ]
