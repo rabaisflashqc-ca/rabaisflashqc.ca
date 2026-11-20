@@ -1,15 +1,15 @@
 {
- "date": "2026-11-19T23:07-04:00",
+ "date": "2026-11-19T23:59-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
     "2026-11-13T18:19:49+00:00",
-    "2026-11-14T01:43:20+00:00"
+    "2026-11-14T06:28:52+00:00"
    ],
    [
-    "2026-11-19T21:50:22+00:00",
+    "2026-11-19T22:33:21+00:00",
     "2026-11-20T01:18:57+00:00"
    ]
   ],
@@ -18,75 +18,75 @@
    44,
    [
     "2026-11-13T16:46:34+00:00",
-    "2026-11-14T12:55:56+00:00"
+    "2026-11-14T01:43:20+00:00"
    ],
    [
-    "2026-11-20T02:03:14+00:00",
-    "2026-11-20T02:56:09+00:00"
+    "2026-11-20T01:59:34+00:00",
+    "2026-11-20T03:15:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   12,
+   15,
    [
-    "2026-11-19T16:00:25+00:00",
-    "2026-11-19T16:02:18+00:00"
+    "2026-11-19T16:25:05+00:00",
+    "2026-11-19T16:30:09+00:00"
    ],
    [
-    "2026-11-20T02:03:14+00:00",
-    "2026-11-20T02:56:09+00:00"
+    "2026-11-20T03:15:40+00:00",
+    "2026-11-20T03:22:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   16,
+   17,
    [
-    "2026-11-18T00:48:37+00:00",
-    "2026-11-18T02:34:47+00:00"
+    "2026-11-18T06:20:09+00:00",
+    "2026-11-18T08:59:02+00:00"
    ],
    [
-    "2026-11-19T15:54:02+00:00",
-    "2026-11-19T15:57:52+00:00"
+    "2026-11-19T16:11:10+00:00",
+    "2026-11-19T16:15:47+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   16,
+   15,
    [
-    "2026-11-13T16:46:34+00:00",
-    "2026-11-13T17:20:24+00:00"
+    "2026-11-14T06:28:52+00:00",
+    "2026-11-14T07:47:41+00:00"
    ],
    [
-    "2026-11-17T22:01:45+00:00",
-    "2026-11-18T00:02:23+00:00"
+    "2026-11-18T03:54:48+00:00",
+    "2026-11-18T05:13:12+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   44,
+   41,
    [
-    "2026-11-04T19:49:53+00:00",
-    "2026-11-04T19:51:45+00:00"
+    "2026-11-05T05:56:37+00:00",
+    "2026-11-05T12:22:46+00:00"
    ],
    [
-    "2026-11-13T05:31:27+00:00",
-    "2026-11-13T05:34:23+00:00"
+    "2026-11-13T23:21:49+00:00",
+    "2026-11-14T01:43:20+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-10-23T05:10:09+00:00",
-    "2026-10-23T05:23:39+00:00"
+    "2026-10-24T23:36:14+00:00",
+    "2026-10-26T04:42:54+00:00"
    ],
    [
-    "2026-11-04T19:21:57+00:00",
-    "2026-11-04T19:48:21+00:00"
+    "2026-11-04T21:50:48+00:00",
+    "2026-11-04T23:05:40+00:00"
    ]
   ],
-  "avant_filtre_date": 136,
-  "apres_filtre_date": 88
+  "avant_filtre_date": 138,
+  "apres_filtre_date": 91
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "SABRE Protector Spray Multipack$ 6.50",
    "price": 6.5,
    "was": 22.5,
-   "votes": 81,
-   "posts": 30,
+   "votes": 91,
+   "posts": 32,
    "time": "2026-11-19T19:23:38+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-sabre-protector-spray-multipack-6-50-2832925/",
    "asin": "B007FG77BW",
@@ -126,12 +126,30 @@
    "img": "/img/p/B0GL96NJL5.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
+   "title": "Bounty Paper Towels Select-A-Size White, 8 Double Plus Rolls = 20 regular rolls $19.98",
+   "price": 19.98,
+   "was": 29.98,
+   "votes": 16,
+   "posts": 18,
+   "time": "2026-11-18T00:48:37+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
+   "asin": "B0DX7JTJ7N",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DX7JTJ7N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0DX7JTJ7N.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
    "title": "Apple AirPods Pro 3 Wireless - $229.00",
    "price": 229.0,
    "was": 329.0,
    "votes": 16,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-19T16:30:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
    "asin": "B0FQG8RW95",
@@ -142,24 +160,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FQG8RW95.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
-   "title": "Bounty Paper Towels Select-A-Size White, 8 Double Plus Rolls = 20 regular rolls $19.98",
-   "price": 19.98,
-   "was": 29.98,
-   "votes": 15,
-   "posts": 17,
-   "time": "2026-11-18T00:48:37+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
-   "asin": "B0DX7JTJ7N",
-   "pct": 33,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DX7JTJ7N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0DX7JTJ7N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenworks-80v-2-0ah-lithium-ion-battery-109-99-atl-2832821/",
@@ -414,6 +414,24 @@
    "img": "/img/p/B0F5QTSCGY.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
+   "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
+   "price": 46.99,
+   "was": 79.99,
+   "votes": 7,
+   "posts": 3,
+   "time": "2026-11-18T18:06:41+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
+   "asin": "B09HY42PH5",
+   "pct": 41,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B09HY42PH5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09HY42PH5.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-barbie-dreamhouse-dollhouse-playset-themed-accessories-129-99-249-99-2832838/",
    "title": "Barbie Dreamhouse Dollhouse Playset and Themed Accessories - $129.99 (was $249.99)",
    "price": 129.99,
@@ -448,6 +466,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CGY22J6Y.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mrs-meyers-clean-day-liquid-hand-soap-refill-peony-compassion-flower-975-ml-7-first-s-s-only-coupon-2832879/",
+   "title": "MRS. MEYER'S CLEAN DAY Liquid Hand Soap Refill, Peony & Compassion Flower, 975 mL $7 (first S&S only with coupon)",
+   "price": 7.0,
+   "was": null,
+   "votes": 7,
+   "posts": 3,
+   "time": "2026-11-19T16:15:47+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mrs-meyers-clean-day-liquid-hand-soap-refill-peony-compassion-flower-975-ml-7-first-s-s-only-coupon-2832879/",
+   "asin": "B0DR3TBZ2F",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DR3TBZ2F?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DR3TBZ2F.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
@@ -504,24 +540,6 @@
    "img": "/img/p/B0CJZW65R3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
-   "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
-   "price": 46.99,
-   "was": 79.99,
-   "votes": 6,
-   "posts": 2,
-   "time": "2026-11-18T18:06:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
-   "asin": "B09HY42PH5",
-   "pct": 41,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B09HY42PH5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09HY42PH5.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
    "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
    "price": 169.99,
@@ -558,24 +576,6 @@
    "img": "/img/p/B07F34Z8HY.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
-   "title": "Heated Rivalry (Original Series Soundtrack) (Vinyl) @ $19.97",
-   "price": 19.97,
-   "was": null,
-   "votes": 6,
-   "posts": 12,
-   "time": "2026-11-19T14:24:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
-   "asin": "B0GRX7JKPS",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GRX7JKPS?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GRX7JKPS.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ea-2k-sports-games-50-off-fc27-nhl27-madden-27-44-96-nba-2k-39-96-ps5-xbox-ns2-2832846/",
    "title": "EA 2K Sports Games 50% off: FC27, NHL27, Madden 27 ($44.96), NBA 2K ($39.96) for PS5, Xbox and NS2",
    "price": 44.48,
@@ -592,24 +592,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HC47DKSM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mrs-meyers-clean-day-liquid-hand-soap-refill-peony-compassion-flower-975-ml-7-first-s-s-only-coupon-2832879/",
-   "title": "MRS. MEYER'S CLEAN DAY Liquid Hand Soap Refill, Peony & Compassion Flower, 975 mL $7 (first S&S only with coupon)",
-   "price": 7.0,
-   "was": null,
-   "votes": 6,
-   "posts": 3,
-   "time": "2026-11-19T16:15:47+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mrs-meyers-clean-day-liquid-hand-soap-refill-peony-compassion-flower-975-ml-7-first-s-s-only-coupon-2832879/",
-   "asin": "B0DR3TBZ2F",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DR3TBZ2F?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DR3TBZ2F.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
@@ -682,6 +664,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0B5B2KBXV.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
+   "title": "Heated Rivalry (Original Series Soundtrack) (Vinyl) @ $19.97",
+   "price": 19.97,
+   "was": null,
+   "votes": 5,
+   "posts": 13,
+   "time": "2026-11-19T14:24:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
+   "asin": "B0GRX7JKPS",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GRX7JKPS?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GRX7JKPS.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-cpu-379-atl-2832857/",
@@ -828,6 +828,24 @@
    "img": "/img/p/B0D5RK75Q8.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-stethoscope-99-amazon-2832962/",
+   "title": "Littman Classic iii stethoscope - $99 - Amazon",
+   "price": 99.0,
+   "was": 132.0,
+   "votes": 4,
+   "posts": 7,
+   "time": "2026-11-19T22:33:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-stethoscope-99-amazon-2832962/",
+   "asin": "B01CS2OOMM",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01CS2OOMM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01CS2OOMM.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
    "title": "eufy Robot Vacuums — C28 Omni $629.99 (55% off), C30 $799.99 (38% off), Omni E35 $1,499.99 (12% off)",
    "price": 629.99,
@@ -905,7 +923,7 @@
    "price": 189.99,
    "was": 259.99,
    "votes": 3,
-   "posts": 11,
+   "posts": 12,
    "time": "2026-11-19T14:32:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "asin": "B0C9TBZF8X",
@@ -1139,7 +1157,7 @@
    "price": 329.0,
    "was": 715.22,
    "votes": 2,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-11-19T17:21:06+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-329-hp-omnibook-3-laptop-ai-16-ct0010ca-windows-11-home-16-snapdragon-x-8gb-ram-128gb-ufs-2k-2832902/",
    "asin": "B0HDTZBZVC",
@@ -1147,27 +1165,9 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0HDTZBZVC?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B0HDTZBZVC.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-stethoscope-99-amazon-2832962/",
-   "title": "Littman Classic iii stethoscope - $99 - Amazon",
-   "price": 99.0,
-   "was": 132.0,
-   "votes": 2,
-   "posts": 7,
-   "time": "2026-11-19T22:33:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-stethoscope-99-amazon-2832962/",
-   "asin": "B01CS2OOMM",
-   "pct": 25,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01CS2OOMM?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01CS2OOMM.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
@@ -1186,6 +1186,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0B1TXSFMK.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mova-p10-pro-ultra-robot-vacuum-mop-379-reg-699-gen-2-499-2832979/",
+   "title": "MOVA P10 Pro Ultra Robot Vacuum & Mop - $379 (Reg. $699) + Gen 2 $499",
+   "price": 379.0,
+   "was": 699.0,
+   "votes": 2,
+   "posts": 4,
+   "time": "2026-11-20T00:01:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mova-p10-pro-ultra-robot-vacuum-mop-379-reg-699-gen-2-499-2832979/",
+   "asin": "B0DGR1VDTB",
+   "pct": 46,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DGR1VDTB?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DGR1VDTB.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-rog-falcata-split-75-hall-effect-keyboard-249-99-2832167/",
@@ -1391,7 +1409,7 @@
    "price": 290.99,
    "was": 340.99,
    "votes": 1,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-19T23:18:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-euhomy-nugget-ice-maker-44-lbs-day-290-99-2832967/",
    "asin": "B0GVYRDGS4",
@@ -1404,58 +1422,22 @@
    "img": "/img/p/B0GVYRDGS4.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mova-p10-pro-ultra-robot-vacuum-mop-379-reg-699-gen-2-499-2832979/",
-   "title": "MOVA P10 Pro Ultra Robot Vacuum & Mop - $379 (Reg. $699) + Gen 2 $499",
-   "price": 379.0,
-   "was": 699.0,
-   "votes": 1,
-   "posts": 2,
-   "time": "2026-11-20T00:01:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mova-p10-pro-ultra-robot-vacuum-mop-379-reg-699-gen-2-499-2832979/",
-   "asin": "B0DGR1VDTB",
-   "pct": 46,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DGR1VDTB?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DGR1VDTB.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rog-rapture-gt-be98-pro-wifi-7-gaming-router-quad-band-30gbps-mesh-699-99-2833011/",
-   "title": "ASUS ROG Rapture GT-BE98 Pro WiFi 7 Gaming Router - Quad-Band, 30Gbps, Mesh $699.99",
-   "price": 699.99,
-   "was": 949.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-procase-kids-hearing-protection-ear-muffs-snr-27db-ci-17-54-33-off-2833045/",
+   "title": "ProCase Kids Hearing Protection Ear Muffs (SNR 27dB) – $17.54 (33% Off)",
+   "price": 17.54,
+   "was": 26.18,
    "votes": 1,
    "posts": 0,
-   "time": "2026-11-20T02:03:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rog-rapture-gt-be98-pro-wifi-7-gaming-router-quad-band-30gbps-mesh-699-99-2833011/",
-   "asin": "B0CPQYSXCW",
-   "pct": 26,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CPQYSXCW?tag=coupdecoeurqc-20",
+   "time": "2026-11-20T03:15:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-procase-kids-hearing-protection-ear-muffs-snr-27db-ci-17-54-33-off-2833045/",
+   "asin": "B07QHBYT26",
+   "pct": 33,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B07QHBYT26?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CPQYSXCW.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-cat-feather-toys-cat-toys-wand-interactive-cat-toy-super-suction-cup-2-pcs-2833040/",
-   "title": "Cat Feather Toys, Cat Toys Wand, Interactive Cat Toy with Super Suction Cup, 2 PCS",
-   "price": 17.55,
-   "was": 19.94,
-   "votes": 1,
-   "posts": 0,
-   "time": "2026-11-20T02:56:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-feather-toys-cat-toys-wand-interactive-cat-toy-super-suction-cup-2-pcs-2833040/",
-   "asin": "B0C2NY5SVQ",
-   "pct": 12,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B0C2NY5SVQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C2NY5SVQ.jpg"
+   "img": "/img/p/B07QHBYT26.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bedsure-couverture-fleece-throw-blanket-18-49-24-99-2832126/",
@@ -1584,6 +1566,24 @@
    "img": "/img/p/B00EINBSJ2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-breville-smart-oven-pizzaiolo-799-2832944/",
+   "title": "Breville the Smart Oven Pizzaiolo $799",
+   "price": 799.0,
+   "was": null,
+   "votes": 0,
+   "posts": 13,
+   "time": "2026-11-19T20:28:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-breville-smart-oven-pizzaiolo-799-2832944/",
+   "asin": "B08R8YZR32",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B08R8YZR32?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08R8YZR32.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
    "title": "Refoss HomeKit Smart Garage Door Opener - $45.59",
    "price": 45.59,
@@ -1618,6 +1618,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FBWVM5NY.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-rapid-petg-black-filament-10kg-ci-111-34-reg-136-99-2833042/",
+   "title": "ELEGOO Rapid PETG Black Filament 10KG – $111.34 (Reg. $136.99)",
+   "price": 111.34,
+   "was": 136.99,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-20T03:11:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-rapid-petg-black-filament-10kg-ci-111-34-reg-136-99-2833042/",
+   "asin": "B0F629V1BS",
+   "pct": 19,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0F629V1BS?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F629V1BS.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-cat-feather-toys-cat-toys-wand-interactive-cat-toy-super-suction-cup-2-pcs-2833040/",
+   "title": "Cat Feather Toys, Cat Toys Wand, Interactive Cat Toy with Super Suction Cup, 2 PCS",
+   "price": 17.55,
+   "was": 19.94,
+   "votes": 0,
+   "posts": 0,
+   "time": "2026-11-20T02:56:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-cat-feather-toys-cat-toys-wand-interactive-cat-toy-super-suction-cup-2-pcs-2833040/",
+   "asin": "B0C2NY5SVQ",
+   "pct": 12,
+   "cat": "animaux",
+   "link": "https://www.amazon.ca/dp/B0C2NY5SVQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C2NY5SVQ.jpg"
   }
  ]
 }
