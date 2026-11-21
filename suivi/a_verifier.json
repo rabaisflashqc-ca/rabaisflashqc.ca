@@ -1,4 +1,480 @@
 {
- "genere": "2026-11-21T14:45+00:00",
- "produits": []
+ "genere": "2026-11-21T15:05+00:00",
+ "produits": [
+  {
+   "asin": "B0GSHCSJ4R",
+   "titre": "Amazon Fire TV Stick 4K",
+   "prix_affiche": 29.99
+  },
+  {
+   "asin": "B0CKMD34QJ",
+   "titre": "Adidas Daily 4.0 espadrilles pour homme",
+   "prix_affiche": 36.0
+  },
+  {
+   "asin": "B08GKZSVMS",
+   "titre": "Ninja BN751C mélangeur professionnel",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0DRW7WGD2",
+   "titre": "LEGO Speed Champions Lamborghini Revuelto",
+   "prix_affiche": 32.96
+  },
+  {
+   "asin": "B00JM5EVHC",
+   "titre": "BaByliss Pro lisseur 3,8 cm",
+   "prix_affiche": 89.06
+  },
+  {
+   "asin": "B0DW9BXCYW",
+   "titre": "JBL Endurance Race 2 écouteurs sport",
+   "prix_affiche": 39.98
+  },
+  {
+   "asin": "B0FD46BDLN",
+   "titre": "Amazon Echo Dot Kids",
+   "prix_affiche": 44.99
+  },
+  {
+   "asin": "B09M5N9K73",
+   "titre": "Intex Dura-Beam matelas gonflable",
+   "prix_affiche": 18.72
+  },
+  {
+   "asin": "B0007ZF4OA",
+   "titre": "Chauffe-mains HeatMax (40 paires)",
+   "prix_affiche": 37.28
+  },
+  {
+   "asin": "B07D9T6CKK",
+   "titre": "adidas Adissage claquettes unisexes",
+   "prix_affiche": 19.78
+  },
+  {
+   "asin": "B01HD4EH4A",
+   "titre": "Bosch meuleuse d'angle GWS8-45",
+   "prix_affiche": 41.96
+  },
+  {
+   "asin": "B00JUM2VAQ",
+   "titre": "Hanes Ultimate chandail à capuche",
+   "prix_affiche": 17.85
+  },
+  {
+   "asin": "B0HPGJCKH6",
+   "titre": "IMFIT haltères ajustables 5 à 52,5 lb",
+   "prix_affiche": 219.95
+  },
+  {
+   "asin": "B0CZPGX972",
+   "titre": "Beats Solo 4 casque supra-auriculaire",
+   "prix_affiche": 139.95
+  },
+  {
+   "asin": "B0DN45YMP6",
+   "titre": "JBL Vibe Beam 2 écouteurs sans fil",
+   "prix_affiche": 49.98
+  },
+  {
+   "asin": "B0FZPT6XYM",
+   "titre": "Ring caméra extérieure 2K",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0DQY93KTY",
+   "titre": "Stanley Quencher H2.0 gobelet isotherme",
+   "prix_affiche": 23.0
+  },
+  {
+   "asin": "B08LQY2XF5",
+   "titre": "Ninja DT201C four à friture à air 10 en 1",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0C3P361SQ",
+   "titre": "Nespresso Vertuo Pop+ cafetière",
+   "prix_affiche": 119.49
+  },
+  {
+   "asin": "B0FLF2LCHS",
+   "titre": "Shark IX141AMZ aspirateur balai sans fil",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B073V2SGP6",
+   "titre": "Levi's Signature Gold jean pour homme",
+   "prix_affiche": 20.83
+  },
+  {
+   "asin": "B0D4Z9C562",
+   "titre": "Bose QuietComfort casque Bluetooth sans fil",
+   "prix_affiche": 249.0
+  },
+  {
+   "asin": "B0BLJTJ38M",
+   "titre": "Barbie Dreamhouse maison de poupée",
+   "prix_affiche": 129.99
+  },
+  {
+   "asin": "B0H6R4N7H3",
+   "titre": "Merach V33 Pro plateforme vibrante",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B09P9V1N7S",
+   "titre": "Hoover CleanSlate nettoyant portable",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B0BLC1R2DN",
+   "titre": "Ingersoll Rand 135MAX marteau pneumatique",
+   "prix_affiche": 159.99
+  },
+  {
+   "asin": "B088PQR3YL",
+   "titre": "KODAK Mini Shot 2 appareil photo instantané",
+   "prix_affiche": 118.79
+  },
+  {
+   "asin": "B0BBKW5G1T",
+   "titre": "YLL machine à karaoké pour enfants",
+   "prix_affiche": 27.07
+  },
+  {
+   "asin": "B08F69M456",
+   "titre": "Ring Plus caméra avec projecteur câblée",
+   "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0CPSFKSP6",
+   "titre": "Niphean planche à pagaie gonflable",
+   "prix_affiche": 218.48
+  },
+  {
+   "asin": "B0C7XDKZPD",
+   "titre": "Amazon Echo Show 15",
+   "prix_affiche": 274.99
+  },
+  {
+   "asin": "B0HFB6FS8K",
+   "titre": "Sony WH-CH730N casque supra-auriculaire",
+   "prix_affiche": 138.0
+  },
+  {
+   "asin": "B0C7C69FPS",
+   "titre": "Eufy serrure intelligente C220",
+   "prix_affiche": 109.99
+  },
+  {
+   "asin": "B0G365R7HR",
+   "titre": "Ring caméra avec projecteur 2K",
+   "prix_affiche": 154.99
+  },
+  {
+   "asin": "B0CC2HZ8WL",
+   "titre": "d'Alba Piedmont soin intensif",
+   "prix_affiche": 35.14
+  },
+  {
+   "asin": "B09RTLFV3F",
+   "titre": "Remington Shine Therapy lisseur",
+   "prix_affiche": 30.23
+  },
+  {
+   "asin": "B0FJLNLKSJ",
+   "titre": "d'Alba White Truffle soin intensif",
+   "prix_affiche": 23.79
+  },
+  {
+   "asin": "B0D9V9RYBM",
+   "titre": "PRETTYGARDEN cardigan surdimensionné ouvert",
+   "prix_affiche": 39.99
+  },
+  {
+   "asin": "B0D4RKKN3M",
+   "titre": "The North Face Antora manteau imperméable pour femme",
+   "prix_affiche": 85.48
+  },
+  {
+   "asin": "B0CWS46XKM",
+   "titre": "Crocs pantoufles classiques",
+   "prix_affiche": 34.95
+  },
+  {
+   "asin": "B0HCY69DZZ",
+   "titre": "CRZ YOGA legging évasé Softretch",
+   "prix_affiche": 32.9
+  },
+  {
+   "asin": "B0BTYCRJSS",
+   "titre": "Anker Soundcore P20i écouteurs sans fil",
+   "prix_affiche": 23.73
+  },
+  {
+   "asin": "B0FNXC51RH",
+   "titre": "LEGO Editions Lionel Messi",
+   "prix_affiche": 23.74
+  },
+  {
+   "asin": "B0BPLB81LX",
+   "titre": "Bedsure couverture décorative en molleton",
+   "prix_affiche": 18.98
+  },
+  {
+   "asin": "B0GP8QD16K",
+   "titre": "YETI Rambler bouteille isotherme",
+   "prix_affiche": 22.8
+  },
+  {
+   "asin": "B0G15RKM65",
+   "titre": "LANEIGE Glaze Craze sérum à lèvres teinté",
+   "prix_affiche": 31.2
+  },
+  {
+   "asin": "B0FMSWYH48",
+   "titre": "Shark FlexStyle sèche-cheveux et styler",
+   "prix_affiche": 259.99
+  },
+  {
+   "asin": "B0CZYL4GP2",
+   "titre": "LANEIGE baume à lèvres brillant",
+   "prix_affiche": 15.3
+  },
+  {
+   "asin": "B0DY11V1TV",
+   "titre": "MEDIHEAL masque en feuille essentiel",
+   "prix_affiche": 16.62
+  },
+  {
+   "asin": "B07GH5K7WR",
+   "titre": "Saxx lot de 3 boxers ultra doux",
+   "prix_affiche": 61.77
+  },
+  {
+   "asin": "B0CLSCZYQM",
+   "titre": "Columbia Heavenly veste longue à capuche",
+   "prix_affiche": 125.99
+  },
+  {
+   "asin": "B0CLWL4VRT",
+   "titre": "Columbia Ice Maiden II bottes pour femme",
+   "prix_affiche": 89.99
+  },
+  {
+   "asin": "B0BHDL7FJ3",
+   "titre": "Skechers Slip-ins pour femme",
+   "prix_affiche": 32.98
+  },
+  {
+   "asin": "B0FG7Y65CP",
+   "titre": "Montre intelligente pour femme",
+   "prix_affiche": 59.84
+  },
+  {
+   "asin": "B0CX8MQF7R",
+   "titre": "Kindle Colorsoft liseuse",
+   "prix_affiche": 209.99
+  },
+  {
+   "asin": "B0CJ9YX7DG",
+   "titre": "WYZE Cam v4 caméra de sécurité",
+   "prix_affiche": 29.98
+  },
+  {
+   "asin": "B087D93828",
+   "titre": "PicassoTiles kit de 100 pièces de piste",
+   "prix_affiche": 89.94
+  },
+  {
+   "asin": "B0FL84HYWM",
+   "titre": "BISSELL PowerClean aspirateur sans fil",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B07F82X5HH",
+   "titre": "Cuisinart CBK-110NASC machine à pain",
+   "prix_affiche": 107.97
+  },
+  {
+   "asin": "B0F7T8CS6V",
+   "titre": "Ring sonnette câblée 4K Pro",
+   "prix_affiche": 209.99
+  },
+  {
+   "asin": "B0F917RFMN",
+   "titre": "Greenworks perceuse/visseuse sans fil 24 V",
+   "prix_affiche": 179.99
+  },
+  {
+   "asin": "B01M0I4GHF",
+   "titre": "Sellstrom KneePro genouillères professionnelles",
+   "prix_affiche": 38.27
+  },
+  {
+   "asin": "B0CRV5F1VB",
+   "titre": "Govee plafonnier intelligent LED RGBIC",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B08HD89CX6",
+   "titre": "JOYIN kit de peinture sur roches",
+   "prix_affiche": 17.09
+  },
+  {
+   "asin": "B0FNRVTTHH",
+   "titre": "Shark Glossi HT302CTL outil chauffant",
+   "prix_affiche": 142.97
+  },
+  {
+   "asin": "B0FB59FN5M",
+   "titre": "Shark PowerPro Reveal Plus aspirateur",
+   "prix_affiche": 249.99
+  },
+  {
+   "asin": "B0D14W3213",
+   "titre": "Govee lumières extérieures permanentes",
+   "prix_affiche": 149.99
+  },
+  {
+   "asin": "B0GLSK2LRC",
+   "titre": "Conair InfinitiPRO fer à boucler automatique",
+   "prix_affiche": 62.99
+  },
+  {
+   "asin": "B0DX1PT8X6",
+   "titre": "roborock Q7 L5 robot aspirateur",
+   "prix_affiche": 269.99
+  },
+  {
+   "asin": "B089DTMHW4",
+   "titre": "Prise intelligente Amazon",
+   "prix_affiche": 21.99
+  },
+  {
+   "asin": "B072M2SB11",
+   "titre": "Melissa & Doug Fresh Mart épicerie",
+   "prix_affiche": 251.99
+  },
+  {
+   "asin": "B0DFMM7SLT",
+   "titre": "SPYPOINT Flex-M caméra de chasse avec carte SD",
+   "prix_affiche": 109.99
+  },
+  {
+   "asin": "B0FX3FW2FM",
+   "titre": "The North Face veste à capuche isolée pour enfant",
+   "prix_affiche": 92.4
+  },
+  {
+   "asin": "B0B3L5TY9Z",
+   "titre": "TUSHY Classic 3.0 bidet",
+   "prix_affiche": 99.0
+  },
+  {
+   "asin": "B07S7NRZL4",
+   "titre": "PASYOU banc de musculation pliable",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B0DB5SGHX2",
+   "titre": "Segway Ninebot C2 Lite trottinette électrique",
+   "prix_affiche": 199.99
+  },
+  {
+   "asin": "B0H2QQ2JZD",
+   "titre": "Life360 Tile pack de départ",
+   "prix_affiche": 46.99
+  },
+  {
+   "asin": "B0FQQTN6L7",
+   "titre": "Keurig K-Mini Go cafetière à capsules",
+   "prix_affiche": 79.99
+  },
+  {
+   "asin": "B0C2RG3GQS",
+   "titre": "Exploding Kittens Hurry Up Chicken Butt",
+   "prix_affiche": 16.99
+  },
+  {
+   "asin": "B0FZ9J521F",
+   "titre": "Planche à dessin LED rechargeable",
+   "prix_affiche": 26.48
+  },
+  {
+   "asin": "B00NHQF6MG",
+   "titre": "LEGO boîte de briques créatives de luxe",
+   "prix_affiche": 51.38
+  },
+  {
+   "asin": "B0FWTJ1LRR",
+   "titre": "New Balance 574 baskets à velcro pour enfant",
+   "prix_affiche": 55.99
+  },
+  {
+   "asin": "B0B5P6L9RY",
+   "titre": "Kamik Snobuster 1 bottes de neige",
+   "prix_affiche": 38.49
+  },
+  {
+   "asin": "B0F4GBXF7N",
+   "titre": "New Balance DynaSoft 468 pour enfant",
+   "prix_affiche": 48.99
+  },
+  {
+   "asin": "B000CBSNRY",
+   "titre": "Magna-Tiles 100 pièces",
+   "prix_affiche": 118.99
+  },
+  {
+   "asin": "B0CSZ7DYGN",
+   "titre": "Gabby's Dollhouse maison de poupée",
+   "prix_affiche": 55.99
+  },
+  {
+   "asin": "B09QFRN3D5",
+   "titre": "oneisall tondeuse pour chien",
+   "prix_affiche": 42.74
+  },
+  {
+   "asin": "B07QCW1MZX",
+   "titre": "BISSELL Little Green ProHeat nettoyant",
+   "prix_affiche": 99.98
+  },
+  {
+   "asin": "B00007J5U7",
+   "titre": "Zojirushi NS-ZCC10 cuiseur à riz",
+   "prix_affiche": 247.99
+  },
+  {
+   "asin": "B09DJBK648",
+   "titre": "Benebone lot de 4 jouets à mâcher pour chien",
+   "prix_affiche": 45.94
+  },
+  {
+   "asin": "B0CLWH1TXV",
+   "titre": "Columbia Snowlite Powderbug bottes pour enfant",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0CLXYPCRP",
+   "titre": "KEEN Skua Mid pour enfant",
+   "prix_affiche": 53.43
+  },
+  {
+   "asin": "B08G8V1FGZ",
+   "titre": "Simple Joys by Carter's lot de 2 grenouillères",
+   "prix_affiche": 17.94
+  },
+  {
+   "asin": "B0H3NFQX84",
+   "titre": "JiAmy grenouillère d'hiver à capuche",
+   "prix_affiche": 34.99
+  },
+  {
+   "asin": "B09GDQZLD1",
+   "titre": "Furbo caméra pour chien 360°",
+   "prix_affiche": 169.0
+  }
+ ]
 }
