@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20T20:58-04:00",
+ "date": "2026-11-20T23:12-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,84 +9,84 @@
     "2026-11-14T20:42:25+00:00"
    ],
    [
-    "2026-11-20T22:50:13+00:00",
-    "2026-11-20T23:02:13+00:00"
+    "2026-11-20T23:02:13+00:00",
+    "2026-11-21T01:08:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-14T01:43:20+00:00",
-    "2026-11-14T20:13:36+00:00"
+    "2026-11-14T20:13:36+00:00",
+    "2026-11-16T17:39:19+00:00"
    ],
    [
-    "2026-11-20T15:27:15+00:00",
+    "2026-11-20T16:33:20+00:00",
     "2026-11-20T17:08:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   27,
+   26,
    [
-    "2026-11-20T04:36:21+00:00",
-    "2026-11-20T05:49:32+00:00"
+    "2026-11-20T06:00:39+00:00",
+    "2026-11-20T06:08:52+00:00"
    ],
    [
-    "2026-11-20T22:50:13+00:00",
-    "2026-11-20T23:02:13+00:00"
+    "2026-11-21T01:37:50+00:00",
+    "2026-11-21T03:01:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   24,
+   26,
    [
-    "2026-11-19T16:30:09+00:00",
-    "2026-11-19T16:35:53+00:00"
+    "2026-11-19T16:43:00+00:00",
+    "2026-11-19T16:54:18+00:00"
    ],
    [
-    "2026-11-20T04:00:24+00:00",
-    "2026-11-20T04:31:06+00:00"
+    "2026-11-20T05:49:32+00:00",
+    "2026-11-20T06:00:15+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   19,
+   18,
    [
-    "2026-11-18T06:20:09+00:00",
-    "2026-11-18T08:59:02+00:00"
+    "2026-11-18T13:02:08+00:00",
+    "2026-11-18T13:05:04+00:00"
    ],
    [
-    "2026-11-19T16:15:47+00:00",
-    "2026-11-19T16:25:05+00:00"
+    "2026-11-19T16:35:53+00:00",
+    "2026-11-19T16:37:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   18,
+   19,
    [
-    "2026-11-14T01:43:20+00:00",
-    "2026-11-14T06:28:52+00:00"
+    "2026-11-14T12:55:56+00:00",
+    "2026-11-14T20:13:36+00:00"
    ],
    [
-    "2026-11-18T03:54:48+00:00",
-    "2026-11-18T05:13:12+00:00"
+    "2026-11-18T08:59:02+00:00",
+    "2026-11-18T12:26:52+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   44,
+   43,
    [
-    "2026-11-04T23:05:40+00:00",
-    "2026-11-05T05:56:37+00:00"
+    "2026-11-05T14:50:52+00:00",
+    "2026-11-06T14:20:02+00:00"
    ],
    [
-    "2026-11-13T18:19:49+00:00",
-    "2026-11-13T23:21:49+00:00"
+    "2026-11-14T06:28:52+00:00",
+    "2026-11-14T07:47:41+00:00"
    ]
   ],
   "avant_filtre_date": 139,
-  "apres_filtre_date": 111
+  "apres_filtre_date": 113
  },
  "items": [
   {
@@ -130,7 +130,7 @@
    "title": "Hasbro Scrabble Board Game for $12.97",
    "price": 12.97,
    "was": 29.99,
-   "votes": 21,
+   "votes": 25,
    "posts": 0,
    "time": "2026-11-20T17:58:22+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
@@ -160,6 +160,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FQG8RW95.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
+   "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card GPU $655.99",
+   "price": 655.0,
+   "was": null,
+   "votes": 17,
+   "posts": 11,
+   "time": "2026-11-20T22:50:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
+   "asin": "B0FLHBFFX4",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FLHBFFX4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0FLHBFFX4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
@@ -214,24 +232,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BKFRR3RV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
-   "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card GPU $655.99",
-   "price": 655.0,
-   "was": null,
-   "votes": 14,
-   "posts": 8,
-   "time": "2026-11-20T22:50:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
-   "asin": "B0FLHBFFX4",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FLHBFFX4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FLHBFFX4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-ceramic-box-cutter-5-23-40-2832832/",
@@ -306,6 +306,42 @@
    "img": "/img/p/B0GMKXVVJQ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
+   "title": "Polymaker PLA Red Brown and Green 11.69 S&S",
+   "price": 11.69,
+   "was": 23.38,
+   "votes": 12,
+   "posts": 14,
+   "time": "2026-11-20T23:02:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
+   "asin": "B09KKMQC2N",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B09KKMQC2N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09KKMQC2N.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
+   "title": "Kitchenaid KF3 Automatic Espresso Machine 749.99 - Available at multiple retailers (Amazon/BB/ECS/Doyon/...)",
+   "price": 749.99,
+   "was": 999.99,
+   "votes": 11,
+   "posts": 7,
+   "time": "2026-11-19T16:43:00+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
+   "asin": "B0GVG4JN8W",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GVG4JN8W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GVG4JN8W.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-elden-ring-playstation-5-29-99-2832903/",
    "title": "Elden Ring - PlayStation 5 $29.99",
    "price": 29.99,
@@ -322,6 +358,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B09743F8P6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
+   "title": "LEGO NINJAGO Kai's Ninja Race Car EVO - $7.57 (ATL)",
+   "price": 7.57,
+   "was": 13.99,
+   "votes": 11,
+   "posts": 1,
+   "time": "2026-11-20T11:12:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
+   "asin": "B0BBY4QYBG",
+   "pct": 46,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0BBY4QYBG?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BBY4QYBG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
@@ -342,24 +396,6 @@
    "img": "/img/p/B01HDC236Q.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
-   "title": "Kitchenaid KF3 Automatic Espresso Machine 749.99 - Available at multiple retailers (Amazon/BB/ECS/Doyon/...)",
-   "price": 749.99,
-   "was": 999.99,
-   "votes": 10,
-   "posts": 4,
-   "time": "2026-11-19T16:43:00+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
-   "asin": "B0GVG4JN8W",
-   "pct": 25,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GVG4JN8W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GVG4JN8W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
    "title": "AstroAI L7 Portable Tire Inflator - $26.34",
    "price": 26.34,
@@ -376,24 +412,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0CS3B7MD8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
-   "title": "LEGO NINJAGO Kai's Ninja Race Car EVO - $7.57 (ATL)",
-   "price": 7.57,
-   "was": 13.99,
-   "votes": 10,
-   "posts": 1,
-   "time": "2026-11-20T11:12:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-ninjago-kais-ninja-race-car-evo-7-57-atl-2833082/",
-   "asin": "B0BBY4QYBG",
-   "pct": 46,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0BBY4QYBG?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BBY4QYBG.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
@@ -484,6 +502,42 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B097GLJ758.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
+   "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
+   "price": 69.99,
+   "was": 99.99,
+   "votes": 8,
+   "posts": 0,
+   "time": "2026-11-20T14:37:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
+   "asin": "B0B63VTW46",
+   "pct": 30,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0B63VTW46?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B63VTW46.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
+   "title": "Brother DCP-L2647DW Monochrome Laser Printer/Scanner/Copier - $199.99 (was $339.99)",
+   "price": 199.99,
+   "was": 339.99,
+   "votes": 8,
+   "posts": 4,
+   "time": "2026-11-21T01:08:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
+   "asin": "B0GT7S6BHV",
+   "pct": 41,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GT7S6BHV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GT7S6BHV.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hisense-85-4k-uhd-mini-led-smart-gaming-fire-tv-qled-144-hz-85u68qf-2025-sale-1-124-95-1-499-99-2832111/",
@@ -592,42 +646,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DR3TBZ2F.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
-   "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
-   "price": 69.99,
-   "was": 99.99,
-   "votes": 7,
-   "posts": 0,
-   "time": "2026-11-20T14:37:16+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
-   "asin": "B0B63VTW46",
-   "pct": 30,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0B63VTW46?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B63VTW46.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
-   "title": "Polymaker PLA Red Brown and Green 11.69 S&S",
-   "price": 11.69,
-   "was": 23.38,
-   "votes": 7,
-   "posts": 9,
-   "time": "2026-11-20T23:02:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
-   "asin": "B09KKMQC2N",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B09KKMQC2N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09KKMQC2N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
@@ -900,16 +918,16 @@
    "img": "/img/p/B0B5B2KBXV.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-cpu-379-atl-2832857/",
-   "title": "AMD Ryzen 7 7800X3D CPU - $379 ATL",
-   "price": 379.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-cpu-359-atl-2832857/",
+   "title": "AMD Ryzen 7 7800X3D CPU - $359 ATL",
+   "price": 359.0,
    "was": 479.0,
    "votes": 5,
    "posts": 3,
    "time": "2026-11-19T15:30:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-cpu-379-atl-2832857/",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-cpu-359-atl-2832857/",
    "asin": "B0D6NMDNNX",
-   "pct": 21,
+   "pct": 25,
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0D6NMDNNX?tag=coupdecoeurqc-20",
    "deja": false,
@@ -1013,7 +1031,7 @@
    "price": 189.99,
    "was": 259.99,
    "votes": 4,
-   "posts": 17,
+   "posts": 18,
    "time": "2026-11-19T14:32:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "asin": "B0C9TBZF8X",
@@ -1044,22 +1062,22 @@
    "img": "/img/p/B0D5RK75Q8.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
-   "title": "HOTO Mini Electric Bike Pump – $53.85 (Reg. $69.99)",
-   "price": 53.85,
-   "was": 69.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
+   "title": "HOTO 25-Piece Electric Screwdriver Set – $37.99 (Reg. $49.99)",
+   "price": 37.99,
+   "was": 49.99,
    "votes": 4,
-   "posts": 3,
-   "time": "2026-11-20T12:40:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
-   "asin": "B0DCG1JGKN",
-   "pct": 23,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0DCG1JGKN?tag=coupdecoeurqc-20",
+   "posts": 4,
+   "time": "2026-11-20T12:39:20+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
+   "asin": "B0BLMQ8BXB",
+   "pct": 24,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0BLMQ8BXB?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DCG1JGKN.jpg"
+   "img": "/img/p/B0BLMQ8BXB.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-smart-cat-ultimate-scratching-post-gray-large-32-inch-14-off-88-instead-103-2833112/",
@@ -1078,24 +1096,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07G3SLKQ8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
-   "title": "eufy Robot Vacuums — C28 Omni $629.99 (55% off), C30 $799.99 (38% off), Omni E35 $1,499.99 (12% off)",
-   "price": 629.99,
-   "was": 1399.9,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-14T01:43:20+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-cn-c28-omni-629-99-55-off-c30-799-99-38-off-omni-e35-1-499-99-12-off-2832090/",
-   "asin": "B0FWK41WF2",
-   "pct": 55,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FWK41WF2.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
@@ -1121,7 +1121,7 @@
    "price": 322.99,
    "was": 379.99,
    "votes": 3,
-   "posts": 4,
+   "posts": 5,
    "time": "2026-11-19T05:22:22+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-55-f7d-class-4k-uhd-hdr-qled-smart-tv-fire-tv-ci-55f7d-sale-322-99-379-99-2832802/",
    "asin": "B0G4XGXTY8",
@@ -1206,22 +1206,22 @@
    "img": "/img/p/B09B8V1LZ3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
-   "title": "HOTO 25-Piece Electric Screwdriver Set – $37.99 (Reg. $49.99)",
-   "price": 37.99,
-   "was": 49.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
+   "title": "HOTO Mini Electric Bike Pump – $53.85 (Reg. $69.99)",
+   "price": 53.85,
+   "was": 69.99,
    "votes": 3,
-   "posts": 4,
-   "time": "2026-11-20T12:39:20+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
-   "asin": "B0BLMQ8BXB",
-   "pct": 24,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BLMQ8BXB?tag=coupdecoeurqc-20",
+   "posts": 3,
+   "time": "2026-11-20T12:40:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
+   "asin": "B0DCG1JGKN",
+   "pct": 23,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0DCG1JGKN?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BLMQ8BXB.jpg"
+   "img": "/img/p/B0DCG1JGKN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bosch-gss20-40-orbital-finishing-sander-1-4-sheet-44-85-2833144/",
@@ -1391,7 +1391,7 @@
    "price": 28.79,
    "was": 35.99,
    "votes": 2,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-19T19:03:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
    "asin": "B084ZKLQR8",
@@ -1474,6 +1474,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07QHBYT26.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
+   "title": "BISSELL PowerClean Corded Stick Vacuum Cleaner $107.99",
+   "price": 107.99,
+   "was": 179.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-20T16:33:20+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
+   "asin": "B0GN4L93SM",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GN4L93SM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GN4L93SM.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-jayo-petg-3d-printer-filament-42-49-2833165/",
@@ -1584,40 +1602,22 @@
    "img": "/img/p/B0BV19S4QW.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scraper-16-99-2832867/",
-   "title": "AstroAI 27\" 2-in-1 Detachable Snow Brush/Ice Scraper - $16.99",
-   "price": 16.99,
-   "was": 28.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
+   "price": 69.99,
+   "was": 100.45,
    "votes": 1,
-   "posts": 13,
-   "time": "2026-11-19T15:54:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-astroai-27-2-1-detachable-snow-brush-ice-scraper-16-99-2832867/",
-   "asin": "B07V37GVY9",
-   "pct": 41,
+   "posts": 1,
+   "time": "2026-11-21T01:37:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "asin": "B084CJ9T2R",
+   "pct": 30,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07V37GVY9?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B084CJ9T2R?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B07V37GVY9.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
-   "title": "BISSELL PowerClean Corded Stick Vacuum Cleaner $107.99",
-   "price": 107.99,
-   "was": 179.99,
-   "votes": 1,
-   "posts": 0,
-   "time": "2026-11-20T16:33:20+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
-   "asin": "B0GN4L93SM",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GN4L93SM?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GN4L93SM.jpg"
+   "img": "/img/p/B084CJ9T2R.jpg"
   }
  ]
 }

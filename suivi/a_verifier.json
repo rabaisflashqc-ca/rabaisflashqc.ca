@@ -1,21 +1,6 @@
 {
- "genere": "2026-11-21T02:30+00:00",
+ "genere": "2026-11-21T03:12+00:00",
  "produits": [
-  {
-   "asin": "B0FD46BDLN",
-   "titre": "Amazon Echo Dot Kids avec Alexa",
-   "prix_affiche": 44.99
-  },
-  {
-   "asin": "B0GSHCSJ4R",
-   "titre": "Amazon Fire TV Stick 4K dernier modèle",
-   "prix_affiche": 29.99
-  },
-  {
-   "asin": "B0CKMC6JGP",
-   "titre": "Adidas Daily 4.0 espadrilles pour homme",
-   "prix_affiche": 38.0
-  },
   {
    "asin": "B0F7Z43QKK",
    "titre": "Amazon Fire TV Stick 4K Plus",
@@ -27,44 +12,9 @@
    "prix_affiche": 29.99
   },
   {
-   "asin": "B08GKZSVMS",
-   "titre": "Ninja BN751C mélangeur Professional Plus DUO",
-   "prix_affiche": 99.99
-  },
-  {
    "asin": "B09B93ZDG4",
    "titre": "Amazon Echo Dot haut-parleur intelligent",
    "prix_affiche": 44.99
-  },
-  {
-   "asin": "B0BN67YC4Q",
-   "titre": "JoJowell lot de 18 défroisseurs vapeur aromathérapie",
-   "prix_affiche": 18.99
-  },
-  {
-   "asin": "B01HD4EH4A",
-   "titre": "Bosch GWS8-45 meuleuse d'angle",
-   "prix_affiche": 41.96
-  },
-  {
-   "asin": "B0D47XRYJM",
-   "titre": "Calhoun sweat à capuche NHL Surf & Skate",
-   "prix_affiche": 47.49
-  },
-  {
-   "asin": "B0DQY6WXQK",
-   "titre": "Hot Wheels City Ultimate Dual Dragon Transporter",
-   "prix_affiche": 34.99
-  },
-  {
-   "asin": "B06WWRCZXX",
-   "titre": "Parure de lit 4 pièces format Queen",
-   "prix_affiche": 23.65
-  },
-  {
-   "asin": "B0CGXT9PGR",
-   "titre": "ClearSpace lot de 6 sacs de rangement ou déménagement",
-   "prix_affiche": 28.19
   },
   {
    "asin": "B0BFCBKXWL",
@@ -75,56 +25,6 @@
    "asin": "B06XQQSX1W",
    "titre": "Elegant Comfort ensemble de draps ultra doux",
    "prix_affiche": 17.6
-  },
-  {
-   "asin": "B0DN45YMP6",
-   "titre": "JBL Vibe Beam 2 écouteurs sans fil",
-   "prix_affiche": 49.98
-  },
-  {
-   "asin": "B0B5VQQW6R",
-   "titre": "Philips Sonicare DiamondClean 9000 brosse à dents électrique",
-   "prix_affiche": 124.95
-  },
-  {
-   "asin": "B017EOUT28",
-   "titre": "Canon PIXMA MG3620 Imprimante tout-en-un sans fil ",
-   "prix_affiche": 59.99
-  },
-  {
-   "asin": "B0FHJ8XWWL",
-   "titre": "Sonnette Ring Battery Doorbell 2K",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0HPGJCKH6",
-   "titre": "IMFIT haltères ajustables 5 à 52,5 lb avec gants",
-   "prix_affiche": 219.95
-  },
-  {
-   "asin": "B08LQY2XF5",
-   "titre": "Ninja DT201C four à friture à air XL Pro 10 en 1",
-   "prix_affiche": 199.99
-  },
-  {
-   "asin": "B0C3P361SQ",
-   "titre": "Nespresso Vertuo Pop+ cafetière à dosettes",
-   "prix_affiche": 119.49
-  },
-  {
-   "asin": "B0GV1MZ2S5",
-   "titre": "JBL Tune 780NC casque sans fil à réduction de bruit",
-   "prix_affiche": 99.98
-  },
-  {
-   "asin": "B0G6LZ2TVK",
-   "titre": "Skullcandy Crusher Evo casque Bluetooth sans fil",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B0C7HX99Q6",
-   "titre": "Ring caméra extérieure résistante aux intempéries",
-   "prix_affiche": 54.99
   },
   {
    "asin": "B08XTG3QSF",
@@ -147,41 +47,6 @@
    "prix_affiche": 59.99
   },
   {
-   "asin": "B0FLF2LCHS",
-   "titre": "Shark IX141AMZ aspirateur balai sans fil",
-   "prix_affiche": 179.99
-  },
-  {
-   "asin": "B0D4Z9C562",
-   "titre": "Bose QuietComfort casque Bluetooth à réduction de bruit",
-   "prix_affiche": 249.0
-  },
-  {
-   "asin": "B0B6G2BV9W",
-   "titre": "Dreamegg machine à bruit blanc portable pour bébé",
-   "prix_affiche": 20.99
-  },
-  {
-   "asin": "B073V2SGP6",
-   "titre": "Levi Strauss Signature Gold jean pour homme",
-   "prix_affiche": 20.83
-  },
-  {
-   "asin": "B0H6R4N7H3",
-   "titre": "Merach V33 Pro plateforme vibrante exercice",
-   "prix_affiche": 89.99
-  },
-  {
-   "asin": "B09P9V1N7S",
-   "titre": "Hoover CleanSlate nettoyant portable pour tapis",
-   "prix_affiche": 89.99
-  },
-  {
-   "asin": "B0BLC1R2DN",
-   "titre": "Ingersoll Rand 135MAX marteau pneumatique",
-   "prix_affiche": 159.99
-  },
-  {
    "asin": "B0D6V1H9PM",
    "titre": "Amazon Echo Dot Max",
    "prix_affiche": 84.99
@@ -190,81 +55,6 @@
    "asin": "B0DW97FXZ8",
    "titre": "JBL Vibe Flex 2 écouteurs sans fil",
    "prix_affiche": 49.98
-  },
-  {
-   "asin": "B00HC6GH84",
-   "titre": "Panasonic Nanoe sèche-cheveux hydratant",
-   "prix_affiche": 69.99
-  },
-  {
-   "asin": "B0BBKW5G1T",
-   "titre": "YLL machine à karaoké pour enfants",
-   "prix_affiche": 27.07
-  },
-  {
-   "asin": "B088PQR3YL",
-   "titre": "KODAK Mini Shot 2 appareil photo instantané rétro",
-   "prix_affiche": 118.79
-  },
-  {
-   "asin": "B08F69M456",
-   "titre": "Ring Plus caméra avec projecteur câblée",
-   "prix_affiche": 139.99
-  },
-  {
-   "asin": "B0C7XDKZPD",
-   "titre": "Amazon Echo Show 15 écran intelligent",
-   "prix_affiche": 274.99
-  },
-  {
-   "asin": "B0CPSFKSP6",
-   "titre": "Niphean planche à pagaie gonflable avec accessoires",
-   "prix_affiche": 218.48
-  },
-  {
-   "asin": "B0FLNJXTFY",
-   "titre": "VTech Advanced HQ Max moniteur vidéo bébé double",
-   "prix_affiche": 125.86
-  },
-  {
-   "asin": "B0CVNMVMSY",
-   "titre": "Simple Modern sac de plage en caoutchouc",
-   "prix_affiche": 60.6
-  },
-  {
-   "asin": "B0GL1W7JZV",
-   "titre": "CRZ YOGA Softretch legging évasé",
-   "prix_affiche": 31.26
-  },
-  {
-   "asin": "B0CKK8XWTX",
-   "titre": "Samsonite Freeform valise à roulettes",
-   "prix_affiche": 120.97
-  },
-  {
-   "asin": "B0G365R7HR",
-   "titre": "Ring caméra avec projecteur 2K",
-   "prix_affiche": 154.99
-  },
-  {
-   "asin": "B0C7C69FPS",
-   "titre": "eufy Security serrure intelligente C220",
-   "prix_affiche": 109.99
-  },
-  {
-   "asin": "B0H7CSMXT9",
-   "titre": "Ninja DualZone DZ950C friteuse à air intelligente",
-   "prix_affiche": 179.99
-  },
-  {
-   "asin": "B0CC2HZ8WL",
-   "titre": "d'alba Piedmont crème à la truffe blanche",
-   "prix_affiche": 35.14
-  },
-  {
-   "asin": "B0HQ5YWW8M",
-   "titre": "Gyroor G13 planche gyroscopique avec siège",
-   "prix_affiche": 279.99
   },
   {
    "asin": "B0787P86ZZ",
@@ -282,179 +72,14 @@
    "prix_affiche": 139.95
   },
   {
-   "asin": "B0CTNWBT1Z",
-   "titre": "JBL Go 4 haut-parleur Bluetooth portable",
-   "prix_affiche": 39.98
-  },
-  {
-   "asin": "B0CHBNXJ24",
-   "titre": "Ninja CREAMi XL Deluxe machine à glace",
-   "prix_affiche": 199.98
-  },
-  {
-   "asin": "B0DJ6LRSXM",
-   "titre": "Taevno plateforme vibrante exercice 450 lb",
-   "prix_affiche": 113.7
-  },
-  {
-   "asin": "B01H8UHB8S",
-   "titre": "Ninja BL481C Nutri-Ninja mélangeur Auto-iQ",
-   "prix_affiche": 79.99
-  },
-  {
-   "asin": "B0CBSZR9NF",
-   "titre": "Shark StainStriker PX202BRN nettoyant portable",
-   "prix_affiche": 129.99
-  },
-  {
-   "asin": "B0BJGXGGT2",
-   "titre": "Dr. Brown's coffret cadeau Natural Flow",
-   "prix_affiche": 68.0
-  },
-  {
-   "asin": "B0D9V9RYBM",
-   "titre": "PRETTYGARDEN cardigan surdimensionné ouvert",
-   "prix_affiche": 39.99
-  },
-  {
-   "asin": "B0GDWT826P",
-   "titre": "CRZ YOGA SculptAir legging sans couture",
-   "prix_affiche": 35.0
-  },
-  {
    "asin": "B0BLJTJ38M",
    "titre": "Barbie Dreamhouse maison de poupée",
    "prix_affiche": 129.99
   },
   {
-   "asin": "B0CWS46XKM",
-   "titre": "Crocs pantoufles classiques unisexes",
-   "prix_affiche": 34.95
-  },
-  {
-   "asin": "B0CCYP6KFM",
-   "titre": "eufy Security SoloCam S340 caméra de sécurité",
-   "prix_affiche": 149.99
-  },
-  {
-   "asin": "B0B2WM1CHR",
-   "titre": "eufy Security Video Smart Lock S330",
-   "prix_affiche": 289.99
-  },
-  {
-   "asin": "B00SSBL0NE",
-   "titre": "Greenworks PRO 80V 2,0 Ah batterie lithium-ion",
-   "prix_affiche": 109.99
-  },
-  {
-   "asin": "B0C8MVPX7T",
-   "titre": "d'alba Piedmont crème truffe blanche double hydratation",
-   "prix_affiche": 28.49
-  },
-  {
-   "asin": "B0DRW4GYPC",
-   "titre": "LEGO Technic Aston Martin Valkyrie",
-   "prix_affiche": 47.47
-  },
-  {
-   "asin": "B07649SXQ8",
-   "titre": "Cuisinart DFP-14BCNYC hachoir électrique",
-   "prix_affiche": 199.99
-  },
-  {
-   "asin": "B0BPLB81LX",
-   "titre": "Bedsure couverture décorative en molleton",
-   "prix_affiche": 18.98
-  },
-  {
-   "asin": "B0DG24GS39",
-   "titre": "Écouteurs sans fil Bluetooth 5.4 HiFi stéréo",
-   "prix_affiche": 28.49
-  },
-  {
-   "asin": "B098YVB8BX",
-   "titre": "Philips Avent SCY913 lot de 4 biberons en verre",
-   "prix_affiche": 27.94
-  },
-  {
    "asin": "B09BZVX3J7",
    "titre": "Amazon Fire TV Cube",
    "prix_affiche": 139.99
-  },
-  {
-   "asin": "B0DY11V1TV",
-   "titre": "MEDIHEAL masque en feuille au collagène",
-   "prix_affiche": 16.62
-  },
-  {
-   "asin": "B0FWR8XN89",
-   "titre": "MEDIHEAL lot de 100 toniques raffermissants au collagène",
-   "prix_affiche": 21.6
-  },
-  {
-   "asin": "B0F99TYHL7",
-   "titre": "Gyroor siège Go Kart pour hoverboard",
-   "prix_affiche": 119.99
-  },
-  {
-   "asin": "B0DRW5H8WV",
-   "titre": "LEGO Disney et Pixar Toy Story Celebration Train",
-   "prix_affiche": 29.86
-  },
-  {
-   "asin": "B0GGTSDNZG",
-   "titre": "Maison de poupée Gabby et la maison magique Meow-Mazing",
-   "prix_affiche": 53.99
-  },
-  {
-   "asin": "B0DRW5QJ5R",
-   "titre": "LEGO Star Wars Clone Troopers 327th Star Corps",
-   "prix_affiche": 29.86
-  },
-  {
-   "asin": "B0GGDQ2ZF8",
-   "titre": "Ninja PC201C HyperHeat autocuiseur 9 en 1",
-   "prix_affiche": 149.98
-  },
-  {
-   "asin": "B07F82X5HH",
-   "titre": "Cuisinart CBK-110NASC machine à pain programmable",
-   "prix_affiche": 107.97
-  },
-  {
-   "asin": "B0DDXCWMRK",
-   "titre": "Eufy Baby Monitor E21 caméra 4K",
-   "prix_affiche": 209.99
-  },
-  {
-   "asin": "B09JZG7YJV",
-   "titre": "Diono Solana 2022 siège auto rehausseur",
-   "prix_affiche": 29.99
-  },
-  {
-   "asin": "B07GH4XK3T",
-   "titre": "Saxx lot de 3 boxers ultra doux",
-   "prix_affiche": 61.77
-  },
-  {
-   "asin": "B0CLSCZYQM",
-   "titre": "Columbia Heavenly veste longue à capuche pour femme",
-   "prix_affiche": 125.99
-  },
-  {
-   "asin": "B0BFNP5WZ7",
-   "titre": "Crocs sandales unisexes pour adultes",
-   "prix_affiche": 29.95
-  },
-  {
-   "asin": "B0F7T8CS6V",
-   "titre": "Ring Wired Doorbell Pro 4K sonnette câblée",
-   "prix_affiche": 209.99
-  },
-  {
-   "asin": "B0CRV5F1VB",
-   "titre": "Govee plafonnier intelligent LED RGBIC",
-   "prix_affiche": 59.99
   },
   {
    "asin": "B00JUM2V8I",
@@ -472,16 +97,6 @@
    "prix_affiche": 37.97
   },
   {
-   "asin": "B08HD89CX6",
-   "titre": "JOYIN kit de peinture sur roche 90 pièces",
-   "prix_affiche": 17.09
-  },
-  {
-   "asin": "B0DCBB2YTR",
-   "titre": "Anker batterie externe pour ordinateur portable 25 000 mAh",
-   "prix_affiche": 109.99
-  },
-  {
    "asin": "B074L8RV1F",
    "titre": "Melissa & Doug ensemble vétérinaire",
    "prix_affiche": 19.97
@@ -490,41 +105,6 @@
    "asin": "B09JZHX6LF",
    "titre": "Diono Solana 2022 siège d'appoint",
    "prix_affiche": 39.99
-  },
-  {
-   "asin": "B0D1VSXVFH",
-   "titre": "SPYPOINT Flex-M caméra de sentier cellulaire",
-   "prix_affiche": 99.0
-  },
-  {
-   "asin": "B01728NLRG",
-   "titre": "Coway Airmega AP-1512HH purificateur HEPA",
-   "prix_affiche": 198.0
-  },
-  {
-   "asin": "B0FB59FN5M",
-   "titre": "Shark PowerPro Reveal Plus IZ376H aspirateur sans fil",
-   "prix_affiche": 249.99
-  },
-  {
-   "asin": "B0BGM5XPQZ",
-   "titre": "Canon IVY 2 mini imprimante photo",
-   "prix_affiche": 99.99
-  },
-  {
-   "asin": "B0D5HN8B1F",
-   "titre": "Anker Soundcore P20i écouteurs sans fil",
-   "prix_affiche": 24.99
-  },
-  {
-   "asin": "B079JLY5M5",
-   "titre": "Logitech MK270 clavier et souris sans fil",
-   "prix_affiche": 24.99
-  },
-  {
-   "asin": "B0CZ7DY692",
-   "titre": "Anker Soundcore Boom 2 Plus haut-parleur portable",
-   "prix_affiche": 209.99
   },
   {
    "asin": "B098YHHV3Q",
@@ -542,49 +122,9 @@
    "prix_affiche": 20.99
   },
   {
-   "asin": "B0F4DYKJ3T",
-   "titre": "Philips i9000 Prestige rasoir électrique",
-   "prix_affiche": 219.95
-  },
-  {
-   "asin": "B0DX1PT8X6",
-   "titre": "roborock Q7 L5+ robot aspirateur et balai",
-   "prix_affiche": 269.99
-  },
-  {
-   "asin": "B0GTTTW5XH",
-   "titre": "70mai A810 Lite caméra de tableau de bord",
-   "prix_affiche": 119.99
-  },
-  {
-   "asin": "B0FY7BSVFG",
-   "titre": "Philips Avent SCF359 chauffe-stérilisateur 2 en 1",
-   "prix_affiche": 44.95
-  },
-  {
-   "asin": "B089DTMHW4",
-   "titre": "Amazon prise intelligente compatible Alexa",
-   "prix_affiche": 21.99
-  },
-  {
    "asin": "B0D367N9RW",
    "titre": "CAP tapis d'exercice pliable",
    "prix_affiche": 109.99
-  },
-  {
-   "asin": "B0DXCFMXL8",
-   "titre": "The Tallow Truth suif de bœuf pour la peau",
-   "prix_affiche": 31.3
-  },
-  {
-   "asin": "B08VCK1MYR",
-   "titre": "Elmer's Celebration kit de slime",
-   "prix_affiche": 32.23
-  },
-  {
-   "asin": "B072M2SB11",
-   "titre": "Melissa & Doug Fresh Mart épicerie de jeu",
-   "prix_affiche": 251.99
   },
   {
    "asin": "B0D1JG8CRC",
@@ -612,36 +152,6 @@
    "prix_affiche": 17.98
   },
   {
-   "asin": "B0DJ1B7BC1",
-   "titre": "LEGO Creator 31165 Animaux sauvages 3 en 1",
-   "prix_affiche": 32.37
-  },
-  {
-   "asin": "B01ARGC5F4",
-   "titre": "Hot Wheels piste Criss Cross Crash",
-   "prix_affiche": 50.0
-  },
-  {
-   "asin": "B0FSJ58P6N",
-   "titre": "Yoturetoys projecteur de dessin IA pour enfants",
-   "prix_affiche": 64.59
-  },
-  {
-   "asin": "B0DVT3XL2L",
-   "titre": "Zak Designs Sesame Street lot de 2 gobelets",
-   "prix_affiche": 18.77
-  },
-  {
-   "asin": "B0793D9WBY",
-   "titre": "Fisher-Price tapis de jeu de luxe Kick & Play",
-   "prix_affiche": 45.49
-  },
-  {
-   "asin": "B0FQ9MNH2Q",
-   "titre": "Eufy moniteur de sécurité pour bébé C10 caméra 2K",
-   "prix_affiche": 129.99
-  },
-  {
    "asin": "B07M6RS2LC",
    "titre": "Kasa prise intelligente extérieure KP400",
    "prix_affiche": 18.99
@@ -655,26 +165,6 @@
    "asin": "B0989JLFGW",
    "titre": "INTEX Dura-Beam matelas pneumatique",
    "prix_affiche": 18.75
-  },
-  {
-   "asin": "B0H2QQ2JZD",
-   "titre": "Tile Mickey Mouse lot de 2 traceurs Bluetooth",
-   "prix_affiche": 46.99
-  },
-  {
-   "asin": "B0DRW8231P",
-   "titre": "LEGO Minecraft The Creeper 21276",
-   "prix_affiche": 33.36
-  },
-  {
-   "asin": "B07GZCZN53",
-   "titre": "KidKraft table de jeu briques de construction",
-   "prix_affiche": 94.39
-  },
-  {
-   "asin": "B0CSH97RN3",
-   "titre": "Kindle Paperwhite pour enfants 16 Go",
-   "prix_affiche": 199.99
   },
   {
    "asin": "B0CK9PT53B",
@@ -692,16 +182,6 @@
    "prix_affiche": 15.75
   },
   {
-   "asin": "B0CPT8W3RV",
-   "titre": "grace & stella lot de 24 masques sous les yeux",
-   "prix_affiche": 18.95
-  },
-  {
-   "asin": "B0CVM7QZB9",
-   "titre": "Grace & Stella baume à lèvres Berry",
-   "prix_affiche": 16.95
-  },
-  {
    "asin": "B0GHYBY9KG",
    "titre": "JBL Go 5 haut-parleur Bluetooth portable",
    "prix_affiche": 49.98
@@ -712,16 +192,6 @@
    "prix_affiche": 129.99
   },
   {
-   "asin": "B08CXRHYXT",
-   "titre": "Bedsure lit lavable pour chiens",
-   "prix_affiche": 31.06
-  },
-  {
-   "asin": "B0GZSTTBVW",
-   "titre": "Dr.Reju-All sérum peptide de cuivre PDRN",
-   "prix_affiche": 24.9
-  },
-  {
    "asin": "B0FKTV8TH6",
    "titre": "Bitzee Doghouse animal interactif",
    "prix_affiche": 19.99
@@ -730,21 +200,6 @@
    "asin": "B014TFWDSS",
    "titre": "SWISSGEAR Sion valise souple extensible",
    "prix_affiche": 113.02
-  },
-  {
-   "asin": "B0F1P4RZMK",
-   "titre": "Philips i9000 Prestige Ultra rasoir électrique",
-   "prix_affiche": 279.95
-  },
-  {
-   "asin": "B08SSCQH77",
-   "titre": "Redken All Soft revitalisant sans sulfate",
-   "prix_affiche": 20.99
-  },
-  {
-   "asin": "B0899C98ZD",
-   "titre": "Pureology Color Fanatic traitement sans rinçage",
-   "prix_affiche": 34.65
   },
   {
    "asin": "B0F3DRYY1N",
