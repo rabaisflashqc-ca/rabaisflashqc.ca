@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21T13:49-04:00",
+ "date": "2026-11-21T14:19-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -10,7 +10,7 @@
    ],
    [
     "2026-11-21T04:12:34+00:00",
-    "2026-11-21T06:41:41+00:00"
+    "2026-11-21T14:44:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,44 +21,44 @@
     "2026-11-16T18:17:56+00:00"
    ],
    [
-    "2026-11-21T14:51:42+00:00",
-    "2026-11-21T15:14:14+00:00"
+    "2026-11-21T15:14:14+00:00",
+    "2026-11-21T17:59:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    26,
    [
-    "2026-11-20T14:42:25+00:00",
-    "2026-11-20T14:45:01+00:00"
+    "2026-11-20T14:45:01+00:00",
+    "2026-11-20T14:47:05+00:00"
    ],
    [
-    "2026-11-21T16:47:06+00:00",
-    "2026-11-21T17:29:53+00:00"
+    "2026-11-21T17:59:36+00:00",
+    "2026-11-21T18:16:08+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   27,
+   28,
    [
-    "2026-11-19T20:04:05+00:00",
-    "2026-11-19T20:22:17+00:00"
+    "2026-11-19T20:22:17+00:00",
+    "2026-11-19T20:28:02+00:00"
    ],
    [
-    "2026-11-20T14:20:08+00:00",
-    "2026-11-20T14:37:16+00:00"
+    "2026-11-20T14:37:16+00:00",
+    "2026-11-20T14:42:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   19,
+   18,
    [
     "2026-11-19T12:53:50+00:00",
     "2026-11-19T13:23:56+00:00"
    ],
    [
-    "2026-11-19T19:55:35+00:00",
-    "2026-11-19T20:03:47+00:00"
+    "2026-11-19T20:03:47+00:00",
+    "2026-11-19T20:04:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
@@ -126,29 +126,11 @@
    "img": "/img/p/B09D44JH4S.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-lamborghini-revuelto-huracuan-sto-2-cars-33-atl-2833261/",
-   "title": "LEGO Speed Champions Lamborghini Revuelto & Huracán STO (2 Cars) - $33 (ATL)",
-   "price": 33.0,
-   "was": 64.99,
-   "votes": 32,
-   "posts": 4,
-   "time": "2026-11-21T06:41:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-lamborghini-revuelto-huracuan-sto-2-cars-33-atl-2833261/",
-   "asin": "B0DRW7WGD2",
-   "pct": 49,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DRW7WGD2?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DRW7WGD2.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
    "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card GPU $655.99",
    "price": 655.0,
    "was": null,
-   "votes": 21,
+   "votes": 22,
    "posts": 14,
    "time": "2026-11-20T22:50:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
@@ -594,6 +576,24 @@
    "img": "/img/p/B0C9TBZF8X.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-gooloo-g7-3000a-jump-starter-45w-fast-charging-59-99-40-off-2833248/",
+   "title": "GOOLOO G7 3000A Jump Starter with 45W Fast Charging - $59.99 (40% off)",
+   "price": 59.99,
+   "was": 99.98,
+   "votes": 8,
+   "posts": 3,
+   "time": "2026-11-21T04:12:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-gooloo-g7-3000a-jump-starter-45w-fast-charging-59-99-40-off-2833248/",
+   "asin": "B0FMRDXDLM",
+   "pct": 40,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0FMRDXDLM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FMRDXDLM.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
    "title": "Diono Solana 2 XL Backless Booster Car Seat $46.99 (-41%)",
    "price": 46.99,
@@ -738,22 +738,22 @@
    "img": "/img/p/B0GWFM6YDH.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-gooloo-g7-3000a-jump-starter-45w-fast-charging-59-99-40-off-2833248/",
-   "title": "GOOLOO G7 3000A Jump Starter with 45W Fast Charging - $59.99 (40% off)",
-   "price": 59.99,
-   "was": 99.98,
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
+   "title": "ASUS TUF Gaming 34\" Ultrawide Monitor, 180Hz, 400 nits @ $259.99",
+   "price": 259.9,
+   "was": null,
    "votes": 7,
-   "posts": 3,
-   "time": "2026-11-21T04:12:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-gooloo-g7-3000a-jump-starter-45w-fast-charging-59-99-40-off-2833248/",
-   "asin": "B0FMRDXDLM",
-   "pct": 40,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0FMRDXDLM?tag=coupdecoeurqc-20",
+   "posts": 4,
+   "time": "2026-11-21T14:44:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
+   "asin": "B0CXS8J4Y5",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CXS8J4Y5?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FMRDXDLM.jpg"
+   "img": "/img/p/B0CXS8J4Y5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
@@ -936,6 +936,42 @@
    "img": "/img/p/B0DJ1B7BC1.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
+   "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
+   "price": 32.0,
+   "was": 102.0,
+   "votes": 6,
+   "posts": 9,
+   "time": "2026-11-21T13:22:35+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
+   "asin": "B0FJRQ9RM6",
+   "pct": 69,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FJRQ9RM6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FJRQ9RM6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
+   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
+   "price": 248.0,
+   "was": 339.0,
+   "votes": 6,
+   "posts": 20,
+   "time": "2026-11-21T15:14:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
+   "asin": "B00007J5U7",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00007J5U7.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
    "title": "Marvel's Spider-Man 2 - PS5 Standard Edition $39.99",
    "price": 39.99,
@@ -1042,60 +1078,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B08GKZSVMS.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
-   "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
-   "price": 32.0,
-   "was": 102.0,
-   "votes": 5,
-   "posts": 8,
-   "time": "2026-11-21T13:22:35+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
-   "asin": "B0FJRQ9RM6",
-   "pct": 69,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FJRQ9RM6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FJRQ9RM6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
-   "title": "ASUS TUF Gaming 34\" Ultrawide Monitor, 180Hz, 400 nits @ $259.99",
-   "price": 259.9,
-   "was": null,
-   "votes": 5,
-   "posts": 3,
-   "time": "2026-11-21T14:44:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
-   "asin": "B0CXS8J4Y5",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CXS8J4Y5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CXS8J4Y5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
-   "price": 248.0,
-   "was": 339.0,
-   "votes": 5,
-   "posts": 16,
-   "time": "2026-11-21T15:14:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "asin": "B00007J5U7",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00007J5U7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
@@ -1242,24 +1224,6 @@
    "img": "/img/p/B0GFWQ5FRM.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
-   "title": "Samsung Galaxy Buds4 Pro, White (CAD Version) ($179.99)",
-   "price": 179.99,
-   "was": 329.99,
-   "votes": 4,
-   "posts": 11,
-   "time": "2026-11-21T14:51:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
-   "asin": "B0GFWP95YD",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GFWP95YD?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GFWP95YD.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
    "title": "Dyson V11 Origin Cordless Vacuum (37% off)",
    "price": 499.99,
@@ -1384,6 +1348,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DCG1JGKN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
+   "title": "Samsung Galaxy Buds4 Pro, White (CAD Version) ($179.99)",
+   "price": 179.99,
+   "was": 329.99,
+   "votes": 3,
+   "posts": 11,
+   "time": "2026-11-21T14:51:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
+   "asin": "B0GFWP95YD",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GFWP95YD?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GFWP95YD.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
@@ -1620,40 +1602,22 @@
    "img": "/img/p/B07QHBYT26.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
-   "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
-   "price": 65.55,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
+   "title": "HOBIBEAR Mens Womens Wide Width Barefoot Shoes",
+   "price": 47.67,
+   "was": 55.99,
    "votes": 2,
    "posts": 0,
-   "time": "2026-11-21T15:48:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
-   "asin": "B0044GH27U",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0044GH27U?tag=coupdecoeurqc-20",
+   "time": "2026-11-21T16:17:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
+   "asin": "B0CD3ZSZ8R",
+   "pct": 15,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0CD3ZSZ8R?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0044GH27U.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
-   "title": "Alienware 34 Gaming Monitor AW3426DWM, WQHD VA Panel, 240Hz, 1500R Curved on sale $389.10($549.99)",
-   "price": 389.1,
-   "was": 549.99,
-   "votes": 2,
-   "posts": 6,
-   "time": "2026-11-21T13:14:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
-   "asin": "B0DHGNBXXC",
-   "pct": 29,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHGNBXXC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHGNBXXC.jpg"
+   "img": "/img/p/B0CD3ZSZ8R.jpg"
   }
  ]
 }
