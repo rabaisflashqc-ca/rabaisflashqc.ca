@@ -1,12 +1,12 @@
 {
- "date": "2026-11-21T16:42-04:00",
+ "date": "2026-11-21T17:40-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-14T20:42:25+00:00",
-    "2026-11-15T01:04:08+00:00"
+    "2026-11-15T01:04:08+00:00",
+    "2026-11-16T14:04:58+00:00"
    ],
    [
     "2026-11-21T15:14:14+00:00",
@@ -21,71 +21,71 @@
     "2026-11-16T18:17:56+00:00"
    ],
    [
-    "2026-11-21T16:17:59+00:00",
+    "2026-11-21T17:29:53+00:00",
     "2026-11-21T20:11:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-11-20T15:14:26+00:00",
-    "2026-11-20T15:27:15+00:00"
+    "2026-11-20T15:27:15+00:00",
+    "2026-11-20T16:07:21+00:00"
    ],
    [
-    "2026-11-21T20:11:31+00:00",
-    "2026-11-21T20:29:14+00:00"
+    "2026-11-21T20:29:14+00:00",
+    "2026-11-21T20:42:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   30,
+   31,
    [
-    "2026-11-19T21:50:22+00:00",
-    "2026-11-19T21:56:11+00:00"
+    "2026-11-19T21:56:11+00:00",
+    "2026-11-19T22:33:21+00:00"
    ],
    [
-    "2026-11-20T15:03:51+00:00",
-    "2026-11-20T15:10:24+00:00"
+    "2026-11-20T15:10:24+00:00",
+    "2026-11-20T15:14:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   20,
+   19,
    [
-    "2026-11-19T13:46:50+00:00",
-    "2026-11-19T13:57:52+00:00"
+    "2026-11-19T13:57:52+00:00",
+    "2026-11-19T14:02:07+00:00"
    ],
    [
-    "2026-11-19T21:21:47+00:00",
-    "2026-11-19T21:25:08+00:00"
+    "2026-11-19T21:25:08+00:00",
+    "2026-11-19T21:50:22+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   24,
+   25,
    [
-    "2026-11-16T23:58:29+00:00",
-    "2026-11-17T00:13:38+00:00"
+    "2026-11-17T00:13:38+00:00",
+    "2026-11-17T02:15:26+00:00"
    ],
    [
-    "2026-11-19T13:23:56+00:00",
-    "2026-11-19T13:44:59+00:00"
+    "2026-11-19T13:44:59+00:00",
+    "2026-11-19T13:46:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    34,
    [
-    "2026-11-10T16:26:46+00:00",
-    "2026-11-10T16:57:59+00:00"
+    "2026-11-10T16:57:59+00:00",
+    "2026-11-10T17:27:03+00:00"
    ],
    [
-    "2026-11-16T18:17:56+00:00",
-    "2026-11-16T23:53:10+00:00"
+    "2026-11-16T23:53:10+00:00",
+    "2026-11-16T23:58:29+00:00"
    ]
   ],
-  "avant_filtre_date": 147,
+  "avant_filtre_date": 148,
   "apres_filtre_date": 130
  },
  "items": [
@@ -130,8 +130,8 @@
    "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card GPU $655.99",
    "price": 655.0,
    "was": null,
-   "votes": 22,
-   "posts": 15,
+   "votes": 23,
+   "posts": 18,
    "time": "2026-11-20T22:50:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
    "asin": "B0FLHBFFX4",
@@ -148,7 +148,7 @@
    "title": "Brother DCP-L2647DW Monochrome Laser Printer/Scanner/Copier - $199.99 (was $339.99)",
    "price": 199.99,
    "was": 339.99,
-   "votes": 22,
+   "votes": 23,
    "posts": 14,
    "time": "2026-11-21T01:08:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
@@ -178,24 +178,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FQG8RW95.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
-   "title": "Wera Tool-Check Plus 2, 39 piece metric tool set $124.10 (was $165.99)",
-   "price": 124.1,
-   "was": 165.99,
-   "votes": 16,
-   "posts": 26,
-   "time": "2026-11-14T20:42:25+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-wera-tool-check-plus-2-39-piece-metric-tool-set-124-10-165-99-2832168/",
-   "asin": "B0F7R9DQHY",
-   "pct": 25,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0F7R9DQHY?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0F7R9DQHY.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
@@ -329,7 +311,7 @@
    "price": 225.0,
    "was": 330.88,
    "votes": 13,
-   "posts": 10,
+   "posts": 12,
    "time": "2026-11-20T11:45:39+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
    "asin": "B0GMKXVVJQ",
@@ -358,6 +340,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0CS3B7MD8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
+   "title": "WORX WX242L Electric Screwdriver & 30-Piece Accessory Kit $43.53",
+   "price": 43.53,
+   "was": 54.87,
+   "votes": 11,
+   "posts": 9,
+   "time": "2026-11-19T16:35:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
+   "asin": "B0DV3XNC3C",
+   "pct": 21,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DV3XNC3C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DV3XNC3C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
@@ -419,7 +419,7 @@
    "price": 248.0,
    "was": 339.0,
    "votes": 11,
-   "posts": 32,
+   "posts": 37,
    "time": "2026-11-21T15:14:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
    "asin": "B00007J5U7",
@@ -466,24 +466,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HDC236Q.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
-   "title": "WORX WX242L Electric Screwdriver & 30-Piece Accessory Kit $43.53",
-   "price": 43.53,
-   "was": 54.87,
-   "votes": 10,
-   "posts": 9,
-   "time": "2026-11-19T16:35:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
-   "asin": "B0DV3XNC3C",
-   "pct": 21,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DV3XNC3C?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DV3XNC3C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cheerble-wicked-ball-duo-2-9-99-2832370/",
@@ -592,24 +574,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0C9TBZF8X.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
-   "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
-   "price": 32.0,
-   "was": 102.0,
-   "votes": 8,
-   "posts": 9,
-   "time": "2026-11-21T13:22:35+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
-   "asin": "B0FJRQ9RM6",
-   "pct": 69,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FJRQ9RM6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FJRQ9RM6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
@@ -808,6 +772,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GWFM6YDH.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
+   "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
+   "price": 32.0,
+   "was": 102.0,
+   "votes": 7,
+   "posts": 9,
+   "time": "2026-11-21T13:22:35+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
+   "asin": "B0FJRQ9RM6",
+   "pct": 69,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FJRQ9RM6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FJRQ9RM6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
@@ -1224,6 +1206,24 @@
    "img": "/img/p/B0GFWP95YD.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
+   "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
+   "price": 65.55,
+   "was": null,
+   "votes": 4,
+   "posts": 0,
+   "time": "2026-11-21T15:48:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
+   "asin": "B0044GH27U",
+   "pct": null,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0044GH27U?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0044GH27U.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
    "title": "HOBIBEAR Mens Womens Wide Width Barefoot Shoes",
    "price": 47.67,
@@ -1240,6 +1240,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CD3ZSZ8R.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
+   "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
+   "price": 93.3,
+   "was": 169.99,
+   "votes": 4,
+   "posts": 1,
+   "time": "2026-11-21T20:11:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
+   "asin": "B08WDZ1828",
+   "pct": 45,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B08WDZ1828?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08WDZ1828.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
@@ -1384,42 +1402,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GFWQ5FRM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
-   "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
-   "price": 65.55,
-   "was": null,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-21T15:48:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
-   "asin": "B0044GH27U",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0044GH27U?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0044GH27U.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
-   "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
-   "price": 93.3,
-   "was": 169.99,
-   "votes": 3,
-   "posts": 1,
-   "time": "2026-11-21T20:11:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
-   "asin": "B08WDZ1828",
-   "pct": 45,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B08WDZ1828?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08WDZ1828.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
@@ -1602,6 +1584,24 @@
    "img": "/img/p/B0848KXRBS.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
+   "title": "Staub 28cm Cast Iron Chistera/Braiser - $209.99",
+   "price": 209.99,
+   "was": 349.99,
+   "votes": 2,
+   "posts": 2,
+   "time": "2026-11-21T18:54:48+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
+   "asin": "B00MI7NPBE",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00MI7NPBE?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00MI7NPBE.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-bissell-powerclean-corded-stick-vacuum-cleaner-107-99-2833161/",
    "title": "BISSELL PowerClean Corded Stick Vacuum Cleaner $107.99",
    "price": 107.99,
@@ -1618,24 +1618,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GN4L93SM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
-   "title": "Refoss HomeKit Smart Garage Door Opener - $45.59",
-   "price": 45.59,
-   "was": 57.99,
-   "votes": 2,
-   "posts": 5,
-   "time": "2026-11-19T23:22:04+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
-   "asin": "B08GG1H7TV",
-   "pct": 21,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08GG1H7TV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   }
  ]
 }
