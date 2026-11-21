@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-21T21:40+00:00",
+ "genere": "2026-11-21T23:57+00:00",
  "produits": [
   {
    "asin": "B0GSHCSJ4R",
@@ -62,6 +62,11 @@
    "prix_affiche": 17.85
   },
   {
+   "asin": "B0F7Z43QKK",
+   "titre": "Amazon Fire TV Stick 4K Plus",
+   "prix_affiche": 39.99
+  },
+  {
    "asin": "B0HPGJCKH6",
    "titre": "IMFIT haltères ajustables 5 à 52,5 lb",
    "prix_affiche": 219.95
@@ -102,6 +107,11 @@
    "prix_affiche": 179.99
   },
   {
+   "asin": "B09MZL17J6",
+   "titre": "SwissGear Chrome valise rigide",
+   "prix_affiche": 77.99
+  },
+  {
    "asin": "B073V2SGP6",
    "titre": "Levi's Signature Gold jean pour homme",
    "prix_affiche": 20.83
@@ -115,6 +125,11 @@
    "asin": "B0BLJTJ38M",
    "titre": "Barbie Dreamhouse maison de poupée",
    "prix_affiche": 129.99
+  },
+  {
+   "asin": "B09B93ZDG4",
+   "titre": "Amazon Echo Dot",
+   "prix_affiche": 44.99
   },
   {
    "asin": "B0H6R4N7H3",
@@ -132,6 +147,11 @@
    "prix_affiche": 159.99
   },
   {
+   "asin": "B0764BZBQW",
+   "titre": "Magic Bullet mélangeur",
+   "prix_affiche": 24.99
+  },
+  {
    "asin": "B088PQR3YL",
    "titre": "KODAK Mini Shot 2 appareil photo instantané",
    "prix_affiche": 118.79
@@ -145,6 +165,11 @@
    "asin": "B08F69M456",
    "titre": "Ring Plus caméra avec projecteur câblée",
    "prix_affiche": 139.99
+  },
+  {
+   "asin": "B0BFCBKXWL",
+   "titre": "Amazon Echo Spot",
+   "prix_affiche": 69.99
   },
   {
    "asin": "B0CPSFKSP6",
@@ -180,6 +205,16 @@
    "asin": "B09RTLFV3F",
    "titre": "Remington Shine Therapy lisseur",
    "prix_affiche": 30.23
+  },
+  {
+   "asin": "B0CZCB3B6S",
+   "titre": "Nespresso Vertuo Pop+ machine à café",
+   "prix_affiche": 79.0
+  },
+  {
+   "asin": "B0F1DP1GYG",
+   "titre": "HEX Bots phosphorescents",
+   "prix_affiche": 19.97
   },
   {
    "asin": "B0FJLNLKSJ",
@@ -220,6 +255,16 @@
    "asin": "B0BPLB81LX",
    "titre": "Bedsure couverture décorative en molleton",
    "prix_affiche": 18.98
+  },
+  {
+   "asin": "B08XTG3QSF",
+   "titre": "Melissa & Doug PAW Patrol",
+   "prix_affiche": 23.19
+  },
+  {
+   "asin": "B0DW97FXZ8",
+   "titre": "JBL Vibe Flex 2 écouteurs sans fil",
+   "prix_affiche": 49.98
   },
   {
    "asin": "B0GP8QD16K",
@@ -322,6 +367,11 @@
    "prix_affiche": 17.09
   },
   {
+   "asin": "B0793D9WBY",
+   "titre": "Fisher-Price Kick and Play deluxe",
+   "prix_affiche": 45.49
+  },
+  {
    "asin": "B0FNRVTTHH",
    "titre": "Shark Glossi HT302CTL outil chauffant",
    "prix_affiche": 142.97
@@ -352,6 +402,11 @@
    "prix_affiche": 21.99
   },
   {
+   "asin": "B0787P86ZZ",
+   "titre": "Gildan t-shirts à col rond",
+   "prix_affiche": 25.43
+  },
+  {
    "asin": "B072M2SB11",
    "titre": "Melissa & Doug Fresh Mart épicerie",
    "prix_affiche": 251.99
@@ -360,6 +415,11 @@
    "asin": "B0DFMM7SLT",
    "titre": "SPYPOINT Flex-M caméra de chasse avec carte SD",
    "prix_affiche": 109.99
+  },
+  {
+   "asin": "B0964CHD65",
+   "titre": "Philips Avent biberon Natural",
+   "prix_affiche": 21.71
   },
   {
    "asin": "B0FX3FW2FM",
@@ -402,9 +462,44 @@
    "prix_affiche": 26.48
   },
   {
+   "asin": "B09C2L5CM4",
+   "titre": "Hero Cosmetics Mighty Patch",
+   "prix_affiche": 16.49
+  },
+  {
+   "asin": "B0F3FFQ1CD",
+   "titre": "B. toys poutre d'équilibre",
+   "prix_affiche": 54.49
+  },
+  {
+   "asin": "B0G62TZVJN",
+   "titre": "Magic Bullet mélangeur argent",
+   "prix_affiche": 19.98
+  },
+  {
    "asin": "B00NHQF6MG",
    "titre": "LEGO boîte de briques créatives de luxe",
    "prix_affiche": 51.38
+  },
+  {
+   "asin": "B01BPWUG6Y",
+   "titre": "Ninja BL450C Nutri Pro",
+   "prix_affiche": 59.99
+  },
+  {
+   "asin": "B0DRW5QJ5R",
+   "titre": "LEGO Star Wars 327th",
+   "prix_affiche": 29.86
+  },
+  {
+   "asin": "B00RP0GHBO",
+   "titre": "Frida Baby NoseFrida",
+   "prix_affiche": 16.09
+  },
+  {
+   "asin": "B07M6RS2LC",
+   "titre": "Kasa prise intelligente extérieure",
+   "prix_affiche": 18.99
   },
   {
    "asin": "B0FWTJ1LRR",
@@ -430,6 +525,16 @@
    "asin": "B0CSZ7DYGN",
    "titre": "Gabby's Dollhouse maison de poupée",
    "prix_affiche": 55.99
+  },
+  {
+   "asin": "B0BZYCJK89",
+   "titre": "Owala FreeSip bouteille isotherme",
+   "prix_affiche": 33.59
+  },
+  {
+   "asin": "B0DJ1BM6YR",
+   "titre": "LEGO Disney Moana 2 Heihei",
+   "prix_affiche": 29.86
   },
   {
    "asin": "B09QFRN3D5",
@@ -475,6 +580,16 @@
    "asin": "B09GDQZLD1",
    "titre": "Furbo caméra pour chien 360°",
    "prix_affiche": 169.0
+  },
+  {
+   "asin": "B0F7K67DY2",
+   "titre": "Amazon Fire TV Stick HD",
+   "prix_affiche": 22.99
+  },
+  {
+   "asin": "B09BZVX3J7",
+   "titre": "Amazon Fire TV Cube",
+   "prix_affiche": 139.99
   }
  ]
 }
