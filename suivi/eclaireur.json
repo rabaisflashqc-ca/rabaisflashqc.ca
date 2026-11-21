@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20T23:12-04:00",
+ "date": "2026-11-20T23:56-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,72 +21,72 @@
     "2026-11-16T17:39:19+00:00"
    ],
    [
-    "2026-11-20T16:33:20+00:00",
-    "2026-11-20T17:08:40+00:00"
-   ]
-  ],
-  "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
-   44,
-   26,
-   [
-    "2026-11-20T06:00:39+00:00",
-    "2026-11-20T06:08:52+00:00"
-   ],
-   [
     "2026-11-21T01:37:50+00:00",
     "2026-11-21T03:01:33+00:00"
    ]
   ],
-  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
+  "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   26,
+   24,
    [
-    "2026-11-19T16:43:00+00:00",
-    "2026-11-19T16:54:18+00:00"
+    "2026-11-20T06:00:15+00:00",
+    "2026-11-20T06:00:39+00:00"
    ],
    [
-    "2026-11-20T05:49:32+00:00",
-    "2026-11-20T06:00:15+00:00"
+    "2026-11-21T03:01:33+00:00",
+    "2026-11-21T03:14:53+00:00"
+   ]
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
+   44,
+   25,
+   [
+    "2026-11-19T16:37:49+00:00",
+    "2026-11-19T16:43:00+00:00"
+   ],
+   [
+    "2026-11-20T04:36:21+00:00",
+    "2026-11-20T05:49:32+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   18,
+   19,
    [
-    "2026-11-18T13:02:08+00:00",
-    "2026-11-18T13:05:04+00:00"
+    "2026-11-18T12:26:52+00:00",
+    "2026-11-18T13:02:08+00:00"
    ],
    [
-    "2026-11-19T16:35:53+00:00",
-    "2026-11-19T16:37:49+00:00"
+    "2026-11-19T16:30:09+00:00",
+    "2026-11-19T16:35:53+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   19,
+   21,
    [
-    "2026-11-14T12:55:56+00:00",
-    "2026-11-14T20:13:36+00:00"
+    "2026-11-14T07:47:41+00:00",
+    "2026-11-14T12:55:56+00:00"
    ],
    [
-    "2026-11-18T08:59:02+00:00",
-    "2026-11-18T12:26:52+00:00"
+    "2026-11-18T06:20:09+00:00",
+    "2026-11-18T08:59:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    43,
    [
-    "2026-11-05T14:50:52+00:00",
-    "2026-11-06T14:20:02+00:00"
+    "2026-11-05T12:22:46+00:00",
+    "2026-11-05T14:50:52+00:00"
    ],
    [
-    "2026-11-14T06:28:52+00:00",
-    "2026-11-14T07:47:41+00:00"
+    "2026-11-14T01:43:20+00:00",
+    "2026-11-14T06:28:52+00:00"
    ]
   ],
-  "avant_filtre_date": 139,
-  "apres_filtre_date": 113
+  "avant_filtre_date": 141,
+  "apres_filtre_date": 114
  },
  "items": [
   {
@@ -130,7 +130,7 @@
    "title": "Hasbro Scrabble Board Game for $12.97",
    "price": 12.97,
    "was": 29.99,
-   "votes": 25,
+   "votes": 26,
    "posts": 0,
    "time": "2026-11-20T17:58:22+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-scrabble-board-game-12-97-2833181/",
@@ -288,6 +288,24 @@
    "img": "/img/p/B0FC33ZF1B.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
+   "title": "Polymaker PLA Red Brown and Green 11.69 S&S",
+   "price": 11.69,
+   "was": 23.38,
+   "votes": 13,
+   "posts": 17,
+   "time": "2026-11-20T23:02:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
+   "asin": "B09KKMQC2N",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B09KKMQC2N?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09KKMQC2N.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
    "title": "Intel® Core™ Ultra 5 Processor 250K - $225",
    "price": 225.0,
@@ -304,24 +322,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0GMKXVVJQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
-   "title": "Polymaker PLA Red Brown and Green 11.69 S&S",
-   "price": 11.69,
-   "was": 23.38,
-   "votes": 12,
-   "posts": 14,
-   "time": "2026-11-20T23:02:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
-   "asin": "B09KKMQC2N",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B09KKMQC2N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09KKMQC2N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
@@ -527,7 +527,7 @@
    "price": 199.99,
    "was": 339.99,
    "votes": 8,
-   "posts": 4,
+   "posts": 7,
    "time": "2026-11-21T01:08:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
    "asin": "B0GT7S6BHV",
@@ -738,6 +738,24 @@
    "img": "/img/p/B0HC47DKSM.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
+   "title": "WORX WX242L Electric Screwdriver & 30-Piece Accessory Kit $43.53",
+   "price": 43.53,
+   "was": 54.87,
+   "votes": 6,
+   "posts": 8,
+   "time": "2026-11-19T16:35:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
+   "asin": "B0DV3XNC3C",
+   "pct": 21,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DV3XNC3C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DV3XNC3C.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-kasa-smart-plug-power-strip-tp-link-kp303-bfd-25-off-29-99-delivered-amazon-ca-2832910/",
    "title": "Kasa Smart Plug Power Strip by TP-Link KP303 BFD 25% off, $29.99 Delivered @Amazon CA",
    "price": 29.99,
@@ -936,24 +954,6 @@
    "img": "/img/p/B0D6NMDNNX.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
-   "title": "WORX WX242L Electric Screwdriver & 30-Piece Accessory Kit $43.53",
-   "price": 43.53,
-   "was": 54.87,
-   "votes": 5,
-   "posts": 8,
-   "time": "2026-11-19T16:35:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
-   "asin": "B0DV3XNC3C",
-   "pct": 21,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DV3XNC3C?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DV3XNC3C.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-stethoscope-99-amazon-2832962/",
    "title": "Littman Classic iii stethoscope - $99 - Amazon",
    "price": 99.0,
@@ -1031,7 +1031,7 @@
    "price": 189.99,
    "was": 259.99,
    "votes": 4,
-   "posts": 18,
+   "posts": 19,
    "time": "2026-11-19T14:32:02+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "asin": "B0C9TBZF8X",
@@ -1242,6 +1242,24 @@
    "img": "/img/p/B01LY8Y2UU.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-49-99-75-off-2833243/",
+   "title": "AeroGarden 45W LED Grow Light Panel $49.99 (75% off)",
+   "price": 49.99,
+   "was": 199.96,
+   "votes": 3,
+   "posts": 1,
+   "time": "2026-11-21T03:01:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-49-99-75-off-2833243/",
+   "asin": "B0725QBG1G",
+   "pct": 75,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0725QBG1G?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0725QBG1G.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
    "title": "Reolink Video Doorbell PoE (2K, wired) - $104.99",
    "price": 104.99,
@@ -1391,17 +1409,17 @@
    "price": 28.79,
    "was": 35.99,
    "votes": 2,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-11-19T19:03:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nvme-docking-station-28-79-2832920/",
-   "asin": "B084ZKLQR8",
+   "asin": "B0D9GM3NLV",
    "pct": 20,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B084ZKLQR8?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0D9GM3NLV?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B084ZKLQR8.jpg"
+   "img": "/img/p/B0D9GM3NLV.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dry-cat-food-liveclear-chicken-rice-7-26-kg-bag-2832938/",
@@ -1512,6 +1530,24 @@
    "img": "/img/p/B0FSZKHTBS.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
+   "price": 69.99,
+   "was": 100.45,
+   "votes": 2,
+   "posts": 1,
+   "time": "2026-11-21T01:37:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "asin": "B084CJ9T2R",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B084CJ9T2R?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B084CJ9T2R.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-rog-falcata-split-75-hall-effect-keyboard-249-99-2832167/",
    "title": "ROG Falcata - Split 75% hall-effect keyboard - $249.99",
    "price": 249.99,
@@ -1584,40 +1620,40 @@
    "img": "/img/p/B0GVLX7Y72.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bissell-revolution-hydrosteam-carpet-cleaner-279-29-atl-2832684/",
-   "title": "BISSELL Revolution HydroSteam Carpet Cleaner - 279.29 ATL",
-   "price": 279.29,
-   "was": 400.0,
-   "votes": 1,
-   "posts": 3,
-   "time": "2026-11-18T14:11:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bissell-revolution-hydrosteam-carpet-cleaner-279-29-atl-2832684/",
-   "asin": "B0BV19S4QW",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BV19S4QW?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 3,
-   "doute": true,
-   "img": "/img/p/B0BV19S4QW.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
-   "price": 69.99,
-   "was": 100.45,
+   "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
+   "title": "Strokes - Reality Awaits LP (Vinyl) - $19.97",
+   "price": 19.97,
+   "was": 39.0,
    "votes": 1,
    "posts": 1,
-   "time": "2026-11-21T01:37:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "asin": "B084CJ9T2R",
-   "pct": 30,
+   "time": "2026-11-21T03:14:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
+   "asin": "B0GWFM6YDH",
+   "pct": 49,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B084CJ9T2R?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GWFM6YDH?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B084CJ9T2R.jpg"
+   "img": "/img/p/B0GWFM6YDH.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-yoto-mini-2024-edition-74-99-2833120/",
+   "title": "Yoto Mini (2024 Edition) - $74.99",
+   "price": 74.99,
+   "was": 100.0,
+   "votes": 1,
+   "posts": 5,
+   "time": "2026-11-20T14:20:08+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-yoto-mini-2024-edition-74-99-2833120/",
+   "asin": "B0D541M5C6",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0D541M5C6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D541M5C6.jpg"
   }
  ]
 }
