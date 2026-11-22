@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T14:44-04:00",
+ "date": "2026-11-22T16:52-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -27,66 +27,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   26,
+   28,
    [
-    "2026-11-21T03:01:33+00:00",
-    "2026-11-21T03:14:53+00:00"
+    "2026-11-21T05:28:17+00:00",
+    "2026-11-21T06:43:13+00:00"
    ],
    [
-    "2026-11-22T17:36:01+00:00",
-    "2026-11-22T18:16:55+00:00"
+    "2026-11-22T18:58:34+00:00",
+    "2026-11-22T19:21:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   31,
+   29,
    [
-    "2026-11-20T01:59:34+00:00",
-    "2026-11-20T02:03:14+00:00"
+    "2026-11-20T03:11:14+00:00",
+    "2026-11-20T03:13:16+00:00"
    ],
    [
-    "2026-11-21T01:08:36+00:00",
-    "2026-11-21T01:37:50+00:00"
+    "2026-11-21T03:14:53+00:00",
+    "2026-11-21T04:45:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   22,
+   23,
    [
-    "2026-11-19T14:56:38+00:00",
-    "2026-11-19T15:00:47+00:00"
+    "2026-11-19T15:30:19+00:00",
+    "2026-11-19T15:36:53+00:00"
    ],
    [
-    "2026-11-20T01:18:57+00:00",
-    "2026-11-20T01:27:26+00:00"
+    "2026-11-20T02:03:14+00:00",
+    "2026-11-20T02:56:09+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   20,
+   21,
    [
-    "2026-11-17T05:37:39+00:00",
-    "2026-11-17T05:48:50+00:00"
+    "2026-11-17T06:11:53+00:00",
+    "2026-11-17T07:02:58+00:00"
    ],
    [
-    "2026-11-19T14:27:26+00:00",
-    "2026-11-19T14:32:02+00:00"
+    "2026-11-19T15:00:47+00:00",
+    "2026-11-19T15:17:58+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   33,
+   31,
    [
-    "2026-11-12T11:30:35+00:00",
-    "2026-11-12T13:26:32+00:00"
+    "2026-11-12T16:13:12+00:00",
+    "2026-11-12T17:30:51+00:00"
    ],
    [
-    "2026-11-17T05:12:55+00:00",
-    "2026-11-17T05:25:50+00:00"
+    "2026-11-17T05:48:50+00:00",
+    "2026-11-17T05:58:30+00:00"
    ]
   ],
   "avant_filtre_date": 142,
-  "apres_filtre_date": 125
+  "apres_filtre_date": 128
  },
  "items": [
   {
@@ -130,8 +130,8 @@
    "title": "[Walmart] Scrabble, Battleship, Guess Who, Hungry Hungry Hippos & more @ $12.97 each",
    "price": 12.97,
    "was": null,
-   "votes": 26,
-   "posts": 9,
+   "votes": 29,
+   "posts": 10,
    "time": "2026-11-22T13:40:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-walmart-scrabble-battleship-guess-who-hungry-hungry-hippos-more-12-97-each-2833382/",
    "asin": "B09D4QRJ8Y",
@@ -184,8 +184,8 @@
    "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
    "price": 248.0,
    "was": 339.0,
-   "votes": 17,
-   "posts": 50,
+   "votes": 19,
+   "posts": 51,
    "time": "2026-11-21T15:14:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
    "asin": "B00007J5U7",
@@ -342,6 +342,24 @@
    "img": "/img/p/B0CS3B7MD8.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
+   "price": 1167.0,
+   "was": 1747.0,
+   "votes": 12,
+   "posts": 14,
+   "time": "2026-11-22T17:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "asin": "B0HC35V6KZ",
+   "pct": 33,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HC35V6KZ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
    "title": "WORX WX242L Electric Screwdriver & 30-Piece Accessory Kit $43.53",
    "price": 43.53,
@@ -450,6 +468,24 @@
    "img": "/img/p/B01HDC236Q.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
+   "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
+   "price": 69.99,
+   "was": 99.99,
+   "votes": 10,
+   "posts": 0,
+   "time": "2026-11-20T14:37:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
+   "asin": "B0B63VTW46",
+   "pct": 30,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0B63VTW46?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B63VTW46.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-cheerble-wicked-ball-duo-2-9-99-2832370/",
    "title": "Cheerble Wicked Ball Duo 2 - $9.99",
    "price": 9.99,
@@ -468,40 +504,22 @@
    "img": "/img/p/B0FYPW5CFP.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
-   "title": "[Amazon.ca] SmallRig CT-10 Camera Tripod - $69.99 (Reg. $99.99, 30% Off)",
-   "price": 69.99,
-   "was": 99.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
+   "title": "Strokes - Reality Awaits LP (Vinyl) - $19.97",
+   "price": 19.97,
+   "was": 39.0,
    "votes": 9,
-   "posts": 0,
-   "time": "2026-11-20T14:37:16+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-ca-smallrig-ct-10-camera-tripod-69-99-reg-99-99-30-off-2833125/",
-   "asin": "B0B63VTW46",
-   "pct": 30,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0B63VTW46?tag=coupdecoeurqc-20",
+   "posts": 10,
+   "time": "2026-11-21T03:14:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
+   "asin": "B0GWFM6YDH",
+   "pct": 49,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GWFM6YDH?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0B63VTW46.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
-   "price": 1167.0,
-   "was": 1747.0,
-   "votes": 9,
-   "posts": 8,
-   "time": "2026-11-22T17:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "asin": "B0HC35V6KZ",
-   "pct": 33,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HC35V6KZ.jpg"
+   "img": "/img/p/B0GWFM6YDH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
@@ -592,24 +610,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00QXT5T3U.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
-   "title": "Strokes - Reality Awaits LP (Vinyl) - $19.97",
-   "price": 19.97,
-   "was": 39.0,
-   "votes": 8,
-   "posts": 9,
-   "time": "2026-11-21T03:14:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
-   "asin": "B0GWFM6YDH",
-   "pct": 49,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GWFM6YDH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GWFM6YDH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
@@ -846,24 +846,6 @@
    "img": "/img/p/B0CC9DB4YB.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
-   "price": 69.99,
-   "was": 100.45,
-   "votes": 7,
-   "posts": 16,
-   "time": "2026-11-21T01:37:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "asin": "B099WVY11W",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B099WVY11W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B099WVY11W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
    "title": "Alienware 34 Gaming Monitor AW3426DWM, WQHD VA Panel, 240Hz, 1500R Curved on sale $389.10($549.99)",
    "price": 389.1,
@@ -934,6 +916,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GRX7JKPS.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
+   "price": 69.99,
+   "was": 100.45,
+   "votes": 6,
+   "posts": 19,
+   "time": "2026-11-21T01:37:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "asin": "B099WVY11W",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B099WVY11W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B099WVY11W.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
@@ -1139,7 +1139,7 @@
    "price": 209.99,
    "was": 349.99,
    "votes": 5,
-   "posts": 7,
+   "posts": 8,
    "time": "2026-11-21T18:54:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
    "asin": "B00MI7NPBE",
@@ -1247,17 +1247,17 @@
    "price": 269.99,
    "was": null,
    "votes": 4,
-   "posts": 7,
+   "posts": 9,
    "time": "2026-11-21T20:11:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "asin": "B0DHWCQ3FP",
+   "asin": "B0GL28YMNT",
    "pct": null,
    "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHWCQ3FP?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GL28YMNT?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DHWCQ3FP.jpg"
+   "img": "/img/p/B0GL28YMNT.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
@@ -1602,40 +1602,40 @@
    "img": "/img/p/B08R8YZR32.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
-   "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
-   "price": 599.99,
-   "was": 1399.9,
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
+   "title": "Anker soundcore P31i Wireless ANC Earbuds • $37.99 • ATL",
+   "price": 37.99,
+   "was": 49.99,
    "votes": 2,
    "posts": 0,
-   "time": "2026-11-21T14:49:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
-   "asin": "B0FWK41WF2",
-   "pct": 57,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
+   "time": "2026-11-22T19:21:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
+   "asin": "B0FNWCYLZN",
+   "pct": 24,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FWK41WF2.jpg"
+   "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
-   "title": "ECOVACS DEEBOT T90 PRO OMNI",
-   "price": 659.99,
-   "was": 899.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
+   "title": "Shark Navigator Swivel Pro Complete Upright Vacuum, Red, NV150C",
+   "price": 99.98,
+   "was": 199.98,
    "votes": 2,
-   "posts": 6,
-   "time": "2026-11-21T05:28:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
-   "asin": "B0GFWQ5FRM",
-   "pct": 27,
+   "posts": 5,
+   "time": "2026-11-22T18:44:38+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
+   "asin": "B08DJ8Z3WH",
+   "pct": 50,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GFWQ5FRM?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B08DJ8Z3WH?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0GFWQ5FRM.jpg"
+   "img": "/img/p/B08DJ8Z3WH.jpg"
   }
  ]
 }
