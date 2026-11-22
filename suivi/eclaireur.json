@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T14:06-04:00",
+ "date": "2026-11-22T14:44-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,8 +9,8 @@
     "2026-11-16T14:08:50+00:00"
    ],
    [
-    "2026-11-21T20:11:13+00:00",
-    "2026-11-22T13:40:05+00:00"
+    "2026-11-22T13:40:05+00:00",
+    "2026-11-22T17:06:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,72 +21,72 @@
     "2026-11-16T18:17:56+00:00"
    ],
    [
-    "2026-11-21T20:11:31+00:00",
-    "2026-11-22T17:06:59+00:00"
+    "2026-11-21T20:01:02+00:00",
+    "2026-11-21T20:11:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   25,
+   26,
    [
-    "2026-11-21T01:37:50+00:00",
-    "2026-11-21T03:01:33+00:00"
+    "2026-11-21T03:01:33+00:00",
+    "2026-11-21T03:14:53+00:00"
    ],
    [
-    "2026-11-22T17:06:59+00:00",
-    "2026-11-22T17:36:01+00:00"
+    "2026-11-22T17:36:01+00:00",
+    "2026-11-22T18:16:55+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   32,
+   31,
    [
-    "2026-11-20T01:27:26+00:00",
-    "2026-11-20T01:59:34+00:00"
+    "2026-11-20T01:59:34+00:00",
+    "2026-11-20T02:03:14+00:00"
    ],
    [
-    "2026-11-20T23:02:13+00:00",
-    "2026-11-21T01:08:36+00:00"
+    "2026-11-21T01:08:36+00:00",
+    "2026-11-21T01:37:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   21,
+   22,
    [
-    "2026-11-19T14:32:02+00:00",
-    "2026-11-19T14:56:38+00:00"
+    "2026-11-19T14:56:38+00:00",
+    "2026-11-19T15:00:47+00:00"
    ],
    [
-    "2026-11-19T23:22:04+00:00",
-    "2026-11-20T01:18:57+00:00"
+    "2026-11-20T01:18:57+00:00",
+    "2026-11-20T01:27:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   21,
+   20,
    [
-    "2026-11-17T05:25:50+00:00",
-    "2026-11-17T05:37:39+00:00"
+    "2026-11-17T05:37:39+00:00",
+    "2026-11-17T05:48:50+00:00"
    ],
    [
-    "2026-11-19T14:24:40+00:00",
-    "2026-11-19T14:27:26+00:00"
+    "2026-11-19T14:27:26+00:00",
+    "2026-11-19T14:32:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    33,
    [
-    "2026-11-12T10:34:46+00:00",
-    "2026-11-12T11:30:35+00:00"
+    "2026-11-12T11:30:35+00:00",
+    "2026-11-12T13:26:32+00:00"
    ],
    [
-    "2026-11-17T05:06:05+00:00",
-    "2026-11-17T05:12:55+00:00"
+    "2026-11-17T05:12:55+00:00",
+    "2026-11-17T05:25:50+00:00"
    ]
   ],
-  "avant_filtre_date": 141,
-  "apres_filtre_date": 124
+  "avant_filtre_date": 142,
+  "apres_filtre_date": 125
  },
  "items": [
   {
@@ -486,6 +486,24 @@
    "img": "/img/p/B0B63VTW46.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
+   "price": 1167.0,
+   "was": 1747.0,
+   "votes": 9,
+   "posts": 8,
+   "time": "2026-11-22T17:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "asin": "B0HC35V6KZ",
+   "pct": 33,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HC35V6KZ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
    "title": "Corsair CORSAIR RM850x SHIFT Modular ATX PSU - $165",
    "price": 165.0,
@@ -833,7 +851,7 @@
    "price": 69.99,
    "was": 100.45,
    "votes": 7,
-   "posts": 14,
+   "posts": 16,
    "time": "2026-11-21T01:37:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
    "asin": "B099WVY11W",
@@ -952,24 +970,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HD4EH4A.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
-   "price": 1167.0,
-   "was": 1747.0,
-   "votes": 6,
-   "posts": 2,
-   "time": "2026-11-22T17:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "asin": "B0HC35V6KZ",
-   "pct": 33,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HC35V6KZ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
@@ -1116,6 +1116,24 @@
    "img": "/img/p/B0GFWP95YD.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
+   "title": "HOBIBEAR Mens Womens Wide Width Barefoot Shoes",
+   "price": 47.67,
+   "was": 55.99,
+   "votes": 5,
+   "posts": 2,
+   "time": "2026-11-21T16:17:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
+   "asin": "B0CD3ZSZ8R",
+   "pct": 15,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0CD3ZSZ8R?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CD3ZSZ8R.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
    "title": "Staub 28cm Cast Iron Chistera/Braiser - $209.99",
    "price": 209.99,
@@ -1206,24 +1224,6 @@
    "img": "/img/p/B0D5RK75Q8.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
-   "title": "HOBIBEAR Mens Womens Wide Width Barefoot Shoes",
-   "price": 47.67,
-   "was": 55.99,
-   "votes": 4,
-   "posts": 2,
-   "time": "2026-11-21T16:17:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
-   "asin": "B0CD3ZSZ8R",
-   "pct": 15,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0CD3ZSZ8R?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CD3ZSZ8R.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
    "title": "Vitamix 5200",
    "price": 429.99,
@@ -1247,7 +1247,7 @@
    "price": 269.99,
    "was": null,
    "votes": 4,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-11-21T20:11:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
    "asin": "B0DHWCQ3FP",
