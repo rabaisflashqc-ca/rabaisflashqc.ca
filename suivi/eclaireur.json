@@ -1,12 +1,12 @@
 {
- "date": "2026-11-21T19:57-04:00",
+ "date": "2026-11-21T22:11-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-15T01:04:08+00:00",
-    "2026-11-16T14:04:58+00:00"
+    "2026-11-16T14:04:58+00:00",
+    "2026-11-16T14:08:50+00:00"
    ],
    [
     "2026-11-21T15:14:14+00:00",
@@ -21,16 +21,16 @@
     "2026-11-16T18:17:56+00:00"
    ],
    [
-    "2026-11-21T18:54:48+00:00",
-    "2026-11-21T20:11:13+00:00"
+    "2026-11-21T20:11:13+00:00",
+    "2026-11-21T20:11:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-11-20T16:07:21+00:00",
-    "2026-11-20T16:33:20+00:00"
+    "2026-11-20T15:27:15+00:00",
+    "2026-11-20T16:07:21+00:00"
    ],
    [
     "2026-11-21T20:42:42+00:00",
@@ -39,54 +39,54 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   31,
+   29,
    [
-    "2026-11-19T22:33:21+00:00",
-    "2026-11-19T23:18:14+00:00"
+    "2026-11-19T21:50:22+00:00",
+    "2026-11-19T21:56:11+00:00"
    ],
    [
-    "2026-11-20T15:14:26+00:00",
-    "2026-11-20T15:27:15+00:00"
+    "2026-11-20T15:10:24+00:00",
+    "2026-11-20T15:14:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   19,
+   20,
    [
-    "2026-11-19T14:02:07+00:00",
-    "2026-11-19T14:07:08+00:00"
+    "2026-11-19T13:46:50+00:00",
+    "2026-11-19T13:57:52+00:00"
    ],
    [
-    "2026-11-19T21:50:22+00:00",
-    "2026-11-19T21:56:11+00:00"
+    "2026-11-19T21:21:47+00:00",
+    "2026-11-19T21:25:08+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    24,
    [
-    "2026-11-17T02:15:26+00:00",
-    "2026-11-17T05:00:09+00:00"
+    "2026-11-16T23:58:29+00:00",
+    "2026-11-17T00:13:38+00:00"
    ],
    [
-    "2026-11-19T13:46:50+00:00",
-    "2026-11-19T13:57:52+00:00"
+    "2026-11-19T13:23:56+00:00",
+    "2026-11-19T13:44:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   34,
+   36,
    [
-    "2026-11-10T17:27:03+00:00",
-    "2026-11-12T01:58:19+00:00"
+    "2026-11-10T16:26:46+00:00",
+    "2026-11-10T16:57:59+00:00"
    ],
    [
-    "2026-11-16T23:58:29+00:00",
-    "2026-11-17T00:13:38+00:00"
+    "2026-11-16T18:17:56+00:00",
+    "2026-11-16T23:53:10+00:00"
    ]
   ],
-  "avant_filtre_date": 147,
-  "apres_filtre_date": 129
+  "avant_filtre_date": 144,
+  "apres_filtre_date": 125
  },
  "items": [
   {
@@ -126,30 +126,12 @@
    "img": "/img/p/B09D44JH4S.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
-   "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card GPU $655.99",
-   "price": 655.0,
-   "was": null,
-   "votes": 23,
-   "posts": 20,
-   "time": "2026-11-20T22:50:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-gpu-655-99-2833218/",
-   "asin": "B0FLHBFFX4",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FLHBFFX4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FLHBFFX4.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
    "title": "Brother DCP-L2647DW Monochrome Laser Printer/Scanner/Copier - $199.99 (was $339.99)",
    "price": 199.99,
    "was": 339.99,
    "votes": 23,
-   "posts": 14,
+   "posts": 15,
    "time": "2026-11-21T01:08:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
    "asin": "B0GT7S6BHV",
@@ -270,6 +252,24 @@
    "img": "/img/p/B0FC33ZF1B.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
+   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
+   "price": 248.0,
+   "was": 339.0,
+   "votes": 14,
+   "posts": 44,
+   "time": "2026-11-21T15:14:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
+   "asin": "B00007J5U7",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00007J5U7.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-ceramic-box-cutter-5-23-40-2832832/",
    "title": "Amazon Basics Ceramic Box Cutter $5.23 (-40%)",
    "price": 5.23,
@@ -306,24 +306,6 @@
    "img": "/img/p/B0C9W9GSF7.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
-   "title": "Intel® Core™ Ultra 5 Processor 250K - $225",
-   "price": 225.0,
-   "was": 330.88,
-   "votes": 13,
-   "posts": 14,
-   "time": "2026-11-20T11:45:39+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-intel-core-i-ultra-5-processor-250k-225-2833087/",
-   "asin": "B0GMKXVVJQ",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GMKXVVJQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GMKXVVJQ.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
    "title": "AstroAI L7 Portable Tire Inflator - $26.34",
    "price": 26.34,
@@ -340,24 +322,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0CS3B7MD8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
-   "price": 248.0,
-   "was": 339.0,
-   "votes": 12,
-   "posts": 39,
-   "time": "2026-11-21T15:14:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "asin": "B00007J5U7",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00007J5U7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
@@ -432,24 +396,6 @@
    "img": "/img/p/B0BBY4QYBG.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
-   "title": "Greenies Dog & Cat Treats 30% off coupon w/ S&S",
-   "price": null,
-   "was": null,
-   "votes": 10,
-   "posts": 3,
-   "time": "2026-11-15T01:04:08+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-greenies-dog-cat-treats-30-off-coupon-w-s-s-2832188/",
-   "asin": "B071FH2NLX",
-   "pct": null,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B071FH2NLX?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-standby-ups-battery-backup-800va-99-99-2832406/",
    "title": "Amazon Basics Standby UPS Battery Backup 800VA - $99.99",
    "price": 99.99,
@@ -466,6 +412,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HDC236Q.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
+   "title": "ASUS TUF Gaming 34\" Ultrawide Monitor, 180Hz, 400 nits @ $259.99",
+   "price": 259.9,
+   "was": null,
+   "votes": 10,
+   "posts": 9,
+   "time": "2026-11-21T14:44:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
+   "asin": "B0CXS8J4Y5",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CXS8J4Y5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CXS8J4Y5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cheerble-wicked-ball-duo-2-9-99-2832370/",
@@ -502,24 +466,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0B63VTW46.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
-   "title": "ASUS TUF Gaming 34\" Ultrawide Monitor, 180Hz, 400 nits @ $259.99",
-   "price": 259.9,
-   "was": null,
-   "votes": 9,
-   "posts": 6,
-   "time": "2026-11-21T14:44:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
-   "asin": "B0CXS8J4Y5",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CXS8J4Y5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CXS8J4Y5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-corsair-corsair-rm850x-shift-modular-atx-psu-165-2832369/",
@@ -610,6 +556,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B09HY42PH5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
+   "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
+   "price": 169.99,
+   "was": 245.55,
+   "votes": 7,
+   "posts": 14,
+   "time": "2026-11-19T13:57:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
+   "asin": "B08LLFKVX4",
+   "pct": 31,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08LLFKVX4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08LLFKVX4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-barbie-dreamhouse-dollhouse-playset-themed-accessories-129-99-249-99-2832838/",
@@ -797,7 +761,7 @@
    "price": 69.99,
    "was": 100.45,
    "votes": 7,
-   "posts": 7,
+   "posts": 9,
    "time": "2026-11-21T01:37:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
    "asin": "B099WVY11W",
@@ -815,7 +779,7 @@
    "price": 19.97,
    "was": 39.0,
    "votes": 7,
-   "posts": 6,
+   "posts": 9,
    "time": "2026-11-21T03:14:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
    "asin": "B0GWFM6YDH",
@@ -882,24 +846,6 @@
    "img": "/img/p/B0CJZW65R3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
-   "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
-   "price": 169.99,
-   "was": 245.55,
-   "votes": 6,
-   "posts": 14,
-   "time": "2026-11-19T13:57:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
-   "asin": "B08LLFKVX4",
-   "pct": 31,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08LLFKVX4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08LLFKVX4.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
    "title": "Heated Rivalry (Original Series Soundtrack) (Vinyl) @ $19.97",
    "price": 19.97,
@@ -952,6 +898,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0D6NMDNNX.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
+   "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
+   "price": 93.3,
+   "was": 169.99,
+   "votes": 6,
+   "posts": 1,
+   "time": "2026-11-21T20:11:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
+   "asin": "B08WDZ1828",
+   "pct": 45,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B08WDZ1828?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08WDZ1828.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
@@ -1049,7 +1013,7 @@
    "price": 99.99,
    "was": 219.99,
    "votes": 5,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-11-21T13:07:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-professional-plus-duo-blender-1400w-auto-iq-sale-99-99-219-99-2833271/",
    "asin": "B08GKZSVMS",
@@ -1080,22 +1044,22 @@
    "img": "/img/p/B0044GH27U.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
-   "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
-   "price": 93.3,
-   "was": 169.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
+   "title": "Vitamix 5200",
+   "price": 429.99,
+   "was": 729.95,
    "votes": 5,
-   "posts": 1,
-   "time": "2026-11-21T20:11:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
-   "asin": "B08WDZ1828",
-   "pct": 45,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B08WDZ1828?tag=coupdecoeurqc-20",
+   "posts": 5,
+   "time": "2026-11-21T17:29:53+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
+   "asin": "B00009LI4K",
+   "pct": 41,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00009LI4K?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B08WDZ1828.jpg"
+   "img": "/img/p/B00009LI4K.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
@@ -1283,7 +1247,7 @@
    "price": 322.99,
    "was": 379.99,
    "votes": 3,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-19T05:22:22+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-55-f7d-class-4k-uhd-hdr-qled-smart-tv-fire-tv-ci-55f7d-sale-322-99-379-99-2832802/",
    "asin": "B0G4XGXTY8",
@@ -1391,7 +1355,7 @@
    "price": 209.99,
    "was": 349.99,
    "votes": 3,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-21T18:54:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
    "asin": "B00MI7NPBE",
@@ -1402,6 +1366,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00MI7NPBE.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
+   "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
+   "price": 269.99,
+   "was": null,
+   "votes": 3,
+   "posts": 3,
+   "time": "2026-11-21T20:11:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
+   "asin": "B0DHWCQ3FP",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DHWCQ3FP?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHWCQ3FP.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
@@ -1584,22 +1566,40 @@
    "img": "/img/p/B0848KXRBS.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
-   "price": 269.99,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
+   "title": "24V 13\"\" Cordless Snow Shovel - $148.99",
+   "price": 148.99,
+   "was": 179.99,
    "votes": 2,
-   "posts": 2,
-   "time": "2026-11-21T20:11:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "asin": "B0DHWCQ3FP",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHWCQ3FP?tag=coupdecoeurqc-20",
+   "posts": 3,
+   "time": "2026-11-19T23:20:08+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
+   "asin": "B0B1TXSFMK",
+   "pct": 17,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B1TXSFMK?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DHWCQ3FP.jpg"
+   "img": "/img/p/B0B1TXSFMK.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
+   "title": "Refoss HomeKit Smart Garage Door Opener - $45.59",
+   "price": 45.59,
+   "was": 57.99,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-19T23:22:04+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
+   "asin": "B08GG1H7TV",
+   "pct": 21,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B08GG1H7TV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bosch-4-1-2-inch-angle-grinder-gws8-45-41-96-2833324/",
@@ -1618,6 +1618,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01HD4EH4A.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
+   "title": "ECOVACS DEEBOT T90 PRO OMNI",
+   "price": 659.99,
+   "was": 899.99,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-21T05:28:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
+   "asin": "B0GFWQ5FRM",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GFWQ5FRM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GFWQ5FRM.jpg"
   }
  ]
 }
