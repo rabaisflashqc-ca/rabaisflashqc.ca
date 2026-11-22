@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T13:16-04:00",
+ "date": "2026-11-22T14:06-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,71 +21,71 @@
     "2026-11-16T18:17:56+00:00"
    ],
    [
-    "2026-11-21T20:01:02+00:00",
-    "2026-11-21T20:11:31+00:00"
+    "2026-11-21T20:11:31+00:00",
+    "2026-11-22T17:06:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   25,
    [
-    "2026-11-20T23:02:13+00:00",
-    "2026-11-21T01:08:36+00:00"
+    "2026-11-21T01:37:50+00:00",
+    "2026-11-21T03:01:33+00:00"
    ],
    [
-    "2026-11-22T13:40:05+00:00",
-    "2026-11-22T17:06:59+00:00"
+    "2026-11-22T17:06:59+00:00",
+    "2026-11-22T17:36:01+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   33,
+   32,
    [
-    "2026-11-19T23:22:04+00:00",
-    "2026-11-20T01:18:57+00:00"
+    "2026-11-20T01:27:26+00:00",
+    "2026-11-20T01:59:34+00:00"
    ],
    [
-    "2026-11-20T17:58:22+00:00",
-    "2026-11-20T19:32:19+00:00"
+    "2026-11-20T23:02:13+00:00",
+    "2026-11-21T01:08:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   19,
+   21,
    [
-    "2026-11-19T14:24:40+00:00",
-    "2026-11-19T14:27:26+00:00"
+    "2026-11-19T14:32:02+00:00",
+    "2026-11-19T14:56:38+00:00"
    ],
    [
-    "2026-11-19T23:18:14+00:00",
-    "2026-11-19T23:20:08+00:00"
+    "2026-11-19T23:22:04+00:00",
+    "2026-11-20T01:18:57+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   22,
+   21,
    [
-    "2026-11-17T05:06:05+00:00",
-    "2026-11-17T05:12:55+00:00"
+    "2026-11-17T05:25:50+00:00",
+    "2026-11-17T05:37:39+00:00"
    ],
    [
-    "2026-11-19T14:07:08+00:00",
-    "2026-11-19T14:14:48+00:00"
+    "2026-11-19T14:24:40+00:00",
+    "2026-11-19T14:27:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   34,
+   33,
    [
-    "2026-11-12T05:16:13+00:00",
-    "2026-11-12T05:42:30+00:00"
+    "2026-11-12T10:34:46+00:00",
+    "2026-11-12T11:30:35+00:00"
    ],
    [
-    "2026-11-17T02:15:26+00:00",
-    "2026-11-17T05:00:09+00:00"
+    "2026-11-17T05:06:05+00:00",
+    "2026-11-17T05:12:55+00:00"
    ]
   ],
-  "avant_filtre_date": 142,
+  "avant_filtre_date": 141,
   "apres_filtre_date": 124
  },
  "items": [
@@ -130,7 +130,7 @@
    "title": "[Walmart] Scrabble, Battleship, Guess Who, Hungry Hungry Hippos & more @ $12.97 each",
    "price": 12.97,
    "was": null,
-   "votes": 24,
+   "votes": 26,
    "posts": 9,
    "time": "2026-11-22T13:40:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-walmart-scrabble-battleship-guess-who-hungry-hungry-hippos-more-12-97-each-2833382/",
@@ -178,6 +178,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FQG8RW95.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
+   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
+   "price": 248.0,
+   "was": 339.0,
+   "votes": 17,
+   "posts": 50,
+   "time": "2026-11-21T15:14:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
+   "asin": "B00007J5U7",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00007J5U7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
@@ -250,24 +268,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GLYZZHC1.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
-   "price": 248.0,
-   "was": 339.0,
-   "votes": 15,
-   "posts": 49,
-   "time": "2026-11-21T15:14:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "asin": "B00007J5U7",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00007J5U7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
@@ -936,6 +936,42 @@
    "img": "/img/p/B0044GH27U.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-4-1-2-inch-angle-grinder-gws8-45-41-96-2833324/",
+   "title": "BOSCH 4-1/2 Inch Angle Grinder GWS8-45 $41.96",
+   "price": 41.96,
+   "was": 89.0,
+   "votes": 6,
+   "posts": 1,
+   "time": "2026-11-21T20:01:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-4-1-2-inch-angle-grinder-gws8-45-41-96-2833324/",
+   "asin": "B01HD4EH4A",
+   "pct": 53,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B01HD4EH4A?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01HD4EH4A.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
+   "price": 1167.0,
+   "was": 1747.0,
+   "votes": 6,
+   "posts": 2,
+   "time": "2026-11-22T17:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "asin": "B0HC35V6KZ",
+   "pct": 33,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HC35V6KZ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-marvels-spider-man-2-ps5-standard-edition-39-99-2832471/",
    "title": "Marvel's Spider-Man 2 - PS5 Standard Edition $39.99",
    "price": 39.99,
@@ -1098,42 +1134,6 @@
    "img": "/img/p/B00MI7NPBE.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-4-1-2-inch-angle-grinder-gws8-45-41-96-2833324/",
-   "title": "BOSCH 4-1/2 Inch Angle Grinder GWS8-45 $41.96",
-   "price": 41.96,
-   "was": 89.0,
-   "votes": 5,
-   "posts": 1,
-   "time": "2026-11-21T20:01:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-4-1-2-inch-angle-grinder-gws8-45-41-96-2833324/",
-   "asin": "B01HD4EH4A",
-   "pct": 53,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B01HD4EH4A?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01HD4EH4A.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
-   "price": 269.99,
-   "was": null,
-   "votes": 5,
-   "posts": 5,
-   "time": "2026-11-21T20:11:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "asin": "B0DHWCQ3FP",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHWCQ3FP?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHWCQ3FP.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
    "title": "LG UltraWide 34U601 34\" 120Hz WQHD Curved Gaming Monitor FreeSync Premium on sale $279.99($339.99)",
    "price": 279.99,
@@ -1240,6 +1240,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00009LI4K.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
+   "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
+   "price": 269.99,
+   "was": null,
+   "votes": 4,
+   "posts": 6,
+   "time": "2026-11-21T20:11:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
+   "asin": "B0DHWCQ3FP",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DHWCQ3FP?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHWCQ3FP.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
@@ -1582,24 +1600,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B08R8YZR32.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
-   "title": "24V 13\"\" Cordless Snow Shovel - $148.99",
-   "price": 148.99,
-   "was": 179.99,
-   "votes": 2,
-   "posts": 3,
-   "time": "2026-11-19T23:20:08+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
-   "asin": "B0B1TXSFMK",
-   "pct": 17,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B1TXSFMK?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B1TXSFMK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
