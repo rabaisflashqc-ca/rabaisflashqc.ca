@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T16:52-04:00",
+ "date": "2026-11-22T17:46-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,13 +21,13 @@
     "2026-11-16T18:17:56+00:00"
    ],
    [
-    "2026-11-21T20:01:02+00:00",
-    "2026-11-21T20:11:31+00:00"
+    "2026-11-22T18:44:38+00:00",
+    "2026-11-22T19:21:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   28,
+   26,
    [
     "2026-11-21T05:28:17+00:00",
     "2026-11-21T06:43:13+00:00"
@@ -51,7 +51,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   23,
+   25,
    [
     "2026-11-19T15:30:19+00:00",
     "2026-11-19T15:36:53+00:00"
@@ -85,8 +85,8 @@
     "2026-11-17T05:58:30+00:00"
    ]
   ],
-  "avant_filtre_date": 142,
-  "apres_filtre_date": 128
+  "avant_filtre_date": 143,
+  "apres_filtre_date": 129
  },
  "items": [
   {
@@ -288,6 +288,24 @@
    "img": "/img/p/B0FC33ZF1B.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
+   "price": 1167.0,
+   "was": 1747.0,
+   "votes": 14,
+   "posts": 14,
+   "time": "2026-11-22T17:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "asin": "B0HC35V6KZ",
+   "pct": 33,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HC35V6KZ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-ceramic-box-cutter-5-23-40-2832832/",
    "title": "Amazon Basics Ceramic Box Cutter $5.23 (-40%)",
    "price": 5.23,
@@ -340,24 +358,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0CS3B7MD8.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
-   "price": 1167.0,
-   "was": 1747.0,
-   "votes": 12,
-   "posts": 14,
-   "time": "2026-11-22T17:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "asin": "B0HC35V6KZ",
-   "pct": 33,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HC35V6KZ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-worx-wx242l-electric-screwdriver-30-piece-accessory-kit-43-53-2832886/",
@@ -918,24 +918,6 @@
    "img": "/img/p/B0GRX7JKPS.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
-   "price": 69.99,
-   "was": 100.45,
-   "votes": 6,
-   "posts": 19,
-   "time": "2026-11-21T01:37:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "asin": "B099WVY11W",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B099WVY11W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B099WVY11W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
    "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
    "price": 65.55,
@@ -1078,6 +1060,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BLMQ8BXB.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
+   "price": 69.99,
+   "was": 100.45,
+   "votes": 5,
+   "posts": 19,
+   "time": "2026-11-21T01:37:50+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
+   "asin": "B099WVY11W",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B099WVY11W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B099WVY11W.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-professional-plus-duo-blender-1400w-auto-iq-sale-99-99-219-99-2833271/",
@@ -1247,7 +1247,7 @@
    "price": 269.99,
    "was": null,
    "votes": 4,
-   "posts": 9,
+   "posts": 12,
    "time": "2026-11-21T20:11:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
    "asin": "B0GL28YMNT",
@@ -1258,6 +1258,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GL28YMNT.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
+   "title": "Shark Navigator Swivel Pro Complete Upright Vacuum, Red, NV150C",
+   "price": 99.98,
+   "was": 199.98,
+   "votes": 4,
+   "posts": 7,
+   "time": "2026-11-22T18:44:38+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
+   "asin": "B08DJ8Z3WH",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08DJ8Z3WH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08DJ8Z3WH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
@@ -1384,6 +1402,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DCG1JGKN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
+   "title": "Anker soundcore P31i Wireless ANC Earbuds • $37.99 • ATL",
+   "price": 37.99,
+   "was": 49.99,
+   "votes": 3,
+   "posts": 0,
+   "time": "2026-11-22T19:21:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
+   "asin": "B0FNWCYLZN",
+   "pct": 24,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-reolink-video-doorbell-poe-2k-wired-104-99-2832409/",
@@ -1566,76 +1602,40 @@
    "img": "/img/p/B0D9GM3NLV.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-dry-cat-food-liveclear-chicken-rice-7-26-kg-bag-2832938/",
-   "title": "Dry Cat Food, LiveClear Chicken & Rice - 7.26 kg Bag",
-   "price": 70.0,
-   "was": 95.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
+   "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
+   "price": 599.99,
+   "was": 1399.9,
    "votes": 2,
    "posts": 0,
-   "time": "2026-11-19T20:04:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-dry-cat-food-liveclear-chicken-rice-7-26-kg-bag-2832938/",
-   "asin": "B0848KXRBS",
-   "pct": 26,
-   "cat": "animaux",
-   "link": "https://www.amazon.ca/dp/B0848KXRBS?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0848KXRBS.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-breville-smart-oven-pizzaiolo-799-2832944/",
-   "title": "Breville the Smart Oven Pizzaiolo $799",
-   "price": 799.0,
-   "was": null,
-   "votes": 2,
-   "posts": 15,
-   "time": "2026-11-19T20:28:02+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-breville-smart-oven-pizzaiolo-799-2832944/",
-   "asin": "B08R8YZR32",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08R8YZR32?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08R8YZR32.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
-   "title": "Anker soundcore P31i Wireless ANC Earbuds • $37.99 • ATL",
-   "price": 37.99,
-   "was": 49.99,
-   "votes": 2,
-   "posts": 0,
-   "time": "2026-11-22T19:21:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
-   "asin": "B0FNWCYLZN",
-   "pct": 24,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FNWCYLZN.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
-   "title": "Shark Navigator Swivel Pro Complete Upright Vacuum, Red, NV150C",
-   "price": 99.98,
-   "was": 199.98,
-   "votes": 2,
-   "posts": 5,
-   "time": "2026-11-22T18:44:38+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
-   "asin": "B08DJ8Z3WH",
-   "pct": 50,
+   "time": "2026-11-21T14:49:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
+   "asin": "B0FWK41WF2",
+   "pct": 57,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08DJ8Z3WH?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B08DJ8Z3WH.jpg"
+   "img": "/img/p/B0FWK41WF2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
+   "title": "ECOVACS DEEBOT T90 PRO OMNI",
+   "price": 659.99,
+   "was": 899.99,
+   "votes": 2,
+   "posts": 2,
+   "time": "2026-11-21T05:28:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
+   "asin": "B0GFWQ5FRM",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GFWQ5FRM?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GFWQ5FRM.jpg"
   }
  ]
 }
