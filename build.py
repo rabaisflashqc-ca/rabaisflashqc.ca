@@ -1053,7 +1053,10 @@ def fresh_top5():
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     pool = [x for x in L if rfd_ok(x, now, hors) and 20 <= (x.get("pct") or 0) and (x.get("votes") is None or x["votes"] >= 5)]
-    pool.sort(key=lambda x: -(_score(x, now) + (8 if (x.get("img_url") or x.get("img")) else 0)))  # Top 5 : photo d'abord (plus vendeur)
+    pool.sort(key=lambda x: (
+        -datetime.datetime.fromisoformat(x.get("verifie") or x["seen"]).astimezone(ZoneInfo("America/Toronto")).date().toordinal(),
+        -(_score(x, now) + (8 if (x.get("img_url") or x.get("img")) else 0))
+    ))  # Les vérifications du jour d'abord, puis le score et la photo.
     if len(pool) < 3: return []
     picks, cats = sorted([x for x in pool if isinstance(x.get("top"), int)], key=lambda x: x["top"])[:5], set()  # choix à la main (champ top = rang)
     cats = {x["cat"] for x in picks}
