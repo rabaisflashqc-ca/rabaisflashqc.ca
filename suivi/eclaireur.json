@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23T17:34-04:00",
+ "date": "2026-11-23T18:17-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,7 +21,7 @@
     "2026-11-16T23:58:29+00:00"
    ],
    [
-    "2026-11-23T02:48:17+00:00",
+    "2026-11-21T20:11:31+00:00",
     "2026-11-23T13:06:51+00:00"
    ]
   ],
@@ -94,8 +94,8 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 71,
-   "posts": 50,
+   "votes": 73,
+   "posts": 51,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
    "asin": "B00CHOUI86",
@@ -112,7 +112,7 @@
    "title": "NATURE VALLEY - VALUE PACK SIZE - Double Chocolate Granola Bars, Pack of 28 Bars - $6.86 (40% subscription coupon)",
    "price": 6.86,
    "was": 11.85,
-   "votes": 67,
+   "votes": 68,
    "posts": 30,
    "time": "2026-11-23T08:13:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
@@ -166,8 +166,8 @@
    "title": "Helly Hansen Men's Rain Jacket @ $63.98",
    "price": 63.98,
    "was": null,
-   "votes": 32,
-   "posts": 20,
+   "votes": 33,
+   "posts": 19,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
    "asin": "B0C3JRVSL2",
@@ -175,7 +175,7 @@
    "cat": "mode",
    "link": "https://www.amazon.ca/dp/B0C3JRVSL2?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 3,
+   "morts": 2,
    "doute": true,
    "img": "/img/p/B0C3JRVSL2.jpg"
   },
@@ -185,7 +185,7 @@
    "price": 1167.0,
    "was": 1747.0,
    "votes": 25,
-   "posts": 25,
+   "posts": 26,
    "time": "2026-11-22T17:06:59+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
    "asin": "B0HC35V6KZ",
@@ -635,7 +635,7 @@
    "price": 389.1,
    "was": 549.99,
    "votes": 8,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-11-21T13:14:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
    "asin": "B0DHGNBXXC",
@@ -682,6 +682,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B004GIXRMK.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
+   "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
+   "price": 14.0,
+   "was": 40.0,
+   "votes": 8,
+   "posts": 1,
+   "time": "2026-11-23T02:48:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
+   "asin": "B0D6X2JQY7",
+   "pct": 65,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0D6X2JQY7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D6X2JQY7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-2833434/",
@@ -898,24 +916,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CC9DB4YB.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
-   "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
-   "price": 14.0,
-   "was": 40.0,
-   "votes": 7,
-   "posts": 1,
-   "time": "2026-11-23T02:48:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
-   "asin": "B0D6X2JQY7",
-   "pct": 65,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0D6X2JQY7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D6X2JQY7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
