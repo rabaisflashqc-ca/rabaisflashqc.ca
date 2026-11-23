@@ -53,7 +53,7 @@ def _verifie(d):
     return {**d, "price": p, "was": w, "pct": pct, "amzPct": pct, "live": True, "verifie": v["seen"], "added": v["seen"][:10]}
 DEALS = [x for x in (_verifie(d) for d in DEALS) if x]
 
-# --- Règle du 3 nov. : un prix n'est affiché QUE pour un deal Keepa (suivi/deals_chrome.json) lu il y a moins de 24 h ---
+# --- Règle du 3 nov. : un prix n'est affiché que pour un deal Keepa lu dans les dernières 72 h ---
 RETIRES = {"B000634MH8", "B0BXSXF81R", "B0CW1PK5QT"}  # ASIN erronés ou prix faux (incident du 2 nov.), à retirer tant qu'ils ne repassent pas par Keepa
 def _keepa_frais():
     out = {}
@@ -62,7 +62,7 @@ def _keepa_frais():
             try:
                 _n = datetime.datetime.now(datetime.timezone.utc)
                 if x.get("until") and datetime.datetime.fromisoformat(x["until"]) < _n: continue  # offre éclair ou prix expiré
-                if (_n - datetime.datetime.fromisoformat(x["seen"])).total_seconds() < 24 * 3600:
+                if (_n - datetime.datetime.fromisoformat(x["seen"])).total_seconds() < 72 * 3600:
                     out[x["asin"]] = x
             except Exception: pass
     except Exception: pass
@@ -82,7 +82,7 @@ DEALS = [_appliquer_keepa(d) for d in DEALS if d.get("asin") not in RETIRES]
 def load_scan():
     """Deals scannés (éclaireur) + deals du jour trouvés dans Chrome (suivi/deals_chrome.json), avec les prix vérifiés appliqués."""
     L = []
-    for f in ("suivi/deals_chrome.json",):  # seule source de prix affichables : Keepa lu il y a moins de 24 h
+    for f in ("suivi/deals_chrome.json",):  # seule source de prix affichables : Keepa lu dans les dernières 72 h
         try: L += [x for x in json.loads((ROOT / f).read_text()) if x.get("asin") in KEEPA_FRAIS and x["asin"] not in RETIRES]
         except Exception: pass
     vus, out = set(), []
@@ -1013,12 +1013,12 @@ def rfd_card(x, stats='🔥 Deal du moment'):
 HORS_AUDIENCE = re.compile(r"gaming|gamer|gpu|graphics card|ssd|nvme|motherboard|mouse pad|dry erase|server|nas\b|raspberry|soldering|oscilloscope", re.I)
 
 def rfd_ok(x, now, hors):
-    """Deal repéré affichable : repéré il y a 7 jours max (les fils morts sont écartés), scanné il y a 12 h max, prix connu, rabais réaliste (85 % max),
+    """Deal repéré affichable : repéré il y a 7 jours max (les fils morts sont écartés), scanné il y a 72 h max, prix connu, rabais réaliste (85 % max),
     pas mal voté, pas de signe de deal mort, en saison et pour notre audience (Québécois 25-55 ans, maison, famille, cadeaux)."""
     try:
         # deals Chrome (Keepa) : pas de « posted », on prend l'heure de lecture
         posted = datetime.datetime.fromisoformat(x.get("posted") or x["seen"]); seen = datetime.datetime.fromisoformat(x["seen"])
-        if (now - posted).total_seconds() > 7 * 86400 or (now - seen).total_seconds() > 12 * 3600: return False
+        if (now - posted).total_seconds() > 7 * 86400 or (now - seen).total_seconds() > 72 * 3600: return False
         if datetime.datetime.fromisoformat(x["until"]) <= now: return False
     except Exception: return False
     if not (x.get("asin") and x.get("title") and x.get("price")): return False
@@ -1046,7 +1046,7 @@ def _marque_top(x):
     return "amazon" if b in ("echo", "kindle", "fire tv", "blink") else b.replace("sonicare", "philips")
 
 def fresh_top5():
-    """Top 5 bâti à partir des deals frais (moins de 12 h : éclaireur et Keepa dans Chrome), recalculé à chaque build.
+    """Top 5 bâti à partir des deals frais (moins de 72 h : éclaireur et Keepa dans Chrome), recalculé à chaque build.
     Pas de verrou : dès qu'un meilleur deal plus récent arrive, il entre dans le Top 5.
     Un seul deal par catégorie d'abord pour varier."""
     L = load_scan()
@@ -1154,12 +1154,11 @@ def famille_block():
             '<p class="famc">' + "".join(chips) + '</p>' + "".join(rows) + '</section>')
 
 def prevf_list():
-    """Offres pré-Vendredi fou (champ vf dans suivi/deals_chrome.json, lues il y a moins de 24 h), photo d'abord puis plus gros rabais."""
+    """Offres pré-Vendredi fou lues dans les dernières 72 h; variété par catégorie, puis image et rabais."""
     now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
     L = [x for x in KEEPA_FRAIS.values() if x.get("vf") and x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
          and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
-    L.sort(key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
-    return [{**x, "verifie": x["seen"]} for x in _varier(L)]
+    return [{**x, "verifie": x["seen"]} for x in _varier_par_jour(L)]
 
 _MARQUES = re.compile(r"\b(Blink|Ring|eufy|Tapo|Arlo|Google|JBL|Bose|Sony|Anker|Soundcore|Samsung|Fujifilm|Canon|Nothing|Oral-B|Philips|Sonicare|Crest|Aquasonic|AquaSonic|BaBylissPRO|Conair|InfinitiPRO|Remington|grace & stella|NIVEA|NEOSTRATA|ATTITUDE|Hempz|Ninja|Shark|BISSELL|Hoover|Cuisinart|Nespresso|De'Longhi|Braun|Cosori|Chefman|FoodSaver|HexClad|HENCKELS|Lagostina|Rubbermaid|Thermos|Stanley|Levi|Signature by Levi|Carhartt|SAXX|Nautica|Amazon Essentials|Amazon Basics|Shapermint|Karl Lagerfeld|DKNY|Dockers|Aeropostale|PUMA|LEGO|Magna-Tiles|Melissa & Doug|Our Generation|B\\. toys|Crayola|Hot Wheels|National Geographic|Laura Ashley|Eddie Bauer|The North Face|Under Armour|Hanes|Crocs|DEWALT|SINGER|Roborock|Yankee Candle|Litter Genie)\b", re.I)
 _ORDRE_CATS = ["beaute", "femme", "jouets", "maison", "homme", "enfants", "animaux", "tech", "plein-air"]
@@ -1183,6 +1182,15 @@ def _varier(L):
         for c in cats:
             if par_cat.get(c): out.append(par_cat[c].pop(0))
     return out + reste
+
+def _varier_par_jour(L):
+    """Garde la variété par catégorie et place les offres du jour avant celles des jours précédents."""
+    jours = {}
+    for x in L:
+        jour = datetime.datetime.fromisoformat(x["seen"]).astimezone(ZoneInfo("America/Toronto")).date()
+        jours.setdefault(jour, []).append(x)
+    return [x for jour in sorted(jours, reverse=True)
+            for x in _varier(sorted(jours[jour], key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0))))]
 
 def _pv_home(n=12):
     """Cartes de « Prix de Vendredi fou, déjà là » sur l'accueil : jamais celles du Top 5 (elles se répétaient juste en dessous, 22 nov.)."""
@@ -1209,11 +1217,11 @@ OJ_THEMES = [("pre-vendredi-fou", "🔥 Prix de Vendredi fou, déjà là", lambd
 
 def offres_du_jour_page():
     """Page /offres-du-jour/ (10 nov., demande d'Alex : « plus wow que le site ») : page d'arrivée de l'infolettre, mise en page à part.
-    Tous les deals lus il y a moins de 24 h, par thème, grandes photos, filtres de prix, compte à rebours réel vers le 27 nov."""
+    Tous les deals lus il y a moins de 72 h, par thème, grandes photos, filtres de prix, compte à rebours réel vers le 27 nov."""
     now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
     L = [x for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and 15 <= (x.get("pct") or 0) <= 85
          and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
-    L.sort(key=lambda x: (0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
+    L.sort(key=lambda x: (-datetime.datetime.fromisoformat(x["seen"]).timestamp(), 0 if x.get("img_url") else 1, -(x.get("pct") or 0)))
     EMO = {"tech": "🎧", "maison": "🏠", "beaute": "💄", "jouets": "🧸", "enfants": "🧸", "homme": "👕", "femme": "👗", "animaux": "🐾", "plein-air": "🏃"}
     def when(x):
         d = datetime.datetime.fromisoformat(x["seen"]).astimezone(ZoneInfo("America/Toronto"))
@@ -1295,11 +1303,11 @@ var a=location.hash.slice(1);if(/^[A-Z0-9]{10}$/.test(a)){var d=document.querySe
             f'<script>{js}</script></body></html>')
 
 def vf_block():
-    """Page Vendredi fou : meilleurs deals Keepa vérifiés (moins de 24 h) + vrai compte à rebours vers le 27 nov. 2026."""
+    """Page Vendredi fou : meilleurs deals Keepa vérifiés dans les dernières 72 h + compte à rebours vers le 27 nov. 2026."""
     now = datetime.datetime.now(datetime.timezone.utc)
     hors = HORS_SAISON(now)
     L = [x for x in KEEPA_FRAIS.values() if x["asin"] not in RETIRES and x.get("price") and (x.get("pct") or 0) >= 15 and not hors.search(x["title"]) and not HORS_AUDIENCE.search(x["title"])]
-    L = [{**x, "verifie": x["seen"]} for x in sorted(L, key=lambda x: -(x.get("pct") or 0))[:40]]
+    L = [{**x, "verifie": x["seen"]} for x in sorted(L, key=lambda x: (-datetime.datetime.fromisoformat(x["seen"]).timestamp(), -(x.get("pct") or 0)))[:40]]
     cd = ('<div class="seas" style="display:block;text-align:center"><strong id="vfc">Vendredi fou : 27 novembre 2026</strong></div>'
           '<script>(function(){var el=document.getElementById("vfc"),t=Date.parse("2026-11-27T05:00:00Z");function f(){var ms=t-Date.now();if(ms<=0){el.textContent="C\'est le Vendredi fou! 🔥";return}var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);el.innerHTML="Vendredi fou dans <b>"+d+" j "+h+" h "+m+" min</b>"}f();setInterval(f,60000)})();</script>')
     cd += prevf_block()

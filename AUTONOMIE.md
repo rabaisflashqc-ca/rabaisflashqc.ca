@@ -29,7 +29,7 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 - discovered_at = moment où l'offre a été repérée. Ça ne vaut JAMAIS vérification.
 - price_verified_at = heure réelle de lecture du prix sur Keepa (champ seen). C'est la seule heure permise dans un texte (« prix vérifié le 3 nov. à 8 h 15 »).
 - Verrou obligatoire avant tout push d'un pack : `python3 outils/verifier_pack.py suivi/posts/AAAA-MM-JJ-matin.md suivi/deals_chrome.json --max-heures 12` doit afficher RESULTAT: PASS. Sinon on ne pousse pas. Le pack doit finir par la section « ## Données (ne pas publier) » avec un bloc json (asin, nom, price, was, pct, price_verified_at, price_source "keepa", discovered_at).
-- Le site (build.py) n'affiche un prix que pour les deals de suivi/deals_chrome.json lus il y a moins de 24 h. Sans lecture Keepa récente : « Voir le prix actuel 👉 » ou rien. Incident du 2 nov. : les prix et ASIN de l'éclaireur étaient faux (ORICO, TP-Link, griffoir) ; les ASIN B000634MH8, B0BXSXF81R et B0CW1PK5QT sont retirés du site tant qu'ils ne repassent pas par Keepa.
+- Le site (build.py) n'affiche un prix que pour les deals de suivi/deals_chrome.json lus dans les dernières 72 h. Sans lecture Keepa récente : « Voir le prix actuel 👉 » ou rien. Incident du 2 nov. : les prix et ASIN de l'éclaireur étaient faux (ORICO, TP-Link, griffoir) ; les ASIN B000634MH8, B0BXSXF81R et B0CW1PK5QT sont retirés du site tant qu'ils ne repassent pas par Keepa.
 - Les deals de l'éclaireur et du catalogue ne vont jamais dans un pack.
 - Pas de « Amazon.ca » dans les textes Facebook, Instagram, TikTok ni dans le premier commentaire : « sur Amazon », et on renvoie vers rabaisflashqc.ca.
 
@@ -55,7 +55,7 @@ Objectif unique : des clics vers Amazon qui deviennent des commissions, en passa
 
 ## Top 5 du site
 
-- Le Top 5 de l'accueil est recalculé à chaque build, sans verrou (demande d'Alex du 2 nov.) : dès qu'un meilleur deal plus récent arrive, il entre. Source : deals de moins de 12 h (éclaireur et Keepa dans Chrome). Classement `_score()` dans build.py : % de rabais + petit bonus de votes (10 max) − 1 point par heure depuis la lecture du prix, un deal par catégorie d'abord. S'il y a moins de 3 deals frais, le site revient au Top 5 du catalogue.
+- Le Top 5 de l'accueil est recalculé à chaque build, sans verrou (demande d'Alex du 2 nov.) : dès qu'un meilleur deal plus récent arrive, il entre. Source : deals de moins de 72 h (éclaireur et Keepa dans Chrome). Classement `_score()` dans build.py : % de rabais + petit bonus de votes (10 max) − 1 point par heure depuis la lecture du prix, un deal par catégorie d'abord. S'il y a moins de 3 deals frais, le site revient au Top 5 du catalogue.
 - Variété du Top 5 (demande d'Alex du 19 nov.) : 1 deal par catégorie, 1 par marque (Echo, Fire TV, Kindle et Blink comptent comme une seule marque, Amazon), au plus 2 deals de 150 $ et plus, au moins 1 deal de moins de 30 $ (`_marque_top()` dans fresh_top5 de build.py).
 - L'éclaireur roule aussi juste avant le pack du matin et la publication du soir.
 - Vérité des prix : un deal repéré affiche « prix repéré le [date de publication du deal] », jamais l'heure du scan comme si le prix avait été vérifié. Les fils où une des 5 dernières réponses parle de deal mort ou de prix remonté sont écartés. Les prix du catalogue de plus de 3 jours sont cachés. Aucun compte à rebours inventé.

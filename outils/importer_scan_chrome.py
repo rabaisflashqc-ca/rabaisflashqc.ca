@@ -6,7 +6,7 @@ Usage : python3 outils/importer_scan_chrome.py KEEPA.json AMAZON.json [--max-kee
 KEEPA.json  : {"scanned": ISO, "items": [{a, t, p, w, n, f, i}]}   (a = ASIN, p = % de baisse, w = moyenne, n = prix actuel, f = âge, i = id d'image)
 AMAZON.json : {"scanned": ISO, "grid": [...], "shelves": [...]}     (prix, ancien prix, titre, image lus sur la page Vendredi fou)
 
-Règles du site (AUTONOMIE.md) : photo Amazon en lien direct (img_url), prix = lecture réelle (seen), valable 24 h (until),
+Règles du site (AUTONOMIE.md) : photo Amazon en lien direct (img_url), prix = lecture réelle (seen), visible 72 h (until),
 vf = true dès 30 % et photo, ref = "conseille" quand l'ancien prix est un « Prix conseillé », pas d'épicerie ni de livres.
 """
 import json, re, sys, datetime, pathlib, argparse, html
@@ -128,7 +128,7 @@ def keywords_key(t):
 
 kj = json.load(open(args.keepa)); aj = json.load(open(args.amazon))
 seen_k = iso(kj["scanned"]); seen_a = iso(aj["scanned"])
-until = lambda s: (datetime.datetime.fromisoformat(s) + datetime.timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M%z")[:-2] + ":" + datetime.datetime.fromisoformat(s).strftime("%z")[-2:]
+until = lambda s: (datetime.datetime.fromisoformat(s) + datetime.timedelta(hours=72)).strftime("%Y-%m-%dT%H:%M%z")[:-2] + ":" + datetime.datetime.fromisoformat(s).strftime("%z")[-2:]
 
 # ---------- Amazon : page Vendredi fou ----------
 amz, vus = [], set()

@@ -172,7 +172,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
 <h1>🔎 Éclaireur du matin</h1><p>Deals Amazon.ca les plus votés sur RedFlagDeals, {now:%d/%m à %H h %M}. Le chiffre rouge = votes de la communauté.<br>
 <b>À faire :</b> ouvre ceux qui t'intéressent, fais une capture et envoie-la pour confirmer le rabais avant qu'il aille sur le site.</p>
 <ul>{rows}</ul><p style="color:#888;font-size:13px">{len(items)} deals avec lien Amazon sur {len(th)} fils lus.</p></body></html>""")
-    # Publication autonome : les plus votés, prix et rabais signalés (datés et attribués), valables 24 h
+    # Publication autonome : les plus votés, prix et rabais signalés (datés et attribués), visibles 72 h
     def clean(t):
         t = re.sub(r"\s+-?\s*\d+\s?[mhdw] ago.*$", "", t)
         t = re.sub(r"\[?\(?\bamazon(\.ca)?\b\)?\]?\s*[-:|]?", "", t, flags=re.I)
@@ -187,7 +187,7 @@ li.d{{opacity:.55}}.v{{min-width:44px;height:44px;border-radius:50%;background:#
         cnt[x["cat"]] = cnt.get(x["cat"], 0) + 1
         pub.append({"asin": x["asin"], "title": clean(x["title"]), "cat": x["cat"], "votes": x["votes"], "posts": x.get("posts"),
                     "rfd": x["rfd"], "img": x.get("img"), "doute": x.get("doute"), "morts": x.get("morts"), "price": x.get("price"), "was": x.get("was"), "pct": x.get("pct"), "posted": x.get("time"),
-                    "seen": now.isoformat(timespec="minutes"), "until": (now + datetime.timedelta(hours=24)).isoformat(timespec="minutes")})
+                    "seen": now.isoformat(timespec="minutes"), "until": (now + datetime.timedelta(hours=72)).isoformat(timespec="minutes")})
         if len(pub) >= TOTAL: break
     print("Par catégorie :", cnt)
     old = []
