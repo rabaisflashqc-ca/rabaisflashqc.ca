@@ -1077,6 +1077,10 @@ def fresh_top5():
     except Exception: pass
     return picks
 
+def index_recherche_n():
+    now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
+    return [x for x in load_scan() if rfd_ok(x, now, hors) and (x.get("pct") or 0) >= 15]
+
 def rfd_block(cats=None):
     L = load_scan()
     if cats: L = sorted([x for x in L if x.get("cat") in cats], key=lambda x: -_score(x, datetime.datetime.now(datetime.timezone.utc)))
@@ -1092,13 +1096,21 @@ def rfd_block(cats=None):
     hors = HORS_SAISON(now)
     L = [x for x in L if not hors.search(x["title"])]
     if not L: return ""
-    if not cats: L = [x for x in L if x.get("asin") not in TOP_ASINS and x.get("asin") not in FAM_ASINS]  # accueil : pas de doublon avec le Top 5 ni avec « un cadeau pour chaque membre »
+    if not cats:  # accueil : pas de doublon avec le Top 5, « un cadeau pour chaque membre » ni « Prix de Vendredi fou, déjà là » (22 nov. : la page se répétait vers le bas)
+        _pv = {x["asin"] for x in _pv_home()}
+        vus_t, L2 = set(), []
+        for x in L:
+            k = (x.get("title") or "").lower()[:40]
+            if x.get("asin") in TOP_ASINS or x.get("asin") in FAM_ASINS or x.get("asin") in _pv or k in vus_t: continue
+            vus_t.add(k); L2.append(x)
+        L = _varier(L2)  # une marque et une catégorie à la fois, pas 60 vêtements de suite
     if not L: return ""
     card = rfd_card
-    li = "".join(card(x) for x in (L[:80] if cats else L[:250]))  # max de deals (demandes d'Alex du 7 et du 17 nov., pour la barre de recherche) : 80 par catégorie, 250 sur l'accueil
+    li = "".join(card(x) for x in (L[:80] if cats else L[:96]))  # accueil : 96 cartes (24 rangées), le reste est sur /recherche/ et /vendredi-fou/ (page d'accueil de 41 000 px le 22 nov. = trop longue)
+    more = "" if cats else (f'<p class="more"><a href="/recherche/">🔎 Fouiller les {len(index_recherche_n())} rabais (filtres et tri) →</a> <a href="/vendredi-fou/">🔥 Tous les prix de Vendredi fou →</a></p>')
     return ('<section class="topbox" aria-label="Deals du moment"><h2>⚡ Les deals à saisir maintenant</h2>'
             '<p class="topsub">Les aubaines Amazon qui ont passé notre tri aujourd\'hui, avec notre verdict sur chaque carte. Elles partent vite!</p>'
-            f'<ul class="deals">{li}</ul></section>')
+            f'<ul class="deals">{li}</ul>{more}</section>')
 
 def tri_block():
     """Accueil (16 nov. 2026) : pourquoi passer par ici avant d'acheter. Court, après les premiers deals."""
@@ -1117,7 +1129,8 @@ def famille_block():
     """Accueil (demande d'Alex du 9 nov. : viser l'audience, maximum de clics) : un cadeau pour chaque membre de la famille,
     4 deals frais par personne (photo d'abord), plus une rangée « bas de Noël » à moins de 25 $. Pas de doublon avec le Top 5."""
     now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
-    L = [x for x in load_scan() if rfd_ok(x, now, hors) and x.get("asin") not in TOP_ASINS]
+    _pvh = {x["asin"] for x in _pv_home()}
+    L = [x for x in load_scan() if rfd_ok(x, now, hors) and x.get("asin") not in TOP_ASINS and x.get("asin") not in _pvh]
     L.sort(key=lambda x: -(_score(x, now) + (30 if (x.get("img_url") or x.get("img")) else 0)))  # photo d'abord, nettement (plus vendeur)
     FAM_ASINS.clear(); rows = []; chips = []
     def take(f, n=4):
@@ -1171,9 +1184,14 @@ def _varier(L):
             if par_cat.get(c): out.append(par_cat[c].pop(0))
     return out + reste
 
+def _pv_home(n=12):
+    """Cartes de « Prix de Vendredi fou, déjà là » sur l'accueil : jamais celles du Top 5 (elles se répétaient juste en dessous, 22 nov.)."""
+    return [x for x in prevf_list() if x["asin"] not in TOP_ASINS][:n]
+
 def prevf_block(n=None):
     """Section mise en avant (demande d'Alex du 10 nov.) : les offres pré-Vendredi fou d'Amazon. n = nombre de cartes (accueil), None = toutes."""
     L = prevf_list()
+    if n: L = [x for x in L if x["asin"] not in TOP_ASINS]
     if not L: return ""
     more = f'<p class="more"><a href="/vendredi-fou/">Voir les {len(L)} deals à prix de Vendredi fou →</a></p>' if n and len(L) > n else ""
     return ('<section class="topbox" id="pre-vendredi-fou" aria-label="Offres pré-Vendredi fou"><h2>🔥 Prix de Vendredi fou, déjà là</h2>'
