@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-23T17:59+00:00",
+ "genere": "2026-11-23T19:32+00:00",
  "produits": [
   {
    "asin": "B0D3KWJ61T",
@@ -23,7 +23,7 @@
   },
   {
    "asin": "B072FB4P23",
-   "titre": "Nespresso Essenza Mini, machine à espresso",
+   "titre": "Nespresso Essenza Mini Machine à expresso Piano Noir",
    "prix_affiche": 99.0
   },
   {
@@ -68,7 +68,7 @@
   },
   {
    "asin": "B0F4DYKJ3T",
-   "titre": "Philips i9000 Prestige, rasoir électrique",
+   "titre": "Philips i9000 Prestige Rasoir électrique",
    "prix_affiche": 219.95
   },
   {
@@ -108,7 +108,7 @@
   },
   {
    "asin": "B0B15Q3HCQ",
-   "titre": "Ninja Foodi DZ550, friteuse à air double",
+   "titre": "Ninja Foodi DZ550 Friteuse à air Smart XL DualZone",
    "prix_affiche": 199.99
   },
   {
@@ -288,7 +288,7 @@
   },
   {
    "asin": "B0B5VQSC32",
-   "titre": "Philips Sonicare DiamondClean 9000, brosse à dents électrique",
+   "titre": "Philips Sonicare DiamondClean 9000 Brosse à dents électrique",
    "prix_affiche": 124.95
   },
   {
@@ -298,7 +298,7 @@
   },
   {
    "asin": "B0FJJ3517W",
-   "titre": "Ring, sonnette câblée 2K",
+   "titre": "Sonnette câblée Ring 2K",
    "prix_affiche": 54.99
   },
   {
@@ -363,7 +363,7 @@
   },
   {
    "asin": "B0B38KRTV6",
-   "titre": "De'Longhi Magnifica Evo, machine espresso automatique",
+   "titre": "De'Longhi Magnifica Evo Machine à expresso automatique",
    "prix_affiche": 599.98
   },
   {
@@ -378,7 +378,7 @@
   },
   {
    "asin": "B0D88SMLS2",
-   "titre": "Ninja SLUSHi, machine à boissons glacées",
+   "titre": "Ninja SLUSHi FS301C Machine à boissons glacées",
    "prix_affiche": 279.99
   },
   {
@@ -468,12 +468,12 @@
   },
   {
    "asin": "B0BDSLFXQ1",
-   "titre": "Ninja Foodi PossibleCooker, multicuiseur",
+   "titre": "Ninja MC1001C Foodi PossibleCooker PRO 8,5 l Multicuiseur",
    "prix_affiche": 139.99
   },
   {
    "asin": "B0GFWRY9K4",
-   "titre": "Samsung Galaxy Buds4 Pro, écouteurs sans fil",
+   "titre": "Samsung Galaxy Buds4 Pro noir",
    "prix_affiche": 229.98
   },
   {
@@ -483,7 +483,7 @@
   },
   {
    "asin": "B0CLTKGWQX",
-   "titre": "Our Place Wonder Oven, four-friteuse à air",
+   "titre": "Our Place Wonder Oven Friteuse à air et grille-pain 6 en 1",
    "prix_affiche": 179.0
   },
   {
@@ -493,7 +493,7 @@
   },
   {
    "asin": "B0GRK1N94H",
-   "titre": "Oura Ring 5, bague intelligente santé et sommeil",
+   "titre": "Oura Ring 5 Smart Ring - Argent - Taille 8 - Tracker fitness et sommeil",
    "prix_affiche": 399.0
   },
   {
@@ -628,7 +628,7 @@
   },
   {
    "asin": "B07GZX7GJ1",
-   "titre": "Lee Extreme Motion, pantalon pour homme",
+   "titre": "Lee Extreme Motion Reg pour homme",
    "prix_affiche": 37.91
   },
   {
@@ -642,14 +642,29 @@
    "prix_affiche": 34.22
   },
   {
+   "asin": "B01MT57OMW",
+   "titre": "Helly Hansen Crew Co pour femme",
+   "prix_affiche": 21.84
+  },
+  {
    "asin": "B0GZ8K8J5X",
    "titre": "Izod Performance Comfo pour homme",
    "prix_affiche": 37.72
   },
   {
+   "asin": "B0000DCS5T",
+   "titre": "Sperry Billfish 3-Eye pour homme",
+   "prix_affiche": 63.83
+  },
+  {
    "asin": "B0DJV2J2ZQ",
    "titre": "adidas Barreda Decode pour homme",
    "prix_affiche": 48.0
+  },
+  {
+   "asin": "B09K4SR37S",
+   "titre": "MARMOT Culebra Peak Ho pour homme",
+   "prix_affiche": 42.49
   },
   {
    "asin": "B0C34HTYQ1",
@@ -667,6 +682,31 @@
    "prix_affiche": 29.98
   },
   {
+   "asin": "B0FW7N34LR",
+   "titre": "Levi's Superlow Boot pour femme",
+   "prix_affiche": 45.98
+  },
+  {
+   "asin": "B0CNQ77RMD",
+   "titre": "Easy Spirit Trina2 S pour femme",
+   "prix_affiche": 32.96
+  },
+  {
+   "asin": "B09YDR8HM7",
+   "titre": "ADIDAS Tiro 23 League Traini",
+   "prix_affiche": 29.34
+  },
+  {
+   "asin": "B07LBNZPH2",
+   "titre": "Helly Hansen Paramount pour homme",
+   "prix_affiche": 62.08
+  },
+  {
+   "asin": "B0FP2RVRX1",
+   "titre": "Wagons Cart Foldable",
+   "prix_affiche": 50.99
+  },
+  {
    "asin": "B0D7JVC9P3",
    "titre": "Lee Legendary Mid Ri pour femme",
    "prix_affiche": 22.31
@@ -675,6 +715,16 @@
    "asin": "B0D7K8J8C4",
    "titre": "Easy Spirit Travelti pour femme",
    "prix_affiche": 41.3
+  },
+  {
+   "asin": "B0979H2R4D",
+   "titre": "Van Heusen Big Fit Dre pour homme",
+   "prix_affiche": 26.7
+  },
+  {
+   "asin": "B0FLMFRN64",
+   "titre": "Forever 21 Flare Den pour femme",
+   "prix_affiche": 22.63
   },
   {
    "asin": "B0FFBKKVB1",
@@ -702,6 +752,16 @@
    "prix_affiche": 40.99
   },
   {
+   "asin": "B0FYFB7L4Y",
+   "titre": "Columbia PFG Fish Flag pour homme",
+   "prix_affiche": 59.66
+  },
+  {
+   "asin": "B0BTMTWSLX",
+   "titre": "Oakley Baseline Hybrid pour homme",
+   "prix_affiche": 37.4
+  },
+  {
    "asin": "B0DQRB925Y",
    "titre": "JOOLA GRAF Edge 16mm Pickleb",
    "prix_affiche": 59.99
@@ -727,6 +787,41 @@
    "prix_affiche": 33.68
   },
   {
+   "asin": "B0CBQFP6BG",
+   "titre": "Nine West Arlene Pump pour femme",
+   "prix_affiche": 75.6
+  },
+  {
+   "asin": "B0F335KNDL",
+   "titre": "adidas Response 2 Runn pour homme",
+   "prix_affiche": 40.0
+  },
+  {
+   "asin": "B0BV7JH8KW",
+   "titre": "Muck Boot Muckster Lit pour homme",
+   "prix_affiche": 55.0
+  },
+  {
+   "asin": "B0DFS8Q7P3",
+   "titre": "Skechers Arch Fit Ar pour femme",
+   "prix_affiche": 43.0
+  },
+  {
+   "asin": "B0G7779TTY",
+   "titre": "STANLEY Quencher H2.0 Tumble",
+   "prix_affiche": 23.0
+  },
+  {
+   "asin": "B0GTRTXRLW",
+   "titre": "OshKosh B'Gosh Short S pour garçon",
+   "prix_affiche": 27.16
+  },
+  {
+   "asin": "B09F6YL9KQ",
+   "titre": "eCarpetGallery Modern Geomet",
+   "prix_affiche": 75.99
+  },
+  {
    "asin": "B01I5P6YQ0",
    "titre": "Clarks Breeze Sea Fl pour femme",
    "prix_affiche": 33.14
@@ -747,9 +842,44 @@
    "prix_affiche": 47.99
   },
   {
+   "asin": "B0GXGPRD48",
+   "titre": "Carhartt Sawyer Work S pour homme",
+   "prix_affiche": 66.97
+  },
+  {
+   "asin": "B086V1RRMQ",
+   "titre": "Haggar The Active Seri pour homme",
+   "prix_affiche": 31.22
+  },
+  {
+   "asin": "B0007CKI0I",
+   "titre": "Wrangler 13MWZ Cowboy pour homme",
+   "prix_affiche": 40.79
+  },
+  {
+   "asin": "B07NX2MGG4",
+   "titre": "Zac & Rachel Pull-on pour femme",
+   "prix_affiche": 20.61
+  },
+  {
+   "asin": "B0CM4MCPWS",
+   "titre": "ALDO Harmonni Heeled pour femme",
+   "prix_affiche": 48.14
+  },
+  {
    "asin": "B09CG2SYLS",
    "titre": "Mattel Disney and Pixar Toy",
    "prix_affiche": 24.99
+  },
+  {
+   "asin": "B00GVE9XCK",
+   "titre": "Liberty Garden No.708 Wall M",
+   "prix_affiche": 119.99
+  },
+  {
+   "asin": "B0BYKF692X",
+   "titre": "Junk Food Classic Crew Neck",
+   "prix_affiche": 30.86
   },
   {
    "asin": "B08Q8QSMN3",
@@ -787,13 +917,18 @@
    "prix_affiche": 50.89
   },
   {
+   "asin": "B0BFR3MH9L",
+   "titre": "Amazon Essentials Lon pour fille",
+   "prix_affiche": 25.55
+  },
+  {
    "asin": "B0GYGCTTVB",
-   "titre": "Gildan, t-shirts à col rond pour homme (paquet)",
+   "titre": "Gildan Crew T-Shirts pour homme",
    "prix_affiche": 32.99
   },
   {
    "asin": "B0DK7VJLGJ",
-   "titre": "Adidas Grand Court, espadrilles pour femme",
+   "titre": "Adidas Grand Court L pour femme",
    "prix_affiche": 50.35
   },
   {
@@ -827,8 +962,23 @@
    "prix_affiche": 49.39
   },
   {
+   "asin": "B09FFR1X73",
+   "titre": "Columbia Fairbanks Low pour homme",
+   "prix_affiche": 77.25
+  },
+  {
+   "asin": "B0DL4LQXTF",
+   "titre": "Armani Exchange St pour homme",
+   "prix_affiche": 42.66
+  },
+  {
+   "asin": "B07Z4FCF7Q",
+   "titre": "R&M Richards Sequin pour femme",
+   "prix_affiche": 97.01
+  },
+  {
    "asin": "B0CN357TZV",
-   "titre": "Herschel Heritage, sac à dos",
+   "titre": "Herschel Heritage Backpack",
    "prix_affiche": 49.99
   },
   {
@@ -845,6 +995,16 @@
    "asin": "B08XZ5C7KM",
    "titre": "Alex and Ani Evil Eye + Soda",
    "prix_affiche": 20.63
+  },
+  {
+   "asin": "B07VHFR2Y7",
+   "titre": "Saro Lifestyle Embroidered S",
+   "prix_affiche": 30.12
+  },
+  {
+   "asin": "B07MNXBQYJ",
+   "titre": "Travelon Anti-theft",
+   "prix_affiche": 46.38
   },
   {
    "asin": "B0C5N9XPCF",
@@ -890,6 +1050,21 @@
    "asin": "B0FMNCJCN5",
    "titre": "Nike Precision 8 MID",
    "prix_affiche": 100.0
+  },
+  {
+   "asin": "B076JJ6LN4",
+   "titre": "DII Rustic Farmhouse Cotton",
+   "prix_affiche": 32.46
+  },
+  {
+   "asin": "B0CHN3M689",
+   "titre": "Homepop Home Decor / Upholst",
+   "prix_affiche": 109.87
+  },
+  {
+   "asin": "B01BNN65BK",
+   "titre": "Winsome Wood Anthony Kitchen",
+   "prix_affiche": 142.99
   },
   {
    "asin": "B0F4992DSG",
@@ -942,6 +1117,16 @@
    "prix_affiche": 51.28
   },
   {
+   "asin": "B018H8RFTA",
+   "titre": "Dockers Comfort Khaki pour homme",
+   "prix_affiche": 53.44
+  },
+  {
+   "asin": "B0DT5HX5KM",
+   "titre": "Simms M's Challenger P pour homme",
+   "prix_affiche": 71.36
+  },
+  {
    "asin": "B075WW3JKQ",
    "titre": "PlayShifu Globe for pour enfants",
    "prix_affiche": 52.99
@@ -950,6 +1135,11 @@
    "asin": "B0B7KNTMGS",
    "titre": "Portable Collapsible Pop Up",
    "prix_affiche": 32.3
+  },
+  {
+   "asin": "B0C3K3XYK2",
+   "titre": "Helly-Hansen Vancouver Rain",
+   "prix_affiche": 63.98
   },
   {
    "asin": "B007F8Y4YS",
@@ -985,6 +1175,21 @@
    "asin": "B000MX9196",
    "titre": "Bali Live It Up Seam pour femme",
    "prix_affiche": 38.0
+  },
+  {
+   "asin": "B0BPZW1GJ5",
+   "titre": "Elomi Namrah Underwi pour femme",
+   "prix_affiche": 47.07
+  },
+  {
+   "asin": "B011RAYSKY",
+   "titre": "PANACHE Panache Women pour femme",
+   "prix_affiche": 54.76
+  },
+  {
+   "asin": "B0CNC3387Q",
+   "titre": "Oakley Drift Tech Flee pour homme",
+   "prix_affiche": 75.0
   },
   {
    "asin": "B0711XCB27",
@@ -1042,9 +1247,39 @@
    "prix_affiche": 51.43
   },
   {
+   "asin": "B0FB17DLWD",
+   "titre": "Levi's Classic Skinn pour femme",
+   "prix_affiche": 45.21
+  },
+  {
+   "asin": "B0GMDVW6FY",
+   "titre": "Oakley Icon Tn Protect pour homme",
+   "prix_affiche": 39.0
+  },
+  {
+   "asin": "B0BZZWPB4F",
+   "titre": "Lacoste Sport Lightwei pour homme",
+   "prix_affiche": 68.65
+  },
+  {
+   "asin": "B093CBM66B",
+   "titre": "WallFlower Dreamer D pour femme",
+   "prix_affiche": 40.13
+  },
+  {
+   "asin": "B07MK53PYB",
+   "titre": "Ariat Perf pour femme",
+   "prix_affiche": 75.99
+  },
+  {
    "asin": "B07H8SKJ8J",
    "titre": "Amrapur Overseas 600 GSM 6-P",
    "prix_affiche": 44.99
+  },
+  {
+   "asin": "B08C22FZFK",
+   "titre": "CHICOLOGY Zebra Blinds, Roll",
+   "prix_affiche": 77.32
   },
   {
    "asin": "B07NXCJCCM",
@@ -1107,9 +1342,49 @@
    "prix_affiche": 96.4
   },
   {
+   "asin": "B0D286VRBC",
+   "titre": "adidas Club Tennis C pour femme",
+   "prix_affiche": 24.0
+  },
+  {
+   "asin": "B085SYPBGR",
+   "titre": "Speedo Swimsuit One pour femme",
+   "prix_affiche": 22.16
+  },
+  {
+   "asin": "B0DJWTP94Z",
+   "titre": "REVITALIGN Malibu Pa pour femme",
+   "prix_affiche": 65.88
+  },
+  {
+   "asin": "B0GJTGXD7F",
+   "titre": "Sperry Coastal CVO Can pour homme",
+   "prix_affiche": 47.5
+  },
+  {
+   "asin": "B0G35YKB32",
+   "titre": "Dr.Scholl's SHOES So pour femme",
+   "prix_affiche": 37.48
+  },
+  {
+   "asin": "B0DSPRT6KG",
+   "titre": "Easy Street Sol Heel pour femme",
+   "prix_affiche": 58.2
+  },
+  {
+   "asin": "B0CF7S4JJD",
+   "titre": "Kenneth Cole Classic pour femme",
+   "prix_affiche": 178.75
+  },
+  {
    "asin": "B0C7Q29TPX",
    "titre": "ECCO W Biom Golf Hybrid BNY",
    "prix_affiche": 118.99
+  },
+  {
+   "asin": "B0DP3FVDYW",
+   "titre": "OtterBox Samsung Galaxy S25+",
+   "prix_affiche": 38.99
   },
   {
    "asin": "B0FW7DSMGN",
@@ -1192,6 +1467,36 @@
    "prix_affiche": 87.67
   },
   {
+   "asin": "B0G3KXRHKJ",
+   "titre": "UGG W ELEA SLIP-ON, LIGHT BR",
+   "prix_affiche": 89.98
+  },
+  {
+   "asin": "B0F33TCJ6R",
+   "titre": "Under Armour Ignite Pr pour homme",
+   "prix_affiche": 33.75
+  },
+  {
+   "asin": "B0D884S6LG",
+   "titre": "Oakley Banks Slip-on S pour homme",
+   "prix_affiche": 68.94
+  },
+  {
+   "asin": "B0BMJRZ18Q",
+   "titre": "Merrell Antora 3 The pour femme",
+   "prix_affiche": 112.0
+  },
+  {
+   "asin": "B0C1HLG78H",
+   "titre": "Frye Sacha Mid Pull pour femme",
+   "prix_affiche": 199.68
+  },
+  {
+   "asin": "B0FLRX6SZ8",
+   "titre": "Karl Lagerfeld Short pour femme",
+   "prix_affiche": 41.39
+  },
+  {
    "asin": "B0757CWNLK",
    "titre": "Little House on the Prairie",
    "prix_affiche": 59.98
@@ -1215,6 +1520,11 @@
    "asin": "B0843WDR56",
    "titre": "Lush Decor Boho Stripe Windo",
    "prix_affiche": 27.27
+  },
+  {
+   "asin": "B085B6622L",
+   "titre": "Traveler's Choice Indestruct",
+   "prix_affiche": 106.32
   },
   {
    "asin": "B0D3JKLF8D",
@@ -1287,6 +1597,46 @@
    "prix_affiche": 94.92
   },
   {
+   "asin": "B0CKTTXG67",
+   "titre": "Venum Men's Wrestlin pour femme",
+   "prix_affiche": 128.39
+  },
+  {
+   "asin": "B09WJGXQ29",
+   "titre": "Danskin High Rise Bo pour femme",
+   "prix_affiche": 25.26
+  },
+  {
+   "asin": "B0CBWC2PFB",
+   "titre": "Hugo Small Logo Block pour homme",
+   "prix_affiche": 44.06
+  },
+  {
+   "asin": "B0G6GK2JYY",
+   "titre": "Franco Sarto Taziana pour femme",
+   "prix_affiche": 105.56
+  },
+  {
+   "asin": "B0GZ4MMMZ9",
+   "titre": "Bali Wireless Bra, F pour femme",
+   "prix_affiche": 43.64
+  },
+  {
+   "asin": "B015IH773W",
+   "titre": "ColdPruf Quest Perfo pour femme",
+   "prix_affiche": 37.5
+  },
+  {
+   "asin": "B071DPL64J",
+   "titre": "BOSS Hugo Pallas Polo pour homme",
+   "prix_affiche": 75.66
+  },
+  {
+   "asin": "B09QVFP96F",
+   "titre": "YMI Juniors Mid-Rise pour femme",
+   "prix_affiche": 32.6
+  },
+  {
    "asin": "B074RP1NYP",
    "titre": "MidWest Homes for Pets Dog C",
    "prix_affiche": 41.0
@@ -1300,6 +1650,21 @@
    "asin": "B07G2V1DHD",
    "titre": "Corona GT 3234 Reach 7-Tine",
    "prix_affiche": 38.99
+  },
+  {
+   "asin": "B0DDZ3PTKN",
+   "titre": "Johnston & Murphy Reeve Plai",
+   "prix_affiche": 103.2
+  },
+  {
+   "asin": "B01MR5XGYW",
+   "titre": "ClosetMaid 1310 Side Table",
+   "prix_affiche": 44.8
+  },
+  {
+   "asin": "B06XTYKT4C",
+   "titre": "Vickerman Everyday 24\" Artif",
+   "prix_affiche": 40.81
   },
   {
    "asin": "B07GXDQR7S",
@@ -1362,6 +1727,21 @@
    "prix_affiche": 58.37
   },
   {
+   "asin": "B07RY4KDF2",
+   "titre": "Muck Boot Chore Xf Stee pour homme",
+   "prix_affiche": 144.81
+  },
+  {
+   "asin": "B0FPRJSLKT",
+   "titre": "Spyder Insulated Quil pour femme",
+   "prix_affiche": 30.95
+  },
+  {
+   "asin": "B0F89ND6QM",
+   "titre": "Gottex Free Sport Sq pour femme",
+   "prix_affiche": 121.85
+  },
+  {
    "asin": "B0DHB2KJ9Q",
    "titre": "Outdoor Cam Plus Battery, Wh",
    "prix_affiche": 109.98
@@ -1382,8 +1762,18 @@
    "prix_affiche": 120.0
   },
   {
+   "asin": "B01NBNHXRT",
+   "titre": "Reebok Classic Leather pour garçon",
+   "prix_affiche": 41.21
+  },
+  {
+   "asin": "B098JM4V4V",
+   "titre": "Tilley Standard Iconic T1, D",
+   "prix_affiche": 62.87
+  },
+  {
    "asin": "B0F3388BN5",
-   "titre": "Adidas Cloudfoam, espadrilles pour femme",
+   "titre": "adidas Cloudfoam Fle pour femme",
    "prix_affiche": 36.0
   },
   {
@@ -1477,8 +1867,48 @@
    "prix_affiche": 44.59
   },
   {
+   "asin": "B07LFZ2P6Z",
+   "titre": "Geox Annytah Leather pour femme",
+   "prix_affiche": 89.36
+  },
+  {
+   "asin": "B0DQM2K9TZ",
+   "titre": "Lacoste Deuce Base S pour femme",
+   "prix_affiche": 63.81
+  },
+  {
+   "asin": "B0BYLC46G1",
+   "titre": "Propet Propet Ultra pour femme",
+   "prix_affiche": 75.84
+  },
+  {
+   "asin": "B0C3SPWNGV",
+   "titre": "Keds Triple Decker B pour femme",
+   "prix_affiche": 59.62
+  },
+  {
+   "asin": "B015BPBA8Y",
+   "titre": "ARIAT Flame Resistant pour homme",
+   "prix_affiche": 140.99
+  },
+  {
+   "asin": "B07K2VH9VG",
+   "titre": "Columbia Benton Spri pour femme",
+   "prix_affiche": 40.9
+  },
+  {
+   "asin": "B002618D0K",
+   "titre": "Columbia Plus Tamiami pour homme",
+   "prix_affiche": 40.1
+  },
+  {
+   "asin": "B0FRT9ZJ29",
+   "titre": "Nautica Short Sleeve pour femme",
+   "prix_affiche": 51.3
+  },
+  {
    "asin": "B0DQ5XMG3P",
-   "titre": "JOOLA Scorpeus, raquette de pickleball",
+   "titre": "JOOLA Collin Johns Scorpeus",
    "prix_affiche": 149.95
   },
   {
@@ -1502,13 +1932,28 @@
    "prix_affiche": 82.71
   },
   {
+   "asin": "B0FCMZZLHG",
+   "titre": "Wacoal Basic Beauty Spacer U",
+   "prix_affiche": 61.08
+  },
+  {
+   "asin": "B01LZ6VXKL",
+   "titre": "HPD Half Price Drapes Signat",
+   "prix_affiche": 72.0
+  },
+  {
+   "asin": "B0FB6HNFCT",
+   "titre": "Swarovski Sublima bangle, Sn",
+   "prix_affiche": 167.0
+  },
+  {
    "asin": "B01FWMYRXG",
-   "titre": "Levi's 315, jeans pour femme",
+   "titre": "Levi's 315 Shaping B pour femme",
    "prix_affiche": 59.97
   },
   {
    "asin": "B0DNWB97F9",
-   "titre": "Sorel Whitney III, bottes pour femme",
+   "titre": "Sorel Whitney III Mi pour femme",
    "prix_affiche": 75.98
   },
   {
@@ -1627,6 +2072,41 @@
    "prix_affiche": 68.99
   },
   {
+   "asin": "B0CKM9MJ7M",
+   "titre": "Adidas Techfit Compress pour homme",
+   "prix_affiche": 28.05
+  },
+  {
+   "asin": "B0HFW151PY",
+   "titre": "HUE Cotton Candied P pour femme",
+   "prix_affiche": 41.07
+  },
+  {
+   "asin": "B0GNQKLCGQ",
+   "titre": "Easy Street Cohen, Na pour femme",
+   "prix_affiche": 64.58
+  },
+  {
+   "asin": "B0CTLRXZVG",
+   "titre": "Ben Sherman Hadley Lo pour homme",
+   "prix_affiche": 43.75
+  },
+  {
+   "asin": "B0DQTH15S6",
+   "titre": "Lacoste Sport Tennis X pour homme",
+   "prix_affiche": 61.06
+  },
+  {
+   "asin": "B0G1Z6STS4",
+   "titre": "KARL LAGERFELD Cybil pour femme",
+   "prix_affiche": 103.16
+  },
+  {
+   "asin": "B0G66TTHP2",
+   "titre": "Reebok Apparel Run Spe pour homme",
+   "prix_affiche": 26.2
+  },
+  {
    "asin": "B086ZY235H",
    "titre": "Pupa Milano Vamp! Mascara",
    "prix_affiche": 21.04
@@ -1672,13 +2152,33 @@
    "prix_affiche": 41.18
   },
   {
+   "asin": "B0F6S38VB3",
+   "titre": "Signature by Levi Strauss &",
+   "prix_affiche": 27.25
+  },
+  {
+   "asin": "B0D9R3S2ZS",
+   "titre": "Johnston & Murphy Mcguffey 2",
+   "prix_affiche": 107.4
+  },
+  {
+   "asin": "B0F4Y2DKPB",
+   "titre": "Copper Metal Tub with Sturdy",
+   "prix_affiche": 129.53
+  },
+  {
+   "asin": "B0DJT1975M",
+   "titre": "Country Kitchen Baking Pans",
+   "prix_affiche": 66.41
+  },
+  {
    "asin": "B0F91Z1PKX",
-   "titre": "Carhartt Sawyer, vêtement pour femme",
+   "titre": "Carhartt Sawyer Scrip pour femme",
    "prix_affiche": 47.97
   },
   {
    "asin": "B0845YN55H",
-   "titre": "Levi's 311, jeans pour femme",
+   "titre": "Levi's 311 Shaping S pour femme",
    "prix_affiche": 59.97
   },
   {
@@ -1792,6 +2292,56 @@
    "prix_affiche": 41.73
   },
   {
+   "asin": "B000PY9052",
+   "titre": "Lacoste Short Sleeved pour homme",
+   "prix_affiche": 79.89
+  },
+  {
+   "asin": "B0DBN313PC",
+   "titre": "Izod Short Sleeve Jers pour homme",
+   "prix_affiche": 25.38
+  },
+  {
+   "asin": "B0992RB66S",
+   "titre": "Levi's Bubble Puffer pour homme",
+   "prix_affiche": 70.59
+  },
+  {
+   "asin": "B0FNNJX22F",
+   "titre": "Arena Performance An pour femme",
+   "prix_affiche": 60.34
+  },
+  {
+   "asin": "B0GRJTW7GS",
+   "titre": "Hurley Phantom 4-Way St pour homme",
+   "prix_affiche": 71.12
+  },
+  {
+   "asin": "B0DDL89Q1C",
+   "titre": "Junk Food Standard x N pour homme",
+   "prix_affiche": 87.08
+  },
+  {
+   "asin": "B0FNLVZ9H9",
+   "titre": "Skechers USA Suede W/M pour homme",
+   "prix_affiche": 74.99
+  },
+  {
+   "asin": "B0FJZQ29JS",
+   "titre": "Hugo 3-Pack Galaxy Cot pour homme",
+   "prix_affiche": 41.98
+  },
+  {
+   "asin": "B0FRSW1M99",
+   "titre": "Aerosoles Enoch Ankl pour femme",
+   "prix_affiche": 97.2
+  },
+  {
+   "asin": "B0BS1P6RBB",
+   "titre": "Maggy London V-Neck pour femme",
+   "prix_affiche": 136.66
+  },
+  {
    "asin": "B0FCY8CNN4",
    "titre": "LEGO Lucky Cat 40813 / Build",
    "prix_affiche": 25.0
@@ -1825,6 +2375,16 @@
    "asin": "B0C2FP2ZBY",
    "titre": "Churrasco BBQ 4 Pc Grilling",
    "prix_affiche": 63.74
+  },
+  {
+   "asin": "B0D3Y8BPXD",
+   "titre": "Under Armour UA Performance",
+   "prix_affiche": 36.59
+  },
+  {
+   "asin": "B01AU2KI1S",
+   "titre": "Mariposa 4009-C Beach Chair",
+   "prix_affiche": 55.69
   },
   {
    "asin": "B0C5YS3QXZ",
@@ -1947,6 +2507,66 @@
    "prix_affiche": 45.13
   },
   {
+   "asin": "B0FWF5GW2Q",
+   "titre": "Sperry Torrent Chels pour femme",
+   "prix_affiche": 67.1
+  },
+  {
+   "asin": "B0C7R6RBM6",
+   "titre": "Steve Madden Daedric O pour homme",
+   "prix_affiche": 109.98
+  },
+  {
+   "asin": "B0F4LSD1P2",
+   "titre": "Naturalizer , Isla Lo pour femme",
+   "prix_affiche": 71.6
+  },
+  {
+   "asin": "B0F16HRBH4",
+   "titre": "Earth Jalin, Bronze pour femme",
+   "prix_affiche": 96.28
+  },
+  {
+   "asin": "B0F22DDNX7",
+   "titre": "Brunswick Alpine Bowl pour femme",
+   "prix_affiche": 71.99
+  },
+  {
+   "asin": "B0FY8562TD",
+   "titre": "Kenneth Cole REACTION pour femme",
+   "prix_affiche": 60.88
+  },
+  {
+   "asin": "B0B5NY4QYX",
+   "titre": "Ariat Rebar Made Tough pour homme",
+   "prix_affiche": 43.0
+  },
+  {
+   "asin": "B07YH2PG6H",
+   "titre": "Wrangler Authentics Re pour homme",
+   "prix_affiche": 28.95
+  },
+  {
+   "asin": "B0CJSL4F5C",
+   "titre": "Champion Jacket, Stadi pour homme",
+   "prix_affiche": 31.46
+  },
+  {
+   "asin": "B0DMWTGX7C",
+   "titre": "Armani Exchange Milano pour homme",
+   "prix_affiche": 116.18
+  },
+  {
+   "asin": "B0C1597F1N",
+   "titre": "Champion Long Sleeve T pour homme",
+   "prix_affiche": 28.16
+  },
+  {
+   "asin": "B004EVOAC0",
+   "titre": "Lucky Brand Emmie Ba pour femme",
+   "prix_affiche": 35.14
+  },
+  {
    "asin": "B0GH2W98ZY",
    "titre": "PUMA Rally Backpack",
    "prix_affiche": 24.65
@@ -1980,6 +2600,11 @@
    "asin": "B09LK4QT7N",
    "titre": "Mossy Oak Sherpa 2.0 Fleece",
    "prix_affiche": 93.88
+  },
+  {
+   "asin": "B09M7K7TGZ",
+   "titre": "Maidenform Comfort Devotion",
+   "prix_affiche": 29.61
   },
   {
    "asin": "B0FKTMVB12",
@@ -2072,8 +2697,88 @@
    "prix_affiche": 77.53
   },
   {
+   "asin": "B0F9ZR1GG5",
+   "titre": "Levi's 318 Shaping W pour femme",
+   "prix_affiche": 59.97
+  },
+  {
+   "asin": "B0D22KTN3D",
+   "titre": "Adidas Essentials Sm pour femme",
+   "prix_affiche": 27.22
+  },
+  {
+   "asin": "B000W8YBQ4",
+   "titre": "Rockport Northfield Ox pour homme",
+   "prix_affiche": 112.58
+  },
+  {
+   "asin": "B0F9FMPHNT",
+   "titre": "BOSS Casual Suede Mocc pour homme",
+   "prix_affiche": 135.33
+  },
+  {
+   "asin": "B0D4J8WV77",
+   "titre": "Carhartt Relaxed Fit L pour homme",
+   "prix_affiche": 21.71
+  },
+  {
+   "asin": "B0F7Y71L8R",
+   "titre": "DOCKERS Go Airweave Ch pour homme",
+   "prix_affiche": 58.64
+  },
+  {
+   "asin": "B0DTM7XMS4",
+   "titre": "KEEN Utility CSA Overt pour homme",
+   "prix_affiche": 106.87
+  },
+  {
+   "asin": "B0D1KK3ZGY",
+   "titre": "Helly-Hansen Hh Tech pour femme",
+   "prix_affiche": 34.3
+  },
+  {
+   "asin": "B09NW8JYKY",
+   "titre": "WallFlower Pull on D pour femme",
+   "prix_affiche": 29.28
+  },
+  {
+   "asin": "B0C36QGNMP",
+   "titre": "Jessica Simpson Ador pour femme",
+   "prix_affiche": 62.26
+  },
+  {
+   "asin": "B0FXHCGFTD",
+   "titre": "BOSS Zayn Low Profile pour homme",
+   "prix_affiche": 142.07
+  },
+  {
+   "asin": "B0D74X1PNQ",
+   "titre": "Rockport Taren Mary pour femme",
+   "prix_affiche": 102.26
+  },
+  {
+   "asin": "B0DSKDCDSW",
+   "titre": "Easy Street Petal Sn pour femme",
+   "prix_affiche": 55.95
+  },
+  {
+   "asin": "B06Y4KGSQ7",
+   "titre": "R&M Richards Glitter pour femme",
+   "prix_affiche": 64.84
+  },
+  {
+   "asin": "B0FZLNZBTP",
+   "titre": "Dr.Scholl's SHOES Mad pour femme",
+   "prix_affiche": 70.29
+  },
+  {
+   "asin": "B0DYKYLCLL",
+   "titre": "Skechers Strand Star pour femme",
+   "prix_affiche": 54.99
+  },
+  {
    "asin": "B07GKVNH2V",
-   "titre": "Simple Joys by Carter's, vêtement pour garçon",
+   "titre": "Simple Joys by Carter's pour garçon",
    "prix_affiche": 25.68
   },
   {
@@ -2142,13 +2847,38 @@
    "prix_affiche": 20.95
   },
   {
+   "asin": "B0CX81KHNL",
+   "titre": "Cutter & Buck Coastline Epic",
+   "prix_affiche": 35.34
+  },
+  {
+   "asin": "B0F14695TG",
+   "titre": "Karma Corduroy Embroidered H",
+   "prix_affiche": 21.41
+  },
+  {
+   "asin": "B09JCR1YLY",
+   "titre": "Dainty Home Sprinkles Look T",
+   "prix_affiche": 37.87
+  },
+  {
+   "asin": "B0FCYSLMRD",
+   "titre": "OtterBox Galaxy Z FOLD7 Defe",
+   "prix_affiche": 65.99
+  },
+  {
+   "asin": "B0H7F9L52S",
+   "titre": "OtterBox iPhone 18/17 Pro De",
+   "prix_affiche": 62.99
+  },
+  {
    "asin": "B0CCXKS12V",
-   "titre": "Crocs Dylan, sabots pour homme",
+   "titre": "Crocs Dylan Burnished Clog M",
    "prix_affiche": 50.99
   },
   {
    "asin": "B079G94YVR",
-   "titre": "Wrangler, jeans pour homme taille tall",
+   "titre": "Wrangler Tall Size Ret pour homme",
    "prix_affiche": 59.97
   },
   {
@@ -2317,6 +3047,96 @@
    "prix_affiche": 130.94
   },
   {
+   "asin": "B074VGQSXL",
+   "titre": "Hanes Pullover Ultimat pour homme",
+   "prix_affiche": 22.69
+  },
+  {
+   "asin": "B01NBJLGDQ",
+   "titre": "Clarks Warren Boots pour femme",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0D234SN6N",
+   "titre": "Adidas Essentials 3-St pour homme",
+   "prix_affiche": 23.34
+  },
+  {
+   "asin": "B08VKF9MDD",
+   "titre": "HUGO Regular Fit Squar pour homme",
+   "prix_affiche": 81.42
+  },
+  {
+   "asin": "B0151Z5E86",
+   "titre": "Levi's Men 511 Slim Fit Jean",
+   "prix_affiche": 59.97
+  },
+  {
+   "asin": "B0FHBXQHF2",
+   "titre": "Reebok Varsity Graphic pour homme",
+   "prix_affiche": 33.36
+  },
+  {
+   "asin": "B0FVB55MWZ",
+   "titre": "DKNY Metallic Bubble pour femme",
+   "prix_affiche": 54.41
+  },
+  {
+   "asin": "B014K3CFXW",
+   "titre": "Ariat R.e.al. Straig pour femme",
+   "prix_affiche": 81.22
+  },
+  {
+   "asin": "B0732NRPMS",
+   "titre": "True Religion Crafted pour homme",
+   "prix_affiche": 67.01
+  },
+  {
+   "asin": "B0G52JBVJ7",
+   "titre": "Roxy Casual Dress – S pour femme",
+   "prix_affiche": 40.14
+  },
+  {
+   "asin": "B019Q063B4",
+   "titre": "Lacoste Slim Fit L12.1 pour homme",
+   "prix_affiche": 87.75
+  },
+  {
+   "asin": "B0CPN8C5Q1",
+   "titre": "Tommy Hilfiger Sleev pour femme",
+   "prix_affiche": 78.3
+  },
+  {
+   "asin": "B0FXGSQ66S",
+   "titre": "BOSS 3-Pack Multi Colo pour homme",
+   "prix_affiche": 33.44
+  },
+  {
+   "asin": "B0GMY4C6Z6",
+   "titre": "GAP Logo Lightweight pour femme",
+   "prix_affiche": 92.99
+  },
+  {
+   "asin": "B0CP8BHJ24",
+   "titre": "Venum Standard Silent pour homme",
+   "prix_affiche": 81.44
+  },
+  {
+   "asin": "B09PF8M9YP",
+   "titre": "Champion Everyday Cott pour homme",
+   "prix_affiche": 31.03
+  },
+  {
+   "asin": "B0CV5YDSCV",
+   "titre": "Ariat Sunstopper 3.0 pour femme",
+   "prix_affiche": 79.62
+  },
+  {
+   "asin": "B0F85LS9DN",
+   "titre": "Smartwool Run Zero C pour femme",
+   "prix_affiche": 25.99
+  },
+  {
    "asin": "B093XLYHSW",
    "titre": "New Balance 574 Core H pour enfants",
    "prix_affiche": 55.99
@@ -2352,13 +3172,43 @@
    "prix_affiche": 38.5
   },
   {
+   "asin": "B0193WSJ44",
+   "titre": "Routine. Natural Beauty / Na",
+   "prix_affiche": 20.29
+  },
+  {
+   "asin": "B08YR2L9ZH",
+   "titre": "Tangkula 11ft Patio Cantilev",
+   "prix_affiche": 101.99
+  },
+  {
+   "asin": "B0829C3282",
+   "titre": "ECCO Citytray Amber, 9-9.5 /",
+   "prix_affiche": 88.53
+  },
+  {
+   "asin": "B09KJFSZXW",
+   "titre": "Mud Pie Stoneware Soap Spong",
+   "prix_affiche": 33.92
+  },
+  {
+   "asin": "B0DDZQ6M41",
+   "titre": "Stride Rite Srt Wade 2.0 Cas",
+   "prix_affiche": 52.28
+  },
+  {
+   "asin": "B0DF7JRQ41",
+   "titre": "OtterBox iPhone 16 Pro Max S",
+   "prix_affiche": 49.99
+  },
+  {
    "asin": "B07RPZYRN5",
-   "titre": "Levi's 527, jeans bootcut pour homme",
+   "titre": "Levi's 527 Slim Bootcu pour homme",
    "prix_affiche": 59.97
   },
   {
    "asin": "B086KMXL6R",
-   "titre": "Clarks Sharon Gracie, chaussures pour femme",
+   "titre": "Clarks Sharon Gracie pour femme",
    "prix_affiche": 50.38
   },
   {
@@ -2572,13 +3422,73 @@
    "prix_affiche": 37.59
   },
   {
+   "asin": "B0FW7WFZYQ",
+   "titre": "Levi's 314 Shaping St pour femme",
+   "prix_affiche": 73.28
+  },
+  {
+   "asin": "B0GBX2VRW8",
+   "titre": "Carhartt Men's Ripstop pour homme",
+   "prix_affiche": 53.73
+  },
+  {
+   "asin": "B0FXBP7QWJ",
+   "titre": "Hugo Logo Outline Cott pour homme",
+   "prix_affiche": 52.97
+  },
+  {
+   "asin": "B08X3G45K1",
+   "titre": "[BLANKNYC] Women's Of pour femme",
+   "prix_affiche": 48.96
+  },
+  {
+   "asin": "B08N5YPYQP",
+   "titre": "Speedo Swimsuit Bott pour femme",
+   "prix_affiche": 43.49
+  },
+  {
+   "asin": "B0H2FJG11W",
+   "titre": "Nautica Montauk Chin pour femme",
+   "prix_affiche": 56.72
+  },
+  {
+   "asin": "B0F556R9M4",
+   "titre": "Volcom Melting Heather pour homme",
+   "prix_affiche": 30.29
+  },
+  {
+   "asin": "B07PGKRKKH",
+   "titre": "Alternative Jersey Cre pour homme",
+   "prix_affiche": 24.93
+  },
+  {
+   "asin": "B0FPSNM967",
+   "titre": "Spyder Harmony Scuba pour femme",
+   "prix_affiche": 27.7
+  },
+  {
+   "asin": "B0FM5W8NT5",
+   "titre": "Merrell Utility Pant pour homme",
+   "prix_affiche": 91.42
+  },
+  {
+   "asin": "B0D23TQH1M",
+   "titre": "Deer Stags Glacial Sli pour homme",
+   "prix_affiche": 39.18
+  },
+  {
+   "asin": "B086VP7NT8",
+   "titre": "Levi's Corduroy Sherpa pour homme",
+   "prix_affiche": 67.83
+  },
+  {
    "asin": "B0CZPD8DP1",
-   "titre": "Weiser Casey, ensemble de 4 poignées de porte",
+   "titre": "Weiser Casey 4 Pack Satin Ni",
    "prix_affiche": 84.0
   },
   {
    "asin": "B09KWN46DW",
-   "titre": "Best Pet Supplies, accessoire de voyage pour chien",
+   "titre": "Best Pet Supplies Voyager Ad",
    "prix_affiche": 34.61
   },
   {
@@ -2642,18 +3552,28 @@
    "prix_affiche": 33.04
   },
   {
+   "asin": "B0H6NHP2K4",
+   "titre": "Lacoste 2-Pack Classic Strip",
+   "prix_affiche": 22.13
+  },
+  {
+   "asin": "B0FSMW8Y3F",
+   "titre": "OtterBox iPhone Air Symmetry",
+   "prix_affiche": 55.99
+  },
+  {
    "asin": "B09XRFYJCW",
-   "titre": "New Balance Fresh Foam, espadrilles pour femme",
+   "titre": "New Balance Fresh Fo pour femme",
    "prix_affiche": 98.32
   },
   {
    "asin": "B0B3S2CWGV",
-   "titre": "Vans Seldan, espadrilles pour homme",
+   "titre": "Vans Seldan Low-Top pour homme",
    "prix_affiche": 55.99
   },
   {
    "asin": "B0D6C48RVY",
-   "titre": "Levi's 724, jeans taille haute pour femme",
+   "titre": "Levi's 724 High Rise pour femme",
    "prix_affiche": 66.72
   },
   {
@@ -2665,6 +3585,236 @@
    "asin": "B0CMW72RQL",
    "titre": "Sorel Out N About IV pour femme",
    "prix_affiche": 97.49
+  },
+  {
+   "asin": "B0B47Y4WKB",
+   "titre": "Polo Ralph Lauren Class pour homme",
+   "prix_affiche": 57.28
+  },
+  {
+   "asin": "B08XY7HY9Y",
+   "titre": "Silver Jeans Co. Suk pour femme",
+   "prix_affiche": 64.8
+  },
+  {
+   "asin": "B0CGRPQNFN",
+   "titre": "THE NORTH FACE Wander pour homme",
+   "prix_affiche": 59.5
+  },
+  {
+   "asin": "B0FWBF5WHJ",
+   "titre": "adidas Adizero Drops pour femme",
+   "prix_affiche": 118.99
+  },
+  {
+   "asin": "B0D2JF494R",
+   "titre": "Adidas Ligra 8 Indoo pour femme",
+   "prix_affiche": 54.0
+  },
+  {
+   "asin": "B098H94KSF",
+   "titre": "Muck Boot Chore Classi pour homme",
+   "prix_affiche": 122.85
+  },
+  {
+   "asin": "B08VNFP9SQ",
+   "titre": "JACK & JONES Paulos Polo SS",
+   "prix_affiche": 35.0
+  },
+  {
+   "asin": "B0BMJ722LN",
+   "titre": "Merrell Coldpack 3 T pour femme",
+   "prix_affiche": 140.24
+  },
+  {
+   "asin": "B08X1N24XQ",
+   "titre": "Callaway Fine Line Str pour homme",
+   "prix_affiche": 40.17
+  },
+  {
+   "asin": "B09MSQY897",
+   "titre": "Carhartt Micro Ripstop pour homme",
+   "prix_affiche": 31.75
+  },
+  {
+   "asin": "B0B3FC1F18",
+   "titre": "Hugo Boss Small Logo C pour homme",
+   "prix_affiche": 41.92
+  },
+  {
+   "asin": "B0DH58JVZN",
+   "titre": "Under Armour Glyde S pour femme",
+   "prix_affiche": 38.5
+  },
+  {
+   "asin": "B09WNGNK5Q",
+   "titre": "Guess High Rise 1981 pour femme",
+   "prix_affiche": 82.6
+  },
+  {
+   "asin": "B0G5YLW8N9",
+   "titre": "Saucony Triumph 23 Run pour homme",
+   "prix_affiche": 104.99
+  },
+  {
+   "asin": "B0775Z254S",
+   "titre": "Sperry Gold A/O 2-Eye pour homme",
+   "prix_affiche": 94.18
+  },
+  {
+   "asin": "B0G67CGHJ3",
+   "titre": "Naturalizer Sofia, Wa pour femme",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0FYT2BMFX",
+   "titre": "Saucony Ride 19 Runn pour femme",
+   "prix_affiche": 108.0
+  },
+  {
+   "asin": "B0D2LXWSZL",
+   "titre": "Columbia Omni Freeze Z pour homme",
+   "prix_affiche": 41.04
+  },
+  {
+   "asin": "B091SP1M8Q",
+   "titre": "Blondo Waterproof Ha pour femme",
+   "prix_affiche": 133.13
+  },
+  {
+   "asin": "B07LBP8C9L",
+   "titre": "Helly Hansen Belfast pour femme",
+   "prix_affiche": 162.66
+  },
+  {
+   "asin": "B0C8QJBBV1",
+   "titre": "KEEN Waimea H2 Toe P pour femme",
+   "prix_affiche": 63.71
+  },
+  {
+   "asin": "B0FF7PFM6T",
+   "titre": "adidas Cloudfoam Fli pour femme",
+   "prix_affiche": 64.6
+  },
+  {
+   "asin": "B0748ZPM7Y",
+   "titre": "Haggar Premium No Iron pour homme",
+   "prix_affiche": 47.43
+  },
+  {
+   "asin": "B0D2JFHVS5",
+   "titre": "Adidas Essentials Smal pour homme",
+   "prix_affiche": 22.0
+  },
+  {
+   "asin": "B0CLSFSHMX",
+   "titre": "Columbia Snowy Summit pour homme",
+   "prix_affiche": 129.98
+  },
+  {
+   "asin": "B0FZPG6JRG",
+   "titre": "Champion Performance 7\" pour homme",
+   "prix_affiche": 28.39
+  },
+  {
+   "asin": "B00HUOIMEU",
+   "titre": "Warners No Side Effec pour femme",
+   "prix_affiche": 46.77
+  },
+  {
+   "asin": "B07T2C5WDY",
+   "titre": "Reebok Walk Ultra 7 pour femme",
+   "prix_affiche": 76.95
+  },
+  {
+   "asin": "B0H725SMRZ",
+   "titre": "Lacoste Classic Fit Zi pour homme",
+   "prix_affiche": 136.5
+  },
+  {
+   "asin": "B07Q4Z81HX",
+   "titre": "Tommy Hilfiger Relaxed pour homme",
+   "prix_affiche": 56.44
+  },
+  {
+   "asin": "B0D96WN8WR",
+   "titre": "Lacoste Cotton Stretch pour homme",
+   "prix_affiche": 48.29
+  },
+  {
+   "asin": "B0GKQGSW86",
+   "titre": "Izod Quarter Zip Sle pour femme",
+   "prix_affiche": 50.21
+  },
+  {
+   "asin": "B00YT3MZSE",
+   "titre": "Speedo LZR Racer Pro pour femme",
+   "prix_affiche": 155.7
+  },
+  {
+   "asin": "B0DSR1T89Q",
+   "titre": "Blowfish Malibu Denv pour femme",
+   "prix_affiche": 47.31
+  },
+  {
+   "asin": "B0FB33V57F",
+   "titre": "Columbia Vital Valley pour femme",
+   "prix_affiche": 48.28
+  },
+  {
+   "asin": "B08PDP6Y6Q",
+   "titre": "ARIAT Rebar Durastretc pour homme",
+   "prix_affiche": 72.99
+  },
+  {
+   "asin": "B0DK47HYC7",
+   "titre": "Eastland Yarmouth Ca pour femme",
+   "prix_affiche": 99.81
+  },
+  {
+   "asin": "B0FBHMGCVC",
+   "titre": "BOSS Tonal Logo Soft F pour homme",
+   "prix_affiche": 69.87
+  },
+  {
+   "asin": "B07C9FJX3F",
+   "titre": "Skechers Delson- Cambe pour homme",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B0GWN6XQ41",
+   "titre": "GUESS Vanesy, Gold 7 pour femme",
+   "prix_affiche": 104.3
+  },
+  {
+   "asin": "B0CRWHVN9P",
+   "titre": "Stylus Road Cycling Shoes, A",
+   "prix_affiche": 115.83
+  },
+  {
+   "asin": "B09PJZ89XN",
+   "titre": "Georgia Boot Cedar Fal pour homme",
+   "prix_affiche": 117.73
+  },
+  {
+   "asin": "B0F9HN8CTN",
+   "titre": "Nunn Bush Kore Ez Hero pour homme",
+   "prix_affiche": 77.58
+  },
+  {
+   "asin": "B0DR5Z3538",
+   "titre": "Kenneth Cole Dreama pour femme",
+   "prix_affiche": 117.19
+  },
+  {
+   "asin": "B0DDTS7S88",
+   "titre": "BCBGeneration Bissha pour femme",
+   "prix_affiche": 86.49
+  },
+  {
+   "asin": "B0BQCWRHTV",
+   "titre": "Lacoste 46sfa0056 Sn pour femme",
+   "prix_affiche": 137.82
   },
   {
    "asin": "B00J602DZA",
@@ -2725,6 +3875,56 @@
    "asin": "B07QTVBBQ2",
    "titre": "Gamma Photon Outdoor Pickleb",
    "prix_affiche": 21.99
+  },
+  {
+   "asin": "B0CWHH1CY9",
+   "titre": "VNDL Pure Citrulline, L-Citr",
+   "prix_affiche": 27.99
+  },
+  {
+   "asin": "B0CHWZZLVC",
+   "titre": "Johnston & Murphy Amherst 2.",
+   "prix_affiche": 111.0
+  },
+  {
+   "asin": "B0FJYH73KD",
+   "titre": "Star Wars The Mandalorian a",
+   "prix_affiche": 43.99
+  },
+  {
+   "asin": "B0CG5HN65S",
+   "titre": "CAT Footwear Threshold pour homme",
+   "prix_affiche": 168.0
+  },
+  {
+   "asin": "B0D853ZHX6",
+   "titre": "Capezio Professional Rhinest",
+   "prix_affiche": 42.6
+  },
+  {
+   "asin": "B0CRBKDQKZ",
+   "titre": "Guess Mini Luna Watch GW0687",
+   "prix_affiche": 140.0
+  },
+  {
+   "asin": "B01N4V6JNR",
+   "titre": "Superior Extra Soft All Seas",
+   "prix_affiche": 32.24
+  },
+  {
+   "asin": "B0CSPMNJQB",
+   "titre": "VECELO Premium Velvet Clothe",
+   "prix_affiche": 54.31
+  },
+  {
+   "asin": "B0D3J6XXYT",
+   "titre": "Apple Smart Folio for iPad P",
+   "prix_affiche": 79.97
+  },
+  {
+   "asin": "B0DBWF5L5R",
+   "titre": "Travelers Club Chicago Hards",
+   "prix_affiche": 56.27
   },
   {
    "asin": "B0BSHY4F3W",
