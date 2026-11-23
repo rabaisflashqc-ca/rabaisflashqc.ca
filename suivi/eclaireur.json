@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23T18:17-04:00",
+ "date": "2026-11-23T18:58-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -29,64 +29,64 @@
    44,
    30,
    [
-    "2026-11-21T18:22:42+00:00",
-    "2026-11-21T18:54:48+00:00"
+    "2026-11-21T18:54:48+00:00",
+    "2026-11-21T19:26:53+00:00"
    ],
    [
-    "2026-11-23T19:47:21+00:00",
-    "2026-11-23T20:30:50+00:00"
+    "2026-11-23T20:30:50+00:00",
+    "2026-11-23T22:50:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    23,
    [
-    "2026-11-20T14:02:31+00:00",
-    "2026-11-20T14:06:30+00:00"
+    "2026-11-20T14:06:30+00:00",
+    "2026-11-20T14:09:31+00:00"
    ],
    [
-    "2026-11-21T17:29:53+00:00",
-    "2026-11-21T17:59:36+00:00"
+    "2026-11-21T17:59:36+00:00",
+    "2026-11-21T18:22:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   28,
+   29,
    [
-    "2026-11-19T16:54:18+00:00",
-    "2026-11-19T16:54:45+00:00"
+    "2026-11-19T16:54:45+00:00",
+    "2026-11-19T16:56:39+00:00"
    ],
    [
-    "2026-11-20T13:07:01+00:00",
-    "2026-11-20T13:45:30+00:00"
+    "2026-11-20T13:45:30+00:00",
+    "2026-11-20T14:02:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    18,
    [
-    "2026-11-18T13:05:04+00:00",
-    "2026-11-18T14:02:07+00:00"
+    "2026-11-18T14:02:07+00:00",
+    "2026-11-18T14:11:21+00:00"
    ],
    [
-    "2026-11-19T16:37:49+00:00",
-    "2026-11-19T16:43:00+00:00"
+    "2026-11-19T16:43:00+00:00",
+    "2026-11-19T16:54:18+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   33,
+   32,
    [
-    "2026-11-14T12:55:56+00:00",
-    "2026-11-14T20:13:36+00:00"
+    "2026-11-14T20:13:36+00:00",
+    "2026-11-14T20:42:25+00:00"
    ],
    [
-    "2026-11-18T12:26:52+00:00",
-    "2026-11-18T13:02:08+00:00"
+    "2026-11-18T13:02:08+00:00",
+    "2026-11-18T13:05:04+00:00"
    ]
   ],
   "avant_filtre_date": 143,
-  "apres_filtre_date": 130
+  "apres_filtre_date": 131
  },
  "items": [
   {
@@ -94,7 +94,7 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 73,
+   "votes": 74,
    "posts": 51,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
@@ -112,8 +112,8 @@
    "title": "NATURE VALLEY - VALUE PACK SIZE - Double Chocolate Granola Bars, Pack of 28 Bars - $6.86 (40% subscription coupon)",
    "price": 6.86,
    "was": 11.85,
-   "votes": 68,
-   "posts": 30,
+   "votes": 70,
+   "posts": 31,
    "time": "2026-11-23T08:13:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
    "asin": "B09X5Z6NZG",
@@ -166,7 +166,7 @@
    "title": "Helly Hansen Men's Rain Jacket @ $63.98",
    "price": 63.98,
    "was": null,
-   "votes": 33,
+   "votes": 34,
    "posts": 19,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
@@ -220,7 +220,7 @@
    "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
    "price": 248.0,
    "was": 339.0,
-   "votes": 22,
+   "votes": 23,
    "posts": 53,
    "time": "2026-11-21T15:14:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
@@ -576,6 +576,42 @@
    "img": "/img/p/B0GWFM6YDH.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
+   "title": "Alienware 34 Gaming Monitor AW3426DWM, WQHD VA Panel, 240Hz, 1500R Curved on sale $389.10($549.99)",
+   "price": 389.1,
+   "was": 549.99,
+   "votes": 9,
+   "posts": 12,
+   "time": "2026-11-21T13:14:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
+   "asin": "B0DHGNBXXC",
+   "pct": 29,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DHGNBXXC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHGNBXXC.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
+   "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
+   "price": 14.0,
+   "was": 40.0,
+   "votes": 9,
+   "posts": 1,
+   "time": "2026-11-23T02:48:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
+   "asin": "B0D6X2JQY7",
+   "pct": 65,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0D6X2JQY7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D6X2JQY7.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "title": "VIOFO A119M Pro 4K HDR Mini Dash Cam - $189.99 (was $259.99)",
    "price": 189.99,
@@ -630,24 +666,6 @@
    "img": "/img/p/B00QXT5T3U.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
-   "title": "Alienware 34 Gaming Monitor AW3426DWM, WQHD VA Panel, 240Hz, 1500R Curved on sale $389.10($549.99)",
-   "price": 389.1,
-   "was": 549.99,
-   "votes": 8,
-   "posts": 10,
-   "time": "2026-11-21T13:14:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
-   "asin": "B0DHGNBXXC",
-   "pct": 29,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHGNBXXC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHGNBXXC.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
    "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
    "price": 32.0,
@@ -682,24 +700,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B004GIXRMK.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
-   "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
-   "price": 14.0,
-   "was": 40.0,
-   "votes": 8,
-   "posts": 1,
-   "time": "2026-11-23T02:48:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
-   "asin": "B0D6X2JQY7",
-   "pct": 65,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0D6X2JQY7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D6X2JQY7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-2833434/",
