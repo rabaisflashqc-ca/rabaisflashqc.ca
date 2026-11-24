@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23T22:55-04:00",
+ "date": "2026-11-24T00:28-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -22,79 +22,97 @@
    ],
    [
     "2026-11-23T22:50:36+00:00",
-    "2026-11-24T02:34:33+00:00"
+    "2026-11-24T02:57:30+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    29,
    [
-    "2026-11-21T23:28:26+00:00",
-    "2026-11-22T02:15:52+00:00"
+    "2026-11-22T03:42:18+00:00",
+    "2026-11-22T03:45:52+00:00"
    ],
    [
-    "2026-11-24T02:34:33+00:00",
-    "2026-11-24T02:44:12+00:00"
+    "2026-11-24T03:18:28+00:00",
+    "2026-11-24T03:30:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    22,
    [
-    "2026-11-20T14:47:05+00:00",
-    "2026-11-20T14:52:14+00:00"
+    "2026-11-20T15:03:51+00:00",
+    "2026-11-20T15:10:24+00:00"
    ],
    [
-    "2026-11-21T20:29:14+00:00",
-    "2026-11-21T20:42:42+00:00"
+    "2026-11-22T02:15:52+00:00",
+    "2026-11-22T03:37:04+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   32,
+   33,
    [
-    "2026-11-19T18:26:57+00:00",
-    "2026-11-19T18:59:07+00:00"
+    "2026-11-19T19:03:31+00:00",
+    "2026-11-19T19:33:05+00:00"
    ],
    [
-    "2026-11-20T14:42:25+00:00",
-    "2026-11-20T14:45:01+00:00"
+    "2026-11-20T14:47:05+00:00",
+    "2026-11-20T14:52:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    17,
    [
-    "2026-11-18T23:47:43+00:00",
-    "2026-11-19T02:44:24+00:00"
+    "2026-11-19T03:55:42+00:00",
+    "2026-11-19T03:56:33+00:00"
    ],
    [
-    "2026-11-19T18:17:11+00:00",
-    "2026-11-19T18:22:19+00:00"
+    "2026-11-19T18:26:57+00:00",
+    "2026-11-19T18:59:07+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   32,
+   31,
    [
-    "2026-11-15T15:48:22+00:00",
-    "2026-11-16T00:12:21+00:00"
+    "2026-11-16T12:55:57+00:00",
+    "2026-11-16T14:04:58+00:00"
    ],
    [
-    "2026-11-18T18:47:40+00:00",
-    "2026-11-18T19:40:14+00:00"
+    "2026-11-18T23:47:43+00:00",
+    "2026-11-19T02:44:24+00:00"
    ]
   ],
-  "avant_filtre_date": 143,
-  "apres_filtre_date": 132
+  "avant_filtre_date": 144,
+  "apres_filtre_date": 133
  },
  "items": [
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-apple-macbook-pro-14-m4-pro-24gb-512gb-1-899-list-price-2-699-2833607/",
+   "title": "Apple MacBook Pro 14\" M4 Pro 24GB 512GB - $1,899 (List Price: $2,699)",
+   "price": 1899.0,
+   "was": 2699.0,
+   "votes": 105,
+   "posts": 86,
+   "time": "2026-11-23T23:01:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-macbook-pro-14-m4-pro-24gb-512gb-1-899-list-price-2-699-2833607/",
+   "asin": "B0DLJ2B57F",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DLJ2B57F?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 2,
+   "doute": true,
+   "img": "/img/p/B0DLJ2B57F.jpg"
+  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
    "title": "NATURE VALLEY - VALUE PACK SIZE - Double Chocolate Granola Bars, Pack of 28 Bars - $6.86 (40% subscription coupon)",
    "price": 6.86,
    "was": 11.85,
-   "votes": 81,
+   "votes": 82,
    "posts": 37,
    "time": "2026-11-23T08:13:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
@@ -124,24 +142,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00CHOUI86.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-apple-macbook-pro-14-m4-pro-24gb-512gb-1-899-list-price-2-699-2833607/",
-   "title": "Apple MacBook Pro 14\" M4 Pro 24GB 512GB - $1,899 (List Price: $2,699)",
-   "price": 1899.0,
-   "was": 2699.0,
-   "votes": 65,
-   "posts": 53,
-   "time": "2026-11-23T23:01:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-macbook-pro-14-m4-pro-24gb-512gb-1-899-list-price-2-699-2833607/",
-   "asin": "B0DLJ2B57F",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DLJ2B57F?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0DLJ2B57F.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-walmart-scrabble-battleship-guess-who-hungry-hungry-hippos-more-12-97-each-2833382/",
@@ -184,7 +184,7 @@
    "title": "Helly Hansen Men's Rain Jacket @ $63.98",
    "price": 63.98,
    "was": null,
-   "votes": 37,
+   "votes": 39,
    "posts": 24,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
@@ -196,6 +196,24 @@
    "morts": 2,
    "doute": true,
    "img": "/img/p/B0C3JRVSL2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
+   "price": 1167.0,
+   "was": 1747.0,
+   "votes": 25,
+   "posts": 27,
+   "time": "2026-11-22T17:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "asin": "B0HC35V6KZ",
+   "pct": 33,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HC35V6KZ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
@@ -216,29 +234,11 @@
    "img": "/img/p/B0GT7S6BHV.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
-   "price": 1167.0,
-   "was": 1747.0,
-   "votes": 24,
-   "posts": 26,
-   "time": "2026-11-22T17:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "asin": "B0HC35V6KZ",
-   "pct": 33,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HC35V6KZ.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
    "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
    "price": 248.0,
    "was": 339.0,
-   "votes": 23,
+   "votes": 24,
    "posts": 53,
    "time": "2026-11-21T15:14:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
@@ -486,6 +486,24 @@
    "img": "/img/p/B08DJ8Z3WH.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-4-41-saucony-mens-xxl-sz-15-17-no-show-socks-6-pack-2833619/",
+   "title": "$4.41 - Saucony Mens XXL (sz 15-17) No-show Socks 6 pack",
+   "price": 4.41,
+   "was": null,
+   "votes": 12,
+   "posts": 15,
+   "time": "2026-11-24T01:02:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-4-41-saucony-mens-xxl-sz-15-17-no-show-socks-6-pack-2833619/",
+   "asin": "B0BJMXGLWQ",
+   "pct": null,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0BJMXGLWQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0BJMXGLWQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
    "title": "Kitchenaid KF3 Automatic Espresso Machine 749.99 - Available at multiple retailers (Amazon/BB/ECS/Doyon/...)",
    "price": 749.99,
@@ -664,24 +682,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FJRQ9RM6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-4-41-saucony-mens-xxl-sz-15-17-no-show-socks-6-pack-2833619/",
-   "title": "$4.41 - Saucony Mens XXL (sz 15-17) No-show Socks 6 pack",
-   "price": 4.41,
-   "was": null,
-   "votes": 9,
-   "posts": 11,
-   "time": "2026-11-24T01:02:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-4-41-saucony-mens-xxl-sz-15-17-no-show-socks-6-pack-2833619/",
-   "asin": "B0BJMXGLWQ",
-   "pct": null,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0BJMXGLWQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0BJMXGLWQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
@@ -954,6 +954,24 @@
    "img": "/img/p/B0CC9DB4YB.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
+   "title": "ASUS ATS Radeon RX 9070 GRE 12GB GDDR6 OC $779.99",
+   "price": 779.99,
+   "was": 1130.4,
+   "votes": 7,
+   "posts": 5,
+   "time": "2026-11-23T22:50:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
+   "asin": "B0GZPV8T9Q",
+   "pct": 31,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GZPV8T9Q?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0GZPV8T9Q.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
    "title": "Sony WH-1000XM4C ANC Headphones - $278 (from $430)",
    "price": 278.0,
@@ -1044,22 +1062,22 @@
    "img": "/img/p/B0044GH27U.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
-   "title": "ASUS ATS Radeon RX 9070 GRE 12GB GDDR6 OC $779.99",
-   "price": 779.99,
-   "was": 1130.4,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hothands-hand-warmers-40-pairs-37-28-54-2833490/",
+   "title": "HotHands Hand Warmers (40 Pairs) - $37.28 (-54%)",
+   "price": 37.28,
+   "was": 80.54,
    "votes": 6,
-   "posts": 4,
-   "time": "2026-11-23T22:50:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
-   "asin": "B0GZPV8T9Q",
-   "pct": 31,
+   "posts": 5,
+   "time": "2026-11-23T13:06:51+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hothands-hand-warmers-40-pairs-37-28-54-2833490/",
+   "asin": "B0007ZF4OA",
+   "pct": 54,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GZPV8T9Q?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0007ZF4OA?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0GZPV8T9Q.jpg"
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0007ZF4OA.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cuisinart-custom-14-cup-electric-food-chopper-processor-dfp-14bcnyc-2832615/",
@@ -1224,42 +1242,6 @@
    "img": "/img/p/B0GL28YMNT.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hothands-hand-warmers-40-pairs-37-28-54-2833490/",
-   "title": "HotHands Hand Warmers (40 Pairs) - $37.28 (-54%)",
-   "price": 37.28,
-   "was": 80.54,
-   "votes": 5,
-   "posts": 5,
-   "time": "2026-11-23T13:06:51+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hothands-hand-warmers-40-pairs-37-28-54-2833490/",
-   "asin": "B0007ZF4OA",
-   "pct": 54,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0007ZF4OA?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0007ZF4OA.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-099-1-597-98-2833632/",
-   "title": "ASUS TUF A15 Gaming Laptop, 15.6” 144Hz FHD Display, AMD Ryzen™ 7 170 on sale $1,099($1,597.98)",
-   "price": 1099.0,
-   "was": 1597.9,
-   "votes": 5,
-   "posts": 1,
-   "time": "2026-11-24T02:34:33+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-099-1-597-98-2833632/",
-   "asin": "B0GX81Y3N3",
-   "pct": 31,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GX81Y3N3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GX81Y3N3.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lg-ultrawide-34u601-34-120hz-wqhd-curved-gaming-monitor-freesync-premium-sale-279-99-339-99-2832515/",
    "title": "LG UltraWide 34U601 34\" 120Hz WQHD Curved Gaming Monitor FreeSync Premium on sale $279.99($339.99)",
    "price": 279.99,
@@ -1366,6 +1348,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00009LI4K.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
+   "title": "REESE'S Lovers Gift Box, 8 Bars Variety Pack, 535 g on sale $13.64($18.19)",
+   "price": 13.64,
+   "was": 18.19,
+   "votes": 4,
+   "posts": 2,
+   "time": "2026-11-24T02:57:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
+   "asin": "B0BB3FWDQN",
+   "pct": 25,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B0BB3FWDQN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BB3FWDQN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
@@ -1602,40 +1602,40 @@
    "img": "/img/p/B09NR6NSX7.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-pixeldrive-electric-screwdriver-set-ci-66-48-reg-99-99-2833483/",
-   "title": "HOTO PixelDrive Electric Screwdriver Set – $66.48 (Reg. $99.99)",
-   "price": 66.48,
-   "was": 99.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-099-1-597-98-2833632/",
+   "title": "ASUS TUF A15 Gaming Laptop, 15.6” 144Hz FHD Display, AMD Ryzen™ 7 170 on sale $1,099($1,597.98)",
+   "price": 1099.0,
+   "was": 1597.9,
    "votes": 2,
-   "posts": 10,
-   "time": "2026-11-23T12:27:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-pixeldrive-electric-screwdriver-set-ci-66-48-reg-99-99-2833483/",
-   "asin": "B0BLMQ8BXB",
-   "pct": 34,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BLMQ8BXB?tag=coupdecoeurqc-20",
+   "posts": 2,
+   "time": "2026-11-24T02:34:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-099-1-597-98-2833632/",
+   "asin": "B0GX81Y3N3",
+   "pct": 31,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GX81Y3N3?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BLMQ8BXB.jpg"
+   "img": "/img/p/B0GX81Y3N3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-open-back-wired-audiophile-headphones-sennheiser-hd505-149-2833404/",
-   "title": "Open back wired audiophile headphones Sennheiser HD505 $149",
-   "price": 149.0,
-   "was": 229.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
+   "title": "MOVA E40 Ultra Robot $349.99",
+   "price": 349.99,
+   "was": 448.0,
    "votes": 2,
-   "posts": 3,
-   "time": "2026-11-22T18:58:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-open-back-wired-audiophile-headphones-sennheiser-hd505-149-2833404/",
-   "asin": "B0DSK2MB15",
-   "pct": 35,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DSK2MB15?tag=coupdecoeurqc-20",
+   "posts": 4,
+   "time": "2026-11-23T19:47:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
+   "asin": "B0FJWV3RR4",
+   "pct": 22,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FJWV3RR4?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0FJWV3RR4.jpg"
   }
  ]
 }
