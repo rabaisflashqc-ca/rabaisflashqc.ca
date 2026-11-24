@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T17:37-04:00",
+ "date": "2026-11-24T19:39-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,7 +21,7 @@
     "2026-11-18T02:34:47+00:00"
    ],
    [
-    "2026-11-24T15:24:04+00:00",
+    "2026-11-24T12:33:42+00:00",
     "2026-11-24T17:38:40+00:00"
    ]
   ],
@@ -112,8 +112,8 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 77,
-   "posts": 53,
+   "votes": 78,
+   "posts": 54,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
    "asin": "B00CHOUI86",
@@ -130,8 +130,8 @@
    "title": "Helly Hansen Men's Rain Jacket @ $63.98",
    "price": 63.98,
    "was": null,
-   "votes": 41,
-   "posts": 27,
+   "votes": 42,
+   "posts": 29,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
    "asin": "B0C3JRVSL2",
@@ -198,6 +198,24 @@
    "img": "/img/p/B0HC35V6KZ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
+   "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
+   "price": 6.0,
+   "was": 11.0,
+   "votes": 27,
+   "posts": 15,
+   "time": "2026-11-24T16:12:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
+   "asin": "B000BZIFV0",
+   "pct": 45,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B000BZIFV0?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B000BZIFV0.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
    "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
    "price": 248.0,
@@ -214,24 +232,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00007J5U7.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
-   "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
-   "price": 6.0,
-   "was": 11.0,
-   "votes": 25,
-   "posts": 12,
-   "time": "2026-11-24T16:12:58+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
-   "asin": "B000BZIFV0",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B000BZIFV0?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B000BZIFV0.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
@@ -274,7 +274,7 @@
    "title": "Hanes Mens Tagless Boxer Briefs, 6 Pack, COTTON m-xl - ATL -$20.24",
    "price": 20.24,
    "was": null,
-   "votes": 18,
+   "votes": 19,
    "posts": 8,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
@@ -738,6 +738,24 @@
    "img": "/img/p/B0FJRQ9RM6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
+   "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
+   "price": 77.99,
+   "was": null,
+   "votes": 9,
+   "posts": 2,
+   "time": "2026-11-24T15:24:04+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
+   "asin": "B07S5PH3H9",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07S5PH3H9?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B07S5PH3H9.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "title": "VIOFO A119M Pro 4K HDR Mini Dash Cam - $189.99 (was $259.99)",
    "price": 189.99,
@@ -990,22 +1008,40 @@
    "img": "/img/p/B0CC9DB4YB.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
-   "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
-   "price": 77.99,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-quiet-pure-power-13-m-1200w-power-supply-175-atl-2833550/",
+   "title": "Be quiet! Pure Power 13 M 1200W Power Supply - $175 ATL",
+   "price": 175.9,
+   "was": 219.9,
    "votes": 7,
-   "posts": 0,
-   "time": "2026-11-24T15:24:04+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
-   "asin": "B07S5PH3H9",
-   "pct": null,
+   "posts": 4,
+   "time": "2026-11-23T17:08:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-quiet-pure-power-13-m-1200w-power-supply-175-atl-2833550/",
+   "asin": "B0GFB83GPM",
+   "pct": 20,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07S5PH3H9?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GFB83GPM?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 1,
    "doute": true,
-   "img": "/img/p/B07S5PH3H9.jpg"
+   "img": "/img/p/B0GFB83GPM.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-19-96-ps5-final-fantasy-vii-remake-integrade-2833678/",
+   "title": "$19.96 PS5 Final Fantasy VII Remake Integrade",
+   "price": 19.99,
+   "was": 24.99,
+   "votes": 7,
+   "posts": 3,
+   "time": "2026-11-24T07:33:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-19-96-ps5-final-fantasy-vii-remake-integrade-2833678/",
+   "asin": "B0CH1XTC52",
+   "pct": 20,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CH1XTC52?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CH1XTC52.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
@@ -1116,40 +1152,22 @@
    "img": "/img/p/B0007ZF4OA.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-quiet-pure-power-13-m-1200w-power-supply-175-atl-2833550/",
-   "title": "Be quiet! Pure Power 13 M 1200W Power Supply - $175 ATL",
-   "price": 175.9,
-   "was": 219.9,
+   "url": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
+   "title": "REESE'S Lovers Gift Box, 8 Bars Variety Pack, 535 g on sale $13.64($18.19)",
+   "price": 13.64,
+   "was": 18.19,
    "votes": 6,
-   "posts": 4,
-   "time": "2026-11-23T17:08:33+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-quiet-pure-power-13-m-1200w-power-supply-175-atl-2833550/",
-   "asin": "B0GFB83GPM",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GFB83GPM?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0GFB83GPM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-19-96-ps5-final-fantasy-vii-remake-integrade-2833678/",
-   "title": "$19.96 PS5 Final Fantasy VII Remake Integrade",
-   "price": 19.99,
-   "was": 24.99,
-   "votes": 6,
-   "posts": 3,
-   "time": "2026-11-24T07:33:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-19-96-ps5-final-fantasy-vii-remake-integrade-2833678/",
-   "asin": "B0CH1XTC52",
-   "pct": 20,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CH1XTC52?tag=coupdecoeurqc-20",
+   "posts": 8,
+   "time": "2026-11-24T02:57:30+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
+   "asin": "B0BB3FWDQN",
+   "pct": 25,
+   "cat": "epicerie",
+   "link": "https://www.amazon.ca/dp/B0BB3FWDQN?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CH1XTC52.jpg"
+   "img": "/img/p/B0BB3FWDQN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cuisinart-custom-14-cup-electric-food-chopper-processor-dfp-14bcnyc-2832615/",
@@ -1312,24 +1330,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0GL28YMNT.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
-   "title": "REESE'S Lovers Gift Box, 8 Bars Variety Pack, 535 g on sale $13.64($18.19)",
-   "price": 13.64,
-   "was": 18.19,
-   "votes": 5,
-   "posts": 7,
-   "time": "2026-11-24T02:57:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
-   "asin": "B0BB3FWDQN",
-   "pct": 25,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B0BB3FWDQN?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BB3FWDQN.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
@@ -1566,24 +1566,6 @@
    "img": "/img/p/B0DCG1JGKN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
-   "price": 49.97,
-   "was": 99.95,
-   "votes": 3,
-   "posts": 11,
-   "time": "2026-11-24T16:43:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "asin": "B0FB12L2VC",
-   "pct": 50,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FB12L2VC.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
    "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
    "price": 599.99,
@@ -1600,6 +1582,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FWK41WF2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
+   "title": "Colavita Extra Virgin Olive Oil Special Soccer Ball Glass Bottle (500ml) - Great Stocking Stuffer! $9.95 S&S",
+   "price": 9.95,
+   "was": 14.99,
+   "votes": 2,
+   "posts": 6,
+   "time": "2026-11-24T18:35:19+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
+   "asin": "B0H4X25Y2R",
+   "pct": 34,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0H4X25Y2R?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H4X25Y2R.jpg"
   }
  ]
 }
