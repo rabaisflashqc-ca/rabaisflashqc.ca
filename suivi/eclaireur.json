@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T01:59-04:00",
+ "date": "2026-11-24T02:57-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -17,8 +17,8 @@
    44,
    44,
    [
-    "2026-11-17T05:58:30+00:00",
-    "2026-11-18T00:02:23+00:00"
+    "2026-11-18T00:02:23+00:00",
+    "2026-11-18T02:34:47+00:00"
    ],
    [
     "2026-11-24T02:34:33+00:00",
@@ -51,7 +51,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   29,
+   28,
    [
     "2026-11-19T18:59:07+00:00",
     "2026-11-19T19:03:31+00:00"
@@ -75,7 +75,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   34,
+   35,
    [
     "2026-11-15T15:48:22+00:00",
     "2026-11-16T00:12:21+00:00"
@@ -85,8 +85,8 @@
     "2026-11-18T19:40:14+00:00"
    ]
   ],
-  "avant_filtre_date": 141,
-  "apres_filtre_date": 127
+  "avant_filtre_date": 140,
+  "apres_filtre_date": 124
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "Apple MacBook Pro 14\" M4 Pro 24GB 512GB - $1,899 (List Price: $2,699)",
    "price": 1899.0,
    "was": 2699.0,
-   "votes": 115,
-   "posts": 103,
+   "votes": 119,
+   "posts": 106,
    "time": "2026-11-23T23:01:28+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-macbook-pro-14-m4-pro-24gb-512gb-1-899-list-price-2-699-2833607/",
    "asin": "B0DLJ2B57F",
@@ -666,6 +666,24 @@
    "img": "/img/p/B0FJRQ9RM6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
+   "title": "ASUS ATS Radeon RX 9070 GRE 12GB GDDR6 OC $779.99",
+   "price": 779.99,
+   "was": 1130.4,
+   "votes": 9,
+   "posts": 5,
+   "time": "2026-11-23T22:50:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
+   "asin": "B0GZPV8T9Q",
+   "pct": 31,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GZPV8T9Q?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0GZPV8T9Q.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "title": "VIOFO A119M Pro 4K HDR Mini Dash Cam - $189.99 (was $259.99)",
    "price": 189.99,
@@ -736,24 +754,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B004GIXRMK.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
-   "title": "ASUS ATS Radeon RX 9070 GRE 12GB GDDR6 OC $779.99",
-   "price": 779.99,
-   "was": 1130.4,
-   "votes": 8,
-   "posts": 5,
-   "time": "2026-11-23T22:50:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
-   "asin": "B0GZPV8T9Q",
-   "pct": 31,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GZPV8T9Q?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0GZPV8T9Q.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-diono-solana-2-xl-backless-booster-car-seat-46-99-41-2832707/",
@@ -1211,7 +1211,7 @@
    "price": 13.64,
    "was": 18.19,
    "votes": 5,
-   "posts": 3,
+   "posts": 4,
    "time": "2026-11-24T02:57:30+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
    "asin": "B0BB3FWDQN",
@@ -1476,24 +1476,6 @@
    "img": "/img/p/B0GX81Y3N3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-evenflo-omni-signature-travel-system-litemax-infant-car-seat-sale-399-97-549-97-2832518/",
-   "title": "Evenflo Omni Signature Travel System with LiteMax Infant Car Seat on sale $399.97($549.97)",
-   "price": 399.97,
-   "was": 549.97,
-   "votes": 2,
-   "posts": 3,
-   "time": "2026-11-17T05:58:30+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-evenflo-omni-signature-travel-system-litemax-infant-car-seat-sale-399-97-549-97-2832518/",
-   "asin": "B08316YB7N",
-   "pct": 27,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B08316YB7N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08316YB7N.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-action-4-essential-combo-ci-249-99-319-2832678/",
    "title": "DJI Osmo Action 4 Essential Combo – $249.99 (was. $319)",
    "price": 249.99,
@@ -1600,6 +1582,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B08R8YZR32.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
+   "title": "24V 13\"\" Cordless Snow Shovel - $148.99",
+   "price": 148.99,
+   "was": 179.99,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-19T23:20:08+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
+   "asin": "B0B1TXSFMK",
+   "pct": 17,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B1TXSFMK?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B1TXSFMK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
