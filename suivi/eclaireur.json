@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T16:55-04:00",
+ "date": "2026-11-24T17:37-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,13 +21,13 @@
     "2026-11-18T02:34:47+00:00"
    ],
    [
-    "2026-11-24T12:33:42+00:00",
-    "2026-11-24T15:24:04+00:00"
+    "2026-11-24T15:24:04+00:00",
+    "2026-11-24T17:38:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   30,
+   29,
    [
     "2026-11-23T08:13:50+00:00",
     "2026-11-23T12:26:32+00:00"
@@ -39,7 +39,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   22,
+   23,
    [
     "2026-11-21T06:43:13+00:00",
     "2026-11-21T13:07:14+00:00"
@@ -185,7 +185,7 @@
    "price": 1167.0,
    "was": 1747.0,
    "votes": 29,
-   "posts": 28,
+   "posts": 29,
    "time": "2026-11-22T17:06:59+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
    "asin": "B0HC35V6KZ",
@@ -216,6 +216,24 @@
    "img": "/img/p/B00007J5U7.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
+   "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
+   "price": 6.0,
+   "was": 11.0,
+   "votes": 25,
+   "posts": 12,
+   "time": "2026-11-24T16:12:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
+   "asin": "B000BZIFV0",
+   "pct": 45,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B000BZIFV0?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B000BZIFV0.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
    "title": "Brother DCP-L2647DW Monochrome Laser Printer/Scanner/Copier - $199.99 (was $339.99)",
    "price": 199.99,
@@ -232,24 +250,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GT7S6BHV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
-   "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
-   "price": 6.0,
-   "was": 11.0,
-   "votes": 23,
-   "posts": 11,
-   "time": "2026-11-24T16:12:58+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
-   "asin": "B000BZIFV0",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B000BZIFV0?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B000BZIFV0.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-apple-airpods-pro-3-wireless-229-00-2832884/",
@@ -274,8 +274,8 @@
    "title": "Hanes Mens Tagless Boxer Briefs, 6 Pack, COTTON m-xl - ATL -$20.24",
    "price": 20.24,
    "was": null,
-   "votes": 17,
-   "posts": 7,
+   "votes": 18,
+   "posts": 8,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
    "asin": "B0123NDHKQ",
@@ -283,7 +283,7 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0123NDHKQ?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 2,
+   "morts": 1,
    "doute": true,
    "img": "/img/p/B0123NDHKQ.jpg"
   },
@@ -702,6 +702,24 @@
    "img": "/img/p/B01FEMAIBE.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
+   "title": "Herschel Unisex Classic Backpack Mod XL - 25L $35.02",
+   "price": 35.02,
+   "was": 63.69,
+   "votes": 10,
+   "posts": 3,
+   "time": "2026-11-24T15:32:41+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
+   "asin": "B0C3B3CNKH",
+   "pct": 45,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0C3B3CNKH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C3B3CNKH.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
    "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
    "price": 32.0,
@@ -718,24 +736,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FJRQ9RM6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
-   "title": "Herschel Unisex Classic Backpack Mod XL - 25L $35.02",
-   "price": 35.02,
-   "was": 63.69,
-   "votes": 9,
-   "posts": 3,
-   "time": "2026-11-24T15:32:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
-   "asin": "B0C3B3CNKH",
-   "pct": 45,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0C3B3CNKH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C3B3CNKH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
@@ -923,7 +923,7 @@
    "price": 79.86,
    "was": 119.99,
    "votes": 7,
-   "posts": 1,
+   "posts": 2,
    "time": "2026-11-19T15:36:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-star-wars-andor-k-2so-75434-79-86-119-99-2832860/",
    "asin": "B0CGY22J6Y",
@@ -1566,6 +1566,24 @@
    "img": "/img/p/B0DCG1JGKN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
+   "price": 49.97,
+   "was": 99.95,
+   "votes": 3,
+   "posts": 11,
+   "time": "2026-11-24T16:43:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "asin": "B0FB12L2VC",
+   "pct": 50,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FB12L2VC.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
    "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
    "price": 599.99,
@@ -1582,24 +1600,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FWK41WF2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
-   "price": 49.97,
-   "was": 99.95,
-   "votes": 3,
-   "posts": 9,
-   "time": "2026-11-24T16:43:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "asin": "B0FB12L2VC",
-   "pct": 50,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FB12L2VC.jpg"
   }
  ]
 }
