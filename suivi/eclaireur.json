@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T16:16-04:00",
+ "date": "2026-11-24T16:55-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,13 +21,13 @@
     "2026-11-18T02:34:47+00:00"
    ],
    [
-    "2026-11-24T15:24:04+00:00",
-    "2026-11-24T16:43:15+00:00"
+    "2026-11-24T12:33:42+00:00",
+    "2026-11-24T15:24:04+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   29,
+   30,
    [
     "2026-11-23T08:13:50+00:00",
     "2026-11-23T12:26:32+00:00"
@@ -39,7 +39,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   23,
+   22,
    [
     "2026-11-21T06:43:13+00:00",
     "2026-11-21T13:07:14+00:00"
@@ -238,8 +238,8 @@
    "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
    "price": 6.0,
    "was": 11.0,
-   "votes": 22,
-   "posts": 8,
+   "votes": 23,
+   "posts": 11,
    "time": "2026-11-24T16:12:58+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
    "asin": "B000BZIFV0",
@@ -275,7 +275,7 @@
    "price": 20.24,
    "was": null,
    "votes": 17,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
    "asin": "B0123NDHKQ",
@@ -702,24 +702,6 @@
    "img": "/img/p/B01FEMAIBE.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
-   "title": "Herschel Unisex Classic Backpack Mod XL - 25L $35.02",
-   "price": 35.02,
-   "was": 63.69,
-   "votes": 10,
-   "posts": 3,
-   "time": "2026-11-24T15:32:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
-   "asin": "B0C3B3CNKH",
-   "pct": 45,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0C3B3CNKH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C3B3CNKH.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
    "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
    "price": 32.0,
@@ -736,6 +718,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FJRQ9RM6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
+   "title": "Herschel Unisex Classic Backpack Mod XL - 25L $35.02",
+   "price": 35.02,
+   "was": 63.69,
+   "votes": 9,
+   "posts": 3,
+   "time": "2026-11-24T15:32:41+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
+   "asin": "B0C3B3CNKH",
+   "pct": 45,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0C3B3CNKH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C3B3CNKH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
@@ -1440,24 +1440,6 @@
    "img": "/img/p/B0G1PN5PRP.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
-   "price": 49.97,
-   "was": 99.95,
-   "votes": 4,
-   "posts": 9,
-   "time": "2026-11-24T16:43:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "asin": "B0FB12L2VC",
-   "pct": 50,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FB12L2VC.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dyson-v11-origin-cordless-vacuum-37-off-2832682/",
    "title": "Dyson V11 Origin Cordless Vacuum (37% off)",
    "price": 499.99,
@@ -1602,22 +1584,22 @@
    "img": "/img/p/B0FWK41WF2.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
-   "title": "Colavita Extra Virgin Olive Oil Special Soccer Ball Glass Bottle (500ml) - Great Stocking Stuffer! $9.95 S&S",
-   "price": 9.95,
-   "was": 14.99,
-   "votes": 2,
-   "posts": 5,
-   "time": "2026-11-24T18:35:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
-   "asin": "B0H4X25Y2R",
-   "pct": 34,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0H4X25Y2R?tag=coupdecoeurqc-20",
+   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
+   "price": 49.97,
+   "was": 99.95,
+   "votes": 3,
+   "posts": 9,
+   "time": "2026-11-24T16:43:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "asin": "B0FB12L2VC",
+   "pct": 50,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0H4X25Y2R.jpg"
+   "img": "/img/p/B0FB12L2VC.jpg"
   }
  ]
 }
