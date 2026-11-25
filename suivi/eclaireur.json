@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25T16:15-04:00",
+ "date": "2026-11-25T16:46-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -27,10 +27,10 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   26,
+   25,
    [
-    "2026-11-24T01:26:51+00:00",
-    "2026-11-24T02:27:12+00:00"
+    "2026-11-23T22:50:36+00:00",
+    "2026-11-24T01:26:51+00:00"
    ],
    [
     "2026-11-25T18:29:06+00:00",
@@ -39,53 +39,53 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   25,
+   26,
    [
-    "2026-11-21T16:47:06+00:00",
-    "2026-11-21T17:29:53+00:00"
+    "2026-11-21T16:22:25+00:00",
+    "2026-11-21T16:47:06+00:00"
    ],
    [
-    "2026-11-23T20:30:50+00:00",
-    "2026-11-23T22:50:36+00:00"
+    "2026-11-23T19:47:21+00:00",
+    "2026-11-23T20:30:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    22,
    [
-    "2026-11-20T07:07:06+00:00",
-    "2026-11-20T11:12:05+00:00"
+    "2026-11-20T06:51:10+00:00",
+    "2026-11-20T07:07:06+00:00"
    ],
    [
-    "2026-11-21T16:17:59+00:00",
-    "2026-11-21T16:22:25+00:00"
+    "2026-11-21T15:48:19+00:00",
+    "2026-11-21T16:17:59+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    30,
    [
-    "2026-11-19T15:57:52+00:00",
-    "2026-11-19T16:00:25+00:00"
+    "2026-11-19T15:54:02+00:00",
+    "2026-11-19T15:57:52+00:00"
    ],
    [
-    "2026-11-20T06:21:06+00:00",
-    "2026-11-20T06:51:10+00:00"
+    "2026-11-20T06:08:52+00:00",
+    "2026-11-20T06:21:06+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    29,
    [
-    "2026-11-17T19:34:49+00:00",
-    "2026-11-17T22:01:45+00:00"
+    "2026-11-17T14:08:11+00:00",
+    "2026-11-17T19:34:49+00:00"
    ],
    [
-    "2026-11-19T15:51:22+00:00",
-    "2026-11-19T15:54:02+00:00"
+    "2026-11-19T15:36:53+00:00",
+    "2026-11-19T15:51:22+00:00"
    ]
   ],
-  "avant_filtre_date": 144,
+  "avant_filtre_date": 145,
   "apres_filtre_date": 134
  },
  "items": [
@@ -131,7 +131,7 @@
    "price": 63.98,
    "was": null,
    "votes": 41,
-   "posts": 29,
+   "posts": 30,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
    "asin": "B0C3JRVSL2",
@@ -203,7 +203,7 @@
    "price": 6.0,
    "was": 11.0,
    "votes": 31,
-   "posts": 27,
+   "posts": 29,
    "time": "2026-11-24T16:12:58+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
    "asin": "B000BZIFV0",
@@ -293,7 +293,7 @@
    "price": 679.0,
    "was": 999.0,
    "votes": 17,
-   "posts": 17,
+   "posts": 21,
    "time": "2026-11-25T09:56:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-ipad-air-11-inch-m4-chip-wi-fi-128gb-sale-679-999-2833868/",
    "asin": "B0GQVP7LKW",
@@ -468,30 +468,12 @@
    "img": "/img/p/B0DV3XNC3C.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
-   "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
-   "price": 14.0,
-   "was": 40.0,
-   "votes": 13,
-   "posts": 4,
-   "time": "2026-11-23T02:48:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
-   "asin": "B0F569LHK7",
-   "pct": 65,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0F569LHK7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0F569LHK7.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
    "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
    "price": 77.99,
    "was": null,
    "votes": 13,
-   "posts": 5,
+   "posts": 6,
    "time": "2026-11-24T15:24:04+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
    "asin": "B07S5PH3H9",
@@ -538,6 +520,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B08DJ8Z3WH.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
+   "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
+   "price": 14.0,
+   "was": 40.0,
+   "votes": 12,
+   "posts": 4,
+   "time": "2026-11-23T02:48:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
+   "asin": "B0F569LHK7",
+   "pct": 65,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0F569LHK7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0F569LHK7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
@@ -628,6 +628,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DHGNBXXC.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
+   "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
+   "price": 93.3,
+   "was": 169.99,
+   "votes": 11,
+   "posts": 5,
+   "time": "2026-11-21T20:11:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
+   "asin": "B097QRFR7G",
+   "pct": 45,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B097QRFR7G?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B097QRFR7G.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
@@ -736,24 +754,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GWFM6YDH.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
-   "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
-   "price": 93.3,
-   "was": 169.99,
-   "votes": 10,
-   "posts": 2,
-   "time": "2026-11-21T20:11:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
-   "asin": "B08WDZ1828",
-   "pct": 45,
-   "cat": "beaute",
-   "link": "https://www.amazon.ca/dp/B08WDZ1828?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08WDZ1828.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-2833434/",
@@ -936,6 +936,24 @@
    "img": "/img/p/B0DR3CK8Q7.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
+   "title": "LEGO Speed Champions Ferrari SF-24 F1 [77242] - $19.86 (was $34.99)",
+   "price": 19.86,
+   "was": 34.99,
+   "votes": 8,
+   "posts": 5,
+   "time": "2026-11-25T18:20:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
+   "asin": "B0DHLHWZT7",
+   "pct": 43,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DHLHWZT7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHLHWZT7.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
    "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
    "price": 169.99,
@@ -1078,24 +1096,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CC9DB4YB.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
-   "title": "LEGO Speed Champions Ferrari SF-24 F1 [77242] - $19.86 (was $34.99)",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 7,
-   "posts": 4,
-   "time": "2026-11-25T18:20:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
-   "asin": "B0DHLHWZT7",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DHLHWZT7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHLHWZT7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
