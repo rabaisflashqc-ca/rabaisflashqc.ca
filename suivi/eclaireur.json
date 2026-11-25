@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25T15:28-04:00",
+ "date": "2026-11-25T16:15-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -112,7 +112,7 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 84,
+   "votes": 86,
    "posts": 62,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
@@ -293,7 +293,7 @@
    "price": 679.0,
    "was": 999.0,
    "votes": 17,
-   "posts": 15,
+   "posts": 17,
    "time": "2026-11-25T09:56:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-ipad-air-11-inch-m4-chip-wi-fi-128gb-sale-679-999-2833868/",
    "asin": "B0GQVP7LKW",
@@ -301,8 +301,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0GQVP7LKW?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
+   "morts": 0,
+   "doute": false,
    "img": "/img/p/B0GQVP7LKW.jpg"
   },
   {
@@ -707,7 +707,7 @@
    "price": 23.99,
    "was": 47.99,
    "votes": 11,
-   "posts": 9,
+   "posts": 10,
    "time": "2026-11-25T16:42:05+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
    "asin": "B07D3NGT97",
@@ -1080,6 +1080,24 @@
    "img": "/img/p/B0CC9DB4YB.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
+   "title": "LEGO Speed Champions Ferrari SF-24 F1 [77242] - $19.86 (was $34.99)",
+   "price": 19.86,
+   "was": 34.99,
+   "votes": 7,
+   "posts": 4,
+   "time": "2026-11-25T18:20:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
+   "asin": "B0DHLHWZT7",
+   "pct": 43,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DHLHWZT7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHLHWZT7.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
    "title": "Heated Rivalry (Original Series Soundtrack) (Vinyl) @ $19.97",
    "price": 19.97,
@@ -1132,6 +1150,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0007ZF4OA.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
+   "title": "Logitech G502 HERO Wired Gaming Mouse - $39",
+   "price": 39.98,
+   "was": 74.99,
+   "votes": 6,
+   "posts": 4,
+   "time": "2026-11-25T06:16:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
+   "asin": "B07GBZ4Q68",
+   "pct": 47,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B07GBZ4Q68?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07GBZ4Q68.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-500-electric-toothbrush-2-brush-heads-sale-37-22-49-99-2832803/",
@@ -1296,6 +1332,24 @@
    "img": "/img/p/B0BB3FWDQN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
+   "title": "Ninja Crispi Glass Air Fryer, 4-in-1, 4 Qt/3.8L and 6 Cup containers, PFAS-free glass on sale $159.98($219.99)",
+   "price": 159.98,
+   "was": 219.99,
+   "votes": 5,
+   "posts": 19,
+   "time": "2026-11-24T03:18:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
+   "asin": "B0G1PN5PRP",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0G1PN5PRP?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0G1PN5PRP.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
    "title": "Colavita Extra Virgin Olive Oil Special Soccer Ball Glass Bottle (500ml) - Great Stocking Stuffer! $9.95 S&S",
    "price": 9.95,
@@ -1312,42 +1366,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H4X25Y2R.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
-   "title": "Logitech G502 HERO Wired Gaming Mouse - $39",
-   "price": 39.98,
-   "was": 74.99,
-   "votes": 5,
-   "posts": 4,
-   "time": "2026-11-25T06:16:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
-   "asin": "B07GBZ4Q68",
-   "pct": 47,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B07GBZ4Q68?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07GBZ4Q68.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
-   "title": "LEGO Speed Champions Ferrari SF-24 F1 [77242] - $19.86 (was $34.99)",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 5,
-   "posts": 3,
-   "time": "2026-11-25T18:20:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
-   "asin": "B0DHLHWZT7",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DHLHWZT7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHLHWZT7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-mic-mini-2-tx-1-mobile-rx-ci-59-99-reg-79-2832829/",
@@ -1420,24 +1438,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0FJWV3RR4.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
-   "title": "Ninja Crispi Glass Air Fryer, 4-in-1, 4 Qt/3.8L and 6 Cup containers, PFAS-free glass on sale $159.98($219.99)",
-   "price": 159.98,
-   "was": 219.99,
-   "votes": 4,
-   "posts": 19,
-   "time": "2026-11-24T03:18:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
-   "asin": "B0G1PN5PRP",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0G1PN5PRP?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0G1PN5PRP.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-nutri-bullet-nb50100c-pro-1000-single-serve-blender-1000w-7-piece-set-sale-59-99-109-99-2833865/",
@@ -1566,6 +1566,24 @@
    "img": "/img/p/B0DCG1JGKN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
+   "title": "LEGO Icons The Lord of The Rings Balrog Book Nook - $99.86 (33% off)",
+   "price": 99.86,
+   "was": 149.99,
+   "votes": 3,
+   "posts": 2,
+   "time": "2026-11-25T18:29:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
+   "asin": "B0DRW56MKL",
+   "pct": 33,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DRW56MKL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DRW56MKL.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dw-879-99-2833840/",
    "title": "Alienware 34 Gaming Monitor AW3426DW $879.99",
    "price": 879.99,
@@ -1582,24 +1600,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HFHZJ6C2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
-   "price": 49.97,
-   "was": 99.95,
-   "votes": 3,
-   "posts": 18,
-   "time": "2026-11-24T16:43:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "asin": "B0FB12L2VC",
-   "pct": 50,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0FB12L2VC.jpg"
   }
  ]
 }
