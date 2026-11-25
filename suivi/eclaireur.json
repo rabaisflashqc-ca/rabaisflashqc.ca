@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T23:11-04:00",
+ "date": "2026-11-25T00:54-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -22,19 +22,19 @@
    ],
    [
     "2026-11-24T17:38:40+00:00",
-    "2026-11-24T18:35:19+00:00"
+    "2026-11-25T03:42:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    28,
    [
-    "2026-11-23T12:26:32+00:00",
-    "2026-11-23T12:27:50+00:00"
+    "2026-11-23T13:06:51+00:00",
+    "2026-11-23T14:13:17+00:00"
    ],
    [
-    "2026-11-24T18:35:19+00:00",
-    "2026-11-25T02:27:36+00:00"
+    "2026-11-25T03:42:31+00:00",
+    "2026-11-25T04:30:09+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
@@ -45,8 +45,8 @@
     "2026-11-21T13:14:12+00:00"
    ],
    [
-    "2026-11-23T03:53:10+00:00",
-    "2026-11-23T08:13:50+00:00"
+    "2026-11-23T12:40:31+00:00",
+    "2026-11-23T12:57:40+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
@@ -130,7 +130,7 @@
    "title": "Helly Hansen Men's Rain Jacket @ $63.98",
    "price": 63.98,
    "was": null,
-   "votes": 42,
+   "votes": 41,
    "posts": 29,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
@@ -202,7 +202,7 @@
    "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
    "price": 6.0,
    "was": 11.0,
-   "votes": 29,
+   "votes": 30,
    "posts": 18,
    "time": "2026-11-24T16:12:58+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
@@ -274,7 +274,7 @@
    "title": "Hanes Mens Tagless Boxer Briefs, 6 Pack, COTTON m-xl - ATL -$20.24",
    "price": 20.24,
    "was": null,
-   "votes": 19,
+   "votes": 21,
    "posts": 9,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
@@ -486,6 +486,24 @@
    "img": "/img/p/B08DJ8Z3WH.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
+   "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
+   "price": 77.99,
+   "was": null,
+   "votes": 12,
+   "posts": 2,
+   "time": "2026-11-24T15:24:04+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
+   "asin": "B07S5PH3H9",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07S5PH3H9?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B07S5PH3H9.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
    "title": "Kitchenaid KF3 Automatic Espresso Machine 749.99 - Available at multiple retailers (Amazon/BB/ECS/Doyon/...)",
    "price": 749.99,
@@ -576,22 +594,22 @@
    "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
-   "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
-   "price": 77.99,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
+   "title": "Herschel Unisex Classic Backpack Mod XL - 25L $35.02",
+   "price": 35.02,
+   "was": 63.69,
    "votes": 11,
-   "posts": 2,
-   "time": "2026-11-24T15:24:04+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
-   "asin": "B07S5PH3H9",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07S5PH3H9?tag=coupdecoeurqc-20",
+   "posts": 3,
+   "time": "2026-11-24T15:32:41+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
+   "asin": "B0C3B3CNKH",
+   "pct": 45,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0C3B3CNKH?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B07S5PH3H9.jpg"
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0C3B3CNKH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
@@ -700,24 +718,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01FEMAIBE.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
-   "title": "Herschel Unisex Classic Backpack Mod XL - 25L $35.02",
-   "price": 35.02,
-   "was": 63.69,
-   "votes": 10,
-   "posts": 3,
-   "time": "2026-11-24T15:32:41+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
-   "asin": "B0C3B3CNKH",
-   "pct": 45,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0C3B3CNKH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0C3B3CNKH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
@@ -1013,7 +1013,7 @@
    "price": 19.99,
    "was": 24.99,
    "votes": 7,
-   "posts": 3,
+   "posts": 4,
    "time": "2026-11-24T07:33:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-19-96-ps5-final-fantasy-vii-remake-integrade-2833678/",
    "asin": "B0CH1XTC52",
@@ -1296,6 +1296,24 @@
    "img": "/img/p/B0GL28YMNT.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
+   "title": "Red Line 60103 Complete SI-1 Fuel System Cleaner, 15 Ounce",
+   "price": 19.13,
+   "was": 26.95,
+   "votes": 5,
+   "posts": 1,
+   "time": "2026-11-25T03:42:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
+   "asin": "B000CPI5Z0",
+   "pct": 29,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B000CPI5Z0?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B000CPI5Z0.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-mic-mini-2-tx-1-mobile-rx-ci-59-99-reg-79-2832829/",
    "title": "DJI Mic Mini (2 TX + 1 Mobile RX) – $59.99 (Reg. $79)",
    "price": 59.99,
@@ -1566,40 +1584,22 @@
    "img": "/img/p/B0H4X25Y2R.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
-   "price": 49.97,
-   "was": 99.95,
+   "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dw-879-99-2833840/",
+   "title": "Alienware 34 Gaming Monitor AW3426DW $879.99",
+   "price": 879.99,
+   "was": 1129.9,
    "votes": 2,
-   "posts": 16,
-   "time": "2026-11-24T16:43:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "asin": "B0FB12L2VC",
-   "pct": 50,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
+   "posts": 1,
+   "time": "2026-11-25T04:30:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dw-879-99-2833840/",
+   "asin": "B0HFHZJ6C2",
+   "pct": 22,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HFHZJ6C2?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FB12L2VC.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
-   "title": "MOVA E40 Ultra Robot $349.99",
-   "price": 349.99,
-   "was": 448.0,
-   "votes": 2,
-   "posts": 5,
-   "time": "2026-11-23T19:47:21+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
-   "asin": "B0FJWV3RR4",
-   "pct": 22,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FJWV3RR4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0FJWV3RR4.jpg"
+   "img": "/img/p/B0HFHZJ6C2.jpg"
   }
  ]
 }
