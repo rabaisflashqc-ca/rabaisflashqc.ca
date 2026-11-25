@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25T00:54-04:00",
+ "date": "2026-11-25T01:25-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -17,65 +17,65 @@
    44,
    44,
    [
-    "2026-11-18T05:13:12+00:00",
-    "2026-11-18T12:26:52+00:00"
+    "2026-11-18T12:26:52+00:00",
+    "2026-11-18T14:02:07+00:00"
    ],
    [
-    "2026-11-24T17:38:40+00:00",
+    "2026-11-24T18:35:19+00:00",
     "2026-11-25T03:42:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   28,
+   27,
    [
-    "2026-11-23T13:06:51+00:00",
-    "2026-11-23T14:13:17+00:00"
+    "2026-11-23T14:13:17+00:00",
+    "2026-11-23T14:24:27+00:00"
    ],
    [
-    "2026-11-25T03:42:31+00:00",
-    "2026-11-25T04:30:09+00:00"
+    "2026-11-25T04:30:09+00:00",
+    "2026-11-25T05:18:00+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    21,
    [
-    "2026-11-21T13:07:14+00:00",
-    "2026-11-21T13:14:12+00:00"
+    "2026-11-21T13:14:12+00:00",
+    "2026-11-21T13:22:35+00:00"
    ],
    [
-    "2026-11-23T12:40:31+00:00",
-    "2026-11-23T12:57:40+00:00"
+    "2026-11-23T12:57:40+00:00",
+    "2026-11-23T13:06:51+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   29,
+   28,
    [
-    "2026-11-20T02:03:14+00:00",
-    "2026-11-20T03:11:14+00:00"
+    "2026-11-20T03:11:14+00:00",
+    "2026-11-20T03:14:39+00:00"
    ],
    [
-    "2026-11-21T05:28:17+00:00",
-    "2026-11-21T06:43:13+00:00"
+    "2026-11-21T06:43:13+00:00",
+    "2026-11-21T13:07:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   27,
+   28,
    [
     "2026-11-19T14:32:02+00:00",
     "2026-11-19T14:56:38+00:00"
    ],
    [
-    "2026-11-20T01:18:57+00:00",
-    "2026-11-20T01:27:26+00:00"
+    "2026-11-20T01:27:26+00:00",
+    "2026-11-20T02:03:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   27,
+   28,
    [
     "2026-11-17T05:25:50+00:00",
     "2026-11-17T05:37:39+00:00"
@@ -86,7 +86,7 @@
    ]
   ],
   "avant_filtre_date": 140,
-  "apres_filtre_date": 131
+  "apres_filtre_date": 130
  },
  "items": [
   {
@@ -95,7 +95,7 @@
    "price": 6.86,
    "was": 11.85,
    "votes": 87,
-   "posts": 41,
+   "posts": 42,
    "time": "2026-11-23T08:13:50+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
    "asin": "B09X5Z6NZG",
@@ -1026,24 +1026,6 @@
    "img": "/img/p/B0CH1XTC52.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
-   "title": "Sony WH-1000XM4C ANC Headphones - $278 (from $430)",
-   "price": 278.0,
-   "was": 430.0,
-   "votes": 6,
-   "posts": 17,
-   "time": "2026-11-18T05:13:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-sony-wh-1000xm4c-anc-headphones-278-430-2832651/",
-   "asin": "B0HFB8N519",
-   "pct": 35,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HFB8N519?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HFB8N519.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-stanley-quencher-h2-0-tumbler-handle-straw-40-oz-50-off-2832697/",
    "title": "Stanley Quencher H2.0 Tumbler with Handle and Straw 40 oz (50% OFF)",
    "price": 29.5,
@@ -1301,7 +1283,7 @@
    "price": 19.13,
    "was": 26.95,
    "votes": 5,
-   "posts": 1,
+   "posts": 2,
    "time": "2026-11-25T03:42:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
    "asin": "B000CPI5Z0",
@@ -1309,8 +1291,8 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B000CPI5Z0?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B000CPI5Z0.jpg"
   },
   {
@@ -1330,24 +1312,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FQJH54TR.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-american-tourister-stratum-xlt-2pc-set-co-l-atl-102-39-2832887/",
-   "title": "American Tourister Stratum XLT 2pc Set (CO/L) - ATL - $102.39",
-   "price": 102.39,
-   "was": null,
-   "votes": 4,
-   "posts": 4,
-   "time": "2026-11-19T16:37:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-american-tourister-stratum-xlt-2pc-set-co-l-atl-102-39-2832887/",
-   "asin": "B0D5RK75Q8",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0D5RK75Q8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D5RK75Q8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
@@ -1548,6 +1512,24 @@
    "img": "/img/p/B0FWK41WF2.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-apple-2026-macbook-air-13-inch-laptop-m5-chip-sale-1-589-99-1-789-99-2833698/",
+   "title": "Apple 2026 MacBook Air 13-inch Laptop with M5 chip on sale $1,589.99($1,789.99)",
+   "price": 1589.9,
+   "was": 1789.9,
+   "votes": 3,
+   "posts": 19,
+   "time": "2026-11-24T12:19:43+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-apple-2026-macbook-air-13-inch-laptop-m5-chip-sale-1-589-99-1-789-99-2833698/",
+   "asin": "B0GR1493ZV",
+   "pct": 11,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GR1493ZV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GR1493ZV.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
    "title": "Helly Hansen Men's Dubliner Shell Jacket",
    "price": 67.98,
@@ -1571,7 +1553,7 @@
    "price": 9.95,
    "was": 14.99,
    "votes": 3,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-24T18:35:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
    "asin": "B0H4X25Y2R",
@@ -1600,6 +1582,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HFHZJ6C2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
+   "price": 49.97,
+   "was": 99.95,
+   "votes": 2,
+   "posts": 17,
+   "time": "2026-11-24T16:43:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "asin": "B0FB12L2VC",
+   "pct": 50,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FB12L2VC.jpg"
   }
  ]
 }
