@@ -138,7 +138,7 @@ for x in aj.get("grid", []) + aj.get("shelves", []):
     price = num(x.get("price")); old = num(x.get("old") or x.get("kind"))
     if not price or not old or old <= price: continue
     pct = round((1 - price / old) * 100)
-    if pct < 20 or pct > 70 or price < 8: continue
+    if pct < 16 or pct > 70 or price < 8: continue
     rate = num((x.get("rate") or "").split("sur")[0]) if x.get("rate") else 0
     if x.get("rate") and rate and rate < 4.0: continue
     img = img_url(x.get("img")); title_raw = x.get("t") or ""
@@ -173,7 +173,7 @@ for x in kj["items"]:
     n, w = float(x["n"]), float(x["w"])
     if not (w > n > 0): continue
     pct = round((1 - n / w) * 100)
-    if pct < 30 or pct > 70 or not (10 <= n <= 400): continue
+    if pct < 16 or pct > 70 or not (10 <= n <= 600): continue
     if not re.search(r"minute|heure|1 jour|2 jours", x.get("f", "")): continue
     t_raw = html.unescape(x["t"])
     if EXCL.search(t_raw): continue
@@ -186,7 +186,7 @@ for x in kj["items"]:
          "source": "keepa", "img_url": f"https://m.media-amazon.com/images/I/{x['i']}._AC_SL500_.jpg"}
     c = comm_de(t_raw, cat)
     if c: e["comm"] = c
-    e["vf"] = True
+    if pct >= 30: e["vf"] = True
     kp.append(e)
 kp.sort(key=lambda e: -e["pct"])
 # viser ~40 % mode (homme/femme/enfants), 15 % beauté, le reste maison/tech/jouets/plein-air/animaux (règle d'Alex)
