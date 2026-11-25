@@ -1,11 +1,11 @@
 {
- "date": "2026-11-24T20:41-04:00",
+ "date": "2026-11-24T23:11-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-18T00:48:37+00:00",
+    "2026-11-18T18:06:41+00:00",
     "2026-11-18T23:47:43+00:00"
    ],
    [
@@ -17,76 +17,76 @@
    44,
    44,
    [
-    "2026-11-18T02:34:47+00:00",
-    "2026-11-18T05:13:12+00:00"
-   ],
-   [
-    "2026-11-24T12:33:42+00:00",
-    "2026-11-24T17:38:40+00:00"
-   ]
-  ],
-  "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
-   44,
-   29,
-   [
-    "2026-11-23T08:13:50+00:00",
-    "2026-11-23T12:26:32+00:00"
+    "2026-11-18T05:13:12+00:00",
+    "2026-11-18T12:26:52+00:00"
    ],
    [
     "2026-11-24T17:38:40+00:00",
     "2026-11-24T18:35:19+00:00"
    ]
   ],
-  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
+  "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   22,
+   28,
    [
-    "2026-11-21T06:43:13+00:00",
-    "2026-11-21T13:07:14+00:00"
+    "2026-11-23T12:26:32+00:00",
+    "2026-11-23T12:27:50+00:00"
    ],
    [
-    "2026-11-23T02:50:25+00:00",
-    "2026-11-23T03:53:10+00:00"
+    "2026-11-24T18:35:19+00:00",
+    "2026-11-25T02:27:36+00:00"
+   ]
+  ],
+  "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
+   44,
+   21,
+   [
+    "2026-11-21T13:07:14+00:00",
+    "2026-11-21T13:14:12+00:00"
+   ],
+   [
+    "2026-11-23T03:53:10+00:00",
+    "2026-11-23T08:13:50+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    29,
    [
-    "2026-11-20T01:27:26+00:00",
-    "2026-11-20T02:03:14+00:00"
+    "2026-11-20T02:03:14+00:00",
+    "2026-11-20T03:11:14+00:00"
    ],
    [
-    "2026-11-21T03:14:53+00:00",
-    "2026-11-21T05:28:17+00:00"
+    "2026-11-21T05:28:17+00:00",
+    "2026-11-21T06:43:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   26,
+   27,
    [
-    "2026-11-19T14:27:26+00:00",
-    "2026-11-19T14:32:02+00:00"
+    "2026-11-19T14:32:02+00:00",
+    "2026-11-19T14:56:38+00:00"
    ],
    [
-    "2026-11-19T23:22:04+00:00",
-    "2026-11-20T01:18:57+00:00"
+    "2026-11-20T01:18:57+00:00",
+    "2026-11-20T01:27:26+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   26,
+   27,
    [
-    "2026-11-17T05:12:55+00:00",
-    "2026-11-17T05:25:50+00:00"
+    "2026-11-17T05:25:50+00:00",
+    "2026-11-17T05:37:39+00:00"
    ],
    [
-    "2026-11-19T14:14:48+00:00",
-    "2026-11-19T14:24:40+00:00"
+    "2026-11-19T14:24:40+00:00",
+    "2026-11-19T14:27:26+00:00"
    ]
   ],
   "avant_filtre_date": 140,
-  "apres_filtre_date": 132
+  "apres_filtre_date": 131
  },
  "items": [
   {
@@ -112,7 +112,7 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 78,
+   "votes": 80,
    "posts": 54,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
@@ -184,8 +184,8 @@
    "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
    "price": 1167.0,
    "was": 1747.0,
-   "votes": 30,
-   "posts": 30,
+   "votes": 31,
+   "posts": 31,
    "time": "2026-11-22T17:06:59+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
    "asin": "B0HC35V6KZ",
@@ -202,8 +202,8 @@
    "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
    "price": 6.0,
    "was": 11.0,
-   "votes": 28,
-   "posts": 15,
+   "votes": 29,
+   "posts": 18,
    "time": "2026-11-24T16:12:58+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
    "asin": "B000BZIFV0",
@@ -275,7 +275,7 @@
    "price": 20.24,
    "was": null,
    "votes": 19,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
    "asin": "B0123NDHKQ",
@@ -286,24 +286,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0123NDHKQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
-   "title": "Bounty Paper Towels Select-A-Size White, 8 Double Plus Rolls = 20 regular rolls $19.98",
-   "price": 19.98,
-   "was": 29.98,
-   "votes": 16,
-   "posts": 18,
-   "time": "2026-11-18T00:48:37+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-bounty-paper-towels-select-size-white-8-double-plus-rolls-20-regular-rolls-19-98-2832622/",
-   "asin": "B0DX7JTJ7N",
-   "pct": 33,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DX7JTJ7N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0DX7JTJ7N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-greenworks-80v-2-0ah-lithium-ion-battery-109-99-atl-2832821/",
@@ -594,6 +576,24 @@
    "img": "/img/p/B0FNWCYLZN.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
+   "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
+   "price": 77.99,
+   "was": null,
+   "votes": 11,
+   "posts": 2,
+   "time": "2026-11-24T15:24:04+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
+   "asin": "B07S5PH3H9",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07S5PH3H9?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B07S5PH3H9.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
    "title": "Strokes - Reality Awaits LP (Vinyl) - $19.97",
    "price": 19.97,
@@ -700,24 +700,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01FEMAIBE.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
-   "title": "MIKASA V200W, Volleyball Official, Blue/Yellow @ $77.99",
-   "price": 77.99,
-   "was": null,
-   "votes": 10,
-   "posts": 2,
-   "time": "2026-11-24T15:24:04+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
-   "asin": "B07S5PH3H9",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07S5PH3H9?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B07S5PH3H9.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-herschel-unisex-classic-backpack-mod-xl-25l-35-02-2833724/",
@@ -1098,24 +1080,6 @@
    "img": "/img/p/B0GRX7JKPS.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
-   "title": "Samsung Galaxy Buds4 Pro, White (CAD Version) ($179.99)",
-   "price": 179.99,
-   "was": 329.99,
-   "votes": 6,
-   "posts": 16,
-   "time": "2026-11-21T14:51:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
-   "asin": "B0GFWP95YD",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GFWP95YD?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GFWP95YD.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
    "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
    "price": 65.55,
@@ -1260,6 +1224,24 @@
    "img": "/img/p/B08GKZSVMS.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
+   "title": "Samsung Galaxy Buds4 Pro, White (CAD Version) ($179.99)",
+   "price": 179.99,
+   "was": 329.99,
+   "votes": 5,
+   "posts": 17,
+   "time": "2026-11-21T14:51:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
+   "asin": "B0GFWP95YD",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GFWP95YD?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GFWP95YD.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
    "title": "HOBIBEAR Mens Womens Wide Width Barefoot Shoes",
    "price": 47.67,
@@ -1312,24 +1294,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0GL28YMNT.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
-   "title": "USB-C Bluetooth 5.3 Dongle (PC/Ps5/Switch2) - $25.73",
-   "price": 25.73,
-   "was": 38.99,
-   "votes": 4,
-   "posts": 13,
-   "time": "2026-11-18T02:34:47+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-usb-c-bluetooth-5-3-dongle-pc-ps5-switch2-25-73-2832635/",
-   "asin": "B0D7CKV1J8",
-   "pct": 34,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0D7CKV1J8?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D7CKV1J8.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-mic-mini-2-tx-1-mobile-rx-ci-59-99-reg-79-2832829/",
@@ -1588,8 +1552,8 @@
    "title": "Colavita Extra Virgin Olive Oil Special Soccer Ball Glass Bottle (500ml) - Great Stocking Stuffer! $9.95 S&S",
    "price": 9.95,
    "was": 14.99,
-   "votes": 2,
-   "posts": 6,
+   "votes": 3,
+   "posts": 8,
    "time": "2026-11-24T18:35:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
    "asin": "B0H4X25Y2R",
@@ -1600,6 +1564,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H4X25Y2R.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
+   "price": 49.97,
+   "was": 99.95,
+   "votes": 2,
+   "posts": 16,
+   "time": "2026-11-24T16:43:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "asin": "B0FB12L2VC",
+   "pct": 50,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FB12L2VC.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
+   "title": "MOVA E40 Ultra Robot $349.99",
+   "price": 349.99,
+   "was": 448.0,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-23T19:47:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
+   "asin": "B0FJWV3RR4",
+   "pct": 22,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FJWV3RR4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0FJWV3RR4.jpg"
   }
  ]
 }
