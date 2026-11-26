@@ -1,12 +1,12 @@
 {
- "date": "2026-11-25T19:20-04:00",
+ "date": "2026-11-25T20:19-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-18T23:47:43+00:00",
-    "2026-11-19T10:23:38+00:00"
+    "2026-11-19T10:23:38+00:00",
+    "2026-11-19T13:23:56+00:00"
    ],
    [
     "2026-11-25T16:42:05+00:00",
@@ -41,8 +41,8 @@
    44,
    26,
    [
-    "2026-11-21T16:22:25+00:00",
-    "2026-11-21T16:47:06+00:00"
+    "2026-11-21T16:17:59+00:00",
+    "2026-11-21T16:22:25+00:00"
    ],
    [
     "2026-11-23T19:47:21+00:00",
@@ -51,62 +51,44 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   23,
+   21,
    [
-    "2026-11-20T06:51:10+00:00",
-    "2026-11-20T07:07:06+00:00"
+    "2026-11-20T06:21:06+00:00",
+    "2026-11-20T06:51:10+00:00"
    ],
    [
-    "2026-11-21T15:48:19+00:00",
-    "2026-11-21T16:17:59+00:00"
+    "2026-11-21T15:14:14+00:00",
+    "2026-11-21T15:48:19+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   30,
+   31,
    [
-    "2026-11-19T15:54:02+00:00",
-    "2026-11-19T15:57:52+00:00"
+    "2026-11-19T15:51:22+00:00",
+    "2026-11-19T15:54:02+00:00"
    ],
    [
-    "2026-11-20T06:08:52+00:00",
-    "2026-11-20T06:21:06+00:00"
+    "2026-11-20T06:00:39+00:00",
+    "2026-11-20T06:08:52+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   29,
+   30,
    [
-    "2026-11-17T14:08:11+00:00",
-    "2026-11-17T19:34:49+00:00"
+    "2026-11-17T12:40:59+00:00",
+    "2026-11-17T14:08:11+00:00"
    ],
    [
-    "2026-11-19T15:36:53+00:00",
-    "2026-11-19T15:51:22+00:00"
+    "2026-11-19T15:30:19+00:00",
+    "2026-11-19T15:36:53+00:00"
    ]
   ],
-  "avant_filtre_date": 145,
-  "apres_filtre_date": 134
+  "avant_filtre_date": 144,
+  "apres_filtre_date": 132
  },
  "items": [
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
-   "title": "NATURE VALLEY - VALUE PACK SIZE - Double Chocolate Granola Bars, Pack of 28 Bars - $6.86 (40% subscription coupon)",
-   "price": 6.86,
-   "was": 11.85,
-   "votes": 91,
-   "posts": 42,
-   "time": "2026-11-23T08:13:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-nature-valley-value-pack-size-double-chocolate-granola-bars-pack-28-bars-6-86-40-subscription-coupon-2833468/",
-   "asin": "B09X5Z6NZG",
-   "pct": 42,
-   "cat": "epicerie",
-   "link": "https://www.amazon.ca/dp/B09X5Z6NZG?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09X5Z6NZG.jpg"
-  },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
@@ -131,7 +113,7 @@
    "price": 63.98,
    "was": null,
    "votes": 41,
-   "posts": 30,
+   "posts": 32,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
    "asin": "B0C3JRVSL2",
@@ -360,6 +342,24 @@
    "img": "/img/p/B09KKMQC2N.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
+   "title": "Cellucor C4 Pre Workout Powder 60 Servings Fruit Punch $23.99 ($47.99 REG)",
+   "price": 23.99,
+   "was": 47.99,
+   "votes": 15,
+   "posts": 10,
+   "time": "2026-11-25T16:42:05+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
+   "asin": "B07D3NGT97",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07D3NGT97?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07D3NGT97.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-watch8-smartwatch-248-99-coupon-449-99-2832876/",
    "title": "Samsung Galaxy Watch8 Smartwatch - $248.99+ with COUPON (was $449.99)",
    "price": 248.99,
@@ -394,24 +394,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CXS8J4Y5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
-   "title": "Cellucor C4 Pre Workout Powder 60 Servings Fruit Punch $23.99 ($47.99 REG)",
-   "price": 23.99,
-   "was": 47.99,
-   "votes": 14,
-   "posts": 10,
-   "time": "2026-11-25T16:42:05+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
-   "asin": "B07D3NGT97",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07D3NGT97?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07D3NGT97.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-basics-ceramic-box-cutter-5-23-40-2832832/",
@@ -923,7 +905,7 @@
    "price": 69.98,
    "was": null,
    "votes": 8,
-   "posts": 16,
+   "posts": 17,
    "time": "2026-11-25T14:44:34+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-nespresso-vertuo-pop-deluxe-pod-coffee-espresso-machine-69-98-atl-2833895/",
    "asin": "B0DR3CK8Q7",
@@ -1566,6 +1548,60 @@
    "img": "/img/p/B09B8V1LZ3.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
+   "title": "HOTO Mini Electric Bike Pump – $53.85 (Reg. $69.99)",
+   "price": 53.85,
+   "was": 69.99,
+   "votes": 3,
+   "posts": 3,
+   "time": "2026-11-20T12:40:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
+   "asin": "B0DCG1JGKN",
+   "pct": 23,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B0DCG1JGKN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DCG1JGKN.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
+   "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
+   "price": 599.99,
+   "was": 1399.9,
+   "votes": 3,
+   "posts": 0,
+   "time": "2026-11-21T14:49:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
+   "asin": "B0FWK41WF2",
+   "pct": 57,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FWK41WF2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
+   "title": "AeroGarden 45W LED Grow Light Panel - Grow Light for Plants, Includes Stand and Hanging Kit $49 (was 186)",
+   "price": 49.0,
+   "was": 186.0,
+   "votes": 3,
+   "posts": 4,
+   "time": "2026-11-25T22:03:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
+   "asin": "B0725QBG1G",
+   "pct": 74,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0725QBG1G?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0725QBG1G.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
    "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
    "price": 49.97,
@@ -1582,24 +1618,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0FB12L2VC.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
-   "title": "Helly Hansen Men's Dubliner Shell Jacket",
-   "price": 67.98,
-   "was": 84.98,
-   "votes": 3,
-   "posts": 1,
-   "time": "2026-11-24T13:44:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
-   "asin": "B01EOX0B7U",
-   "pct": 20,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B01EOX0B7U?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01EOX0B7U.jpg"
   }
  ]
 }
