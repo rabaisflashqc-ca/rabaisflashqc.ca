@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26T15:10-04:00",
+ "date": "2026-11-26T15:52-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -27,66 +27,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   21,
+   22,
    [
-    "2026-11-24T16:14:48+00:00",
-    "2026-11-24T16:35:33+00:00"
+    "2026-11-24T16:43:15+00:00",
+    "2026-11-24T17:38:40+00:00"
    ],
    [
-    "2026-11-26T18:36:17+00:00",
-    "2026-11-26T18:50:43+00:00"
+    "2026-11-26T19:16:42+00:00",
+    "2026-11-26T19:45:36+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   24,
+   25,
    [
-    "2026-11-22T18:58:34+00:00",
-    "2026-11-22T19:21:42+00:00"
+    "2026-11-22T22:04:19+00:00",
+    "2026-11-23T00:08:19+00:00"
    ],
    [
-    "2026-11-24T15:32:41+00:00",
-    "2026-11-24T16:12:58+00:00"
+    "2026-11-24T16:14:48+00:00",
+    "2026-11-24T16:35:33+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   16,
+   15,
    [
-    "2026-11-20T15:14:26+00:00",
-    "2026-11-20T16:07:21+00:00"
+    "2026-11-20T16:33:20+00:00",
+    "2026-11-20T17:08:40+00:00"
    ],
    [
-    "2026-11-22T18:16:55+00:00",
-    "2026-11-22T18:44:38+00:00"
+    "2026-11-22T18:58:34+00:00",
+    "2026-11-22T19:21:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   27,
+   26,
    [
-    "2026-11-19T19:03:31+00:00",
-    "2026-11-19T19:33:05+00:00"
+    "2026-11-19T19:55:35+00:00",
+    "2026-11-19T20:03:47+00:00"
    ],
    [
-    "2026-11-20T15:03:51+00:00",
-    "2026-11-20T15:10:24+00:00"
+    "2026-11-20T15:14:26+00:00",
+    "2026-11-20T16:07:21+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-11-18T23:47:43+00:00",
-    "2026-11-19T02:44:24+00:00"
+    "2026-11-19T03:55:42+00:00",
+    "2026-11-19T03:56:33+00:00"
    ],
    [
-    "2026-11-19T18:26:57+00:00",
-    "2026-11-19T18:59:07+00:00"
+    "2026-11-19T19:03:31+00:00",
+    "2026-11-19T19:33:05+00:00"
    ]
   ],
   "avant_filtre_date": 145,
-  "apres_filtre_date": 115
+  "apres_filtre_date": 116
  },
  "items": [
   {
@@ -234,6 +234,24 @@
    "img": "/img/p/B00007J5U7.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
+   "title": "$399 (56% off) Cheapest Snapdragon X laptop (Asus Vivobook 14)",
+   "price": 399.0,
+   "was": 899.0,
+   "votes": 24,
+   "posts": 35,
+   "time": "2026-11-26T02:34:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
+   "asin": "B0H922HQ1Z",
+   "pct": 56,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H922HQ1Z?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H922HQ1Z.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
    "title": "Brother DCP-L2647DW Monochrome Laser Printer/Scanner/Copier - $199.99 (was $339.99)",
    "price": 199.99,
@@ -250,24 +268,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GT7S6BHV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
-   "title": "$399 (56% off) Cheapest Snapdragon X laptop (Asus Vivobook 14)",
-   "price": 399.0,
-   "was": 899.0,
-   "votes": 23,
-   "posts": 30,
-   "time": "2026-11-26T02:34:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
-   "asin": "B0H922HQ1Z",
-   "pct": 56,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H922HQ1Z?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H922HQ1Z.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
@@ -414,6 +414,24 @@
    "img": "/img/p/B097QRFR7G.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
+   "title": "Anker soundcore P31i Wireless ANC Earbuds • $37.99 • ATL",
+   "price": 37.99,
+   "was": 49.99,
+   "votes": 12,
+   "posts": 11,
+   "time": "2026-11-22T19:21:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
+   "asin": "B0FNWCYLZN",
+   "pct": 24,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FNWCYLZN.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lucky-mobile-4g-lte-prepaid-40-sim-card-starter-kit-unlimited-talk-canada-30-gb-4g-network-14-2833433/",
    "title": "Lucky Mobile 4G LTE Prepaid 40$ SIM Card Starter Kit - Unlimited Talk Canada + 30 GB (4G Network) - $14",
    "price": 14.0,
@@ -486,24 +504,6 @@
    "img": "/img/p/B0DHGNBXXC.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
-   "title": "Anker soundcore P31i Wireless ANC Earbuds • $37.99 • ATL",
-   "price": 37.99,
-   "was": 49.99,
-   "votes": 11,
-   "posts": 11,
-   "time": "2026-11-22T19:21:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-p31i-wireless-anc-earbuds-c-37-99-c-atl-2833406/",
-   "asin": "B0FNWCYLZN",
-   "pct": 24,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FNWCYLZN?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FNWCYLZN.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
    "title": "ASUS ATS Radeon RX 9070 GRE 12GB GDDR6 OC $779.99",
    "price": 779.99,
@@ -563,7 +563,7 @@
    "price": 87.0,
    "was": null,
    "votes": 11,
-   "posts": 17,
+   "posts": 19,
    "time": "2026-11-26T02:12:12+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
    "asin": "B07DH8PJF6",
@@ -743,7 +743,7 @@
    "price": 74.95,
    "was": 99.0,
    "votes": 8,
-   "posts": 17,
+   "posts": 20,
    "time": "2026-11-26T13:08:20+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-switch-2-donkey-kong-bananza-74-95-tax-84-69-2834077/",
    "asin": "B0F5HZDYT4",
@@ -751,8 +751,8 @@
    "cat": "enfants",
    "link": "https://www.amazon.ca/dp/B0F5HZDYT4?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
+   "morts": 0,
+   "doute": false,
    "img": "/img/p/B0F5HZDYT4.jpg"
   },
   {
@@ -882,6 +882,24 @@
    "img": "/img/p/B0044GH27U.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
+   "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
+   "price": 269.99,
+   "was": null,
+   "votes": 6,
+   "posts": 15,
+   "time": "2026-11-21T20:11:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
+   "asin": "B0GL28YMNT",
+   "pct": null,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GL28YMNT?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0GL28YMNT.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hothands-hand-warmers-40-pairs-37-28-54-2833490/",
    "title": "HotHands Hand Warmers (40 Pairs) - $37.28 (-54%)",
    "price": 37.28,
@@ -934,6 +952,24 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0FB12L2VC.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
+   "title": "AeroGarden 45W LED Grow Light Panel - Grow Light for Plants, Includes Stand and Hanging Kit $49 (was 186)",
+   "price": 49.0,
+   "was": 186.0,
+   "votes": 6,
+   "posts": 7,
+   "time": "2026-11-25T22:03:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
+   "asin": "B0725QBG1G",
+   "pct": 74,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0725QBG1G?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0725QBG1G.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-littman-classic-iii-stethoscope-99-amazon-2832962/",
@@ -1044,24 +1080,6 @@
    "img": "/img/p/B00MI7NPBE.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
-   "price": 269.99,
-   "was": null,
-   "votes": 5,
-   "posts": 15,
-   "time": "2026-11-21T20:11:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-   "asin": "B0GL28YMNT",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GL28YMNT?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0GL28YMNT.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-reeses-lovers-gift-box-8-bars-variety-pack-535-g-sale-13-64-18-19-2833635/",
    "title": "REESE'S Lovers Gift Box, 8 Bars Variety Pack, 535 g on sale $13.64($18.19)",
    "price": 13.64,
@@ -1096,24 +1114,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H4X25Y2R.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
-   "title": "AeroGarden 45W LED Grow Light Panel - Grow Light for Plants, Includes Stand and Hanging Kit $49 (was 186)",
-   "price": 49.0,
-   "was": 186.0,
-   "votes": 5,
-   "posts": 7,
-   "time": "2026-11-25T22:03:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
-   "asin": "B0725QBG1G",
-   "pct": 74,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0725QBG1G?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0725QBG1G.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
@@ -1170,6 +1170,24 @@
    "img": "/img/p/B0CSPMC93Y.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
+   "title": "Yamaha TRBX174 Bass guitar",
+   "price": 199.99,
+   "was": 299.99,
+   "votes": 4,
+   "posts": 6,
+   "time": "2026-11-26T16:31:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
+   "asin": "B00GOE7XHE",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00GOE7XHE?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-cuisinart-professional-14-cup-stainless-steel-food-processor-199-99-339-99-2834112/",
    "title": "Cuisinart Professional 14-Cup Stainless Steel Food Processor $199.99 (was $339.99)",
    "price": 199.99,
@@ -1186,6 +1204,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07649SXQ8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
+   "title": "LEGO Minecraft The Baby Pig House [21268] - $14.86 (40% off)",
+   "price": 14.86,
+   "was": 24.99,
+   "votes": 4,
+   "posts": 3,
+   "time": "2026-11-26T18:12:45+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
+   "asin": "B0DJ19VGDH",
+   "pct": 41,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DJ19VGDH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DJ19VGDH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
@@ -1402,42 +1438,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0GMLLHCQR.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
-   "title": "Yamaha TRBX174 Bass guitar",
-   "price": 199.99,
-   "was": 299.99,
-   "votes": 3,
-   "posts": 5,
-   "time": "2026-11-26T16:31:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
-   "asin": "B00GOE7XHE",
-   "pct": 33,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00GOE7XHE?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
-   "title": "LEGO Minecraft The Baby Pig House [21268] - $14.86 (40% off)",
-   "price": 14.86,
-   "was": 24.99,
-   "votes": 3,
-   "posts": 3,
-   "time": "2026-11-26T18:12:45+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
-   "asin": "B0DJ19VGDH",
-   "pct": 41,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DJ19VGDH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DJ19VGDH.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dry-cat-food-liveclear-chicken-rice-7-26-kg-bag-2832938/",
