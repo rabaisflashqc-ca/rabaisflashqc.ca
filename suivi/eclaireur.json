@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25T22:28-04:00",
+ "date": "2026-11-26T00:09-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,72 +21,61 @@
     "2026-11-19T05:29:40+00:00"
    ],
    [
-    "2026-11-25T18:29:06+00:00",
-    "2026-11-25T22:03:49+00:00"
+    "2026-11-25T22:03:49+00:00",
+    "2026-11-26T02:34:03+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-11-24T02:27:12+00:00",
-    "2026-11-24T02:34:33+00:00"
+    "2026-11-24T02:44:12+00:00",
+    "2026-11-24T02:57:30+00:00"
    ],
    [
-    "2026-11-26T01:57:11+00:00",
-    "2026-11-26T02:12:12+00:00"
+    "2026-11-26T03:34:06+00:00",
+    "2026-11-26T03:59:45+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   26,
+   27,
    [
-    "2026-11-21T16:47:06+00:00",
-    "2026-11-21T17:29:53+00:00"
+    "2026-11-21T17:59:36+00:00",
+    "2026-11-21T18:22:42+00:00"
    ],
    [
-    "2026-11-23T22:50:36+00:00",
-    "2026-11-24T01:26:51+00:00"
+    "2026-11-24T02:27:12+00:00",
+    "2026-11-24T02:34:33+00:00"
    ]
   ],
-  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
+  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+  "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   22,
+   29,
+   [
+    "2026-11-19T16:02:18+00:00",
+    "2026-11-19T16:02:59+00:00"
+   ],
    [
     "2026-11-20T07:07:06+00:00",
     "2026-11-20T11:12:05+00:00"
-   ],
-   [
-    "2026-11-21T16:17:59+00:00",
-    "2026-11-21T16:22:25+00:00"
-   ]
-  ],
-  "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
-   44,
-   30,
-   [
-    "2026-11-19T15:57:52+00:00",
-    "2026-11-19T16:00:25+00:00"
-   ],
-   [
-    "2026-11-20T06:21:06+00:00",
-    "2026-11-20T06:51:10+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    30,
    [
-    "2026-11-17T19:34:49+00:00",
-    "2026-11-17T22:01:45+00:00"
+    "2026-11-18T00:02:23+00:00",
+    "2026-11-18T00:48:37+00:00"
    ],
    [
-    "2026-11-19T15:51:22+00:00",
-    "2026-11-19T15:54:02+00:00"
+    "2026-11-19T15:57:52+00:00",
+    "2026-11-19T16:00:25+00:00"
    ]
   ],
-  "avant_filtre_date": 144,
-  "apres_filtre_date": 133
+  "avant_filtre_date": 133,
+  "apres_filtre_date": 122
  },
  "items": [
   {
@@ -113,7 +102,7 @@
    "price": 63.98,
    "was": null,
    "votes": 42,
-   "posts": 33,
+   "posts": 35,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
    "asin": "B0C3JRVSL2",
@@ -239,7 +228,7 @@
    "price": 199.99,
    "was": 339.99,
    "votes": 24,
-   "posts": 19,
+   "posts": 20,
    "time": "2026-11-21T01:08:36+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
    "asin": "B0GT7S6BHV",
@@ -468,6 +457,24 @@
    "img": "/img/p/B07S5PH3H9.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
+   "title": "LEGO Speed Champions Ferrari SF-24 F1 [77242] - $19.86 (was $34.99)",
+   "price": 19.86,
+   "was": 34.99,
+   "votes": 13,
+   "posts": 8,
+   "time": "2026-11-25T18:20:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
+   "asin": "B0DHLHWZT7",
+   "pct": 43,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DHLHWZT7?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHLHWZT7.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
    "title": "AstroAI L7 Portable Tire Inflator - $26.34",
    "price": 26.34,
@@ -520,24 +527,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F569LHK7.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
-   "title": "LEGO Speed Champions Ferrari SF-24 F1 [77242] - $19.86 (was $34.99)",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 12,
-   "posts": 8,
-   "time": "2026-11-25T18:20:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-ferrari-sf-24-f1-77242-19-86-34-99-2833937/",
-   "asin": "B0DHLHWZT7",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DHLHWZT7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHLHWZT7.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
@@ -900,12 +889,30 @@
    "img": "/img/p/B0GFB83GPM.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
+   "title": "$399 (56% off) Cheapest Snapdragon X laptop (Asus Vivobook 14)",
+   "price": 399.0,
+   "was": 899.0,
+   "votes": 8,
+   "posts": 4,
+   "time": "2026-11-26T02:34:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
+   "asin": "B0H922HQ1Z",
+   "pct": 56,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H922HQ1Z?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H922HQ1Z.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
    "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
    "price": 169.99,
    "was": 245.55,
    "votes": 7,
-   "posts": 14,
+   "posts": 15,
    "time": "2026-11-19T13:57:52+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
    "asin": "B08LLFKVX4",
@@ -1044,6 +1051,24 @@
    "img": "/img/p/B0CC9DB4YB.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
+   "title": "Logitech G502 HERO Wired Gaming Mouse - $39",
+   "price": 39.98,
+   "was": 74.99,
+   "votes": 7,
+   "posts": 4,
+   "time": "2026-11-25T06:16:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
+   "asin": "B07GBZ4Q68",
+   "pct": 47,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B07GBZ4Q68?tag=coupdecoeurqc-20",
+   "deja": true,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07GBZ4Q68.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
    "title": "LEGO Icons The Lord of The Rings Balrog Book Nook - $99.86 (33% off)",
    "price": 99.86,
@@ -1116,22 +1141,22 @@
    "img": "/img/p/B0007ZF4OA.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
-   "title": "Logitech G502 HERO Wired Gaming Mouse - $39",
-   "price": 39.98,
-   "was": 74.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
+   "title": "Ninja Crispi Glass Air Fryer, 4-in-1, 4 Qt/3.8L and 6 Cup containers, PFAS-free glass on sale $159.98($219.99)",
+   "price": 159.98,
+   "was": 219.99,
    "votes": 6,
-   "posts": 4,
-   "time": "2026-11-25T06:16:29+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-logitech-g502-hero-wired-gaming-mouse-39-2833851/",
-   "asin": "B07GBZ4Q68",
-   "pct": 47,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B07GBZ4Q68?tag=coupdecoeurqc-20",
-   "deja": true,
+   "posts": 19,
+   "time": "2026-11-24T03:18:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
+   "asin": "B0G1PN5PRP",
+   "pct": 27,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0G1PN5PRP?tag=coupdecoeurqc-20",
+   "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B07GBZ4Q68.jpg"
+   "img": "/img/p/B0G1PN5PRP.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-500-electric-toothbrush-2-brush-heads-sale-37-22-49-99-2832803/",
@@ -1296,24 +1321,6 @@
    "img": "/img/p/B0BB3FWDQN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
-   "title": "Ninja Crispi Glass Air Fryer, 4-in-1, 4 Qt/3.8L and 6 Cup containers, PFAS-free glass on sale $159.98($219.99)",
-   "price": 159.98,
-   "was": 219.99,
-   "votes": 5,
-   "posts": 19,
-   "time": "2026-11-24T03:18:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-crispi-glass-air-fryer-4-1-4-qt-3-8l-6-cup-containers-pfas-free-glass-sale-159-98-219-99-2833639/",
-   "asin": "B0G1PN5PRP",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0G1PN5PRP?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0G1PN5PRP.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
    "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
    "price": 49.97,
@@ -1427,7 +1434,7 @@
    "price": 879.99,
    "was": 1129.9,
    "votes": 4,
-   "posts": 10,
+   "posts": 11,
    "time": "2026-11-25T04:30:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dw-879-99-2833840/",
    "asin": "B0HFHZJ6C2",
@@ -1566,58 +1573,40 @@
    "img": "/img/p/B09B8V1LZ3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
-   "title": "HOTO Mini Electric Bike Pump – $53.85 (Reg. $69.99)",
-   "price": 53.85,
-   "was": 69.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-tilswall-shark700-cordless-paint-sprayer-61-99-2834037/",
+   "title": "Tilswall Shark700 Cordless Paint Sprayer: $61.99",
+   "price": 61.99,
+   "was": 100.0,
    "votes": 3,
-   "posts": 3,
-   "time": "2026-11-20T12:40:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hoto-mini-electric-bike-pump-ci-53-85-reg-69-99-2833095/",
-   "asin": "B0DCG1JGKN",
-   "pct": 23,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0DCG1JGKN?tag=coupdecoeurqc-20",
+   "posts": 0,
+   "time": "2026-11-26T03:34:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tilswall-shark700-cordless-paint-sprayer-61-99-2834037/",
+   "asin": "B0GJ5JQMJQ",
+   "pct": 38,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GJ5JQMJQ?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DCG1JGKN.jpg"
+   "img": "/img/p/B0GJ5JQMJQ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-pla-black-3d-printer-filament-10kg-ci-118-99-reg-139-99-2833875/",
-   "title": "ELEGOO PLA Black 3D Printer Filament 10KG – $118.99 (Reg. $139.99)",
-   "price": 118.99,
-   "was": 139.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
+   "title": "Invicta Pro Diver Automatic Watches",
+   "price": 87.0,
+   "was": null,
    "votes": 3,
    "posts": 5,
-   "time": "2026-11-25T12:32:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-pla-black-3d-printer-filament-10kg-ci-118-99-reg-139-99-2833875/",
-   "asin": "B0BV2PCY8T",
-   "pct": 15,
+   "time": "2026-11-26T02:12:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
+   "asin": "B07DH8PJF6",
+   "pct": null,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BV2PCY8T?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B07DH8PJF6?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0BV2PCY8T.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
-   "title": "Helly Hansen Men's Dubliner Shell Jacket",
-   "price": 67.98,
-   "was": 84.98,
-   "votes": 3,
-   "posts": 1,
-   "time": "2026-11-24T13:44:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
-   "asin": "B01EOX0B7U",
-   "pct": 20,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B01EOX0B7U?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B01EOX0B7U.jpg"
+   "img": "/img/p/B07DH8PJF6.jpg"
   }
  ]
 }
