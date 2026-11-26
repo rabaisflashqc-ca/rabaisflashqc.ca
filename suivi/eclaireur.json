@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26T00:09-04:00",
+ "date": "2026-11-26T00:57-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,8 +9,8 @@
     "2026-11-19T13:23:56+00:00"
    ],
    [
-    "2026-11-25T16:42:05+00:00",
-    "2026-11-25T18:20:17+00:00"
+    "2026-11-25T18:20:17+00:00",
+    "2026-11-26T02:34:03+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,13 +21,13 @@
     "2026-11-19T05:29:40+00:00"
    ],
    [
-    "2026-11-25T22:03:49+00:00",
-    "2026-11-26T02:34:03+00:00"
+    "2026-11-26T01:57:11+00:00",
+    "2026-11-26T02:12:12+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   23,
+   21,
    [
     "2026-11-24T02:44:12+00:00",
     "2026-11-24T02:57:30+00:00"
@@ -49,10 +49,21 @@
     "2026-11-24T02:34:33+00:00"
    ]
   ],
-  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+  "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
+   44,
+   23,
+   [
+    "2026-11-20T12:25:43+00:00",
+    "2026-11-20T12:39:20+00:00"
+   ],
+   [
+    "2026-11-21T16:47:06+00:00",
+    "2026-11-21T17:29:53+00:00"
+   ]
+  ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   29,
+   31,
    [
     "2026-11-19T16:02:18+00:00",
     "2026-11-19T16:02:59+00:00"
@@ -74,8 +85,8 @@
     "2026-11-19T16:00:25+00:00"
    ]
   ],
-  "avant_filtre_date": 133,
-  "apres_filtre_date": 122
+  "avant_filtre_date": 147,
+  "apres_filtre_date": 136
  },
  "items": [
   {
@@ -191,7 +202,7 @@
    "title": "Hanes Mens Tagless Boxer Briefs, 6 Pack, COTTON m-xl - ATL -$20.24",
    "price": 20.24,
    "was": null,
-   "votes": 28,
+   "votes": 29,
    "posts": 12,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
@@ -475,6 +486,24 @@
    "img": "/img/p/B0DHLHWZT7.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
+   "title": "$399 (56% off) Cheapest Snapdragon X laptop (Asus Vivobook 14)",
+   "price": 399.0,
+   "was": 899.0,
+   "votes": 13,
+   "posts": 8,
+   "time": "2026-11-26T02:34:03+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
+   "asin": "B0H922HQ1Z",
+   "pct": 56,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0H922HQ1Z?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H922HQ1Z.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-astroai-l7-portable-tire-inflator-26-34-2832919/",
    "title": "AstroAI L7 Portable Tire Inflator - $26.34",
    "price": 26.34,
@@ -534,7 +563,7 @@
    "price": 749.99,
    "was": 999.99,
    "votes": 11,
-   "posts": 8,
+   "posts": 10,
    "time": "2026-11-19T16:43:00+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-kitchenaid-kf3-automatic-espresso-machine-749-99-available-multiple-retailers-amazon-bb-ecs-doyon-2832890/",
    "asin": "B0GVG4JN8W",
@@ -781,6 +810,24 @@
    "img": "/img/p/B0FJRQ9RM6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
+   "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
+   "price": 169.99,
+   "was": 245.55,
+   "votes": 8,
+   "posts": 15,
+   "time": "2026-11-19T13:57:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
+   "asin": "B08LLFKVX4",
+   "pct": 31,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08LLFKVX4?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08LLFKVX4.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-viofo-a119m-pro-4k-hdr-mini-dash-cam-189-99-259-99-2832847/",
    "title": "VIOFO A119M Pro 4K HDR Mini Dash Cam - $189.99 (was $259.99)",
    "price": 189.99,
@@ -887,42 +934,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0GFB83GPM.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
-   "title": "$399 (56% off) Cheapest Snapdragon X laptop (Asus Vivobook 14)",
-   "price": 399.0,
-   "was": 899.0,
-   "votes": 8,
-   "posts": 4,
-   "time": "2026-11-26T02:34:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
-   "asin": "B0H922HQ1Z",
-   "pct": 56,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H922HQ1Z?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H922HQ1Z.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
-   "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
-   "price": 169.99,
-   "was": 245.55,
-   "votes": 7,
-   "posts": 15,
-   "time": "2026-11-19T13:57:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
-   "asin": "B08LLFKVX4",
-   "pct": 31,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08LLFKVX4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08LLFKVX4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-barbie-dreamhouse-dollhouse-playset-themed-accessories-129-99-249-99-2832838/",
@@ -1470,7 +1481,7 @@
    "price": 49.0,
    "was": 186.0,
    "votes": 4,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-11-25T22:03:49+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
    "asin": "B0725QBG1G",
@@ -1481,6 +1492,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0725QBG1G.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-chargepoint-homeflex-level-2-ev-fast-charger-j1772-smart-hardwired-299-amazon-2834021/",
+   "title": "ChargePoint HomeFlex Level 2 EV Fast Charger, J1772, Smart, Hardwired - 299$ - Amazon",
+   "price": 299.0,
+   "was": 499.0,
+   "votes": 4,
+   "posts": 11,
+   "time": "2026-11-26T01:57:11+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-chargepoint-homeflex-level-2-ev-fast-charger-j1772-smart-hardwired-299-amazon-2834021/",
+   "asin": "B0CSPMC93Y",
+   "pct": 40,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CSPMC93Y?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CSPMC93Y.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
+   "title": "Invicta Pro Diver Automatic Watches",
+   "price": 87.0,
+   "was": null,
+   "votes": 4,
+   "posts": 7,
+   "time": "2026-11-26T02:12:12+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
+   "asin": "B07DH8PJF6",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07DH8PJF6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07DH8PJF6.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-tcl-55-f7d-class-4k-uhd-hdr-qled-smart-tv-fire-tv-ci-55f7d-sale-322-99-379-99-2832802/",
@@ -1537,76 +1584,40 @@
    "img": "/img/p/B0BS1PRC4L.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
-   "title": "Mini Electric Bike Pump with Gauge, 120PSI Rechargeable - $39.41",
-   "price": 39.41,
-   "was": 79.99,
-   "votes": 3,
-   "posts": 9,
-   "time": "2026-11-19T21:56:11+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-mini-electric-bike-pump-gauge-120psi-rechargeable-39-41-2832954/",
-   "asin": "B0GGBH6JHV",
-   "pct": 51,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B0GGBH6JHV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GGBH6JHV.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-echo-dot-5th-gen-smart-speaker-alexa-44-99-2833068/",
-   "title": "Amazon Echo Dot 5th Gen Smart Speaker with Alexa, $44.99",
-   "price": 44.99,
-   "was": 104.99,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-20T06:21:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-echo-dot-5th-gen-smart-speaker-alexa-44-99-2833068/",
-   "asin": "B09B8V1LZ3",
-   "pct": 57,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B09B8V1LZ3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09B8V1LZ3.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tilswall-shark700-cordless-paint-sprayer-61-99-2834037/",
-   "title": "Tilswall Shark700 Cordless Paint Sprayer: $61.99",
-   "price": 61.99,
-   "was": 100.0,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-26T03:34:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tilswall-shark700-cordless-paint-sprayer-61-99-2834037/",
-   "asin": "B0GJ5JQMJQ",
-   "pct": 38,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GJ5JQMJQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GJ5JQMJQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
-   "title": "Invicta Pro Diver Automatic Watches",
-   "price": 87.0,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-pla-black-3d-printer-filament-10kg-ci-118-99-reg-139-99-2833875/",
+   "title": "ELEGOO PLA Black 3D Printer Filament 10KG – $118.99 (Reg. $139.99)",
+   "price": 118.99,
+   "was": 139.99,
    "votes": 3,
    "posts": 5,
-   "time": "2026-11-26T02:12:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-invicta-pro-diver-automatic-watches-2834026/",
-   "asin": "B07DH8PJF6",
-   "pct": null,
+   "time": "2026-11-25T12:32:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-pla-black-3d-printer-filament-10kg-ci-118-99-reg-139-99-2833875/",
+   "asin": "B0BV2PCY8T",
+   "pct": 15,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07DH8PJF6?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0BV2PCY8T?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B07DH8PJF6.jpg"
+   "img": "/img/p/B0BV2PCY8T.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
+   "title": "Helly Hansen Men's Dubliner Shell Jacket",
+   "price": 67.98,
+   "was": 84.98,
+   "votes": 3,
+   "posts": 1,
+   "time": "2026-11-24T13:44:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
+   "asin": "B01EOX0B7U",
+   "pct": 20,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B01EOX0B7U?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01EOX0B7U.jpg"
   }
  ]
 }
