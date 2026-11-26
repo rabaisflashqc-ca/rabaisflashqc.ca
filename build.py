@@ -265,9 +265,9 @@ ICON = {"tech":"🎧","maison":"🏠","beaute":"💄","femme":"👗","homme":"�
 
 PAGES = [
   # slug, titre <title>, H1, intro, filtre, recherches de secours
-  ("", "Rabais Flash QC · Ça vaut le clic? Les rabais Amazon triés pour le Québec",
-   "Ça vaut le clic? T'es à la bonne place.",
-   "Avant d'acheter sur Amazon, regarde ici. On trie les rabais et les chutes de prix pour te montrer ceux qui valent vraiment le clic, pendant qu'ils sont encore là.",
+  ("", "Rabais Flash QC · Le site de référence québécois des aubaines · Vendredi fou et Cyber lundi",
+   "On a déjà fait le tri. Toi, tu choisis.",
+   "Le site de référence québécois qui repère, vérifie et trie les aubaines des grandes marques. Vendredi fou et Cyber lundi : les rabais qui valent le clic, pendant qu'ils sont encore là.",
    lambda d: True, []),
   ("vendredi-fou", "Vendredi fou 2026 sur Amazon.ca · Les meilleurs deals triés | Rabais Flash QC",
    "Vendredi fou 2026 : les meilleurs deals d'Amazon.ca",
@@ -436,6 +436,9 @@ header.home h1{font-size:clamp(32px,8.6vw,56px)!important;line-height:1!importan
 .hb{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;padding:0}.hb li{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 11px;font-weight:700;font-size:14.5px}
 .hu{margin:8px 0 0;font-size:14px;font-weight:500;opacity:.95}
 @media (max-width:699px){.hb{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-18px;padding-right:18px}.hb::-webkit-scrollbar{display:none}.hb li{white-space:nowrap;font-size:13.5px}.hu{display:none}.hk{font-size:12.5px;margin-top:6px;padding:3px 10px}header.home{padding:8px 0 12px}header.home h1{font-size:clamp(29px,8.4vw,36px)!important;margin:6px 0 4px!important}header.home .sig{font-size:15.5px;line-height:1.28}.hb{margin-top:8px}.hcta{margin:10px 0 0;padding:13px 16px;font-size:19px}header.home~main .vfs{display:none}#top5{margin-top:10px;padding-top:10px}#top5 .topsub{display:none}#top5 h2{margin:0 0 2px}}
+.cdw{margin:12px 0 2px}.cdl{margin:0 0 6px;font-weight:700;font-size:15px;color:#FFD23F;text-transform:uppercase;letter-spacing:.04em}
+.cdg{display:flex;gap:8px}.cdg div{background:#fff;color:#C1121F;border-radius:10px;padding:6px 0;min-width:62px;text-align:center}.cdg b{display:block;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}.cdg span{font-size:11.5px;color:#5C5C5C;font-weight:500}
+.cdn{margin:6px 0 0;font-size:13.5px;opacity:.92}.hu2{margin:10px 0 0;font-size:15px;color:#fff}.hu2 b{color:#FFD23F}
 .hcta2{display:inline-block;margin:10px 0 0;color:#fff;font-weight:700;font-size:16px;text-decoration:underline;text-underline-offset:3px}
 .hcta{display:inline-block;margin:12px 0 2px;padding:12px 22px;border-radius:999px;background:var(--yel);color:#7A0A16;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 3px 0 rgba(0,0,0,.22)}
 @media (max-width:699px){.hcta{display:block;text-align:center}}
@@ -821,15 +824,24 @@ def hero_accueil():
     now = datetime.datetime.now(datetime.timezone.utc); hors = HORS_SAISON(now)
     L = [x for x in load_scan() if rfd_ok(x, now, hors)]
     hot = [x for x in L if verdict(x)[1] == "v hot"]
-    kick = ""
-    if len(L) >= 5:
-        mx = _eco_txt(max(_eco(x) for x in L))
-        kick = f'<p class="hk">🔎 {len(L)} produits en rabais référencés · 🔥 jusqu\'à {mx} de moins</p>'
-    bas = ('<p class="sig">Le jeu est simple : <b>tu tapes ce que tu veux, on te montre les rabais qui valent le clic.</b> Moins cher, plus vite, et le fun de pogner le bon deal avant tout le monde.</p>'
-           + RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M")) +
-           '<ul class="hb"><li>💰 Tu sauves des $</li><li>😎 Le fun du bon deal</li><li>⏳ Avant que le prix remonte</li></ul>'
+    n = len(L)
+    kick = ('<p class="hk">🔥 VENDREDI FOU ➔ CYBER LUNDI · 27 au 30 novembre</p>')
+    cd = ('<div class="cdw" id="cdw" hidden><p class="cdl" id="cdl"></p><div class="cdg" id="cdg" aria-live="off">'
+          '<div><b id="cd-d">0</b><span>jours</span></div><div><b id="cd-h">0</b><span>heures</span></div>'
+          '<div><b id="cd-m">0</b><span>minutes</span></div><div><b id="cd-s">0</b><span>secondes</span></div></div>'
+          '<p class="cdn">L\'événement se termine lundi à minuit. Certaines offres éclair partent avant.</p></div>'
+          '<script>(function(){var w=document.getElementById("cdw");if(!w)return;var A=Date.parse("2026-11-27T05:00:00Z"),F=Date.parse("2026-12-01T05:00:00Z");'
+          'var l=document.getElementById("cdl"),D=document.getElementById("cd-d"),H=document.getElementById("cd-h"),M=document.getElementById("cd-m"),S=document.getElementById("cd-s");'
+          'function p(x){return x<10?"0"+x:""+x}function t(){var n=Date.now();if(n>=F){w.hidden=true;return false}var m=(n<A?A:F)-n;'
+          'l.textContent=n<A?"Le Vendredi fou commence dans":(m<216e5?"Dernières heures du Cyber lundi":"Fin du Cyber lundi dans");'
+          'D.textContent=Math.floor(m/864e5);H.textContent=p(Math.floor(m/36e5)%24);M.textContent=p(Math.floor(m/6e4)%60);S.textContent=p(Math.floor(m/1e3)%60);w.hidden=false;return true}'
+          'if(t())setInterval(t,1000)})();</script>')
+    bas = ('<p class="sig">Le site de référence québécois qui <b>repère, vérifie et trie</b> les aubaines des grandes marques. Tu tapes ce que tu veux, on te montre les rabais qui valent le clic.</p>'
+           + cd + RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M")) +
+           f'<p class="hu2">🛒 Un deal te plaît? <b>Mets-le au panier pour ne rien rater.</b> Tu paieras quand tu seras prêt.</p>'
+           '<ul class="hb"><li>✅ Rabais triés pour toi</li><li>🇨🇦 Fait au Québec</li><li>⏳ Avant que le prix remonte</li></ul>'
            '<a class="hcta2" href="#top5">🔥 On va droit au Top 5 →</a>'
-           f'<a class="hcta2" href="/recherche/">🔎 Fouiller les {len(L)} rabais (filtres et tri) →</a>'
+           f'<a class="hcta2" href="/recherche/">🔎 Fouiller les {n} rabais (filtres et tri) →</a>'
            '<p class="hu">⏳ Un prix peut remonter à tout moment, sans avertissement. Si t\'en vois un qui te plaît, fonce!</p>')
     return kick, bas
 
