@@ -436,8 +436,17 @@ header.home h1{font-size:clamp(32px,8.6vw,56px)!important;line-height:1!importan
 .hb{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;padding:0}.hb li{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 11px;font-weight:700;font-size:14.5px}
 .hu{margin:8px 0 0;font-size:14px;font-weight:500;opacity:.95}
 @media (max-width:699px){.hb{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-18px;padding-right:18px}.hb::-webkit-scrollbar{display:none}.hb li{white-space:nowrap;font-size:13.5px}.hu{display:none}.hk{font-size:12.5px;margin-top:6px;padding:3px 10px}header.home{padding:8px 0 12px}header.home h1{font-size:clamp(29px,8.4vw,36px)!important;margin:6px 0 4px!important}header.home .sig{font-size:15.5px;line-height:1.28}.hb{margin-top:8px}.hcta{margin:10px 0 0;padding:13px 16px;font-size:19px}header.home~main .vfs{display:none}#top5{margin-top:10px;padding-top:10px}#top5 .topsub{display:none}#top5 h2{margin:0 0 2px}}
+header.home{background:#3D0A10!important;padding:0 0 18px!important}header.home .wrap{text-align:center}
+header.home .logo{display:block;margin-top:12px}header.home .hk{background:#C1121F;color:#fff;font-size:13px;letter-spacing:.04em;margin:10px 0 0}
+header.home h1{color:#FFC21A!important;max-width:16ch;margin:10px auto 6px!important}header.home .sig{margin:0 auto;color:#F6D9DC;font-size:clamp(15px,3.8vw,18px)}header.home .sig b{color:#fff}
+header.home .cdg,header.home .hb{justify-content:center}header.home .rq{max-width:640px;margin:14px auto 4px;border:2px solid #FFC21A;text-align:left}
+.mq{background:#FFC21A;color:#3D0A10;font-weight:700;font-size:13.5px;overflow:hidden;white-space:nowrap;padding:7px 0}.mqt{display:inline-block;animation:mqa 38s linear infinite}.mqt span{margin:0 26px}@keyframes mqa{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.mqt{animation:none}}
+.hst{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:640px;margin:14px auto 0;background:#FFF7E8;border-radius:12px;overflow:hidden}.hst div{padding:10px 4px;border-right:1px solid #E8D9BE}.hst div:last-child{border:0}
+.hst b{display:block;font-size:clamp(17px,4.6vw,22px);color:#C1121F}.hst b.g{color:#0F7A3D}.hst span{font-size:12px;color:#444}
+.hok{margin:10px 0 0;font-size:14px;color:#F6D9DC}header.home .hu2{max-width:640px;margin:12px auto 0;background:rgba(255,194,26,.14);border-radius:10px;padding:8px 12px}
 .cdw{margin:12px 0 2px}.cdl{margin:0 0 6px;font-weight:700;font-size:15px;color:#FFD23F;text-transform:uppercase;letter-spacing:.04em}
-.cdg{display:flex;gap:8px}.cdg div{background:#fff;color:#C1121F;border-radius:10px;padding:6px 0;min-width:62px;text-align:center}.cdg b{display:block;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}.cdg span{font-size:11.5px;color:#5C5C5C;font-weight:500}
+.cdg{display:flex;gap:8px;justify-content:center}.cdg div{background:#fff;color:#C1121F;border-radius:10px;padding:6px 0;min-width:62px;text-align:center}.cdg b{display:block;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}.cdg span{font-size:11.5px;color:#5C5C5C;font-weight:500}
 .cdn{margin:6px 0 0;font-size:13.5px;opacity:.92}.hu2{margin:10px 0 0;font-size:15px;color:#fff}.hu2 b{color:#FFD23F}
 .hcta2{display:inline-block;margin:10px 0 0;color:#fff;font-weight:700;font-size:16px;text-decoration:underline;text-underline-offset:3px}
 .hcta{display:inline-block;margin:12px 0 2px;padding:12px 22px;border-radius:999px;background:var(--yel);color:#7A0A16;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 3px 0 rgba(0,0,0,.22)}
@@ -825,7 +834,9 @@ def hero_accueil():
     L = [x for x in load_scan() if rfd_ok(x, now, hors)]
     hot = [x for x in L if verdict(x)[1] == "v hot"]
     n = len(L)
-    kick = ('<p class="hk">🔥 VENDREDI FOU ➔ CYBER LUNDI · 27 au 30 novembre</p>')
+    kick = '<p class="hk">4 JOURS · LES MEILLEURS PRIX DE L\'ANNÉE</p>'
+    strip = ('<div class="mq" aria-label="Vendredi fou ➔ Cyber lundi, 27 au 30 novembre"><div class="mqt">'
+             + "".join('<span>🔥 Vendredi fou ➔ Cyber lundi · 27 au 30 novembre</span><span>🛡️ Rabais triés pour toi</span>' for _ in range(4)) + '</div></div>')
     cd = ('<div class="cdw" id="cdw" hidden><p class="cdl" id="cdl"></p><div class="cdg" id="cdg" aria-live="off">'
           '<div><b id="cd-d">0</b><span>jours</span></div><div><b id="cd-h">0</b><span>heures</span></div>'
           '<div><b id="cd-m">0</b><span>minutes</span></div><div><b id="cd-s">0</b><span>secondes</span></div></div>'
@@ -837,13 +848,14 @@ def hero_accueil():
           'D.textContent=Math.floor(m/864e5);H.textContent=p(Math.floor(m/36e5)%24);M.textContent=p(Math.floor(m/6e4)%60);S.textContent=p(Math.floor(m/1e3)%60);w.hidden=false;return true}'
           'if(t())setInterval(t,1000)})();</script>')
     bas = ('<p class="sig">Le site de référence québécois qui <b>repère, vérifie et trie</b> les aubaines des grandes marques. Tu tapes ce que tu veux, on te montre les rabais qui valent le clic.</p>'
-           + cd + RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M")) +
-           f'<p class="hu2">🛒 Un deal te plaît? <b>Mets-le au panier pour ne rien rater.</b> Tu paieras quand tu seras prêt.</p>'
-           '<ul class="hb"><li>✅ Rabais triés pour toi</li><li>🇨🇦 Fait au Québec</li><li>⏳ Avant que le prix remonte</li></ul>'
+           + cd + RECHERCHE.replace("RQV", NOW.strftime("%Y%m%d%H%M")).replace('<span id="rq-mk"></span>', '<span id="rq-mk"><button type="button" data-q="Apple">Apple</button><button type="button" data-q="Samsung">Samsung</button><button type="button" data-q="LEGO">LEGO</button><button type="button" data-q="Dyson">Dyson</button><button type="button" data-q="Ninja">Ninja</button><button type="button" data-q="Shark">Shark</button><button type="button" data-q="Adidas">Adidas</button><button type="button" data-q="Levi\'s">Levi\'s</button><button type="button" data-q="Columbia">Columbia</button><button type="button" data-q="Garmin">Garmin</button><button type="button" data-q="Keurig">Keurig</button><button type="button" data-q="Philips">Philips</button></span>') +
+           '<p class="hu2">🛒 Un deal te plaît? <b>Ajoute-le à ton panier pour ne rien rater.</b> Tu paieras quand tu seras prêt.</p>'
+           f'<div class="hst"><div><b>{format(n,",").replace(",","&nbsp;")}</b><span>deals vérifiés</span></div><div><b class="g">30 % et +</b><span>prix de Vendredi fou</span></div><div><b>{NOW.day} {MOIS[NOW.month-1]}</b><span>dernière mise à jour</span></div></div>'
+           '<p class="hok">✅ On repère, on vérifie le prix, tu économises. Aucun compte à créer.</p>'
            '<a class="hcta2" href="#top5">🔥 On va droit au Top 5 →</a>'
            f'<a class="hcta2" href="/recherche/">🔎 Fouiller les {n} rabais (filtres et tri) →</a>'
            '<p class="hu">⏳ Un prix peut remonter à tout moment, sans avertissement. Si t\'en vois un qui te plaît, fonce!</p>')
-    return kick, bas
+    return kick, bas, strip
 
 def index_recherche():
     """Index de TOUS les deals vérifiés affichables, pour le chercheur de rabais intelligent (site_recherche.js -> /recherche.js)."""
@@ -887,7 +899,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@500;700&display=swap">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
-<body{" class=\"hw\"" if slug == "halloween" else ""}><header{" class=\"home\"" if slug == "" else ""}>{HWFLOAT if slug == "halloween" else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
+<body{" class=\"hw\"" if slug == "halloween" else ""}><header{" class=\"home\"" if slug == "" else ""}>{HWFLOAT if slug == "halloween" else ""}{hero[2] if hero else ""}<div class="wrap" style="position:relative"><a class="logo" href="/">{BOLT} RABAIS <b>FLASH</b> QC</a>
 {hero[0] if hero else ""}<h1>{e(h1).replace("clic?", "<b class=\"hl\">clic?</b>", 1) if hero else e(h1)}</h1>{hero[1] if hero else '<p class="intro">' + e(intro) + "</p>"}<p class="upd">Mis à jour le {TODAY}</p>{HWCOUNT if slug == "halloween" else ""}</div></header>
 <main class="wrap"><nav aria-label="Thèmes">{nav}</nav>
 {banner}
