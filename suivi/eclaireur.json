@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25T20:19-04:00",
+ "date": "2026-11-25T22:28-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -21,72 +21,72 @@
     "2026-11-19T05:29:40+00:00"
    ],
    [
-    "2026-11-25T14:44:34+00:00",
-    "2026-11-25T18:29:06+00:00"
+    "2026-11-25T18:29:06+00:00",
+    "2026-11-25T22:03:49+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
    24,
    [
-    "2026-11-23T22:50:36+00:00",
-    "2026-11-24T01:26:51+00:00"
+    "2026-11-24T02:27:12+00:00",
+    "2026-11-24T02:34:33+00:00"
    ],
    [
-    "2026-11-25T18:49:25+00:00",
-    "2026-11-25T22:03:49+00:00"
+    "2026-11-26T01:57:11+00:00",
+    "2026-11-26T02:12:12+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
    26,
    [
-    "2026-11-21T16:17:59+00:00",
-    "2026-11-21T16:22:25+00:00"
+    "2026-11-21T16:47:06+00:00",
+    "2026-11-21T17:29:53+00:00"
    ],
    [
-    "2026-11-23T19:47:21+00:00",
-    "2026-11-23T20:30:50+00:00"
+    "2026-11-23T22:50:36+00:00",
+    "2026-11-24T01:26:51+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   21,
+   22,
    [
-    "2026-11-20T06:21:06+00:00",
-    "2026-11-20T06:51:10+00:00"
+    "2026-11-20T07:07:06+00:00",
+    "2026-11-20T11:12:05+00:00"
    ],
    [
-    "2026-11-21T15:14:14+00:00",
-    "2026-11-21T15:48:19+00:00"
+    "2026-11-21T16:17:59+00:00",
+    "2026-11-21T16:22:25+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   31,
+   30,
    [
-    "2026-11-19T15:51:22+00:00",
-    "2026-11-19T15:54:02+00:00"
+    "2026-11-19T15:57:52+00:00",
+    "2026-11-19T16:00:25+00:00"
    ],
    [
-    "2026-11-20T06:00:39+00:00",
-    "2026-11-20T06:08:52+00:00"
+    "2026-11-20T06:21:06+00:00",
+    "2026-11-20T06:51:10+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    30,
    [
-    "2026-11-17T12:40:59+00:00",
-    "2026-11-17T14:08:11+00:00"
+    "2026-11-17T19:34:49+00:00",
+    "2026-11-17T22:01:45+00:00"
    ],
    [
-    "2026-11-19T15:30:19+00:00",
-    "2026-11-19T15:36:53+00:00"
+    "2026-11-19T15:51:22+00:00",
+    "2026-11-19T15:54:02+00:00"
    ]
   ],
   "avant_filtre_date": 144,
-  "apres_filtre_date": 132
+  "apres_filtre_date": 133
  },
  "items": [
   {
@@ -94,8 +94,8 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 87,
-   "posts": 62,
+   "votes": 88,
+   "posts": 63,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
    "asin": "B00CHOUI86",
@@ -112,8 +112,8 @@
    "title": "Helly Hansen Men's Rain Jacket @ $63.98",
    "price": 63.98,
    "was": null,
-   "votes": 41,
-   "posts": 32,
+   "votes": 42,
+   "posts": 33,
    "time": "2026-11-23T14:13:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
    "asin": "B0C3JRVSL2",
@@ -162,6 +162,24 @@
    "img": "/img/p/B09D4QRJ8Y.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
+   "price": 1167.0,
+   "was": 1747.0,
+   "votes": 32,
+   "posts": 37,
+   "time": "2026-11-22T17:06:59+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
+   "asin": "B0HC35V6KZ",
+   "pct": 33,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HC35V6KZ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-bosch-3323-premium-filtech-oil-filter-6-2833732/",
    "title": "Bosch 3323 Premium FILTECH Oil Filter $6",
    "price": 6.0,
@@ -180,30 +198,12 @@
    "img": "/img/p/B000BZIFV0.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "title": "Pixel 11 + Buds 2a + Pro Buds 2 + Watch 4 stack on Amazon Business $1167",
-   "price": 1167.0,
-   "was": 1747.0,
-   "votes": 31,
-   "posts": 35,
-   "time": "2026-11-22T17:06:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pixel-11-buds-2a-pro-buds-2-watch-4-stack-amazon-business-1167-2833397/",
-   "asin": "B0HC35V6KZ",
-   "pct": 33,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HC35V6KZ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HC35V6KZ.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
    "title": "Hanes Mens Tagless Boxer Briefs, 6 Pack, COTTON m-xl - ATL -$20.24",
    "price": 20.24,
    "was": null,
-   "votes": 26,
-   "posts": 10,
+   "votes": 28,
+   "posts": 12,
    "time": "2026-11-24T16:14:48+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hanes-mens-tagless-boxer-briefs-6-pack-cotton-m-xl-atl-20-24-2833733/",
    "asin": "B0123NDHKQ",
@@ -274,7 +274,7 @@
    "title": "Red Line 60103 Complete SI-1 Fuel System Cleaner, 15 Ounce",
    "price": 19.13,
    "was": 26.95,
-   "votes": 20,
+   "votes": 21,
    "posts": 16,
    "time": "2026-11-25T03:42:31+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
@@ -900,24 +900,6 @@
    "img": "/img/p/B0GFB83GPM.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-nespresso-vertuo-pop-deluxe-pod-coffee-espresso-machine-69-98-atl-2833895/",
-   "title": "Nespresso Vertuo Pop+ Deluxe Pod Coffee & Espresso Machine $69.98 ATL",
-   "price": 69.98,
-   "was": null,
-   "votes": 8,
-   "posts": 17,
-   "time": "2026-11-25T14:44:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-nespresso-vertuo-pop-deluxe-pod-coffee-espresso-machine-69-98-atl-2833895/",
-   "asin": "B0DR3CK8Q7",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DR3CK8Q7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0DR3CK8Q7.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ecosense-continuous-home-radon-detector-rd200-now-169-99-245-55-2832835/",
    "title": "Ecosense Continuous Home Radon Detector RD200 Now $169.99 was $245.55",
    "price": 169.99,
@@ -1062,6 +1044,24 @@
    "img": "/img/p/B0CC9DB4YB.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
+   "title": "LEGO Icons The Lord of The Rings Balrog Book Nook - $99.86 (33% off)",
+   "price": 99.86,
+   "was": 149.99,
+   "votes": 7,
+   "posts": 2,
+   "time": "2026-11-25T18:29:06+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
+   "asin": "B0DRW56MKL",
+   "pct": 33,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DRW56MKL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DRW56MKL.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-heated-rivalry-original-series-soundtrack-vinyl-19-97-2832845/",
    "title": "Heated Rivalry (Original Series Soundtrack) (Vinyl) @ $19.97",
    "price": 19.97,
@@ -1132,24 +1132,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07GBZ4Q68.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
-   "title": "LEGO Icons The Lord of The Rings Balrog Book Nook - $99.86 (33% off)",
-   "price": 99.86,
-   "was": 149.99,
-   "votes": 6,
-   "posts": 2,
-   "time": "2026-11-25T18:29:06+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-icons-lord-rings-balrog-book-nook-99-86-33-off-2833940/",
-   "asin": "B0DRW56MKL",
-   "pct": 33,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DRW56MKL?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DRW56MKL.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-oral-b-pro-500-electric-toothbrush-2-brush-heads-sale-37-22-49-99-2832803/",
@@ -1332,6 +1314,24 @@
    "img": "/img/p/B0G1PN5PRP.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
+   "price": 49.97,
+   "was": 99.95,
+   "votes": 5,
+   "posts": 19,
+   "time": "2026-11-24T16:43:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
+   "asin": "B0FB12L2VC",
+   "pct": 50,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0FB12L2VC.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-colavita-extra-virgin-olive-oil-special-soccer-ball-glass-bottle-500ml-great-stocking-stuffer-9-95-s-s-2833758/",
    "title": "Colavita Extra Virgin Olive Oil Special Soccer Ball Glass Bottle (500ml) - Great Stocking Stuffer! $9.95 S&S",
    "price": 9.95,
@@ -1458,6 +1458,24 @@
    "img": "/img/p/B07YLV47RQ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
+   "title": "AeroGarden 45W LED Grow Light Panel - Grow Light for Plants, Includes Stand and Hanging Kit $49 (was 186)",
+   "price": 49.0,
+   "was": 186.0,
+   "votes": 4,
+   "posts": 6,
+   "time": "2026-11-25T22:03:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
+   "asin": "B0725QBG1G",
+   "pct": 74,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0725QBG1G?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0725QBG1G.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-tcl-55-f7d-class-4k-uhd-hdr-qled-smart-tv-fire-tv-ci-55f7d-sale-322-99-379-99-2832802/",
    "title": "TCL 55\" F7D Class 4K UHD HDR QLED Smart TV with Fire TV – 55F7D on sale $322.99($379.99)",
    "price": 322.99,
@@ -1566,58 +1584,40 @@
    "img": "/img/p/B0DCG1JGKN.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
-   "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
-   "price": 599.99,
-   "was": 1399.9,
+   "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-pla-black-3d-printer-filament-10kg-ci-118-99-reg-139-99-2833875/",
+   "title": "ELEGOO PLA Black 3D Printer Filament 10KG – $118.99 (Reg. $139.99)",
+   "price": 118.99,
+   "was": 139.99,
    "votes": 3,
-   "posts": 0,
-   "time": "2026-11-21T14:49:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
-   "asin": "B0FWK41WF2",
-   "pct": 57,
+   "posts": 5,
+   "time": "2026-11-25T12:32:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-elegoo-pla-black-3d-printer-filament-10kg-ci-118-99-reg-139-99-2833875/",
+   "asin": "B0BV2PCY8T",
+   "pct": 15,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0BV2PCY8T?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FWK41WF2.jpg"
+   "img": "/img/p/B0BV2PCY8T.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
-   "title": "AeroGarden 45W LED Grow Light Panel - Grow Light for Plants, Includes Stand and Hanging Kit $49 (was 186)",
-   "price": 49.0,
-   "was": 186.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
+   "title": "Helly Hansen Men's Dubliner Shell Jacket",
+   "price": 67.98,
+   "was": 84.98,
    "votes": 3,
-   "posts": 4,
-   "time": "2026-11-25T22:03:49+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-grow-light-plants-includes-stand-hanging-kit-49-186-2833980/",
-   "asin": "B0725QBG1G",
-   "pct": 74,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0725QBG1G?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0725QBG1G.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "title": "Levi's Men's 578® Baggy Fit Jeans $49.97",
-   "price": 49.97,
-   "was": 99.95,
-   "votes": 3,
-   "posts": 18,
-   "time": "2026-11-24T16:43:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-levis-mens-578-baggy-fit-jeans-49-97-2833741/",
-   "asin": "B0FB12L2VC",
-   "pct": 50,
+   "posts": 1,
+   "time": "2026-11-24T13:44:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-dubliner-shell-jacket-2833714/",
+   "asin": "B01EOX0B7U",
+   "pct": 20,
    "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0FB12L2VC?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B01EOX0B7U?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0FB12L2VC.jpg"
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B01EOX0B7U.jpg"
   }
  ]
 }
