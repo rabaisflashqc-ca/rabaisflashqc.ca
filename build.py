@@ -1344,8 +1344,28 @@ def vf_block():
             '<p class="topsub">Prix vérifiés sur Keepa, avec la date de lecture. Ils bougent vite : vérifie le prix final avant d\'acheter.</p>'
             f'<ul class="deals">{"".join(rfd_card(x) for x in L)}</ul></section>')
 
+PIXEL_ID = "1174148235151816"
+PIXEL_HEAD = ("<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};"
+    "if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}"
+    "(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');"
+    "var rc=null;try{rc=localStorage.getItem('rf_c')}catch(x){}"
+    "fbq('consent',rc==='1'?'grant':'revoke');"
+    f"fbq('init','{PIXEL_ID}');fbq('track','PageView');</script>")
+PIXEL_BODY = ("<div id=\"rfc\" style=\"display:none;position:fixed;left:8px;right:8px;bottom:8px;z-index:99999;background:#fff;color:#222;border:1px solid #ddd;border-radius:12px;padding:12px 14px;box-shadow:0 4px 18px rgba(0,0,0,.25);font:14px/1.35 system-ui,sans-serif;max-width:560px;margin:0 auto\">"
+    "On mesure les visites avec Meta pour améliorer nos pubs. Aucune info personnelle n'est demandée. Tu acceptes?"
+    "<div style=\"margin-top:8px;display:flex;gap:8px\"><button id=\"rfy\" style=\"flex:1;padding:9px;border:0;border-radius:8px;background:#a50d1c;color:#fff;font-weight:700\">Oui</button>"
+    "<button id=\"rfn\" style=\"flex:1;padding:9px;border:1px solid #bbb;border-radius:8px;background:#fff;color:#222\">Non merci</button></div></div>"
+    "<script>(function(){var b=document.getElementById('rfc'),c=null;try{c=localStorage.getItem('rf_c')}catch(x){}"
+    "if(c===null&&b)b.style.display='block';"
+    "function s(v){try{localStorage.setItem('rf_c',v)}catch(x){}if(b)b.style.display='none';if(window.fbq)fbq('consent',v==='1'?'grant':'revoke');}"
+    "var y=document.getElementById('rfy'),n=document.getElementById('rfn');if(y)y.onclick=function(){s('1')};if(n)n.onclick=function(){s('0')};"
+    "document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('a[href*=\"amazon.ca\"]');if(a&&window.fbq)fbq('trackCustom','ClicOffre',{page:location.pathname});},true);})();</script>")
+
 def write(slug, content):
     p = OUT / slug / "index.html" if slug else OUT / "index.html"
+    if "</head>" in content and "fbevents.js" not in content:
+        content = content.replace("</head>", PIXEL_HEAD + "</head>", 1)
+        content = content.replace("</body>", PIXEL_BODY + "</body>", 1)
     p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
 
 def a_verifier():
@@ -1431,7 +1451,7 @@ def main():
         f"<h2>Transparence</h2><p>{DISCLOSURE} Ça ne change rien au prix que tu paies.</p>"
         f'<h2>Nous joindre</h2><p>Écris-nous sur <a href="{MS}">Messenger</a> ou sur notre <a href="{FB}">page Facebook</a>.</p>')); urls.append("a-propos")
     write("confidentialite", simple("confidentialite", "Politique de confidentialité | Rabais Flash QC", "Politique de confidentialité",
-        "<p>Ce site ne te demande aucune information personnelle pour consulter les deals. Il n'utilise pas de témoins publicitaires qui lui sont propres.</p>"
+        "<p>Ce site ne te demande aucune information personnelle pour consulter les deals. Si tu acceptes la bannière de consentement, le pixel Meta mesure les visites et les clics sur les offres pour améliorer nos publicités sur Facebook et Instagram. Si tu refuses, rien n'est envoyé à Meta. Ton choix est gardé dans ton navigateur.</p>"
         "<p>Quand tu cliques sur un lien vers Amazon.ca, Amazon peut utiliser des témoins pour attribuer l'achat, selon sa propre politique de confidentialité.</p>"
         "<p>Si tu t'inscris à notre infolettre, ton adresse courriel sert seulement à t'envoyer nos aubaines. Tu peux te désabonner en tout temps avec le lien présent dans chaque courriel. Pour toute question sur tes renseignements personnels, écris-nous sur Messenger.</p>"
         f"<p>Dernière mise à jour : {TODAY}.</p>")); urls.append("confidentialite")
