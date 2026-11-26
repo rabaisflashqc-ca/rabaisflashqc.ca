@@ -10,7 +10,7 @@ def html(h, tall):
     cs = 120 if tall else 90
     return f"""<!doctype html><meta charset=utf-8><style>
 *{{box-sizing:border-box;margin:0;padding:0}}body{{width:1080px;height:{h}px;background:#3D0A10;font-family:'Liberation Sans Narrow','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;display:flex;flex-direction:column;overflow:hidden;padding:{'210px 0 270px' if tall else '0'}}}
-.s{{background:#FFC21A;color:#3D0A10;text-align:center;font-size:44px;padding:20px 10px;letter-spacing:3px}}
+.s{{background:#FFC21A;color:#3D0A10;text-align:center;font-size:40px;padding:22px 10px;letter-spacing:2px;white-space:nowrap}}
 .m{{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 50px}}
 .n{{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:{280 if tall else 200}px;line-height:1;color:#FFC21A}}
 .t{{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:{96 if tall else 76}px;line-height:1.02;margin-top:6px}}
