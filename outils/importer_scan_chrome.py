@@ -145,7 +145,8 @@ for x in aj.get("grid", []) + aj.get("shelves", []):
     if not img or not title_raw or EXCL.search(title_raw): continue
     vus.add(asin)
     kind = (x.get("old") or x.get("kind") or "")
-    t = clean_fr(title_raw); cat = cat_de(title_raw, x.get("pill") or "")
+    PILL = {"jouets": "Jeux et jouets", "plein-air": "Sport et plein air", "beaute": "Beauté", "maison": "Maison et cuisine"}
+    t = clean_fr(title_raw); cat = "enfants" if x.get("c") == "enfants" else cat_de(title_raw, x.get("pill") or PILL.get(x.get("c"), ""))
     e = {"asin": asin, "title": t, "cat": cat, "price": round(price, 2), "was": round(old, 2), "pct": pct, "seen": seen_a, "until": until(seen_a),
          "source": "amazon", "img_url": img}
     if "conseill" in kind.lower(): e["ref"] = "conseille"
