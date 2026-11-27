@@ -1,0 +1,542 @@
+[
+ {
+  "asin": "B07DPNKVW9",
+  "title": "CHICOLOGY Magnetic Roman Shades, Light Filtering Fabric Window Treatment",
+  "cat": "maison",
+  "price": 26.38,
+  "was": 70.69,
+  "pct": 63,
+  "vf": true
+ },
+ {
+  "asin": "B09XY3V3DB",
+  "title": "KitchenAid - Measuring Cups and Spoons Set",
+  "cat": "maison",
+  "price": 19.07,
+  "was": 50.0,
+  "pct": 62,
+  "vf": true
+ },
+ {
+  "asin": "B08HZB5LPP",
+  "title": "NutriChef 13-Piece Kitchen Knife Set with Knife Block and Built-in Sharpener",
+  "cat": "maison",
+  "price": 31.92,
+  "was": 79.56,
+  "pct": 60,
+  "vf": true
+ },
+ {
+  "asin": "B0CZS9V1R5",
+  "title": "NuWallpaper Isle brown Peel and Stick Wallpaper, NUS6191",
+  "cat": "maison",
+  "price": 28.0,
+  "was": 75.25,
+  "pct": 63,
+  "vf": true
+ },
+ {
+  "asin": "B083X4TXHJ",
+  "title": "Humble Crew Toy Storage Organizer with 9 Removable Fabric Bins",
+  "cat": "maison",
+  "price": 35.99,
+  "was": 94.83,
+  "pct": 62,
+  "vf": true
+ },
+ {
+  "asin": "B0CN92YYPM",
+  "title": "Coussin chauffant électrique, coussin chauffant chaud, coussin chauffant humide et sec",
+  "cat": "maison",
+  "price": 23.14,
+  "was": 59.0,
+  "pct": 61,
+  "vf": true
+ },
+ {
+  "asin": "B0GT2CPSTV",
+  "title": "Twinings Pure Peppermint Herbal Tea",
+  "cat": "maison",
+  "price": 22.35,
+  "was": 56.14,
+  "pct": 60,
+  "vf": true
+ },
+ {
+  "asin": "B0DZ8QKTKB",
+  "title": "Abbott Collection Bee Votive | Tealight Holder, Food Safe, Lead & Cadmium Free",
+  "cat": "maison",
+  "price": 21.42,
+  "was": 53.9,
+  "pct": 60,
+  "vf": true
+ },
+ {
+  "asin": "B0DV4W9ZS3",
+  "title": "Extérieur 4 Blink XR: caméra sans fil avec 2 ans d'autonomie",
+  "cat": "tech",
+  "price": 146.99,
+  "was": 419.99,
+  "pct": 65,
+  "vf": true
+ },
+ {
+  "asin": "B0B1N6QK7Z",
+  "title": "Extérieur 4: caméra de surveillance intelligente sans fil, 2 ans d'autonomie",
+  "cat": "tech",
+  "price": 32.99,
+  "was": 94.99,
+  "pct": 65,
+  "vf": true
+ },
+ {
+  "asin": "B0DVTDJ7TH",
+  "title": "JBL Endurance Race 2 - Écouteurs sport sans fil étanches - Blanc",
+  "cat": "tech",
+  "price": 39.98,
+  "was": 109.98,
+  "pct": 64,
+  "vf": true
+ },
+ {
+  "asin": "B0CFVVQHJM",
+  "title": "Speck iPhone 15 Plus Case - ClickLock No-Slip Interlock, MagSafe",
+  "cat": "tech",
+  "price": 20.62,
+  "was": 48.72,
+  "pct": 58,
+  "vf": true
+ },
+ {
+  "asin": "B09B8V1LZ3",
+  "title": "Amazon Echo Dot (3e génération), haut-parleur Alexa au son puissant",
+  "cat": "tech",
+  "price": 44.99,
+  "was": 104.99,
+  "pct": 57,
+  "vf": true
+ },
+ {
+  "asin": "B00N2GY30C",
+  "title": "Streamlight 61602 Double Clutch USB Rechargeable Headlamp 120V Yellow | 125 lumens; 1",
+  "cat": "tech",
+  "price": 62.45,
+  "was": 118.75,
+  "pct": 47,
+  "vf": true
+ },
+ {
+  "asin": "B0C7XDKZPD",
+  "title": "Echo Show 15 d'Amazon, votre centre d'organisation pour toute la famille",
+  "cat": "tech",
+  "price": 274.99,
+  "was": 499.99,
+  "pct": 45,
+  "vf": true
+ },
+ {
+  "asin": "B015ESTMDI",
+  "title": "Baggallini Avenue Tote Bag - Lightweight",
+  "cat": "tech",
+  "price": 78.17,
+  "was": 127.6,
+  "pct": 39,
+  "vf": true
+ },
+ {
+  "asin": "B0D3657YZQ",
+  "title": "To The People 10 Percent AHA + Yerba Mate Smoothing Energy Body Scrub (8 fl oz) pour enfants",
+  "cat": "beaute",
+  "price": 29.0,
+  "was": 50.17,
+  "pct": 42,
+  "vf": true
+ },
+ {
+  "asin": "B09LD7WRVS",
+  "title": "Philips Sonicare 4100 Power Brosse à dents électrique rechargeable",
+  "cat": "beaute",
+  "price": 49.95,
+  "was": 84.99,
+  "pct": 41,
+  "vf": true
+ },
+ {
+  "asin": "B0CTKSB91T",
+  "title": "LANEIGE Water Bank Blue Hyaluronic Cream Hydratant",
+  "cat": "beaute",
+  "price": 21.9,
+  "was": 36.5,
+  "pct": 40,
+  "vf": true
+ },
+ {
+  "asin": "B0BHL7W44K",
+  "title": "Lancôme Teint Idôle Ultra Wear Care & Glow Serum Foundation with SPF - Medium Buildable Co",
+  "cat": "beaute",
+  "price": 38.5,
+  "was": 63.49,
+  "pct": 39,
+  "vf": true
+ },
+ {
+  "asin": "B0G4XSW2ND",
+  "title": "LANEIGE Bouncy Skin On The Go Set | Bouncy & Firm Serum",
+  "cat": "beaute",
+  "price": 36.6,
+  "was": 60.44,
+  "pct": 39,
+  "vf": true
+ },
+ {
+  "asin": "B0081C1OJ0",
+  "title": "CHI Infra Shampoo, Gently Cleanses Scalp & Hair",
+  "cat": "beaute",
+  "price": 20.0,
+  "was": 32.75,
+  "pct": 39,
+  "vf": true
+ },
+ {
+  "asin": "B07VZF9LGC",
+  "title": "Clarks CloudSteppers Solevana Style Sneaker pour femme",
+  "cat": "femme",
+  "price": 26.07,
+  "was": 72.01,
+  "pct": 64,
+  "vf": true
+ },
+ {
+  "asin": "B07NMSC6KC",
+  "title": "Easy Spirit Pine Clog pour femme",
+  "cat": "femme",
+  "price": 46.55,
+  "was": 118.97,
+  "pct": 61,
+  "vf": true
+ },
+ {
+  "asin": "B07N13MDKH",
+  "title": "Skechers Go Walk 5 True Sneaker pour femme",
+  "cat": "femme",
+  "price": 49.73,
+  "was": 125.18,
+  "pct": 60,
+  "vf": true
+ },
+ {
+  "asin": "B0765QGF4D",
+  "title": "Cutter & Buck Rainier Vest, Anthracite Melange pour femme",
+  "cat": "femme",
+  "price": 36.13,
+  "was": 114.24,
+  "pct": 68,
+  "vf": true
+ },
+ {
+  "asin": "B07YVK7NXB",
+  "title": "La Blanca Island Goddess Banded Hipster Swimsuit Bottom pour femme",
+  "cat": "femme",
+  "price": 21.53,
+  "was": 66.36,
+  "pct": 68,
+  "vf": true
+ },
+ {
+  "asin": "B07PWHT92D",
+  "title": "Lee Sculpting Slim Fit Skinny Leg Pull on Jean, Larkspur pour femme",
+  "cat": "femme",
+  "price": 21.81,
+  "was": 59.45,
+  "pct": 63,
+  "vf": true
+ },
+ {
+  "asin": "B0BNSVWHCK",
+  "title": "Maggy London Boat Neck Flutter Sleeve Dress Occasion Event Guest of pour femme",
+  "cat": "femme",
+  "price": 53.28,
+  "was": 135.07,
+  "pct": 61,
+  "vf": true
+ },
+ {
+  "asin": "B0DPJFRG1M",
+  "title": "Vince Camuto Felia Wedge Sandal pour femme",
+  "cat": "femme",
+  "price": 59.58,
+  "was": 146.56,
+  "pct": 59,
+  "vf": true
+ },
+ {
+  "asin": "B08CB4JTVG",
+  "title": "Cole Haan Grand Crosscourt Modern Perforated Court Sneaker pour homme",
+  "cat": "homme",
+  "price": 41.72,
+  "was": 139.72,
+  "pct": 70,
+  "vf": true
+ },
+ {
+  "asin": "B0DW43KTCG",
+  "title": "Classic Turbo Clog Black M4W6",
+  "cat": "homme",
+  "price": 31.52,
+  "was": 99.21,
+  "pct": 68,
+  "vf": true
+ },
+ {
+  "asin": "B0BYLNJXPT",
+  "title": "Cole Haan Grandpro Breakaway Sneaker pour homme",
+  "cat": "homme",
+  "price": 42.51,
+  "was": 99.12,
+  "pct": 57,
+  "vf": true
+ },
+ {
+  "asin": "B08NCGJFDJ",
+  "title": "Dockers Straight Fit City Tech Trousers, New British Khaki, 42Wx30L pour homme",
+  "cat": "homme",
+  "price": 20.11,
+  "was": 64.79,
+  "pct": 69,
+  "vf": true
+ },
+ {
+  "asin": "B074HVKLVF",
+  "title": "Dockers Big and Tall Classic Fit Workday Khaki Smart 360 Flex Pants D3 pour homme",
+  "cat": "homme",
+  "price": 19.05,
+  "was": 54.75,
+  "pct": 65,
+  "vf": true
+ },
+ {
+  "asin": "B07KD6FDQ1",
+  "title": "Tommy Hilfiger Big & Tall Stretch Cotton Chino Pants in Classic Fit pour homme",
+  "cat": "homme",
+  "price": 35.7,
+  "was": 99.57,
+  "pct": 64,
+  "vf": true
+ },
+ {
+  "asin": "B07QBVW3C1",
+  "title": "Tommy Hilfiger Men’s Relaxed Fit Stretch Jeans",
+  "cat": "homme",
+  "price": 37.23,
+  "was": 99.58,
+  "pct": 63,
+  "vf": true
+ },
+ {
+  "asin": "B0FK1S7YDD",
+  "title": "Mattel Disney and Pixar Toy Story 5 Giddy-Up Bullseye RC | 12-inch Scale Remote-Controlled",
+  "cat": "jouets",
+  "price": 34.97,
+  "was": 73.25,
+  "pct": 52,
+  "vf": true
+ },
+ {
+  "asin": "B0D9KTRW8N",
+  "title": "Alive Bubbly Tea Party LaLa GooGoo Doll with Teapot Accessories pour bébé",
+  "cat": "jouets",
+  "price": 19.94,
+  "was": 34.82,
+  "pct": 43,
+  "vf": true
+ },
+ {
+  "asin": "B0DPQV18TH",
+  "title": "​Mattel Disney Princess Ultimate Princess 13-Pack of Fashion Dolls | 13 Posable Fashion Do",
+  "cat": "jouets",
+  "price": 96.14,
+  "was": 174.17,
+  "pct": 45,
+  "vf": true
+ },
+ {
+  "asin": "B0FFH1DC25",
+  "title": "Hot Wheels Racing Formula 1 Grid Start Track Set and 2 Toy Cars | Includes 2 Officially Li",
+  "cat": "jouets",
+  "price": 20.98,
+  "was": 38.98,
+  "pct": 46,
+  "vf": true
+ },
+ {
+  "asin": "B0CJ9YKSZJ",
+  "title": "Schleich Farm World - 7Pc Farm Animal Playset for Ages 5+ | 77533 | Farm Animal Figur pour enfants",
+  "cat": "jouets",
+  "price": 20.96,
+  "was": 38.84,
+  "pct": 46,
+  "vf": true
+ },
+ {
+  "asin": "B0F2JC33YS",
+  "title": "LEGO DUPLO Peppa Pig Grandpa Pig’s Garden and Greenhouse - Peppa Pig Toy for - Pr pour enfants",
+  "cat": "jouets",
+  "price": 54.93,
+  "was": 97.54,
+  "pct": 44,
+  "vf": true
+ },
+ {
+  "asin": "B0F19G417B",
+  "title": "Schleich Horse Club - 8Pc Sarah´s First Aid Kit Playset - 5+ | 42777 | Horse Figurine pour enfants",
+  "cat": "jouets",
+  "price": 19.16,
+  "was": 33.96,
+  "pct": 44,
+  "vf": true
+ },
+ {
+  "asin": "B0BHFBY3GM",
+  "title": "ADICOLOR COLORADO BACKPACK",
+  "cat": "plein-air",
+  "price": 24.96,
+  "was": 52.84,
+  "pct": 53,
+  "vf": true
+ },
+ {
+  "asin": "B0CX5PPV9K",
+  "title": "Globe Electric 17000183 160-Degree 3W Black 250 Lumens Battery Operated Outdoor Integrated",
+  "cat": "plein-air",
+  "price": 24.98,
+  "was": 52.26,
+  "pct": 52,
+  "vf": true
+ },
+ {
+  "asin": "B0GGTXJ31B",
+  "title": "DAKINE ESSENTIALS BACKPACK MINI 7L-R, Marron, One Size",
+  "cat": "plein-air",
+  "price": 32.2,
+  "was": 65.05,
+  "pct": 50,
+  "vf": true
+ },
+ {
+  "asin": "B0C3B6DJC2",
+  "title": "Herschel Supply Co. Pop Quiz Backpack",
+  "cat": "plein-air",
+  "price": 59.99,
+  "was": 117.1,
+  "pct": 49,
+  "vf": true
+ },
+ {
+  "asin": "B0DPRB81PH",
+  "title": "SELECT Numero 10 Soccer Ball, White/Pink/Cure V25",
+  "cat": "plein-air",
+  "price": 49.26,
+  "was": 94.37,
+  "pct": 48,
+  "vf": true
+ },
+ {
+  "asin": "B087JX2NZP",
+  "title": "Duck Covers Weekend Water-Resistant 72 x 21 x 3 Inch Outdoor Chaise Cushion",
+  "cat": "plein-air",
+  "price": 108.8,
+  "was": 199.3,
+  "pct": 45,
+  "vf": true
+ },
+ {
+  "asin": "B073ZM827R",
+  "title": "Drymate CLM2028K Cat Litter Mat, Kahopo Grey (20\" by 28\") Reduces Tracking",
+  "cat": "animaux",
+  "price": 23.24,
+  "was": 45.73,
+  "pct": 49,
+  "vf": true
+ },
+ {
+  "asin": "B08ZD2FKTH",
+  "title": "Feandrea Dog Crate Furniture, Side End Table",
+  "cat": "animaux",
+  "price": 151.19,
+  "was": 247.56,
+  "pct": 39,
+  "vf": true
+ },
+ {
+  "asin": "B003D7LCR2",
+  "title": "Plush Dog Bed | Ombré Swirl Dog Bed & Cat Bed | Gray 46L x 29W x 3H - Inches for XL Dog Br",
+  "cat": "animaux",
+  "price": 54.98,
+  "was": 94.47,
+  "pct": 42,
+  "vf": true
+ },
+ {
+  "asin": "B003D7LCS6",
+  "title": "MidWest Homes for Pets Dog Crate Cover",
+  "cat": "animaux",
+  "price": 20.39,
+  "was": 34.41,
+  "pct": 41,
+  "vf": true
+ },
+ {
+  "asin": "B006W6YHYQ",
+  "title": "Gâteries dentaires pour chien Greenies",
+  "cat": "animaux",
+  "price": 31.39,
+  "was": 51.99,
+  "pct": 40,
+  "vf": true
+ },
+ {
+  "asin": "B00XXQ86OA",
+  "title": "French Toast Adjustable Waist Stretch Twill Straight Leg Pant pour fille",
+  "cat": "enfants",
+  "price": 21.47,
+  "was": 46.36,
+  "pct": 54,
+  "vf": true
+ },
+ {
+  "asin": "B0D1L9SN1B",
+  "title": "New Balance DynaSoft 578 V1 Hook and Loop Running Shoe pour enfants",
+  "cat": "enfants",
+  "price": 22.0,
+  "was": 46.19,
+  "pct": 52,
+  "vf": true
+ },
+ {
+  "asin": "B0887VQHKC",
+  "title": "PUMA Core Logo Zip Up Hoodie pour fille",
+  "cat": "enfants",
+  "price": 27.53,
+  "was": 54.61,
+  "pct": 50,
+  "vf": true
+ },
+ {
+  "asin": "B09ZLRSSLD",
+  "title": "Muck Boot Rugged Ii Tall Boots Black/Mountain Terrain Print Size 7 M pour enfants",
+  "cat": "enfants",
+  "price": 64.2,
+  "was": 124.22,
+  "pct": 48,
+  "vf": true
+ },
+ {
+  "asin": "B0D4D9WVH8",
+  "title": "Native Shoes Jefferson Print Lightweight Slip-On Shoe pour enfants",
+  "cat": "enfants",
+  "price": 30.35,
+  "was": 58.22,
+  "pct": 48,
+  "vf": true
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "n": 1,
+  "brand": "JBL",
+  "slug": "jbl",
+  "count": 10
+ },
+ {
+  "n": 2,
+  "brand": "LEGO",
+  "slug": "lego",
+  "count": 10
+ },
+ {
+  "n": 3,
+  "brand": "Ninja",
+  "slug": "ninja",
+  "count": 9
+ },
+ {
+  "n": 4,
+  "brand": "L'Or\u00e9al",
+  "slug": "loreal",
+  "count": 10
+ },
+ {
+  "n": 5,
+  "brand": "Amazon",
+  "slug": "amazon",
+  "count": 10
+ },
+ {
+  "n": 6,
+  "brand": "Philips",
+  "slug": "philips",
+  "count": 10
+ },
+ {
+  "n": 7,
+  "brand": "Maybelline",
+  "slug": "maybelline",
+  "count": 10
+ },
+ {
+  "n": 8,
+  "brand": "Samsung",
+  "slug": "samsung",
+  "count": 7
+ },
+ {
+  "n": 9,
+  "brand": "CeraVe",
+  "slug": "cerave",
+  "count": 10
+ },
+ {
+  "n": 10,
+  "brand": "Columbia",
+  "slug": "columbia",
+  "count": 6
+ },
+ {
+  "n": 11,
+  "brand": "Garnier",
+  "slug": "garnier",
+  "count": 10
+ },
+ {
+  "n": 12,
+  "brand": "adidas",
+  "slug": "adidas",
+  "count": 7
+ }
+]
