@@ -1,12 +1,12 @@
 {
- "date": "2026-11-26T19:19-04:00",
+ "date": "2026-11-26T20:36-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-20T11:12:05+00:00",
-    "2026-11-20T13:45:30+00:00"
+    "2026-11-20T01:18:57+00:00",
+    "2026-11-20T11:12:05+00:00"
    ],
    [
     "2026-11-26T15:54:15+00:00",
@@ -17,76 +17,76 @@
    44,
    44,
    [
-    "2026-11-19T23:20:08+00:00",
-    "2026-11-19T23:22:04+00:00"
+    "2026-11-20T03:11:14+00:00",
+    "2026-11-20T06:21:06+00:00"
    ],
    [
-    "2026-11-26T18:12:45+00:00",
-    "2026-11-26T21:08:18+00:00"
+    "2026-11-26T21:08:18+00:00",
+    "2026-11-26T21:14:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   26,
+   27,
    [
-    "2026-11-25T12:32:46+00:00",
-    "2026-11-25T12:41:28+00:00"
+    "2026-11-25T18:20:02+00:00",
+    "2026-11-25T18:29:06+00:00"
    ],
    [
-    "2026-11-26T22:30:24+00:00",
-    "2026-11-26T23:03:39+00:00"
+    "2026-11-27T00:02:25+00:00",
+    "2026-11-27T00:17:16+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   20,
+   19,
    [
-    "2026-11-23T12:57:40+00:00",
-    "2026-11-23T13:06:51+00:00"
+    "2026-11-23T15:58:21+00:00",
+    "2026-11-23T16:23:56+00:00"
    ],
    [
-    "2026-11-25T06:16:29+00:00",
-    "2026-11-25T09:17:22+00:00"
+    "2026-11-25T15:48:10+00:00",
+    "2026-11-25T16:42:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   17,
+   18,
    [
-    "2026-11-21T03:01:33+00:00",
-    "2026-11-21T03:14:53+00:00"
+    "2026-11-21T13:07:14+00:00",
+    "2026-11-21T13:14:12+00:00"
    ],
    [
-    "2026-11-23T12:27:50+00:00",
-    "2026-11-23T12:40:31+00:00"
+    "2026-11-23T14:13:17+00:00",
+    "2026-11-23T14:24:27+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   25,
+   24,
    [
-    "2026-11-19T22:33:21+00:00",
-    "2026-11-19T23:18:14+00:00"
+    "2026-11-20T01:18:57+00:00",
+    "2026-11-20T01:27:26+00:00"
    ],
    [
-    "2026-11-21T01:08:36+00:00",
-    "2026-11-21T01:37:50+00:00"
+    "2026-11-21T05:28:17+00:00",
+    "2026-11-21T06:43:13+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-11-19T13:46:50+00:00",
-    "2026-11-19T13:57:52+00:00"
+    "2026-11-19T14:14:48+00:00",
+    "2026-11-19T14:24:40+00:00"
    ],
    [
-    "2026-11-19T21:50:22+00:00",
-    "2026-11-19T21:56:11+00:00"
+    "2026-11-19T23:20:08+00:00",
+    "2026-11-19T23:22:04+00:00"
    ]
   ],
-  "avant_filtre_date": 143,
-  "apres_filtre_date": 113
+  "avant_filtre_date": 142,
+  "apres_filtre_date": 112
  },
  "items": [
   {
@@ -94,7 +94,7 @@
    "title": "Zojirushi 16oz Stainless Steel Travel Mug - $34.53",
    "price": 34.53,
    "was": 65.82,
-   "votes": 90,
+   "votes": 91,
    "posts": 64,
    "time": "2026-11-22T22:04:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-16oz-stainless-steel-travel-mug-34-53-2833415/",
@@ -214,24 +214,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0123NDHKQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
-   "title": "$399 (56% off) Cheapest Snapdragon X laptop (Asus Vivobook 14)",
-   "price": 399.0,
-   "was": 899.0,
-   "votes": 27,
-   "posts": 41,
-   "time": "2026-11-26T02:34:03+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-399-56-off-cheapest-snapdragon-x-laptop-asus-vivobook-14-2834027/",
-   "asin": "B0H922HQ1Z",
-   "pct": 56,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0H922HQ1Z?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0H922HQ1Z.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
@@ -401,7 +383,7 @@
    "price": 93.3,
    "was": 169.99,
    "votes": 12,
-   "posts": 8,
+   "posts": 9,
    "time": "2026-11-21T20:11:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-babylisspro-foilfx-cord-cordless-metal-double-foil-shaver-black-93-30-2833326/",
    "asin": "B097QRFR7G",
@@ -648,6 +630,24 @@
    "img": "/img/p/B0FJRQ9RM6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-mercedes-amg-f1-w15-19-86-2834104/",
+   "title": "LEGO Speed Champions Mercedes-AMG F1 W15 - 19.86$",
+   "price": 19.86,
+   "was": 34.99,
+   "votes": 9,
+   "posts": 1,
+   "time": "2026-11-26T16:08:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-mercedes-amg-f1-w15-19-86-2834104/",
+   "asin": "B0DHLHMK9V",
+   "pct": 43,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0DHLHMK9V?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DHLHMK9V.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-logitech-mk345-mouse-keyboard-35-2833153/",
    "title": "Logitech MK345 Mouse and Keyboard $35",
    "price": 35.0,
@@ -736,24 +736,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F5HZDYT4.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-mercedes-amg-f1-w15-19-86-2834104/",
-   "title": "LEGO Speed Champions Mercedes-AMG F1 W15 - 19.86$",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 8,
-   "posts": 1,
-   "time": "2026-11-26T16:08:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-mercedes-amg-f1-w15-19-86-2834104/",
-   "asin": "B0DHLHMK9V",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DHLHMK9V?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHLHMK9V.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-creator-3-1-wild-animals-panda-family-31165-32-37-626-pieces-2833104/",
@@ -954,6 +936,24 @@
    "img": "/img/p/B0725QBG1G.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
+   "title": "LEGO Speed Champions Audi Revolut F1 Team R26 [77259] - 19.86 (43% off)",
+   "price": 19.86,
+   "was": 34.99,
+   "votes": 6,
+   "posts": 1,
+   "time": "2026-11-26T17:46:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
+   "asin": "B0FMYTJ93W",
+   "pct": 43,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FMYTJ93W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FMYTJ93W.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
    "title": "LEGO Minecraft The Baby Pig House [21268] - $14.86 (40% off)",
    "price": 14.86,
@@ -1134,6 +1134,24 @@
    "img": "/img/p/B07649SXQ8.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine, Milk Frother, Silver $599 (was $999)",
+   "price": 599.0,
+   "was": 999.0,
+   "votes": 5,
+   "posts": 2,
+   "time": "2026-11-26T21:08:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
    "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
    "price": 69.99,
@@ -1175,7 +1193,7 @@
    "price": 299.0,
    "was": 499.0,
    "votes": 4,
-   "posts": 16,
+   "posts": 19,
    "time": "2026-11-26T01:57:11+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-chargepoint-homeflex-level-2-ev-fast-charger-j1772-smart-hardwired-299-amazon-2834021/",
    "asin": "B0CSPMC93Y",
@@ -1265,7 +1283,7 @@
    "price": 429.99,
    "was": 729.95,
    "votes": 3,
-   "posts": 14,
+   "posts": 15,
    "time": "2026-11-21T17:29:53+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
    "asin": "B00009LI4K",
@@ -1386,24 +1404,6 @@
    "img": "/img/p/B0BV2PCY8T.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
-   "title": "LEGO Speed Champions Audi Revolut F1 Team R26 [77259] - 19.86 (43% off)",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 3,
-   "posts": 1,
-   "time": "2026-11-26T17:46:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
-   "asin": "B0FMYTJ93W",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FMYTJ93W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FMYTJ93W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-rayneo-gt-ar-xr-glasses-bonus-lens-shade-363-2834133/",
    "title": "RayNeo GT AR/XR Glasses + Bonus Lens Shade - $363",
    "price": 363.0,
@@ -1420,60 +1420,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H8CDKPJ5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine, Milk Frother, Silver $599 (was $999)",
-   "price": 599.0,
-   "was": 999.0,
-   "votes": 3,
-   "posts": 1,
-   "time": "2026-11-26T21:08:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
-   "title": "24V 13\"\" Cordless Snow Shovel - $148.99",
-   "price": 148.99,
-   "was": 179.99,
-   "votes": 2,
-   "posts": 3,
-   "time": "2026-11-19T23:20:08+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-24v-13-cordless-snow-shovel-148-99-2832969/",
-   "asin": "B0B1TXSFMK",
-   "pct": 17,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B1TXSFMK?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B1TXSFMK.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
-   "title": "Refoss HomeKit Smart Garage Door Opener - $45.59",
-   "price": 45.59,
-   "was": 57.99,
-   "votes": 2,
-   "posts": 5,
-   "time": "2026-11-19T23:22:04+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-refoss-homekit-smart-garage-door-opener-45-59-2832971/",
-   "asin": "B08GG1H7TV",
-   "pct": 21,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B08GG1H7TV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": null
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-elegoo-rapid-petg-black-filament-10kg-ci-111-34-reg-136-99-2833042/",
@@ -1584,6 +1530,24 @@
    "img": "/img/p/B0GX7HXMVL.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-knipex-3-pc-twingrip-pliers-set-6-8-10-119-95-40-2833878/",
+   "title": "KNIPEX 3 Pc TwinGrip Pliers Set (6\", 8\", 10\") $119.95 (-40%)",
+   "price": 119.95,
+   "was": 199.5,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-25T12:41:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-knipex-3-pc-twingrip-pliers-set-6-8-10-119-95-40-2833878/",
+   "asin": "B0DJ9TXFJ3",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DJ9TXFJ3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DJ9TXFJ3.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-purina-pro-plan-advantage-senior-cats-38-49-2-27kg-chicken-rice-formula-2833936/",
    "title": "Purina pro plan advantage for senior cats $38.49 for 2.27kg chicken and rice formula",
    "price": 38.49,
@@ -1602,22 +1566,58 @@
    "img": "/img/p/B0FWTSJG8M.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-knipex-3-pc-twingrip-pliers-set-6-8-10-119-95-40-2833878/",
-   "title": "KNIPEX 3 Pc TwinGrip Pliers Set (6\", 8\", 10\") $119.95 (-40%)",
-   "price": 119.95,
-   "was": 199.5,
+   "url": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
+   "title": "Marvel vs Capcom fighting collection PS4",
+   "price": 24.99,
+   "was": 38.5,
    "votes": 2,
-   "posts": 3,
-   "time": "2026-11-25T12:41:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-knipex-3-pc-twingrip-pliers-set-6-8-10-119-95-40-2833878/",
-   "asin": "B0DJ9TXFJ3",
-   "pct": 40,
+   "posts": 1,
+   "time": "2026-11-26T21:14:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
+   "asin": "B0D7NSB8XV",
+   "pct": 35,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DJ9TXFJ3?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0D7NSB8XV?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DJ9TXFJ3.jpg"
+   "img": "/img/p/B0D7NSB8XV.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-saf-aranet4-home-wireless-indoor-air-quality-meter-co2-temperature-humidity-2834218/",
+   "title": "SAF Aranet4 Home: Wireless Indoor Air Quality Meter (CO2, Temperature, Humidity)",
+   "price": 179.0,
+   "was": 240.0,
+   "votes": 1,
+   "posts": 1,
+   "time": "2026-11-27T00:02:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-saf-aranet4-home-wireless-indoor-air-quality-meter-co2-temperature-humidity-2834218/",
+   "asin": "B07YY7BH2W",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07YY7BH2W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07YY7BH2W.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-12ct-kraft-dinner-protein-plus-original-cheddar-macaroni-cheese-2834217/",
+   "title": "12ct. Kraft Dinner Protein Plus Original Cheddar Macaroni & Cheese",
+   "price": 21.9,
+   "was": null,
+   "votes": 1,
+   "posts": 3,
+   "time": "2026-11-27T00:00:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-12ct-kraft-dinner-protein-plus-original-cheddar-macaroni-cheese-2834217/",
+   "asin": "B0H3977ZD5",
+   "pct": null,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0H3977ZD5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0H3977ZD5.jpg"
   }
  ]
 }
