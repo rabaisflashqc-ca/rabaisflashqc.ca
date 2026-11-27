@@ -1,6 +1,46 @@
 {
- "genere": "2026-11-27T22:57+00:00",
+ "genere": "2026-11-27T23:53+00:00",
  "produits": [
+  {
+   "asin": "B0CDQXRNXD",
+   "titre": "Reebok Floatzig Running Shoes for Women",
+   "prix_affiche": 84.31
+  },
+  {
+   "asin": "B0CDJ2TMFD",
+   "titre": "SwissGear Signature Hardside Expandable Luggage with Spinner Wheels",
+   "prix_affiche": 76.58
+  },
+  {
+   "asin": "B00SF8KY8C",
+   "titre": "SWISSGEAR SWA9855 Carry-On Backpack with Waterproof Laptop/Tablet Section",
+   "prix_affiche": 69.99
+  },
+  {
+   "asin": "B0FC3V7QD8",
+   "titre": "Nine West Anders Zip Around Wallet with Wristlet",
+   "prix_affiche": 40.85
+  },
+  {
+   "asin": "B0D9PJ1Z7T",
+   "titre": "Lacoste Carnaby Set Sneakers for Men",
+   "prix_affiche": 97.33
+  },
+  {
+   "asin": "B0711DPSXT",
+   "titre": "Amazon Essentials 21-Inch Hardside Carry-On Luggage, Hardshell Suitcase",
+   "prix_affiche": 66.26
+  },
+  {
+   "asin": "B0C6WF28S1",
+   "titre": "SwissGear Vintage Trunk Hardside Expandable Luggage with Spinner Wheels",
+   "prix_affiche": 181.49
+  },
+  {
+   "asin": "B084131RJH",
+   "titre": "Brookstone Luggage Nelson Spinner Suitcase",
+   "prix_affiche": 171.29
+  },
   {
    "asin": "B0F7K67DY2",
    "titre": "Amazon Fire TV Stick HD (nouveau modèle), télévision gratuite et en direct",
