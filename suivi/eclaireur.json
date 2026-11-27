@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27T00:13-04:00",
+ "date": "2026-11-27T00:57-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,8 +9,8 @@
     "2026-11-20T13:45:30+00:00"
    ],
    [
-    "2026-11-26T16:08:34+00:00",
-    "2026-11-27T01:05:19+00:00"
+    "2026-11-27T01:05:19+00:00",
+    "2026-11-27T03:23:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,72 +21,72 @@
     "2026-11-20T12:39:20+00:00"
    ],
    [
-    "2026-11-27T03:23:14+00:00",
-    "2026-11-27T03:51:58+00:00"
+    "2026-11-27T03:51:58+00:00",
+    "2026-11-27T04:33:21+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-11-26T01:54:07+00:00",
-    "2026-11-26T01:57:11+00:00"
+    "2026-11-26T01:57:11+00:00",
+    "2026-11-26T02:12:12+00:00"
    ],
    [
-    "2026-11-27T03:23:14+00:00",
-    "2026-11-27T03:51:58+00:00"
+    "2026-11-27T03:51:58+00:00",
+    "2026-11-27T04:33:21+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   19,
+   20,
    [
-    "2026-11-23T16:38:42+00:00",
-    "2026-11-23T17:08:33+00:00"
+    "2026-11-23T17:08:33+00:00",
+    "2026-11-23T19:26:56+00:00"
    ],
    [
-    "2026-11-25T18:49:25+00:00",
-    "2026-11-25T22:03:49+00:00"
+    "2026-11-25T22:03:49+00:00",
+    "2026-11-26T01:54:07+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
    21,
    [
-    "2026-11-21T13:38:17+00:00",
-    "2026-11-21T14:44:36+00:00"
+    "2026-11-21T14:44:36+00:00",
+    "2026-11-21T14:49:52+00:00"
    ],
    [
-    "2026-11-23T16:23:56+00:00",
-    "2026-11-23T16:29:00+00:00"
+    "2026-11-23T16:29:00+00:00",
+    "2026-11-23T16:38:42+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
    24,
    [
-    "2026-11-20T02:03:14+00:00",
-    "2026-11-20T03:11:14+00:00"
+    "2026-11-20T03:11:14+00:00",
+    "2026-11-20T03:14:39+00:00"
    ],
    [
-    "2026-11-21T13:14:12+00:00",
-    "2026-11-21T13:22:35+00:00"
+    "2026-11-21T13:22:35+00:00",
+    "2026-11-21T13:38:17+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
    44,
    [
-    "2026-11-19T14:27:26+00:00",
-    "2026-11-19T14:32:02+00:00"
+    "2026-11-19T14:32:02+00:00",
+    "2026-11-19T14:56:38+00:00"
    ],
    [
-    "2026-11-20T01:18:57+00:00",
-    "2026-11-20T01:27:26+00:00"
+    "2026-11-20T01:27:26+00:00",
+    "2026-11-20T02:03:14+00:00"
    ]
   ],
   "avant_filtre_date": 141,
-  "apres_filtre_date": 111
+  "apres_filtre_date": 112
  },
  "items": [
   {
@@ -828,6 +828,24 @@
    "img": "/img/p/B004QF0TFQ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
+   "title": "45W Universal Travel Adapter w/ 6 Ports - $27.99",
+   "price": 27.99,
+   "was": 45.99,
+   "votes": 7,
+   "posts": 4,
+   "time": "2026-11-27T03:23:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
+   "asin": "B0FYFDD1WW",
+   "pct": 39,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FYFDD1WW?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FYFDD1WW.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
    "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
    "price": 65.55,
@@ -990,6 +1008,24 @@
    "img": "/img/p/B0DJ19VGDH.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
+   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine, Milk Frother, Silver $599 (was $999)",
+   "price": 599.0,
+   "was": 999.0,
+   "votes": 6,
+   "posts": 7,
+   "time": "2026-11-26T21:08:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
+   "asin": "B0B38KRTV6",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0B38KRTV6.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hoto-25-piece-electric-screwdriver-set-ci-37-99-reg-49-99-2833094/",
    "title": "HOTO 25-Piece Electric Screwdriver Set – $37.99 (Reg. $49.99)",
    "price": 37.99,
@@ -1116,30 +1152,12 @@
    "img": "/img/p/B0H4X25Y2R.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
-   "title": "De'Longhi Magnifica Evo Automatic Espresso Machine, Milk Frother, Silver $599 (was $999)",
-   "price": 599.0,
-   "was": 999.0,
-   "votes": 5,
-   "posts": 5,
-   "time": "2026-11-26T21:08:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
-   "asin": "B0B38KRTV6",
-   "pct": 40,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0B38KRTV6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0B38KRTV6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-12ct-kraft-dinner-protein-plus-original-cheddar-macaroni-cheese-2834217/",
    "title": "12ct. Kraft Dinner Protein Plus Original Cheddar Macaroni & Cheese",
    "price": 21.9,
    "was": null,
    "votes": 5,
-   "posts": 25,
+   "posts": 28,
    "time": "2026-11-27T00:00:22+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-12ct-kraft-dinner-protein-plus-original-cheddar-macaroni-cheese-2834217/",
    "asin": "B0H3977ZD5",
@@ -1152,22 +1170,40 @@
    "img": "/img/p/B0H3977ZD5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
-   "title": "45W Universal Travel Adapter w/ 6 Ports - $27.99",
-   "price": 27.99,
-   "was": 45.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-4-essential-combo-ci-575-reg-639-2834235/",
+   "title": "DJI Osmo Pocket 4 Essential Combo – $575 (Reg. $639)",
+   "price": 575.0,
+   "was": 639.0,
    "votes": 5,
-   "posts": 3,
-   "time": "2026-11-27T03:23:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
-   "asin": "B0FYFDD1WW",
-   "pct": 39,
+   "posts": 0,
+   "time": "2026-11-27T02:56:39+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-4-essential-combo-ci-575-reg-639-2834235/",
+   "asin": "B0FYQ1LFFK",
+   "pct": 10,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FYFDD1WW?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0FYQ1LFFK?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FYFDD1WW.jpg"
+   "img": "/img/p/B0FYQ1LFFK.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-edifier-m60-multimedia-speakers-150-whole-edifier-lineup-sale-2834240/",
+   "title": "Edifier M60 Multimedia Speakers - $150+. Whole Edifier Lineup On Sale",
+   "price": 150.0,
+   "was": null,
+   "votes": 5,
+   "posts": 1,
+   "time": "2026-11-27T03:51:58+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-edifier-m60-multimedia-speakers-150-whole-edifier-lineup-sale-2834240/",
+   "asin": "B0DJVRZYTP",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DJVRZYTP?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DJVRZYTP.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
@@ -1278,40 +1314,22 @@
    "img": "/img/p/B07YY7BH2W.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-4-essential-combo-ci-575-reg-639-2834235/",
-   "title": "DJI Osmo Pocket 4 Essential Combo – $575 (Reg. $639)",
-   "price": 575.0,
-   "was": 639.0,
-   "votes": 4,
-   "posts": 0,
-   "time": "2026-11-27T02:56:39+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-4-essential-combo-ci-575-reg-639-2834235/",
-   "asin": "B0FYQ1LFFK",
-   "pct": 10,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FYQ1LFFK?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FYQ1LFFK.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-edifier-m60-multimedia-speakers-150-whole-edifier-lineup-sale-2834240/",
-   "title": "Edifier M60 Multimedia Speakers - $150+. Whole Edifier Lineup On Sale",
-   "price": 150.0,
-   "was": null,
+   "url": "https://forums.redflagdeals.com/amazon-ca-saucony-mens-rundry-bolt-performance-quarter-socks-white-12-pairs-large-8-12-15-29-2834247/",
+   "title": "Saucony Men's RunDry Bolt Performance Quarter Socks White 12 Pairs Large (8-12) - $15.29",
+   "price": 15.29,
+   "was": 31.45,
    "votes": 4,
    "posts": 1,
-   "time": "2026-11-27T03:51:58+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-edifier-m60-multimedia-speakers-150-whole-edifier-lineup-sale-2834240/",
-   "asin": "B0DJVRZYTP",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DJVRZYTP?tag=coupdecoeurqc-20",
+   "time": "2026-11-27T04:33:21+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-saucony-mens-rundry-bolt-performance-quarter-socks-white-12-pairs-large-8-12-15-29-2834247/",
+   "asin": "B08V9G9CX4",
+   "pct": 51,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B08V9G9CX4?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DJVRZYTP.jpg"
+   "img": "/img/p/B08V9G9CX4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-amazon-echo-dot-5th-gen-smart-speaker-alexa-44-99-2833068/",
@@ -1582,24 +1600,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B008U2LRDY.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-097-98-1-597-98-2833632/",
-   "title": "ASUS TUF A15 Gaming Laptop, 15.6” 144Hz FHD Display, AMD Ryzen™ 7 170 on sale $1,097.98($1,597.98)",
-   "price": 1097.9,
-   "was": 1597.9,
-   "votes": 2,
-   "posts": 7,
-   "time": "2026-11-24T02:34:33+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-097-98-1-597-98-2833632/",
-   "asin": "B0GX7HXMVL",
-   "pct": 31,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GX7HXMVL?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GX7HXMVL.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-kasa-matter-smart-plug-kp125mp2-energy-monitoring-15a-2-pack-2834206/",
