@@ -57,7 +57,7 @@ def page(b, items):
 def texte(b, items):
     emo, name, hook, _ = META[b]; mx = max(x["pct"] for x in items); n = len(items)
     nm = {"adidas":"adidas","L'Oréal":"L'Oréal"}.get(b, b)
-    return (f"{emo} {name} EN RABAIS : VENDREDI FOU À SAISIR!\n\n{hook}\nJusqu'à -{mx} % sur {n} produits choisis pour toi. 👀\n\n"
+    return (f"{emo} {name} EN RABAIS : VENDREDI FOU À SAISIR!\n\n{hook}\n{n} produits choisis pour toi. 👀\n\n"
             f"🔎 Tu veux plus de {nm}? Tape-le dans la BARRE DE RECHERCHE sur rabaisflashqc point ca et vois le rabais en 5 secondes. Fini de fouiller 40 pages!\n\n"
             f"👇 Les {n} liens directs sont dans les commentaires, un produit par commentaire.\n\n"
             "❤️ Aime ce post pour le retrouver\n💬 Dis-moi ce que tu cherches en commentaire\n🔁 Partage à quelqu'un qui magasine ce week-end\n\n"
