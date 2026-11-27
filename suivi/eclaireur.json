@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27T15:06-04:00",
+ "date": "2026-11-27T15:42-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -9,7 +9,7 @@
     "2026-11-21T01:08:36+00:00"
    ],
    [
-    "2026-11-27T12:50:13+00:00",
+    "2026-11-27T16:18:09+00:00",
     "2026-11-27T16:29:18+00:00"
    ]
   ],
@@ -21,7 +21,7 @@
     "2026-11-21T13:07:14+00:00"
    ],
    [
-    "2026-11-27T16:18:09+00:00",
+    "2026-11-27T16:06:36+00:00",
     "2026-11-27T16:21:18+00:00"
    ]
   ],
@@ -86,7 +86,7 @@
    ]
   ],
   "avant_filtre_date": 145,
-  "apres_filtre_date": 118
+  "apres_filtre_date": 117
  },
  "items": [
   {
@@ -112,8 +112,8 @@
    "title": "[Amazon]MacBook Pro M4 Pro 24+512 Silver $1899",
    "price": 1899.0,
    "was": 2699.0,
-   "votes": 58,
-   "posts": 81,
+   "votes": 59,
+   "posts": 83,
    "time": "2026-11-27T12:50:13+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-macbook-pro-m4-pro-24-512-silver-1899-2834308/",
    "asin": "B0DLHDJH98",
@@ -558,6 +558,24 @@
    "img": "/img/p/B07DH8PJF6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
+   "price": 69.99,
+   "was": null,
+   "votes": 11,
+   "posts": 7,
+   "time": "2026-11-27T16:29:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "asin": "B0FL7QYH1B",
+   "pct": null,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FL7QYH1B.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
    "title": "Strokes - Reality Awaits LP (Vinyl) - $19.97",
    "price": 19.97,
@@ -671,7 +689,7 @@
    "price": 247.99,
    "was": 322.37,
    "votes": 9,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-11-27T12:48:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-cap-barbell-260lb-set-less-than-1-lb-247-99-economy-set-2834306/",
    "asin": "B0DHYNHYJD",
@@ -679,27 +697,9 @@
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0DHYNHYJD?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 2,
+   "morts": 3,
    "doute": true,
    "img": "/img/p/B0DHYNHYJD.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
-   "price": 69.99,
-   "was": null,
-   "votes": 9,
-   "posts": 7,
-   "time": "2026-11-27T16:29:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "asin": "B0FL7QYH1B",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FL7QYH1B.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
@@ -828,6 +828,24 @@
    "img": "/img/p/B0DJVRZYTP.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
+   "price": 779.99,
+   "was": 1429.9,
+   "votes": 8,
+   "posts": 7,
+   "time": "2026-11-27T16:18:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "asin": "B0HPPQYDYQ",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HPPQYDYQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
    "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
    "price": 65.55,
@@ -954,24 +972,6 @@
    "img": "/img/p/B0DK7X77NK.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
-   "price": 779.99,
-   "was": 1429.9,
-   "votes": 7,
-   "posts": 7,
-   "time": "2026-11-27T16:18:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "asin": "B0HPPQYDYQ",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HPPQYDYQ.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
    "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
    "price": 269.99,
@@ -1080,6 +1080,24 @@
    "img": "/img/p/B0FYQ1LFFK.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-20-off-skip-gift-cards-2834328/",
+   "title": "Amazon - 20% off Skip Gift Cards",
+   "price": 40.0,
+   "was": 50.0,
+   "votes": 6,
+   "posts": 3,
+   "time": "2026-11-27T14:23:07+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-20-off-skip-gift-cards-2834328/",
+   "asin": "B0C4DV9DP3",
+   "pct": 20,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0C4DV9DP3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0C4DV9DP3.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-peppa-cus-muddy-puddles-party-singing-dancing-doll-interactive-16-31-33-06-2834345/",
    "title": "Peppa’s Muddy Puddles Party Singing and Dancing Doll, Interactive - $16.31 (was $33.06)",
    "price": 16.31,
@@ -1103,7 +1121,7 @@
    "price": 47.24,
    "was": 74.95,
    "votes": 6,
-   "posts": 2,
+   "posts": 3,
    "time": "2026-11-27T16:21:18+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-betrayal-house-hill-3rd-edition-47-24-pennywise-expansion-13-84-comic-hunters-11-38-2834376/",
    "asin": "B0DN35QCY3",
@@ -1258,24 +1276,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0H8CDKPJ5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-20-off-skip-gift-cards-2834328/",
-   "title": "Amazon - 20% off Skip Gift Cards",
-   "price": 40.0,
-   "was": 50.0,
-   "votes": 5,
-   "posts": 3,
-   "time": "2026-11-27T14:23:07+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-20-off-skip-gift-cards-2834328/",
-   "asin": "B0C4DV9DP3",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C4DV9DP3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0C4DV9DP3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-sip-perfect-12oz-travel-mug-brings-hot-drinks-sippable-temperature-minutes-stainless-steel-leak-proof-2834367/",
@@ -1571,7 +1571,7 @@
    "price": 199.99,
    "was": 299.99,
    "votes": 3,
-   "posts": 13,
+   "posts": 14,
    "time": "2026-11-26T16:31:17+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
    "asin": "B00GOE7XHE",
@@ -1602,6 +1602,24 @@
    "img": "/img/p/B0H51GQMQ3.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
+   "title": "Thrustmaster TH8A Add-On Shifter - $150.59 (was $269.99)",
+   "price": 150.59,
+   "was": 269.99,
+   "votes": 3,
+   "posts": 5,
+   "time": "2026-11-27T17:22:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
+   "asin": "B005L0Z2BQ",
+   "pct": 44,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B005L0Z2BQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B005L0Z2BQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-2834380/",
    "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor",
    "price": 320.0,
@@ -1612,24 +1630,6 @@
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-2834380/",
    "asin": "B0BTZB7F88",
    "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BTZB7F88?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BTZB7F88.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-319-99-2834378/",
-   "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor - 319.99$",
-   "price": 319.99,
-   "was": 479.99,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-27T16:27:51+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-319-99-2834378/",
-   "asin": "B0BTZB7F88",
-   "pct": 33,
    "cat": "maison",
    "link": "https://www.amazon.ca/dp/B0BTZB7F88?tag=coupdecoeurqc-20",
    "deja": false,
