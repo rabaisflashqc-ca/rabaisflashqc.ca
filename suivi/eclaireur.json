@@ -1,12 +1,12 @@
 {
- "date": "2026-11-27T22:11-04:00",
+ "date": "2026-11-27T23:54-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-21T03:01:33+00:00",
-    "2026-11-21T03:14:53+00:00"
+    "2026-11-21T13:14:12+00:00",
+    "2026-11-21T13:22:35+00:00"
    ],
    [
     "2026-11-27T16:18:09+00:00",
@@ -17,8 +17,8 @@
    44,
    44,
    [
-    "2026-11-21T13:07:14+00:00",
-    "2026-11-21T14:49:52+00:00"
+    "2026-11-21T05:28:17+00:00",
+    "2026-11-21T13:07:14+00:00"
    ],
    [
     "2026-11-27T20:06:14+00:00",
@@ -63,30 +63,30 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   19,
+   17,
    [
-    "2026-11-21T06:43:13+00:00",
-    "2026-11-21T13:07:14+00:00"
+    "2026-11-21T13:07:14+00:00",
+    "2026-11-21T13:14:12+00:00"
    ],
    [
-    "2026-11-23T13:06:51+00:00",
-    "2026-11-23T14:13:17+00:00"
+    "2026-11-23T14:13:17+00:00",
+    "2026-11-23T14:24:27+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   42,
+   43,
    [
-    "2026-11-19T23:20:08+00:00",
-    "2026-11-19T23:22:04+00:00"
+    "2026-11-19T23:22:04+00:00",
+    "2026-11-20T01:18:57+00:00"
    ],
    [
-    "2026-11-21T03:14:53+00:00",
-    "2026-11-21T05:28:17+00:00"
+    "2026-11-21T05:28:17+00:00",
+    "2026-11-21T06:43:13+00:00"
    ]
   ],
-  "avant_filtre_date": 143,
-  "apres_filtre_date": 116
+  "avant_filtre_date": 142,
+  "apres_filtre_date": 114
  },
  "items": [
   {
@@ -270,24 +270,6 @@
    "img": "/img/p/B004QF0TFQ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-49-99-75-off-2833243/",
-   "title": "AeroGarden 45W LED Grow Light Panel $49.99 (75% off)",
-   "price": 49.99,
-   "was": 199.96,
-   "votes": 16,
-   "posts": 15,
-   "time": "2026-11-21T03:01:33+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-aerogarden-45w-led-grow-light-panel-49-99-75-off-2833243/",
-   "asin": "B0GLYZZHC1",
-   "pct": 75,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GLYZZHC1?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GLYZZHC1.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
    "title": "Cellucor C4 Pre Workout Powder 60 Servings Fruit Punch $23.99 ($47.99 REG)",
    "price": 23.99,
@@ -306,6 +288,24 @@
    "img": "/img/p/B07D3NGT97.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
+   "price": 69.99,
+   "was": null,
+   "votes": 16,
+   "posts": 7,
+   "time": "2026-11-27T16:29:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "asin": "B0FL7QYH1B",
+   "pct": null,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FL7QYH1B.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
    "title": "45W Universal Travel Adapter w/ 6 Ports - $27.99",
    "price": 27.99,
@@ -322,24 +322,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FYFDD1WW.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
-   "price": 69.99,
-   "was": null,
-   "votes": 15,
-   "posts": 7,
-   "time": "2026-11-27T16:29:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "asin": "B0FL7QYH1B",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FL7QYH1B.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
@@ -540,24 +522,6 @@
    "img": "/img/p/B07DH8PJF6.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
-   "title": "Strokes - Reality Awaits LP (Vinyl) - $19.97",
-   "price": 19.97,
-   "was": 39.0,
-   "votes": 10,
-   "posts": 10,
-   "time": "2026-11-21T03:14:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-strokes-reality-awaits-lp-vinyl-19-97-2833245/",
-   "asin": "B0GWFM6YDH",
-   "pct": 49,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GWFM6YDH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GWFM6YDH.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-body-shop-up-50-off-sitewide-amazon-60-coconut-oil-body-butter-dry-skin-eye-cream-2833713/",
    "title": "The Body Shop up to 50% off sitewide and on Amazon, 60% on Coconut Oil Body Butter for Dry Skin and Eye Cream",
    "price": 10.4,
@@ -581,7 +545,7 @@
    "price": 779.99,
    "was": 1429.9,
    "votes": 10,
-   "posts": 8,
+   "posts": 12,
    "time": "2026-11-27T16:18:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
    "asin": "B0HPPQYDYQ",
@@ -1296,6 +1260,42 @@
    "img": "/img/p/B0BTZB7F88.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
+   "title": "Thrustmaster TH8A Add-On Shifter - $150.59 (was $269.99)",
+   "price": 150.59,
+   "was": 269.99,
+   "votes": 5,
+   "posts": 7,
+   "time": "2026-11-27T17:22:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
+   "asin": "B005L0Z2BQ",
+   "pct": 44,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B005L0Z2BQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B005L0Z2BQ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
+   "title": "TCL 75\" 4K UHD HDR QLED Smart TV with Fire TV (75F7D) 60-120* Refresh, $679.99",
+   "price": 679.99,
+   "was": 799.99,
+   "votes": 5,
+   "posts": 4,
+   "time": "2026-11-27T20:30:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
+   "asin": "B0G4XFZ8TF",
+   "pct": 15,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0G4XFZ8TF?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0G4XFZ8TF.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
    "title": "MOVA E40 Ultra Robot $349.99",
    "price": 349.99,
@@ -1404,40 +1404,22 @@
    "img": "/img/p/B0DK7QSPS4.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
-   "title": "Thrustmaster TH8A Add-On Shifter - $150.59 (was $269.99)",
-   "price": 150.59,
-   "was": 269.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
+   "title": "Hako G2 Japanese Joinery Bed Frame (Queen) - $630.39",
+   "price": 630.39,
+   "was": 799.0,
    "votes": 4,
-   "posts": 7,
-   "time": "2026-11-27T17:22:40+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
-   "asin": "B005L0Z2BQ",
-   "pct": 44,
+   "posts": 4,
+   "time": "2026-11-27T20:06:14+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
+   "asin": "B0HNSTD1XW",
+   "pct": 21,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B005L0Z2BQ?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0HNSTD1XW?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B005L0Z2BQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
-   "title": "TCL 75\" 4K UHD HDR QLED Smart TV with Fire TV (75F7D) 60-120* Refresh, $679.99",
-   "price": 679.99,
-   "was": 799.99,
-   "votes": 4,
-   "posts": 3,
-   "time": "2026-11-27T20:30:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
-   "asin": "B0G4XFZ8TF",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0G4XFZ8TF?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0G4XFZ8TF.jpg"
+   "img": "/img/p/B0HNSTD1XW.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
@@ -1584,22 +1566,40 @@
    "img": "/img/p/B00GOE7XHE.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
-   "title": "Hako G2 Japanese Joinery Bed Frame (Queen) - $630.39",
-   "price": 630.39,
-   "was": 799.0,
-   "votes": 3,
-   "posts": 4,
-   "time": "2026-11-27T20:06:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
-   "asin": "B0HNSTD1XW",
-   "pct": 21,
+   "url": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
+   "title": "ECOVACS DEEBOT T90 PRO OMNI",
+   "price": 659.99,
+   "was": 899.99,
+   "votes": 2,
+   "posts": 2,
+   "time": "2026-11-21T05:28:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
+   "asin": "B0GFWQ5FRM",
+   "pct": 27,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0HNSTD1XW?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GFWQ5FRM?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0HNSTD1XW.jpg"
+   "img": "/img/p/B0GFWQ5FRM.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-snow-joe-324e-10-amp-corded-electric-snow-shovel-96-200-hd-2833331/",
+   "title": "Snow Joe 324E 10 amp Corded Electric Snow Shovel $96 ($200 at HD)",
+   "price": null,
+   "was": null,
+   "votes": 2,
+   "posts": 18,
+   "time": "2026-11-21T20:42:42+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-snow-joe-324e-10-amp-corded-electric-snow-shovel-96-200-hd-2833331/",
+   "asin": "B008U2LRDY",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B008U2LRDY?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B008U2LRDY.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-friends-heartlake-city-ice-cream-truck-toy-14-38-2834497/",
