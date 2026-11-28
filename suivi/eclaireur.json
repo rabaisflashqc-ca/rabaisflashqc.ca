@@ -1,15 +1,15 @@
 {
- "date": "2026-11-27T18:57-04:00",
+ "date": "2026-11-27T20:04-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-20T23:02:13+00:00",
-    "2026-11-21T01:08:36+00:00"
+    "2026-11-21T01:08:36+00:00",
+    "2026-11-21T03:01:33+00:00"
    ],
    [
-    "2026-11-27T13:03:54+00:00",
+    "2026-11-27T16:18:09+00:00",
     "2026-11-27T16:29:18+00:00"
    ]
   ],
@@ -27,14 +27,14 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   25,
+   26,
    [
     "2026-11-27T02:56:39+00:00",
     "2026-11-27T03:23:14+00:00"
    ],
    [
-    "2026-11-27T20:22:55+00:00",
-    "2026-11-27T20:30:28+00:00"
+    "2026-11-27T20:30:28+00:00",
+    "2026-11-28T00:01:29+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
@@ -51,7 +51,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   24,
+   22,
    [
     "2026-11-23T14:24:27+00:00",
     "2026-11-23T15:58:21+00:00"
@@ -75,7 +75,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   39,
+   40,
    [
     "2026-11-19T23:20:08+00:00",
     "2026-11-19T23:22:04+00:00"
@@ -86,7 +86,7 @@
    ]
   ],
   "avant_filtre_date": 143,
-  "apres_filtre_date": 119
+  "apres_filtre_date": 118
  },
  "items": [
   {
@@ -106,24 +106,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B00CHOUI86.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-macbook-pro-m4-pro-24-512-silver-1899-2834308/",
-   "title": "[Amazon]MacBook Pro M4 Pro 24+512 Silver $1899",
-   "price": 1899.0,
-   "was": 2699.0,
-   "votes": 64,
-   "posts": 94,
-   "time": "2026-11-27T12:50:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-macbook-pro-m4-pro-24-512-silver-1899-2834308/",
-   "asin": "B0DLHDJH98",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DLHDJH98?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DLHDJH98.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
@@ -292,7 +274,7 @@
    "title": "Dickies Men's Dri-Tech Original Moisture Control Crew Socks $13.88",
    "price": 13.88,
    "was": 20.99,
-   "votes": 17,
+   "votes": 18,
    "posts": 10,
    "time": "2026-11-27T01:05:19+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-dickies-mens-dri-tech-original-moisture-control-crew-socks-13-88-2834226/",
@@ -340,24 +322,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B07D3NGT97.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
-   "title": "Polymaker PLA Red Brown and Green 11.69 S&S",
-   "price": 11.69,
-   "was": 23.38,
-   "votes": 15,
-   "posts": 17,
-   "time": "2026-11-20T23:02:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-polymaker-pla-red-brown-green-11-69-s-s-2833219/",
-   "asin": "B09KKMQC2N",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B09KKMQC2N?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B09KKMQC2N.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
@@ -738,6 +702,24 @@
    "img": "/img/p/B0DK7X77NK.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
+   "price": 779.99,
+   "was": 1429.9,
+   "votes": 9,
+   "posts": 7,
+   "time": "2026-11-27T16:18:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "asin": "B0HPPQYDYQ",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HPPQYDYQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
    "title": "Brooks B17 special Brown Bike Saddle with copper rivets $191.59",
    "price": 191.59,
@@ -844,24 +826,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0H3977ZD5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
-   "price": 779.99,
-   "was": 1429.9,
-   "votes": 8,
-   "posts": 7,
-   "time": "2026-11-27T16:18:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "asin": "B0HPPQYDYQ",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HPPQYDYQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
@@ -1139,7 +1103,7 @@
    "price": 47.24,
    "was": 74.95,
    "votes": 6,
-   "posts": 4,
+   "posts": 5,
    "time": "2026-11-27T16:21:18+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-hasbro-betrayal-house-hill-3rd-edition-47-24-pennywise-expansion-13-84-comic-hunters-11-38-2834376/",
    "asin": "B0DN35QCY3",
@@ -1296,24 +1260,6 @@
    "img": "/img/p/B0H8CDKPJ5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-breadmaker-444-731-2834304/",
-   "title": "Zojirushi Breadmaker - $444 (was $731)",
-   "price": 444.08,
-   "was": 731.19,
-   "votes": 5,
-   "posts": 5,
-   "time": "2026-11-27T12:38:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-breadmaker-444-731-2834304/",
-   "asin": "B07BQ28TQ6",
-   "pct": 39,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B07BQ28TQ6?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B07BQ28TQ6.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-xenoblade-chronicles-definitive-edition-ci-nintendo-switch-2-edition-digital-code-2834357/",
    "title": "Xenoblade Chronicles: Definitive Edition – Nintendo Switch 2 Edition (Digital Code)",
    "price": 59.49,
@@ -1458,6 +1404,24 @@
    "img": "/img/p/B0F841YB1P.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-breadmaker-444-731-2834304/",
+   "title": "Zojirushi Breadmaker - $444 (was $731)",
+   "price": 444.08,
+   "was": 731.19,
+   "votes": 4,
+   "posts": 5,
+   "time": "2026-11-27T12:38:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-breadmaker-444-731-2834304/",
+   "asin": "B07BQ28TQ6",
+   "pct": 39,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07BQ28TQ6?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07BQ28TQ6.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-peppas-big-family-house-playset-3-figures-11-accessories-23-99-43-94-2834339/",
    "title": "Peppa's Big Family House Playset with 3 Figures, 11 Accessories - $23.99 (was $43.94)",
    "price": 23.99,
@@ -1481,7 +1445,7 @@
    "price": 150.59,
    "was": 269.99,
    "votes": 4,
-   "posts": 6,
+   "posts": 7,
    "time": "2026-11-27T17:22:40+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
    "asin": "B005L0Z2BQ",
@@ -1600,6 +1564,42 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01EOX0B7U.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dw-879-99-2833840/",
+   "title": "Alienware 34 Gaming Monitor AW3426DW $879.99",
+   "price": 879.99,
+   "was": 1129.9,
+   "votes": 3,
+   "posts": 13,
+   "time": "2026-11-25T04:30:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dw-879-99-2833840/",
+   "asin": "B0HFHZJ6C2",
+   "pct": 22,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HFHZJ6C2?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HFHZJ6C2.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-nutri-bullet-nb50100c-pro-1000-single-serve-blender-1000w-7-piece-set-sale-59-99-109-99-2833865/",
+   "title": "Nutri Bullet NB50100C Pro 1000 Single Serve Blender (1000W) 7-Piece Set on sale $59.99($109.99)",
+   "price": 59.99,
+   "was": 109.99,
+   "votes": 3,
+   "posts": 2,
+   "time": "2026-11-25T09:17:22+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-nutri-bullet-nb50100c-pro-1000-single-serve-blender-1000w-7-piece-set-sale-59-99-109-99-2833865/",
+   "asin": "B07YLV47RQ",
+   "pct": 45,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07YLV47RQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07YLV47RQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
