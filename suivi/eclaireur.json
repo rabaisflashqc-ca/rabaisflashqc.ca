@@ -1,12 +1,12 @@
 {
- "date": "2026-11-27T20:04-04:00",
+ "date": "2026-11-27T22:11-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-21T01:08:36+00:00",
-    "2026-11-21T03:01:33+00:00"
+    "2026-11-21T03:01:33+00:00",
+    "2026-11-21T03:14:53+00:00"
    ],
    [
     "2026-11-27T16:18:09+00:00",
@@ -17,17 +17,17 @@
    44,
    44,
    [
-    "2026-11-21T01:37:50+00:00",
-    "2026-11-21T13:07:14+00:00"
+    "2026-11-21T13:07:14+00:00",
+    "2026-11-21T14:49:52+00:00"
    ],
    [
-    "2026-11-27T17:22:40+00:00",
+    "2026-11-27T20:06:14+00:00",
     "2026-11-27T20:30:28+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   26,
+   25,
    [
     "2026-11-27T02:56:39+00:00",
     "2026-11-27T03:23:14+00:00"
@@ -39,7 +39,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   25,
+   24,
    [
     "2026-11-25T16:42:05+00:00",
     "2026-11-25T18:20:02+00:00"
@@ -75,7 +75,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   40,
+   42,
    [
     "2026-11-19T23:20:08+00:00",
     "2026-11-19T23:22:04+00:00"
@@ -86,7 +86,7 @@
    ]
   ],
   "avant_filtre_date": 143,
-  "apres_filtre_date": 118
+  "apres_filtre_date": 116
  },
  "items": [
   {
@@ -216,24 +216,6 @@
    "img": "/img/p/B00007J5U7.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
-   "title": "Brother DCP-L2647DW Monochrome Laser Printer/Scanner/Copier - $199.99 (was $339.99)",
-   "price": 199.99,
-   "was": 339.99,
-   "votes": 23,
-   "posts": 22,
-   "time": "2026-11-21T01:08:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-brother-dcp-l2647dw-monochrome-laser-printer-scanner-copier-199-99-339-99-2833233/",
-   "asin": "B0GT7S6BHV",
-   "pct": 41,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GT7S6BHV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GT7S6BHV.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
    "title": "Red Line 60103 Complete SI-1 Fuel System Cleaner, 15 Ounce",
    "price": 19.13,
@@ -342,6 +324,24 @@
    "img": "/img/p/B0FYFDD1WW.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
+   "price": 69.99,
+   "was": null,
+   "votes": 15,
+   "posts": 7,
+   "time": "2026-11-27T16:29:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "asin": "B0FL7QYH1B",
+   "pct": null,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FL7QYH1B.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
    "title": "ASUS TUF Gaming 34\" Ultrawide Monitor, 180Hz, 400 nits @ $259.99",
    "price": 259.9,
@@ -358,24 +358,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CXS8J4Y5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
-   "price": 69.99,
-   "was": null,
-   "votes": 14,
-   "posts": 7,
-   "time": "2026-11-27T16:29:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "asin": "B0FL7QYH1B",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FL7QYH1B.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
@@ -486,6 +468,24 @@
    "img": "/img/p/B0DHGNBXXC.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
+   "title": "Shark Navigator Swivel Pro Complete Upright Vacuum, Red, NV150C",
+   "price": 99.98,
+   "was": 199.98,
+   "votes": 11,
+   "posts": 24,
+   "time": "2026-11-22T18:44:38+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
+   "asin": "B08DJ8Z3WH",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B08DJ8Z3WH?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08DJ8Z3WH.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-asus-ats-radeon-rx-9070-gre-12gb-gddr6-oc-779-99-2833606/",
    "title": "ASUS ATS Radeon RX 9070 GRE 12GB GDDR6 OC $779.99",
    "price": 779.99,
@@ -558,24 +558,6 @@
    "img": "/img/p/B0GWFM6YDH.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
-   "title": "Shark Navigator Swivel Pro Complete Upright Vacuum, Red, NV150C",
-   "price": 99.98,
-   "was": 199.98,
-   "votes": 10,
-   "posts": 24,
-   "time": "2026-11-22T18:44:38+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
-   "asin": "B08DJ8Z3WH",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08DJ8Z3WH?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B08DJ8Z3WH.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-body-shop-up-50-off-sitewide-amazon-60-coconut-oil-body-butter-dry-skin-eye-cream-2833713/",
    "title": "The Body Shop up to 50% off sitewide and on Amazon, 60% on Coconut Oil Body Butter for Dry Skin and Eye Cream",
    "price": 10.4,
@@ -594,6 +576,24 @@
    "img": "/img/p/B01FEMAIBE.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
+   "price": 779.99,
+   "was": 1429.9,
+   "votes": 10,
+   "posts": 8,
+   "time": "2026-11-27T16:18:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "asin": "B0HPPQYDYQ",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HPPQYDYQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
    "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
    "price": 32.0,
@@ -610,6 +610,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FJRQ9RM6.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
+   "title": "Brooks B17 special Brown Bike Saddle with copper rivets $191.59",
+   "price": 191.59,
+   "was": 240.0,
+   "votes": 9,
+   "posts": 9,
+   "time": "2026-11-22T18:16:55+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
+   "asin": "B004GIXRMK",
+   "pct": 20,
+   "cat": "plein-air",
+   "link": "https://www.amazon.ca/dp/B004GIXRMK?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B004GIXRMK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-mercedes-amg-f1-w15-19-86-2834104/",
@@ -702,42 +720,6 @@
    "img": "/img/p/B0DK7X77NK.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
-   "price": 779.99,
-   "was": 1429.9,
-   "votes": 9,
-   "posts": 7,
-   "time": "2026-11-27T16:18:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "asin": "B0HPPQYDYQ",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HPPQYDYQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
-   "title": "Brooks B17 special Brown Bike Saddle with copper rivets $191.59",
-   "price": 191.59,
-   "was": 240.0,
-   "votes": 8,
-   "posts": 9,
-   "time": "2026-11-22T18:16:55+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
-   "asin": "B004GIXRMK",
-   "pct": 20,
-   "cat": "plein-air",
-   "link": "https://www.amazon.ca/dp/B004GIXRMK?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B004GIXRMK.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-2833434/",
    "title": "Anker soundcore V20i Open-Ear Earbuds, 36H Playtime, Bluetooth 5.4",
    "price": 29.99,
@@ -808,6 +790,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DFFHQPSC.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
+   "title": "LEGO Speed Champions Audi Revolut F1 Team R26 [77259] - 19.86 (43% off)",
+   "price": 19.86,
+   "was": 34.99,
+   "votes": 8,
+   "posts": 1,
+   "time": "2026-11-26T17:46:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
+   "asin": "B0FMYTJ93W",
+   "pct": 43,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FMYTJ93W?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FMYTJ93W.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-12ct-kraft-dinner-protein-plus-original-cheddar-macaroni-cheese-21-90-2834217/",
@@ -882,30 +882,12 @@
    "img": "/img/p/B07649SXQ8.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
-   "title": "LEGO Speed Champions Audi Revolut F1 Team R26 [77259] - 19.86 (43% off)",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 7,
-   "posts": 1,
-   "time": "2026-11-26T17:46:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
-   "asin": "B0FMYTJ93W",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FMYTJ93W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FMYTJ93W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
    "title": "De'Longhi Magnifica Evo Automatic Espresso Machine, Milk Frother, Silver $599 (was $999)",
    "price": 599.0,
    "was": 999.0,
    "votes": 7,
-   "posts": 13,
+   "posts": 14,
    "time": "2026-11-26T21:08:18+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-delonghi-magnifica-evo-automatic-espresso-machine-milk-frother-silver-599-999-2834175/",
    "asin": "B0B38KRTV6",
@@ -1260,6 +1242,24 @@
    "img": "/img/p/B0H8CDKPJ5.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
+   "title": "Marvel vs Capcom fighting collection PS4",
+   "price": 24.99,
+   "was": 38.5,
+   "votes": 5,
+   "posts": 3,
+   "time": "2026-11-26T21:14:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
+   "asin": "B0D7NSB8XV",
+   "pct": 35,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0D7NSB8XV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D7NSB8XV.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-xenoblade-chronicles-definitive-edition-ci-nintendo-switch-2-edition-digital-code-2834357/",
    "title": "Xenoblade Chronicles: Definitive Edition – Nintendo Switch 2 Edition (Digital Code)",
    "price": 59.49,
@@ -1294,24 +1294,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0BTZB7F88.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "title": "SANDISK 128GB MAX Endurance microSDXC Card with Adapter - $69.99",
-   "price": 69.99,
-   "was": 100.45,
-   "votes": 4,
-   "posts": 22,
-   "time": "2026-11-21T01:37:50+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-sandisk-128gb-max-endurance-microsdxc-card-adapter-69-99-2833237/",
-   "asin": "B099WVY11W",
-   "pct": 30,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B099WVY11W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B099WVY11W.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
@@ -1366,24 +1348,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0CSPMC93Y.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
-   "title": "Marvel vs Capcom fighting collection PS4",
-   "price": 24.99,
-   "was": 38.5,
-   "votes": 4,
-   "posts": 2,
-   "time": "2026-11-26T21:14:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
-   "asin": "B0D7NSB8XV",
-   "pct": 35,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0D7NSB8XV?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0D7NSB8XV.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-switchbot-smart-lock-ultra-keypad-touch-179-99-atl-2834185/",
@@ -1463,7 +1427,7 @@
    "price": 679.99,
    "was": 799.99,
    "votes": 4,
-   "posts": 1,
+   "posts": 3,
    "time": "2026-11-27T20:30:28+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
    "asin": "B0G4XFZ8TF",
@@ -1471,8 +1435,8 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0G4XFZ8TF?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 0,
-   "doute": false,
+   "morts": 1,
+   "doute": true,
    "img": "/img/p/B0G4XFZ8TF.jpg"
   },
   {
@@ -1602,6 +1566,24 @@
    "img": "/img/p/B07YLV47RQ.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
+   "title": "Yamaha TRBX174 Bass guitar",
+   "price": 199.99,
+   "was": 299.99,
+   "votes": 3,
+   "posts": 14,
+   "time": "2026-11-26T16:31:17+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
+   "asin": "B00GOE7XHE",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B00GOE7XHE?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B00GOE7XHE.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
    "title": "Hako G2 Japanese Joinery Bed Frame (Queen) - $630.39",
    "price": 630.39,
@@ -1620,22 +1602,40 @@
    "img": "/img/p/B0HNSTD1XW.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
-   "title": "Yamaha TRBX174 Bass guitar",
-   "price": 199.99,
-   "was": 299.99,
-   "votes": 3,
-   "posts": 14,
-   "time": "2026-11-26T16:31:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-yamaha-trbx174-bass-guitar-2834111/",
-   "asin": "B00GOE7XHE",
-   "pct": 33,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00GOE7XHE?tag=coupdecoeurqc-20",
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-friends-heartlake-city-ice-cream-truck-toy-14-38-2834497/",
+   "title": "LEGO Friends Heartlake City Ice Cream Truck Toy $14.38",
+   "price": 14.38,
+   "was": 24.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-28T00:01:29+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-friends-heartlake-city-ice-cream-truck-toy-14-38-2834497/",
+   "asin": "B0DJ17HW5V",
+   "pct": 42,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0DJ17HW5V?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B00GOE7XHE.jpg"
+   "img": "/img/p/B0DJ17HW5V.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-renogy-core-mini-300ah-lifepo4-battery-749-99-2834388/",
+   "title": "Renogy Core Mini 300Ah LiFePo4 Battery - $749.99",
+   "price": 749.99,
+   "was": 859.99,
+   "votes": 2,
+   "posts": 2,
+   "time": "2026-11-27T16:49:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-renogy-core-mini-300ah-lifepo4-battery-749-99-2834388/",
+   "asin": "B0HL8D6FMT",
+   "pct": 13,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0HL8D6FMT?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HL8D6FMT.jpg"
   }
  ]
 }
