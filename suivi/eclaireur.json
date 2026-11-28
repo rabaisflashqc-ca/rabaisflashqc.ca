@@ -1,16 +1,16 @@
 {
- "date": "2026-11-28T13:41-04:00",
+ "date": "2026-11-28T14:32-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-21T17:59:36+00:00",
-    "2026-11-21T20:11:13+00:00"
+    "2026-11-21T20:11:13+00:00",
+    "2026-11-21T20:11:31+00:00"
    ],
    [
-    "2026-11-28T04:27:55+00:00",
-    "2026-11-28T06:52:16+00:00"
+    "2026-11-28T06:52:16+00:00",
+    "2026-11-28T16:54:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
@@ -21,13 +21,13 @@
     "2026-11-21T20:42:42+00:00"
    ],
    [
-    "2026-11-28T16:46:31+00:00",
-    "2026-11-28T16:54:34+00:00"
+    "2026-11-28T16:16:32+00:00",
+    "2026-11-28T16:46:31+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   21,
+   20,
    [
     "2026-11-27T03:51:58+00:00",
     "2026-11-27T08:30:46+00:00"
@@ -63,7 +63,7 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   29,
+   30,
    [
     "2026-11-21T06:43:13+00:00",
     "2026-11-21T13:07:14+00:00"
@@ -86,7 +86,7 @@
    ]
   ],
   "avant_filtre_date": 146,
-  "apres_filtre_date": 106
+  "apres_filtre_date": 104
  },
  "items": [
   {
@@ -112,7 +112,7 @@
    "title": "[Amazon] $100 Apple Gift Card w/ $15 Amazon Promo Credit w/ code APPLEBFCA",
    "price": 100.0,
    "was": 100.0,
-   "votes": 43,
+   "votes": 45,
    "posts": 24,
    "time": "2026-11-28T04:27:55+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
@@ -216,6 +216,24 @@
    "img": "/img/p/B00XF03K54.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-expertbook-p5-g2-laptop-amd-ryzen-ai-7-16-inch-oled-display-32-gb-ddr5-1-tb-ssd-1592-2834536/",
+   "title": "ASUS ExpertBook P5 G2 Laptop with AMD Ryzen AI 7, 16-Inch OLED Display, 32 GB DDR5, 1 TB SSD -$1592",
+   "price": 1592.0,
+   "was": 1900.0,
+   "votes": 23,
+   "posts": 18,
+   "time": "2026-11-28T06:52:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-expertbook-p5-g2-laptop-amd-ryzen-ai-7-16-inch-oled-display-32-gb-ddr5-1-tb-ssd-1592-2834536/",
+   "asin": "B0HBYBF7TX",
+   "pct": 16,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HBYBF7TX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HBYBF7TX.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-saucony-ride-19-running-shoes-sizes-8-11-90-reg-180-2834080/",
    "title": "Saucony Ride 19 running shoes sizes 8-11 $90 (reg 180)",
    "price": 90.0,
@@ -232,24 +250,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0F9LM94XL.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-expertbook-p5-g2-laptop-amd-ryzen-ai-7-16-inch-oled-display-32-gb-ddr5-1-tb-ssd-1592-2834536/",
-   "title": "ASUS ExpertBook P5 G2 Laptop with AMD Ryzen AI 7, 16-Inch OLED Display, 32 GB DDR5, 1 TB SSD -$1592",
-   "price": 1592.0,
-   "was": 1900.0,
-   "votes": 20,
-   "posts": 17,
-   "time": "2026-11-28T06:52:16+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-expertbook-p5-g2-laptop-amd-ryzen-ai-7-16-inch-oled-display-32-gb-ddr5-1-tb-ssd-1592-2834536/",
-   "asin": "B0HBYBF7TX",
-   "pct": 16,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HBYBF7TX?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HBYBF7TX.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-dickies-mens-dri-tech-original-moisture-control-crew-socks-13-88-2834226/",
@@ -720,6 +720,24 @@
    "img": "/img/p/B0H3977ZD5.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-casio-ae-1500whx-watch-33-45-2834591/",
+   "title": "Casio AE-1500WHX watch - $33.45",
+   "price": 33.45,
+   "was": 43.44,
+   "votes": 8,
+   "posts": 2,
+   "time": "2026-11-28T16:54:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-casio-ae-1500whx-watch-33-45-2834591/",
+   "asin": "B09XWD4R82",
+   "pct": 23,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B09XWD4R82?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B09XWD4R82.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-switch-2-donkey-kong-bananza-74-95-tax-84-69-2834077/",
    "title": "[Switch 2] - Donkey kong Bananza - $74.95 - with tax - $84.69",
    "price": 74.95,
@@ -990,22 +1008,40 @@
    "img": "/img/p/B0G4XFZ8TF.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-casio-ae-1500whx-watch-33-45-2834591/",
-   "title": "Casio AE-1500WHX watch - $33.45",
-   "price": 33.45,
-   "was": 43.44,
+   "url": "https://forums.redflagdeals.com/amazon-ca-pc-cases-corsair-frame-4000x-rs-atx-114-88-asus-ap201-mesh-matx-69-99-2834586/",
+   "title": "PC Cases: Corsair Frame 4000X RS ATX - $114.88 | Asus AP201 Mesh mATX - $69.99",
+   "price": 114.88,
+   "was": 194.99,
    "votes": 6,
-   "posts": 1,
-   "time": "2026-11-28T16:54:34+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-casio-ae-1500whx-watch-33-45-2834591/",
-   "asin": "B09XWD4R82",
-   "pct": 23,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B09XWD4R82?tag=coupdecoeurqc-20",
+   "posts": 5,
+   "time": "2026-11-28T16:16:32+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pc-cases-corsair-frame-4000x-rs-atx-114-88-asus-ap201-mesh-matx-69-99-2834586/",
+   "asin": "B0GF9K188H",
+   "pct": 41,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GF9K188H?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B09XWD4R82.jpg"
+   "img": "/img/p/B0GF9K188H.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-shokz-openrun-pro-2-rose-gold-149-95-early-cyber-monday-deal-2834589/",
+   "title": "Shokz OpenRun Pro 2 (Rose Gold) - $149.95 (Early Cyber Monday Deal)",
+   "price": 149.95,
+   "was": 199.95,
+   "votes": 6,
+   "posts": 2,
+   "time": "2026-11-28T16:46:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-shokz-openrun-pro-2-rose-gold-149-95-early-cyber-monday-deal-2834589/",
+   "asin": "B0GGBQPG9C",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GGBQPG9C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GGBQPG9C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
@@ -1152,24 +1188,6 @@
    "img": "/img/p/B005L0Z2BQ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-shokz-openrun-pro-2-rose-gold-149-95-early-cyber-monday-deal-2834589/",
-   "title": "Shokz OpenRun Pro 2 (Rose Gold) - $149.95 (Early Cyber Monday Deal)",
-   "price": 149.95,
-   "was": 199.95,
-   "votes": 5,
-   "posts": 2,
-   "time": "2026-11-28T16:46:31+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-shokz-openrun-pro-2-rose-gold-149-95-early-cyber-monday-deal-2834589/",
-   "asin": "B0GGBQPG9C",
-   "pct": 25,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GGBQPG9C?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GGBQPG9C.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
    "title": "MOVA E40 Ultra Robot $349.99",
    "price": 349.99,
@@ -1276,24 +1294,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0HNSTD1XW.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pc-cases-corsair-frame-4000x-rs-atx-114-88-asus-ap201-mesh-matx-69-99-2834586/",
-   "title": "PC Cases: Corsair Frame 4000X RS ATX - $114.88 | Asus AP201 Mesh mATX - $69.99",
-   "price": 114.88,
-   "was": 194.99,
-   "votes": 4,
-   "posts": 3,
-   "time": "2026-11-28T16:16:32+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pc-cases-corsair-frame-4000x-rs-atx-114-88-asus-ap201-mesh-matx-69-99-2834586/",
-   "asin": "B0GF9K188H",
-   "pct": 41,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GF9K188H?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GF9K188H.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-open-back-wired-audiophile-headphones-sennheiser-hd505-149-2833404/",
@@ -1600,6 +1600,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DS9572HL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-319-99-2834378/",
+   "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor - 319.99$",
+   "price": 319.99,
+   "was": 479.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-27T16:27:51+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-319-99-2834378/",
+   "asin": "B0BTZB7F88",
+   "pct": 33,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0BTZB7F88?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0BTZB7F88.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-playmat-stitched-magic-gathering-marvels-spider-man-spider-14-24-51-off-2834524/",
