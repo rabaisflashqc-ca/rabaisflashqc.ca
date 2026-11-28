@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27T23:54-04:00",
+ "date": "2026-11-28T00:44-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
@@ -27,66 +27,66 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   25,
+   27,
    [
-    "2026-11-27T02:56:39+00:00",
-    "2026-11-27T03:23:14+00:00"
+    "2026-11-27T03:51:58+00:00",
+    "2026-11-27T08:30:46+00:00"
    ],
    [
-    "2026-11-27T20:30:28+00:00",
-    "2026-11-28T00:01:29+00:00"
+    "2026-11-28T03:51:54+00:00",
+    "2026-11-28T04:27:55+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   24,
+   23,
    [
-    "2026-11-25T16:42:05+00:00",
-    "2026-11-25T18:20:02+00:00"
+    "2026-11-25T18:49:25+00:00",
+    "2026-11-25T22:03:49+00:00"
    ],
    [
-    "2026-11-27T00:17:16+00:00",
-    "2026-11-27T01:05:19+00:00"
+    "2026-11-27T02:56:39+00:00",
+    "2026-11-27T03:23:14+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   22,
+   21,
    [
-    "2026-11-23T14:24:27+00:00",
-    "2026-11-23T15:58:21+00:00"
+    "2026-11-23T16:23:56+00:00",
+    "2026-11-23T16:29:00+00:00"
    ],
    [
-    "2026-11-25T12:41:28+00:00",
-    "2026-11-25T15:48:10+00:00"
+    "2026-11-25T16:42:05+00:00",
+    "2026-11-25T18:20:02+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   17,
+   19,
    [
-    "2026-11-21T13:07:14+00:00",
-    "2026-11-21T13:14:12+00:00"
+    "2026-11-21T13:14:12+00:00",
+    "2026-11-21T13:22:35+00:00"
    ],
    [
-    "2026-11-23T14:13:17+00:00",
-    "2026-11-23T14:24:27+00:00"
+    "2026-11-23T14:24:27+00:00",
+    "2026-11-23T15:58:21+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   43,
+   42,
    [
-    "2026-11-19T23:22:04+00:00",
-    "2026-11-20T01:18:57+00:00"
+    "2026-11-20T01:18:57+00:00",
+    "2026-11-20T01:27:26+00:00"
    ],
    [
-    "2026-11-21T05:28:17+00:00",
-    "2026-11-21T06:43:13+00:00"
+    "2026-11-21T06:43:13+00:00",
+    "2026-11-21T13:07:14+00:00"
    ]
   ],
-  "avant_filtre_date": 142,
-  "apres_filtre_date": 114
+  "avant_filtre_date": 143,
+  "apres_filtre_date": 116
  },
  "items": [
   {
@@ -203,7 +203,7 @@
    "price": 248.0,
    "was": 339.0,
    "votes": 25,
-   "posts": 53,
+   "posts": 56,
    "time": "2026-11-21T15:14:14+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
    "asin": "B00007J5U7",
@@ -522,6 +522,24 @@
    "img": "/img/p/B07DH8PJF6.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
+   "price": 779.99,
+   "was": 1429.9,
+   "votes": 11,
+   "posts": 14,
+   "time": "2026-11-27T16:18:09+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
+   "asin": "B0HPPQYDYQ",
+   "pct": 45,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HPPQYDYQ.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-body-shop-up-50-off-sitewide-amazon-60-coconut-oil-body-butter-dry-skin-eye-cream-2833713/",
    "title": "The Body Shop up to 50% off sitewide and on Amazon, 60% on Coconut Oil Body Butter for Dry Skin and Eye Cream",
    "price": 10.4,
@@ -538,24 +556,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B01FEMAIBE.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "title": "Lenovo IdeaPad Slim 3i 15\" Laptop - Intel Core 5 - 256GB SSD - 16GB RAM - IPS 1920x1200 $779",
-   "price": 779.99,
-   "was": 1429.9,
-   "votes": 10,
-   "posts": 12,
-   "time": "2026-11-27T16:18:09+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
-   "asin": "B0HPPQYDYQ",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0HPPQYDYQ?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HPPQYDYQ.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
@@ -1062,6 +1062,24 @@
    "img": "/img/p/B0DN35QCY3.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
+   "title": "TCL 75\" 4K UHD HDR QLED Smart TV with Fire TV (75F7D) 60-120* Refresh, $679.99",
+   "price": 679.99,
+   "was": 799.99,
+   "votes": 6,
+   "posts": 4,
+   "time": "2026-11-27T20:30:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
+   "asin": "B0G4XFZ8TF",
+   "pct": 15,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0G4XFZ8TF?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0G4XFZ8TF.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-ninja-professional-plus-duo-blender-1400w-auto-iq-sale-99-99-219-99-2833271/",
    "title": "Ninja Professional Plus DUO Blender, 1400W, Auto-iQ, on sale $99.99($219.99)",
    "price": 99.99,
@@ -1276,24 +1294,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B005L0Z2BQ.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
-   "title": "TCL 75\" 4K UHD HDR QLED Smart TV with Fire TV (75F7D) 60-120* Refresh, $679.99",
-   "price": 679.99,
-   "was": 799.99,
-   "votes": 5,
-   "posts": 4,
-   "time": "2026-11-27T20:30:28+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
-   "asin": "B0G4XFZ8TF",
-   "pct": 15,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0G4XFZ8TF?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B0G4XFZ8TF.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
@@ -1602,6 +1602,24 @@
    "img": "/img/p/B008U2LRDY.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
+   "title": "[Amazon] $100 Apple Gift Card w/ $15 Amazon Promo Credit w/ code APPLEBFCA",
+   "price": 100.0,
+   "was": 100.0,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-28T04:27:55+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
+   "asin": "B0FPWGF1P3",
+   "pct": null,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FPWGF1P3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FPWGF1P3.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-friends-heartlake-city-ice-cream-truck-toy-14-38-2834497/",
    "title": "LEGO Friends Heartlake City Ice Cream Truck Toy $14.38",
    "price": 14.38,
@@ -1618,24 +1636,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0DJ17HW5V.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-renogy-core-mini-300ah-lifepo4-battery-749-99-2834388/",
-   "title": "Renogy Core Mini 300Ah LiFePo4 Battery - $749.99",
-   "price": 749.99,
-   "was": 859.99,
-   "votes": 2,
-   "posts": 2,
-   "time": "2026-11-27T16:49:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-renogy-core-mini-300ah-lifepo4-battery-749-99-2834388/",
-   "asin": "B0HL8D6FMT",
-   "pct": 13,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0HL8D6FMT?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0HL8D6FMT.jpg"
   }
  ]
 }
