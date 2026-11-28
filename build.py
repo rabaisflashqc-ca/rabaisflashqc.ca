@@ -638,6 +638,22 @@ def season_banner(t=None):
         return ""
     return f'<a class="seas" href="{a[0]}"><div><strong>{a[1]}</strong><span>{a[2]}</span></div><em aria-hidden="true">{a[3]}</em></a>'
 
+def xmas_strip():
+    """Bandeau Noël (28 nov.-24 déc.) : fin des rabais Cyber lundi + date limite APPROXIMATIVE pour recevoir à temps (Prime ~2 jours, standard ~5 à 7 jours en période de pointe)."""
+    t = datetime.date.today()
+    if not ((t.month == 11 and t.day >= 28) or (t.month == 12 and t.day <= 24)): return ""
+    if t <= datetime.date(2026, 11, 30):
+        h = "🎄 DERNIERS RABAIS POUR LES CADEAUX DE NOËL, JUSQU'À CE LUNDI"
+        sub = "Cyber lundi finit le 30 nov. Commande Prime avant le 17 déc. ou standard avant le 12 déc. pour recevoir à temps (estimation)"
+    else:
+        h = "🎄 COMMANDE À TEMPS POUR NOËL"
+        sub = "Prime : commande avant le 17 déc. · Standard : avant le 12 déc. · Dates approximatives, vérifie la livraison sur Amazon"
+    art = ('<svg class="xs-art" viewBox="0 0 120 40" width="120" height="40" aria-hidden="true"><polygon points="14,6 4,24 24,24" fill="#1b7a3a"/><polygon points="14,14 2,34 26,34" fill="#15692f"/><rect x="12" y="34" width="4" height="5" fill="#6b3d1a"/><circle cx="14" cy="5" r="2.5" fill="#FFC300"/>'
+           '<path d="M44 30h30c4 0 6-3 6-6" fill="none" stroke="#FFC300" stroke-width="3" stroke-linecap="round"/><rect x="50" y="18" width="20" height="10" rx="3" fill="#C1121F"/><path d="M44 36h40" stroke="#FFC300" stroke-width="2.5" stroke-linecap="round"/>'
+           '<rect x="92" y="22" width="14" height="14" fill="#C1121F"/><rect x="98" y="22" width="2.5" height="14" fill="#FFC300"/><rect x="92" y="28" width="14" height="2.5" fill="#FFC300"/><rect x="104" y="12" width="12" height="12" fill="#1b7a3a"/><rect x="109" y="12" width="2.5" height="12" fill="#fff"/></svg>')
+    return (f'<a class="xs" href="/idees-cadeaux/">{art}<div><strong>{h}</strong><span>{sub}</span></div><i>Voir les cadeaux →</i></a>'
+            '<style>.xs{display:flex;align-items:center;gap:12px;padding:10px 14px;background:linear-gradient(90deg,#8f0f1c,#C1121F);color:#fff;text-decoration:none;border-bottom:3px solid #FFC300}.xs strong{display:block;font-size:15px;letter-spacing:.2px}.xs span{display:block;font-size:12.5px;opacity:.95;margin-top:2px}.xs i{margin-left:auto;font-style:normal;font-weight:700;color:#FFC300;white-space:nowrap}.xs-art{flex:none}@media (max-width:699px){.xs{flex-wrap:wrap}.xs i{margin-left:0}.xs-art{display:none}}</style>')
+
 def vf_strip():
     """Bandeau Vendredi fou en haut de chaque page (demande d'Alex du 12 nov.) : vrai compte à rebours vers le 27 nov. 2026, lien vers /vendredi-fou/."""
     t = datetime.date.today()
@@ -877,7 +893,7 @@ def page(slug, title, h1, intro, items, extra="", after="", brands=()):
     url = f"{DOMAIN}/{slug + '/' if slug else ''}"
     nav = "".join(f'<a href="/{s + "/" if s else ""}"{" class=\"vf\"" if s == "vendredi-fou" else ""}{" aria-current=\"page\"" if s == slug else ""}>{"🔥 " if s == "vendredi-fou" else ""}{e(n)}</a>' for s, n in NAV)
     nlbox = inscr() + clubbar()
-    banner = vf_strip() if slug not in ("vendredi-fou", "halloween", "courriel") else ""
+    banner = (xmas_strip() or vf_strip()) if slug not in ("vendredi-fou", "halloween", "courriel") else ""
     if "<!--NL-->" in extra: extra, nlbox = extra.replace("<!--NL-->", nlbox, 1), ""
     tabbar = ('<div class="tabbar" role="navigation" aria-label="Raccourcis"><a class="vf" href="/vendredi-fou/"><b>🔥</b>Vendredi fou</a><a href="/#top5"><b>⭐</b>Top 5</a><a href="/recherche/"><b>🔎</b>Chercher</a>'
               '<a href="/idees-cadeaux/"><b>🎁</b>Cadeaux</a><a href="/courriel/"><b>📬</b>Alertes</a></div>')
