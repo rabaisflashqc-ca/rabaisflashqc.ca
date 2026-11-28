@@ -1,48 +1,48 @@
 {
- "date": "2026-11-28T00:44-04:00",
+ "date": "2026-11-28T13:41-04:00",
  "stats": {
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-21T13:14:12+00:00",
-    "2026-11-21T13:22:35+00:00"
+    "2026-11-21T17:59:36+00:00",
+    "2026-11-21T20:11:13+00:00"
    ],
    [
-    "2026-11-27T16:18:09+00:00",
-    "2026-11-27T16:29:18+00:00"
+    "2026-11-28T04:27:55+00:00",
+    "2026-11-28T06:52:16+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775&sk=pv&rfd_sk=pv&sd=d&st=7": [
    44,
    44,
    [
-    "2026-11-21T05:28:17+00:00",
-    "2026-11-21T13:07:14+00:00"
+    "2026-11-21T18:54:48+00:00",
+    "2026-11-21T20:42:42+00:00"
    ],
    [
-    "2026-11-27T20:06:14+00:00",
-    "2026-11-27T20:30:28+00:00"
+    "2026-11-28T16:46:31+00:00",
+    "2026-11-28T16:54:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/?dealer_id=775": [
    44,
-   27,
+   21,
    [
     "2026-11-27T03:51:58+00:00",
     "2026-11-27T08:30:46+00:00"
    ],
    [
-    "2026-11-28T03:51:54+00:00",
-    "2026-11-28T04:27:55+00:00"
+    "2026-11-28T16:46:31+00:00",
+    "2026-11-28T16:54:34+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/2/?dealer_id=775": [
    44,
-   23,
+   19,
    [
-    "2026-11-25T18:49:25+00:00",
-    "2026-11-25T22:03:49+00:00"
+    "2026-11-25T18:20:02+00:00",
+    "2026-11-25T18:49:25+00:00"
    ],
    [
     "2026-11-27T02:56:39+00:00",
@@ -51,42 +51,42 @@
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/3/?dealer_id=775": [
    44,
-   21,
+   19,
    [
-    "2026-11-23T16:23:56+00:00",
-    "2026-11-23T16:29:00+00:00"
+    "2026-11-23T15:58:21+00:00",
+    "2026-11-23T16:23:56+00:00"
    ],
    [
-    "2026-11-25T16:42:05+00:00",
-    "2026-11-25T18:20:02+00:00"
+    "2026-11-25T15:48:10+00:00",
+    "2026-11-25T16:42:05+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/4/?dealer_id=775": [
    44,
-   19,
+   29,
    [
-    "2026-11-21T13:14:12+00:00",
-    "2026-11-21T13:22:35+00:00"
+    "2026-11-21T06:43:13+00:00",
+    "2026-11-21T13:07:14+00:00"
    ],
    [
-    "2026-11-23T14:24:27+00:00",
-    "2026-11-23T15:58:21+00:00"
+    "2026-11-23T13:06:51+00:00",
+    "2026-11-23T14:24:27+00:00"
    ]
   ],
   "https://forums.redflagdeals.com/hot-deals-f9/5/?dealer_id=775": [
    44,
-   42,
+   44,
    [
-    "2026-11-20T01:18:57+00:00",
-    "2026-11-20T01:27:26+00:00"
+    "2026-11-19T23:20:08+00:00",
+    "2026-11-19T23:22:04+00:00"
    ],
    [
-    "2026-11-21T06:43:13+00:00",
-    "2026-11-21T13:07:14+00:00"
+    "2026-11-21T03:14:53+00:00",
+    "2026-11-21T05:28:17+00:00"
    ]
   ],
-  "avant_filtre_date": 143,
-  "apres_filtre_date": 116
+  "avant_filtre_date": 146,
+  "apres_filtre_date": 106
  },
  "items": [
   {
@@ -108,22 +108,22 @@
    "img": "/img/p/B00CHOUI86.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
-   "title": "Helly Hansen Men's Rain Jacket @ $63.98",
-   "price": 63.98,
-   "was": null,
-   "votes": 42,
-   "posts": 35,
-   "time": "2026-11-23T14:13:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-helly-hansen-mens-rain-jacket-63-98-2833506/",
-   "asin": "B0C3JRVSL2",
+   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
+   "title": "[Amazon] $100 Apple Gift Card w/ $15 Amazon Promo Credit w/ code APPLEBFCA",
+   "price": 100.0,
+   "was": 100.0,
+   "votes": 43,
+   "posts": 24,
+   "time": "2026-11-28T04:27:55+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
+   "asin": "B0FPWGF1P3",
    "pct": null,
-   "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0C3JRVSL2?tag=coupdecoeurqc-20",
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FPWGF1P3?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0C3JRVSL2.jpg"
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FPWGF1P3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-walmart-scrabble-battleship-guess-who-hungry-hungry-hippos-more-12-97-each-2833382/",
@@ -198,24 +198,6 @@
    "img": "/img/p/B0123NDHKQ.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "title": "Zojirushi NS-ZCC10 5.5-Cup Neuro Fuzzy Rice Cooker And Warmer - $248",
-   "price": 248.0,
-   "was": 339.0,
-   "votes": 25,
-   "posts": 56,
-   "time": "2026-11-21T15:14:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-zojirushi-ns-zcc10-5-5-cup-neuro-fuzzy-rice-cooker-warmer-248-2833291/",
-   "asin": "B00007J5U7",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00007J5U7?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B00007J5U7.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-red-line-60103-complete-si-1-fuel-system-cleaner-15-ounce-2833837/",
    "title": "Red Line 60103 Complete SI-1 Fuel System Cleaner, 15 Ounce",
    "price": 19.13,
@@ -252,6 +234,24 @@
    "img": "/img/p/B0F9LM94XL.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-expertbook-p5-g2-laptop-amd-ryzen-ai-7-16-inch-oled-display-32-gb-ddr5-1-tb-ssd-1592-2834536/",
+   "title": "ASUS ExpertBook P5 G2 Laptop with AMD Ryzen AI 7, 16-Inch OLED Display, 32 GB DDR5, 1 TB SSD -$1592",
+   "price": 1592.0,
+   "was": 1900.0,
+   "votes": 20,
+   "posts": 17,
+   "time": "2026-11-28T06:52:16+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-expertbook-p5-g2-laptop-amd-ryzen-ai-7-16-inch-oled-display-32-gb-ddr5-1-tb-ssd-1592-2834536/",
+   "asin": "B0HBYBF7TX",
+   "pct": 16,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0HBYBF7TX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0HBYBF7TX.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dickies-mens-dri-tech-original-moisture-control-crew-socks-13-88-2834226/",
    "title": "Dickies Men's Dri-Tech Original Moisture Control Crew Socks $13.88",
    "price": 13.88,
@@ -268,6 +268,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B004QF0TFQ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
+   "price": 69.99,
+   "was": null,
+   "votes": 17,
+   "posts": 8,
+   "time": "2026-11-27T16:29:18+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
+   "asin": "B0FL7QYH1B",
+   "pct": null,
+   "cat": "enfants",
+   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 1,
+   "doute": true,
+   "img": "/img/p/B0FL7QYH1B.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-cellucor-c4-pre-workout-powder-60-servings-fruit-punch-23-99-47-99-reg-2833919/",
@@ -288,24 +306,6 @@
    "img": "/img/p/B07D3NGT97.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "title": "ASUS QG-U1080 8 Port 2.5G and 2-Port 10G SFP+ Unmanaged Switch - $69.99",
-   "price": 69.99,
-   "was": null,
-   "votes": 16,
-   "posts": 7,
-   "time": "2026-11-27T16:29:18+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-qg-u1080-8-port-2-5g-2-port-10g-sfp-unmanaged-switch-69-99-2834379/",
-   "asin": "B0FL7QYH1B",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FL7QYH1B?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FL7QYH1B.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-45w-universal-travel-adapter-w-6-ports-27-99-2834237/",
    "title": "45W Universal Travel Adapter w/ 6 Ports - $27.99",
    "price": 27.99,
@@ -322,24 +322,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FYFDD1WW.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
-   "title": "ASUS TUF Gaming 34\" Ultrawide Monitor, 180Hz, 400 nits @ $259.99",
-   "price": 259.9,
-   "was": null,
-   "votes": 14,
-   "posts": 9,
-   "time": "2026-11-21T14:44:36+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-gaming-34-ultrawide-monitor-180hz-400-nits-259-99-2833284/",
-   "asin": "B0CXS8J4Y5",
-   "pct": null,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0CXS8J4Y5?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0CXS8J4Y5.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mikasa-v200w-volleyball-official-blue-yellow-77-99-2833723/",
@@ -432,24 +414,6 @@
    "img": "/img/p/B0CH1XTC52.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
-   "title": "Alienware 34 Gaming Monitor AW3426DWM, WQHD VA Panel, 240Hz, 1500R Curved on sale $389.10($549.99)",
-   "price": 389.1,
-   "was": 549.99,
-   "votes": 11,
-   "posts": 12,
-   "time": "2026-11-21T13:14:12+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-alienware-34-gaming-monitor-aw3426dwm-wqhd-va-panel-240hz-1500r-curved-sale-389-10-549-99-2833272/",
-   "asin": "B0DHGNBXXC",
-   "pct": 29,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0DHGNBXXC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DHGNBXXC.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-shark-navigator-swivel-pro-complete-upright-vacuum-red-nv150c-2833403/",
    "title": "Shark Navigator Swivel Pro Complete Upright Vacuum, Red, NV150C",
    "price": 99.98,
@@ -527,7 +491,7 @@
    "price": 779.99,
    "was": 1429.9,
    "votes": 11,
-   "posts": 14,
+   "posts": 15,
    "time": "2026-11-27T16:18:09+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-lenovo-ideapad-slim-3i-15-laptop-intel-core-5-256gb-ssd-16gb-ram-ips-1920x1200-779-2834373/",
    "asin": "B0HPPQYDYQ",
@@ -558,22 +522,22 @@
    "img": "/img/p/B01FEMAIBE.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
-   "title": "pitaka iPhone 17 Pro Max Case, Military Grade Aramid $32",
-   "price": 32.0,
-   "was": 102.0,
-   "votes": 9,
-   "posts": 11,
-   "time": "2026-11-21T13:22:35+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-pitaka-iphone-17-pro-max-case-military-grade-aramid-32-2833274/",
-   "asin": "B0FJRQ9RM6",
-   "pct": 69,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0FJRQ9RM6?tag=coupdecoeurqc-20",
+   "url": "https://forums.redflagdeals.com/amazon-ca-squishmallows-pokemon-10inch-snorlax-deagonite-19-19-2834312/",
+   "title": "Squishmallows Pokemon 10inch Snorlax & Deagonite - $19.19",
+   "price": 19.19,
+   "was": 24.0,
+   "votes": 10,
+   "posts": 1,
+   "time": "2026-11-27T13:03:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-squishmallows-pokemon-10inch-snorlax-deagonite-19-19-2834312/",
+   "asin": "B0DK7X77NK",
+   "pct": 20,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DK7X77NK?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FJRQ9RM6.jpg"
+   "img": "/img/p/B0DK7X77NK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-brooks-b17-special-brown-bike-saddle-copper-rivets-191-59-2833402/",
@@ -594,6 +558,24 @@
    "img": "/img/p/B004GIXRMK.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-50-off-brother-pt-n25bt-label-maker-29-99-2834100/",
+   "title": "50% off - Brother PT-N25BT Label Maker $29.99",
+   "price": 29.99,
+   "was": 59.98,
+   "votes": 9,
+   "posts": 8,
+   "time": "2026-11-26T15:54:15+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-50-off-brother-pt-n25bt-label-maker-29-99-2834100/",
+   "asin": "B0DFFHQPSC",
+   "pct": 50,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DFFHQPSC?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DFFHQPSC.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-mercedes-amg-f1-w15-19-86-2834104/",
    "title": "LEGO Speed Champions Mercedes-AMG F1 W15 - 19.86$",
    "price": 19.86,
@@ -612,22 +594,22 @@
    "img": "/img/p/B0DHLHMK9V.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
-   "title": "LEGO Minecraft The Baby Pig House [21268] - $14.86 (40% off)",
-   "price": 14.86,
-   "was": 24.99,
+   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
+   "title": "LEGO Speed Champions Audi Revolut F1 Team R26 [77259] - 19.86 (43% off)",
+   "price": 19.86,
+   "was": 34.99,
    "votes": 9,
-   "posts": 7,
-   "time": "2026-11-26T18:12:45+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-minecraft-baby-pig-house-21268-14-86-40-off-2834134/",
-   "asin": "B0DJ19VGDH",
-   "pct": 41,
+   "posts": 1,
+   "time": "2026-11-26T17:46:46+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
+   "asin": "B0FMYTJ93W",
+   "pct": 43,
    "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0DJ19VGDH?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0FMYTJ93W?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0DJ19VGDH.jpg"
+   "img": "/img/p/B0FMYTJ93W.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-edifier-m60-multimedia-speakers-150-whole-edifier-lineup-sale-2834240/",
@@ -664,24 +646,6 @@
    "morts": 3,
    "doute": true,
    "img": "/img/p/B0DHYNHYJD.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-squishmallows-pokemon-10inch-snorlax-deagonite-19-19-2834312/",
-   "title": "Squishmallows Pokemon 10inch Snorlax & Deagonite - $19.19",
-   "price": 19.19,
-   "was": 24.0,
-   "votes": 9,
-   "posts": 1,
-   "time": "2026-11-27T13:03:54+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-squishmallows-pokemon-10inch-snorlax-deagonite-19-19-2834312/",
-   "asin": "B0DK7X77NK",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DK7X77NK?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DK7X77NK.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-anker-soundcore-v20i-open-ear-earbuds-36h-playtime-bluetooth-5-4-2833434/",
@@ -738,42 +702,6 @@
    "img": "/img/p/B07GBZ4Q68.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-50-off-brother-pt-n25bt-label-maker-29-99-2834100/",
-   "title": "50% off - Brother PT-N25BT Label Maker $29.99",
-   "price": 29.99,
-   "was": 59.98,
-   "votes": 8,
-   "posts": 8,
-   "time": "2026-11-26T15:54:15+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-50-off-brother-pt-n25bt-label-maker-29-99-2834100/",
-   "asin": "B0DFFHQPSC",
-   "pct": 50,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DFFHQPSC?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DFFHQPSC.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
-   "title": "LEGO Speed Champions Audi Revolut F1 Team R26 [77259] - 19.86 (43% off)",
-   "price": 19.86,
-   "was": 34.99,
-   "votes": 8,
-   "posts": 1,
-   "time": "2026-11-26T17:46:46+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-lego-speed-champions-audi-revolut-f1-team-r26-77259-19-86-43-off-2834124/",
-   "asin": "B0FMYTJ93W",
-   "pct": 43,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0FMYTJ93W?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FMYTJ93W.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-12ct-kraft-dinner-protein-plus-original-cheddar-macaroni-cheese-21-90-2834217/",
    "title": "12ct. Kraft Dinner Protein Plus Original Cheddar Macaroni & Cheese $21.90",
    "price": 21.9,
@@ -790,24 +718,6 @@
    "morts": 1,
    "doute": true,
    "img": "/img/p/B0H3977ZD5.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
-   "title": "TRENDnet 24-Port Unmanaged Gigabit GREENnet Desktop Switch,TEG-S24DG @ $65.55",
-   "price": 65.55,
-   "was": null,
-   "votes": 7,
-   "posts": 0,
-   "time": "2026-11-21T15:48:19+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-trendnet-24-port-unmanaged-gigabit-greennet-desktop-switch-teg-s24dg-65-55-2833295/",
-   "asin": "B0044GH27U",
-   "pct": null,
-   "cat": "enfants",
-   "link": "https://www.amazon.ca/dp/B0044GH27U?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0044GH27U.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-switch-2-donkey-kong-bananza-74-95-tax-84-69-2834077/",
@@ -990,6 +900,24 @@
    "img": "/img/p/B0725QBG1G.jpg"
   },
   {
+   "url": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
+   "title": "Marvel vs Capcom fighting collection PS4",
+   "price": 24.99,
+   "was": 38.5,
+   "votes": 6,
+   "posts": 3,
+   "time": "2026-11-26T21:14:13+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
+   "asin": "B0D7NSB8XV",
+   "pct": 35,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0D7NSB8XV?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0D7NSB8XV.jpg"
+  },
+  {
    "url": "https://forums.redflagdeals.com/amazon-ca-dji-osmo-pocket-4-essential-combo-ci-575-reg-639-2834235/",
    "title": "DJI Osmo Pocket 4 Essential Combo – $575 (Reg. $639)",
    "price": 575.0,
@@ -1006,24 +934,6 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B0FYQ1LFFK.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-20-off-skip-gift-cards-2834328/",
-   "title": "Amazon - 20% off Skip Gift Cards",
-   "price": 40.0,
-   "was": 50.0,
-   "votes": 6,
-   "posts": 4,
-   "time": "2026-11-27T14:23:07+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-20-off-skip-gift-cards-2834328/",
-   "asin": "B0C4DV9DP3",
-   "pct": 20,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0C4DV9DP3?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 2,
-   "doute": true,
-   "img": "/img/p/B0C4DV9DP3.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-peppa-cus-muddy-puddles-party-singing-dancing-doll-interactive-16-31-33-06-2834345/",
@@ -1067,7 +977,7 @@
    "price": 679.99,
    "was": 799.99,
    "votes": 6,
-   "posts": 4,
+   "posts": 7,
    "time": "2026-11-27T20:30:28+00:00",
    "rfd": "https://forums.redflagdeals.com/amazon-ca-tcl-75-4k-uhd-hdr-qled-smart-tv-fire-tv-75f7d-60-120-refresh-679-99-2834459/",
    "asin": "B0G4XFZ8TF",
@@ -1075,63 +985,27 @@
    "cat": "tech",
    "link": "https://www.amazon.ca/dp/B0G4XFZ8TF?tag=coupdecoeurqc-20",
    "deja": false,
-   "morts": 1,
+   "morts": 2,
    "doute": true,
    "img": "/img/p/B0G4XFZ8TF.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ninja-professional-plus-duo-blender-1400w-auto-iq-sale-99-99-219-99-2833271/",
-   "title": "Ninja Professional Plus DUO Blender, 1400W, Auto-iQ, on sale $99.99($219.99)",
-   "price": 99.99,
-   "was": 219.99,
-   "votes": 5,
-   "posts": 7,
-   "time": "2026-11-21T13:07:14+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ninja-professional-plus-duo-blender-1400w-auto-iq-sale-99-99-219-99-2833271/",
-   "asin": "B08GKZSVMS",
-   "pct": 55,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B08GKZSVMS?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 1,
-   "doute": true,
-   "img": "/img/p/B08GKZSVMS.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
-   "title": "Samsung Galaxy Buds4 Pro, White (CAD Version) ($179.99)",
-   "price": 179.99,
-   "was": 329.99,
-   "votes": 5,
-   "posts": 17,
-   "time": "2026-11-21T14:51:42+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-samsung-galaxy-buds4-pro-white-cad-version-179-99-2833288/",
-   "asin": "B0GFWP95YD",
-   "pct": 45,
-   "cat": "tech",
-   "link": "https://www.amazon.ca/dp/B0GFWP95YD?tag=coupdecoeurqc-20",
-   "deja": true,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GFWP95YD.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
-   "title": "HOBIBEAR Mens Womens Wide Width Barefoot Shoes",
-   "price": 47.67,
-   "was": 55.99,
-   "votes": 5,
-   "posts": 2,
-   "time": "2026-11-21T16:17:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-hobibear-mens-womens-wide-width-barefoot-shoes-2833298/",
-   "asin": "B0CD3ZSZ8R",
-   "pct": 15,
+   "url": "https://forums.redflagdeals.com/amazon-ca-casio-ae-1500whx-watch-33-45-2834591/",
+   "title": "Casio AE-1500WHX watch - $33.45",
+   "price": 33.45,
+   "was": 43.44,
+   "votes": 6,
+   "posts": 1,
+   "time": "2026-11-28T16:54:34+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-casio-ae-1500whx-watch-33-45-2834591/",
+   "asin": "B09XWD4R82",
+   "pct": 23,
    "cat": "mode",
-   "link": "https://www.amazon.ca/dp/B0CD3ZSZ8R?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B09XWD4R82?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0CD3ZSZ8R.jpg"
+   "img": "/img/p/B09XWD4R82.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-staub-28cm-cast-iron-chistera-braiser-209-99-2833315/",
@@ -1224,22 +1098,22 @@
    "img": "/img/p/B0H8CDKPJ5.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
-   "title": "Marvel vs Capcom fighting collection PS4",
-   "price": 24.99,
-   "was": 38.5,
+   "url": "https://forums.redflagdeals.com/amazon-ca-peppas-big-family-house-playset-3-figures-11-accessories-23-99-43-94-2834339/",
+   "title": "Peppa's Big Family House Playset with 3 Figures, 11 Accessories - $23.99 (was $43.94)",
+   "price": 23.99,
+   "was": 43.94,
    "votes": 5,
-   "posts": 3,
-   "time": "2026-11-26T21:14:13+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-marvel-vs-capcom-fighting-collection-ps4-2834177/",
-   "asin": "B0D7NSB8XV",
-   "pct": 35,
+   "posts": 0,
+   "time": "2026-11-27T14:32:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-peppas-big-family-house-playset-3-figures-11-accessories-23-99-43-94-2834339/",
+   "asin": "B0DK7QSPS4",
+   "pct": 45,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0D7NSB8XV?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0DK7QSPS4?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0D7NSB8XV.jpg"
+   "img": "/img/p/B0DK7QSPS4.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-xenoblade-chronicles-definitive-edition-ci-nintendo-switch-2-edition-digital-code-2834357/",
@@ -1260,24 +1134,6 @@
    "img": "/img/p/B0H51GQMQ3.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-2834380/",
-   "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor",
-   "price": 320.0,
-   "was": 470.0,
-   "votes": 5,
-   "posts": 2,
-   "time": "2026-11-27T16:29:59+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amd-ryzen-7-7800x3d-8-core-16-thread-desktop-processor-2834380/",
-   "asin": "B0BTZB7F88",
-   "pct": 32,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0BTZB7F88?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0BTZB7F88.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-thrustmaster-th8a-add-shifter-150-59-269-99-2834399/",
    "title": "Thrustmaster TH8A Add-On Shifter - $150.59 (was $269.99)",
    "price": 150.59,
@@ -1294,6 +1150,24 @@
    "morts": 0,
    "doute": false,
    "img": "/img/p/B005L0Z2BQ.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-shokz-openrun-pro-2-rose-gold-149-95-early-cyber-monday-deal-2834589/",
+   "title": "Shokz OpenRun Pro 2 (Rose Gold) - $149.95 (Early Cyber Monday Deal)",
+   "price": 149.95,
+   "was": 199.95,
+   "votes": 5,
+   "posts": 2,
+   "time": "2026-11-28T16:46:31+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-shokz-openrun-pro-2-rose-gold-149-95-early-cyber-monday-deal-2834589/",
+   "asin": "B0GGBQPG9C",
+   "pct": 25,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0GGBQPG9C?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0GGBQPG9C.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-mova-e40-ultra-robot-349-99-2833581/",
@@ -1386,24 +1260,6 @@
    "img": "/img/p/B07BQ28TQ6.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-peppas-big-family-house-playset-3-figures-11-accessories-23-99-43-94-2834339/",
-   "title": "Peppa's Big Family House Playset with 3 Figures, 11 Accessories - $23.99 (was $43.94)",
-   "price": 23.99,
-   "was": 43.94,
-   "votes": 4,
-   "posts": 0,
-   "time": "2026-11-27T14:32:54+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-peppas-big-family-house-playset-3-figures-11-accessories-23-99-43-94-2834339/",
-   "asin": "B0DK7QSPS4",
-   "pct": 45,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0DK7QSPS4?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0DK7QSPS4.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-hako-g2-japanese-joinery-bed-frame-queen-630-39-2834451/",
    "title": "Hako G2 Japanese Joinery Bed Frame (Queen) - $630.39",
    "price": 630.39,
@@ -1422,40 +1278,22 @@
    "img": "/img/p/B0HNSTD1XW.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
-   "title": "eufy Robot Vacuums BFCM - C28 Omni $599.99 (57% off, ATL), C30 $899.99 (42% off), Omni E35 $1,189.99 (30% off)",
-   "price": 599.99,
-   "was": 1399.9,
-   "votes": 3,
-   "posts": 0,
-   "time": "2026-11-21T14:49:52+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-eufy-robot-vacuums-bfcm-c28-omni-599-99-57-off-atl-c30-899-99-42-off-omni-e35-1-189-99-30-off-2833286/",
-   "asin": "B0FWK41WF2",
-   "pct": 57,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FWK41WF2?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0FWK41WF2.jpg"
-  },
-  {
-   "url": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
-   "title": "Vitamix 5200",
-   "price": 429.99,
-   "was": 729.95,
-   "votes": 3,
-   "posts": 16,
-   "time": "2026-11-21T17:29:53+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
-   "asin": "B00009LI4K",
+   "url": "https://forums.redflagdeals.com/amazon-ca-pc-cases-corsair-frame-4000x-rs-atx-114-88-asus-ap201-mesh-matx-69-99-2834586/",
+   "title": "PC Cases: Corsair Frame 4000X RS ATX - $114.88 | Asus AP201 Mesh mATX - $69.99",
+   "price": 114.88,
+   "was": 194.99,
+   "votes": 4,
+   "posts": 3,
+   "time": "2026-11-28T16:16:32+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pc-cases-corsair-frame-4000x-rs-atx-114-88-asus-ap201-mesh-matx-69-99-2834586/",
+   "asin": "B0GF9K188H",
    "pct": 41,
    "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B00009LI4K?tag=coupdecoeurqc-20",
+   "link": "https://www.amazon.ca/dp/B0GF9K188H?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B00009LI4K.jpg"
+   "img": "/img/p/B0GF9K188H.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-open-back-wired-audiophile-headphones-sennheiser-hd505-149-2833404/",
@@ -1566,24 +1404,6 @@
    "img": "/img/p/B00GOE7XHE.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
-   "title": "ECOVACS DEEBOT T90 PRO OMNI",
-   "price": 659.99,
-   "was": 899.99,
-   "votes": 2,
-   "posts": 2,
-   "time": "2026-11-21T05:28:17+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-ecovacs-deebot-t90-pro-omni-2833257/",
-   "asin": "B0GFWQ5FRM",
-   "pct": 27,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0GFWQ5FRM?tag=coupdecoeurqc-20",
-   "deja": false,
-   "morts": 0,
-   "doute": false,
-   "img": "/img/p/B0GFWQ5FRM.jpg"
-  },
-  {
    "url": "https://forums.redflagdeals.com/amazon-ca-snow-joe-324e-10-amp-corded-electric-snow-shovel-96-200-hd-2833331/",
    "title": "Snow Joe 324E 10 amp Corded Electric Snow Shovel $96 ($200 at HD)",
    "price": null,
@@ -1602,22 +1422,202 @@
    "img": "/img/p/B008U2LRDY.jpg"
   },
   {
-   "url": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
-   "title": "[Amazon] $100 Apple Gift Card w/ $15 Amazon Promo Credit w/ code APPLEBFCA",
-   "price": 100.0,
-   "was": 100.0,
+   "url": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-097-98-1-597-98-2833632/",
+   "title": "ASUS TUF A15 Gaming Laptop, 15.6” 144Hz FHD Display, AMD Ryzen™ 7 170 on sale $1,097.98($1,597.98)",
+   "price": 1097.9,
+   "was": 1597.9,
    "votes": 2,
-   "posts": 3,
-   "time": "2026-11-28T04:27:55+00:00",
-   "rfd": "https://forums.redflagdeals.com/amazon-ca-amazon-100-apple-gift-card-w-15-amazon-promo-credit-w-code-applebfca-2834526/",
-   "asin": "B0FPWGF1P3",
-   "pct": null,
-   "cat": "maison",
-   "link": "https://www.amazon.ca/dp/B0FPWGF1P3?tag=coupdecoeurqc-20",
+   "posts": 7,
+   "time": "2026-11-24T02:34:33+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-asus-tuf-a15-gaming-laptop-15-6-c-144hz-fhd-display-amd-ryzen-i-7-170-sale-1-097-98-1-597-98-2833632/",
+   "asin": "B0GX7HXMVL",
+   "pct": 31,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0GX7HXMVL?tag=coupdecoeurqc-20",
    "deja": false,
    "morts": 0,
    "doute": false,
-   "img": "/img/p/B0FPWGF1P3.jpg"
+   "img": "/img/p/B0GX7HXMVL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-knipex-3-pc-twingrip-pliers-set-6-8-10-119-95-40-2833878/",
+   "title": "KNIPEX 3 Pc TwinGrip Pliers Set (6\", 8\", 10\") $119.95 (-40%)",
+   "price": 119.95,
+   "was": 199.5,
+   "votes": 2,
+   "posts": 3,
+   "time": "2026-11-25T12:41:28+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-knipex-3-pc-twingrip-pliers-set-6-8-10-119-95-40-2833878/",
+   "asin": "B0DJ9TXFJ3",
+   "pct": 40,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0DJ9TXFJ3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DJ9TXFJ3.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-purina-pro-plan-advantage-senior-cats-38-49-2-27kg-chicken-rice-formula-2833936/",
+   "title": "Purina pro plan advantage for senior cats $38.49 for 2.27kg chicken and rice formula",
+   "price": 38.49,
+   "was": 54.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-25T18:20:02+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-purina-pro-plan-advantage-senior-cats-38-49-2-27kg-chicken-rice-formula-2833936/",
+   "asin": "B0FWTSJG8M",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FWTSJG8M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FWTSJG8M.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-philips-2200-series-fully-automatic-espresso-machine-milk-frother-2-coffee-varieties-touch-display-349-549-2833946/",
+   "title": "Philips 2200 Series Fully Automatic Espresso Machine, Milk Frother, 2 Coffee Varieties, Touch Display, $349 (was 549)",
+   "price": 349.0,
+   "was": 549.0,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-25T18:49:25+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-philips-2200-series-fully-automatic-espresso-machine-milk-frother-2-coffee-varieties-touch-display-349-549-2833946/",
+   "asin": "B07VBPLPH5",
+   "pct": 36,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07VBPLPH5?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07VBPLPH5.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-linenspa-3-inch-memory-foam-mattress-topper-gel-full-78-69-2834178/",
+   "title": "Linenspa 3 Inch Memory Foam Mattress Topper, Gel (Full) $78.69",
+   "price": 78.69,
+   "was": 112.42,
+   "votes": 2,
+   "posts": 9,
+   "time": "2026-11-26T21:15:36+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-linenspa-3-inch-memory-foam-mattress-topper-gel-full-78-69-2834178/",
+   "asin": "B07MY2VQC9",
+   "pct": 30,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B07MY2VQC9?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B07MY2VQC9.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-arris-mens-heated-jacket-battery-prime-only-86-38-2834186/",
+   "title": "Arris Mens Heated Jacket with BAttery (Prime Only) - $86.38",
+   "price": 86.38,
+   "was": 179.99,
+   "votes": 2,
+   "posts": 16,
+   "time": "2026-11-26T21:54:40+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-arris-mens-heated-jacket-battery-prime-only-86-38-2834186/",
+   "asin": "B08661ZHVX",
+   "pct": 52,
+   "cat": "mode",
+   "link": "https://www.amazon.ca/dp/B08661ZHVX?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B08661ZHVX.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-kasa-matter-smart-plug-kp125mp2-energy-monitoring-15a-2-pack-2834206/",
+   "title": "Kasa Matter Smart Plug KP125MP2, Energy Monitoring, 15A, 2-Pack",
+   "price": 27.99,
+   "was": 42.45,
+   "votes": 2,
+   "posts": 8,
+   "time": "2026-11-26T23:28:52+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-kasa-matter-smart-plug-kp125mp2-energy-monitoring-15a-2-pack-2834206/",
+   "asin": "B0BXMNJDW3",
+   "pct": 34,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0BXMNJDW3?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": null
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-5gbps-usb-hub-3-0-3-28ft-extension-cable-2834286/",
+   "title": "ORICO 7-Port 5Gbps USB Hub 3.0 with 3.28ft Extension Cable",
+   "price": 12.46,
+   "was": 22.99,
+   "votes": 2,
+   "posts": 5,
+   "time": "2026-11-27T08:56:56+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-orico-7-port-5gbps-usb-hub-3-0-3-28ft-extension-cable-2834286/",
+   "asin": "B0CQNBY9R8",
+   "pct": 46,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0CQNBY9R8?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0CQNBY9R8.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g2-bluetooth-meat-thermometer-79-99-2834305/",
+   "title": "ThermoMaven G2 Bluetooth Meat Thermometer -$79.99",
+   "price": 79.99,
+   "was": 159.99,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-27T12:42:49+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-thermomaven-g2-bluetooth-meat-thermometer-79-99-2834305/",
+   "asin": "B0DFW43B44",
+   "pct": 50,
+   "cat": "tech",
+   "link": "https://www.amazon.ca/dp/B0DFW43B44?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DFW43B44.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-pure-protein-bars-pack-6-10-89-2834315/",
+   "title": "Pure Protein Bars (Pack of 6) - $10.89",
+   "price": 10.89,
+   "was": 21.79,
+   "votes": 2,
+   "posts": 9,
+   "time": "2026-11-27T13:28:55+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-pure-protein-bars-pack-6-10-89-2834315/",
+   "asin": "B0DS9572HL",
+   "pct": 50,
+   "cat": "beaute",
+   "link": "https://www.amazon.ca/dp/B0DS9572HL?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0DS9572HL.jpg"
+  },
+  {
+   "url": "https://forums.redflagdeals.com/amazon-ca-playmat-stitched-magic-gathering-marvels-spider-man-spider-14-24-51-off-2834524/",
+   "title": "Playmat: Stitched: Magic: The Gathering - Marvel's Spider-Man: Spider $14.24 (51% off)",
+   "price": 14.24,
+   "was": 28.91,
+   "votes": 2,
+   "posts": 0,
+   "time": "2026-11-28T03:51:54+00:00",
+   "rfd": "https://forums.redflagdeals.com/amazon-ca-playmat-stitched-magic-gathering-marvels-spider-man-spider-14-24-51-off-2834524/",
+   "asin": "B0FQG8JM6M",
+   "pct": 51,
+   "cat": "maison",
+   "link": "https://www.amazon.ca/dp/B0FQG8JM6M?tag=coupdecoeurqc-20",
+   "deja": false,
+   "morts": 0,
+   "doute": false,
+   "img": "/img/p/B0FQG8JM6M.jpg"
   },
   {
    "url": "https://forums.redflagdeals.com/amazon-ca-lego-friends-heartlake-city-ice-cream-truck-toy-14-38-2834497/",
