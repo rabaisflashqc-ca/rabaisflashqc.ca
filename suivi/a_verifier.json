@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-28T14:39+00:00",
+ "genere": "2026-11-28T15:11+00:00",
  "produits": [
   {
    "asin": "B0HMCN3FCH",
@@ -795,6 +795,56 @@
    "asin": "B0F38FCHD2",
    "titre": "Garmin vívoactive 6 Montre GPS intelligente",
    "prix_affiche": 329.98
+  },
+  {
+   "asin": "B091KJV1Q7",
+   "titre": "Lifeprint imprimante photo Zink",
+   "prix_affiche": 55.44
+  },
+  {
+   "asin": "B0G44MXVCV",
+   "titre": "Barbie Signature Totally Hair",
+   "prix_affiche": 35.07
+  },
+  {
+   "asin": "B0BSRFKQQZ",
+   "titre": "LEGO Friends Botanical Garden",
+   "prix_affiche": 99.99
+  },
+  {
+   "asin": "B09V9P5Q6W",
+   "titre": "JBL Live Pro TWS 2 écouteurs sans fil antibruit",
+   "prix_affiche": 89.97
+  },
+  {
+   "asin": "B0BS1QB15L",
+   "titre": "Sony WH-CH520 casque sans fil Bluetooth",
+   "prix_affiche": 48.0
+  },
+  {
+   "asin": "B0G7LFBQDY",
+   "titre": "PLAYMOBIL x Barbie Waterpark",
+   "prix_affiche": 69.64
+  },
+  {
+   "asin": "B01AYSNHVQ",
+   "titre": "AKG K72 casque d'écoute fermé",
+   "prix_affiche": 54.99
+  },
+  {
+   "asin": "B01M0P7IJR",
+   "titre": "Les Aventuriers du Rail jeu de société",
+   "prix_affiche": 59.13
+  },
+  {
+   "asin": "B0864T7YQT",
+   "titre": "Nespresso Vertuo Next machine à café",
+   "prix_affiche": 114.0
+  },
+  {
+   "asin": "B0D4Y1NW1Z",
+   "titre": "Hell's Kitchen marmite inox 7",
+   "prix_affiche": 108.86
   },
   {
    "asin": "B0CDQXRNXD",
@@ -3882,11 +3932,6 @@
    "prix_affiche": 35.99
   },
   {
-   "asin": "B0G44MXVCV",
-   "titre": "Barbie Signature Totally Hai…",
-   "prix_affiche": 35.07
-  },
-  {
    "asin": "B09T231HD5",
    "titre": "Lush Decor Vintage Stripe Ya…",
    "prix_affiche": 26.87
@@ -4662,11 +4707,6 @@
    "prix_affiche": 18.38
   },
   {
-   "asin": "B09V9P5Q6W",
-   "titre": "JBL Live Pro TWS 2 - Black |…",
-   "prix_affiche": 89.97
-  },
-  {
    "asin": "B0736Y3FTY",
    "titre": "Trademark Fine Art Sylvie De…",
    "prix_affiche": 87.19
@@ -4675,11 +4715,6 @@
    "asin": "B07JH9KRPK",
    "titre": "Historic Charleston King Cha…",
    "prix_affiche": 75.2
-  },
-  {
-   "asin": "B0G7LFBQDY",
-   "titre": "PLAYMOBIL x Barbie Waterpark",
-   "prix_affiche": 69.64
   },
   {
    "asin": "B015CW59XS",
@@ -4985,11 +5020,6 @@
    "asin": "B0928HLQBH",
    "titre": "Loloi Skye Collection SKY-01…",
    "prix_affiche": 65.01
-  },
-  {
-   "asin": "B01M0P7IJR",
-   "titre": "Les Aventuriers du Rail - Au…",
-   "prix_affiche": 59.13
   },
   {
    "asin": "B07GXN1SB3",
@@ -5337,11 +5367,6 @@
    "prix_affiche": 44.76
   },
   {
-   "asin": "B0864T7YQT",
-   "titre": "Nespresso Vertuo Next Pod Co…",
-   "prix_affiche": 114.0
-  },
-  {
    "asin": "B09DP2TJYB",
    "titre": "Callaway Golf Mavrik Fairway…",
    "prix_affiche": 102.24
@@ -5360,11 +5385,6 @@
    "asin": "B0C3B6DJC2",
    "titre": "Herschel Supply Co. Pop Quiz…",
    "prix_affiche": 59.99
-  },
-  {
-   "asin": "B0D4Y1NW1Z",
-   "titre": "Hell's Kitchen 7.5 Qt Stainl…",
-   "prix_affiche": 108.86
   },
   {
    "asin": "B0DWYC5F7M",
